@@ -1336,6 +1336,17 @@ dd.model = function(dataSource,dataVersion,data)
 	// The methodology to loading the data.
 	// By default, we load it all.
 	this.format = 'all';
+    
+    // Pull out 'Full' types
+    if(dataSource.substr(-4,4) === 'Full')
+    {
+        this.type = dataSource.substr(0, dataSource.length-4);
+    }
+    else
+    {
+        // Initial Type Info
+        this.type = dataSource;
+    }
 	
 	// We can use either manifest controlled versions or we can use specified versions of data
 	if(typeof(dataVersion) === 'string')
@@ -1344,11 +1355,8 @@ dd.model = function(dataSource,dataVersion,data)
 	}
 	else
 	{
-		this.version = dd.m.n[dataSource];
+		this.version = dd.m.n[this.type];
 	}
-	
-	// Initial Type Info
-	this.type = dataSource;
 	
 	// Used to overwrite the remap functionality
 	this.remapFunc = function(id)
@@ -3043,7 +3051,7 @@ dd.view.prototype.reload = function()
 	}
 };
 
-/**
+/**
  * @method addClassTest
  * Adds a class test that will be executed when the view renders. If the test passes, then the
  * specified classes will be added to the view's container.
@@ -4116,7 +4124,7 @@ dd.player.prototype.basicStats = function()
 		attackdamage: 0,
 		spelldamage: 0,
 		dodge: 0,
-		flatarmorpenetration: 0,
+		flatarmorpenetration: 0,
 		flatmagicpenetration: 0,
 		percentarmorpenetration: 0,
 		percentmagicpenetration: 0,
@@ -4324,7 +4332,7 @@ dd._spellDataLink.prototype.generateLink = function(v)
 			default:
 				if(v.link.indexOf('@dynamic.') === 0)
 				{
-					return ''; // (+{{ ... }}) / ({{ }})
+					return ''; // (+{{ ... }}) / ({{ }})
 				}
 				if(typeof(v.coeff) === 'object')
 				{
@@ -4484,7 +4492,7 @@ else
 	{
 		appCycle({'app':app,'ms':ms});
 	};
-	
+	
 	// Execute all the apps added before
 	var i,j;
 	for(i = 0,j = dd.app.length;i<j;++i)
