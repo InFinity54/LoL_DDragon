@@ -1,1 +1,1 @@
-Riot.DDragon.m={"n":{"item":"4.8.2","rune":"4.8.2","mastery":"4.8.2","summoner":"4.8.2","champion":"4.8.2","profileicon":"4.8.2","language":"4.8.2"},"v":"4.8.2","l":"en_US","cdn":"http://ddragon.leagueoflegends.com/cdn","dd":"4.2.6","lg":"0.152.55","css":"0.152.55","profileiconmax":28};
+Riot.DDragon.m={"n":{"item":"4.8.3","rune":"4.8.3","mastery":"4.8.3","summoner":"4.8.3","champion":"4.8.3","profileicon":"4.8.3","language":"4.8.3"},"v":"4.8.3","l":"en_US","cdn":"http://ddragon.leagueoflegends.com/cdn","dd":"4.2.6","lg":"0.152.55","css":"0.152.55","profileiconmax":28};
