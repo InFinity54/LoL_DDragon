@@ -3592,7 +3592,7 @@ dd.controller.prototype.newMV = function(model,view)
 	{
 		var view = model+'_'+this.boxData.type;
 	}
-	this.removeClass('rg-display-[A-Za-z_]+');
+    this.removeClass('rg-display-[A-Za-z_0-9.]+');
 	this.model = dd.useModel(model);
 	this.view = dd.useView(view);
 	this.view.controller = this;
@@ -4076,7 +4076,8 @@ dd.buildController = function()
 	
 	if(create) c.create();
 	return c;
-};dd.players = {};
+};
+dd.players = {};
 
 /**
  * @class Riot.DDragon.player
@@ -4113,7 +4114,7 @@ dd.player = function(options)
 };
 
 dd.player.prototype.basicStats = function()
-{
+{
 	return {
 		armor: 0,
 		basearmor: 0,
@@ -4332,7 +4333,7 @@ dd._spellDataLink.prototype.generateLink = function(v)
 			default:
 				if(v.link.indexOf('@dynamic.') === 0)
 				{
-					return ''; // (+{{ ... }}) / ({{ }})
+					return ''; // (+{{ ... }}) / ({{ }})
 				}
 				if(typeof(v.coeff) === 'object')
 				{
@@ -4492,7 +4493,7 @@ else
 	{
 		appCycle({'app':app,'ms':ms});
 	};
-	
+	
 	// Execute all the apps added before
 	var i,j;
 	for(i = 0,j = dd.app.length;i<j;++i)
