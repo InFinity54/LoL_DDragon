@@ -132,7 +132,7 @@ Riot.DDragon.dataTypes = ['item','champion','mastery','rune','summoner','languag
 					else
 					{
 						// We only extend it further when dealing with objects / Arrays
-						if(type === 'object' && !(typeof(data[prop]) === 'function'))
+						if(type === 'object' && !(typeof(data[prop]) === 'function'))
 						{
 							fn.rebase(data[prop],under[prop])
 						}
@@ -3051,7 +3051,7 @@ dd.view.prototype.reload = function()
 	}
 };
 
-/**
+/**
  * @method addClassTest
  * Adds a class test that will be executed when the view renders. If the test passes, then the
  * specified classes will be added to the view's container.
@@ -4114,7 +4114,7 @@ dd.player = function(options)
 };
 
 dd.player.prototype.basicStats = function()
-{
+{
 	return {
 		armor: 0,
 		basearmor: 0,
