@@ -12,7 +12,7 @@
 						"key": "StormlordsMandate",
 						"name": "Electrocute",
 						"shortDesc": "Hitting a champion with 3 <b>separate</b> attacks or abilities in @WindowDuration@s deals bonus <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">adaptive damage</lol-uikit-tooltipped-keyword>.",
-						"longDesc": "Hitting a champion with 3 <b>separate</b> attacks or abilities within @WindowDuration@s deals bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>adaptive damage</font></lol-uikit-tooltipped-keyword>.<br><br>Damage: @DamageBase@ - @DamageMax@ (+@BonusADRatio.2@ bonus AD, +@APRatio.1@ AP) damage.<br><br>Cooldown: @Cooldown@ - @CooldownMin@s<br><br><hr></hr><i>'We called them the Thunderlords, for to speak of their lightning was to invite disaster.'</i>",
+						"longDesc": "Hitting a champion with 3 <b>separate</b> attacks or abilities within @WindowDuration@s deals bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>adaptive damage</font></lol-uikit-tooltipped-keyword>.<br><br>Damage: @DamageBase@ - @DamageMax@ (+@BonusADRatio.-1@ bonus AD, +@APRatio.-1@ AP) damage.<br><br>Cooldown: @Cooldown@ - @CooldownMin@s<br><br><hr></hr><i>'We called them the Thunderlords, for to speak of their lightning was to invite disaster.'</i>",
 						"icon": "ASSETS/Perks/Styles/Domination/TLords/TLords.dds"
 					},
 					{
@@ -39,7 +39,7 @@
 						"id": 8126,
 						"key": "CheapShot",
 						"name": "Cheap Shot",
-						"shortDesc": "Deal bonus true damage to enemies with <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairAct\">impaired movement or actions</lol-uikit-tooltipped-keyword>. ",
+						"shortDesc": "Deal bonus true damage to enemy champions with <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairAct\">impaired movement or actions</lol-uikit-tooltipped-keyword>. ",
 						"longDesc": "Damaging champions with <b>impaired movement or actions</b> deals @DamageIncMin@ - @DamageIncMax@ bonus true damage (based on level).<br><br>Cooldown: @Cooldown@s<br><rules>Activates on damage occurring after the impairment.</rules>",
 						"icon": "ASSETS/Perks/Styles/Domination/Bully/Bully.dds"
 					},
@@ -48,7 +48,7 @@
 						"key": "Feast",
 						"name": "Taste of Blood",
 						"shortDesc": "Heal when you damage an enemy champion.",
-						"longDesc": "Heal when you damage an enemy champion.<br><br>Healing: @HealAmount@-@HealAmountMax@ (+@ADRatio.2@ bonus AD, +@APRatio.1@ AP) health (based on level)<br><br>Cooldown: @Cooldown@s",
+						"longDesc": "Heal when you damage an enemy champion.<br><br>Healing: @HealAmount@-@HealAmountMax@ (+@ADRatio.-1@ bonus AD, +@APRatio.-1@ AP) health (based on level)<br><br>Cooldown: @Cooldown@s",
 						"icon": "ASSETS/Perks/Styles/Domination/Feast/GreenTerror_Feast.dds"
 					},
 					{
@@ -76,7 +76,7 @@
 						"key": "ViciousPoro",
 						"name": "Ghost Poro",
 						"shortDesc": "When you enter brush, a poro appears. It will stay behind to give you vision.",
-						"longDesc": "Enter a brush to summon a poro after a brief channel. The poro will stay behind to give you vision until you summon a new one.<br><br>If an enemy enters brush with a poro in it, they scare it away, putting {{ perk_displayname_ViciousPoro }} on a @Cooldown@s cooldown.<br><br>Poro channel is interrupted if you enter combat with a champion.",
+						"longDesc": "Enter a brush to summon a poro after a brief channel. The poro will stay behind to give you vision until you summon a new one.<br><br>If an enemy enters brush with a poro in it, they scare it away, putting {{ perk_displayname_ViciousPoro }} on a @Cooldown@s cooldown.<br><br>Poro channel is interrupted if you take damage.",
 						"icon": "ASSETS/Perks/Styles/Domination/ViciousPoro/ViciousPoro.dds"
 					},
 					{
@@ -111,7 +111,7 @@
 						"id": 8105,
 						"key": "ProlificHunter",
 						"name": "Relentless Hunter",
-						"shortDesc": "<b>Unique</b> champion <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">takedowns</lol-uikit-tooltipped-keyword> grant permanent <b>out of combat <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">MS</lol-uikit-tooltipped-keyword></b>. ",
+						"shortDesc": "<b>Unique</b> <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">takedowns</lol-uikit-tooltipped-keyword> grant permanent <b>out of combat <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">MS</lol-uikit-tooltipped-keyword></b>. ",
 						"longDesc": "Gain @StartingOOCMS@ <b>out of combat Movement Speed</b> plus @OOCMS.0@ per <i>Bounty Hunter</i> stack.<br><br>Earn a <i>Bounty Hunter</i> stack the first time you get a takedown on each enemy champion.",
 						"icon": "ASSETS/Perks/Styles/Domination/ProlificHunter/ProlificHunter.dds"
 					}
@@ -131,7 +131,7 @@
 						"id": 8326,
 						"key": "KSAlchemicalEsoterica",
 						"name": "Unsealed Spellbook",
-						"shortDesc": "Get Summoner Shards and exchange them at the shop to change your Summoner Spells during game. Your Summoner Spells have reduced cooldown. <br>",
+						"shortDesc": "Exchange Summoner Shards at the shop to change your Summoner Spells during game. Your Summoner Spells have reduced cooldowns. <br>",
 						"longDesc": "Gain a Summoner Shard at @ShardFirstMinutes@ min and another every @ShardRechargeMinutes@ min after (Max @Maxshards@ shards).<br><br>While near the shop, you can exchange @ShardCost@ Summoner Shard to replace a Summoner Spell with a different one. <br><br>Additionally, your Summoner Spell Cooldowns are reduced by @SummonerCDR.0*100@%.<br><br><rules><i>Smite:</i> Buying Smite won't grant access to Smite items<br>You cannot have two of the same Summoner Spell</rules>",
 						"icon": "ASSETS/Perks/Styles/Inspiration/KSAlchemicalEsoterica/KSAlchemicalEsoterica.dds"
 					},
@@ -147,8 +147,8 @@
 						"id": 8359,
 						"key": "KSLooter",
 						"name": "Kleptomancy",
-						"shortDesc": "Your first attack after using an ability grants gold and sometimes consumables.",
-						"longDesc": "After using an ability, your next attack on a champion grants bonus gold. There's a chance you'll also gain a consumable.",
+						"shortDesc": "After using an ability, your next attack will grant bonus gold if used on a champion. There's a chance you'll also gain a consumable.",
+						"longDesc": "After using an ability, your next attack will grant bonus gold if used on a champion. There's a chance you'll also gain a consumable.",
 						"icon": "ASSETS/Perks/Styles/Inspiration/KSLooter/KSLooter.dds"
 					}
 				]
@@ -167,7 +167,7 @@
 						"id": 8345,
 						"key": "BiscuitsAndBonuses",
 						"name": "Biscuit Delivery",
-						"shortDesc": "Gain a free Biscuit every @BiscuitMinuteInterval@ min, until @SwapOverMinute@ min. Biscuits restore health and mana. Consuming a Biscuit permanently increases your max mana.",
+						"shortDesc": "Gain a free Biscuit every @BiscuitMinuteInterval@ min, until @SwapOverMinute@ min. Consuming a Biscuit permanently increases your max mana and restores health and mana.",
 						"longDesc": "Biscuit Delivery: Gain a {{game_item_displayname_2010}} every @BiscuitMinuteInterval@ mins, until @SwapOverMinute@ min.<br><br>Biscuits restore @HealthHealPercent.0*100@% of your missing health and mana. Consuming any Biscuit increases your mana cap by @PermanentMana@ mana permanently. <br><br><i>Manaless:</i> Champions without mana restore @HealthHealPercentManaless.0*100@% missing health instead.",
 						"icon": "ASSETS/Perks/Styles/Inspiration/BiscuitsAndBonuses/BiscuitsAndBonuses.dds"
 					},
@@ -188,7 +188,7 @@
 						"key": "MagicalFootwear",
 						"name": "Magical Footwear",
 						"shortDesc": "You get free boots at @GiveBootsAtMinute@ min but you cannot buy boots before then. Each <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">takedown</lol-uikit-tooltipped-keyword> you get makes your boots come @SecondsSoonerPerTakedown@s sooner.",
-						"longDesc": "You get free {{game_item_displayname_2422}} at @GiveBootsAtMinute@ min, but you cannot buy boots before then. For each takedown you acquire the boots @SecondsSoonerPerTakedown@s sooner.<br><br>{{game_item_displayname_2422}} give you an additional +10 Movement Speed and upgrade for 50 gold less.",
+						"longDesc": "You get free {{game_item_displayname_2422}} at @GiveBootsAtMinute@ min, but you cannot buy boots before then. For each takedown you acquire the boots @SecondsSoonerPerTakedown@s sooner.<br><br>{{game_item_displayname_2422}} give you an additional +@AdditionalMovementSpeed@ Movement Speed and upgrade for 50 gold less.",
 						"icon": "ASSETS/Perks/Styles/Inspiration/MagicalFootwear/MagicalFootwear.dds"
 					},
 					{
@@ -231,8 +231,8 @@
 						"id": 8339,
 						"key": "TheThirdPath",
 						"name": "Celestial Body",
-						"shortDesc": "+ @HealthBonus@ Health permanently<br>- @ChampionDamagePenalty*100@% damage to champions and monster until @EndTime@ min",
-						"longDesc": "+ @HealthBonus@ Health permanently<br>- @ChampionDamagePenalty*100@% damage to champions and monster until @EndTime@ min<br><br><hr></hr><br><i>'The greatest legends live on in the stars.' <br>—Daphna the Dreamer</i>",
+						"shortDesc": "+@HealthBonus@ Health permanently<br>-@ChampionDamagePenalty*100@% damage to champions and monsters until @EndTime@ min",
+						"longDesc": "+@HealthBonus@ Health permanently<br>-@ChampionDamagePenalty*100@% damage to champions and monsters until @EndTime@ min<br><br><hr></hr><br><i>'The greatest legends live on in the stars.' <br>—Daphna the Dreamer</i>",
 						"icon": "ASSETS/Perks/Styles/Inspiration/TheThirdPath/TheThirdPath.dds"
 					}
 				]
@@ -251,7 +251,7 @@
 						"id": 8005,
 						"key": "PressThreeAttacks",
 						"name": "Press the Attack",
-						"shortDesc": "Hitting an enemy champion @HitsRequired@ consecutive times makes them vunerable, dealing bonus damage and causing them to take more damage from all sources for @AmpDuration@s.",
+						"shortDesc": "Hitting an enemy champion @HitsRequired@ consecutive times makes them vulnerable, dealing bonus damage and causing them to take more damage from all sources for @AmpDuration@s.",
 						"longDesc": "Hitting an enemy champion with @HitsRequired@ consecutive basic attacks deals @MinDamage@ - @MaxDamage@ bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>adaptive damage</font></lol-uikit-tooltipped-keyword> (based on level) and makes them vulnerable, increasing the damage they take by @AmpPotencySelf.0*100@% from all sources for @AmpDuration@s.",
 						"icon": "ASSETS/Perks/Styles/Precision/PressThreeAttacks/PressThreeAttacks.dds"
 					},
@@ -259,7 +259,7 @@
 						"id": 8008,
 						"key": "Berserk",
 						"name": "Lethal Tempo",
-						"shortDesc": "@LeadInDelay.1@s after damaging a champion gain a large amount of attack speed. Lethal Tempo allows you to temporarily exceed the attack speed limit.",
+						"shortDesc": "@LeadInDelay.1@s after damaging a champion gain a large amount of Attack Speed. Lethal Tempo allows you to temporarily exceed the attack speed limit.",
 						"longDesc": "@LeadInDelay.1@s after damaging a champion gain @AttackSpeedMin*100@ - @AttackSpeedMax*100@% Attack Speed (based on level) for @AttackSpeedBuffDurationMin@s. Attacking a champion extends the effect to @AttackSpeedBuffDurationMax@s.<br><br>Cooldown: @Cooldown@s<br><br>{{perk_displayname_FlowofBattle}} allows you to temporarily exceed the attack speed limit.",
 						"icon": "ASSETS/Perks/Styles/Precision/FlowofBattle/FlowofBattleTemp.dds"
 					},
@@ -268,7 +268,7 @@
 						"key": "KSFleetFootwork",
 						"name": "Fleet Footwork",
 						"shortDesc": "Attacking and moving builds Energy stacks. At 100 stacks, your next attack heals you and grants increased <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">MS</lol-uikit-tooltipped-keyword>.",
-						"longDesc": "Attacking and moving builds Energy stacks. At 100 stacks, your next attack is Energized.<br><br>Energized attacks heal you for @HealBase@ - @HealMax@ (+@HealBonusADRatio.2@ Bonus AD, +@HealAPRatio.2@ AP) and grant +@MSBuff*100@% Movement Speed for @MSDuration.0@s.<br><rules>Healing is @MinionHealMod*100@% as effective when used on a minion.</rules>",
+						"longDesc": "Attacking and moving builds Energy stacks. At 100 stacks, your next attack is Energized.<br><br>Energized attacks heal you for @HealBase@ - @HealMax@ (+@HealBonusADRatio.-1@ Bonus AD, +@HealAPRatio.-1@ AP) and grant +@MSBuff*100@% Movement Speed for @MSDuration.0@s.<br><rules>Healing is @MinionHealMod*100@% as effective when used on a minion.</rules>",
 						"icon": "ASSETS/Perks/Styles/Precision/KSFleetFootwork/KSFleetFootwork.dds"
 					}
 				]
@@ -343,7 +343,7 @@
 						"id": 8017,
 						"key": "GiantSlayer",
 						"name": "Cut Down",
-						"shortDesc": "Deal more damage to champions with more maximum health than you.",
+						"shortDesc": "Deal more damage to champions with more max health than you.",
 						"longDesc": "Deal @MinBonusDamagePercent.0*100@% more damage to champions with @MinHealthDifference@ more max health than you, increasing to @MaxBonusDamagePercent.0*100@% at @MaxHealthDifference@ more max health.",
 						"icon": "ASSETS/Perks/Styles/Precision/GiantSlayer/GiantSlayer.dds"
 					},
@@ -352,7 +352,7 @@
 						"key": "ToTheDeath",
 						"name": "Last Stand",
 						"shortDesc": "Deal more damage to champions while you are low on health.",
-						"longDesc": "Deal @MinBonusDamagePercent.0*100@%-@MaxBonusDamagePercent.0*100@% increased damage to champions while you are below @HealthThresholdStart.0*100@% health. Max damage gained at @HealthThresholdEnd.0*100@% health.",
+						"longDesc": "Deal @MinBonusDamagePercent.0*100@% - @MaxBonusDamagePercent.0*100@% increased damage to champions while you are below @HealthThresholdStart.0*100@% health. Max damage gained at @HealthThresholdEnd.0*100@% health.",
 						"icon": "ASSETS/Perks/Styles/Sorcery/ToTheDeath/ToTheDeath.dds"
 					}
 				]
@@ -388,7 +388,7 @@
 						"key": "KSBuddyShield",
 						"name": "Guardian",
 						"shortDesc": "Guard allies you cast spells on and those that are very nearby. If you or a guarded ally would take damage, you're both hasted and granted a shield.",
-						"longDesc": "{{ perk_shared_desc_KSBuddyShield }}<br><br>Cooldown: @Cooldown@s<br>Shield: @ShieldBase@ - @ShieldMax@ +(<scaleAP>@APRatio.2@ AP</scaleAP>) + (<scalehealth>+@HPRatio.0*100@% bonus health</scalehealth>).<br>Haste: +@Haste*100@% Movement Speed.",
+						"longDesc": "{{ perk_shared_desc_KSBuddyShield }}<br><br>Cooldown: @Cooldown@s<br>Shield: @ShieldBase@ - @ShieldMax@ +(<scaleAP>@APRatio.-1@ AP</scaleAP>) + (<scalehealth>+@HPRatio.0*100@% bonus health</scalehealth>).<br>Haste: +@Haste*100@% Movement Speed.",
 						"icon": "ASSETS/Perks/Styles/Resolve/KSBuddyShield/KSBuddyShield.dds"
 					}
 				]
@@ -416,7 +416,7 @@
 						"key": "BloodFromStone",
 						"name": "Font of Life",
 						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairMov\">Impairing</lol-uikit-tooltipped-keyword> the movement of an enemy champion marks them. Your allies heal when attacking champions you've marked. ",
-						"longDesc": "Impairing the movement of an enemy champion marks them for @MarkDuration@s.<br><br>Ally champions who attack marked enemies heal for @FlatHealAmount@ + @HealthRatio.1 * 100@% of your max health over @HealDuration@s. ",
+						"longDesc": "Impairing the movement of an enemy champion marks them for @MarkDuration@s.<br><br>Ally champions who attack marked enemies heal for @FlatHealAmount@ + @HealthRatio.-1 * 100@% of your max health over @HealDuration@s. ",
 						"icon": "ASSETS/Perks/Styles/Resolve/BloodFromStone/BloodFromStone.dds"
 					}
 				]
@@ -463,15 +463,15 @@
 						"id": 8453,
 						"key": "AmpShields",
 						"name": "Revitalize",
-						"shortDesc": "Heals and shields are @StandardAmp.0@% stronger and increased by an additional @ExtraAmp.0@% on low health targets.",
-						"longDesc": "Heals and shields are @StandardAmp.0@% stronger and increased by an additional @ExtraAmp.0@% on targets below @HealthCutoff.0@% health.",
+						"shortDesc": "Heals and shields you cast are @StandardAmp.0@% stronger and increased by an additional @ExtraAmp.0@% on low health targets.",
+						"longDesc": "Heals and shields you cast are @StandardAmp.0@% stronger and increased by an additional @ExtraAmp.0@% on targets below @HealthCutoff.0@% health.",
 						"icon": "ASSETS/Perks/Styles/Resolve/AmpShields/AmpShields.dds"
 					},
 					{
 						"id": 8444,
 						"key": "SecondWind",
 						"name": "Second Wind",
-						"shortDesc": "After taking damage from an enemy champion heal back some of your missing health over time. ",
+						"shortDesc": "After taking damage from an enemy champion heal back some missing health over time. ",
 						"longDesc": "After taking damage from an enemy champion, heal for @RegenPercentMax.0*100@% of your missing health +@RegenFlat.0@ over @RegenSeconds@s.",
 						"icon": "ASSETS/Perks/Styles/Resolve/SecondWind/SecondWind.dds"
 					}
@@ -492,15 +492,15 @@
 						"key": "KSPerxie",
 						"name": "Summon Aery",
 						"shortDesc": "Your attacks and abilities send Aery to a target, damaging enemies or shielding allies.",
-						"longDesc": "Your attacks and abilities send Aery to a target, damaging enemies or shielding allies.<br><br>Damage: @DamageBase@ - @DamageMax@ based on level (+<scaleAP>@DamageAPRatio.2@ AP</scaleAP> and +<scaleAD>@DamageADRatio.2@ bonus AD</scaleAD>)<br>Shield: @ShieldBase@ - @ShieldMax@ based on level (+<scaleAP>@ShieldRatio.2@ AP</scaleAP> and +<scaleAD>@ShieldRatioAD.2@ bonus AD</scaleAD>) <br><br>Aery cannot be sent out again until she returns to you.",
+						"longDesc": "Your attacks and abilities send Aery to a target, damaging enemy champions or shielding allies.<br><br>Damage: @DamageBase@ - @DamageMax@ based on level (+<scaleAP>@DamageAPRatio.-1@ AP</scaleAP> and +<scaleAD>@DamageADRatio.-1@ bonus AD</scaleAD>)<br>Shield: @ShieldBase@ - @ShieldMax@ based on level (+<scaleAP>@ShieldRatio.-1@ AP</scaleAP> and +<scaleAD>@ShieldRatioAD.-1@ bonus AD</scaleAD>) <br><br>Aery cannot be sent out again until she returns to you.",
 						"icon": "ASSETS/Perks/Styles/Sorcery/KSPerxie/KSPerxie.dds"
 					},
 					{
 						"id": 8229,
 						"key": "KSDoomsayer",
 						"name": "Arcane Comet",
-						"shortDesc": "Damaging a champion with an ability hurls a damaging comet at their location, or, if Arcane Comet is on cooldown, reduces its remaining cooldown.",
-						"longDesc": "Damaging a champion with an ability hurls a comet at their location, or, if Arcane Comet is on cooldown, reduces its remaining cooldown.<br><br><lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>Adaptive Damage</font></lol-uikit-tooltipped-keyword>: @DamageBase@ - @DamageMax@ based on level (<scaleAP>+@APRatio.2@ AP</scaleAP> and <scaleAD>+@ADRatio.2@ bonus AD</scaleAD>)<br>Cooldown: @RechargeTime@ - @RechargeTimeMin@s<br><rules><br>Cooldown Reduction:<br>Single Target: @PercentRefund*100@%.<br>Area of Effect: @AoEPercentRefund*100@%.<br>Damage over Time: @DotPercentRefund*100@%.<br></rules>",
+						"shortDesc": "Damaging a champion with an ability hurls a damaging comet at their location.",
+						"longDesc": "Damaging a champion with an ability hurls a comet at their location, or, if Arcane Comet is on cooldown, reduces its remaining cooldown.<br><br><lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>Adaptive Damage</font></lol-uikit-tooltipped-keyword>: @DamageBase@ - @DamageMax@ based on level (<scaleAP>+@APRatio.-1@ AP</scaleAP> and <scaleAD>+@ADRatio.-1@ bonus AD</scaleAD>)<br>Cooldown: @RechargeTime@ - @RechargeTimeMin@s<br><rules><br>Cooldown Reduction:<br>Single Target: @PercentRefund*100@%.<br>Area of Effect: @AoEPercentRefund*100@%.<br>Damage over Time: @DotPercentRefund*100@%.<br></rules>",
 						"icon": "ASSETS/Perks/Styles/Sorcery/KSDoomsayer/KSDoomsayer.dds"
 					},
 					{
@@ -520,7 +520,7 @@
 						"key": "SpellparrySigil",
 						"name": "Nullifying Orb",
 						"shortDesc": "Gain a magic damage shield when taken to low health by magic damage.",
-						"longDesc": "When you take magic damage that would reduce your Health below @PercHealthTrigger.0*100@%, gain a shield that absorbs @ShieldMin@ - @ShieldMax@ magic damage based on level (<scaleAP>+@APRatio.2@ AP</scaleAP> and <scaleAD>+@ADRatio.2@ bonus AD</scaleAD>) for @ShieldDuration@s.<br><br>Cooldown: @Cooldown@s",
+						"longDesc": "When you take magic damage that would reduce your Health below @PercHealthTrigger.0*100@%, gain a shield that absorbs @ShieldMin@ - @ShieldMax@ magic damage based on level (<scaleAP>+@APRatio.-1@ AP</scaleAP> and <scaleAD>+@ADRatio.-1@ bonus AD</scaleAD>) for @ShieldDuration@s.<br><br>Cooldown: @Cooldown@s",
 						"icon": "ASSETS/Perks/Styles/Sorcery/PokeShield/Pokeshield.dds"
 					},
 					{
@@ -556,7 +556,7 @@
 						"key": "Surge",
 						"name": "Celerity",
 						"shortDesc": "Gain @PercentMS.0@% extra <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">MS</lol-uikit-tooltipped-keyword>. Gain extra AP or AD, <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">adaptive</lol-uikit-tooltipped-keyword> based on your bonus MS. ",
-						"longDesc": "Gain @PercentMS.0@% increased Movement Speed and add @PercentOfMOvespeedAsPrimaryStat.0@% of your Bonus Movement Speed to your AP or AD, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptive</font></lol-uikit-tooltipped-keyword> (based on level). ",
+						"longDesc": "Gain @PercentMS.0@% increased Movement Speed and add @PercentOfMOvespeedAsPrimaryStat.0@% of your Bonus Movement Speed to your AP or AD, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptive</font></lol-uikit-tooltipped-keyword>. ",
 						"icon": "ASSETS/Perks/Styles/Sorcery/SpeedDemon/SpeedDemonTemp.dds"
 					},
 					{
