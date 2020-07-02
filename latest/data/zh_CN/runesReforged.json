@@ -20,7 +20,7 @@
 						"key": "Predator",
 						"name": "掠食者",
 						"shortDesc": "为你的鞋子添加一个主动效果，此效果可提供一个巨量移动速度加成，并使你的下次攻击或技能造成额外的<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">自适应伤害</lol-uikit-tooltipped-keyword>。",
-						"longDesc": "为你的鞋子附魔上主动效果“<font color='#c60300'>{{perk_displayname_Predator}}</font>。”<br><br>{{ game_itemmod_bloodmoonboots }}",
+						"longDesc": "为你的鞋子附魔上主动效果“<font color='#c60300'>掠食者</font>。”<br><br>在非战斗状态下引导1.5秒，以获取45%移动速度加成，持续15秒。伤害型的攻击或技能会终止这个效果，并造成60 - 180 (+<scaleAD>0.4</scaleAD>额外攻击力)(+<scaleAP>0.25</scaleAP>法术强度)的额外<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>自适应伤害</font></lol-uikit-tooltipped-keyword>。<br><br>冷却时间：180-120秒。开始游戏时处于冷却阶段。在引导时被打断时会返还50%冷却时间。",
 						"icon": "ASSETS/Perks/Styles/Domination/Predator/Predator.dds"
 					},
 					{
@@ -76,7 +76,7 @@
 						"key": "GhostPoro",
 						"name": "幽灵魄罗",
 						"shortDesc": "当你进入草丛时，一个魄罗会出现。它会呆在后面来为你提供视野。",
-						"longDesc": "进入一个草丛以在短暂的引导后召唤一个魄罗。魄罗将会留下来，以提供视野给你，直到你召唤出一个新的魄罗为止。<br><br>如果敌人进入了一个已有魄罗的草丛，那么魄罗就会被吓跑，并使 {{ perk_displayname_GhostPoro }} 进入一个为期@Cooldown@秒的冷却时间。<br><br>如果你受到了伤害，那么魄罗引导就会被打断。",
+						"longDesc": "进入一个草丛以在短暂的引导后召唤一个魄罗。魄罗将会留下来，以提供视野给你，直到你召唤出一个新的魄罗为止。<br><br>如果敌人进入了一个已有魄罗的草丛，那么魄罗就会被吓跑，并使 幽灵魄罗 进入一个为期@Cooldown@秒的冷却时间。<br><br>如果你受到了伤害，那么魄罗引导就会被打断。",
 						"icon": "ASSETS/Perks/Styles/Domination/GhostPoro/GhostPoro.dds"
 					},
 					{
@@ -84,7 +84,7 @@
 						"key": "EyeballCollection",
 						"name": "眼球收集器",
 						"shortDesc": "在<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">参与击杀</lol-uikit-tooltipped-keyword>英雄和守卫时收集眼球。每个眼球都会提供永久的攻击力或法术强度，<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">自动适应</lol-uikit-tooltipped-keyword>，并在完成收集后会提供额外加成。",
-						"longDesc": "在参与击杀英雄和守卫时收集眼球。每个已收集的眼球都会提供{{ perk_subtext_AdaptiveForce }}。<br><br>你的收集会在@MaxEyeballs@个眼球时被视为已完成，额外提供{{ perk_subtext_AdaptiveForce_EyeballCollection }}。<br><br>每次击杀英雄提供@StacksPerTakedown@个眼球，每次协助击杀英雄提供@StacksPerAssist@个眼球，每次参与击杀守卫提供@StacksPerWard@个眼球",
+						"longDesc": "在参与击杀英雄和守卫时收集眼球。每个已收集的眼球都会提供一个<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>自动适应的</font></lol-uikit-tooltipped-keyword>加成，@AdaptiveForce.-1*0.6@攻击力或@AdaptiveForce@法术强度。<br><br>你的收集会在@MaxEyeballs@个眼球时被视为已完成，额外提供一个<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>自动适应的</font></lol-uikit-tooltipped-keyword>加成，@CompletionBonus.-1*0.6@攻击力或@CompletionBonus@法术强度。<br><br>每次击杀英雄提供@StacksPerTakedown@个眼球，每次协助击杀英雄提供@StacksPerAssist@个眼球，每次参与击杀守卫提供@StacksPerWard@个眼球",
 						"icon": "ASSETS/Perks/Styles/Domination/EyeballCollection/EyeballCollection.dds"
 					}
 				]
@@ -164,33 +164,25 @@
 						"icon": "ASSETS/Perks/Styles/Inspiration/DontBlink/DontBlink.dds"
 					},
 					{
-						"id": 8345,
-						"key": "BiscuitsAndBonuses",
-						"name": "饼干配送",
-						"shortDesc": "每过@BiscuitMinuteInterval@分钟获得一个免费的【饼干】，直到@SwapOverMinute@分钟为止。享用一个饼干可永久提升你的最大法力值。",
-						"longDesc": "饼干配送：每过@BiscuitMinuteInterval@分钟获得一个{{game_item_displayname_2010}}，直到@SwapOverMinute@分钟为止。<br><br>饼干可回复你@HealthHealPercent.0*100@%的已损失生命值和法力值。使用一个饼干可永久给予你@PermanentMana@最大法力值。<br><br><i>没有法力的</i>英雄会回复@HealthHealPercentManaless.0*100@%已损失生命值。",
-						"icon": "ASSETS/Perks/Styles/Inspiration/BiscuitsAndBonuses/BiscuitsAndBonuses.dds"
+						"id": 8304,
+						"key": "MagicalFootwear",
+						"name": "神奇之鞋",
+						"shortDesc": "你在@GiveBootsAtMinute@分钟时获得免费的鞋子，但你在之前不能购买鞋子。每次<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">协助击杀</lol-uikit-tooltipped-keyword>都会让你的鞋子的到来时间提前@SecondsSoonerPerTakedown@秒。",
+						"longDesc": "你在@GiveBootsAtMinute@分钟时获得免费的有点神奇之靴，但你在之前不能购买鞋子。你每参与一次击杀，就会使获得鞋子的时间点提前@SecondsSoonerPerTakedown@秒。<br><br>有点神奇之靴可为你提供额外的+@AdditionalMovementSpeed@移动速度。",
+						"icon": "ASSETS/Perks/Styles/Inspiration/MagicalFootwear/MagicalFootwear.dds"
 					},
 					{
 						"id": 8313,
 						"key": "AllInGoodTime",
 						"name": "完美时机",
-						"shortDesc": "获得一个免费的{{game_item_displayname_2420}}。{{game_item_displayname_2420}}有一个一次性使用的<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Stasis\">凝滞</lol-uikit-tooltipped-keyword>主动效果。",
-						"longDesc": "开始游戏时带着一个一次性使用的{{ game_item_displayname_2419 }}，可用来进入凝滞状态。{{ game_item_displayname_2420 }}在最初的@InitialCooldown.0@分钟里无法被使用。<br><br>使{{ game_item_displayname_3157 }}，{{ game_item_displayname_3026 }},，和{{ game_item_displayname_3193 }}的冷却时间减少@PercentGAZhonyasCDR.0*100@%。",
+						"shortDesc": "获得一个免费的秒表。秒表有一个一次性使用的<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Stasis\">凝滞</lol-uikit-tooltipped-keyword>主动效果。",
+						"longDesc": "开始游戏时带着一个一次性使用的始动的秒表，可用来进入凝滞状态。秒表在最初的@InitialCooldown.0@分钟里无法被使用。<br><br>使中娅沙漏，守护天使,，和石像鬼石板甲的冷却时间减少@PercentGAZhonyasCDR.0*100@%。",
 						"icon": "ASSETS/Perks/Styles/Style5/AllInGoodTime/AllInGoodTime.dds"
 					}
 				]
 			},
 			{
 				"runes": [
-					{
-						"id": 8304,
-						"key": "MagicalFootwear",
-						"name": "神奇之鞋",
-						"shortDesc": "你在@GiveBootsAtMinute@分钟时获得免费的鞋子，但你在之前不能购买鞋子。每次<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">协助击杀</lol-uikit-tooltipped-keyword>都会让你的鞋子的到来时间提前@SecondsSoonerPerTakedown@秒。",
-						"longDesc": "你在@GiveBootsAtMinute@分钟时获得免费的{{game_item_displayname_2422}}，但你在之前不能购买鞋子。你每参与一次击杀，就会使获得鞋子的时间点提前@SecondsSoonerPerTakedown@秒。<br><br>{{game_item_displayname_2422}}可为你提供额外的+@AdditionalMovementSpeed@移动速度并且升级时少花费50金币。",
-						"icon": "ASSETS/Perks/Styles/Inspiration/MagicalFootwear/MagicalFootwear.dds"
-					},
 					{
 						"id": 8321,
 						"key": "NanaTaxman",
@@ -203,9 +195,17 @@
 						"id": 8316,
 						"key": "TheClearChoice",
 						"name": "小兵去质器",
-						"shortDesc": "开始游戏时会带着@GainedMinionKillers@个能够秒杀线上小兵的{{game_item_displayname_2403}}。用该物品击杀小兵会永久提升你对该类型小兵的额外伤害。",
-						"longDesc": "开始游戏时会带着@GainedMinionKillers@个能够立刻击杀并吸收线上小兵的{{game_item_displayname_2403}}。{{game_item_displayname_2403}}在游戏最初的@InitialCooldown@秒内处于冷却状态。<br><br>吸收一个小兵会使你对该类型小兵的伤害永久提升+@DamageBonusForAnyAbsorbed.0*100@%，并且每吸收另一种类型的小兵，这个伤害加成就会提升+@DamageBonusPerAdditionalAbsorbed.0*100@%。<br>",
+						"shortDesc": "开始游戏时会带着@GainedMinionKillers@个能够秒杀线上小兵的小兵去质器。用该物品击杀小兵会永久提升你对该类型小兵的额外伤害。",
+						"longDesc": "开始游戏时会带着@GainedMinionKillers@个能够立刻击杀并吸收线上小兵的小兵去质器。小兵去质器在游戏最初的@InitialCooldown@秒内处于冷却状态。<br><br>吸收一个小兵会使你对该类型小兵的伤害永久提升+@DamageBonusForAnyAbsorbed.0*100@%，并且每吸收另一种类型的小兵，这个伤害加成就会提升+@DamageBonusPerAdditionalAbsorbed.0*100@%。<br>",
 						"icon": "ASSETS/Perks/Styles/Inspiration/TheClearChoice/TheClearChoice.dds"
+					},
+					{
+						"id": 8345,
+						"key": "BiscuitsAndBonuses",
+						"name": "饼干配送",
+						"shortDesc": "每过@BiscuitMinuteInterval@分钟获得一个免费的【饼干】，直到@SwapOverMinute@分钟为止。享用一个饼干可永久提升你的最大法力值。",
+						"longDesc": "饼干配送：每过@BiscuitMinuteInterval@分钟获得一个永续意志夹心饼干，直到@SwapOverMinute@分钟为止。<br><br>饼干可回复你@HealthHealPercent.0*100@%的已损失生命值和法力值。使用一个饼干可永久给予你@PermanentMana@最大法力值。<br><br><i>没有法力的</i>英雄会回复@HealthHealPercentManaless.0*100@%已损失生命值。",
+						"icon": "ASSETS/Perks/Styles/Inspiration/BiscuitsAndBonuses/BiscuitsAndBonuses.dds"
 					}
 				]
 			},
@@ -336,7 +336,7 @@
 						"key": "CoupDeGrace",
 						"name": "致命一击",
 						"shortDesc": "对低生命值的敌方英雄造成更多伤害。",
-						"longDesc": "对生命值低于@EnemyHealthPercentageThreshold*100@%的英雄多造成@BonusPercentDamage.0 *100@%伤害。<br><br>此外，参与击杀英雄会提供{{ perk_subtext_AdaptiveForce }}，持续@Duration@秒。",
+						"longDesc": "对生命值低于@EnemyHealthPercentageThreshold*100@%的英雄多造成@BonusPercentDamage.0 *100@%伤害。<br><br>此外，参与击杀英雄会提供一个<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>自动适应的</font></lol-uikit-tooltipped-keyword>加成，@AdaptiveForce.-1*0.6@攻击力或@AdaptiveForce@法术强度，持续@Duration@秒。",
 						"icon": "ASSETS/Perks/Styles/Precision/CoupDeGrace/CoupDeGrace.dds"
 					},
 					{
@@ -352,7 +352,7 @@
 						"key": "ToTheDeath",
 						"name": "坚毅不倒",
 						"shortDesc": "当你的生命值较低时，你的攻击对英雄多造成伤害。",
-						"longDesc": "当你的生命值低于@HealthThresholdStart.0*100@%时，对英雄多造成@MinBonusDamagePercent.0*100@% -",
+						"longDesc": "当你的生命值低于@HealthThresholdStart.0*100@%时，对英雄多造成@MinBonusDamagePercent.0*100@% -@MaxBonusDamagePercent.0*100@%伤害。最大伤害会在@HealthThresholdEnd.0*100@%生命值时提供。",
 						"icon": "ASSETS/Perks/Styles/Sorcery/ToTheDeath/ToTheDeath.dds"
 					}
 				]
@@ -369,27 +369,27 @@
 				"runes": [
 					{
 						"id": 8437,
-						"key": "KSRuinedKing",
+						"key": "GraspOfTheUndying",
 						"name": "不灭之握",
-						"shortDesc": "每过@TriggerTime@秒，你对一个英雄发起的下一次攻击将造成额外伤害、治疗你自身、并永久提升你的生命值。",
-						"longDesc": "在战斗中每过@TriggerTime@秒，你对一个英雄发起的下一次普攻将会：<li>造成相当于你@PercentHealthDamage.0@%最大生命值的额外魔法伤害</li><li>治疗相当于你@PercentHealthHeal.0*100@%最大生命值的生命值</li><li>使你的生命值永久提升@MaxHealthPerProc@</li><br><rules><i>远程英雄：</i>伤害、治疗效果和获得的永久生命值会减少@RangedPenaltyMod*100@%</rules>",
-						"icon": "ASSETS/Perks/Styles/Resolve/KSRuinedKing/KSRuinedKing.dds"
+						"shortDesc": "在战斗中每过@TriggerTime@秒，你对一个英雄发起的下一次普攻将会造成额外魔法伤害、治疗你、并永久提升你的生命值。",
+						"longDesc": "在战斗中每过@TriggerTime@秒，你对一个英雄发起的下一次普攻将会：<li>造成相当于你@PercentHealthDamage.0@%最大生命值的魔法伤害</li><li>治疗你@PercentHealthHeal.0*100@%的最大生命值</li><li>你的生命值永久提升@MaxHealthPerProc@</li><br><rules><i>远程英雄：</i>伤害、治疗效果和提升的永久生命值减少@RangedPenaltyMod*100@%。</rules><br>",
+						"icon": "ASSETS/Perks/Styles/Resolve/GraspOfTheUndying/GraspOfTheUndying.dds"
 					},
 					{
 						"id": 8439,
-						"key": "Vengeance",
+						"key": "Aftershock",
 						"name": "余震",
 						"shortDesc": "在你<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Immobilize\">定身</lol-uikit-tooltipped-keyword>一个敌方英雄后提供防御属性，稍后会在你的周围造成爆发性的<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">自适应伤害</lol-uikit-tooltipped-keyword>。",
-						"longDesc": "在定身住一名敌方英雄后，使你的当前护甲和魔法抗性提升@FlatResists@ - @FlatResistMaximum@，持续@DelayBeforeBurst.1@秒。随后，在@DelayBeforeBurst.1@秒后对附近的敌人造成魔法伤害。<br><br>伤害值：@StartingBaseDamage@ - @MaxBaseDamage@ (+你@HealthRatio.1@%的最大生命值)(+你@DamageRatioAD*100@%的额外攻击力)(+你@DamageRatioAP*100@%的法术强度)<br>冷却时间：@Cooldown@秒",
-						"icon": "ASSETS/Perks/Styles/Resolve/VeteranVengeance/VeteranVengeance.dds"
+						"longDesc": "在定身住一名敌方英雄后，使你的当前护甲和魔法抗性提升@FlatResists@ + @ResistInc.0*100@%，持续@DelayBeforeBurst.1@秒。随后，在@DelayBeforeBurst.1@秒后对附近的敌人造成魔法伤害。<br><br>伤害值：@StartingBaseDamage@ - @MaxBaseDamage@ (+你@HealthRatio.1@%的最大生命值) (+@DamageRatioAD*100@%额外攻击力) (+@DamageRatioAP*100@%法术强度)<br>冷却时间：@Cooldown@秒",
+						"icon": "ASSETS/Perks/Styles/Resolve/VeteranAftershock/VeteranAftershock.dds"
 					},
 					{
 						"id": 8465,
-						"key": "KSBuddyShield",
+						"key": "Guardian",
 						"name": "守护者",
 						"shortDesc": "守护你选作技能目标的友军和那些距离你非常近的友军们。如果你和一个被守护的友军即将承受伤害，那么你们两个都会获得加速效果和一层护盾。",
-						"longDesc": "{{ perk_shared_desc_KSBuddyShield }}<br><br>冷却时间：<scaleLevel>@Cooldown@ - @CooldownMaxLevel@</scaleLevel>秒<br>护盾值：<scaleLevel>@ShieldBase@ - @ShieldMax@</scaleLevel> + 你<scaleAP>@APRatio.-1@%</scaleAP>的法术强度 + 你<scalehealth>@HPRatio.0*100@%</scalehealth>的额外生命值。<br>加速效果：+@Haste*100@%移动速度。",
-						"icon": "ASSETS/Perks/Styles/Resolve/KSBuddyShield/KSBuddyShield.dds"
+						"longDesc": "<i>守护</i>距离你@SnuggleRange@码内的友军，以及被你选为技能目标的友军@GuardDuration@秒。当<i>守护</i>持续时，如果你和该友军承受伤害，那么你们两个都会获得一层护盾且被加速@ShieldDuration@秒。<br><br>冷却时间：<scaleLevel>@Cooldown@ - @CooldownMaxLevel@</scaleLevel>秒<br>护盾生命值：<scaleLevel>@ShieldBase@ - @ShieldMax@</scaleLevel> + <scaleAP>@APRatio.-1@%</scaleAP>法术强度 + <scalehealth>@HPRatio.0*100@%</scalehealth>额外生命值。<br>加速效果：+@Haste*100@%移动速度。",
+						"icon": "ASSETS/Perks/Styles/Resolve/Guardian/Guardian.dds"
 					}
 				]
 			},
@@ -397,27 +397,27 @@
 				"runes": [
 					{
 						"id": 8242,
-						"key": "Recharge",
+						"key": "Unflinching",
 						"name": "坚定",
-						"shortDesc": "你每有一个尚未冷却完毕的召唤师技能，你的韧性和减速抵抗就会获得提升。在施放一个召唤师技能后，立刻获得幅度更大的韧性和减速抵抗，持续一段不短的时间。",
-						"longDesc": "你每有一个尚未冷却完毕的召唤师技能，你的韧性和减速抵抗就会提升@PersistTenacity*100@%。在施放一个召唤师技能后，获得@BonusTenacity*100@%韧性和@BonusSlowResist*100@%减速抵抗，持续@BuffDuration@秒。",
-						"icon": "ASSETS/Perks/Styles/Sorcery/Recharge/Recharge.dds"
+						"shortDesc": "在施放一个召唤师技能后，立刻获得幅度更大的韧性和减速抵抗，持续一段不短的时间。此外，你每有一个尚未冷却完毕的召唤师技能，你的韧性和减速抵抗就会获得提升。",
+						"longDesc": "在施放一个召唤师技能后，获得@BonusTenacity*100@%韧性和@BonusSlowResist*100@%减速抵抗，持续@BuffDuration@秒。此外，你每有一个尚未冷却完毕的召唤师技能，你的韧性和减速抵抗就会提升@PersistTenacity*100@%。",
+						"icon": "ASSETS/Perks/Styles/Sorcery/Unflinching/Unflinching.dds"
 					},
 					{
 						"id": 8446,
-						"key": "Siege",
+						"key": "Demolish",
 						"name": "爆破",
 						"shortDesc": "当位于防御塔附近时，持续充能一次针对防御塔的强力攻击。",
-						"longDesc": "当位于防御塔@DistanceToTower@码内时，在@TotalSiegeTime@秒里持续充能一次针对防御塔的强力攻击。充能攻击造成@OutputDamagePerStack@(+你@MaxHealthPercentDamage.0 * 100@%最大生命值)额外伤害。<br><br>冷却时间：@CooldownSeconds@秒",
-						"icon": "ASSETS/Perks/Styles/Resolve/BrickHitHouse/BrickHitHouse.dds"
+						"longDesc": "当位于防御塔@DistanceToTower@码内时，在@TotalDemolishTime@秒里持续充能一次针对防御塔的强力攻击。充能攻击造成@OutputDamagePerStack@(+你@MaxHealthPercentDamage.0 * 100@%最大生命值)额外伤害。<br><br>冷却时间：@CooldownSeconds@秒",
+						"icon": "ASSETS/Perks/Styles/Resolve/Demolish/Demolish.dds"
 					},
 					{
 						"id": 8463,
-						"key": "BloodFromStone",
+						"key": "FontOfLife",
 						"name": "生命源泉",
 						"shortDesc": "对一名敌方英雄施加<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairMov\">移动受损</lol-uikit-tooltipped-keyword>效果会将其标记。你和友方英雄在攻击被标记的英雄时会获得治疗效果。",
 						"longDesc": "对一名敌方英雄施加移动受损效果会将其标记@MarkDuration@秒。<br><br>友方英雄在攻击被标记的敌人时，会在@HealDuration@秒里共获得@FlatHealAmount@+你@HealthRatio.-1 * 100@%最大生命值的治疗效果。",
-						"icon": "ASSETS/Perks/Styles/Resolve/BloodFromStone/BloodFromStone.dds"
+						"icon": "ASSETS/Perks/Styles/Resolve/FontOfLife/FontOfLife.dds"
 					}
 				]
 			},
@@ -425,27 +425,27 @@
 				"runes": [
 					{
 						"id": 8430,
-						"key": "NemMarks",
+						"key": "IronSkin",
 						"name": "钢铁皮肤",
-						"shortDesc": "获得+@ArmorBase@护甲。<br>治疗（含消耗品）会使你的护甲暂时提升@TotalExtraArmor*100@%。<br>",
+						"shortDesc": "获得+@ArmorBase@护甲。<br>治疗（含消耗品）会使你的护甲暂时提升@TotalExtraArmor*100@%。",
 						"longDesc": "获得+@ArmorBase@护甲。<br><br>来自消耗品的治疗效果、至少@FlatHealThreshold@生命值的治疗效果和护盾效果，都会使你的护甲会提升@TotalExtraArmor*100@%，持续@EvolveArmorDuration@秒。",
-						"icon": "ASSETS/Perks/Styles/Resolve/NemMarks/NemMarks.dds"
+						"icon": "ASSETS/Perks/Styles/Resolve/IronSkin/IronSkin.dds"
 					},
 					{
 						"id": 8435,
-						"key": "NemMage",
+						"key": "MirrorShell",
 						"name": "镜之壳",
 						"shortDesc": "获得+@MRBase@魔法抗性。<br>治疗（含消耗品）会使你的魔法抗性暂时提升@EvolveBonusMR*100@%。<br>",
 						"longDesc": "获得@MRBase@魔法抗性。<br><br>来自消耗品的治疗效果、至少@FlatHealThreshold@生命值的治疗效果和护盾效果，都会使你的魔法抗性会提升@EvolveBonusMR*100@%，持续@EvolveShellDuration@秒。",
-						"icon": "ASSETS/Perks/Styles/Resolve/NemMage/NemMage.dds"
+						"icon": "ASSETS/Perks/Styles/Resolve/MirrorShell/MirrorShell.dds"
 					},
 					{
 						"id": 8429,
-						"key": "NemFighter",
+						"key": "Conditioning",
 						"name": "调节",
 						"shortDesc": "在@MinutesRequired@分钟时获得+@ArmorBase@护甲和+@MRBase@魔抗，并使你的护甲和魔抗提升@ExtraResist@%。",
-						"longDesc": "{{ perk_short_desc_NemFighter }}",
-						"icon": "ASSETS/Perks/Styles/Resolve/NemFighter/NemFighter.dds"
+						"longDesc": "在@MinutesRequired@分钟时获得+@ArmorBase@护甲和+@MRBase@魔抗，并使你的护甲和魔抗提升@ExtraResist@%。",
+						"icon": "ASSETS/Perks/Styles/Resolve/Conditioning/Conditioning.dds"
 					}
 				]
 			},
@@ -453,19 +453,19 @@
 				"runes": [
 					{
 						"id": 8451,
-						"key": "HealthBandit",
+						"key": "Overgrowth",
 						"name": "过度生长",
 						"shortDesc": "你附近每有小兵或野怪死亡时，提供永久最大生命值加成。",
 						"longDesc": "你附近每有@UnitsPerTier@个野怪或小兵死亡，就会使你永久获得@MaxHealthRatioPerTier*100@%最大生命值。",
-						"icon": "ASSETS/Perks/Styles/Resolve/HealthBandit/HealthBandit.dds"
+						"icon": "ASSETS/Perks/Styles/Resolve/Overgrowth/Overgrowth.dds"
 					},
 					{
 						"id": 8453,
-						"key": "AmpShields",
+						"key": "Revitalize",
 						"name": "复苏",
 						"shortDesc": "你施放或受到的治疗效果和护盾效果会增强@StandardAmp.0@%，并且如果目标的生命值较低，则此数值会提升额外的@ExtraAmp.0@%。",
 						"longDesc": "你施放或获得的治疗效果和护盾效果会增强@StandardAmp.0@%，并且如果目标的生命值低于@HealthCutoff.0@%，则此数值会提升额外的@ExtraAmp.0@%。",
-						"icon": "ASSETS/Perks/Styles/Resolve/AmpShields/AmpShields.dds"
+						"icon": "ASSETS/Perks/Styles/Resolve/Revitalize/Revitalize.dds"
 					},
 					{
 						"id": 8444,
@@ -527,7 +527,7 @@
 						"id": 8226,
 						"key": "ManaflowBand",
 						"name": "法力流系带",
-						"shortDesc": "永久性地使你使用的下一个技能返还它的法力或能量消耗，并为你回复一些已损失的法力或能量。",
+						"shortDesc": "周期性地使你使用的下一个技能返还它的法力或能量消耗，并为你回复一些已损失的法力或能量。\t",
 						"longDesc": "每过@Cooldown.0@秒，你使用的下一个技能将返还它的法力或能量消耗，并回复你@MPToRestoreRatio.0*100@%已损失的法力或能量。",
 						"icon": "ASSETS/Perks/Styles/Sorcery/ManaflowBand/ManaflowBand.dds"
 					},
@@ -548,7 +548,7 @@
 						"key": "Transcendence",
 						"name": "超然",
 						"shortDesc": "在你到达@LevelToTurnOn@级时获得@MaxCDR*100@%<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_CDR\">冷却缩减</lol-uikit-tooltipped-keyword>。溢出的冷却缩减会转化为法术强度或攻击力，<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">自动适应</lol-uikit-tooltipped-keyword>。",
-						"longDesc": "在你到达@LevelToTurnOn@级时获得@MaxCDR*100@%冷却缩减。<br><br>每百分比溢出的冷却缩减会转化为{{ perk_subtext_AdaptiveForce }}。",
+						"longDesc": "在你到达@LevelToTurnOn@级时获得@MaxCDR*100@%冷却缩减。<br><br>每百分比溢出的冷却缩减会转化为一个<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>自动适应的</font></lol-uikit-tooltipped-keyword>加成，@AdaptiveForce.-1*0.6@攻击力或@AdaptiveForce@法术强度。",
 						"icon": "ASSETS/Perks/Styles/Sorcery/Transcendence/Transcendence.dds"
 					},
 					{
@@ -564,7 +564,7 @@
 						"key": "AbsoluteFocus",
 						"name": "绝对专注",
 						"shortDesc": "在高于@HealthPercent*100@%生命值时，获得额外的<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">自适应伤害</lol-uikit-tooltipped-keyword>。",
-						"longDesc": "在高于@HealthPercent*100@%生命值时，获得{{ perk_subtext_AdaptiveForce_Max }}(基于等级)",
+						"longDesc": "在高于@HealthPercent*100@%生命值时，获得一个<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>自动适应的</font></lol-uikit-tooltipped-keyword>加成，@MaxAdaptive.-1*0.6@攻击力或@MaxAdaptive@法术强度(基于等级)",
 						"icon": "ASSETS/Perks/Styles/Sorcery/AbsoluteFocus/AbsoluteFocus.dds"
 					}
 				]
@@ -584,7 +584,7 @@
 						"key": "Waterwalking",
 						"name": "水上行走",
 						"shortDesc": "在河道时提供<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">移动速度</lol-uikit-tooltipped-keyword>和法术强度或攻击力，<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">自动适应</lol-uikit-tooltipped-keyword>。",
-						"longDesc": "在河道时，获得@MovementSpeed@移动速度并获得{{ perk_subtext_AdaptiveForce_Max }}(基于等级)。<br><br><hr></hr><br><i>愿你如奔腾的河流一样迅捷，如受惊的峡谷迅捷蟹一样机敏</i><br>",
+						"longDesc": "在河道时，获得@MovementSpeed@移动速度并获得一个<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>自动适应的</font></lol-uikit-tooltipped-keyword>加成，@MaxAdaptive.-1*0.6@攻击力或@MaxAdaptive@法术强度(基于等级)。<br><br><hr></hr><br><i>愿你如奔腾的河流一样迅捷，如受惊的峡谷迅捷蟹一样机敏</i><br>",
 						"icon": "ASSETS/Perks/Styles/Sorcery/Waterwalking/Waterwalking.dds"
 					},
 					{

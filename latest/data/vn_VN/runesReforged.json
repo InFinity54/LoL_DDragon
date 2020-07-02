@@ -20,7 +20,7 @@
 						"key": "Predator",
 						"name": "Thú Săn Mồi",
 						"shortDesc": "Thêm hiệu ứng kích hoạt cho giày giúp tăng mạnh <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">tốc độ di chuyển</lol-uikit-tooltipped-keyword> và giúp đòn đánh hoặc kỹ năng kế tiếp của bạn gây thêm <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">sát thương thích ứng</lol-uikit-tooltipped-keyword>.",
-						"longDesc": "Phù phép giày với hiệu ứng kích hoạt '<font color='#c60300'>{{perk_displayname_Predator}}</font>.'<br><br>{{ game_itemmod_bloodmoonboots }}",
+						"longDesc": "Phù phép giày với hiệu ứng kích hoạt '<font color='#c60300'>Thú Săn Mồi</font>.'<br><br>Vận sức 1.5 giây ngoài giao tranh để nhận được 45% Tốc độ Di chuyển trong 15 giây. Đòn đánh hoặc kỹ năng sát thương kết thúc hiệu ứng này, gây thêm 60 - 180 (+<scaleAD>40%</scaleAD> SMCK cộng thêm)(+<scaleAP>25%</scaleAP> SMPT) <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>sát thương thích ứng.</font></lol-uikit-tooltipped-keyword><br><br>Hồi chiêu: 150 - 100 giây. Bắt đầu hồi chiêu từ đầu trận. Giảm 50% hồi chiêu khi bị ngắt trong lúc vận sức.",
 						"icon": "ASSETS/Perks/Styles/Domination/Predator/Predator.dds"
 					},
 					{
@@ -76,7 +76,7 @@
 						"key": "GhostPoro",
 						"name": "Poro Cảnh Giới",
 						"shortDesc": "Khi đi vào bụi cỏ, một Poro sẽ xuất hiện. Nó sẽ ở lại đó cho bạn tầm nhìn.",
-						"longDesc": "Đi vào bụi cỏ gọi ra một Poro sau một thoáng vận sức. Poro ở lại đó, cho bạn tầm nhìn đến khi một con mới được gọi ra.<br><br>Nếu một kẻ địch đi vào bụi cỏ có Poro, nó sẽ bị dọa chạy mất, khiến {{ perk_displayname_GhostPoro }} hồi chiêu @Cooldown@ giây.<br><br>Poro vận sức bị ngắt nếu chịu sát thương.",
+						"longDesc": "Đi vào bụi cỏ gọi ra một Poro sau một thoáng vận sức. Poro ở lại đó, cho bạn tầm nhìn đến khi một con mới được gọi ra.<br><br>Nếu một kẻ địch đi vào bụi cỏ có Poro, nó sẽ bị dọa chạy mất, khiến Poro Cảnh Giới hồi chiêu @Cooldown@ giây.<br><br>Poro vận sức bị ngắt nếu chịu sát thương.",
 						"icon": "ASSETS/Perks/Styles/Domination/GhostPoro/GhostPoro.dds"
 					},
 					{
@@ -84,7 +84,7 @@
 						"key": "EyeballCollection",
 						"name": "Thu Thập Nhãn Cầu",
 						"shortDesc": "Thu thập nhãn cầu khi <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">tham gia hạ gục</lol-uikit-tooltipped-keyword> tướng và mắt. Nhận thêm vĩnh viễn SMCK hoặc SMPT, <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">thích ứng</lol-uikit-tooltipped-keyword> với mỗi nhãn cầu đồng thời có một lượng thưởng thêm khi thu đủ số nhãn cầu.",
-						"longDesc": "Thu thập nhãn cầu khi tham gia hạ gục tướng và phá mắt. Nhận thêm {{ perk_subtext_AdaptiveForce }} với mỗi nhãn cầu thu được. <br><br>Khi thu đủ @MaxEyeballs@ nhãn cầu, nhận thêm {{ perk_subtext_AdaptiveForce_EyeballCollection }}.<br><br>Thu thập @StacksPerTakedown@ nhãn cầu khi hạ gục tướng, @StacksPerAssist@ khi hỗ trợ, và @StacksPerWard@ khi phá mắt.",
+						"longDesc": "Thu thập nhãn cầu khi tham gia hạ gục tướng và phá mắt. Nhận thêm <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Thích ứng</font></lol-uikit-tooltipped-keyword> cộng thêm @AdaptiveForce.-1*0.6@ sức mạnh công kích hoặc @AdaptiveForce@ sức mạnh phép thuật với mỗi nhãn cầu thu được. <br><br>Khi thu đủ @MaxEyeballs@ nhãn cầu, nhận thêm Cộng thêm @CompletionBonus.-1*0.6@ sức mạnh công kích hoặc @CompletionBonus@ sức mạnh phép thuật, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>thích ứng</font></lol-uikit-tooltipped-keyword>..<br><br>Thu thập @StacksPerTakedown@ nhãn cầu khi hạ gục tướng, @StacksPerAssist@ khi hỗ trợ, và @StacksPerWard@ khi phá mắt.",
 						"icon": "ASSETS/Perks/Styles/Domination/EyeballCollection/EyeballCollection.dds"
 					}
 				]
@@ -164,33 +164,25 @@
 						"icon": "ASSETS/Perks/Styles/Inspiration/DontBlink/DontBlink.dds"
 					},
 					{
-						"id": 8345,
-						"key": "BiscuitsAndBonuses",
-						"name": "Giao Hàng Bánh Quy",
-						"shortDesc": "Nhận được một Bánh Quy miễn phí mỗi @BiscuitMinuteInterval@ phút, cho đến phút @SwapOverMinute@. Tiêu thụ bánh quy tăng vĩnh viễn năng lượng tối đa và hồi lại máu và năng lượng.",
-						"longDesc": "Giao Hàng Bánh Quy: Nhận được một {{game_item_displayname_2010}} mỗi @BiscuitMinuteInterval@ phút, cho đến phút @SwapOverMinute@.<br><br>Bánh Quy hồi @HealthHealPercent.0*100@% máu và năng lượng đã mất của bạn. Tiêu thụ Bánh Quy bất kỳ tăng vĩnh viễn @PermanentMana@ giới hạn năng lượng. <br><br><i>Không năng lượng:</i> Tướng không có năng lượng sẽ được hồi  @HealthHealPercentManaless.0*100@% máu đã mất.",
-						"icon": "ASSETS/Perks/Styles/Inspiration/BiscuitsAndBonuses/BiscuitsAndBonuses.dds"
+						"id": 8304,
+						"key": "MagicalFootwear",
+						"name": "Bước Chân Màu Nhiệm",
+						"shortDesc": "Bạn nhận được giày miễn phí vào phút @GiveBootsAtMinute@ nhưng trước đó không thể mua giày. Mỗi lần <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">tham gia hạ gục</lol-uikit-tooltipped-keyword> sẽ khiến giày có sớm hơn @SecondsSoonerPerTakedown@ giây.",
+						"longDesc": "Nhận được Giày Xịn ở phút @GiveBootsAtMinute@, nhưng không thể mua giày trước lúc đó. Mỗi lần tham gia hạ gục giúp bạn có giày sớm hơn @SecondsSoonerPerTakedown@ giây.<br><br>Giày Xịn tăng thêm +@AdditionalMovementSpeed@ Tốc độ Di chuyển.",
+						"icon": "ASSETS/Perks/Styles/Inspiration/MagicalFootwear/MagicalFootwear.dds"
 					},
 					{
 						"id": 8313,
 						"key": "AllInGoodTime",
 						"name": "Thời Điểm Hoàn Hảo",
-						"shortDesc": "Nhận được miễn phí một {{game_item_displayname_2420}}. {{game_item_displayname_2420}} cho phép dùng <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Stasis\">Ngưng Đọng</lol-uikit-tooltipped-keyword> một lần.",
-						"longDesc": "Khởi đầu trận với một {{ game_item_displayname_2419 }} biến đổi thành {{ game_item_displayname_2420 }} sau @InitialCooldown.0@ phút. {{ game_item_displayname_2420 }} có hiệu ứng Ngưng Đọng dùng một lần.<br><br>Giảm hồi chiêu của {{ game_item_displayname_3157 }}, {{ game_item_displayname_3026 }}, và {{ game_item_displayname_3193 }} đi @PercentGAZhonyasCDR.0*100@%.",
+						"shortDesc": "Nhận được miễn phí một Đồng Hồ Ngưng Đọng. Đồng Hồ Ngưng Đọng cho phép dùng <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Stasis\">Ngưng Đọng</lol-uikit-tooltipped-keyword> một lần.",
+						"longDesc": "Khởi đầu trận với một Đồng Hồ Ngưng Đọng Khởi Đầu biến đổi thành Đồng Hồ Ngưng Đọng sau @InitialCooldown.0@ phút. Đồng Hồ Ngưng Đọng có hiệu ứng Ngưng Đọng dùng một lần.<br><br>Giảm hồi chiêu của Đồng Hồ Cát Zhonya, Giáp Thiên Thần, và Thú Tượng Thạch Giáp đi @PercentGAZhonyasCDR.0*100@%.",
 						"icon": "ASSETS/Perks/Styles/Style5/AllInGoodTime/AllInGoodTime.dds"
 					}
 				]
 			},
 			{
 				"runes": [
-					{
-						"id": 8304,
-						"key": "MagicalFootwear",
-						"name": "Bước Chân Màu Nhiệm",
-						"shortDesc": "Bạn nhận được giày miễn phí vào phút @GiveBootsAtMinute@ nhưng trước đó không thể mua giày. Mỗi lần <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">tham gia hạ gục</lol-uikit-tooltipped-keyword> sẽ khiến giày có sớm hơn @SecondsSoonerPerTakedown@ giây.",
-						"longDesc": "Bạn có được {{game_item_displayname_2422}} miễn phí ở phút @GiveBootsAtMinute@, trước đó bạn không thể mua giày. Mỗi lần tham gia hạ gục giúp bạn có giày sớm hơn @SecondsSoonerPerTakedown@ giây.<br><br>{{game_item_displayname_2422}} cho bạn thêm @AdditionalMovementSpeed@ Tốc độ Di chuyển và được giảm 50 vàng giá nâng cấp.",
-						"icon": "ASSETS/Perks/Styles/Inspiration/MagicalFootwear/MagicalFootwear.dds"
-					},
 					{
 						"id": 8321,
 						"key": "NanaTaxman",
@@ -203,9 +195,17 @@
 						"id": 8316,
 						"key": "TheClearChoice",
 						"name": "Máy Dọn Lính",
-						"shortDesc": "Khởi đầu trận đấu với @GainedMinionKillers@ {{game_item_displayname_2403}}. Tiêu diệt lính với trang bị này cho bạn vĩnh viễn sát thương cộng thêm lên loại lính đó.",
-						"longDesc": "Khởi đầu trận đấu với @GainedMinionKillers@ {{game_item_displayname_2403}} tiêu diệt và hấp thụ lính ngay lập tức. {{game_item_displayname_2403}} không thể dùng trong @InitialCooldown@ giây đầu trận đấu.<br><br>Hấp thụ một lính tăng vĩnh viễn +@DamageBonusForAnyAbsorbed.0*100@% sát thương của bạn lên loại lính đó, cộng thêm +@DamageBonusPerAdditionalAbsorbed.0*100@% với mỗi lính loại đó bị hấp thụ.<br>",
+						"shortDesc": "Khởi đầu trận đấu với @GainedMinionKillers@ Máy Dọn Lính. Tiêu diệt lính với trang bị này cho bạn vĩnh viễn sát thương cộng thêm lên loại lính đó.",
+						"longDesc": "Khởi đầu trận đấu với @GainedMinionKillers@ Máy Dọn Lính tiêu diệt và hấp thụ lính ngay lập tức. Máy Dọn Lính không thể dùng trong @InitialCooldown@ giây đầu trận đấu.<br><br>Hấp thụ một lính tăng vĩnh viễn +@DamageBonusForAnyAbsorbed.0*100@% sát thương của bạn lên loại lính đó, cộng thêm +@DamageBonusPerAdditionalAbsorbed.0*100@% với mỗi lính loại đó bị hấp thụ.<br>",
 						"icon": "ASSETS/Perks/Styles/Inspiration/TheClearChoice/TheClearChoice.dds"
+					},
+					{
+						"id": 8345,
+						"key": "BiscuitsAndBonuses",
+						"name": "Giao Hàng Bánh Quy",
+						"shortDesc": "Nhận được một Bánh Quy miễn phí mỗi @BiscuitMinuteInterval@ phút, cho đến phút @SwapOverMinute@. Tiêu thụ bánh quy tăng vĩnh viễn năng lượng tối đa và hồi lại máu và năng lượng.",
+						"longDesc": "Giao Hàng Bánh Quy: Nhận được một Bánh Quy mỗi @BiscuitMinuteInterval@ phút, cho đến phút @SwapOverMinute@.<br><br>Bánh Quy hồi @HealthHealPercent.0*100@% máu và năng lượng đã mất của bạn. Tiêu thụ Bánh Quy bất kỳ tăng vĩnh viễn @PermanentMana@ giới hạn năng lượng. <br><br><i>Không năng lượng:</i> Tướng không có năng lượng sẽ được hồi  @HealthHealPercentManaless.0*100@% máu đã mất.",
+						"icon": "ASSETS/Perks/Styles/Inspiration/BiscuitsAndBonuses/BiscuitsAndBonuses.dds"
 					}
 				]
 			},
@@ -260,7 +260,7 @@
 						"key": "Berserk",
 						"name": "Nhịp Độ Chết Người",
 						"shortDesc": "@LeadInDelay.1@ giây sau khi sát thương tướng địch, nhận thêm rất nhiều Tốc độ Đánh. Nhịp Độ Chết Người cho phép bạn tạm thời vượt qua giới hạn tốc độ đánh.",
-						"longDesc": "  @LeadInDelay.1@ giây sau khi gây sát thương một tướng, nhận thêm @AttackSpeedMin*100@ - @AttackSpeedMax*100@% Tốc độ Đánh (theo cấp) trong @AttackSpeedBuffDurationMin@ giây. Tấn công một tướng kéo dài hiệu ứng lên thành @AttackSpeedBuffDurationMax@ giây.<br><br>Hồi Chiêu: @Cooldown@ giây<br><br>{{perk_displayname_FlowofBattle}} cho phép bạn tạm thời vượt qua giới hạn Tốc độ Đánh.",
+						"longDesc": "  @LeadInDelay.1@ giây sau khi gây sát thương một tướng, nhận thêm @AttackSpeedMin*100@ - @AttackSpeedMax*100@% Tốc độ Đánh (theo cấp) trong @AttackSpeedBuffDurationMin@ giây. Tấn công một tướng kéo dài hiệu ứng lên thành @AttackSpeedBuffDurationMax@ giây.<br><br>Hồi Chiêu: @Cooldown@ giây<br><br>Nhịp Độ Chết Người cho phép bạn tạm thời vượt qua giới hạn Tốc độ Đánh.",
 						"icon": "ASSETS/Perks/Styles/Precision/FlowofBattle/FlowofBattleTemp.dds"
 					},
 					{
@@ -336,7 +336,7 @@
 						"key": "CoupDeGrace",
 						"name": "Nhát Chém Ân Huệ",
 						"shortDesc": "Gây thêm sát thương lên tướng địch thấp máu.",
-						"longDesc": "Gây thêm @BonusPercentDamage.0 *100@% sát thương lên tướng dưới @EnemyHealthPercentageThreshold*100@% Máu.<br>Ngoài ra, tham gia hạ gục tướng cho {{ perk_subtext_AdaptiveForce }} trong @Duration@ giây.",
+						"longDesc": "Gây thêm @BonusPercentDamage.0 *100@% sát thương lên tướng dưới @EnemyHealthPercentageThreshold*100@% Máu.<br>Ngoài ra, tham gia hạ gục tướng cho <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Thích ứng</font></lol-uikit-tooltipped-keyword> cộng thêm @AdaptiveForce.-1*0.6@ sức mạnh công kích hoặc @AdaptiveForce@ sức mạnh phép thuật trong @Duration@ giây.",
 						"icon": "ASSETS/Perks/Styles/Precision/CoupDeGrace/CoupDeGrace.dds"
 					},
 					{
@@ -369,27 +369,27 @@
 				"runes": [
 					{
 						"id": 8437,
-						"key": "KSRuinedKing",
+						"key": "GraspOfTheUndying",
 						"name": "Quyền Năng Bất Diệt",
-						"shortDesc": "Mỗi @TriggerTime@ giây đòn đánh kế tiếp lên tướng gây thêm sát thương phép, hồi máu cho bạn, và tăng máu vĩnh viễn.",
-						"longDesc": "Mỗi @TriggerTime@ giây trong giao tranh, đòn đánh kế tiếp lên tướng sẽ:<li>Gây thêm sát thương phép bằng @PercentHealthDamage.0@% máu tối đa của bạn</li><li>Hồi cho bạn @PercentHealthHeal.0*100@% máu tối đa</li><li>Tăng vĩnh viễn @MaxHealthPerProc@ máu</li><br><rules><i>Đánh Xa:</i> Sát thương, hồi máu và máu cộng thêm giảm đi @RangedPenaltyMod*100@%.</rules>",
-						"icon": "ASSETS/Perks/Styles/Resolve/KSRuinedKing/KSRuinedKing.dds"
+						"shortDesc": "Mỗi @TriggerTime@ giây, đòn đánh kế tiếp lên tướng gây thêm sát thương phép, hồi máu cho bạn và tăng vĩnh viễn máu tối đa.",
+						"longDesc": "Mỗi @TriggerTime@ giây trong giao tranh, đòn đánh kế tiếp lên tướng sẽ:<li>Gây thêm sát thương phép bằng @PercentHealthDamage.0@% máu tối đa</li><li>Hồi lại @PercentHealthHeal.0*100@% máu tối đa</li><li>Tăng vĩnh viễn @MaxHealthPerProc@ máu</li><br><rules><i>Đánh xa:</i> Sát thương, hồi máu, và máu vĩnh viễn giảm còn @RangedPenaltyMod*100@%.</rules><br>",
+						"icon": "ASSETS/Perks/Styles/Resolve/GraspOfTheUndying/GraspOfTheUndying.dds"
 					},
 					{
 						"id": 8439,
-						"key": "Vengeance",
+						"key": "Aftershock",
 						"name": "Dư Chấn",
-						"shortDesc": "Sau khi  <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Immobilize\">bất động</lol-uikit-tooltipped-keyword> một tướng địch, nhận thêm chống chịu rồi một lát sau gây <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">sát thương thích ứng</lol-uikit-tooltipped-keyword> ra xung quanh.",
-						"longDesc": "Sau khi bất động một tướng địch, tăng Giáp và Kháng phép hiện tại của bạn thêm @FlatResists@ - @FlatResistMaximum@ trong @DelayBeforeBurst.1@ giây rồi phát nổ, gây sát thương lên các kẻ địch gần đó.<br><br>Sát Thương: @StartingBaseDamage@ - @MaxBaseDamage@ (+@HealthRatio.1@% máu tối đa) (+@DamageRatioAD*100@% SMCK cộng thêm) (+@DamageRatioAP*100@% SMPT)<br>Hồi Chiêu: @Cooldown@ giây",
-						"icon": "ASSETS/Perks/Styles/Resolve/VeteranVengeance/VeteranVengeance.dds"
+						"shortDesc": "Sau khi <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Immobilize\">bất động</lol-uikit-tooltipped-keyword> một tướng địch, nhận thêm chống chịu và sau đó gây <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">sát thương thích ứng</lol-uikit-tooltipped-keyword> ra xung quanh.",
+						"longDesc": "Sau khi bất động một tướng địch, tăng Giáp và Kháng Phép thêm @FlatResists@ - @FlatResistMaximum@ trong @DelayBeforeBurst.1@ giây. Kế đó, tung ra một vụ nổ gây sát thương phép lên kẻ địch xung quanh.<br><br>Sát thương: @StartingBaseDamage@ - @MaxBaseDamage@ (+@HealthRatio.-1@% máu tối đa) (+@DamageRatioAD*100@% SMCK cộng thêm) (+@DamageRatioAP*100@% SMPT)<br>Hồi chiêu: @Cooldown@ giây",
+						"icon": "ASSETS/Perks/Styles/Resolve/VeteranAftershock/VeteranAftershock.dds"
 					},
 					{
 						"id": 8465,
-						"key": "KSBuddyShield",
+						"key": "Guardian",
 						"name": "Hộ Vệ",
-						"shortDesc": "Hộ vệ đồng minh bạn dùng kỹ năng lên và những ai ở rất gần đó. Nếu bạn hoặc một đồng minh được hộ vệ chịu sát thương, cả hai được tăng tốc và có lá chắn.",
-						"longDesc": "{{ perk_shared_desc_KSBuddyShield }}<br><br>Hồi chiêu: <scaleLevel>@Cooldown@ - @CooldownMaxLevel@ giây</scaleLevel><br>Lá Chắn: <scaleLevel>@ShieldBase@ - @ShieldMax@</scaleLevel> + <scaleAP>@APRatio.-1@%</scaleAP> SMPT + <scalehealth>@HPRatio.0*100@</scalehealth> Máu cộng thêm.<br>Tăng Tốc: +@Haste*100@% Tốc độ Di chuyển.",
-						"icon": "ASSETS/Perks/Styles/Resolve/KSBuddyShield/KSBuddyShield.dds"
+						"shortDesc": "Hộ vệ đồng minh bạn dùng phép lên và những ai ở rất gần đó. Nếu bạn hoặc đồng minh được hộ vệ chịu sát thương, cả hai được tăng tốc và che chắn.",
+						"longDesc": "<i>Hộ Vệ</i> đồng minh đứng cách bạn @SnuggleRange@ đơn vị, và đồng minh bạn dùng phép lên trong @GuardDuration@ giây. Khi <i>Hộ Vệ</i>, nếu bạn hoặc đồng minh chịu sát thương, cả hai nhận được lá chắn và tăng tốc trong @ShieldDuration@ giây.<br><br>Hồi chiêu: <scaleLevel>@Cooldown@ - @CooldownMaxLevel@</scaleLevel> seconds<br>Lá chắn: <scaleLevel>@ShieldBase@ - @ShieldMax@</scaleLevel> + <scaleAP>@APRatio.-1@%</scaleAP> sức mạnh phép thuật + <scalehealth>@HPRatio.0*100@%</scalehealth> máu cộng thêm.<br>Tăng tốc: +@Haste*100@% Tốc độ Di chuyển.",
+						"icon": "ASSETS/Perks/Styles/Resolve/Guardian/Guardian.dds"
 					}
 				]
 			},
@@ -397,27 +397,27 @@
 				"runes": [
 					{
 						"id": 8242,
-						"key": "Recharge",
+						"key": "Unflinching",
 						"name": "Kiên Cường",
-						"shortDesc": "Sau khi dùng Phép Bổ Trợ, nhận thêm Kháng Hiệu ứng và Kháng Làm chậm trong một khoảng thời gian. Tăng Kháng Hiệu ứng và Kháng Làm chậm với mỗi Phép Bổ Trợ đang hồi chiêu.",
-						"longDesc": "Sau khi dùng một Phép Bổ Trợ, nhận được @BonusTenacity*100@% Kháng Hiệu ứng và Kháng Làm chậm trong @BuffDuration@ giây. Tăng thêm @PersistTenacity*100@% Kháng Hiệu ứng và Kháng Làm chậm với mỗi Phép Bổ Trợ đang hồi chiêu.",
-						"icon": "ASSETS/Perks/Styles/Sorcery/Recharge/Recharge.dds"
+						"shortDesc": "Sau khi dùng một Phép Bổ Trợ, nhận thêm Kháng Hiệu ứng và Kháng Làm chậm trong chốc lát. Ngoài ra, nhận thêm Kháng Hiệu ứng và Kháng Làm chậm với mỗi Phép Bổ Trợ đang hồi chiêu.",
+						"longDesc": "Sau khi dùng một Phép Bổ Trợ, nhận thêm @BonusTenacity*100@% Kháng Hiệu ứng và Kháng Làm chậm trong @BuffDuration@ giây. Ngoài ra, nhận thêm @PersistTenacity*100@% Kháng Hiệu ứng và Kháng Làm chậm với mỗi Phép Bổ Trợ đang hồi lại. ",
+						"icon": "ASSETS/Perks/Styles/Sorcery/Unflinching/Unflinching.dds"
 					},
 					{
 						"id": 8446,
-						"key": "Siege",
+						"key": "Demolish",
 						"name": "Tàn Phá Hủy Diệt",
 						"shortDesc": "Tích tụ một đòn đánh cực mạnh lên trụ khi đứng gần nó.",
-						"longDesc": "Tích tụ một đòn đánh mạnh mẽ lên trụ trong @TotalSiegeTime@ giây khi đứng cách nó @DistanceToTower@ tầm. Cú đánh gây thêm @OutputDamagePerStack@ (+@MaxHealthPercentDamage.0 * 100@% Máu tối đa của bạn) sát thương vật lý.<br><br>Hồi Chiêu: @CooldownSeconds@ giây",
-						"icon": "ASSETS/Perks/Styles/Resolve/BrickHitHouse/BrickHitHouse.dds"
+						"longDesc": "Tích tụ một đòn đánh mạnh mẽ lên trụ trong @TotalDemolishTime@ giây khi đứng cách nó @DistanceToTower@ tầm. Cú đánh gây thêm @OutputDamagePerStack@ (+@MaxHealthPercentDamage.0 * 100@% Máu tối đa của bạn) sát thương vật lý.<br><br>Hồi Chiêu: @CooldownSeconds@ giây",
+						"icon": "ASSETS/Perks/Styles/Resolve/Demolish/Demolish.dds"
 					},
 					{
 						"id": 8463,
-						"key": "BloodFromStone",
+						"key": "FontOfLife",
 						"name": "Suối Nguồn Sinh Mệnh",
-						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairMov\">Hạn chế</lol-uikit-tooltipped-keyword> khả năng di chuyển của một tướng địch đánh dấu kẻ đó. Đồng minh của bạn được hồi máu khi tấn công tướng bị đánh dấu.",
-						"longDesc": "Hạn chế di chuyển một tướng địch đánh dấu kẻ đó trong @MarkDuration@ giây. <br><br>Tướng đồng minh tấn công kẻ địch bị đánh dấu được hồi máu bằng @FlatHealAmount@ + @HealthRatio.-1 * 100@% Máu tối đa trong vòng @HealDuration@ giây. ",
-						"icon": "ASSETS/Perks/Styles/Resolve/BloodFromStone/BloodFromStone.dds"
+						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairMov\">Hạn chế</lol-uikit-tooltipped-keyword> di chuyển một tướng địch đánh dấu kẻ đó. Đồng minh của bạn được hồi máu khi tấn công tướng địch bị đánh dấu. ",
+						"longDesc": "Hạn chế di chuyển một tướng địch đánh dấu kẻ đó trong @MarkDuration@ giây.<br><br>Tướng đồng minh tấn công kẻ địch bị đánh dấu được hồi máu bằng @FlatHealAmount@ + @HealthRatio.-1 * 100@% máu tối đa của bạn trong vòng @HealDuration@ giây.",
+						"icon": "ASSETS/Perks/Styles/Resolve/FontOfLife/FontOfLife.dds"
 					}
 				]
 			},
@@ -425,27 +425,27 @@
 				"runes": [
 					{
 						"id": 8430,
-						"key": "NemMarks",
+						"key": "IronSkin",
 						"name": "Mình Đồng Da Sắt",
-						"shortDesc": "+@ArmorBase@ Giáp. <br>Hồi máu, tính cả hồi từ trang bị tiêu thụ, tạm thời tăng Giáp thêm @TotalExtraArmor*100@%.",
-						"longDesc": "+@ArmorBase@ Armor.<br><br>Mỗi khi được tạo lá chắn, hồi tối thiểu @FlatHealThreshold@ Máu hoặc hồi máu từ hiệu ứng của trang bị tiêu thụ, tăng Giáp thêm @TotalExtraArmor*100@% trong @EvolveArmorDuration@ giây.",
-						"icon": "ASSETS/Perks/Styles/Resolve/NemMarks/NemMarks.dds"
+						"shortDesc": "Nhận thêm +@ArmorBase@ Giáp. <br>Hồi máu, bao gồm cả trang bị tiêu thụ, tạm thời tăng @TotalExtraArmor*100@% Giáp.",
+						"longDesc": "Nhận thêm +@ArmorBase@ Giáp. <br><br>Hồi máu từ vật phẩm tiêu thụ, hồi ít nhất @FlatHealThreshold@ máu và lá chắn tăng Giáp thêm @TotalExtraArmor*100@% trong @EvolveArmorDuration@ giây.",
+						"icon": "ASSETS/Perks/Styles/Resolve/IronSkin/IronSkin.dds"
 					},
 					{
 						"id": 8435,
-						"key": "NemMage",
+						"key": "MirrorShell",
 						"name": "Áo Choàng Gương",
-						"shortDesc": "+@MRBase@ Kháng Phép. <br>Hồi máu, tính cả hồi từ trang bị tiêu thụ, tạm thời tăng Kháng Phép thêm @EvolveBonusMR*100@%.<br>",
-						"longDesc": "Nhận được @MRBase@ Kháng phép. <br><br>Mỗi khi được tạo lá chắn, hồi tối thiểu @FlatHealThreshold@ Máu hoặc hồi máu từ hiệu ứng của trang bị tiêu thụ, tăng Kháng phép thêm @EvolveBonusMR*100@% trong @EvolveShellDuration@ giây.",
-						"icon": "ASSETS/Perks/Styles/Resolve/NemMage/NemMage.dds"
+						"shortDesc": "Nhận thêm +@MRBase@ Giáp. <br>Hồi máu, bao gồm cả trang bị tiêu thụ, tạm thời tăng @EvolveBonusMR*100@% Kháng Phép.",
+						"longDesc": "Nhận thêm +@MRBase@ Kháng Phép. <br><br>Hồi máu từ vật phẩm tiêu thụ, hồi ít nhất @FlatHealThreshold@ máu và lá chắn tăng Giáp thêm @EvolveBonusMR*100@% trong @EvolveShellDuration@ giây.",
+						"icon": "ASSETS/Perks/Styles/Resolve/MirrorShell/MirrorShell.dds"
 					},
 					{
 						"id": 8429,
-						"key": "NemFighter",
+						"key": "Conditioning",
 						"name": "Kiểm Soát Điều Kiện",
-						"shortDesc": "Sau @MinutesRequired@ phút nhận thêm +@ArmorBase@ Giáp và +@MRBase@ Kháng Phép và tăng tổng Giáp và Kháng phép thêm @ExtraResist@%.",
-						"longDesc": "{{ perk_short_desc_NemFighter }}",
-						"icon": "ASSETS/Perks/Styles/Resolve/NemFighter/NemFighter.dds"
+						"shortDesc": "Sau @MinutesRequired@ phút nhận thêm +@ArmorBase@ Giáp và +@MRBase@ Kháng Phép và tăng Giáp và Kháng Phép thêm @ExtraResist@%.",
+						"longDesc": "Sau @MinutesRequired@ phút nhận thêm +@ArmorBase@ Giáp và +@MRBase@ Kháng Phép và tăng Giáp và Kháng Phép thêm @ExtraResist@%.",
+						"icon": "ASSETS/Perks/Styles/Resolve/Conditioning/Conditioning.dds"
 					}
 				]
 			},
@@ -453,19 +453,19 @@
 				"runes": [
 					{
 						"id": 8451,
-						"key": "HealthBandit",
+						"key": "Overgrowth",
 						"name": "Lan Tràn",
-						"shortDesc": "Nhận thêm máu vĩnh viễn khi có lính hoặc quái chết gần bạn.",
-						"longDesc": "Mỗi @UnitsPerTier@ quái hoặc lính địch chết gần bạn tăng vĩnh viễn cho bạn @MaxHealthRatioPerTier*100@% Máu tối đa.",
-						"icon": "ASSETS/Perks/Styles/Resolve/HealthBandit/HealthBandit.dds"
+						"shortDesc": "Tăng vĩnh viễn máu tối đa khi có lính hoặc quái chết gần bạn.",
+						"longDesc": "Tăng vĩnh viễn @MaxHealthRatioPerTier*100@% máu tối đa với mỗi @UnitsPerTier@ quái hoặc lính địch chết gần bạn.",
+						"icon": "ASSETS/Perks/Styles/Resolve/Overgrowth/Overgrowth.dds"
 					},
 					{
 						"id": 8453,
-						"key": "AmpShields",
+						"key": "Revitalize",
 						"name": "Tiếp Sức",
-						"shortDesc": "Hồi máu và lá chắn bạn dùng hoặc nhận được mạnh hơn @StandardAmp.0@% và tăng thêm @ExtraAmp.0@% trên mục tiêu thấp máu.",
-						"longDesc": "Hồi máu và lá chắn bạn dùng hoặc nhận được mạnh hơn @StandardAmp.0@% và tăng thêm @ExtraAmp.0@% với những mục tiêu dưới @HealthCutoff.0@% Máu.",
-						"icon": "ASSETS/Perks/Styles/Resolve/AmpShields/AmpShields.dds"
+						"shortDesc": "Hồi máu và lá chắn bạn sử dụng hoặc nhận được mạnh hơn @StandardAmp.0@%, tăng thêm @ExtraAmp.0@% với mục tiêu thấp máu.",
+						"longDesc": "Hồi máu và lá chắn bạn sử dụng hoặc nhận được mạnh hơn @StandardAmp.0@%, tăng thêm @ExtraAmp.0@% với mục tiêu dưới @HealthCutoff.0@% máu.",
+						"icon": "ASSETS/Perks/Styles/Resolve/Revitalize/Revitalize.dds"
 					},
 					{
 						"id": 8444,
@@ -527,8 +527,8 @@
 						"id": 8226,
 						"key": "ManaflowBand",
 						"name": "Dải Băng Năng Lượng",
-						"shortDesc": "Theo chu kỳ, kỹ năng kế tiếp của bạn hồi lại năng lượng và một phần năng lượng hoặc nội năng đã mất.",
-						"longDesc": "Mỗi @Cooldown.0@ giây, kỹ năng kế tiếp khi được sử dụng sẽ hồi lại cho bạn <scaleLevel>@f4@</scaleLevel> năng lượng và @MPToRestoreRatio.0*100@% năng lượng / nội năng đã mất.",
+						"shortDesc": "Theo chu kỳ, kỹ năng kế tiếp của bạn hoàn trả tiêu hao và hồi lại một phần năng lượng / nội năng đã mất.",
+						"longDesc": "Mỗi @Cooldown.0@ giây, kỹ năng kế tiếp khi được sử dụng hoàn trả năng lượng / nội năng tiêu hao và hồi lại @MPToRestoreRatio.0*100@% năng lượng / nội năng đã mất.",
 						"icon": "ASSETS/Perks/Styles/Sorcery/ManaflowBand/ManaflowBand.dds"
 					},
 					{
@@ -548,7 +548,7 @@
 						"key": "Transcendence",
 						"name": "Thăng Tiến Sức Mạnh",
 						"shortDesc": "Nhận thêm @MaxCDR*100@% <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_CDR\">Giảm Hồi chiêu</lol-uikit-tooltipped-keyword> khi đạt cấp @LevelToTurnOn@. Giảm Hồi chiêu phụ trội trở thành SMPT hoặc SMCK, <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">thích ứng</lol-uikit-tooltipped-keyword>.",
-						"longDesc": "Nhận thêm @MaxCDR*100@% Giảm Hồi chiêu khi đạt cấp @LevelToTurnOn@.<br><br>Mỗi phần trăm Giảm Hồi chiêu vượt mức giới hạn được chuyển thành {{ perk_subtext_AdaptiveForce }}.",
+						"longDesc": "Nhận thêm @MaxCDR*100@% Giảm Hồi chiêu khi đạt cấp @LevelToTurnOn@.<br><br>Mỗi phần trăm Giảm Hồi chiêu vượt mức giới hạn được chuyển thành <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Thích ứng</font></lol-uikit-tooltipped-keyword> cộng thêm @AdaptiveForce.-1*0.6@ sức mạnh công kích hoặc @AdaptiveForce@ sức mạnh phép thuật.",
 						"icon": "ASSETS/Perks/Styles/Sorcery/Transcendence/Transcendence.dds"
 					},
 					{
@@ -564,7 +564,7 @@
 						"key": "AbsoluteFocus",
 						"name": "Tập Trung Tuyệt Đối",
 						"shortDesc": "Khi có trên @HealthPercent*100@% máu, nhận thêm <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">sát thương thích ứng</lol-uikit-tooltipped-keyword>.",
-						"longDesc": "Khi trên @HealthPercent*100@% máu, nhận thêm tối đa {{ perk_subtext_AdaptiveForce_Max }} (theo cấp)",
+						"longDesc": "Khi trên @HealthPercent*100@% máu, nhận thêm tối đa Cộng thêm @MaxAdaptive.-1*0.6@ sức mạnh công kích hoặc @MaxAdaptive@ sức mạnh phép thuật, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>thích ứng</font></lol-uikit-tooltipped-keyword>. (theo cấp)",
 						"icon": "ASSETS/Perks/Styles/Sorcery/AbsoluteFocus/AbsoluteFocus.dds"
 					}
 				]
@@ -584,7 +584,7 @@
 						"key": "Waterwalking",
 						"name": "Thủy Thượng Phiêu",
 						"shortDesc": "Nhận thêm <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">Tốc độ Di chuyển</lol-uikit-tooltipped-keyword> và SMPT hoặc SMCK, <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">Thích Ứng</lol-uikit-tooltipped-keyword> khi đi trên sông.",
-						"longDesc": "Nhận được @MovementSpeed@ Tốc độ Di chuyển và {{ perk_subtext_AdaptiveForce_Max }} (theo cấp) khi đi trên sông.<br><br><hr></hr><br><i>Cầu cho bạn nhanh như sông chảy và lanh lẹ như một chú Cua Kỳ Cục bị giật mình</i><br>",
+						"longDesc": "Nhận được @MovementSpeed@ Tốc độ Di chuyển và Cộng thêm @MaxAdaptive.-1*0.6@ sức mạnh công kích hoặc @MaxAdaptive@ sức mạnh phép thuật, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>thích ứng</font></lol-uikit-tooltipped-keyword>. (theo cấp) khi đi trên sông.<br><br><hr></hr><br><i>Cầu cho bạn nhanh như sông chảy và lanh lẹ như một chú Cua Kỳ Cục bị giật mình</i><br>",
 						"icon": "ASSETS/Perks/Styles/Sorcery/Waterwalking/Waterwalking.dds"
 					},
 					{

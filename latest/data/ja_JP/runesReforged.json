@@ -20,7 +20,7 @@
 						"key": "Predator",
 						"name": "プレデター",
 						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">移動速度</lol-uikit-tooltipped-keyword>を大きく増加させ、次の通常攻撃またはスキルで追加<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">アダプティブダメージ</lol-uikit-tooltipped-keyword>を与える発動効果を、ブーツに付与する。",
-						"longDesc": "ブーツに<font color='#c60300'>「{{perk_displayname_Predator}}」</font>の発動効果を付与する。<br><br>{{ game_itemmod_bloodmoonboots }}",
+						"longDesc": "ブーツに<font color='#c60300'>「プレデター」</font>の発動効果を付与する。<br><br>非戦闘時に1.5秒間詠唱すると15秒間移動速度が45%増加。通常攻撃かスキルでダメージを与えると効果が終了し、60 - 180(+増加攻撃力x<scaleAD>0.4</scaleAD>)(+魔力x<scaleAP>0.25</scaleAP>)の追加<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>アダプティブダメージ</font></lol-uikit-tooltipped-keyword>を与える。<br><br>クールダウン150秒 - 100秒。クールダウンに入った状態で試合を開始する。詠唱中にダメージか行動妨害効果を受けると50%のクールダウンに入る。",
 						"icon": "ASSETS/Perks/Styles/Domination/Predator/Predator.dds"
 					},
 					{
@@ -76,7 +76,7 @@
 						"key": "GhostPoro",
 						"name": "ゴーストポロ",
 						"shortDesc": "茂みに入るとポロが出現し、その場に残って視界を確保する。",
-						"longDesc": "茂みに入ると、少し詠唱してからポロを召喚する。召喚されたポロは、新たなポロを召喚するまでその場に残って視界を確保してくれる。<br><br>ポロがいる茂みに敵が入ると、ポロは追い払われて「{{ perk_displayname_GhostPoro }}」は@Cooldown@秒間のクールダウンに入る。<br><br>ダメージを受けると詠唱はキャンセルされる。",
+						"longDesc": "茂みに入ると、少し詠唱してからポロを召喚する。召喚されたポロは、新たなポロを召喚するまでその場に残って視界を確保してくれる。<br><br>ポロがいる茂みに敵が入ると、ポロは追い払われて「ゴーストポロ」は@Cooldown@秒間のクールダウンに入る。<br><br>ダメージを受けると詠唱はキャンセルされる。",
 						"icon": "ASSETS/Perks/Styles/Domination/GhostPoro/GhostPoro.dds"
 					},
 					{
@@ -84,7 +84,7 @@
 						"key": "EyeballCollection",
 						"name": "目玉コレクター",
 						"shortDesc": "敵チャンピオンから<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">キルまたはアシスト</lol-uikit-tooltipped-keyword>を獲得するか、ワードを破壊または破壊をアシストすると目玉を獲得する。集めた目玉1つにつき攻撃力または魔力(<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">アダプティブ</lol-uikit-tooltipped-keyword>)を恒久的に獲得。目玉コレクションが完成すると攻撃力と魔力がさらに増加。",
-						"longDesc": "敵チャンピオンからキルまたはアシストを獲得するか、ワードを破壊または破壊をアシストすると目玉を獲得。集めた目玉1つにつき{{ perk_subtext_AdaptiveForce }}を獲得。<br><br>目玉を@MaxEyeballs@個集めてコレクションが完成すると、さらに{{ perk_subtext_AdaptiveForce_EyeballCollection }}を獲得。<br><br>敵チャンピオンをキルすると@StacksPerTakedown@個、アシストすると@StacksPerAssist@個、ワードからは@StacksPerWard@個の目玉を獲得。",
+						"longDesc": "敵チャンピオンからキルまたはアシストを獲得するか、ワードを破壊または破壊をアシストすると目玉を獲得。集めた目玉1つにつき攻撃力@AdaptiveForce.-1*0.6@、または魔力@AdaptiveForce@の<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>アダプティブ</font></lol-uikit-tooltipped-keyword>ボーナスを獲得。<br><br>目玉を@MaxEyeballs@個集めてコレクションが完成すると、さらに攻撃力@CompletionBonus.-1*0.6@、または魔力@CompletionBonus@の<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>アダプティブ</font></lol-uikit-tooltipped-keyword>ボーナスを獲得。<br><br>敵チャンピオンをキルすると@StacksPerTakedown@個、アシストすると@StacksPerAssist@個、ワードからは@StacksPerWard@個の目玉を獲得。",
 						"icon": "ASSETS/Perks/Styles/Domination/EyeballCollection/EyeballCollection.dds"
 					}
 				]
@@ -164,33 +164,25 @@
 						"icon": "ASSETS/Perks/Styles/Inspiration/DontBlink/DontBlink.dds"
 					},
 					{
-						"id": 8345,
-						"key": "BiscuitsAndBonuses",
-						"name": "ビスケットデリバリー",
-						"shortDesc": "@SwapOverMinute@分経過するまで、@BiscuitMinuteInterval@分毎にコスト無しでビスケットを獲得する。ビスケットを消費すると最大マナが恒久的に増加し、体力とマナを回復する。",
-						"longDesc": "ビスケットデリバリー: 試合開始から@SwapOverMinute@分間、@BiscuitMinuteInterval@分毎に{{game_item_displayname_2010}}を1つ獲得。<br><br>ビスケットは減少体力とマナの@HealthHealPercent.0*100@%を回復。ビスケットを消費すると最大マナが恒久的に@PermanentMana@増加。<br><br>ノーマナ: マナを持たないチャンピオンの場合、代わりに減少体力の@HealthHealPercentManaless.0*100@%を回復する。",
-						"icon": "ASSETS/Perks/Styles/Inspiration/BiscuitsAndBonuses/BiscuitsAndBonuses.dds"
+						"id": 8304,
+						"key": "MagicalFootwear",
+						"name": "魔法の靴",
+						"shortDesc": "試合開始から@GiveBootsAtMinute@分の時点で無料のブーツを獲得するが、それまではブーツを購入できない。<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">キルまたはアシスト</lol-uikit-tooltipped-keyword>を獲得するたびにブーツを獲得するまでの時間が@SecondsSoonerPerTakedown@秒短縮される。",
+						"longDesc": "試合開始から@GiveBootsAtMinute@分経過するとコスト無しで「ちょっとだけ魔法がかったブーツ」を獲得。それまではブーツを購入できない。キルかアシストするごとにブーツ獲得までの時間が@SecondsSoonerPerTakedown@秒短縮される。<br><br>「ちょっとだけ魔法がかったブーツ」は追加で移動速度 +@AdditionalMovementSpeed@を付与する。",
+						"icon": "ASSETS/Perks/Styles/Inspiration/MagicalFootwear/MagicalFootwear.dds"
 					},
 					{
 						"id": 8313,
 						"key": "AllInGoodTime",
 						"name": "パーフェクトタイミング",
-						"shortDesc": "コスト無しで「{{game_item_displayname_2420}}」を獲得。「{{game_item_displayname_2420}}」は1回限り<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Stasis\">「固有時停止」</lol-uikit-tooltipped-keyword>を使用できる。",
-						"longDesc": "「{{ game_item_displayname_2419 }}」を所持した状態で試合を開始する。このアイテムは試合開始から@InitialCooldown.0@分経過すると、1回だけ「固有時停止」を使用できる「{{ game_item_displayname_2420 }}」に変化する。<br><br>「{{ game_item_displayname_3157 }}」、「{{ game_item_displayname_3026 }}」、「{{ game_item_displayname_3193 }}」のクールダウンを@PercentGAZhonyasCDR.0*100@%短縮する。",
+						"shortDesc": "コスト無しで「ストップウォッチ」を獲得。「ストップウォッチ」は1回限り<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Stasis\">「固有時停止」</lol-uikit-tooltipped-keyword>を使用できる。",
+						"longDesc": "「始まりのストップウォッチ」を所持した状態で試合を開始する。このアイテムは試合開始から@InitialCooldown.0@分経過すると、1回だけ「固有時停止」を使用できる「ストップウォッチ」に変化する。<br><br>「ゾーニャの砂時計」、「ガーディアンエンジェル」、「ガーゴイルストーンプレート」のクールダウンを@PercentGAZhonyasCDR.0*100@%短縮する。",
 						"icon": "ASSETS/Perks/Styles/Style5/AllInGoodTime/AllInGoodTime.dds"
 					}
 				]
 			},
 			{
 				"runes": [
-					{
-						"id": 8304,
-						"key": "MagicalFootwear",
-						"name": "魔法の靴",
-						"shortDesc": "試合開始から@GiveBootsAtMinute@分の時点で無料のブーツを獲得するが、それまではブーツを購入できない。<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">キルまたはアシスト</lol-uikit-tooltipped-keyword>を獲得するたびにブーツを獲得するまでの時間が@SecondsSoonerPerTakedown@秒短縮される。",
-						"longDesc": "試合開始から@GiveBootsAtMinute@分経過するとコスト無しで「{{game_item_displayname_2422}}」を獲得。それまではブーツを購入できない。キルかアシストするごとに「{{game_item_displayname_2422}}」獲得までの時間が@SecondsSoonerPerTakedown@秒短縮される。<br><br>「{{game_item_displayname_2422}}」は追加で移動速度+@AdditionalMovementSpeed@を付与し、アップグレードコストが50ゴールド安くなる。",
-						"icon": "ASSETS/Perks/Styles/Inspiration/MagicalFootwear/MagicalFootwear.dds"
-					},
 					{
 						"id": 8321,
 						"key": "NanaTaxman",
@@ -203,9 +195,17 @@
 						"id": 8316,
 						"key": "TheClearChoice",
 						"name": "ミニオン吸収装置",
-						"shortDesc": "「{{game_item_displayname_2403}}」を@GainedMinionKillers@個所持した状態で試合を開始する。このアイテムで敵ミニオンを倒すと、同じ種類のミニオンに対する追加ダメージを恒久的に獲得。",
-						"longDesc": "敵ミニオンを即座にキルして吸収する「{{game_item_displayname_2403}}」を@GainedMinionKillers@個所持した状態で試合を開始する。「{{game_item_displayname_2403}}」は試合開始直後の@InitialCooldown@秒間はクールダウン状態となる。<br><br>敵ミニオンを吸収すると、同じ種類の敵ミニオンに与えるダメージが恒久的に+@DamageBonusForAnyAbsorbed.0*100@%増加。同じ種類の敵ミニオンを追加で吸収するたび、さらに+@DamageBonusPerAdditionalAbsorbed.0*100@%ずつ増加。<br>",
+						"shortDesc": "「ミニオン吸収装置」を@GainedMinionKillers@個所持した状態で試合を開始する。このアイテムで敵ミニオンを倒すと、同じ種類のミニオンに対する追加ダメージを恒久的に獲得。",
+						"longDesc": "敵ミニオンを即座にキルして吸収する「ミニオン吸収装置」を@GainedMinionKillers@個所持した状態で試合を開始する。「ミニオン吸収装置」は試合開始直後の@InitialCooldown@秒間はクールダウン状態となる。<br><br>敵ミニオンを吸収すると、同じ種類の敵ミニオンに与えるダメージが恒久的に+@DamageBonusForAnyAbsorbed.0*100@%増加。同じ種類の敵ミニオンを追加で吸収するたび、さらに+@DamageBonusPerAdditionalAbsorbed.0*100@%ずつ増加。<br>",
 						"icon": "ASSETS/Perks/Styles/Inspiration/TheClearChoice/TheClearChoice.dds"
+					},
+					{
+						"id": 8345,
+						"key": "BiscuitsAndBonuses",
+						"name": "ビスケットデリバリー",
+						"shortDesc": "@SwapOverMinute@分経過するまで、@BiscuitMinuteInterval@分毎にコスト無しでビスケットを獲得する。ビスケットを消費すると最大マナが恒久的に増加し、体力とマナを回復する。",
+						"longDesc": "ビスケットデリバリー: 試合開始から@SwapOverMinute@分間、@BiscuitMinuteInterval@分毎に英気満点ビスケットを1つ獲得。<br><br>ビスケットは減少体力とマナの@HealthHealPercent.0*100@%を回復。ビスケットを消費すると最大マナが恒久的に@PermanentMana@増加。<br><br>ノーマナ: マナを持たないチャンピオンの場合、代わりに減少体力の@HealthHealPercentManaless.0*100@%を回復する。",
+						"icon": "ASSETS/Perks/Styles/Inspiration/BiscuitsAndBonuses/BiscuitsAndBonuses.dds"
 					}
 				]
 			},
@@ -260,7 +260,7 @@
 						"key": "Berserk",
 						"name": "リーサルテンポ",
 						"shortDesc": "敵チャンピオンにダメージを与えてから@LeadInDelay.1@秒後、攻撃速度が大きく増加する。「リーサルテンポ」の効果中は攻撃速度の上限を超えることができる。",
-						"longDesc": "敵チャンピオンにダメージを与えてから@LeadInDelay.1@秒後、攻撃速度が@AttackSpeedBuffDurationMin@秒間レベルに応じて@AttackSpeedMin*100@% - @AttackSpeedMax*100@%増加。敵チャンピオンを攻撃すると最大@AttackSpeedBuffDurationMax@秒まで効果を延長できる。<br><br>クールダウン: @Cooldown@秒<br><br>「{{perk_displayname_FlowofBattle}}」の効果中は攻撃速度の上限を超えることができる。",
+						"longDesc": "敵チャンピオンにダメージを与えてから@LeadInDelay.1@秒後、攻撃速度が@AttackSpeedBuffDurationMin@秒間レベルに応じて@AttackSpeedMin*100@% - @AttackSpeedMax*100@%増加。敵チャンピオンを攻撃すると最大@AttackSpeedBuffDurationMax@秒まで効果を延長できる。<br><br>クールダウン: @Cooldown@秒<br><br>「リーサルテンポ」の効果中は攻撃速度の上限を超えることができる。",
 						"icon": "ASSETS/Perks/Styles/Precision/FlowofBattle/FlowofBattleTemp.dds"
 					},
 					{
@@ -336,7 +336,7 @@
 						"key": "CoupDeGrace",
 						"name": "最期の慈悲",
 						"shortDesc": "体力の低下した敵チャンピオンに対して与えるダメージが増加する。",
-						"longDesc": "体力が@EnemyHealthPercentageThreshold*100@%以下の敵チャンピオンに@BonusPercentDamage.0 *100@%の追加ダメージを与える。<br><br>さらに、キルかアシストを獲得すると@Duration@秒間{{ perk_subtext_AdaptiveForce }}を獲得する。",
+						"longDesc": "体力が@EnemyHealthPercentageThreshold*100@%以下の敵チャンピオンに@BonusPercentDamage.0 *100@%の追加ダメージを与える。<br><br>さらに、キルかアシストを獲得すると@Duration@秒間攻撃力@AdaptiveForce.-1*0.6@、または魔力@AdaptiveForce@の<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>アダプティブ</font></lol-uikit-tooltipped-keyword>ボーナスを獲得する。",
 						"icon": "ASSETS/Perks/Styles/Precision/CoupDeGrace/CoupDeGrace.dds"
 					},
 					{
@@ -369,27 +369,27 @@
 				"runes": [
 					{
 						"id": 8437,
-						"key": "KSRuinedKing",
+						"key": "GraspOfTheUndying",
 						"name": "不死者の握撃",
-						"shortDesc": "@TriggerTime@秒ごとに、敵チャンピオンに対する通常攻撃が追加魔法ダメージを与え、体力を回復。さらに最大体力を恒久的に増加させる。",
-						"longDesc": "@TriggerTime@秒毎に、敵チャンピオンに対する通常攻撃が以下の追加効果を獲得:<li>自身の最大体力の@PercentHealthDamage.0@%に相当する追加魔法ダメージを与える</li><li>最大体力の@PercentHealthHeal.0*100@%分、体力を回復</li><li>最大体力を恒久的に@MaxHealthPerProc@増加させる</li><br><rules>遠隔攻撃チャンピオン: ダメージ、回復量、恒久的に増加する最大体力量が@RangedPenaltyMod*100@%減少。</rules><br>",
-						"icon": "ASSETS/Perks/Styles/Resolve/KSRuinedKing/KSRuinedKing.dds"
+						"shortDesc": "@TriggerTime@秒毎に、敵チャンピオンに対する通常攻撃が追加魔法ダメージを与え、体力を回復。さらに最大体力を恒久的に増加させる。",
+						"longDesc": "戦闘中@TriggerTime@秒毎に、敵チャンピオンに対する通常攻撃が以下の追加効果を獲得:<li>自身の最大体力の@PercentHealthDamage.0@%に相当する追加魔法ダメージを与える</li><li>最大体力の@PercentHealthHeal.0*100@%分、体力を回復する</li><li>最大体力を恒久的に@MaxHealthPerProc@増加させる</li><br><rules>遠隔攻撃チャンピオン: ダメージ、回復量、恒久的に増加する最大体力量が@RangedPenaltyMod*100@%減少。</rules><br>",
+						"icon": "ASSETS/Perks/Styles/Resolve/GraspOfTheUndying/GraspOfTheUndying.dds"
 					},
 					{
 						"id": 8439,
-						"key": "Vengeance",
+						"key": "Aftershock",
 						"name": "アフターショック",
-						"shortDesc": "敵に<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Immobilize\">移動不能効果</lol-uikit-tooltipped-keyword>を与えると防御力を獲得し、その後爆発して自身の周囲の敵ユニットに大きな<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">アダプティブダメージ</lol-uikit-tooltipped-keyword>を与える。",
+						"shortDesc": "敵チャンピオンに<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Immobilize\">移動不能効果</lol-uikit-tooltipped-keyword>を与えると防御力を獲得し、その後爆発して自身の周囲の敵ユニットに大きな<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">アダプティブダメージ</lol-uikit-tooltipped-keyword>を与える。",
 						"longDesc": "敵チャンピオンに移動不能効果を与えると@DelayBeforeBurst.1@秒間、物理防御と魔法防御が@FlatResists@ - @FlatResistMaximum@増加し、その後爆発して周囲の敵ユニットに魔法ダメージを与える。<br><br>ダメージ: @StartingBaseDamage@ - @MaxBaseDamage@(+自身の最大体力の@HealthRatio.-1@%)(+自身の増加攻撃力の@DamageRatioAD*100@%)(+自身の魔力の@DamageRatioAP*100@%)<br>クールダウン: @Cooldown@秒",
-						"icon": "ASSETS/Perks/Styles/Resolve/VeteranVengeance/VeteranVengeance.dds"
+						"icon": "ASSETS/Perks/Styles/Resolve/VeteranAftershock/VeteranAftershock.dds"
 					},
 					{
 						"id": 8465,
-						"key": "KSBuddyShield",
+						"key": "Guardian",
 						"name": "ガーディアン",
 						"shortDesc": "自分がスキルを使用した味方と自分の近くにいる味方を「ガード」する。「ガード」している味方か自分のどちらかがダメージを受けると、両者がシールドを獲得して移動速度が増加する。",
-						"longDesc": "{{ perk_shared_desc_KSBuddyShield }}<br><br>クールダウン: <scaleLevel>@Cooldown@ - @CooldownMaxLevel@</scaleLevel>秒<br>シールド: <scaleLevel>@ShieldBase@ - @ShieldMax@</scaleLevel> + 自身の魔力の<scaleAP>@APRatio.-1@%</scaleAP> + 自身の増加体力の<scalehealth>@HPRatio.0*100@%</scalehealth><br>速度増加: 移動速度 +@Haste*100@%",
-						"icon": "ASSETS/Perks/Styles/Resolve/KSBuddyShield/KSBuddyShield.dds"
+						"longDesc": "@SnuggleRange@ユニット以内にいる味方ユニットと自身のスキルの対象となった味方ユニットを@GuardDuration@秒間「ガード」する。「ガード」中に自身とその味方のどちらかがダメージを受けた場合、@ShieldDuration@秒間、両方がシールドを獲得して移動速度が増加する。<br><br>クールダウン: <scaleLevel>@Cooldown@ - @CooldownMaxLevel@</scaleLevel>秒<br>シールド: <scaleLevel>@ShieldBase@ - @ShieldMax@</scaleLevel> + 自身の魔力の<scaleAP>@APRatio.-1@%</scaleAP> + 自身の増加体力の<scalehealth>@HPRatio.0*100@%</scalehealth><br>速度増加: 移動速度 +@Haste*100@%",
+						"icon": "ASSETS/Perks/Styles/Resolve/Guardian/Guardian.dds"
 					}
 				]
 			},
@@ -397,27 +397,27 @@
 				"runes": [
 					{
 						"id": 8242,
-						"key": "Recharge",
+						"key": "Unflinching",
 						"name": "気迫",
-						"shortDesc": "サモナースペル使用後、行動妨害耐性とスロウ耐性が少しの間だけ増加する。さらに、クールダウン中のサモナースペルの数に応じて行動妨害耐性とスロウ耐性が増加する。",
-						"longDesc": "サモナースペルを使用後、@BuffDuration@秒間@BonusTenacity*100@%の行動妨害耐性とスロウ耐性を獲得する。さらに、クールダウン中のサモナースペルの数に応じて行動妨害耐性とスロウ耐性が@PersistTenacity*100@%ずつ増加する。",
-						"icon": "ASSETS/Perks/Styles/Sorcery/Recharge/Recharge.dds"
+						"shortDesc": "サモナースペル使用後、行動妨害耐性とスロウ耐性が少しの間だけ増加する。さらに、クールダウン中のサモナースペルの数に応じて行動妨害耐性とスロウ耐性が増加する。 ",
+						"longDesc": "サモナースペルを使用後、@BuffDuration@秒間@BonusTenacity*100@%の行動妨害耐性とスロウ耐性を獲得する。さらに、クールダウン中のサモナースペルの数に応じて行動妨害耐性とスロウ耐性が@PersistTenacity*100@%ずつ増加する。 ",
+						"icon": "ASSETS/Perks/Styles/Sorcery/Unflinching/Unflinching.dds"
 					},
 					{
 						"id": 8446,
-						"key": "Siege",
+						"key": "Demolish",
 						"name": "打ちこわし",
 						"shortDesc": "敵タワーの近くにいる間、タワーに対する強力な攻撃をチャージする。",
-						"longDesc": "敵タワーの周囲@DistanceToTower@ユニット以内にいる間、@TotalSiegeTime@秒かけてタワーに対する強力な攻撃をチャージする。チャージされた攻撃は@OutputDamagePerStack@(+自身の最大体力の@MaxHealthPercentDamage.0 * 100@%)の追加物理ダメージを与える。<br><br>クールダウン: @CooldownSeconds@秒",
-						"icon": "ASSETS/Perks/Styles/Resolve/BrickHitHouse/BrickHitHouse.dds"
+						"longDesc": "敵タワーの周囲@DistanceToTower@ユニット以内にいる間、@TotalDemolishTime@秒かけてタワーに対する強力な攻撃をチャージする。チャージされた攻撃は@OutputDamagePerStack@(+自身の最大体力の@MaxHealthPercentDamage.0 * 100@%)の追加物理ダメージを与える。<br><br>クールダウン: @CooldownSeconds@秒",
+						"icon": "ASSETS/Perks/Styles/Resolve/Demolish/Demolish.dds"
 					},
 					{
 						"id": 8463,
-						"key": "BloodFromStone",
+						"key": "FontOfLife",
 						"name": "生命の泉",
-						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairMov\">移動妨害効果</lol-uikit-tooltipped-keyword>を付与した敵チャンピオンをマークする。マークされた敵を攻撃した味方は体力を回復する。",
-						"longDesc": "敵チャンピオンに移動妨害効果を付与すると@MarkDuration@秒間マークを付与する。<br><br>マークされた敵を味方が攻撃すると、@HealDuration@秒かけてその味方の体力を@FlatHealAmount@+自身の最大体力の@HealthRatio.-1 * 100@%回復する。",
-						"icon": "ASSETS/Perks/Styles/Resolve/BloodFromStone/BloodFromStone.dds"
+						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairMov\">移動妨害効果</lol-uikit-tooltipped-keyword>を付与した敵チャンピオンをマークする。マークされた敵を攻撃した味方は体力を回復する。 ",
+						"longDesc": "敵チャンピオンに移動妨害効果を付与すると@MarkDuration@秒間マークする。<br><br>マークされた敵を味方が攻撃すると、@HealDuration@秒かけて@FlatHealAmount@に自身の最大体力の@HealthRatio.-1 * 100@%を加えた量、その味方の体力を回復する。",
+						"icon": "ASSETS/Perks/Styles/Resolve/FontOfLife/FontOfLife.dds"
 					}
 				]
 			},
@@ -425,27 +425,27 @@
 				"runes": [
 					{
 						"id": 8430,
-						"key": "NemMarks",
+						"key": "IronSkin",
 						"name": "アイアンスキン",
-						"shortDesc": "物理防御 +@ArmorBase@<br>体力を回復する（消費アイテムの効果を含む）と一時的に物理防御が@TotalExtraArmor*100@%増加する。",
+						"shortDesc": "物理防御 +@ArmorBase@<br>体力を回復する(消費アイテムの効果を含む)と一時的に物理防御が@TotalExtraArmor*100@%増加する。",
 						"longDesc": "物理防御 +@ArmorBase@<br><br>消費アイテムによって体力を回復するか、@FlatHealThreshold@以上の体力およびシールドを回復すると、@EvolveArmorDuration@秒間、物理防御が@TotalExtraArmor*100@%増加する。",
-						"icon": "ASSETS/Perks/Styles/Resolve/NemMarks/NemMarks.dds"
+						"icon": "ASSETS/Perks/Styles/Resolve/IronSkin/IronSkin.dds"
 					},
 					{
 						"id": 8435,
-						"key": "NemMage",
+						"key": "MirrorShell",
 						"name": "ミラーシェル",
-						"shortDesc": "魔法防御 +@MRBase@<br>体力を回復する（消費アイテムの効果を含む）と一時的に魔法防御が@EvolveBonusMR*100@%増加する。<br>",
-						"longDesc": "魔法防御 +@MRBase@<br><br>消費アイテムによって体力を回復するか、@FlatHealThreshold@以上の体力およびシールドを回復すると、@EvolveShellDuration@秒間、魔法防御が@EvolveBonusMR*100@%増加する。",
-						"icon": "ASSETS/Perks/Styles/Resolve/NemMage/NemMage.dds"
+						"shortDesc": "魔法防御 +@MRBase@<br>体力を回復する(消費アイテムの効果を含む)と一時的に魔法防御が@EvolveBonusMR*100@%増加する。<br>",
+						"longDesc": "魔法防御 +@MRBase@<br><br>消費アイテムによって体力を回復するか、@FlatHealThreshold@以上の体力およびシールドを回復すると、@EvolveShellDuration@秒間、魔法防御が@EvolveBonusMR*100@%増加する。 ",
+						"icon": "ASSETS/Perks/Styles/Resolve/MirrorShell/MirrorShell.dds"
 					},
 					{
 						"id": 8429,
-						"key": "NemFighter",
+						"key": "Conditioning",
 						"name": "心身調整",
 						"shortDesc": "試合開始@MinutesRequired@分後に物理防御 +@ArmorBase@と魔法防御 +@MRBase@を獲得。物理防御と魔法防御が@ExtraResist@%増加。",
-						"longDesc": "{{ perk_short_desc_NemFighter }}",
-						"icon": "ASSETS/Perks/Styles/Resolve/NemFighter/NemFighter.dds"
+						"longDesc": "試合開始@MinutesRequired@分後に物理防御 +@ArmorBase@と魔法防御 +@MRBase@を獲得。物理防御と魔法防御が@ExtraResist@%増加。",
+						"icon": "ASSETS/Perks/Styles/Resolve/Conditioning/Conditioning.dds"
 					}
 				]
 			},
@@ -453,19 +453,19 @@
 				"runes": [
 					{
 						"id": 8451,
-						"key": "HealthBandit",
+						"key": "Overgrowth",
 						"name": "超成長",
 						"shortDesc": "自身の周囲で敵ミニオンまたは中立モンスターが倒されると恒久的に最大体力が増加する。",
 						"longDesc": "自身の周囲で中立モンスターまたは敵ミニオンが@UnitsPerTier@体倒される毎に恒久的に最大体力が@MaxHealthRatioPerTier*100@%増加する。",
-						"icon": "ASSETS/Perks/Styles/Resolve/HealthBandit/HealthBandit.dds"
+						"icon": "ASSETS/Perks/Styles/Resolve/Overgrowth/Overgrowth.dds"
 					},
 					{
 						"id": 8453,
-						"key": "AmpShields",
+						"key": "Revitalize",
 						"name": "生気付与",
 						"shortDesc": "自身が使用する、または受ける回復効果とシールド効果が@StandardAmp.0@%強化され、対象の体力が低下している場合はさらに@ExtraAmp.0@%強化される。",
 						"longDesc": "自身が使用する、または受ける回復効果とシールド効果が@StandardAmp.0@%強化される。対象の体力が@HealthCutoff.0@%以下なら、さらに@ExtraAmp.0@%強化される。",
-						"icon": "ASSETS/Perks/Styles/Resolve/AmpShields/AmpShields.dds"
+						"icon": "ASSETS/Perks/Styles/Resolve/Revitalize/Revitalize.dds"
 					},
 					{
 						"id": 8444,
@@ -500,7 +500,7 @@
 						"key": "ArcaneComet",
 						"name": "秘儀の彗星",
 						"shortDesc": "スキルでダメージを与えた敵チャンピオンの位置に彗星を飛ばす。",
-						"longDesc": "スキルでダメージを与えた敵チャンピオンの位置に彗星を飛ばす。「秘儀の彗星」がクールダウン中に敵チャンピオンにスキルでダメージを与えると「秘儀の彗星」の残りクールダウンが短縮される。<br><br><lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>アダプティブダメージ</font></lol-uikit-tooltipped-keyword>: レベルに応じて@DamageBase@ - @DamageMax@(<scaleAP>+魔力x@APRatio.-1@</scaleAP>および<scaleAD>増加攻撃力x@ADRatio.-1@</scaleAD>)<br>クールダウン: @RechargeTime@秒 - @RechargeTimeMin@秒<br><rules><br>クールダウン短縮量:<br>単体攻撃: @PercentRefund*100@%<br>範囲ダメージ: @AoEPercentRefund*100@%<br>継続ダメージ: @DotPercentRefund*100@%<br></rules>",
+						"longDesc": "スキルでダメージを与えた敵チャンピオンの位置に彗星を飛ばす。「秘儀の彗星」のクールダウン中に敵チャンピオンにスキルでダメージを与えると「秘儀の彗星」の残りクールダウンが短縮される。<br><br><lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>アダプティブダメージ</font></lol-uikit-tooltipped-keyword>: レベルに応じて@DamageBase@ - @DamageMax@(<scaleAP>+魔力x@APRatio.-1@</scaleAP>および<scaleAD>増加攻撃力x@ADRatio.-1@</scaleAD>)<br>クールダウン: @RechargeTime@秒 - @RechargeTimeMin@秒<br><rules><br>クールダウン短縮量:<br>単体攻撃: @PercentRefund*100@%<br>範囲ダメージ: @AoEPercentRefund*100@%<br>継続ダメージ: @DotPercentRefund*100@%<br></rules>",
 						"icon": "ASSETS/Perks/Styles/Sorcery/ArcaneComet/ArcaneComet.dds"
 					},
 					{
@@ -548,7 +548,7 @@
 						"key": "Transcendence",
 						"name": "至高",
 						"shortDesc": "レベル@LevelToTurnOn@になると@MaxCDR*100@%の<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_CDR\">クールダウン短縮</lol-uikit-tooltipped-keyword>を獲得。余剰のクールダウン短縮は魔力または攻撃力(<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">アダプティブ</lol-uikit-tooltipped-keyword>)に変換される。",
-						"longDesc": "レベル@LevelToTurnOn@になると@MaxCDR*100@%のクールダウン短縮を獲得。<br><br>上限を超える余剰のクールダウン短縮効果は1%毎に{{ perk_subtext_AdaptiveForce }}に変換される。",
+						"longDesc": "レベル@LevelToTurnOn@になると@MaxCDR*100@%のクールダウン短縮を獲得。<br><br>上限を超える余剰のクールダウン短縮効果は1%毎に攻撃力@AdaptiveForce.-1*0.6@、または魔力@AdaptiveForce@の<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>アダプティブ</font></lol-uikit-tooltipped-keyword>ボーナスに変換される。",
 						"icon": "ASSETS/Perks/Styles/Sorcery/Transcendence/Transcendence.dds"
 					},
 					{
@@ -564,7 +564,7 @@
 						"key": "AbsoluteFocus",
 						"name": "英気集中",
 						"shortDesc": "体力が@HealthPercent*100@%以上ある場合、追加<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">アダプティブダメージ</lol-uikit-tooltipped-keyword>を獲得する。",
-						"longDesc": "体力が@HealthPercent*100@%以上ある場合、{{ perk_subtext_AdaptiveForce_Max }}(レベルに比例)を獲得する。",
+						"longDesc": "体力が@HealthPercent*100@%以上ある場合、最大で攻撃力@MaxAdaptive.-1*0.6@、または魔力@MaxAdaptive@の<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>アダプティブ</font></lol-uikit-tooltipped-keyword>ボーナス(レベルに比例)を獲得する。",
 						"icon": "ASSETS/Perks/Styles/Sorcery/AbsoluteFocus/AbsoluteFocus.dds"
 					}
 				]
@@ -584,7 +584,7 @@
 						"key": "Waterwalking",
 						"name": "水走り",
 						"shortDesc": "川の中にいる間、<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">移動速度</lol-uikit-tooltipped-keyword>が増加し、魔力または攻撃力(<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">アダプティブ</lol-uikit-tooltipped-keyword>)を獲得する。",
-						"longDesc": "川の中にいる間、移動速度が@MovementSpeed@増加し、さらにレベルに応じて{{ perk_subtext_AdaptiveForce_Max }}を獲得する。<br><br><hr></hr><br>「速きこと流れる川の如く、敏捷なること驚いたリフトスカトルの如く」<br>",
+						"longDesc": "川の中にいる間、移動速度が@MovementSpeed@増加し、さらにレベルに応じて最大で攻撃力@MaxAdaptive.-1*0.6@、または魔力@MaxAdaptive@の<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>アダプティブ</font></lol-uikit-tooltipped-keyword>ボーナスを獲得する。<br><br><hr></hr><br>「速きこと流れる川の如く、敏捷なること驚いたリフトスカトルの如く」<br>",
 						"icon": "ASSETS/Perks/Styles/Sorcery/Waterwalking/Waterwalking.dds"
 					},
 					{

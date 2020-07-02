@@ -20,7 +20,7 @@
 						"key": "Predator",
 						"name": "Räuber",
 						"shortDesc": "Verzaubere deine Stiefel mit einem aktiven Effekt, der dir erhöhtes <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">Lauftempo</lol-uikit-tooltipped-keyword> gewährt und deinen nächsten Angriff oder deine nächste Fähigkeit zusätzlichen <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">adaptiven Schaden</lol-uikit-tooltipped-keyword> verursachen lässt.",
-						"longDesc": "Verzaubert deine Stiefel mit dem aktiven Effekt <font color='#c60300'>„{{perk_displayname_Predator}}“</font>.<br><br>{{ game_itemmod_bloodmoonboots }}",
+						"longDesc": "Verzaubert deine Stiefel mit dem aktiven Effekt <font color='#c60300'>„Räuber“</font>.<br><br>Wenn du außerhalb des Kampfes für 1,5&nbsp;Sekunden kanalisierst, wird dir 15&nbsp;Sekunden lang um 45&nbsp;% erhöhtes Lauftempo gewährt. Schaden verursachende Angriffe oder Fähigkeiten beenden diesen Effekt und verursachen 60–180 (+<scaleAD>0,4</scaleAD>&nbsp;zusätzlicher Angriffsschaden)(+<scaleAP>0,25</scaleAP>&nbsp;Fähigkeitsstärke) zusätzlichen <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>adaptiven Schaden</font></lol-uikit-tooltipped-keyword>.<br><br>Abklingzeit: 150–100&nbsp;Sekunden. Klingt zu Beginn des Spiels ab. 50&nbsp;% der Abklingzeit wird ausgelöst, wenn die Kanalisierung unterbrochen wird.",
 						"icon": "ASSETS/Perks/Styles/Domination/Predator/Predator.dds"
 					},
 					{
@@ -76,7 +76,7 @@
 						"key": "GhostPoro",
 						"name": "Gespenster-Poro",
 						"shortDesc": "Sobald du dich ins hohe Gras begibst, erscheint ein Poro. Er bleibt zurück und verschafft dir mehr Sicht.",
-						"longDesc": "Begib dich ins hohe Gras, um nach kurzer Kanalisierung einen Poro herbeizurufen. Dein Poro bleibt zurück und verleiht dir solange Sicht, bis du einen neuen herbeirufst.<br><br>Wenn sich ein Gegner in hohes Gras mit einem versteckten Poro begibt, wird dieser verscheucht. „{{ perk_displayname_GhostPoro }}“ klingt daraufhin @Cooldown@&nbsp;Sekunden lang ab.<br><br>Die Poro-Kanalisierung wird unterbrochen, wenn du Schaden erleidest.",
+						"longDesc": "Begib dich ins hohe Gras, um nach kurzer Kanalisierung einen Poro herbeizurufen. Dein Poro bleibt zurück und verleiht dir solange Sicht, bis du einen neuen herbeirufst.<br><br>Wenn sich ein Gegner in hohes Gras mit einem versteckten Poro begibt, wird dieser verscheucht. „Gespenster-Poro“ klingt daraufhin @Cooldown@&nbsp;Sekunden lang ab.<br><br>Die Poro-Kanalisierung wird unterbrochen, wenn du Schaden erleidest.",
 						"icon": "ASSETS/Perks/Styles/Domination/GhostPoro/GhostPoro.dds"
 					},
 					{
@@ -84,7 +84,7 @@
 						"key": "EyeballCollection",
 						"name": "Argus' Vermächtnis",
 						"shortDesc": "Sammle Augäpfel bei Champion-<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Tötungen</lol-uikit-tooltipped-keyword> oder beim Zerstören von Augen ein. Erhalte dauerhaften Angriffsschaden/dauerhafte Fähigkeitsstärke <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">(adaptiv)</lol-uikit-tooltipped-keyword> für jeden Augapfel plus einen zusätzlichen Bonus, wenn du deine Sammlung vervollständigst.",
-						"longDesc": "Sammle Augäpfel durch Tötungen von Champions oder das Zerstören von Augen ein. Erhalte {{ perk_subtext_AdaptiveForce }} pro gesammeltem Augapfel. <br><br>Nachdem du deine Sammlung mit @MaxEyeballs@&nbsp;Augäpfeln vervollständigt hast, erhältst du zusätzlich {{ perk_subtext_AdaptiveForce_EyeballCollection }}.<br><br>Erhalte @StacksPerTakedown@&nbsp;Augäpfel pro Championtötung, @StacksPerAssist@ pro Unterstützung und @StacksPerWard@ pro zerstörtem Auge.",
+						"longDesc": "Sammle Augäpfel durch Tötungen von Champions oder das Zerstören von Augen ein. Erhalte einen <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptiven</font></lol-uikit-tooltipped-keyword> Bonus von @AdaptiveForce.-1*0.6@&nbsp;Angriffsschaden oder @AdaptiveForce@&nbsp;Fähigkeitsstärke pro gesammeltem Augapfel. <br><br>Nachdem du deine Sammlung mit @MaxEyeballs@&nbsp;Augäpfeln vervollständigt hast, erhältst du zusätzlich einen <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptiven</font></lol-uikit-tooltipped-keyword> Bonus von @CompletionBonus.-1*0.6@&nbsp;Angriffsschaden oder @CompletionBonus@&nbsp;Fähigkeitsstärke.<br><br>Erhalte @StacksPerTakedown@&nbsp;Augäpfel pro Championtötung, @StacksPerAssist@ pro Unterstützung und @StacksPerWard@ pro zerstörtem Auge.",
 						"icon": "ASSETS/Perks/Styles/Domination/EyeballCollection/EyeballCollection.dds"
 					}
 				]
@@ -132,7 +132,7 @@
 						"key": "KSAlchemicalEsoterica",
 						"name": "Entsiegeltes Zauberbuch",
 						"shortDesc": "Tausche Beschwörersplitter beim Händler ein, um deine Beschwörerzauber während des Spiels auszutauschen. <br>Deine Beschwörerzauber haben verringerte Abklingzeiten. <br>",
-						"longDesc": "Erhalte nach @ShardFirstMinutes@&nbsp;Minuten 1&nbsp;Beschwörersplitter und 1&nbsp;weiteren alle @ShardRechargeMinutes@&nbsp;Minuten danach (max. @Maxshards@&nbsp;Splitter).<br><br>Wenn du in der Nähe des Händlers bist, kannst du @ShardCost@&nbsp;Beschwörersplitter dazu verwenden, 1&nbsp;Beschwörerzauber auszutauschen. <br><br>Zusätzlich dazu werden die Abklingzeiten deiner Beschwörerzauber um @SummonerCDR.0*100@&nbsp;% verringert.<br><br><rules><i>„Zerschmettern“:</i> Durch den Kauf von „Zerschmettern“ erhältst du keinen Zugang zu Gegenständen, die „Zerschmettern“ benötigen.<br>Du kannst nicht 2 gleiche Beschwörerzauber haben.</rules>",
+						"longDesc": "In der @ShardFirstMinutes@.&nbsp;Minute erhältst du einen Beschwörersplitter und alle @ShardRechargeMinutes@&nbsp;Minuten einen weiteren (max. @Maxshards@&nbsp;Splitter).<br><br>Wenn du in der Nähe des Händlers bist, kannst du @ShardCost@&nbsp;Beschwörersplitter gegen einen anderen Beschwörerzauber tauschen. <br><br>Zusätzlich dazu wird die Abklingzeit deiner Beschwörerzauber um @SummonerCDR.0*100@&nbsp;% verringert.<br><br><rules><i>Zerschmettern:</i> Durch den Kauf von „Zerschmettern“ erhältst du keinen Zugang zu Gegenständen, die „Zerschmettern“ verstärken.<br>Du kannst nicht zwei gleiche Beschwörerzauber haben.</rules>",
 						"icon": "ASSETS/Perks/Styles/Inspiration/KSAlchemicalEsoterica/KSAlchemicalEsoterica.dds"
 					},
 					{
@@ -164,33 +164,25 @@
 						"icon": "ASSETS/Perks/Styles/Inspiration/DontBlink/DontBlink.dds"
 					},
 					{
-						"id": 8345,
-						"key": "BiscuitsAndBonuses",
-						"name": "Kekslieferung",
-						"shortDesc": "Erhalte @SwapOverMinute@&nbsp;Minuten lang alle @BiscuitMinuteInterval@&nbsp;Minuten einen kostenlosen Keks. Das Konsumieren eines Keks erhöht dauerhaft dein maximales Mana und stellt Leben und Mana wieder her.",
-						"longDesc": "Kekslieferung: Erhalte @SwapOverMinute@&nbsp;Minuten lang alle @BiscuitMinuteInterval@&nbsp;Minuten einen „{{game_item_displayname_2010}}“.<br><br>Kekse stellen @HealthHealPercent.0*100@&nbsp;% deines fehlenden Lebens und Manas wieder her. Kekse erhöhen dauerhaft dein maximales Mana um @PermanentMana@&nbsp;Mana. <br><br><i>Manalos:</i> Champions ohne Mana stellen stattdessen @HealthHealPercentManaless.0*100@&nbsp;% ihres fehlenden Lebens wieder her.",
-						"icon": "ASSETS/Perks/Styles/Inspiration/BiscuitsAndBonuses/BiscuitsAndBonuses.dds"
+						"id": 8304,
+						"key": "MagicalFootwear",
+						"name": "Magisches Schuhwerk",
+						"shortDesc": "Erhalte nach @GiveBootsAtMinute@&nbsp;Minuten Spielzeit kostenlose Stiefel. Du kannst allerdings davor keine Stiefel kaufen. Für jede <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Tötung</lol-uikit-tooltipped-keyword>, an der du beteiligt bist, erhältst du deine Stiefel @SecondsSoonerPerTakedown@&nbsp;Sekunden früher.",
+						"longDesc": "Erhalte nach @GiveBootsAtMinute@&nbsp;Minuten Spielzeit ein kostenloses Paar „Leicht magische Stiefel“, allerdings kannst du davor keine Stiefel kaufen. Für jede Tötung, an der du beteiligt bist, wird die Ankunftszeit deiner Stiefel um @SecondsSoonerPerTakedown@&nbsp;Sekunde(n) verringert.<br><br>„Leicht magische Stiefel“ gewähren dir +@AdditionalMovementSpeed@&nbsp;Lauftempo.",
+						"icon": "ASSETS/Perks/Styles/Inspiration/MagicalFootwear/MagicalFootwear.dds"
 					},
 					{
 						"id": 8313,
 						"key": "AllInGoodTime",
 						"name": "Perfektes Timing",
-						"shortDesc": "Erhalte eine kostenlose {{game_item_displayname_2420}}. Die {{game_item_displayname_2420}} verfügt über einen einmalig nutzbaren <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Stasis\">Stase</lol-uikit-tooltipped-keyword>-Effekt.",
-						"longDesc": "Erhalte zu Beginn des Spiels eine „{{ game_item_displayname_2419 }}“, die sich nach @InitialCooldown.0@&nbsp;Minuten in eine {{ game_item_displayname_2420 }} verwandelt. Die {{ game_item_displayname_2420 }} gewährt einen einmaligen „Stase“-Effekt.<br><br>Verringert die Abklingzeiten von {{ game_item_displayname_3157 }}, {{ game_item_displayname_3026 }} und {{ game_item_displayname_3193 }} um @PercentGAZhonyasCDR.0*100@&nbsp;%.",
+						"shortDesc": "Erhalte eine kostenlose Stoppuhr. Die Stoppuhr verfügt über einen einmalig nutzbaren <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Stasis\">„Stase“</lol-uikit-tooltipped-keyword>-Effekt.",
+						"longDesc": "Erhalte zu Beginn des Spiels eine „Laufende Stoppuhr“, die sich nach @InitialCooldown.0@&nbsp;Minuten in eine Stoppuhr verwandelt. Die Stoppuhr gewährt einen einmaligen „Stase“-Effekt.<br><br>Verringert die Abklingzeiten von Zhonyas Stundenglas, Schutzengel und Steinpanzer des Wasserspeiers um @PercentGAZhonyasCDR.0*100@&nbsp;%.",
 						"icon": "ASSETS/Perks/Styles/Style5/AllInGoodTime/AllInGoodTime.dds"
 					}
 				]
 			},
 			{
 				"runes": [
-					{
-						"id": 8304,
-						"key": "MagicalFootwear",
-						"name": "Magisches Schuhwerk",
-						"shortDesc": "Erhalte nach @GiveBootsAtMinute@&nbsp;Minuten Spielzeit kostenlose Stiefel. Du kannst allerdings davor keine Stiefel kaufen. Für jede <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Tötung</lol-uikit-tooltipped-keyword>, an der du beteiligt bist, erhältst du deine Stiefel @SecondsSoonerPerTakedown@&nbsp;Sekunden früher.",
-						"longDesc": "Erhalte nach @GiveBootsAtMinute@&nbsp;Minuten Spielzeit ein kostenloses Paar „{{game_item_displayname_2422}}“. Allerdings kannst du davor keine Stiefel kaufen. Für jede Tötung, an der du beteiligt bist, wird die Ankunftszeit deiner Stiefel um @SecondsSoonerPerTakedown@&nbsp;Sekunde(n) verringert.<br><br>„{{game_item_displayname_2422}}“ gewähren dir +@AdditionalMovementSpeed@&nbsp;Lauftempo und können für 50&nbsp;Gold weniger aufgewertet werden.",
-						"icon": "ASSETS/Perks/Styles/Inspiration/MagicalFootwear/MagicalFootwear.dds"
-					},
 					{
 						"id": 8321,
 						"key": "NanaTaxman",
@@ -203,9 +195,17 @@
 						"id": 8316,
 						"key": "TheClearChoice",
 						"name": "Vasallenauflöser",
-						"shortDesc": "Beginne das Spiel mit @GainedMinionKillers@ {{game_item_displayname_2403}}n. Einen Vasallen mit diesem Gegenstand zu töten, gewährt dir dauerhaft zusätzlichen Schaden gegen diesen Vasallentyp.",
-						"longDesc": "Erhalte zu Beginn des Spiels @GainedMinionKillers@ {{game_item_displayname_2403}}, die Lane-Vasallen augenblicklich töten und absorbieren. Die {{game_item_displayname_2403}} befinden sich während der ersten @InitialCooldown@&nbsp;Sekunden des Spiels auf Abklingzeit.<br><br>Einen Vasallen mit dem Gegenstand zu absorbieren, erhöht deinen Schaden gegen diesen Vasallentyp dauerhaft um +@DamageBonusForAnyAbsorbed.0*100@&nbsp;% und zusätzlich um +@DamageBonusPerAdditionalAbsorbed.0*100@&nbsp;% für jeden zusätzlich absorbierten Vasallen dieses Typs.<br>",
+						"shortDesc": "Beginne das Spiel mit @GainedMinionKillers@ Vasallenauflösern. Einen Vasallen mit diesem Gegenstand zu töten, gewährt dir dauerhaft zusätzlichen Schaden gegen diesen Vasallentyp.",
+						"longDesc": "Du erhältst zu Beginn des Spiels @GainedMinionKillers@ Vasallenauflöser, die Lane-Vasallen augenblicklich töten und absorbieren. Die Vasallenauflöser klingen während der ersten @InitialCooldown@&nbsp;Sekunden des Spiels ab.<br><br>Einen Vasallen mit dem Gegenstand zu absorbieren, erhöht deinen Schaden gegen diesen Vasallentyp dauerhaft um +@DamageBonusForAnyAbsorbed.0*100@&nbsp;% und zusätzlich um +@DamageBonusPerAdditionalAbsorbed.0*100@&nbsp;% für jeden zusätzlich absorbierten Vasallen dieses Typs.<br>",
 						"icon": "ASSETS/Perks/Styles/Inspiration/TheClearChoice/TheClearChoice.dds"
+					},
+					{
+						"id": 8345,
+						"key": "BiscuitsAndBonuses",
+						"name": "Kekslieferung",
+						"shortDesc": "Erhalte @SwapOverMinute@&nbsp;Minuten lang alle @BiscuitMinuteInterval@&nbsp;Minuten einen kostenlosen Keks. Das Konsumieren eines Keks erhöht dauerhaft dein maximales Mana und stellt Leben und Mana wieder her.",
+						"longDesc": "Kekslieferung: Erhalte @SwapOverMinute@&nbsp;Minuten lang alle @BiscuitMinuteInterval@&nbsp;Minuten einen „Absoluter Keks des unvergänglichen Willens“.<br><br>Kekse stellen @HealthHealPercent.0*100@&nbsp;% deines fehlenden Lebens und Manas wieder her. Kekse erhöhen dauerhaft dein maximales Mana um @PermanentMana@&nbsp;Mana. <br><br><i>Manalos:</i> Champions ohne Mana stellen stattdessen @HealthHealPercentManaless.0*100@&nbsp;% ihres fehlenden Lebens wieder her.",
+						"icon": "ASSETS/Perks/Styles/Inspiration/BiscuitsAndBonuses/BiscuitsAndBonuses.dds"
 					}
 				]
 			},
@@ -260,7 +260,7 @@
 						"key": "Berserk",
 						"name": "Tödliches Tempo",
 						"shortDesc": "@LeadInDelay.1@&nbsp;Sekunden, nachdem du einem gegnerischen Champion Schaden zugefügt hast, erhältst du sehr viel zusätzliches Angriffstempo. „Tödliches Tempo“ lässt dich das Höchstangriffstempo vorübergehend überschreiten.",
-						"longDesc": "@LeadInDelay.1@&nbsp;Sekunden, nachdem du einem gegnerischen Champion Schaden zugefügt hast, erhältst du abhängig von der Stufe @AttackSpeedBuffDurationMin@&nbsp;Sekunden lang @AttackSpeedMin*100@–@AttackSpeedMax*100@&nbsp;% Angriffstempo. Wenn du einen Champion angreifst, wird die Dauer des Effekts auf bis zu @AttackSpeedBuffDurationMax@&nbsp;Sekunden verlängert.<br><br>Abklingzeit: @Cooldown@&nbsp;Sekunden<br><br>„{{perk_displayname_FlowofBattle}}“ lässt dich das Höchstangriffstempo vorübergehend überschreiten.",
+						"longDesc": "@LeadInDelay.1@&nbsp;Sekunden, nachdem du einem gegnerischen Champion Schaden zugefügt hast, erhältst du abhängig von der Stufe @AttackSpeedBuffDurationMin@&nbsp;Sekunden lang @AttackSpeedMin*100@–@AttackSpeedMax*100@&nbsp;% Angriffstempo. Wenn du einen Champion angreifst, wird die Dauer des Effekts auf bis zu @AttackSpeedBuffDurationMax@&nbsp;Sekunden verlängert.<br><br>Abklingzeit: @Cooldown@&nbsp;Sekunden<br><br>„Tödliches Tempo“ lässt dich das Höchstangriffstempo vorübergehend überschreiten.",
 						"icon": "ASSETS/Perks/Styles/Precision/FlowofBattle/FlowofBattleTemp.dds"
 					},
 					{
@@ -288,7 +288,7 @@
 						"key": "AdrenalineRush",
 						"name": "Triumph",
 						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Tötungen</lol-uikit-tooltipped-keyword> stellen @MissingHealthRestored.0*100@&nbsp;% deines fehlenden Lebens wieder her und gewähren zusätzlich @BonusGold@&nbsp;Gold. ",
-						"longDesc": "Tötungen und Unterstützungen stellen @MissingHealthRestored.0*100@&nbsp;% deines fehlenden Lebens wieder her und gewähren zusätzlich @BonusGold@&nbsp;Gold. <br><br><hr></hr><br><i>„Das gefährlichste Spiel bringt den größten Ruhm.“ <br>—&nbsp;Noxianischer Verkünder</i>",
+						"longDesc": "Tötungen und Unterstützungen stellen @MissingHealthRestored.0*100@&nbsp;% deines fehlenden Lebens wieder her und gewähren zusätzlich @BonusGold@&nbsp;Gold. <br><br><hr></hr><br><i>„Das gefährlichste Spiel bringt den größten Ruhm.“ <br>—&nbsp;Noxianischer Vergelter</i>",
 						"icon": "ASSETS/Perks/Styles/Precision/DangerousGame.dds"
 					},
 					{
@@ -336,7 +336,7 @@
 						"key": "CoupDeGrace",
 						"name": "Gnadenstoß",
 						"shortDesc": "Verursache mehr Schaden an Champions mit wenig Leben.",
-						"longDesc": "Verursache @BonusPercentDamage.0 *100@&nbsp;% zusätzlichen Schaden an Champions, deren Leben unter @EnemyHealthPercentageThreshold*100@&nbsp;% liegt.<br><br>Zusätzlich dazu gewähren Championtötungen oder Unterstützungen @Duration@&nbsp;Sekunden lang {{ perk_subtext_AdaptiveForce }}.",
+						"longDesc": "Verursache @BonusPercentDamage.0 *100@&nbsp;% zusätzlichen Schaden an Champions, deren Leben unter @EnemyHealthPercentageThreshold*100@&nbsp;% liegt.<br><br>Zusätzlich dazu gewähren Championtötungen oder Unterstützungen @Duration@&nbsp;Sekunden lang einen <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptiven</font></lol-uikit-tooltipped-keyword> Bonus von @AdaptiveForce.-1*0.6@&nbsp;Angriffsschaden oder @AdaptiveForce@&nbsp;Fähigkeitsstärke.",
 						"icon": "ASSETS/Perks/Styles/Precision/CoupDeGrace/CoupDeGrace.dds"
 					},
 					{
@@ -369,27 +369,27 @@
 				"runes": [
 					{
 						"id": 8437,
-						"key": "KSRuinedKing",
+						"key": "GraspOfTheUndying",
 						"name": "Umklammerung der Untoten",
 						"shortDesc": "Alle @TriggerTime@&nbsp;Sekunden verursacht dein nächster Angriff zusätzlichen magischen Schaden an gegnerischen Champions, heilt dich und erhöht dein Leben dauerhaft.",
-						"longDesc": "Im Kampf hat dein nächster normaler Angriff auf einen Champion alle @TriggerTime@&nbsp;Sekunden die folgenden Effekte:<li> Er verursacht @PercentHealthDamage.0@&nbsp;% deines maximalen Lebens als zusätzlichen magischen Schaden.</li><li>Er heilt dich um @PercentHealthHeal.0*100@&nbsp;% deines maximalen Lebens.</li><li>Er erhöht dein maximales Leben dauerhaft um @MaxHealthPerProc@.</li><br><rules><i>Fernkampf-Champions:</i> Schaden, Heilung und dauerhaft erhaltenes Leben sind um @RangedPenaltyMod*100@&nbsp;% verringert.</rules><br>",
-						"icon": "ASSETS/Perks/Styles/Resolve/KSRuinedKing/KSRuinedKing.dds"
+						"longDesc": "Im Kampf hat dein nächster normaler Angriff auf einen Champion alle @TriggerTime@&nbsp;Sekunden die folgenden Effekte:<li>Er verursacht @PercentHealthDamage.0@&nbsp;% deines maximalen Lebens als zusätzlichen magischen Schaden.</li><li>Er heilt dich um @PercentHealthHeal.0*100@&nbsp;% deines maximalen Lebens.</li><li>Er erhöht dein maximales Leben dauerhaft um @MaxHealthPerProc@.</li><br><rules><i>Fernkampf-Champions:</i> Schaden, Heilung und dauerhaft erhaltenes Leben sind um @RangedPenaltyMod*100@&nbsp;% verringert.</rules><br>",
+						"icon": "ASSETS/Perks/Styles/Resolve/GraspOfTheUndying/GraspOfTheUndying.dds"
 					},
 					{
 						"id": 8439,
-						"key": "Vengeance",
+						"key": "Aftershock",
 						"name": "Nachbeben",
-						"shortDesc": "Nachdem du einen gegnerischen Champion <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Immobilize\">bewegungsunfähig</lol-uikit-tooltipped-keyword> gemacht hast, erhältst du Verteidigung und verursachst nach einer Verzögerung um dich herum adaptiven Schaden.",
-						"longDesc": "Nachdem du einen gegnerischen Champion bewegungsunfähig gemacht hast, erhöhst du @DelayBeforeBurst.1@&nbsp;Sekunden lang deine Rüstung und Magieresistenz um @FlatResists@–@FlatResistMaximum@. Daraufhin explodierst du und verursachst magischen Schaden an nahen Gegnern.<br><br>Schaden: @StartingBaseDamage@–@MaxBaseDamage@ (+@HealthRatio.-1@&nbsp;% deines maximalen Lebens) (+@DamageRatioAD*100@&nbsp;% deines zusätzlichen Angriffsschadens) (+@DamageRatioAP*100@&nbsp;% deiner Fähigkeitsstärke)<br>Abklingzeit: @Cooldown@&nbsp;Sekunden",
-						"icon": "ASSETS/Perks/Styles/Resolve/VeteranVengeance/VeteranVengeance.dds"
+						"shortDesc": "Nachdem du einen gegnerischen Champion <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Immobilize\">bewegungsunfähig</lol-uikit-tooltipped-keyword> gemacht hast, erhältst du Verteidigung und verursachst nach einer Verzögerung um dich herum <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">adaptiven Schaden</lol-uikit-tooltipped-keyword>.",
+						"longDesc": "Nachdem du einen gegnerischen Champion bewegungsunfähig gemacht hast, erhöht sich deine Rüstung und Magieresistenz @DelayBeforeBurst.1@&nbsp;Sekunden lang um @FlatResists@–@FlatResistMaximum@. Daraufhin explodierst du und verursachst magischen Schaden an nahen Gegnern.<br><br>Schaden: @StartingBaseDamage@–@MaxBaseDamage@ (+@HealthRatio.-1@&nbsp;% deines maximalen Lebens) (+@DamageRatioAD*100@&nbsp;% deines zusätzlichen Angriffsschadens) (+@DamageRatioAP*100@&nbsp;% deiner Fähigkeitsstärke)<br>Abklingzeit: @Cooldown@&nbsp;Sekunden",
+						"icon": "ASSETS/Perks/Styles/Resolve/VeteranAftershock/VeteranAftershock.dds"
 					},
 					{
 						"id": 8465,
-						"key": "KSBuddyShield",
+						"key": "Guardian",
 						"name": "Bewahrer",
-						"shortDesc": "Schütze Verbündete in deiner unmittelbaren Nähe und Verbündete, auf die du eine Fähigkeit wirkst. Sollten du oder ein geschützter Verbündeter Schaden erleiden, wird euch beiden „Hast“ gewährt und ihr erhaltet einen Schild.",
-						"longDesc": "{{ perk_shared_desc_KSBuddyShield }}<br><br>Abklingzeit: <scaleLevel>@Cooldown@–@CooldownMaxLevel@</scaleLevel>&nbsp;Sekunden<br>Schild: <scaleLevel>@ShieldBase@–@ShieldMax@</scaleLevel> + <scaleAP>@APRatio.-1@&nbsp;%</scaleAP> deiner Fähigkeitsstärke + <scalehealth>@HPRatio.0*100@&nbsp;%</scalehealth> deines zusätzlichen Lebens.<br>Hast: +@Haste*100@&nbsp;% Lauftempo.",
-						"icon": "ASSETS/Perks/Styles/Resolve/KSBuddyShield/KSBuddyShield.dds"
+						"shortDesc": "Schütze Verbündete in deiner Nähe und Verbündete, auf die du Fähigkeiten wirkst. Sollten du oder ein geschützter Verbündeter Schaden erleiden, erhaltet ihr beide „Hast“ und einen Schild.",
+						"longDesc": "<i>Schütze</i> für @GuardDuration@&nbsp;Sekunden Verbündete, die sich in einer Reichweite von @SnuggleRange@&nbsp;Einheiten zu dir aufhalten, und Verbündete, die du mit deinen Fähigkeiten anvisierst. Sollten du oder ein <i>geschützter</i> Verbündeter Schaden erleiden, erhaltet ihr @ShieldDuration@&nbsp;Sekunden lang einen Schild und „Hast“.<br><br>Abklingzeit: <scaleLevel>@Cooldown@–@CooldownMaxLevel@</scaleLevel>&nbsp;Sekunden<br>Schild: <scaleLevel>@ShieldBase@–@ShieldMax@</scaleLevel> + <scaleAP>@APRatio.-1@&nbsp;%</scaleAP> deiner Fähigkeitsstärke + <scalehealth>@HPRatio.0*100@&nbsp;%</scalehealth> deines zusätzlichen Lebens.<br>Hast: +@Haste*100@&nbsp;% Lauftempo.",
+						"icon": "ASSETS/Perks/Styles/Resolve/Guardian/Guardian.dds"
 					}
 				]
 			},
@@ -397,27 +397,27 @@
 				"runes": [
 					{
 						"id": 8242,
-						"key": "Recharge",
+						"key": "Unflinching",
 						"name": "Unerschrocken",
-						"shortDesc": "Nach dem Wirken eines Beschwörerzaubers erhältst du für eine kurze Dauer Zähigkeit und Verlangsamungsresistenz. Erhalte zusätzliche Zähigkeit und Verlangsamungsresistenz für jeden Beschwörerzauber, der sich auf Abklingzeit befindet. ",
-						"longDesc": "Nach dem Wirken eines Beschwörerzaubers erhältst du @BuffDuration@&nbsp;Sekunden lang @BonusTenacity*100@&nbsp;% Zähigkeit und Verlangsamungsresistenz. Erhalte zusätzlich @PersistTenacity*100@&nbsp;% Zähigkeit und Verlangsamungsresistenz für jeden Beschwörerzauber, der sich auf Abklingzeit befindet. ",
-						"icon": "ASSETS/Perks/Styles/Sorcery/Recharge/Recharge.dds"
+						"shortDesc": "Nach dem Wirken eines Beschwörerzaubers erhältst du für kurze Zeit Zähigkeit und Verlangsamungsresistenz. Du erhältst zusätzlich Zähigkeit und Verlangsamungsresistenz für jeden Beschwörerzauber, der gerade abklingt. ",
+						"longDesc": "Nach dem Wirken eines Beschwörerzaubers erhältst du @BuffDuration@&nbsp;Sekunden lang @BonusTenacity*100@&nbsp;% Zähigkeit und Verlangsamungsresistenz. Du erhältst zusätzlich @PersistTenacity*100@&nbsp;% Zähigkeit und Verlangsamungsresistenz für jeden Beschwörerzauber, der gerade abklingt. ",
+						"icon": "ASSETS/Perks/Styles/Sorcery/Unflinching/Unflinching.dds"
 					},
 					{
 						"id": 8446,
-						"key": "Siege",
+						"key": "Demolish",
 						"name": "Abriss",
 						"shortDesc": "Lade einen mächtigen Angriff gegen einen Turm auf, während du dich in seiner Nähe aufhältst.",
-						"longDesc": "Lade über @TotalSiegeTime@&nbsp;Sekunden hinweg einen mächtigen Angriff gegen einen Turm auf, während du dich in einer Reichweite von @DistanceToTower@&nbsp;Einheiten zu ihm aufhältst. Der aufgeladene Angriff verursacht @OutputDamagePerStack@ (+@MaxHealthPercentDamage.0 * 100@&nbsp;% deines maximalen Lebens) zusätzlichen normalen Schaden.<br><br>Abklingzeit: @CooldownSeconds@&nbsp;Sekunden",
-						"icon": "ASSETS/Perks/Styles/Resolve/BrickHitHouse/BrickHitHouse.dds"
+						"longDesc": "Während du dich in einer Reichweite von @DistanceToTower@&nbsp;Einheiten zu einem Turm aufhältst, lädst du über @TotalDemolishTime@&nbsp;Sekunden einen mächtigen Angriff gegen ihn auf. Der aufgeladene Angriff verursacht @OutputDamagePerStack@ (+@MaxHealthPercentDamage.0 * 100@&nbsp;% deines maximalen Lebens) zusätzlichen normalen Schaden.<br><br>Abklingzeit: @CooldownSeconds@&nbsp;Sekunden",
+						"icon": "ASSETS/Perks/Styles/Resolve/Demolish/Demolish.dds"
 					},
 					{
 						"id": 8463,
-						"key": "BloodFromStone",
+						"key": "FontOfLife",
 						"name": "Lebensquelle",
 						"shortDesc": "Wenn die Bewegung eines gegnerischen Champions <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairMov\">eingeschränkt</lol-uikit-tooltipped-keyword> wird, wird dieser markiert. Deine Verbündeten werden geheilt, wenn sie einen von dir markierten Champion angreifen. ",
 						"longDesc": "Wenn die Bewegung eines gegnerischen Champions eingeschränkt wird, wird dieser @MarkDuration@&nbsp;Sekunden lang markiert.<br><br>Verbündete Champions, die markierte Gegner angreifen, werden @HealDuration@&nbsp;Sekunden lang um @FlatHealAmount@ + @HealthRatio.-1 * 100@&nbsp;% deines maximalen Lebens geheilt. ",
-						"icon": "ASSETS/Perks/Styles/Resolve/BloodFromStone/BloodFromStone.dds"
+						"icon": "ASSETS/Perks/Styles/Resolve/FontOfLife/FontOfLife.dds"
 					}
 				]
 			},
@@ -425,27 +425,27 @@
 				"runes": [
 					{
 						"id": 8430,
-						"key": "NemMarks",
+						"key": "IronSkin",
 						"name": "Eisenhaut",
-						"shortDesc": "Erhalte +@ArmorBase@&nbsp;Rüstung. <br>Heilungen, einschließlich Tränke, erhöhen deine Rüstung vorübergehend um @TotalExtraArmor*100@&nbsp;%.",
-						"longDesc": "Erhalte +@ArmorBase@&nbsp;Rüstung. <br><br>Heileffekte durch Verbrauchsgegenstände, Heilungen um mindestens @FlatHealThreshold@&nbsp;Leben und Schilde erhöhen deine Rüstung @EvolveArmorDuration@&nbsp;Sekunden lang um @TotalExtraArmor*100@&nbsp;%.",
-						"icon": "ASSETS/Perks/Styles/Resolve/NemMarks/NemMarks.dds"
+						"shortDesc": "Du erhältst +@ArmorBase@&nbsp;Rüstung. <br>Heilungen, einschließlich deiner Tränke, erhöhen deine Rüstung vorübergehend um @TotalExtraArmor*100@&nbsp;%.",
+						"longDesc": "Du erhältst +@ArmorBase@&nbsp;Rüstung. <br><br>Heileffekte durch Verbrauchsgegenstände und Heilungen um mindestens @FlatHealThreshold@&nbsp;Leben und Schilde erhöhen deine Rüstung @EvolveArmorDuration@&nbsp;Sekunden lang um @TotalExtraArmor*100@&nbsp;%.",
+						"icon": "ASSETS/Perks/Styles/Resolve/IronSkin/IronSkin.dds"
 					},
 					{
 						"id": 8435,
-						"key": "NemMage",
+						"key": "MirrorShell",
 						"name": "Spiegelschale",
-						"shortDesc": "Erhalte +@MRBase@&nbsp;Magieresistenz. <br>Heilungen, einschließlich Tränke, erhöhen deine Magieresistenz vorübergehend um @EvolveBonusMR*100@&nbsp;%.<br>",
-						"longDesc": "Erhalte +@MRBase@&nbsp;Magieresistenz. <br><br>Heileffekte durch Verbrauchsgegenstände, Heilungen um mindestens @FlatHealThreshold@&nbsp;Leben und Schilde erhöhen deine Magieresistenz @EvolveShellDuration@&nbsp;Sekunden lang um @EvolveBonusMR*100@&nbsp;%. ",
-						"icon": "ASSETS/Perks/Styles/Resolve/NemMage/NemMage.dds"
+						"shortDesc": "Du erhältst +@MRBase@&nbsp;Magieresistenz. <br>Heilungen, einschließlich deiner Tränke, erhöhen deine Magieresistenz vorübergehend um @EvolveBonusMR*100@&nbsp;%.<br>",
+						"longDesc": "Du erhältst +@MRBase@&nbsp;Magieresistenz. <br><br>Heileffekte durch Verbrauchsgegenstände und Heilungen um mindestens @FlatHealThreshold@&nbsp;Leben und Schilde erhöhen deine Magieresistenz @EvolveShellDuration@&nbsp;Sekunden lang um @EvolveBonusMR*100@&nbsp;%. ",
+						"icon": "ASSETS/Perks/Styles/Resolve/MirrorShell/MirrorShell.dds"
 					},
 					{
 						"id": 8429,
-						"key": "NemFighter",
+						"key": "Conditioning",
 						"name": "Konditionierung",
 						"shortDesc": "Nach @MinutesRequired@&nbsp;Minuten erhältst du +@ArmorBase@&nbsp;Rüstung und +@MRBase@&nbsp;Magieresistenz und deine Rüstung sowie Magieresistenz erhöhen sich um @ExtraResist@&nbsp;%.",
-						"longDesc": "{{ perk_short_desc_NemFighter }}",
-						"icon": "ASSETS/Perks/Styles/Resolve/NemFighter/NemFighter.dds"
+						"longDesc": "Nach @MinutesRequired@&nbsp;Minuten erhältst du +@ArmorBase@&nbsp;Rüstung und +@MRBase@&nbsp;Magieresistenz und deine Rüstung sowie Magieresistenz erhöhen sich um @ExtraResist@&nbsp;%.",
+						"icon": "ASSETS/Perks/Styles/Resolve/Conditioning/Conditioning.dds"
 					}
 				]
 			},
@@ -453,19 +453,19 @@
 				"runes": [
 					{
 						"id": 8451,
-						"key": "HealthBandit",
+						"key": "Overgrowth",
 						"name": "Zuwachs",
 						"shortDesc": "Erhalte dauerhaft zusätzliches maximales Leben, wenn Monster oder gegnerische Vasallen in deiner Nähe sterben.",
-						"longDesc": "Jedes @UnitsPerTier@.&nbsp;Monster oder jeder @UnitsPerTier@.&nbsp;gegnerische Vasall, der oder das in deiner Nähe stirbt, erhöht dein maximales Leben dauerhaft um @MaxHealthRatioPerTier*100@&nbsp;%.",
-						"icon": "ASSETS/Perks/Styles/Resolve/HealthBandit/HealthBandit.dds"
+						"longDesc": "Für jeweils @UnitsPerTier@&nbsp;Monster oder gegnerische Vasallen, die in deiner Nähe sterben, steigt dein maximales Leben dauerhaft um @MaxHealthRatioPerTier*100@&nbsp;%.",
+						"icon": "ASSETS/Perks/Styles/Resolve/Overgrowth/Overgrowth.dds"
 					},
 					{
 						"id": 8453,
-						"key": "AmpShields",
+						"key": "Revitalize",
 						"name": "Frische",
 						"shortDesc": "Heilungen und Schilde, die du wirkst oder erhältst, sind @StandardAmp.0@&nbsp;% stärker. Dieser Effekt wird auf @ExtraAmp.0@&nbsp;% erhöht, wenn das Ziel über wenig Leben verfügt.",
 						"longDesc": "Von dir gewirkte oder erhaltene Heilungen und Schilde sind @StandardAmp.0@&nbsp;% stärker. Dieser Effekt wird auf @ExtraAmp.0@&nbsp;% erhöht, wenn das Leben des Ziels unter @HealthCutoff.0@&nbsp;% liegt.",
-						"icon": "ASSETS/Perks/Styles/Resolve/AmpShields/AmpShields.dds"
+						"icon": "ASSETS/Perks/Styles/Resolve/Revitalize/Revitalize.dds"
 					},
 					{
 						"id": 8444,
@@ -500,7 +500,7 @@
 						"key": "ArcaneComet",
 						"name": "Arkaner Komet",
 						"shortDesc": "Wenn ein Champion durch eine Fähigkeit Schaden erleidet, fliegt ein Schaden verursachender Komet an dessen Position.",
-						"longDesc": "Wenn ein Champion durch eine Fähigkeit Schaden erleidet, fliegt ein Komet an dessen Position. Wenn „Arkaner Komet“ gerade abklingt, wird die verbleibende Abklingzeit verringert.<br><br><lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>Schaden (adaptiv)</font></lol-uikit-tooltipped-keyword>: @DamageBase@–@DamageMax@ abhängig von der Stufe (<scaleAP>+@APRatio.-1@&nbsp;Fähigkeitsstärke</scaleAP> und <scaleAD>@ADRatio.-1@&nbsp;zusätzlicher Angriffsschaden</scaleAD>)<br>Abklingzeit: @RechargeTime@–@RechargeTimeMin@&nbsp;Sekunden<br><rules><br>Abklingzeitverringerung:<br>Einzelziel: @PercentRefund*100@&nbsp;%<br>Flächenwirkung: @AoEPercentRefund*100@&nbsp;%<br>Schaden über Zeit: @DotPercentRefund*100@&nbsp;%<br></rules>",
+						"longDesc": "Wenn ein Champion durch eine Fähigkeit Schaden erleidet, fliegt ein Komet an dessen Position. Wenn „Arkaner Komet“ abklingt, wird die verbleibende Abklingzeit verringert.<br><br><lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>Schaden (adaptiv)</font></lol-uikit-tooltipped-keyword>: @DamageBase@–@DamageMax@ abhängig von der Stufe (<scaleAP>+@APRatio.-1@&nbsp;Fähigkeitsstärke</scaleAP> und <scaleAD>@ADRatio.-1@&nbsp;zusätzlicher Angriffsschaden</scaleAD>)<br>Abklingzeit: @RechargeTime@–@RechargeTimeMin@&nbsp;Sekunden<br><rules><br>Abklingzeitverringerung:<br>Einzelziel: @PercentRefund*100@&nbsp;%.<br>Flächenwirkung: @AoEPercentRefund*100@&nbsp;%.<br>Schaden über Zeit: @DotPercentRefund*100@&nbsp;%.<br></rules>",
 						"icon": "ASSETS/Perks/Styles/Sorcery/ArcaneComet/ArcaneComet.dds"
 					},
 					{
@@ -548,7 +548,7 @@
 						"key": "Transcendence",
 						"name": "Überlegenheit",
 						"shortDesc": "Erhalte @MaxCDR*100@&nbsp;% <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_CDR\">Abklingzeitverringerung</lol-uikit-tooltipped-keyword>, sobald du Stufe&nbsp;@LevelToTurnOn@ erreichst. Überschüssige Abklingzeitverringerung wird in Fähigkeitsstärke oder Angriffsschaden umgewandelt <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">(adaptiv)</lol-uikit-tooltipped-keyword>.",
-						"longDesc": "Erhalte @MaxCDR*100@&nbsp;% Abklingzeitverringerung, sobald du Stufe&nbsp;@LevelToTurnOn@ erreichst.<br><br>Jedes Prozent der Abklingzeitverringerung, welches das Limit überschreitet, wird in {{ perk_subtext_AdaptiveForce }} umgewandelt.",
+						"longDesc": "Erhalte @MaxCDR*100@&nbsp;% Abklingzeitverringerung, sobald du Stufe&nbsp;@LevelToTurnOn@ erreichst.<br><br>Jedes Prozent der Abklingzeitverringerung, welches das Limit überschreitet, wird in einen <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptiven</font></lol-uikit-tooltipped-keyword> Bonus von @AdaptiveForce.-1*0.6@&nbsp;Angriffsschaden oder @AdaptiveForce@&nbsp;Fähigkeitsstärke umgewandelt.",
 						"icon": "ASSETS/Perks/Styles/Sorcery/Transcendence/Transcendence.dds"
 					},
 					{
@@ -564,7 +564,7 @@
 						"key": "AbsoluteFocus",
 						"name": "Absoluter Fokus",
 						"shortDesc": "Wenn du über mehr als @HealthPercent*100@&nbsp;% deines Lebens verfügst, wird dir <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">&nbsp;adaptiver Schaden</lol-uikit-tooltipped-keyword> gewährt.",
-						"longDesc": "Wenn du über mehr als @HealthPercent*100@&nbsp;% deines Lebens verfügst, wird dir abhängig von der Stufe ein {{ perk_subtext_AdaptiveForce_Max }} gewährt.",
+						"longDesc": "Wenn du über mehr als @HealthPercent*100@&nbsp;% deines Lebens verfügst, wird dir abhängig von der Stufe ein Bonus von bis zu @MaxAdaptive.-1*0.6@&nbsp;Angriffsschaden oder @MaxAdaptive@&nbsp;Fähigkeitsstärke <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>(adaptiv)</font></lol-uikit-tooltipped-keyword> gewährt.",
 						"icon": "ASSETS/Perks/Styles/Sorcery/AbsoluteFocus/AbsoluteFocus.dds"
 					}
 				]
@@ -584,7 +584,7 @@
 						"key": "Waterwalking",
 						"name": "Wasserlauf",
 						"shortDesc": "Erhalte <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">Lauftempo</lol-uikit-tooltipped-keyword> und Fähigkeitsstärke oder Angriffsschaden <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">(adaptiv)</lol-uikit-tooltipped-keyword>, wenn du dich im Fluss befindest.",
-						"longDesc": "Erhalte @MovementSpeed@&nbsp;Lauftempo und abhängig von der Stufe einen {{ perk_subtext_AdaptiveForce_Max }}, wenn du dich im Fluss aufhältst.<br><br><hr></hr><br><i>Mögest du so schnell sein wie tosendes Wasser und so wendig wie ein aufgeschreckter Kluftkrabbler.</i><br>",
+						"longDesc": "Erhalte @MovementSpeed@&nbsp;Lauftempo und abhängig von der Stufe einen Bonus von bis zu @MaxAdaptive.-1*0.6@&nbsp;Angriffsschaden oder @MaxAdaptive@&nbsp;Fähigkeitsstärke <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>(adaptiv)</font></lol-uikit-tooltipped-keyword>, wenn du dich im Fluss aufhältst.<br><br><hr></hr><br><i>Mögest du so schnell sein wie tosendes Wasser und so wendig wie ein aufgeschreckter Kluftkrabbler.</i><br>",
 						"icon": "ASSETS/Perks/Styles/Sorcery/Waterwalking/Waterwalking.dds"
 					},
 					{

@@ -20,7 +20,7 @@
 						"key": "Predator",
 						"name": "포식자",
 						"shortDesc": "장화에 사용 효과 추가. 사용 시 일시적으로 <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">이동 속도</lol-uikit-tooltipped-keyword>가 대폭 증가하며 다음 공격 또는 스킬 사용 시 추가 <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">적응형 피해</lol-uikit-tooltipped-keyword>",
-						"longDesc": "장화에 '<font color='#c60300'>{{perk_displayname_Predator}}</font>' 사용 효과를 부여합니다.<br><br>{{ game_itemmod_bloodmoonboots }}",
+						"longDesc": "장화에 '<font color='#c60300'>포식자</font>' 사용 효과를 부여합니다.<br><br>전투 중이 아닐 때 1.5초 동안 정신 집중을 한 후 15초 동안 이동 속도가 45% 상승합니다. 공격 또는 스킬로 피해를 가하면 이 효과가 종료되며 60 ~ 180 (+추가 공격력의 <scaleAD>0.4</scaleAD>)(+주문력의 <scaleAP>0.25</scaleAP>)만큼 추가 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>적응형 피해</font></lol-uikit-tooltipped-keyword>를 줍니다.<br><br>재사용 대기시간: 150 ~ 100초. 게임 시작 시 재사용 대기 상태이며 정신 집중을 방해받으면 50%의 재사용 대기시간이 적용됩니다.",
 						"icon": "ASSETS/Perks/Styles/Domination/Predator/Predator.dds"
 					},
 					{
@@ -76,7 +76,7 @@
 						"key": "GhostPoro",
 						"name": "유령 포로",
 						"shortDesc": "수풀에 들어가면 포로가 수풀에 남아 시야 제공",
-						"longDesc": "수풀에 들어가면 잠시 정신 집중 후 포로가 소환됩니다. 포로는 새로운 포로가 소환될 때까지 그 자리에 남아 시야를 밝힙니다.<br><br>적 챔피언이 수풀에 들어가 포로를 몰아내면 {{ perk_displayname_GhostPoro }} 효과가 @Cooldown@초의 재사용 대기시간에 들어갑니다.<br><br>정신 집중 중에 피해를 입으면 포로 소환이 중단됩니다.",
+						"longDesc": "수풀에 들어가면 잠시 정신 집중 후 포로가 소환됩니다. 포로는 새로운 포로가 소환될 때까지 그 자리에 남아 시야를 밝힙니다.<br><br>적 챔피언이 수풀에 들어가 포로를 몰아내면 유령 포로 효과가 @Cooldown@초의 재사용 대기시간에 들어갑니다.<br><br>정신 집중 중에 피해를 입으면 포로 소환이 중단됩니다.",
 						"icon": "ASSETS/Perks/Styles/Domination/GhostPoro/GhostPoro.dds"
 					},
 					{
@@ -84,7 +84,7 @@
 						"key": "EyeballCollection",
 						"name": "시야 수집",
 						"shortDesc": "와드 또는 챔피언 <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">처치 관여</lol-uikit-tooltipped-keyword> 시마다 감시 중첩 획득. 중첩당 <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">적응형</lol-uikit-tooltipped-keyword>으로 공격력 또는 주문력 영구 증가 및 최대 중첩 도달 시 추가 증가",
-						"longDesc": "챔피언 처치 및 와드 파괴에 관여하면 감시 중첩을 얻습니다. 감시 중첩 하나당 {{ perk_subtext_AdaptiveForce }}의 효과를 얻습니다. <br><br>감시 중첩이 최대치인 @MaxEyeballs@회에 도달하면 {{ perk_subtext_AdaptiveForce_EyeballCollection }}의 효과를 부가적으로 획득합니다.<br><br>적 챔피언 처치 시마다 감시 중첩 @StacksPerTakedown@회, 어시스트를 올릴 때마다 @StacksPerAssist@회, 와드 파괴 관여 시마다 @StacksPerWard@회를 얻습니다.",
+						"longDesc": "챔피언 처치 및 와드 파괴에 관여하면 감시 중첩을 얻습니다. 감시 중첩 하나당 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>적응형</font></lol-uikit-tooltipped-keyword>으로 추가 공격력 @AdaptiveForce.-1*0.6@ 또는 추가 주문력 @AdaptiveForce@의 효과를 얻습니다. <br><br>감시 중첩이 최대치인 @MaxEyeballs@회에 도달하면 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>적응형</font></lol-uikit-tooltipped-keyword>으로 추가 공격력 @CompletionBonus.-1*0.6@ 또는 추가 주문력 @CompletionBonus@의 효과를 부가적으로 획득합니다.<br><br>적 챔피언 처치 시마다 감시 중첩 @StacksPerTakedown@회, 어시스트를 올릴 때마다 @StacksPerAssist@회, 와드 파괴 관여 시마다 @StacksPerWard@회를 얻습니다.",
 						"icon": "ASSETS/Perks/Styles/Domination/EyeballCollection/EyeballCollection.dds"
 					}
 				]
@@ -164,33 +164,25 @@
 						"icon": "ASSETS/Perks/Styles/Inspiration/DontBlink/DontBlink.dds"
 					},
 					{
-						"id": 8345,
-						"key": "BiscuitsAndBonuses",
-						"name": "비스킷 배달",
-						"shortDesc": "게임 시작 후 @SwapOverMinute@분까지 @BiscuitMinuteInterval@분마다 비스킷 1개 획득. 비스킷 사용 시 체력/마나 회복 및 최대 마나 영구 증가",
-						"longDesc": "비스킷 배달: @SwapOverMinute@분까지 @BiscuitMinuteInterval@분마다 {{game_item_displayname_2010}} 아이템을 얻습니다.<br><br>비스킷을 사용하면 잃은 체력과 마나의 @HealthHealPercent.0*100@%를 회복합니다. 비스킷 사용할 때마다 최대 마나가 영구적으로 @PermanentMana@만큼 늘어납니다. <br><br><i>마나 없음:</i> 마나가 없는 챔피언은 마나 대신 잃은 체력의 @HealthHealPercentManaless.0*100@%를 회복합니다.",
-						"icon": "ASSETS/Perks/Styles/Inspiration/BiscuitsAndBonuses/BiscuitsAndBonuses.dds"
+						"id": 8304,
+						"key": "MagicalFootwear",
+						"name": "마법의 신발",
+						"shortDesc": "게임 시작 후 @GiveBootsAtMinute@분에 장화 무료 획득. 그 전까지 신발류 아이템 구매 불가. 챔피언 <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">처치 관여</lol-uikit-tooltipped-keyword> 시마다 장화 획득 시점이 @SecondsSoonerPerTakedown@초 앞당겨짐.",
+						"longDesc": "게임 시작 @GiveBootsAtMinute@분 후 약간 신비한 장화 아이템을 얻습니다. 그 전까지는 신발류 아이템을 구매할 수 없습니다. 챔피언 처치에 관여할 때마다 장화 획득 시점이 @SecondsSoonerPerTakedown@초씩 앞당겨집니다.<br><br>약간 신비한 장화 보유 시 이동 속도가 +@AdditionalMovementSpeed@ 증가합니다.",
+						"icon": "ASSETS/Perks/Styles/Inspiration/MagicalFootwear/MagicalFootwear.dds"
 					},
 					{
 						"id": 8313,
 						"key": "AllInGoodTime",
 						"name": "완벽한 타이밍",
-						"shortDesc": "{{game_item_displayname_2420}} 획득. {{game_item_displayname_2420}} 아이템은 1회 사용 가능하며 사용 시 <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Stasis\">경직</lol-uikit-tooltipped-keyword> 효과",
-						"longDesc": "게임 시작 시 {{ game_item_displayname_2419 }} 아이템을 받습니다. 이 아이템은 @InitialCooldown.0@분 후 {{ game_item_displayname_2420 }} 아이템으로 변합니다. {{ game_item_displayname_2420 }} 아이템은 단 한 번 사용할 수 있으며, 사용 시 경직 효과를 얻습니다.<br><br>{{ game_item_displayname_3157 }}, {{ game_item_displayname_3026 }}, {{ game_item_displayname_3193 }}의 재사용 대기시간이 @PercentGAZhonyasCDR.0*100@% 감소합니다.",
+						"shortDesc": "초시계 획득. 초시계 아이템은 1회 사용 가능하며 사용 시 <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Stasis\">경직</lol-uikit-tooltipped-keyword> 효과",
+						"longDesc": "게임 시작 시 초시계 키트 아이템을 받습니다. 이 아이템은 @InitialCooldown.0@분 후 초시계 아이템으로 변합니다. 초시계 아이템은 단 한 번 사용할 수 있으며, 사용 시 경직 효과를 얻습니다.<br><br>존야의 모래시계, 수호 천사, 가고일 돌갑옷의 재사용 대기시간이 @PercentGAZhonyasCDR.0*100@% 감소합니다.",
 						"icon": "ASSETS/Perks/Styles/Style5/AllInGoodTime/AllInGoodTime.dds"
 					}
 				]
 			},
 			{
 				"runes": [
-					{
-						"id": 8304,
-						"key": "MagicalFootwear",
-						"name": "마법의 신발",
-						"shortDesc": "게임 시작 후 @GiveBootsAtMinute@분에 장화 무료 획득. 그 전까지 신발류 아이템 구매 불가. 챔피언 <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">처치 관여</lol-uikit-tooltipped-keyword> 시마다 장화 획득 시점이 @SecondsSoonerPerTakedown@초 앞당겨짐.",
-						"longDesc": "게임 시작 @GiveBootsAtMinute@분 후 {{game_item_displayname_2422}} 아이템을 얻습니다. 그 전까지는 신발류 아이템을 구매할 수 없습니다. 챔피언 처치에 관여할 때마다 장화 획득 시점이 @SecondsSoonerPerTakedown@초씩 앞당겨집니다.<br><br>{{game_item_displayname_2422}} 보유 시 이동 속도가 +@AdditionalMovementSpeed@ 증가하고, 업그레이드 비용이 50골드 줄어듭니다.",
-						"icon": "ASSETS/Perks/Styles/Inspiration/MagicalFootwear/MagicalFootwear.dds"
-					},
 					{
 						"id": 8321,
 						"key": "NanaTaxman",
@@ -203,9 +195,17 @@
 						"id": 8316,
 						"key": "TheClearChoice",
 						"name": "미니언 해체분석기",
-						"shortDesc": "{{game_item_displayname_2403}} @GainedMinionKillers@개를 보유하고 게임 시작. 해당 아이템으로 미니언 처치 시 동일한 종류의 미니언에게 추가 피해 적용",
-						"longDesc": "게임 시작 시, 공격로 미니언을 즉시 처치하고 흡수하는 {{game_item_displayname_2403}} @GainedMinionKillers@개를 받습니다. {{game_item_displayname_2403}} 아이템은 게임 시작 후 @InitialCooldown@초 동안 재사용 대기 상태입니다.<br><br>이 아이템으로 미니언을 흡수하면 이후 동일한 종류의 미니언을 대상으로 @DamageBonusForAnyAbsorbed.0*100@%의 추가 피해를 입히며, 동일한 종류의 미니언을 추가 흡수 시마다 @DamageBonusPerAdditionalAbsorbed.0*100@%의 추가 피해를 입힙니다.<br>",
+						"shortDesc": "미니언 해체분석기 @GainedMinionKillers@개를 보유하고 게임 시작. 해당 아이템으로 미니언 처치 시 동일한 종류의 미니언에게 추가 피해 적용",
+						"longDesc": "게임 시작 시, 공격로 미니언을 즉시 처치하고 흡수하는 미니언 해체분석기 @GainedMinionKillers@개를 받습니다. 미니언 해체분석기 아이템은 게임 시작 후 @InitialCooldown@초 동안 재사용 대기 상태입니다.<br><br>이 아이템으로 미니언을 흡수하면 이후 동일한 종류의 미니언을 대상으로 @DamageBonusForAnyAbsorbed.0*100@%의 추가 피해를 입히며, 동일한 종류의 미니언을 추가 흡수 시마다 @DamageBonusPerAdditionalAbsorbed.0*100@%의 추가 피해를 입힙니다.<br>",
 						"icon": "ASSETS/Perks/Styles/Inspiration/TheClearChoice/TheClearChoice.dds"
+					},
+					{
+						"id": 8345,
+						"key": "BiscuitsAndBonuses",
+						"name": "비스킷 배달",
+						"shortDesc": "게임 시작 후 @SwapOverMinute@분까지 @BiscuitMinuteInterval@분마다 비스킷 1개 획득. 비스킷 사용 시 체력/마나 회복 및 최대 마나 영구 증가",
+						"longDesc": "비스킷 배달: @SwapOverMinute@분까지 @BiscuitMinuteInterval@분마다 굳건한 의지의 완전한 비스킷 아이템을 얻습니다.<br><br>비스킷을 사용하면 잃은 체력과 마나의 @HealthHealPercent.0*100@%를 회복합니다. 비스킷 사용할 때마다 최대 마나가 영구적으로 @PermanentMana@만큼 늘어납니다. <br><br><i>마나 없음:</i> 마나가 없는 챔피언은 마나 대신 잃은 체력의 @HealthHealPercentManaless.0*100@%를 회복합니다.",
+						"icon": "ASSETS/Perks/Styles/Inspiration/BiscuitsAndBonuses/BiscuitsAndBonuses.dds"
 					}
 				]
 			},
@@ -260,7 +260,7 @@
 						"key": "Berserk",
 						"name": "치명적 속도",
 						"shortDesc": "챔피언에게 피해를 입히고 @LeadInDelay.1@초 후 치명적 속도 상태 돌입. 치명적 속도 상태에서는 공격 속도 대폭 증가 및 일시적으로 공격 속도 상한 초과 가능",
-						"longDesc": "적 챔피언에게 피해를 주고 @LeadInDelay.1@초 후, @AttackSpeedBuffDurationMin@초 동안 레벨에 따라 공격 속도가 @AttackSpeedMin*100@ ~ @AttackSpeedMax*100@% 증가합니다. 적 챔피언을 공격하면 효과 지속시간이 @AttackSpeedBuffDurationMax@초까지 증가합니다.<br><br>재사용 대기시간: @Cooldown@초<br><br>{{perk_displayname_FlowofBattle}} 상태에서는 일시적으로 최고 공격 속도 제한을 초과할 수 있습니다.",
+						"longDesc": "적 챔피언에게 피해를 주고 @LeadInDelay.1@초 후, @AttackSpeedBuffDurationMin@초 동안 레벨에 따라 공격 속도가 @AttackSpeedMin*100@ ~ @AttackSpeedMax*100@% 증가합니다. 적 챔피언을 공격하면 효과 지속시간이 @AttackSpeedBuffDurationMax@초까지 증가합니다.<br><br>재사용 대기시간: @Cooldown@초<br><br>치명적 속도 상태에서는 일시적으로 최고 공격 속도 제한을 초과할 수 있습니다.",
 						"icon": "ASSETS/Perks/Styles/Precision/FlowofBattle/FlowofBattleTemp.dds"
 					},
 					{
@@ -336,7 +336,7 @@
 						"key": "CoupDeGrace",
 						"name": "최후의 일격",
 						"shortDesc": "체력이 낮은 적 챔피언에게 입히는 피해량 증가",
-						"longDesc": "체력이 @EnemyHealthPercentageThreshold*100@% 이하인 적 챔피언에게 주는 피해량이 @BonusPercentDamage.0 *100@% 증가합니다.<br><br>또한 적 챔피언 처치 관여 시 @Duration@초 동안 {{ perk_subtext_AdaptiveForce }}의 효과를 얻습니다.",
+						"longDesc": "체력이 @EnemyHealthPercentageThreshold*100@% 이하인 적 챔피언에게 주는 피해량이 @BonusPercentDamage.0 *100@% 증가합니다.<br><br>또한 적 챔피언 처치 관여 시 @Duration@초 동안 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>적응형</font></lol-uikit-tooltipped-keyword>으로 추가 공격력 @AdaptiveForce.-1*0.6@ 또는 추가 주문력 @AdaptiveForce@의 효과를 얻습니다.",
 						"icon": "ASSETS/Perks/Styles/Precision/CoupDeGrace/CoupDeGrace.dds"
 					},
 					{
@@ -369,27 +369,27 @@
 				"runes": [
 					{
 						"id": 8437,
-						"key": "KSRuinedKing",
+						"key": "GraspOfTheUndying",
 						"name": "착취의 손아귀",
 						"shortDesc": "@TriggerTime@초마다 적 챔피언 기본 공격 시 추가 마법 피해, 체력 회복, 체력 영구 증가",
-						"longDesc": "전투 중 @TriggerTime@초마다 챔피언에 대한 기본 공격 시 다음 효과를 얻습니다.<li>자신의 최대 체력의 @PercentHealthDamage.0@%에 해당하는 추가 마법 피해를 가하고,</li><li>자신 최대 체력의 @PercentHealthHeal.0*100@%에 해당하는 체력 회복</li><li>자신의 체력을 영구적으로 @MaxHealthPerProc@ 증가시킵니다.</li><br><rules><i>원거리 챔피언:</i> 피해량, 회복량, 체력 영구 증가량이 @RangedPenaltyMod*100@% 감소합니다.</rules><br>",
-						"icon": "ASSETS/Perks/Styles/Resolve/KSRuinedKing/KSRuinedKing.dds"
+						"longDesc": "전투 중 @TriggerTime@초마다 챔피언에 대한 기본 공격 시 다음 효과를 얻습니다.<li>자신 최대 체력의 @PercentHealthDamage.0@%에 해당하는 추가 마법 피해</li><li>자신 최대 체력의 @PercentHealthHeal.0*100@%에 해당하는 체력 회복</li><li>영구적으로 체력 @MaxHealthPerProc@ 증가</li><br><rules><i>원거리 챔피언:</i> 피해량, 회복량, 체력 영구 증가량이 @RangedPenaltyMod*100@% 감소합니다.</rules><br>",
+						"icon": "ASSETS/Perks/Styles/Resolve/GraspOfTheUndying/GraspOfTheUndying.dds"
 					},
 					{
 						"id": 8439,
-						"key": "Vengeance",
+						"key": "Aftershock",
 						"name": "여진",
 						"shortDesc": "적 챔피언을 <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Immobilize\">이동 불가</lol-uikit-tooltipped-keyword> 상태로 만들면 방어력/마법 저항력 증가 및 잠시 후 주변에 대량의 <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">적응형 피해</lol-uikit-tooltipped-keyword>",
 						"longDesc": "적을 이동 불가 상태로 만들면 @DelayBeforeBurst.1@초 동안 방어력과 마법 저항력이 @FlatResists@ ~ @FlatResistMaximum@ 증가하며, 폭발이 일어나 근처 적에게 마법 피해를 줍니다.<br><br>피해량: @StartingBaseDamage@ ~ @MaxBaseDamage@ (+최대 체력의 @HealthRatio.-1@%) (+추가 공격력의 @DamageRatioAD*100@%) (+주문력의 @DamageRatioAP*100@%)<br>재사용 대기시간: @Cooldown@초",
-						"icon": "ASSETS/Perks/Styles/Resolve/VeteranVengeance/VeteranVengeance.dds"
+						"icon": "ASSETS/Perks/Styles/Resolve/VeteranAftershock/VeteranAftershock.dds"
 					},
 					{
 						"id": 8465,
-						"key": "KSBuddyShield",
+						"key": "Guardian",
 						"name": "수호자",
 						"shortDesc": "스킬 대상으로 지정한 아군과 가까운 아군을 보호. 자신 또는 보호받는 아군이 피해를 입으면 둘 다 이동 속도 증가 및 보호막 획득",
-						"longDesc": "{{ perk_shared_desc_KSBuddyShield }}<br><br>재사용 대기시간: <scaleLevel>@Cooldown@ ~ @CooldownMaxLevel@</scaleLevel>초<br>보호막 체력: <scaleLevel>@ShieldBase@ ~ @ShieldMax@</scaleLevel> + 주문력의 <scaleAP>@APRatio.-1@%</scaleAP> + 추가 체력의 <scalehealth>@HPRatio.0*100@%</scalehealth><br>이동 속도 증가: +@Haste*100@%",
-						"icon": "ASSETS/Perks/Styles/Resolve/KSBuddyShield/KSBuddyShield.dds"
+						"longDesc": "자신으로부터 @SnuggleRange@유닛 내에 있는 아군이나 자신이 스킬의 대상으로 삼은 아군을 @GuardDuration@초 동안 <i>보호</i>합니다. <i>보호</i>하는 중 자신과 아군 중 한 명이 피해를 입으면 둘 모두에게 보호막이 생성되며 이동 속도가 @ShieldDuration@초 동안 빨라집니다.<br><br>재사용 대기시간: <scaleLevel>@Cooldown@ ~ @CooldownMaxLevel@</scaleLevel>초<br>보호막 흡수량: <scaleLevel>@ShieldBase@ ~ @ShieldMax@</scaleLevel> + 주문력의 <scaleAP>@APRatio.-1@%</scaleAP> + 추가 체력의 <scalehealth>@HPRatio.0*100@%</scalehealth><br>이동 속도 증가: +@Haste*100@%",
+						"icon": "ASSETS/Perks/Styles/Resolve/Guardian/Guardian.dds"
 					}
 				]
 			},
@@ -397,27 +397,27 @@
 				"runes": [
 					{
 						"id": 8242,
-						"key": "Recharge",
+						"key": "Unflinching",
 						"name": "불굴의 의지",
 						"shortDesc": "소환사 주문을 사용한 후 잠시 동안 강인함 및 둔화 저항 증가. 또한 소환사 주문이 재사용 대기 상태가 될 때마다 강인함 및 둔화 저항 추가 증가 ",
 						"longDesc": "소환사 주문을 사용한 후 @BuffDuration@초 동안 @BonusTenacity*100@%의 강인함 및 둔화 저항을 추가로 얻습니다. 또한 소환사 주문이 재사용 대기 상태가 될 때마다 강인함 및 둔화 저항이 @PersistTenacity*100@% 증가합니다. ",
-						"icon": "ASSETS/Perks/Styles/Sorcery/Recharge/Recharge.dds"
+						"icon": "ASSETS/Perks/Styles/Sorcery/Unflinching/Unflinching.dds"
 					},
 					{
 						"id": 8446,
-						"key": "Siege",
+						"key": "Demolish",
 						"name": "철거",
 						"shortDesc": "포탑 근처에서 포탑에 대한 강력한 공격을 충전",
-						"longDesc": "포탑으로부터 @DistanceToTower@ 범위 안에 있을 경우 @TotalSiegeTime@초에 걸쳐 포탑에 대한 강력한 공격을 충전합니다. 충전된 공격은 @OutputDamagePerStack@ (+최대 체력의 @MaxHealthPercentDamage.0 * 100@%)의 추가 물리 피해를 입힙니다.<br><br>재사용 대기시간: @CooldownSeconds@초",
-						"icon": "ASSETS/Perks/Styles/Resolve/BrickHitHouse/BrickHitHouse.dds"
+						"longDesc": "포탑으로부터 @DistanceToTower@ 범위 안에 있을 경우 @TotalDemolishTime@초에 걸쳐 포탑에 대한 강력한 공격을 충전합니다. 충전된 공격은 @OutputDamagePerStack@ (+최대 체력의 @MaxHealthPercentDamage.0 * 100@%)의 추가 물리 피해를 입힙니다.<br><br>재사용 대기시간: @CooldownSeconds@초",
+						"icon": "ASSETS/Perks/Styles/Resolve/Demolish/Demolish.dds"
 					},
 					{
 						"id": 8463,
-						"key": "BloodFromStone",
+						"key": "FontOfLife",
 						"name": "생명의 샘",
 						"shortDesc": "적 챔피언 <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairMov\">이동 방해</lol-uikit-tooltipped-keyword> 시 표식을 남겨, 아군이 해당 적 공격 시 체력 회복 ",
 						"longDesc": "적 챔피언의 이동을 방해하면 @MarkDuration@초 동안 표식을 남깁니다.<br><br>표식이 남겨진 적을 공격하는 아군 챔피언은 @HealDuration@초에 걸쳐 @FlatHealAmount@ + 나의 최대 체력의 @HealthRatio.-1 * 100@%에 해당하는 체력을 회복합니다. ",
-						"icon": "ASSETS/Perks/Styles/Resolve/BloodFromStone/BloodFromStone.dds"
+						"icon": "ASSETS/Perks/Styles/Resolve/FontOfLife/FontOfLife.dds"
 					}
 				]
 			},
@@ -425,27 +425,27 @@
 				"runes": [
 					{
 						"id": 8430,
-						"key": "NemMarks",
+						"key": "IronSkin",
 						"name": "강철 피부",
 						"shortDesc": "방어력 +@ArmorBase@ 증가 <br>소모품 사용 효과를 포함하여 체력 회복 시 일시적으로 방어력 @TotalExtraArmor*100@% 증가",
-						"longDesc": "방어력이 +@ArmorBase@ 증가합니다. <br><br>체력이 @FlatHealThreshold@ 이상 회복되거나 소모품 효과로 체력이 회복되거나 보호막이 생성되면 방어력이 @EvolveArmorDuration@초간 @TotalExtraArmor*100@% 증가합니다.",
-						"icon": "ASSETS/Perks/Styles/Resolve/NemMarks/NemMarks.dds"
+						"longDesc": "방어력이 +@ArmorBase@만큼 증가합니다. <br><br>체력이 @FlatHealThreshold@ 이상 회복되거나 소모품 효과로 체력이 회복되거나 보호막이 생성되면 방어력이 @EvolveArmorDuration@초간 @TotalExtraArmor*100@% 증가합니다.",
+						"icon": "ASSETS/Perks/Styles/Resolve/IronSkin/IronSkin.dds"
 					},
 					{
 						"id": 8435,
-						"key": "NemMage",
+						"key": "MirrorShell",
 						"name": "거울 갑옷",
 						"shortDesc": "마법 저항력 +@MRBase@ 증가 <br>소모품 사용 효과를 포함하여 체력 회복 시 일시적으로 마법 저항력 @EvolveBonusMR*100@% 증가<br>",
 						"longDesc": "마법 저항력이 +@MRBase@ 증가합니다. <br><br>체력이 @FlatHealThreshold@ 이상 회복되거나 소모품 효과로 체력이 회복되거나 보호막이 생성되면 마법 저항력이 @EvolveShellDuration@초간 @EvolveBonusMR*100@% 증가합니다. ",
-						"icon": "ASSETS/Perks/Styles/Resolve/NemMage/NemMage.dds"
+						"icon": "ASSETS/Perks/Styles/Resolve/MirrorShell/MirrorShell.dds"
 					},
 					{
 						"id": 8429,
-						"key": "NemFighter",
+						"key": "Conditioning",
 						"name": "사전 준비",
 						"shortDesc": "@MinutesRequired@분 후 방어력 +@ArmorBase@ 및 마법 저항력 +@MRBase@ 증가와 동시에 방어력 및 마법 저항력 @ExtraResist@% 증가",
-						"longDesc": "{{ perk_short_desc_NemFighter }}",
-						"icon": "ASSETS/Perks/Styles/Resolve/NemFighter/NemFighter.dds"
+						"longDesc": "@MinutesRequired@분 후 방어력 +@ArmorBase@ 및 마법 저항력 +@MRBase@ 증가와 동시에 방어력 및 마법 저항력 @ExtraResist@% 증가",
+						"icon": "ASSETS/Perks/Styles/Resolve/Conditioning/Conditioning.dds"
 					}
 				]
 			},
@@ -453,19 +453,19 @@
 				"runes": [
 					{
 						"id": 8451,
-						"key": "HealthBandit",
+						"key": "Overgrowth",
 						"name": "과잉성장",
 						"shortDesc": "근처에서 몬스터 또는 미니언이 죽을 때마다 최대 체력 영구 증가",
 						"longDesc": "근처에서 몬스터 또는 적 미니언이 @UnitsPerTier@마리 죽을 때마다 최대 체력이 영구적으로 @MaxHealthRatioPerTier*100@%씩 증가합니다.",
-						"icon": "ASSETS/Perks/Styles/Resolve/HealthBandit/HealthBandit.dds"
+						"icon": "ASSETS/Perks/Styles/Resolve/Overgrowth/Overgrowth.dds"
 					},
 					{
 						"id": 8453,
-						"key": "AmpShields",
+						"key": "Revitalize",
 						"name": "소생",
 						"shortDesc": "자신이 사용하거나 받는 회복과 보호막의 효과 @StandardAmp.0@% 강화. 체력이 낮은 대상에게는 효과가 @ExtraAmp.0@% 증가",
 						"longDesc": "자신이 사용하거나 받는 회복과 보호막 효과가 @StandardAmp.0@% 강화됩니다. 체력이 @HealthCutoff.0@% 이하인 대상에게는 이 효과가 @ExtraAmp.0@% 증가합니다.",
-						"icon": "ASSETS/Perks/Styles/Resolve/AmpShields/AmpShields.dds"
+						"icon": "ASSETS/Perks/Styles/Resolve/Revitalize/Revitalize.dds"
 					},
 					{
 						"id": 8444,
@@ -548,7 +548,7 @@
 						"key": "Transcendence",
 						"name": "깨달음",
 						"shortDesc": "@LevelToTurnOn@레벨 도달 시 <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_CDR\">재사용 대기시간 감소</lol-uikit-tooltipped-keyword> @MaxCDR*100@%. 재사용 대기시간 초과분은 <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">적응형</lol-uikit-tooltipped-keyword>으로 주문력 또는 공격력으로 전환",
-						"longDesc": "@LevelToTurnOn@레벨에 도달하면 재사용 대기시간이 @MaxCDR*100@% 감소합니다.<br><br>재사용 대기시간 감소 최대치 초과분 1%당 {{ perk_subtext_AdaptiveForce }} 효과로 전환됩니다.",
+						"longDesc": "@LevelToTurnOn@레벨에 도달하면 재사용 대기시간이 @MaxCDR*100@% 감소합니다.<br><br>재사용 대기시간 감소 최대치 초과분 1%당 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>적응형</font></lol-uikit-tooltipped-keyword>으로 추가 공격력 @AdaptiveForce.-1*0.6@ 또는 추가 주문력 @AdaptiveForce@ 효과로 전환됩니다.",
 						"icon": "ASSETS/Perks/Styles/Sorcery/Transcendence/Transcendence.dds"
 					},
 					{
@@ -564,7 +564,7 @@
 						"key": "AbsoluteFocus",
 						"name": "절대 집중",
 						"shortDesc": "체력이 @HealthPercent*100@% 이상일 경우 <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">적응형 피해</lol-uikit-tooltipped-keyword> 추가 적용",
-						"longDesc": "체력이 @HealthPercent*100@% 이상일 경우 레벨에 따라 {{ perk_subtext_AdaptiveForce_Max }}의 효과를 얻습니다.",
+						"longDesc": "체력이 @HealthPercent*100@% 이상일 경우 레벨에 따라 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>적응형</font></lol-uikit-tooltipped-keyword>으로 추가 공격력 최대 @MaxAdaptive.-1*0.6@ 또는 추가 주문력 최대 @MaxAdaptive@의 효과를 얻습니다.",
 						"icon": "ASSETS/Perks/Styles/Sorcery/AbsoluteFocus/AbsoluteFocus.dds"
 					}
 				]
@@ -584,7 +584,7 @@
 						"key": "Waterwalking",
 						"name": "물 위를 걷는 자",
 						"shortDesc": "강에 있을 때 <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">이동 속도</lol-uikit-tooltipped-keyword>를 얻고 <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">적응형</lol-uikit-tooltipped-keyword>으로 주문력 또는 공격력 증가",
-						"longDesc": "강에 있을 때 레벨에 비례하여 이동 속도가 @MovementSpeed@ 증가하고 {{ perk_subtext_AdaptiveForce_Max }}의 효과를 얻습니다.<br><br><hr></hr><br><i>굽이치는 강물처럼 빠르고 깜짝 놀란 협곡 바위 게처럼 날렵하게 움직이리라.</i><br>",
+						"longDesc": "강에 있을 때 이동 속도가 @MovementSpeed@ 증가하고 레벨에 비례하여 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>적응형</font></lol-uikit-tooltipped-keyword>으로 추가 공격력 최대 @MaxAdaptive.-1*0.6@ 또는 추가 주문력 최대 @MaxAdaptive@의 효과를 얻습니다.<br><br><hr></hr><br><i>굽이치는 강물처럼 빠르고 깜짝 놀란 협곡 바위 게처럼 날렵하게 움직이리라.</i><br>",
 						"icon": "ASSETS/Perks/Styles/Sorcery/Waterwalking/Waterwalking.dds"
 					},
 					{

@@ -20,7 +20,7 @@
 						"key": "Predator",
 						"name": "Prădător",
 						"shortDesc": "Cizmele tale primesc o activă ce-ți oferă un bonus mare la <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">viteza de mișcare</lol-uikit-tooltipped-keyword>; de asemenea, următorul tău atac sau următoarea ta abilitate provoacă <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">daune adaptive</lol-uikit-tooltipped-keyword> bonus.",
-						"longDesc": "Îți descântă cizmele, oferindu-le efectul activ ''<font color='#c60300'>{{perk_displayname_Predator}}</font>''.<br><br>{{ game_itemmod_bloodmoonboots }}",
+						"longDesc": "Îți descântă cizmele, oferindu-le efectul activ ''<font color='#c60300'>Prădător</font>''.<br><br>După o pregătire de 1,5 secunde în afara luptei, primești 45% viteză de mișcare timp de 15 secunde. Atacurile sau abilitățile care provoacă daune încheie acest efect, provocând <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>daune adaptive</font></lol-uikit-tooltipped-keyword> bonus în valoare de 60-180 (+<scaleAD>0,4</scaleAD> AD bonus) (+<scaleAP>0,25</scaleAP> AP).<br><br>Timp de reactivare: 150-100 sec. Intră în perioada de reactivare la începutul jocului. La întreruperea pregătirii, intră într-o perioadă de reactivare cu durata redusă la 50%.",
 						"icon": "ASSETS/Perks/Styles/Domination/Predator/Predator.dds"
 					},
 					{
@@ -76,7 +76,7 @@
 						"key": "GhostPoro",
 						"name": "Poro-fantomă",
 						"shortDesc": "Când intri într-un tufiș, apare un poro. Acesta rămâne în urmă pentru a-ți oferi viziune.",
-						"longDesc": "Intră în tufiș pentru a invoca un animăluț poro după o scurtă pregătire. Animăluțul poro va rămâne în tufiș pentru a-ți oferi viziune până invoci altul.<br><br>Dacă un inamic intră într-un tufiș în care se află un poro, îl sperie, iar efectul ''{{ perk_displayname_GhostPoro }}'' intră într-o perioadă de reactivare de @Cooldown@ sec.<br><br>Pregătirea e întreruptă dacă suferi daune.",
+						"longDesc": "Intră în tufiș pentru a invoca un animăluț poro după o scurtă pregătire. Animăluțul poro va rămâne în tufiș pentru a-ți oferi viziune până invoci altul.<br><br>Dacă un inamic intră într-un tufiș în care se află un poro, îl sperie, iar efectul ''Poro-fantomă'' intră într-o perioadă de reactivare de @Cooldown@ sec.<br><br>Pregătirea e întreruptă dacă suferi daune.",
 						"icon": "ASSETS/Perks/Styles/Domination/GhostPoro/GhostPoro.dds"
 					},
 					{
@@ -84,7 +84,7 @@
 						"key": "EyeballCollection",
 						"name": "Colecție de ochi",
 						"shortDesc": "Primești ochi atunci când <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">dobori</lol-uikit-tooltipped-keyword> campioni și gărzi. Fiecare ochi oferă permanent AD sau AP <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">(adaptiv)</lol-uikit-tooltipped-keyword>, plus un bonus când termini colecția.",
-						"longDesc": "Primești ochi atunci când dobori campioni și gărzi. Pentru fiecare ochi din colecție, primești {{ perk_subtext_AdaptiveForce }}. <br><br>După ce aduni @MaxEyeballs@ ochi și termini colecția, primești încă {{ perk_subtext_AdaptiveForce_EyeballCollection }}.<br><br>Primești @StacksPerTakedown@ ochi pentru asasinatele de campioni, @StacksPerAssist@ pentru participările la asasinate și @StacksPerWard@ ochi pentru doborârile de gărzi.",
+						"longDesc": "Primești ochi atunci când dobori campioni și gărzi. Pentru fiecare ochi din colecție, primești un bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptiv</font></lol-uikit-tooltipped-keyword> de @AdaptiveForce.-1*0.6@ daune din atac sau @AdaptiveForce@ puterea abilităților. <br><br>După ce aduni @MaxEyeballs@ ochi și termini colecția, primești încă un bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptiv</font></lol-uikit-tooltipped-keyword> de @CompletionBonus.-1*0.6@ daune din atac sau @CompletionBonus@ puterea abilităților.<br><br>Primești @StacksPerTakedown@ ochi pentru asasinatele de campioni, @StacksPerAssist@ pentru participările la asasinate și @StacksPerWard@ ochi pentru doborârile de gărzi.",
 						"icon": "ASSETS/Perks/Styles/Domination/EyeballCollection/EyeballCollection.dds"
 					}
 				]
@@ -132,7 +132,7 @@
 						"key": "KSAlchemicalEsoterica",
 						"name": "Cartea deschisă a vrăjilor",
 						"shortDesc": "Folosește frânturile de vrăji în magazin pentru a-ți schimba vrăjile de invocator în timpul jocului. Vrăjile tale de invocator au timpi de reactivare reduși. <br>",
-						"longDesc": "Primești o frântură de vrajă în minutul @ShardFirstMinutes@, apoi câte una la fiecare @ShardRechargeMinutes@ minute (maximum @Maxshards@ frânturi).<br><br>Când te afli lângă magazin, poți folosi @ShardCost@ frântură de vrajă pentru a-ți schimba o vrajă de invocator. <br><br>În plus, timpii de reactivare ai vrăjilor tale de invocator scad cu @SummonerCDR.0*100@%.<br><br><rules><i>''Nimicire'':</i> când cumperi ''Nimicirea'', nu ai acces și la obiectele legate de ea.<br>Nu poți avea două vrăji de invocator identice.</rules>",
+						"longDesc": "Primești o frântură de vrajă în minutul @ShardFirstMinutes@, apoi câte una la fiecare @ShardRechargeMinutes@ min. (maximum @Maxshards@ frânturi).<br><br>Când te afli lângă magazin, poți folosi @ShardCost@ frântură de vrajă pentru a-ți schimba o vrajă de invocator. <br><br>În plus, timpii de reactivare ai vrăjilor tale de invocator scad cu @SummonerCDR.0*100@%.<br><br><rules><i>''Nimicire'':</i> când cumperi ''Nimicirea'', nu ai acces și la obiectele legate de ea.<br>Nu poți avea două vrăji de invocator identice.</rules>",
 						"icon": "ASSETS/Perks/Styles/Inspiration/KSAlchemicalEsoterica/KSAlchemicalEsoterica.dds"
 					},
 					{
@@ -164,33 +164,25 @@
 						"icon": "ASSETS/Perks/Styles/Inspiration/DontBlink/DontBlink.dds"
 					},
 					{
-						"id": 8345,
-						"key": "BiscuitsAndBonuses",
-						"name": "Comandă de biscuiți",
-						"shortDesc": "Primești gratis un biscuit o dată la @BiscuitMinuteInterval@ minute, până în minutul @SwapOverMinute@ de joc. Biscuiții te vindecă și îți refac mana, iar când consumi un biscuit, nivelul tău maxim de mană crește permanent.",
-						"longDesc": "Comandă de biscuiți: primești un ''{{game_item_displayname_2010}}'' la fiecare @BiscuitMinuteInterval@ minute, până în minutul @SwapOverMinute@ de joc.<br><br>Biscuiții îți refac @HealthHealPercent.0*100@% din viața și mana lipsă. Când consumi un biscuit, nivelul tău maxim de mană crește permanent cu @PermanentMana@. <br><br><i>Fără mană:</i> campionii care nu folosesc mană își refac în schimb @HealthHealPercentManaless.0*100@% din viața lipsă.",
-						"icon": "ASSETS/Perks/Styles/Inspiration/BiscuitsAndBonuses/BiscuitsAndBonuses.dds"
+						"id": 8304,
+						"key": "MagicalFootwear",
+						"name": "Încălțări magice",
+						"shortDesc": "Primești gratuit cizme în minutul @GiveBootsAtMinute@ de joc, dar nu poți cumpăra cizme până atunci. Fiecare <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">doborâre</lol-uikit-tooltipped-keyword> primită accelerează primirea cizmelor cu @SecondsSoonerPerTakedown@ sec.",
+						"longDesc": "Primești gratuit ''Cizme relativ magice'' în minutul @GiveBootsAtMinute@ de joc, dar nu poți cumpăra cizme până atunci. Pentru fiecare doborâre obținută, primești cizmele cu @SecondsSoonerPerTakedown@ sec. mai devreme.<br><br>Aceste cizme îți oferă +@AdditionalMovementSpeed@ viteză de mișcare.",
+						"icon": "ASSETS/Perks/Styles/Inspiration/MagicalFootwear/MagicalFootwear.dds"
 					},
 					{
 						"id": 8313,
 						"key": "AllInGoodTime",
 						"name": "Momentul perfect",
-						"shortDesc": "Primești gratuit un ''{{game_item_displayname_2420}}''. Activa obiectului ''{{game_item_displayname_2420}}'' poate fi folosită o singură dată și oferă un efect de <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Stasis\">stază</lol-uikit-tooltipped-keyword>.",
-						"longDesc": "Începi jocul cu un ''{{ game_item_displayname_2419 }}'', care se transformă în ''{{ game_item_displayname_2420 }}'' după @InitialCooldown.0@ min. ''{{ game_item_displayname_2420 }}'' poate fi folosit o singură dată și oferă un efect de stază.<br><br>Reduce cu @PercentGAZhonyasCDR.0*100@% timpii de reactivare pentru ''{{ game_item_displayname_3157 }}'', ''{{ game_item_displayname_3026 }}'', și ''{{ game_item_displayname_3193 }}''.",
+						"shortDesc": "Primești gratuit un ''Cronometru''. Activa obiectului ''Cronometru'' poate fi folosită o singură dată și oferă un efect de <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Stasis\">stază</lol-uikit-tooltipped-keyword>.",
+						"longDesc": "Începi jocul cu un ''Cronometru de început'', care se transformă în ''Cronometru'' după @InitialCooldown.0@ min. ''Cronometru'' poate fi folosit o singură dată și oferă un efect de stază.<br><br>Reduce cu @PercentGAZhonyasCDR.0*100@% timpii de reactivare pentru ''Clepsidra Zhonyei'', ''Înger păzitor'', și ''Platoșa garguiului''.",
 						"icon": "ASSETS/Perks/Styles/Style5/AllInGoodTime/AllInGoodTime.dds"
 					}
 				]
 			},
 			{
 				"runes": [
-					{
-						"id": 8304,
-						"key": "MagicalFootwear",
-						"name": "Încălțări magice",
-						"shortDesc": "Primești gratuit cizme în minutul @GiveBootsAtMinute@ de joc, dar nu poți cumpăra cizme până atunci. Fiecare <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">doborâre</lol-uikit-tooltipped-keyword> primită accelerează primirea cizmelor cu @SecondsSoonerPerTakedown@ sec.",
-						"longDesc": "Primești gratuit ''{{game_item_displayname_2422}}'' în minutul @GiveBootsAtMinute@ de joc, dar nu poți cumpăra cizme până atunci. Pentru fiecare doborâre obținută, primești cizmele cu @SecondsSoonerPerTakedown@ sec. mai devreme.<br><br>Aceste cizme îți oferă +@AdditionalMovementSpeed@ viteză de mișcare, iar îmbunătățirile lor costă cu 50 aur mai puțin.",
-						"icon": "ASSETS/Perks/Styles/Inspiration/MagicalFootwear/MagicalFootwear.dds"
-					},
 					{
 						"id": 8321,
 						"key": "NanaTaxman",
@@ -203,9 +195,17 @@
 						"id": 8316,
 						"key": "TheClearChoice",
 						"name": "Anihilator de minioni",
-						"shortDesc": "Începi jocul cu @GainedMinionKillers@ x ''{{game_item_displayname_2403}}''. Dacă ucizi un minion cu ajutorul obiectului, primești permanent daune bonus împotriva acelui tip de minion.",
-						"longDesc": "Începi jocul cu @GainedMinionKillers@ ''{{game_item_displayname_2403}}'', cu care poți ucide și absorbi minionii instantaneu. ''{{game_item_displayname_2403}}'' se află în perioada de reactivare în primele @InitialCooldown@ sec. de joc.<br><br>Dacă absorbi un minion, daunele tale cresc permanent cu +@DamageBonusForAnyAbsorbed.0*100@% împotriva tipului de minion ucis; în plus, primești +@DamageBonusPerAdditionalAbsorbed.0*100@% daune pentru fiecare minion suplimentar de același tip pe care-l absorbi.<br>",
+						"shortDesc": "Începi jocul cu @GainedMinionKillers@ x ''Anihilator de minioni''. Dacă ucizi un minion cu ajutorul obiectului, primești permanent daune bonus împotriva acelui tip de minion.",
+						"longDesc": "Începi jocul cu @GainedMinionKillers@ ''Anihilator de minioni'', cu care poți ucide și absorbi minionii instantaneu. ''Anihilator de minioni'' se află în perioada de reactivare în primele @InitialCooldown@ sec. de joc.<br><br>Dacă absorbi un minion, daunele tale cresc permanent cu +@DamageBonusForAnyAbsorbed.0*100@% împotriva tipului de minion ucis; în plus, primești +@DamageBonusPerAdditionalAbsorbed.0*100@% daune pentru fiecare minion suplimentar de același tip pe care-l absorbi.<br>",
 						"icon": "ASSETS/Perks/Styles/Inspiration/TheClearChoice/TheClearChoice.dds"
+					},
+					{
+						"id": 8345,
+						"key": "BiscuitsAndBonuses",
+						"name": "Comandă de biscuiți",
+						"shortDesc": "Primești gratis un biscuit o dată la @BiscuitMinuteInterval@ minute, până în minutul @SwapOverMinute@ de joc. Biscuiții te vindecă și îți refac mana, iar când consumi un biscuit, nivelul tău maxim de mană crește permanent.",
+						"longDesc": "Comandă de biscuiți: primești un ''Biscuit magic al infinității'' la fiecare @BiscuitMinuteInterval@ minute, până în minutul @SwapOverMinute@ de joc.<br><br>Biscuiții îți refac @HealthHealPercent.0*100@% din viața și mana lipsă. Când consumi un biscuit, nivelul tău maxim de mană crește permanent cu @PermanentMana@. <br><br><i>Fără mană:</i> campionii care nu folosesc mană își refac în schimb @HealthHealPercentManaless.0*100@% din viața lipsă.",
+						"icon": "ASSETS/Perks/Styles/Inspiration/BiscuitsAndBonuses/BiscuitsAndBonuses.dds"
 					}
 				]
 			},
@@ -260,7 +260,7 @@
 						"key": "Berserk",
 						"name": "Tempo letal",
 						"shortDesc": "La @LeadInDelay.1@ sec. după ce-i provoci daune unui campion, primești un bonus mare la viteza de atac. ''Tempoul letal'' îți permite să depășești temporar limita maximă a vitezei de atac.",
-						"longDesc": "La @LeadInDelay.1@ sec după ce-i provoci daune unui campion, primești @AttackSpeedMin*100@-@AttackSpeedMax*100@% viteză de atac (în funcție de nivel) timp de @AttackSpeedBuffDurationMin@ sec. Dacă ataci un campion, prelungești durata efectului la @AttackSpeedBuffDurationMax@ sec.<br><br>Timp de reactivare: @Cooldown@ sec<br><br>''{{perk_displayname_FlowofBattle}}'' îți permite să depășești temporar limita maximă a vitezei de atac.",
+						"longDesc": "La @LeadInDelay.1@ sec după ce-i provoci daune unui campion, primești @AttackSpeedMin*100@-@AttackSpeedMax*100@% viteză de atac (în funcție de nivel) timp de @AttackSpeedBuffDurationMin@ sec. Dacă ataci un campion, prelungești durata efectului la @AttackSpeedBuffDurationMax@ sec.<br><br>Timp de reactivare: @Cooldown@ sec<br><br>''Tempo letal'' îți permite să depășești temporar limita maximă a vitezei de atac.",
 						"icon": "ASSETS/Perks/Styles/Precision/FlowofBattle/FlowofBattleTemp.dds"
 					},
 					{
@@ -336,7 +336,7 @@
 						"key": "CoupDeGrace",
 						"name": "Lovitură de grație",
 						"shortDesc": "Provoci daune mai mari împotriva campionilor care au viață puțină.",
-						"longDesc": "Provoci daune cu @BonusPercentDamage.0 *100@% mai mari împotriva campionilor care au sub @EnemyHealthPercentageThreshold*100@% viață.<br><br>În plus, când dobori un campion, primești {{ perk_subtext_AdaptiveForce }} timp de @Duration@ sec.",
+						"longDesc": "Provoci daune cu @BonusPercentDamage.0 *100@% mai mari împotriva campionilor care au sub @EnemyHealthPercentageThreshold*100@% viață.<br><br>În plus, când dobori un campion, primești un bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptiv</font></lol-uikit-tooltipped-keyword> de @AdaptiveForce.-1*0.6@ daune din atac sau @AdaptiveForce@ puterea abilităților timp de @Duration@ sec.",
 						"icon": "ASSETS/Perks/Styles/Precision/CoupDeGrace/CoupDeGrace.dds"
 					},
 					{
@@ -369,27 +369,27 @@
 				"runes": [
 					{
 						"id": 8437,
-						"key": "KSRuinedKing",
+						"key": "GraspOfTheUndying",
 						"name": "Chemarea morților vii",
 						"shortDesc": "O dată la fiecare @TriggerTime@ sec., următorul tău atac împotriva unui campion inamic provoacă daune magice bonus, te vindecă și îți crește permanent viața.",
-						"longDesc": "La fiecare @TriggerTime@ sec. petrecute în luptă, următorul tău atac de bază împotriva unui campion:<li>provoacă daune magice bonus egale cu @PercentHealthDamage.0@% din viața ta maximă;</li><li>te vindecă în valoare de @PercentHealthHeal.0*100@% din viața ta maximă;</li><li>îți crește permanent viața cu @MaxHealthPerProc@</li><br><rules><i>Pentru campionii care atacă la distanță:</i> daunele provocate, vindecarea și viața permanentă primită sunt reduse cu @RangedPenaltyMod*100@%.</rules><br>",
-						"icon": "ASSETS/Perks/Styles/Resolve/KSRuinedKing/KSRuinedKing.dds"
+						"longDesc": "La fiecare @TriggerTime@ sec. petrecute în luptă, următorul tău atac de bază împotriva unui campion:<li>provoacă daune magice bonus egale cu @PercentHealthDamage.0@% din viața ta maximă;</li><li>te vindecă în valoare de @PercentHealthHeal.0*100@% din viața ta maximă;</li><li>îți crește permanent viața cu @MaxHealthPerProc@.</li><br><rules><i>Pentru campionii care atacă la distanță:</i> daunele provocate, vindecarea și viața permanentă primită sunt reduse cu @RangedPenaltyMod*100@%.</rules><br>",
+						"icon": "ASSETS/Perks/Styles/Resolve/GraspOfTheUndying/GraspOfTheUndying.dds"
 					},
 					{
 						"id": 8439,
-						"key": "Vengeance",
+						"key": "Aftershock",
 						"name": "Replică",
-						"shortDesc": "După ce <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Immobilize\">imobilizezi</lol-uikit-tooltipped-keyword> un campion inamic, primești atribute defensive și, după o perioadă de așteptare, provoci în jur daune <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">adaptive</lol-uikit-tooltipped-keyword>.",
+						"shortDesc": "După ce <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Immobilize\">imobilizezi</lol-uikit-tooltipped-keyword> un campion inamic, primești atribute defensive și, după o perioadă de așteptare, provoci în jur <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">daune adaptive</lol-uikit-tooltipped-keyword>.",
 						"longDesc": "După ce imobilizezi un campion inamic, primești un bonus de @FlatResists@-@FlatResistMaximum@ la armură și la rezistența la magie, timp de @DelayBeforeBurst.1@ sec. Apoi explodezi și le provoci daune magice inamicilor din apropiere.<br><br>Daune: @StartingBaseDamage@-@MaxBaseDamage@ (+@HealthRatio.-1@% din viața ta maximă) (+@DamageRatioAD*100@% din daunele bonus din atac) (+@DamageRatioAP*100@% din puterea abilităților)<br>Timp de reactivare: @Cooldown@ sec.",
-						"icon": "ASSETS/Perks/Styles/Resolve/VeteranVengeance/VeteranVengeance.dds"
+						"icon": "ASSETS/Perks/Styles/Resolve/VeteranAftershock/VeteranAftershock.dds"
 					},
 					{
 						"id": 8465,
-						"key": "KSBuddyShield",
+						"key": "Guardian",
 						"name": "Mână dreaptă",
 						"shortDesc": "Îți protejezi aliații asupra cărora folosești vrăji și pe cei care se află foarte aproape de tine. Dacă tu sau un aliat pe care-l protejezi suferiți daune, amândoi primiți un scut și un bonus la viteza de mișcare.",
-						"longDesc": "{{ perk_shared_desc_KSBuddyShield }}<br><br>Timp de reactivare: <scaleLevel>@Cooldown@-@CooldownMaxLevel@</scaleLevel> secunde<br>Scut: <scaleLevel>@ShieldBase@-@ShieldMax@</scaleLevel> + <scaleAP>@APRatio.-1@%</scaleAP> din puterea abilităților + <scalehealth>@HPRatio.0*100@%</scalehealth> din viața bonus.<br>Rapiditate: +@Haste*100@% viteză de mișcare.",
-						"icon": "ASSETS/Perks/Styles/Resolve/KSBuddyShield/KSBuddyShield.dds"
+						"longDesc": "Îi <i>protejezi</i> pe aliații aflați pe o rază de @SnuggleRange@ unități față de tine și pe cei asupra cărora folosești vrăji timp de @GuardDuration@ sec. Cât timp <i>protejezi</i> un campion aliat, dacă unul dintre voi suferă daune, amândoi primiți un scut și un bonus la viteza de mișcare timp de @ShieldDuration@ sec.<br><br>Timp de reactivare: <scaleLevel>@Cooldown@-@CooldownMaxLevel@</scaleLevel> sec.<br>Scut: <scaleLevel>@ShieldBase@-@ShieldMax@</scaleLevel> + <scaleAP>@APRatio.-1@%</scaleAP> din puterea abilităților + <scalehealth>@HPRatio.0*100@%</scalehealth> din viața bonus.<br>Rapiditate: +@Haste*100@% viteză de mișcare.",
+						"icon": "ASSETS/Perks/Styles/Resolve/Guardian/Guardian.dds"
 					}
 				]
 			},
@@ -397,27 +397,27 @@
 				"runes": [
 					{
 						"id": 8242,
-						"key": "Recharge",
+						"key": "Unflinching",
 						"name": "Curaj absolut",
 						"shortDesc": "După ce folosești o vrajă de invocator, primești tenacitate și rezistență la încetiniri pentru o durată scurtă. În plus, primești tenacitate și rezistență la încetiniri pentru fiecare vrajă de invocator aflată în perioada de reactivare. ",
 						"longDesc": "După ce folosești o vrajă de invocator, primești @BonusTenacity*100@% tenacitate și rezistență la încetiniri timp de @BuffDuration@ sec. În plus, primești @PersistTenacity*100@% tenacitate și rezistență la încetiniri pentru fiecare vrajă de invocator aflată în perioada de reactivare. ",
-						"icon": "ASSETS/Perks/Styles/Sorcery/Recharge/Recharge.dds"
+						"icon": "ASSETS/Perks/Styles/Sorcery/Unflinching/Unflinching.dds"
 					},
 					{
 						"id": 8446,
-						"key": "Siege",
+						"key": "Demolish",
 						"name": "Dărâmare",
 						"shortDesc": "Pregătești un atac puternic împotriva unui turn atunci când ești în apropierea lui.",
-						"longDesc": "Pregătești un atac puternic împotriva unui turn timp de @TotalSiegeTime@ sec., dacă te afli pe o rază de maximum @DistanceToTower@ unități față de el. Atacul pregătit provoacă daune fizice bonus în valoare de @OutputDamagePerStack@ (+@MaxHealthPercentDamage.0 * 100@% din viața ta maximă).<br><br>Timp de reactivare: @CooldownSeconds@ sec",
-						"icon": "ASSETS/Perks/Styles/Resolve/BrickHitHouse/BrickHitHouse.dds"
+						"longDesc": "Pregătești un atac puternic împotriva unui turn timp de @TotalDemolishTime@ sec., dacă te afli pe o rază de maximum @DistanceToTower@ unități față de el. Atacul pregătit provoacă daune fizice bonus în valoare de @OutputDamagePerStack@ (+@MaxHealthPercentDamage.0 * 100@% din viața ta maximă).<br><br>Timp de reactivare: @CooldownSeconds@ sec",
+						"icon": "ASSETS/Perks/Styles/Resolve/Demolish/Demolish.dds"
 					},
 					{
 						"id": 8463,
-						"key": "BloodFromStone",
+						"key": "FontOfLife",
 						"name": "Fântâna vieții",
 						"shortDesc": "Dacă îi <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairMov\">reduci mobilitatea</lol-uikit-tooltipped-keyword> unui campion inamic, acesta este însemnat. Aliații tăi se vindecă atunci când atacă campionii însemnați. ",
 						"longDesc": "Dacă îi reduci mobilitatea unui campion inamic, acesta este însemnat timp de @MarkDuration@ sec.<br><br>Campionii aliați care atacă inamicii însemnați se vindecă cu @FlatHealAmount@ + @HealthRatio.-1 * 100@% din viața ta maximă de-a lungul a @HealDuration@ sec. ",
-						"icon": "ASSETS/Perks/Styles/Resolve/BloodFromStone/BloodFromStone.dds"
+						"icon": "ASSETS/Perks/Styles/Resolve/FontOfLife/FontOfLife.dds"
 					}
 				]
 			},
@@ -425,27 +425,27 @@
 				"runes": [
 					{
 						"id": 8430,
-						"key": "NemMarks",
+						"key": "IronSkin",
 						"name": "Piele de fier",
 						"shortDesc": "Primești +@ArmorBase@ armură. <br>Vindecările, inclusiv cele provenite din obiecte consumabile, îți cresc temporar armura cu @TotalExtraArmor*100@%.",
 						"longDesc": "Primești +@ArmorBase@ armură. <br><br>Armura ta crește cu @TotalExtraArmor*100@% timp de @EvolveArmorDuration@ sec. atunci când primești viață dintr-un obiect consumabil, când îți vindeci cel puțin @FlatHealThreshold@ viață sau când primești un scut.",
-						"icon": "ASSETS/Perks/Styles/Resolve/NemMarks/NemMarks.dds"
+						"icon": "ASSETS/Perks/Styles/Resolve/IronSkin/IronSkin.dds"
 					},
 					{
 						"id": 8435,
-						"key": "NemMage",
+						"key": "MirrorShell",
 						"name": "Oglindă în oglindă",
 						"shortDesc": "Primești +@MRBase@ rezistență la magie. <br>Vindecările, inclusiv cele provenite din obiecte consumabile, îți cresc temporar rezistența la magie cu @EvolveBonusMR*100@%.<br>",
 						"longDesc": "Primești +@MRBase@ rezistență la magie. <br><br>Rezistența ta la magie crește cu @EvolveBonusMR*100@% timp de @EvolveShellDuration@ sec. atunci când primești viață dintr-un obiect consumabil, când îți vindeci cel puțin @FlatHealThreshold@ viață sau când primești un scut. ",
-						"icon": "ASSETS/Perks/Styles/Resolve/NemMage/NemMage.dds"
+						"icon": "ASSETS/Perks/Styles/Resolve/MirrorShell/MirrorShell.dds"
 					},
 					{
 						"id": 8429,
-						"key": "NemFighter",
+						"key": "Conditioning",
 						"name": "Condiționare",
 						"shortDesc": "După @MinutesRequired@ min., primești @ArmorBase@ armură și @MRBase@ rezistență la magie, iar armura și rezistența ta la magie totale cresc cu @ExtraResist@%.",
-						"longDesc": "{{ perk_short_desc_NemFighter }}",
-						"icon": "ASSETS/Perks/Styles/Resolve/NemFighter/NemFighter.dds"
+						"longDesc": "După @MinutesRequired@ min., primești @ArmorBase@ armură și @MRBase@ rezistență la magie, iar armura și rezistența ta la magie totale cresc cu @ExtraResist@%.",
+						"icon": "ASSETS/Perks/Styles/Resolve/Conditioning/Conditioning.dds"
 					}
 				]
 			},
@@ -453,19 +453,19 @@
 				"runes": [
 					{
 						"id": 8451,
-						"key": "HealthBandit",
+						"key": "Overgrowth",
 						"name": "Creștere excesivă",
 						"shortDesc": "Primești viață maximă permanentă atunci când mor minioni inamici sau monștri în apropierea ta.",
 						"longDesc": "Primești @MaxHealthRatioPerTier*100@% viață maximă permanentă la fiecare @UnitsPerTier@ monștri sau minioni inamici care mor în apropierea ta.",
-						"icon": "ASSETS/Perks/Styles/Resolve/HealthBandit/HealthBandit.dds"
+						"icon": "ASSETS/Perks/Styles/Resolve/Overgrowth/Overgrowth.dds"
 					},
 					{
 						"id": 8453,
-						"key": "AmpShields",
+						"key": "Revitalize",
 						"name": "Revitalizare",
 						"shortDesc": "Vindecările și scuturile activate sau primite de tine sunt mai puternice cu @StandardAmp.0@%, valoare ce crește cu încă @ExtraAmp.0@% în cazul țintelor cu viață scăzută.",
 						"longDesc": "Vindecările și scuturile activate sau primite de tine sunt mai puternice cu @StandardAmp.0@%, valoare ce crește cu încă @ExtraAmp.0@% în cazul țintelor care au sub @HealthCutoff.0@% viață.",
-						"icon": "ASSETS/Perks/Styles/Resolve/AmpShields/AmpShields.dds"
+						"icon": "ASSETS/Perks/Styles/Resolve/Revitalize/Revitalize.dds"
 					},
 					{
 						"id": 8444,
@@ -500,7 +500,7 @@
 						"key": "ArcaneComet",
 						"name": "Meteorit ocult",
 						"shortDesc": "Atunci când îi provoci daune unui campion printr-o abilitate, lansezi către el un meteorit care provoacă și el daune.",
-						"longDesc": "Atunci când îi provoci daune unui campion printr-o abilitate, lansezi către el un meteorit. Cât timp ''Meteoritul ocult'' se află în perioada de reactivare, atacul îi reduce timpul de reactivare.<br><br><lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>Daune adaptive</font></lol-uikit-tooltipped-keyword>: @DamageBase@-@DamageMax@, în funcție de nivel (<scaleAP>+@APRatio.-1@ AP</scaleAP> și <scaleAD>+@ADRatio.-1@ AD bonus</scaleAD>)<br>Timp de reactivare: @RechargeTime@-@RechargeTimeMin@ sec.<br><rules><br>Reducere timp de reactivare:<br>Abilități cu țintă unică: @PercentRefund*100@%<br>Abilități AoE: @AoEPercentRefund*100@%<br>Abilități ce provoacă daune în timp: @DotPercentRefund*100@%.<br></rules>",
+						"longDesc": "Atunci când îi provoci daune unui campion printr-o abilitate, lansezi către el un meteorit. Dacă ''Meteoritul ocult'' se află în perioada de reactivare, provocarea de daune prin abilități îi reduce timpul de reactivare rămas.<br><br><lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>Daune adaptive</font></lol-uikit-tooltipped-keyword>: @DamageBase@-@DamageMax@, în funcție de nivel (<scaleAP>+@APRatio.-1@ AP</scaleAP> și <scaleAD>+@ADRatio.-1@ AD bonus</scaleAD>)<br>Timp de reactivare: @RechargeTime@-@RechargeTimeMin@ sec.<br><rules><br>Reducere timp de reactivare:<br>Abilități cu țintă unică: @PercentRefund*100@%<br>Abilități AoE: @AoEPercentRefund*100@%<br>Abilități ce provoacă daune în timp: @DotPercentRefund*100@%.<br></rules>",
 						"icon": "ASSETS/Perks/Styles/Sorcery/ArcaneComet/ArcaneComet.dds"
 					},
 					{
@@ -548,7 +548,7 @@
 						"key": "Transcendence",
 						"name": "Transcendență",
 						"shortDesc": "Primești @MaxCDR*100@% <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_CDR\">RTR</lol-uikit-tooltipped-keyword> când ajungi la nivelul @LevelToTurnOn@. Valoarea de RTR în exces se transformă în AP sau AD (<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">adaptiv</lol-uikit-tooltipped-keyword>).",
-						"longDesc": "Primești @MaxCDR*100@% RTR când ajungi la nivelul @LevelToTurnOn@.<br><br>Fiecare procent de RTR în exces se transformă în {{ perk_subtext_AdaptiveForce }}.",
+						"longDesc": "Primești @MaxCDR*100@% RTR când ajungi la nivelul @LevelToTurnOn@.<br><br>Fiecare procent de RTR în exces se transformă în un bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptiv</font></lol-uikit-tooltipped-keyword> de @AdaptiveForce.-1*0.6@ daune din atac sau @AdaptiveForce@ puterea abilităților.",
 						"icon": "ASSETS/Perks/Styles/Sorcery/Transcendence/Transcendence.dds"
 					},
 					{
@@ -564,7 +564,7 @@
 						"key": "AbsoluteFocus",
 						"name": "Concentrare deplină",
 						"shortDesc": "Când ai peste @HealthPercent*100@% viață, primești <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">daune adaptive </lol-uikit-tooltipped-keyword> suplimentare.",
-						"longDesc": "Când ai peste @HealthPercent*100@% viață, primești {{ perk_subtext_AdaptiveForce_Max }} (în funcție de nivel).",
+						"longDesc": "Când ai peste @HealthPercent*100@% viață, primești un bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptiv</font></lol-uikit-tooltipped-keyword> de până la @MaxAdaptive.-1*0.6@ daune din atac sau @MaxAdaptive@ puterea abilităților (în funcție de nivel).",
 						"icon": "ASSETS/Perks/Styles/Sorcery/AbsoluteFocus/AbsoluteFocus.dds"
 					}
 				]
@@ -584,7 +584,7 @@
 						"key": "Waterwalking",
 						"name": "Mers pe apă",
 						"shortDesc": "Primești <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">viteză de mișcare</lol-uikit-tooltipped-keyword> și AP sau AD <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">adaptiv</lol-uikit-tooltipped-keyword> atunci când te afli în râu.",
-						"longDesc": "Primești @MovementSpeed@ viteză de mișcare și {{ perk_subtext_AdaptiveForce_Max }} (în funcție de nivel) atunci când te afli în râu.<br><br><hr></hr><br><i>''Fii iute ca râul învolburat și agil ca un Crab înfricoșat.''</i><br>",
+						"longDesc": "Primești @MovementSpeed@ viteză de mișcare și un bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptiv</font></lol-uikit-tooltipped-keyword> de până la @MaxAdaptive.-1*0.6@ daune din atac sau @MaxAdaptive@ puterea abilităților (în funcție de nivel) atunci când te afli în râu.<br><br><hr></hr><br><i>''Fii iute ca râul învolburat și agil ca un Crab înfricoșat.''</i><br>",
 						"icon": "ASSETS/Perks/Styles/Sorcery/Waterwalking/Waterwalking.dds"
 					},
 					{

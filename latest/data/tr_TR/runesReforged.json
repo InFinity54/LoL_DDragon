@@ -20,7 +20,7 @@
 						"key": "Predator",
 						"name": "Yırtıcı",
 						"shortDesc": "Çizmelerine büyük miktarda <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">HH</lol-uikit-tooltipped-keyword> artışı ve bir sonraki saldırı veya yeteneğinin ilave <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">değişken hasar</lol-uikit-tooltipped-keyword> vermesini sağlayan bir aktif etki ekler.",
-						"longDesc": "Çizmelerini '<font color='#c60300'>{{perk_displayname_Predator}}</font>' aktif etkisiyle efsunlar.<br><br>{{ game_itemmod_bloodmoonboots }}",
+						"longDesc": "Çizmelerini '<font color='#c60300'>Yırtıcı</font>' aktif etkisiyle efsunlar.<br><br>Çatışma dışında 1,5 saniye yoğunlaşarak 15 saniyeliğine %45 Hareket Hızı kazanırsın. Hasar veren saldırı veya yetenekler bu etkiyi sonlandırır ve 60 ila 180 (+<scaleAD>0,4</scaleAD> İlave SG)(+<scaleAP>0,25</scaleAP> YG) ilave <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>değişken hasar</font></lol-uikit-tooltipped-keyword> verir.<br><br>Bekleme süresi: 150 ila 100 sn. Oyuna bekleme süresinde başlar. Yoğunlaşma sırasında engellenirse %50'lik bir bekleme süresine girer.",
 						"icon": "ASSETS/Perks/Styles/Domination/Predator/Predator.dds"
 					},
 					{
@@ -76,7 +76,7 @@
 						"key": "GhostPoro",
 						"name": "Hayalet Poro",
 						"shortDesc": "Çalıya girdiğinde bir poro ortaya çıkar. Poro burada bekleyerek sana görüş sağlar.",
-						"longDesc": "Çalıya girerek kısa bir yoğunlaşma süresinin ardından bir poro çağırırsın. Bu poro sen yeni bir tane çağırana kadar burada bekleyerek sana görüş sağlar.<br><br>Eğer bir rakip içerisinde poro bulunan çalıya girerse poroyu korkutup kaçırarak {{ perk_displayname_GhostPoro }} etkisini @Cooldown@ saniyelik bekleme süresine sokar.<br><br>Hasar alındığında poro yoğunlaşması sonlanır.",
+						"longDesc": "Çalıya girerek kısa bir yoğunlaşma süresinin ardından bir poro çağırırsın. Bu poro sen yeni bir tane çağırana kadar burada bekleyerek sana görüş sağlar.<br><br>Eğer bir rakip içerisinde poro bulunan çalıya girerse poroyu korkutup kaçırarak Hayalet Poro etkisini @Cooldown@ saniyelik bekleme süresine sokar.<br><br>Hasar alındığında poro yoğunlaşması sonlanır.",
 						"icon": "ASSETS/Perks/Styles/Domination/GhostPoro/GhostPoro.dds"
 					},
 					{
@@ -84,7 +84,7 @@
 						"key": "EyeballCollection",
 						"name": "Gözyuvarı Koleksiyonu",
 						"shortDesc": "Şampiyon ve totem <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">alt etmelerinde</lol-uikit-tooltipped-keyword> gözyuvarı toplarsın. Topladığın her gözyuvarı başına kalıcı, koleksiyonunu tamamladığında ise ilave SG veya YG <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">(değişken)</lol-uikit-tooltipped-keyword> kazanırsın.",
-						"longDesc": "Şampiyon ve totem alt ettiğinde gözyuvarı toplarsın. Toplanan her gözyuvarı başına {{ perk_subtext_AdaptiveForce }} kazanırsın.<br><br>@MaxEyeballs@ gözyuvarı toplayarak koleksiyonunu tamamladığında fazladan {{ perk_subtext_AdaptiveForce_EyeballCollection }} kazanırsın.<br><br>Şampiyon katletme başına @StacksPerTakedown@, asist başına@StacksPerAssist@ ve totem alt etme başına @StacksPerWard@ gözyuvarı toplarsın.",
+						"longDesc": "Şampiyon ve totem alt ettiğinde gözyuvarı toplarsın. Toplanan her gözyuvarı başına <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Değişken</font></lol-uikit-tooltipped-keyword> @AdaptiveForce.-1*0.6@ Saldırı Gücü veya @AdaptiveForce@ Yetenek Gücü ilavesi kazanırsın.<br><br>@MaxEyeballs@ gözyuvarı toplayarak koleksiyonunu tamamladığında fazladan <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Değişken</font></lol-uikit-tooltipped-keyword> @CompletionBonus.-1*0.6@ Saldırı Gücü veya @CompletionBonus@ Yetenek Gücü ilavesi kazanırsın.<br><br>Şampiyon katletme başına @StacksPerTakedown@, asist başına@StacksPerAssist@ ve totem alt etme başına @StacksPerWard@ gözyuvarı toplarsın.",
 						"icon": "ASSETS/Perks/Styles/Domination/EyeballCollection/EyeballCollection.dds"
 					}
 				]
@@ -164,33 +164,25 @@
 						"icon": "ASSETS/Perks/Styles/Inspiration/DontBlink/DontBlink.dds"
 					},
 					{
-						"id": 8345,
-						"key": "BiscuitsAndBonuses",
-						"name": "Peksimet Teslimatı",
-						"shortDesc": "@SwapOverMinute@ dakika geçene kadar her @BiscuitMinuteInterval@ dakikada bir bedelsiz bir Peksimet kazanırsın. Peksimet tüketmek azami mananı kalıcı olarak arttırır, can ve mana yeniler.",
-						"longDesc": "Peksimet Teslimatı: @SwapOverMinute@ dakika geçene kadar her @BiscuitMinuteInterval@ dakikada bir {{game_item_displayname_2010}} kazanırsın.<br><br>Peksimetler eksik can ve mana miktarlarının %@HealthHealPercent.0*100@ kadarını yeniler. Peksimet tüketmek, mana üst sınırını kalıcı olarak @PermanentMana@ arttırır.<br><br><i>Manasız:</i> Mana kullanmayan şampiyonlar eksik can değerlerinin %@HealthHealPercentManaless.0*100@ kadarını yeniler.",
-						"icon": "ASSETS/Perks/Styles/Inspiration/BiscuitsAndBonuses/BiscuitsAndBonuses.dds"
+						"id": 8304,
+						"key": "MagicalFootwear",
+						"name": "Sihirli Pabuçlar",
+						"shortDesc": "@GiveBootsAtMinute@. dakikada bedava çizme kazanırsın ama bu andan önce çizme alamazsın. Gerçekleştirdiğin her <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">alt etme</lol-uikit-tooltipped-keyword>, çizmelere @SecondsSoonerPerTakedown@ saniye erken ulaşmanı sağlar.",
+						"longDesc": "@GiveBootsAtMinute@. dakikada bedelsiz Kısmen Büyülü Çizmeler kazanır ama bu sürenin öncesinde çizme alamazsın. Alt ettiğin her şampiyon başına çizmeleri @SecondsSoonerPerTakedown@ saniye daha erken elde edersin.<br><br>Kısmen Büyülü Çizmeler sana fazladan +@AdditionalMovementSpeed@ Hareket Hızı kazandırır.",
+						"icon": "ASSETS/Perks/Styles/Inspiration/MagicalFootwear/MagicalFootwear.dds"
 					},
 					{
 						"id": 8313,
 						"key": "AllInGoodTime",
 						"name": "Mükemmel Zamanlama",
-						"shortDesc": "Bedelsiz bir {{game_item_displayname_2420}} kazanırsın. {{game_item_displayname_2420}} bir defa kullanılabilen, aktif bir <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Stasis\">zamanı durdurma</lol-uikit-tooltipped-keyword> etkisine sahiptir.",
-						"longDesc": "Oyuna @InitialCooldown.0@ dakika sonra {{ game_item_displayname_2420 }} şeklini alan bir {{ game_item_displayname_2419 }} ile başlarsın. {{ game_item_displayname_2420 }} tek kullanımlık bir zamanı durdurma etkisine sahiptir.<br><br>{{ game_item_displayname_3157 }}, {{ game_item_displayname_3026 }} ve {{ game_item_displayname_3193 }} bekleme sürelerini %@PercentGAZhonyasCDR.0*100@ azaltır.",
+						"shortDesc": "Bedelsiz bir Kronometre kazanırsın. Kronometre bir defa kullanılabilen, aktif bir <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Stasis\">zamanı durdurma</lol-uikit-tooltipped-keyword> etkisine sahiptir.",
+						"longDesc": "Oyuna @InitialCooldown.0@ dakika sonra Kronometre şeklini alan bir Durağan Kronometre ile başlarsın. Kronometre tek kullanımlık bir zamanı durdurma etkisine sahiptir.<br><br>Zhonya'nın Kumsaati, Koruyucu Melek ve Gargoyl Taşzırhı bekleme sürelerini %@PercentGAZhonyasCDR.0*100@ azaltır.",
 						"icon": "ASSETS/Perks/Styles/Style5/AllInGoodTime/AllInGoodTime.dds"
 					}
 				]
 			},
 			{
 				"runes": [
-					{
-						"id": 8304,
-						"key": "MagicalFootwear",
-						"name": "Sihirli Pabuçlar",
-						"shortDesc": "@GiveBootsAtMinute@. dakikada bedava çizme kazanırsın ama bu andan önce çizme alamazsın. Gerçekleştirdiğin her <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">alt etme</lol-uikit-tooltipped-keyword>, çizmelere @SecondsSoonerPerTakedown@ saniye erken ulaşmanı sağlar.",
-						"longDesc": "@GiveBootsAtMinute@. dakikada bedelsiz {{game_item_displayname_2422}} kazanır ama bu sürenin öncesinde çizme alamazsın. Alt ettiğin her şampiyon başına çizmeleri @SecondsSoonerPerTakedown@ saniye daha erken elde edersin.<br><br>{{game_item_displayname_2422}} sana fazladan +@AdditionalMovementSpeed@ Hareket Hızı kazandırır ve 50 Altın daha ucuza geliştirilebilir.",
-						"icon": "ASSETS/Perks/Styles/Inspiration/MagicalFootwear/MagicalFootwear.dds"
-					},
 					{
 						"id": 8321,
 						"key": "NanaTaxman",
@@ -203,9 +195,17 @@
 						"id": 8316,
 						"key": "TheClearChoice",
 						"name": "Minyon Uçuran",
-						"shortDesc": "Oyuna @GainedMinionKillers@ {{game_item_displayname_2403}} ile başlarsın. Bu eşya ile minyon biçmek, biçilen minyon türüne karşı kalıcı ilave hasar sağlar.",
-						"longDesc": "Oyuna koridor minyonlarını hemen biçen ve onları soğuran @GainedMinionKillers@ {{game_item_displayname_2403}} ile başlarsın. {{game_item_displayname_2403}} oyunun ilk @InitialCooldown@ saniyesi boyunca bekleme süresinde kalır.<br><br>Bir minyon soğurmak, aynı türdeki minyonlara verdiğin hasarı kalıcı olarak +%@DamageBonusForAnyAbsorbed.0*100@ ve sonrasında soğurduğun aynı türden her minyon için +%@DamageBonusPerAdditionalAbsorbed.0*100@ arttırır.<br>",
+						"shortDesc": "Oyuna @GainedMinionKillers@ Minyon Uçuran ile başlarsın. Bu eşya ile minyon biçmek, biçilen minyon türüne karşı kalıcı ilave hasar sağlar.",
+						"longDesc": "Oyuna koridor minyonlarını hemen biçen ve onları soğuran @GainedMinionKillers@ Minyon Uçuran ile başlarsın. Minyon Uçuran oyunun ilk @InitialCooldown@ saniyesi boyunca bekleme süresinde kalır.<br><br>Bir minyon soğurmak, aynı türdeki minyonlara verdiğin hasarı kalıcı olarak +%@DamageBonusForAnyAbsorbed.0*100@ ve sonrasında soğurduğun aynı türden her minyon için +%@DamageBonusPerAdditionalAbsorbed.0*100@ arttırır.<br>",
 						"icon": "ASSETS/Perks/Styles/Inspiration/TheClearChoice/TheClearChoice.dds"
+					},
+					{
+						"id": 8345,
+						"key": "BiscuitsAndBonuses",
+						"name": "Peksimet Teslimatı",
+						"shortDesc": "@SwapOverMinute@ dakika geçene kadar her @BiscuitMinuteInterval@ dakikada bir bedelsiz bir Peksimet kazanırsın. Peksimet tüketmek azami mananı kalıcı olarak arttırır, can ve mana yeniler.",
+						"longDesc": "Peksimet Teslimatı: @SwapOverMinute@ dakika geçene kadar her @BiscuitMinuteInterval@ dakikada bir Ebedi Tam Yenilenme Peksimeti kazanırsın.<br><br>Peksimetler eksik can ve mana miktarlarının %@HealthHealPercent.0*100@ kadarını yeniler. Peksimet tüketmek, mana üst sınırını kalıcı olarak @PermanentMana@ arttırır.<br><br><i>Manasız:</i> Mana kullanmayan şampiyonlar eksik can değerlerinin %@HealthHealPercentManaless.0*100@ kadarını yeniler.",
+						"icon": "ASSETS/Perks/Styles/Inspiration/BiscuitsAndBonuses/BiscuitsAndBonuses.dds"
 					}
 				]
 			},
@@ -260,7 +260,7 @@
 						"key": "Berserk",
 						"name": "Ölümcül Tempo",
 						"shortDesc": "Bir şampiyona hasar verdikten @LeadInDelay.1@ saniye sonra saldırı hızın büyük ölçüde artar. Ölümcül Tempo geçici olarak saldırı hızı sınırını aşmana izin verir.",
-						"longDesc": "Bir şampiyona hasar verdikten @LeadInDelay.1@ saniye sonra saldırı hızın @AttackSpeedBuffDurationMax@ saniyeliğine seviyene bağlı olarak %@AttackSpeedMin*100@ ila %@AttackSpeedMax*100@ artar. Bir şampiyona saldırmak etkinin süresini @AttackSpeedBuffDurationMin@ saniyeye çıkarır.<br><br>Bekleme Süresi: @Cooldown@ sn.<br><br>{{perk_displayname_FlowofBattle}} geçici bir süreliğine saldırı hızı sınırını aşmana izin verir.",
+						"longDesc": "Bir şampiyona hasar verdikten @LeadInDelay.1@ saniye sonra saldırı hızın @AttackSpeedBuffDurationMax@ saniyeliğine seviyene bağlı olarak %@AttackSpeedMin*100@ ila %@AttackSpeedMax*100@ artar. Bir şampiyona saldırmak etkinin süresini @AttackSpeedBuffDurationMin@ saniyeye çıkarır.<br><br>Bekleme Süresi: @Cooldown@ sn.<br><br>Ölümcül Tempo geçici bir süreliğine saldırı hızı sınırını aşmana izin verir.",
 						"icon": "ASSETS/Perks/Styles/Precision/FlowofBattle/FlowofBattleTemp.dds"
 					},
 					{
@@ -336,7 +336,7 @@
 						"key": "CoupDeGrace",
 						"name": "Son Darbe",
 						"shortDesc": "Canı az olan şampiyonlara daha fazla hasar verirsin.",
-						"longDesc": "Canı %@EnemyHealthPercentageThreshold*100@ miktarının altındaki şampiyonlara %@BonusPercentDamage.0 *100@ fazla hasar verirsin.<br><br>Ayrıca şampiyon alt etmeler @Duration@ saniyeliğine {{ perk_subtext_AdaptiveForce }} sağlar.",
+						"longDesc": "Canı %@EnemyHealthPercentageThreshold*100@ miktarının altındaki şampiyonlara %@BonusPercentDamage.0 *100@ fazla hasar verirsin.<br><br>Ayrıca şampiyon alt etmeler @Duration@ saniyeliğine <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Değişken</font></lol-uikit-tooltipped-keyword> @AdaptiveForce.-1*0.6@ Saldırı Gücü veya @AdaptiveForce@ Yetenek Gücü ilavesi sağlar.",
 						"icon": "ASSETS/Perks/Styles/Precision/CoupDeGrace/CoupDeGrace.dds"
 					},
 					{
@@ -369,27 +369,27 @@
 				"runes": [
 					{
 						"id": 8437,
-						"key": "KSRuinedKing",
+						"key": "GraspOfTheUndying",
 						"name": "Hortlağın Pençesi",
 						"shortDesc": "Her @TriggerTime@ saniyede, bir şampiyona yönelik sonraki saldırın ilave büyü hasarı verir, seni iyileştirir ve kalıcı olarak can değerini arttırır.",
 						"longDesc": "Çatışmada olduğun her @TriggerTime@ saniye, bir şampiyona yönelik bir sonraki normal saldırın: <li>Azami can miktarının %@PercentHealthDamage.0@ kadarına eşdeğer ilave büyü hasarı verir</li><li>Seni azami can miktarının %@PercentHealthHeal.0*100@ kadarına eşdeğer miktarda iyileştirir</li><li>Can miktarını kalıcı olarak @MaxHealthPerProc@ arttırır</li><br><rules><i>Menzilli Şampiyonlar:</i> Hasar, iyileştirme ve kazanılan kalıcı can %@RangedPenaltyMod*100@ azalır.</rules><br>",
-						"icon": "ASSETS/Perks/Styles/Resolve/KSRuinedKing/KSRuinedKing.dds"
+						"icon": "ASSETS/Perks/Styles/Resolve/GraspOfTheUndying/GraspOfTheUndying.dds"
 					},
 					{
 						"id": 8439,
-						"key": "Vengeance",
+						"key": "Aftershock",
 						"name": "Artçı Şok",
 						"shortDesc": "Rakip bir şampiyonu <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Immobilize\">hareketsiz bıraktıktan</lol-uikit-tooltipped-keyword> sonra savunman artar ve ardından etrafındaki rakiplere anlık <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">değişken hasar</lol-uikit-tooltipped-keyword> verirsin.",
 						"longDesc": "Bir rakip şampiyonu hareketsiz bıraktıktan sonra zırh ve büyü direncini @DelayBeforeBurst.1@ saniyeliğine @FlatResists@ ila @FlatResistMaximum@ arttırır. Sonrasında infilak ederek yakındaki rakiplere büyü hasarı verir.<br><br>Hasar: @StartingBaseDamage@ ila @MaxBaseDamage@ (+ azami can miktarının %@HealthRatio.-1@ kadarı) (+ ilave saldırı gücünün %@DamageRatioAD*100@ kadarı) (+ yetenek gücünün %@DamageRatioAP*100@ kadarı)<br>Bekleme süresi: @Cooldown@ sn.",
-						"icon": "ASSETS/Perks/Styles/Resolve/VeteranVengeance/VeteranVengeance.dds"
+						"icon": "ASSETS/Perks/Styles/Resolve/VeteranAftershock/VeteranAftershock.dds"
 					},
 					{
 						"id": 8465,
-						"key": "KSBuddyShield",
+						"key": "Guardian",
 						"name": "Muhafız",
 						"shortDesc": "Üzerinde yetenek kullandığın ve yakınında olan takım arkadaşlarını koruma altına alırsın. Koruma altındayken hasar alırsanız ikiniz de hızlanır ve bir kalkan kazanırsınız.",
-						"longDesc": "{{ perk_shared_desc_KSBuddyShield }}<br><br>Bekleme süresi: <scaleLevel>@Cooldown@ - @CooldownMaxLevel@</scaleLevel> sn.<br>Kalkan: <scaleLevel>@ShieldBase@ ila @ShieldMax@</scaleLevel> + yetenek gücünün <scaleAP>%@APRatio.-1@</scaleAP> kadarı + ilave can miktarının <scalehealth>%@HPRatio.0*100@</scalehealth> kadarı.<br>Hız: +%@Haste*100@ Hareket Hızı",
-						"icon": "ASSETS/Perks/Styles/Resolve/KSBuddyShield/KSBuddyShield.dds"
+						"longDesc": "@GuardDuration@ saniyeliğine @SnuggleRange@ birim yakınındaki ve yeteneklerinle hedef aldığın takım arkadaşlarını <i>koruma</i> altına alırsın. <i>Koruma</i> sağlarken hasar alırsanız ikiniz de @ShieldDuration@ saniyeliğine kalkan kazanır ve hızlanırsınız.<br><br>Bekleme süresi: <scaleLevel>@Cooldown@ - @CooldownMaxLevel@</scaleLevel> sn.<br>Kalkan: <scaleLevel>@ShieldBase@ ila @ShieldMax@</scaleLevel> + yetenek gücünün <scaleAP>%@APRatio.-1@</scaleAP> kadarı + ilave can miktarının <scalehealth>%@HPRatio.0*100@</scalehealth> kadarı.<br>Hız: +%@Haste*100@ Hareket Hızı",
+						"icon": "ASSETS/Perks/Styles/Resolve/Guardian/Guardian.dds"
 					}
 				]
 			},
@@ -397,27 +397,27 @@
 				"runes": [
 					{
 						"id": 8242,
-						"key": "Recharge",
+						"key": "Unflinching",
 						"name": "Gözü Kara",
 						"shortDesc": "Bir sihirdar büyüsü kullandıktan sonra kısa süreliğine sıvışma ve yavaşlatma direnci kazandırır. Ayrıca bekleme süresinde olan her sihirdar büyüsü başına da sıvışma ve yavaşlatma direnci sağlar. ",
 						"longDesc": "Bir sihirdar büyüsü kullandıktan sonra @BuffDuration@ saniyeliğine %@BonusTenacity*100@ Sıvışma ve Yavaşlatma Direnci kazandırır. Ayrıca bekleme süresinde olan her sihirdar büyüsü başına %@PersistTenacity*100@ Sıvışma ve Yavaşlatma Direnci sağlar. ",
-						"icon": "ASSETS/Perks/Styles/Sorcery/Recharge/Recharge.dds"
+						"icon": "ASSETS/Perks/Styles/Sorcery/Unflinching/Unflinching.dds"
 					},
 					{
 						"id": 8446,
-						"key": "Siege",
+						"key": "Demolish",
 						"name": "Tahrip",
 						"shortDesc": "Bir kulenin yakınındayken yoğunlaşır ve kuleye güçlü bir saldırı gerçekleştirirsin.",
-						"longDesc": "Bir kuleye en fazla @DistanceToTower@ mesafedeyken kuleye yönelik kuvvetli bir saldırı için @TotalSiegeTime@ saniye boyunca güç toplarsın. Bu güçlü saldırı @OutputDamagePerStack@ (+ azami can değerinin %@MaxHealthPercentDamage.0 * 100@ kadarı) ilave fiziksel hasar verir.<br><br>Bekleme Süresi: @CooldownSeconds@ sn.",
-						"icon": "ASSETS/Perks/Styles/Resolve/BrickHitHouse/BrickHitHouse.dds"
+						"longDesc": "Bir kuleye en fazla @DistanceToTower@ mesafedeyken kuleye yönelik kuvvetli bir saldırı için @TotalDemolishTime@ saniye boyunca güç toplarsın. Bu güçlü saldırı @OutputDamagePerStack@ (+ azami can miktarının %@MaxHealthPercentDamage.0 * 100@ kadarı) ilave fiziksel hasar verir.<br><br>Bekleme Süresi: @CooldownSeconds@ sn.",
+						"icon": "ASSETS/Perks/Styles/Resolve/Demolish/Demolish.dds"
 					},
 					{
 						"id": 8463,
-						"key": "BloodFromStone",
+						"key": "FontOfLife",
 						"name": "Yaşam Kaynağı",
 						"shortDesc": "Rakip bir şampiyonun <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairMov\">hareketini kısıtlamak</lol-uikit-tooltipped-keyword> onu işaretler. Takım arkadaşların, işaretlediğin hedefe saldırdığında can yeniler. ",
 						"longDesc": "Bir rakip şampiyonun hareketini kısıtlamak onu @MarkDuration@ saniyeliğine işaretler.<br><br>İşaretlenmiş rakiplere saldıran takım arkadaşların, @HealDuration@ saniye içinde @FlatHealAmount@ + senin azami can miktarının %@HealthRatio.-1 * 100@ kadarı iyileşir. ",
-						"icon": "ASSETS/Perks/Styles/Resolve/BloodFromStone/BloodFromStone.dds"
+						"icon": "ASSETS/Perks/Styles/Resolve/FontOfLife/FontOfLife.dds"
 					}
 				]
 			},
@@ -425,27 +425,27 @@
 				"runes": [
 					{
 						"id": 8430,
-						"key": "NemMarks",
+						"key": "IronSkin",
 						"name": "Demir Deri",
 						"shortDesc": "+@ArmorBase@ Zırh kazandırır.<br>Tek kullanımlık eşyalardan gelenler de dahil iyileştirme etkileri, zırhını geçici olarak %@TotalExtraArmor*100@ arttırır.",
 						"longDesc": "+@ArmorBase@ Zırh kazanırsın.<br><br>İyileştirme etkisine sahip tek kullanımlık eşyalar en az @FlatHealThreshold@ Can değerinde iyileşme sağlar ve @EvolveArmorDuration@ saniyeliğine zırhını %@TotalExtraArmor*100@ arttırır.",
-						"icon": "ASSETS/Perks/Styles/Resolve/NemMarks/NemMarks.dds"
+						"icon": "ASSETS/Perks/Styles/Resolve/IronSkin/IronSkin.dds"
 					},
 					{
 						"id": 8435,
-						"key": "NemMage",
+						"key": "MirrorShell",
 						"name": "Ayna Kabuk",
 						"shortDesc": "+@MRBase@ Büyü Direnci kazandırır.<br>Tek kullanımlık eşyalardan gelenler de dahil iyileştirme etkileri, büyü direncini geçici olarak %@EvolveBonusMR*100@ arttırır.<br>",
-						"longDesc": "+@MRBase@ Büyü Direnci kazanırsın.<br><br>İyileştirme etkisine sahip tek kullanımlık eşyalar en az @FlatHealThreshold@ Can değerinde iyileşme sağlar ve @EvolveShellDuration@ saniyeliğine büyü direncini +%@EvolveBonusMR*100@ arttırır.",
-						"icon": "ASSETS/Perks/Styles/Resolve/NemMage/NemMage.dds"
+						"longDesc": "+@MRBase@ Büyü Direnci kazanırsın.<br><br>İyileştirme etkisine sahip tek kullanımlık eşyalar en az @FlatHealThreshold@ Can değerinde iyileşme sağlar ve @EvolveShellDuration@ saniyeliğine büyü direncini +%@EvolveBonusMR*100@ arttırır. ",
+						"icon": "ASSETS/Perks/Styles/Resolve/MirrorShell/MirrorShell.dds"
 					},
 					{
 						"id": 8429,
-						"key": "NemFighter",
+						"key": "Conditioning",
 						"name": "Kondisyon",
 						"shortDesc": "@MinutesRequired@ dakikanın ardından +@ArmorBase@ Zırh ile +@MRBase@ Büyü Direnci kazanırsın ve zırh ve büyü direncin %@ExtraResist@ artar.",
-						"longDesc": "{{ perk_short_desc_NemFighter }}",
-						"icon": "ASSETS/Perks/Styles/Resolve/NemFighter/NemFighter.dds"
+						"longDesc": "@MinutesRequired@ dakikanın ardından +@ArmorBase@ Zırh ile +@MRBase@ Büyü Direnci kazanırsın ve zırh ve büyü direncin %@ExtraResist@ artar.",
+						"icon": "ASSETS/Perks/Styles/Resolve/Conditioning/Conditioning.dds"
 					}
 				]
 			},
@@ -453,19 +453,19 @@
 				"runes": [
 					{
 						"id": 8451,
-						"key": "HealthBandit",
+						"key": "Overgrowth",
 						"name": "Aşırı Büyüme",
 						"shortDesc": "Yakınında minyon veya canavar can verdiğinde fazladan azami can kazanırsın.",
 						"longDesc": "Yakınında can veren her @UnitsPerTier@ canavar ya da rakip minyon başına kalıcı olarak %@MaxHealthRatioPerTier*100@ Azami Can kazanırsın.",
-						"icon": "ASSETS/Perks/Styles/Resolve/HealthBandit/HealthBandit.dds"
+						"icon": "ASSETS/Perks/Styles/Resolve/Overgrowth/Overgrowth.dds"
 					},
 					{
 						"id": 8453,
-						"key": "AmpShields",
+						"key": "Revitalize",
 						"name": "Canlandır",
 						"shortDesc": "Kullandığın ve üzerinde kullanılan iyileştirme ve kalkan etkileri %@StandardAmp.0@ daha güçlü hale gelir ve canı az olan hedeflere karşı fazladan %@ExtraAmp.0@ daha etkili olur.",
 						"longDesc": "Kullandığın veya üzerinde kullanılan iyileştirme ve kalkan etkileri %@StandardAmp.0@ daha güçlü hale gelir ve canı %@HealthCutoff.0@ miktarının altındaki hedeflerde bu etki fazladan %@ExtraAmp.0@ daha artar.",
-						"icon": "ASSETS/Perks/Styles/Resolve/AmpShields/AmpShields.dds"
+						"icon": "ASSETS/Perks/Styles/Resolve/Revitalize/Revitalize.dds"
 					},
 					{
 						"id": 8444,
@@ -548,7 +548,7 @@
 						"key": "Transcendence",
 						"name": "Yücelik",
 						"shortDesc": "@LevelToTurnOn@. seviyeye ulaştığında %@MaxCDR*100@ <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_CDR\">BSA</lol-uikit-tooltipped-keyword> kazanırsın. Fazlalık bekleme süresinde azalma, YG veya SG <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">(değişken)</lol-uikit-tooltipped-keyword> olarak kazanılır.",
-						"longDesc": "@LevelToTurnOn@. seviyeye ulaştığında %@MaxCDR*100@ Bekleme Süresinde Azalma kazanırsın.<br><br>Fazlalık her bekleme süresinde azalma yüzdesi {{ perk_subtext_AdaptiveForce }} olarak kazanılır.",
+						"longDesc": "@LevelToTurnOn@. seviyeye ulaştığında %@MaxCDR*100@ Bekleme Süresinde Azalma kazanırsın.<br><br>Fazlalık her bekleme süresinde azalma yüzdesi <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Değişken</font></lol-uikit-tooltipped-keyword> @AdaptiveForce.-1*0.6@ Saldırı Gücü veya @AdaptiveForce@ Yetenek Gücü ilavesi olarak kazanılır.",
 						"icon": "ASSETS/Perks/Styles/Sorcery/Transcendence/Transcendence.dds"
 					},
 					{
@@ -564,7 +564,7 @@
 						"key": "AbsoluteFocus",
 						"name": "Mutlak Odak",
 						"shortDesc": "%@HealthPercent*100@ Can değerinin üzerindeyken ayrıca <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">değişken hasar</lol-uikit-tooltipped-keyword> kazanırsın.",
-						"longDesc": "%@HealthPercent*100@ Can değerinin üzerindeyken {{ perk_subtext_AdaptiveForce_Max }} kazanırsın (seviyeye göre).",
+						"longDesc": "%@HealthPercent*100@ Can değerinin üzerindeyken <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Değişken</font></lol-uikit-tooltipped-keyword> olarak en fazla @MaxAdaptive.-1*0.6@ Saldırı Gücü veya @MaxAdaptive@ Yetenek Gücü ilavesi kazanırsın (seviyeye göre).",
 						"icon": "ASSETS/Perks/Styles/Sorcery/AbsoluteFocus/AbsoluteFocus.dds"
 					}
 				]
@@ -584,7 +584,7 @@
 						"key": "Waterwalking",
 						"name": "Suda Yürüyen",
 						"shortDesc": "Nehirdeyken <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">HH</lol-uikit-tooltipped-keyword> ve SG veya YG <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">(değişken)</lol-uikit-tooltipped-keyword> kazanırsın.",
-						"longDesc": "Nehirdeyken @MovementSpeed@ Hareket Hızı ve (seviyeye bağlı) {{ perk_subtext_AdaptiveForce_Max }} kazanırsın.<br><br><hr></hr><br><i>Akan nehir kadar hızlı, ürken Yampiri Yengeç kadar çevik olasın.</i><br>",
+						"longDesc": "Nehirdeyken @MovementSpeed@ Hareket Hızı ve (seviyeye bağlı) <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Değişken</font></lol-uikit-tooltipped-keyword> olarak en fazla @MaxAdaptive.-1*0.6@ Saldırı Gücü veya @MaxAdaptive@ Yetenek Gücü ilavesi kazanırsın.<br><br><hr></hr><br><i>Akan nehir kadar hızlı, ürken Yampiri Yengeç kadar çevik olasın.</i><br>",
 						"icon": "ASSETS/Perks/Styles/Sorcery/Waterwalking/Waterwalking.dds"
 					},
 					{
