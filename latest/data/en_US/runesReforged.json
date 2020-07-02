@@ -84,7 +84,7 @@
 						"key": "WardSlayer",
 						"name": "Eyeball Collection",
 						"shortDesc": "Collect eyeballs for champion and ward <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">takedowns</lol-uikit-tooltipped-keyword>. Gain permanent AD or AP, <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">adaptive</lol-uikit-tooltipped-keyword> for each eyeball plus bonus upon collection completion.",
-						"longDesc": "Collect eyeballs for champion and ward takedowns. Gain {{ perk_subtext_AdaptiveForce }}, per eyeball collected. <br><br>Upon completing your collection at @MaxEyeballs@ eyeballs, additionally gain {{ perk_subtext_AdaptiveForce_EyeballCollection }}.<br><br>Collect @StacksPerTakedown@ eyeballs per champion takedown, @StacksPerWard@ eyeball per ward takedown.",
+						"longDesc": "Collect eyeballs for champion and ward takedowns. Gain {{ perk_subtext_AdaptiveForce }}, per eyeball collected. <br><br>Upon completing your collection at @MaxEyeballs@ eyeballs, additionally gain {{ perk_subtext_AdaptiveForce_EyeballCollection }}.<br><br>Collect @StacksPerTakedown@ eyeballs per champion kill, @StacksPerAssist@ per assist, and @StacksPerWard@ per ward takedown.",
 						"icon": "ASSETS/Perks/Styles/Domination/WardSlayer/WardSlayer.dds"
 					}
 				]
@@ -268,7 +268,7 @@
 						"key": "KSFleetFootwork",
 						"name": "Fleet Footwork",
 						"shortDesc": "Attacking and moving builds Energy stacks. At 100 stacks, your next attack heals you and grants increased <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">MS</lol-uikit-tooltipped-keyword>.",
-						"longDesc": "Attacking and moving builds Energy stacks. At 100 stacks, your next attack is Energized.<br><br>Energized attacks heal you for @HealBase@ - @HealMax@ (+@HealBonusADRatio.-1@ Bonus AD, +@HealAPRatio.-1@ AP) and grant +@MSBuff*100@% Movement Speed for @MSDuration.0@s.<br><rules>Healing is @MinionHealMod*100@% as effective when used on a minion.</rules>",
+						"longDesc": "Attacking and moving builds Energy stacks. At 100 stacks, your next attack is Energized.<br><br>Energized attacks heal you for @HealBase@ - @HealMax@ (+@HealBonusADRatio.-1@ Bonus AD, +@HealAPRatio.-1@ AP) and grant +@MSBuff*100@% movement speed for @MSDuration.0@s.<br><rules>Healing is @MinionHealMod*100@% as effective when used on a minion.<br>Healing is increased by @HealCritMod*100@% of your critical damage modifier when triggered by a critical hit.</rules>",
 						"icon": "ASSETS/Perks/Styles/Precision/KSFleetFootwork/KSFleetFootwork.dds"
 					}
 				]
@@ -463,8 +463,8 @@
 						"id": 8453,
 						"key": "AmpShields",
 						"name": "Revitalize",
-						"shortDesc": "Heals and shields you cast are @StandardAmp.0@% stronger and increased by an additional @ExtraAmp.0@% on low health targets.",
-						"longDesc": "Heals and shields you cast are @StandardAmp.0@% stronger and increased by an additional @ExtraAmp.0@% on targets below @HealthCutoff.0@% health.",
+						"shortDesc": "Heals and shields you cast or receive are @StandardAmp.0@% stronger and increased by an additional @ExtraAmp.0@% on low health targets.",
+						"longDesc": "Heals and shields you cast or receive are @StandardAmp.0@% stronger and increased by an additional @ExtraAmp.0@% on targets below @HealthCutoff.0@% health.",
 						"icon": "ASSETS/Perks/Styles/Resolve/AmpShields/AmpShields.dds"
 					},
 					{
@@ -508,7 +508,7 @@
 						"key": "KSSpellslingersSurge",
 						"name": "Phase Rush",
 						"shortDesc": "Hitting an enemy champion with 3 <b>separate</b> attacks or abilities grants a burst of <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">MS</lol-uikit-tooltipped-keyword>. ",
-						"longDesc": "Hitting an enemy champion with 3 attacks or <b>separate</b> abilities within @Window@s grants @HasteBase*100@ - @HasteMax*100@% Movement Speed based on level.<br><br>Duration: @Duration@s<br>Cooldown: @Cooldown@s<br><i>Melee:</i> Additionally, gain @SlowResist*100@% Slow Resistance for the duration.",
+						"longDesc": "Hitting an enemy champion with 3 attacks or <b>separate</b> abilities within @Window@s grants @HasteBase*100@ - @HasteMax*100@% Movement Speed based on level and @SlowResist*100@% Slow Resistance.<br><br>Duration: @Duration@s<br>Cooldown: @Cooldown@s",
 						"icon": "ASSETS/Perks/Styles/Sorcery/KSSpellslingersSurge/KSSpellslingersSurge.dds"
 					}
 				]
