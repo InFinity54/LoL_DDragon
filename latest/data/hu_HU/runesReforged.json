@@ -11,7 +11,7 @@
 						"id": 8112,
 						"key": "Electrocute",
 						"name": "Áramütés",
-						"shortDesc": "Ha egy hőst @WindowDuration@ másodperc alatt 3 <b>különálló</b> támadással vagy képességgel sikerül eltalálni, az bónusz <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">adaptív sebzést</lol-uikit-tooltipped-keyword> okoz az áldozatnak.",
+						"shortDesc": "Ha egy hőst @WindowDuration@ másodperc alatt 3 <b>különálló</b> támadással vagy képességgel sikerül eltalálni, az bónusz <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>adaptív sebzést</lol-uikit-tooltipped-keyword> okoz az áldozatnak.",
 						"longDesc": "Ha egy hőst @WindowDuration@ másodperc alatt 3 <b>különálló</b> támadással vagy képességgel sikerül eltalálni, az bónusz <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>adaptív sebzést</font></lol-uikit-tooltipped-keyword> okoz az áldozatnak.<br><br>Sebzés: @DamageBase@–@DamageMax@ (+@BonusADRatio.-1@ bónusz sebzés, +@APRatio.-1@ varázserő).<br><br>Töltési idő: @Cooldown@–@CooldownMin@ másodperc.<br><br><hr></hr><i>„Villámfejedelmeknek hívtuk őket, de nem szabad kiejteni a nevüket, mert pusztulást hoznak.”</i>",
 						"icon": "ASSETS/Perks/Styles/Domination/Electrocute/Electrocute.dds"
 					},
@@ -19,7 +19,7 @@
 						"id": 8124,
 						"key": "Predator",
 						"name": "Ragadozó",
-						"shortDesc": "Aktív tárggyá alakíthatod a cipődet, ami jelentősen megnöveli a <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">mozgási sebességet</lol-uikit-tooltipped-keyword>, a következő támadásod vagy képességed pedig bónusz <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">adaptív sebzést</lol-uikit-tooltipped-keyword> okoz.",
+						"shortDesc": "Aktív tárggyá alakíthatod a cipődet, ami jelentősen megnöveli a <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>mozgási sebességet</lol-uikit-tooltipped-keyword>, a következő támadásod vagy képességed pedig bónusz <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>adaptív sebzést</lol-uikit-tooltipped-keyword> okoz.",
 						"longDesc": "„<font color='#c60300'>Ragadozó</font>” aktív hatással erősíti a cipődet.<br><br>1,5 másodperces harcon kívüli varázslás után 15 másodpercre 45%-kal növeli a mozgási sebességet. A sebző támadások vagy varázslatok megszüntetik a hatást, és 60–180 (+<scaleAD>0,4</scaleAD> bónusz sebzés)(+<scaleAP>0,25</scaleAP> varázserő) bónusz <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>adaptív sebzést</font></lol-uikit-tooltipped-keyword> okoznak.<br><br>Töltési idő: 150–100 másodperc. A játék elején kezdeti töltési idővel rendelkezik. A töltési idő 50%-ról indul újra, ha a varázslás megszakad.",
 						"icon": "ASSETS/Perks/Styles/Domination/Predator/Predator.dds"
 					},
@@ -27,7 +27,7 @@
 						"id": 8128,
 						"key": "DarkHarvest",
 						"name": "Sötét szüret",
-						"shortDesc": "A hősök, a nagy minionok és a nagy szörnyek lélekesszenciákat hagynak hátra halálukkor. A megérintett lelkeket elnyeled, amitől a következő támadásod bónusz <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">adaptív sebzést</lol-uikit-tooltipped-keyword> okoz az összegyűjtött lélekesszenciák teljes száma alapján.",
+						"shortDesc": "A hősök, a nagy minionok és a nagy szörnyek lélekesszenciákat hagynak hátra halálukkor. A megérintett lelkeket elnyeled, amitől a következő támadásod bónusz <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>adaptív sebzést</lol-uikit-tooltipped-keyword> okoz az összegyűjtött lélekesszenciák teljes száma alapján.",
 						"longDesc": "A hősök, a nagy minionok és a nagy szörnyek lélekesszenciákat hagynak hátra halálukkor. A lelkeket felvéve a <font color='#c60300'>Lélektöltet</font> erősítő hatáshoz jutsz. A hősök vagy építmények elleni következő támadásod felemészti a <font color='#c60300'>Lélektöltet</font> hatást, és bónusz <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>adaptív sebzést</font></lol-uikit-tooltipped-keyword> okoz.<br><br>A <font color='#c60300'>Lélektöltet</font> @ONHDuration@ másodpercig marad aktív, amely @SoulsRequiredForIncreasedDuration@ lélekesszencia begyűjtése után @ONHDurationLong@ másodpercre növekszik.<br><br>Bónusz sebzés: @DamageMin@–@DamageMax@ (+<scaleAD>@ADRatio.2@ bónusz sebzés</scaleAD>) (+<scaleAP>@APRatio.1@ varázserő</scaleAP>) + az összegyűjtött lélekesszenciák száma.<br><rules><br>Hősök: @champstacks@ lélekesszencia.<br>Szörnyek: @monsterstacks@ lélekesszencia.<br>Minionok: @minionstacks@ lélekesszencia.</rules>",
 						"icon": "ASSETS/Perks/Styles/Domination/DarkHarvest/DarkHarvest.dds"
 					}
@@ -39,7 +39,7 @@
 						"id": 8126,
 						"key": "CheapShot",
 						"name": "Alattomos támadás",
-						"shortDesc": "Bónusz tényleges sebzést okozol a <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairAct\">mozgáskorlátozó hatás alatt álló</lol-uikit-tooltipped-keyword> ellenséges hősöknek. ",
+						"shortDesc": "Bónusz tényleges sebzést okozol a <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_ImpairAct'>mozgáskorlátozó hatás alatt álló</lol-uikit-tooltipped-keyword> ellenséges hősöknek. ",
 						"longDesc": "A <b>mozgást vagy cselekvést korlátozó</b> hatás alatt álló ellenfeleknek @DamageIncMin@–@DamageIncMax@ bónusz tényleges sebzést okozol (a szinttől függően).<br><br>Töltési idő: @Cooldown@ másodperc.<br><rules>A korlátozó hatás utáni sebzés aktiválja.</rules>",
 						"icon": "ASSETS/Perks/Styles/Domination/CheapShot/CheapShot.dds"
 					},
@@ -83,7 +83,7 @@
 						"id": 8138,
 						"key": "EyeballCollection",
 						"name": "Szemgolyógyűjtemény",
-						"shortDesc": "Hősök és őrszemek <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">kiiktatásával</lol-uikit-tooltipped-keyword> szemgolyókra tehetsz szert. Minden begyűjtött szemgolyó végleges sebzést vagy varázserőt ad <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">(adaptív)</lol-uikit-tooltipped-keyword>, illetve további bónuszt kapsz, ha eléred a maximális számú szemgolyót.",
+						"shortDesc": "Hősök és őrszemek <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>kiiktatásával</lol-uikit-tooltipped-keyword> szemgolyókra tehetsz szert. Minden begyűjtött szemgolyó végleges sebzést vagy varázserőt ad <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'>(adaptív)</lol-uikit-tooltipped-keyword>, illetve további bónuszt kapsz, ha eléred a maximális számú szemgolyót.",
 						"longDesc": "Hősök és őrszemek kiiktatásával szemgolyókra tehetsz szert. Begyűjtött szemgolyónként @AdaptiveForce.-1*0.6@ bónusz sebzés vagy @AdaptiveForce@ varázserő <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>(adaptív)</font></lol-uikit-tooltipped-keyword> jár. <br><br>@MaxEyeballs@ szemgolyó összegyűjtése után további <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>(adaptív)</font></lol-uikit-tooltipped-keyword> bónusz @CompletionBonus.-1*0.6@ sebzés vagy @CompletionBonus@ varázserő jár.<br><br>A gyilkosságokért @StacksPerTakedown@, az asszisztokért @StacksPerAssist@, az őrszemek kiiktatásáért szintén @StacksPerWard@ szemgolyót lehet szerezni minden alkalommal.",
 						"icon": "ASSETS/Perks/Styles/Domination/EyeballCollection/EyeballCollection.dds"
 					}
@@ -95,7 +95,7 @@
 						"id": 8135,
 						"key": "RavenousHunter",
 						"name": "A mohó vadász",
-						"shortDesc": "Az <b>egyedi</b> <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">kiiktatások</lol-uikit-tooltipped-keyword> véglegesen megnövelik a képességekkel okozott sebzésből nyert gyógyulás értékét. ",
+						"shortDesc": "Az <b>egyedi</b> <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>kiiktatások</lol-uikit-tooltipped-keyword> véglegesen megnövelik a képességekkel okozott sebzésből nyert gyógyulás értékét. ",
 						"longDesc": "A képességeid által okozott sebzés egy bizonyos százalékával egyenlő életerőt nyersz vissza.<br>Gyógyulás: @StartingOmnivamp*100@% + @OmnivampPerStack*100@% <i>Fejvadász</i> jelzőnként. <br><br><i>Fejvadász</i> jelzőt akkor kapsz, amikor először iktatsz ki egy ellenséges hőst.<br><rules><br>A területre ható képességek esetében a gyógyítás mértéke az egyharmadára csökken.</rules><br>",
 						"icon": "ASSETS/Perks/Styles/Domination/RavenousHunter/RavenousHunter.dds"
 					},
@@ -103,7 +103,7 @@
 						"id": 8134,
 						"key": "IngeniousHunter",
 						"name": "Zseniális vadász",
-						"shortDesc": "Az <b>egyedi</b> <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">kiiktatások</lol-uikit-tooltipped-keyword> végleges <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_CDR\">csökkentett töltési időt</lol-uikit-tooltipped-keyword> biztosítanak az aktiválható tárgyak esetében (beleértve a talizmánokat is).",
+						"shortDesc": "Az <b>egyedi</b> <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>kiiktatások</lol-uikit-tooltipped-keyword> végleges <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_CDR'>csökkentett töltési időt</lol-uikit-tooltipped-keyword> biztosítanak az aktiválható tárgyak esetében (beleértve a talizmánokat is).",
 						"longDesc": "@StartingActiveItemCDR.0*100@%-kal, plusz <i>Fejvadász</i> jelzőnként további @ActiveItemCDRPerStack.0*100@%-kal nő <b>az aktiválható tárgyakra vonatkozó csökkentett töltési idő</b> statisztika (beleértve a talizmánokat is).<br><br><i>Fejvadász</i> jelzőt akkor kapsz, amikor először iktatsz ki egy ellenséges hőst.",
 						"icon": "ASSETS/Perks/Styles/Domination/IngeniousHunter/IngeniousHunter.dds"
 					},
@@ -111,7 +111,7 @@
 						"id": 8105,
 						"key": "RelentlessHunter",
 						"name": "Könyörtelen vadász",
-						"shortDesc": "Az <b>egyedi</b> <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">kiiktatások</lol-uikit-tooltipped-keyword> állandó <b>harcon kívüli <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">mozgási sebességet</lol-uikit-tooltipped-keyword></b> adnak. ",
+						"shortDesc": "Az <b>egyedi</b> <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>kiiktatások</lol-uikit-tooltipped-keyword> állandó <b>harcon kívüli <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>mozgási sebességet</lol-uikit-tooltipped-keyword></b> adnak. ",
 						"longDesc": "@StartingOOCMS@ egységnyi <b>harcon kívüli mozgási sebességet</b> biztosít, amelyet minden <i>Fejvadász</i> jelző @OOCMS.0@ ponttal növel.<br><br><i>Fejvadász</i> jelzőt akkor kapsz, amikor először iktatsz ki egy ellenséges hőst.",
 						"icon": "ASSETS/Perks/Styles/Domination/RelentlessHunter/RelentlessHunter.dds"
 					}
@@ -129,27 +129,27 @@
 				"runes": [
 					{
 						"id": 8326,
-						"key": "KSAlchemicalEsoterica",
+						"key": "UnsealedSpellbook",
 						"name": "Felnyitott varázskönyv",
-						"shortDesc": "A megszerzett idézői töredékeket beválthatod a boltban, hogy lecseréld az idézői varázslataid a játék során. Az idézői varázslatok töltési ideje csökken. <br>",
+						"shortDesc": "A megszerzett idézői töredékeket beválthatod a boltban, hogy lecseréld az idézői varázslataidat a játék során. Az idézői varázslatok töltési ideje csökken. <br>",
 						"longDesc": "@ShardFirstMinutes@ perc elteltével egy idézői töredéket kapsz, majd @ShardRechargeMinutes@ percenként egy újabbat (legfeljebb @Maxshards@ töredéket).<br><br>A bolt közelében @ShardCost@ idézői töredék felhasználásával kicserélheted az egyik idézői varázslatodat egy másikra. <br><br>Ezenfelül @SummonerCDR.0*100@%-kal csökken az idézői varázslataid töltési ideje.<br><br><rules><i>Sújtás:</i> a Sújtás megvásárlása nem ad hozzáférést a Sújtás-tárgyakhoz.<br>Nem lehet két példányod ugyanabból az idézői varázslatból.</rules>",
-						"icon": "ASSETS/Perks/Styles/Inspiration/KSAlchemicalEsoterica/KSAlchemicalEsoterica.dds"
+						"icon": "ASSETS/Perks/Styles/Inspiration/UnsealedSpellbook/UnsealedSpellbook.dds"
 					},
 					{
 						"id": 8351,
-						"key": "KSGlacialAugment",
+						"key": "GlacialAugment",
 						"name": "Fagyos erősítés",
 						"shortDesc": "Az ellenséges hősök elleni első támadásod lassítja őket (egyedi töltési idő hősönként). Az aktív tárgyakkal lassított hősökön fagysugár halad át, amely ideiglenesen lassító területet hoz létre alattuk.",
-						"longDesc": "A hősök elleni alaptámadásaid @SlowDuration.0@ másodpercen át lassítják a célpontot. A lassítás az időtartama alatt erősödik.<li><i>Távolsági támadás</i>: a távolsági támadások legfeljebb @SlowAmountBase.0*-100@–@SlowAmountMax.0*-100@%-os lassítást okoznak. </li><li><i>Közelharci támadás</i>: a közelharci támadások legfeljebb @SlowAmountBaseMelee.0*-100@–@SlowAmountMaxMelee.0*-100@%-os lassítást okoznak.</li> <br>Ha aktív tárggyal lassítasz egy ellenfelet, fagysugár halad át rajta, @SlowZoneDuration@ másodpercre megfagyasztva a körülötte lévő területet, amelyen belül minden egység @SlowZoneSlow*-100@%-kal lassul.<br><br>Töltési idő: egységenként @UnitCDBase@–@UnitCD16@ másodperc",
-						"icon": "ASSETS/Perks/Styles/Inspiration/KSGlacialAugment/KSGlacialAugment.dds"
+						"longDesc": "A hősök elleni alaptámadásaid @SlowDuration.0@ másodpercen át lassítják a célpontot. A lassítás az időtartama alatt erősödik.<li><i>Távolsági támadás</i>: a távolsági támadások legfeljebb @SlowAmountBase.0*-100@–@SlowAmountMax.0*-100@%-os lassítást okoznak. </li><li><i>Közelharci támadás</i>: a közelharci támadások legfeljebb @SlowAmountBaseMelee.0*-100@–@SlowAmountMaxMelee.0*-100@%-os lassítást okoznak.</li> <br>Ha aktív tárggyal lassítasz egy ellenfelet, fagysugár halad át rajta, @SlowZoneDuration@ másodpercre megfagyasztva a körülötte lévő területet, amelyen belül minden egység @SlowZoneSlow*-100@%-kal lassul.<br><br>Töltési idő: egységenként @UnitCDBase@–@UnitCD16@ másodperc.",
+						"icon": "ASSETS/Perks/Styles/Inspiration/GlacialAugment/GlacialAugment.dds"
 					},
 					{
 						"id": 8359,
-						"key": "KSLooter",
+						"key": "Kleptomancy",
 						"name": "Kleptománia",
-						"shortDesc": "Egy képesség használata után a következő, hős elleni támadásod bónusz aranyat ad. Sőt, arra is van esély, hogy valamilyen fogyóeszközt szerzel.",
-						"longDesc": "Egy képesség használata után a következő, hős elleni támadásod bónusz aranyat ad. Sőt, arra is van esély, hogy valamilyen fogyóeszközt szerzel.",
-						"icon": "ASSETS/Perks/Styles/Inspiration/KSLooter/KSLooter.dds"
+						"shortDesc": "Egy képesség használata után a következő hős elleni támadásod bónusz aranyat ad. Sőt, arra is van esély, hogy valamilyen fogyóeszközt szerzel.",
+						"longDesc": "Egy képesség használata után a következő hős elleni támadásod bónusz aranyat ad. Sőt, arra is van esély, hogy valamilyen fogyóeszközt szerzel.",
+						"icon": "ASSETS/Perks/Styles/Inspiration/Kleptomancy/Kleptomancy.dds"
 					}
 				]
 			},
@@ -157,27 +157,27 @@
 				"runes": [
 					{
 						"id": 8306,
-						"key": "DontBlink",
+						"key": "HextechFlashtraption",
 						"name": "Hextech villantó",
 						"shortDesc": "Amíg az Átvillanás töltődik, a <i>Hexvillanás</i> lép a helyébe.<br><br><i>Hexvillanás</i>: varázslás után egy új helyre ugrasz.",
 						"longDesc": "Amíg az Átvillanás töltődik, a <i>Hexvillanás</i> lép a helyébe.<br><br><i>Hexvillanás</i>: @ChannelDuration@ másodperces varázslás után egy új helyre ugrasz.<br><br>Töltési idő: @CooldownTime@ másodperc. Ha hősök ellen kezdesz harcolni, @ChampionCombatCooldown@ másodperces töltési idő kezdődik.",
-						"icon": "ASSETS/Perks/Styles/Inspiration/DontBlink/DontBlink.dds"
+						"icon": "ASSETS/Perks/Styles/Inspiration/HextechFlashtraption/HextechFlashtraption.dds"
 					},
 					{
 						"id": 8304,
 						"key": "MagicalFootwear",
 						"name": "Mágikus lábbeli",
-						"shortDesc": "A játék @GiveBootsAtMinute@. percében egy ingyenes cipő jár neked, de addig nem vásárolhatsz cipőket. A <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">kiiktatások</lol-uikit-tooltipped-keyword> @SecondsSoonerPerTakedown@ másodperccel lerövidítik a cipők megszerzéséhez szükséges időt.",
+						"shortDesc": "A játék @GiveBootsAtMinute@. percében egy ingyenes cipő jár neked, de addig nem vásárolhatsz cipőket. A <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>kiiktatások</lol-uikit-tooltipped-keyword> @SecondsSoonerPerTakedown@ másodperccel lerövidítik a cipők megszerzéséhez szükséges időt.",
 						"longDesc": "A játék @GiveBootsAtMinute@. percében egy ingyenes Kissé mágikus cipő jár neked, de addig nem vásárolhatsz cipőket. Minden egyes kiiktatással @SecondsSoonerPerTakedown@ másodperccel hamarabb juthatsz a cipőkhöz.<br><br>Egy Kissé mágikus cipő további +@AdditionalMovementSpeed@ mozgási sebességet biztosít.",
 						"icon": "ASSETS/Perks/Styles/Inspiration/MagicalFootwear/MagicalFootwear.dds"
 					},
 					{
 						"id": 8313,
-						"key": "AllInGoodTime",
+						"key": "PerfectTiming",
 						"name": "Tökéletes időzítés",
-						"shortDesc": "Kapsz egy ingyenes Stopperóra tárgyat. Ez a tárgy (Stopperóra) egyszer használható <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Stasis\">Sztázis</lol-uikit-tooltipped-keyword> hatást biztosít.",
+						"shortDesc": "Kapsz egy ingyenes Stopperóra tárgyat. Ez a tárgy (Stopperóra) egyszer használható <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Stasis'>Sztázis</lol-uikit-tooltipped-keyword> hatást biztosít.",
 						"longDesc": "A játékot egy Elindított stopperóra tárggyal kezded, amely @InitialCooldown.0@ perc elteltével átalakul egy Stopperóra tárggyá. A tárgy (Stopperóra) egy egyszer használható Sztázis hatást biztosít.<br><br>@PercentGAZhonyasCDR.0*100@%-kal csökkenti a következő tárgyak töltési idejét: Zhonya homokórája, Őrangyal és A vízköpő sziklavértje.",
-						"icon": "ASSETS/Perks/Styles/Style5/AllInGoodTime/AllInGoodTime.dds"
+						"icon": "ASSETS/Perks/Styles/Style5/PerfectTiming/PerfectTiming.dds"
 					}
 				]
 			},
@@ -185,27 +185,27 @@
 				"runes": [
 					{
 						"id": 8321,
-						"key": "NanaTaxman",
+						"key": "FuturesMarket",
 						"name": "Jövendőpiac",
 						"shortDesc": "Hitelre is vehetsz tárgyakat.",
 						"longDesc": "Hitelre is vehetsz tárgyakat. A kölcsönözhető összeg az eltelt idővel arányosan nő.<br><br>Kamat: @ExcessCostPenaltyFlat@ arany",
-						"icon": "ASSETS/Perks/Styles/Style5/NanaTaxman/NanaTaxman.dds"
+						"icon": "ASSETS/Perks/Styles/Style5/FuturesMarket/FuturesMarket.dds"
 					},
 					{
 						"id": 8316,
-						"key": "TheClearChoice",
+						"key": "MinionDematerializer",
 						"name": "Minion dematerializáló",
-						"shortDesc": "A játékot @GainedMinionKillers@ Minion dematerializáló tárggyal kezded. Ha minionokat ölsz meg a tárggyal, azzal tartós bónusz sebzést szerzel az adott miniontípus ellen.",
-						"longDesc": "A játékot @GainedMinionKillers@ Minion dematerializáló tárggyal kezded, ami azonnal elpusztítja és elnyeli a minionokat az ösvényen. A Minion dematerializáló a játék első @InitialCooldown@ másodpercében még töltődik.<br><br>Egy minion elnyelése után az adott típusú minionok ellen tartósan @DamageBonusForAnyAbsorbed.0*100@%-kal nő a sebzésed, és minden további elnyelt, ugyanolyan típusú minion után további @DamageBonusPerAdditionalAbsorbed.0*100@%-kal.<br>",
-						"icon": "ASSETS/Perks/Styles/Inspiration/TheClearChoice/TheClearChoice.dds"
+						"shortDesc": "A játékot @GainedMinionKillers@ Minion dematerializáló tárggyal kezdheted. Ha minionokat ölsz meg a tárggyal, azzal tartós bónusz sebzést szerzel az adott miniontípus ellen.",
+						"longDesc": "A játékot @GainedMinionKillers@ Minion dematerializáló tárggyal érdemes kezdeni, amely azonnal elpusztítja és elnyeli a minionokat az ösvényen. A tárgy (Minion dematerializáló) a játék első @InitialCooldown@ másodpercében még töltődik.<br><br>Egy minion elnyelése után az adott típusú minionok ellen tartósan @DamageBonusForAnyAbsorbed.0*100@%-kal nő a sebzésed, és minden további elnyelt, ugyanolyan típusú minion után további @DamageBonusPerAdditionalAbsorbed.0*100@%-kal.<br>",
+						"icon": "ASSETS/Perks/Styles/Inspiration/MinionDematerializer/MinionDematerializer.dds"
 					},
 					{
 						"id": 8345,
-						"key": "BiscuitsAndBonuses",
+						"key": "BiscuitDelivery",
 						"name": "Süti-házhozszállítás",
 						"shortDesc": "Minden @BiscuitMinuteInterval@. percben ingyenes süteményt szerezhetsz, @SwapOverMinute@ percen át. Az elfogyasztott sütemények véglegesen megnövelik a maximális manát, valamint életerőt és manát töltenek vissza.",
 						"longDesc": "Süti-házhozszállítás: @BiscuitMinuteInterval@ percenként jár egy A végtelen akaraterő süteménye, egészen a játék @SwapOverMinute@. percéig.<br><br>A sütik visszatöltik a hiányzó életerő és mana @HealthHealPercent.0*100@%-át. Ezenkívül bármilyen süti elfogyasztása véglegesen @PermanentMana@ ponttal növeli a maximális manát. <br><br><i>Mana nélkül:</i> a manát nem használó hősök a hiányzó életerejük @HealthHealPercentManaless.0*100@%-át nyerik vissza.",
-						"icon": "ASSETS/Perks/Styles/Inspiration/BiscuitsAndBonuses/BiscuitsAndBonuses.dds"
+						"icon": "ASSETS/Perks/Styles/Inspiration/BiscuitDelivery/BiscuitDelivery.dds"
 					}
 				]
 			},
@@ -213,19 +213,19 @@
 				"runes": [
 					{
 						"id": 8347,
-						"key": "Intelligence",
+						"key": "CosmicInsight",
 						"name": "Kozmikus tudás",
-						"shortDesc": "+@CDR*100@%-kal <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_CDR\">csökkentett töltési idő</lol-uikit-tooltipped-keyword><br>+@CDR*100@% maximális töltésiidő-csökkentés<br>+@CDR*100@% töltésiidő-csökkentés idézői varázslatok esetében<br>+@CDR*100@% töltésiidő-csökkentés tárgyak esetében",
+						"shortDesc": "+@CDR*100@%-kal <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_CDR'>csökkentett töltési idő</lol-uikit-tooltipped-keyword><br>+@CDR*100@% maximális töltésiidő-csökkentés<br>+@CDR*100@% töltésiidő-csökkentés idézői varázslatok esetében<br>+@CDR*100@% töltésiidő-csökkentés tárgyak esetében",
 						"longDesc": "+@CDR*100@%-kal csökkentett töltési idő<br>+@CDR*100@% maximális töltésiidő-csökkentés<br>+@CDR*100@% töltésiidő-csökkentés idézői varázslatok esetében<br>+@CDR*100@% töltésiidő-csökkentés tárgyak esetében",
-						"icon": "ASSETS/Perks/Styles/Inspiration/Intelligence/Intelligence.dds"
+						"icon": "ASSETS/Perks/Styles/Inspiration/CosmicInsight/CosmicInsight.dds"
 					},
 					{
 						"id": 8410,
-						"key": "HotPursuit",
+						"key": "ApproachVelocity",
 						"name": "Megközelítési sebesség",
-						"shortDesc": "Bónusz <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">mozgási sebességet</lol-uikit-tooltipped-keyword> kapsz, ha olyan közeli szövetséges hős felé haladsz, aki <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairMov\">mozgásában korlátozott</lol-uikit-tooltipped-keyword>, vagy olyan ellenséges hős felé, akire mozgáskorlátozó hatást alkalmaztál.",
+						"shortDesc": "Bónusz <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>mozgási sebességet</lol-uikit-tooltipped-keyword> kapsz, ha olyan közeli szövetséges hős felé haladsz, aki <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_ImpairMov'>mozgásában korlátozott</lol-uikit-tooltipped-keyword>, vagy olyan ellenséges hős felé, akire mozgáskorlátozó hatást alkalmaztál.",
 						"longDesc": "@MovementSpeedPercentBonus.0*100@%-kal nő a mozgási sebességed, ha olyan közeli szövetséges hős felé haladsz, aki mozgásában korlátozott, vagy olyan ellenséges hős felé, akire mozgáskorlátozó hatást alkalmaztál. <br><br>Hatótáv: @ActivationDistance@",
-						"icon": "ASSETS/Perks/Styles/Resolve/HotPursuit/HotPursuit.dds"
+						"icon": "ASSETS/Perks/Styles/Resolve/ApproachVelocity/ApproachVelocity.dds"
 					},
 					{
 						"id": 8352,
@@ -267,8 +267,8 @@
 						"id": 8021,
 						"key": "FleetFootwork",
 						"name": "Szapora lábmunka",
-						"shortDesc": "A támadással és mozgással Energia jelzőket gyűjtesz. 100 jelző elérésekor a következő támadásod gyógyít téged, valamint bónusz <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">mozgási sebességet</lol-uikit-tooltipped-keyword> is ad.",
-						"longDesc": "A támadással és mozgással Energia jelzőket gyűjtesz. 100 jelző elérésekor a következő támadásod Feltöltött támadás lesz.<br><br>A Feltöltött támadás @HealBase@–@HealMax@ (+@HealBonusADRatio.-1@ bónusz sebzés, +@HealAPRatio.-1@ varázserő) életerőt tölt vissza, és @MSDuration.0@ másodpercre @MSBuff*100@%-kal megnöveli a mozgási sebességed.<br><rules>A gyógyítás minionra alkalmazva @MinionHealMod*100@%-os hatékonysággal működik.<br>Ha egy kritikus csapás aktiválja a hatást, a gyógyítás a kritikus sebzési módosító @HealCritMod*100@%-ával nő.</rules>",
+						"shortDesc": "A támadással és mozgással Energia jelzőket gyűjtesz. 100 jelző elérésekor a következő támadásod gyógyít téged, valamint bónusz <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>mozgási sebességet</lol-uikit-tooltipped-keyword> is ad.",
+						"longDesc": "A támadással és mozgással Energia jelzőket gyűjtesz. 100 jelző elérésekor a következő támadásod Feltöltött támadás lesz.<br><br>A Feltöltött támadás @HealBase@–@HealMax@ (+@HealBonusADRatio.-1@ bónusz sebzés, +@HealAPRatio.-1@ varázserő) életerőt tölt vissza, és @MSDuration.0@ másodpercre @MSBuff*100@%-kal megnöveli a mozgási sebességed.<br><rules>A gyógyítás minionra alkalmazva @MinionHealMod*100@%-os hatékonysággal működik (távolsági harcos hősök esetében @MinionHealMod*50@% hatékonysággal).<br>Ha egy kritikus csapás aktiválja a hatást, a gyógyítás a kritikus sebzési módosító @HealCritMod*100@%-ával nő.</rules>",
 						"icon": "ASSETS/Perks/Styles/Precision/FleetFootwork/FleetFootwork.dds"
 					}
 				]
@@ -287,7 +287,7 @@
 						"id": 9111,
 						"key": "Triumph",
 						"name": "Diadal",
-						"shortDesc": "A <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">kiiktatások</lol-uikit-tooltipped-keyword> visszatöltik a hiányzó életerőd @MissingHealthRestored.0*100@%-át és +@BonusGold@ aranyat adnak. ",
+						"shortDesc": "A <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>kiiktatások</lol-uikit-tooltipped-keyword> visszatöltik a hiányzó életerőd @MissingHealthRestored.0*100@%-át és + @BonusGold@ aranyat adnak. ",
 						"longDesc": "A kiiktatások visszatöltik a hiányzó életerőd @MissingHealthRestored.0*100@%-át és +@BonusGold@ aranyat adnak. <br><br><hr></hr><br><i>„A legveszélyesebb préda hozza a legnagyobb dicsőséget.” <br>—Noxusi ítéletmondó</i>",
 						"icon": "ASSETS/Perks/Styles/Precision/DangerousGame.dds"
 					},
@@ -307,7 +307,7 @@
 						"id": 9104,
 						"key": "LegendAlacrity",
 						"name": "Legenda: Fürgeség",
-						"shortDesc": "Az ellenfelek <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">kiiktatása</lol-uikit-tooltipped-keyword> végleg megnöveli a <b>támadási sebességedet</b>. ",
+						"shortDesc": "Az ellenfelek <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>kiiktatása</lol-uikit-tooltipped-keyword> végleg megnöveli a <b>támadási sebességedet</b>. ",
 						"longDesc": "+@AttackSpeedBase*100@% támadási sebesség, plusz további @AttackSpeedPerStack*100@% a <i>Legenda</i> minden jelzője után (legfeljebb @MaxLegendStacks@ jelző gyűjthető).<br><br>A <i>Legenda</i> jelzőire hősök és hatalmas szörnyek kiiktatásával, illetve nagy szörnyek és minionok megölésével lehet szert tenni.",
 						"icon": "ASSETS/Perks/Styles/Precision/Legend_Heroism.dds"
 					},
@@ -315,7 +315,7 @@
 						"id": 9105,
 						"key": "LegendTenacity",
 						"name": "Legenda: Kitartás",
-						"shortDesc": "Az ellenfelek <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">kiiktatása</lol-uikit-tooltipped-keyword> végleg megnöveli a <b>kitartásodat</b>. ",
+						"shortDesc": "Az ellenfelek <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>kiiktatása</lol-uikit-tooltipped-keyword> végleg megnöveli a <b>kitartásodat</b>. ",
 						"longDesc": "@TenacityBase*100@% kitartás és további +@TenacityPerStack*100@% a <i>Legenda</i> minden jelzője után (legfeljebb @MaxLegendStacks@ jelző gyűjthető).<br><br>A <i>Legenda</i> jelzőire hősök és hatalmas szörnyek kiiktatásával, illetve nagy szörnyek és minionok megölésével lehet szert tenni.",
 						"icon": "ASSETS/Perks/Styles/Precision/Legend_Tenacity.dds"
 					},
@@ -323,7 +323,7 @@
 						"id": 9103,
 						"key": "LegendBloodline",
 						"name": "Legenda: Vérvonal",
-						"shortDesc": "Az ellenfelek <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">kiiktatása</lol-uikit-tooltipped-keyword> végleg megnöveli az <b>életlopásodat</b>. ",
+						"shortDesc": "Az ellenfelek <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>kiiktatása</lol-uikit-tooltipped-keyword> végleg megnöveli az <b>életlopásodat</b>. ",
 						"longDesc": "@LifeStealPerStack*100@% életlopás a <i>Legenda</i> minden jelzője után (legfeljebb @MaxLegendStacks@ jelző gyűjthető).<br><br>A <i>Legenda</i> jelzőire hősök és hatalmas szörnyek kiiktatásával, illetve nagy szörnyek és minionok megölésével lehet szert tenni.",
 						"icon": "ASSETS/Perks/Styles/Precision/Legend_Infamy.dds"
 					}
@@ -379,7 +379,7 @@
 						"id": 8439,
 						"key": "Aftershock",
 						"name": "Utórengés",
-						"shortDesc": "Ha <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Immobilize\">mozgásképtelenné</lol-uikit-tooltipped-keyword> teszel egy ellenséges hőst, megnő a védelmed, később pedig <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">adaptív</lol-uikit-tooltipped-keyword>, hirtelen sebzést okozol a körülötted álló ellenfeleknek.",
+						"shortDesc": "Ha <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Immobilize'>mozgásképtelenné</lol-uikit-tooltipped-keyword> teszel egy ellenséges hőst, megnő a védelmed, később pedig <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>adaptív</lol-uikit-tooltipped-keyword>, hirtelen sebzést okozol a körülötted álló ellenfeleknek.",
 						"longDesc": "Az ellenséges hősök mozgásképtelenné tétele után @DelayBeforeBurst.1@ másodpercre @FlatResists@–@FlatResistMaximum@%-kal megnő a páncélod és a varázsellenállásod. Ezt követően kitör belőled az energia, varázssebzést okozva a közelben lévő ellenfeleknek.<br><br>Sebzés: @StartingBaseDamage@–@MaxBaseDamage@ (+ a maximális életerőd @HealthRatio.-1@%-a) (+ a bónusz sebzésed @DamageRatioAD*100@%-a) (+ a varázserőd @DamageRatioAP*100@%-a)<br>Töltési idő: @Cooldown@ másodperc",
 						"icon": "ASSETS/Perks/Styles/Resolve/VeteranAftershock/VeteranAftershock.dds"
 					},
@@ -407,7 +407,7 @@
 						"id": 8463,
 						"key": "FontOfLife",
 						"name": "Az élet forrása",
-						"shortDesc": "A <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairMov\">mozgáskorlátozó</lol-uikit-tooltipped-keyword> hatások megjelölik az ellenséges hősöket. A szövetségeseid gyógyulnak a megjelölt hősök támadásakor. ",
+						"shortDesc": "A <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_ImpairMov'>mozgáskorlátozó</lol-uikit-tooltipped-keyword> hatások megjelölik az ellenséges hősöket. A szövetségeseid gyógyulnak a megjelölt hősök támadásakor. ",
 						"longDesc": "A mozgáskorlátozó hatások @MarkDuration@ másodpercre megjelölik az érintett ellenséges hőst.<br><br>A megjelölt ellenfelet támadó szövetséges hősök @FlatHealAmount@ életerőt + a maximális életerőd @HealthRatio.-1 * 100@%-át nyerik vissza @HealDuration@ másodperc alatt. ",
 						"icon": "ASSETS/Perks/Styles/Resolve/FontOfLife/FontOfLife.dds"
 					},
@@ -515,7 +515,7 @@
 						"id": 8230,
 						"key": "PhaseRush",
 						"name": "Fázisroham",
-						"shortDesc": "Ha egy ellenséges hőst 3 támadással vagy <b>különálló</b> képességgel eltalálsz, hirtelen megnő a <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">mozgási sebességed</lol-uikit-tooltipped-keyword>. ",
+						"shortDesc": "Ha egy ellenséges hőst 3 támadással vagy <b>különálló</b> képességgel eltalálsz, hirtelen megnő a <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>mozgási sebességed</lol-uikit-tooltipped-keyword>. ",
 						"longDesc": "Ha egy ellenséges hőst @Window@ másodpercen belül 3 támadással vagy <b>különálló</b> képességgel találsz el, a szintedtől függően @HasteBase*100@ – @HasteMax*100@% mozgási sebességet és @SlowResist*100@% lassítás-ellenállást kapsz.<br><br>Időtartam: @Duration@ másodperc<br>Töltési idő: @Cooldown@ másodperc",
 						"icon": "ASSETS/Perks/Styles/Sorcery/PhaseRush/PhaseRush.dds"
 					}
@@ -555,7 +555,7 @@
 						"id": 8210,
 						"key": "Transcendence",
 						"name": "Transzcendencia",
-						"shortDesc": "@MaxCDR*100@%-kal <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_CDR\">csökken a töltési idő</lol-uikit-tooltipped-keyword> a(z) @LevelToTurnOn@. szint elérésekor. A töltési idő fel nem használt csökkentése <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">adaptív</lol-uikit-tooltipped-keyword> varázserővé vagy sebzéssé alakul.",
+						"shortDesc": "@MaxCDR*100@%-kal <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_CDR'>csökken a töltési idő</lol-uikit-tooltipped-keyword> a(z) @LevelToTurnOn@. szint elérésekor. A töltési idő fel nem használt csökkentése <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'>adaptív</lol-uikit-tooltipped-keyword> varázserővé vagy sebzéssé alakul.",
 						"longDesc": "@MaxCDR*100@%-kal csökkentett töltési idő a(z) @LevelToTurnOn@. szint elérésekor.<br><br>A töltési idő csökkentésének a felső határt meghaladó minden egyes százaléka adaptív erővé alakul (@AdaptiveForce.-1*0.6@ bónusz sebzés vagy @AdaptiveForce@ varázserő <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>(adaptív)</font></lol-uikit-tooltipped-keyword>).",
 						"icon": "ASSETS/Perks/Styles/Sorcery/Transcendence/Transcendence.dds"
 					},
@@ -563,7 +563,7 @@
 						"id": 8234,
 						"key": "Celerity",
 						"name": "Fürgeség",
-						"shortDesc": "+ @PercentMS.0@% <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">mozgási sebesség</lol-uikit-tooltipped-keyword>. Bónusz <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">adaptív</lol-uikit-tooltipped-keyword> varázserőt vagy sebzést biztosít a bónusz mozgási sebességed alapján. ",
+						"shortDesc": "+ @PercentMS.0@% <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>mozgási sebesség</lol-uikit-tooltipped-keyword>. Bónusz <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'>adaptív</lol-uikit-tooltipped-keyword> varázserőt vagy sebzést biztosít a bónusz mozgási sebességed alapján. ",
 						"longDesc": "@PercentMS.0@%-os megnövelt mozgási sebességet biztosít.<br>A bónusz mozgási sebességből <font color='#48C4B7'>adaptív</font> sebzés vagy varázserő lesz, egy @AdaptiveAD*8@%-os sebzési vagy @AdaptiveAP*8@%-os varázserő-aránynak megfelelően.",
 						"icon": "ASSETS/Perks/Styles/Sorcery/Celerity/CelerityTemp.dds"
 					},
@@ -571,7 +571,7 @@
 						"id": 8233,
 						"key": "AbsoluteFocus",
 						"name": "Tökéletes összpontosítás",
-						"shortDesc": "Ha több mint @HealthPercent*100@% életerőd van, <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">adaptív sebzést</lol-uikit-tooltipped-keyword> kapsz.",
+						"shortDesc": "Ha több mint @HealthPercent*100@% életerőd van, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>adaptív sebzést</lol-uikit-tooltipped-keyword> kapsz.",
 						"longDesc": "Szinttől függően <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>(adaptív)</font></lol-uikit-tooltipped-keyword> legfeljebb @MaxAdaptive.-1*0.6@ bónusz sebzés vagy @MaxAdaptive@ varázserő ha több mint @HealthPercent*100@% életerőd van.",
 						"icon": "ASSETS/Perks/Styles/Sorcery/AbsoluteFocus/AbsoluteFocus.dds"
 					}
@@ -591,7 +591,7 @@
 						"id": 8232,
 						"key": "Waterwalking",
 						"name": "Vízen járás",
-						"shortDesc": "Bónusz <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">mozgási sebességet</lol-uikit-tooltipped-keyword>, illetve varázserőt vagy sebzést kapsz <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">(adaptív)</lol-uikit-tooltipped-keyword> a folyóban.",
+						"shortDesc": "Bónusz <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>mozgási sebességet</lol-uikit-tooltipped-keyword>, illetve varázserőt vagy sebzést kapsz <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'>(adaptív)</lol-uikit-tooltipped-keyword> a folyóban.",
 						"longDesc": "A folyóban @MovementSpeed@ mozgási sebesség és <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>(adaptív)</font></lol-uikit-tooltipped-keyword> legfeljebb @MaxAdaptive.-1*0.6@ bónusz sebzés vagy @MaxAdaptive@ varázserő erő jár (a szinttől függően).<br><br><hr></hr><br><i>Légy oly sebes, akár a folyó vize, és fürge, mint a megriadt Suhanó sutyerák.</i><br>",
 						"icon": "ASSETS/Perks/Styles/Sorcery/Waterwalking/Waterwalking.dds"
 					},
@@ -599,7 +599,7 @@
 						"id": 8236,
 						"key": "GatheringStorm",
 						"name": "Készülődő vihar",
-						"shortDesc": "A játék előrehaladtával egyre több (<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">adaptív</lol-uikit-tooltipped-keyword>) sebzést vagy varázserőt kapsz.",
+						"shortDesc": "A játék előrehaladtával egyre több (<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'>adaptív</lol-uikit-tooltipped-keyword>) sebzést vagy varázserőt kapsz.",
 						"longDesc": "@UpdateAfterMinutes@ percenként plusz varázserőt vagy sebzést kapsz <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>(adaptív)</font></lol-uikit-tooltipped-keyword>.<br><br><i>10 perc</i>: + 8 varázserő vagy 5 sebzés <br><i>20 perc</i>: + 24 varázserő vagy 14 sebzés<br><i>30 perc</i>: + 48 varázserő vagy 29 sebzés<br><i>40 perc</i>: + 80 varázserő vagy 48 sebzés<br><i>50 perc</i>: + 120 varázserő vagy 72 sebzés<br><i>60 perc</i>: + 168 varázserő vagy 101 sebzés<br>stb.",
 						"icon": "ASSETS/Perks/Styles/Sorcery/GatheringStorm/GatheringStorm.dds"
 					}

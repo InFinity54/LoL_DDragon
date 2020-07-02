@@ -11,7 +11,7 @@
 						"id": 8112,
 						"key": "Electrocute",
 						"name": "Ηλεκτροπληξία",
-						"shortDesc": "Αν χτυπήσετε έναν ήρωα με 3 <b>διαφορετικές</b> επιθέσεις ή ικανότητες σε @WindowDuration@ δευτερόλεπτα, προκαλείτε μπόνους <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">Ευέλικτη Ζημιά</lol-uikit-tooltipped-keyword>.",
+						"shortDesc": "Αν χτυπήσετε έναν ήρωα με 3 <b>διαφορετικές</b> επιθέσεις ή ικανότητες σε @WindowDuration@ δευτερόλεπτα, προκαλείτε μπόνους <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>Ευέλικτη Ζημιά</lol-uikit-tooltipped-keyword>.",
 						"longDesc": "Αν χτυπήσετε έναν Ήρωα με 3 <b>διαφορετικές</b> επιθέσεις ή ικανότητες μέσα σε @WindowDuration@ δευτερόλεπτα, προκαλείτε μπόνους <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>Ευέλικτη Ζημιά</font></lol-uikit-tooltipped-keyword>.<br><br>Ζημιά: @DamageBase@ - @DamageMax@ (+@BonusADRatio.-1@ μπόνους Ζημιά Επίθεσης, +@APRatio.-1@ Ισχύς Ικανότητας) Ζημιά.<br><br>Χρόνος Επαναφόρτισης: @Cooldown@ - @CooldownMin@ δευτερόλεπτα<br><br><hr></hr><i>«Τους αποκαλούμε Άρχοντες του Κεραυνού, γιατί αν πούμε για τις αστραπές τους, πάμε γυρεύοντας».</i>",
 						"icon": "ASSETS/Perks/Styles/Domination/Electrocute/Electrocute.dds"
 					},
@@ -19,7 +19,7 @@
 						"id": 8124,
 						"key": "Predator",
 						"name": "Αρπακτικό",
-						"shortDesc": "Προσθέστε στις μπότες σας μια ενεργή επίδραση που αυξάνει σημαντικά την <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">Ταχύτητα Κίνησης</lol-uikit-tooltipped-keyword> και προσθέτει μπόνους <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">Ευέλικτη Ζημιά</lol-uikit-tooltipped-keyword> στην επόμενη επίθεση ή ικανότητά σας.",
+						"shortDesc": "Προσθέστε στις μπότες σας μια ενεργή επίδραση που αυξάνει σημαντικά την <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>Ταχύτητα Κίνησης</lol-uikit-tooltipped-keyword> και προσθέτει μπόνους <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>Ευέλικτη Ζημιά</lol-uikit-tooltipped-keyword> στην επόμενη επίθεση ή ικανότητά σας.",
 						"longDesc": "Ενισχύει τις μπότες σας με την ενεργή επίδραση «<font color='#c60300'>Αρπακτικό</font>».<br><br>Διοχετεύστε ενέργεια για 1,5 δευτερόλεπτα ενώ βρίσκεστε εκτός μάχης για να αποκτήσετε 45% Ταχύτητα Κίνησης για 15 δευτερόλεπτα. Επιθέσεις ή ικανότητες που κάνουν Ζημιά τερματίζουν την επίδραση αυτή, προκαλώντας 60 - 180 (+<scaleAD>0,4</scaleAD> μπόνους Ζημιά Επίθεσης)(+<scaleAP>0,25</scaleAP> Ισχύος Ικανότητας) μπόνους <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'></font></lol-uikit-tooltipped-keyword> Ευέλικτη Ζημιά.<br><br>Χρόνος Επαναφόρτισης: 150 - 100 δευτερόλεπτα. Μπαίνει σε Χρόνο Επαναφόρτισης αμέσως μόλις ξεκινήσει το παιχνίδι. Χρόνος Επαναφόρτισης 50%, αν διακοπεί κατά τη διάρκεια της διοχέτευσης ενέργειας.",
 						"icon": "ASSETS/Perks/Styles/Domination/Predator/Predator.dds"
 					},
@@ -27,7 +27,7 @@
 						"id": 8128,
 						"key": "DarkHarvest",
 						"name": "Σκοτεινή Σοδειά",
-						"shortDesc": "Οι Ήρωες, οι μεγάλοι υπηρέτες και τα μεγάλα τέρατα αφήνουν ψυχική ενέργεια όταν πεθαίνουν. Όταν αγγίζετε μια ψυχή, την απορροφάτε και προκαλείτε μπόνους <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">Ευέλικτη Ζημιά</lol-uikit-tooltipped-keyword> με την επόμενη επίθεσή σας, ανάλογα με τη συνολική ψυχική ενέργεια που έχετε συλλέξει.",
+						"shortDesc": "Οι ήρωες, οι μεγάλοι υπηρέτες και τα μεγάλα τέρατα αφήνουν ψυχική ενέργεια όταν πεθαίνουν. Όταν αγγίζετε μια ψυχή, την απορροφάτε και προκαλείτε μπόνους <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>Ευέλικτη Ζημιά</lol-uikit-tooltipped-keyword> με την επόμενη επίθεσή σας, ανάλογα με τη συνολική ψυχική ενέργεια που έχετε συλλέξει.",
 						"longDesc": "Οι Ήρωες, οι μεγάλοι υπηρέτες και τα μεγάλα τέρατα αφήνουν ψυχική ενέργεια όταν πεθαίνουν. Συλλέξτε ψυχές για να αποκτήσετε <font color='#c60300'>Φορτισμένη Ψυχή</font>. Η επόμενη επίθεσή σας ενάντια σε Ήρωα ή κτίριο καταναλώνει τη <font color='#c60300'>Φορτισμένη Ψυχή</font> και προκαλεί μπόνους <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>Ευέλικτη Ζημιά</font></lol-uikit-tooltipped-keyword>.<br><br>Η <font color='#c60300'>Φορτισμένη Ψυχή</font> διαρκεί @ONHDuration@ δευτερόλεπτα. Η διάρκεια αυξάνεται σε @ONHDurationLong@, αν συλλέξετε @SoulsRequiredForIncreasedDuration@ ψυχική ενέργεια.<br><br>Μπόνους Ζημιά: @DamageMin@ - @DamageMax@ ανάλογα με το επίπεδο (+<scaleAD>@ADRatio.2@ μπόνους Ζημιά Επίθεσης</scaleAD>) (+<scaleAP>@APRatio.1@ Ισχύς Ικανότητας</scaleAP>) + ψυχική ενέργεια που έχετε συλλέξει<br><rules><br>Ήρωες - @champstacks@ ψυχική ενέργεια.<br>Τέρατα - @monsterstacks@ ψυχική ενέργεια.<br>Υπηρέτες - @minionstacks@ ψυχική ενέργεια.</rules>",
 						"icon": "ASSETS/Perks/Styles/Domination/DarkHarvest/DarkHarvest.dds"
 					}
@@ -39,7 +39,7 @@
 						"id": 8126,
 						"key": "CheapShot",
 						"name": "Ύπουλο Χτύπημα",
-						"shortDesc": "Προκαλείτε μπόνους Πραγματική Ζημιά στους αντίπαλους Ήρωες που έχουν <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairAct\">επιβραδυνθεί ή έχουν υποστεί κάποια επίδραση επηρεάζει την κίνηση και τις ενέργειές τους</lol-uikit-tooltipped-keyword>. ",
+						"shortDesc": "Προκαλείτε μπόνους Πραγματική Ζημιά στους αντίπαλους ήρωες που έχουν <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_ImpairAct'>επιβραδυνθεί ή έχουν υποστεί κάποια επίδραση που επηρεάζει την κίνηση και τις ενέργειές τους</lol-uikit-tooltipped-keyword>. ",
 						"longDesc": "Όταν κάνετε ζημιά σε Ήρωες με επιδράσεις που <b>επιβραδύνουν την κίνηση ή τις ενέργειές τους</b>, αυτοί δέχονται επιπλέον @DamageIncMin@ - @DamageIncMax@ μπόνους Πραγματική Ζημιά (ανάλογα με το επίπεδο).<br><br>Χρόνος Επαναφόρτισης: @Cooldown@ δευτερόλεπτα<br><rules>Ενεργοποιείται με τη Ζημιά που θα προκληθεί μετά την επιβράδυνση.</rules>",
 						"icon": "ASSETS/Perks/Styles/Domination/CheapShot/CheapShot.dds"
 					},
@@ -83,7 +83,7 @@
 						"id": 8138,
 						"key": "EyeballCollection",
 						"name": "Συλλογή Ματιών",
-						"shortDesc": "Συλλέξτε ματάκια όταν <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">εξοντώνετε</lol-uikit-tooltipped-keyword> Ήρωες και Μάτια. Αποκτάτε μόνιμα Ζημιά Επίθεσης ή Ισχύ Ικανότητας, <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">Ευέλικτη επίδραση</lol-uikit-tooltipped-keyword>, για κάθε ματάκι και ένα επιπλέον μπόνους όταν συμπληρώσετε τη συλλογή.",
+						"shortDesc": "Συλλέξτε ματάκια όταν <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>εξοντώνετε</lol-uikit-tooltipped-keyword> Ήρωες και Μάτια. Αποκτάτε μόνιμα Ζημιά Επίθεσης ή Ισχύ Ικανότητας, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'>Ευέλικτη επίδραση</lol-uikit-tooltipped-keyword>, για κάθε ματάκι και ένα επιπλέον μπόνους όταν συμπληρώσετε τη συλλογή.",
 						"longDesc": "Συλλέξτε ματάκια όταν εξοντώνετε Ήρωες και Μάτια. Αποκτάτε <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>ευέλικτο</font></lol-uikit-tooltipped-keyword> μπόνους @AdaptiveForce.-1*0.6@ Ζημιάς Επίθεσης ή @AdaptiveForce@ Ισχύος Ικανότητας για κάθε ματάκι που συλλέγετε. <br><br>Όταν συλλέξετε @MaxEyeballs@ ματάκια, αποκτάτε επιπλέον <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>ευέλικτο</font></lol-uikit-tooltipped-keyword> μπόνους @CompletionBonus.-1*0.6@ Ζημιάς Επίθεσης ή @CompletionBonus@ Ισχύος Ικανότητας.<br><br>Συλλέξτε @StacksPerTakedown@ ματάκια για κάθε εκτέλεση Ήρωα, @StacksPerAssist@ για κάθε βοήθεια και @StacksPerWard@ για κάθε εξόντωση Ματιού.",
 						"icon": "ASSETS/Perks/Styles/Domination/EyeballCollection/EyeballCollection.dds"
 					}
@@ -95,7 +95,7 @@
 						"id": 8135,
 						"key": "RavenousHunter",
 						"name": "Αδηφάγος Κυνηγός",
-						"shortDesc": "Οι <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">εξοντώσεις</lol-uikit-tooltipped-keyword><b>διαφορετικών Ηρώων</b> δίνουν μόνιμα Θεραπεία από τη ζημιά των ικανοτήτων σας. ",
+						"shortDesc": "Οι <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>εξοντώσεις</lol-uikit-tooltipped-keyword><b> διαφορετικών ηρώων</b> δίνουν μόνιμα Θεραπεία από τη ζημιά των ικανοτήτων σας. ",
 						"longDesc": "Θεραπεύεστε για ένα ποσοστό της ζημιάς που προκαλείτε με τις ικανότητές σας.<br>Θεραπεία: @StartingOmnivamp*100@% + @OmnivampPerStack*100@% για κάθε στοίβα <i>Κυνηγού Επικηρυγμένων</i>. <br><br>Αποκτάτε μία στοίβα <i>Κυνηγού Επικηρυγμένων</i> την πρώτη φορά που εξοντώνετε κάθε αντίπαλο Ήρωα.<br><rules><br>Η Θεραπεία μειώνεται στο ένα τρίτο για ικανότητες πεδίου επιρροής.</rules><br>",
 						"icon": "ASSETS/Perks/Styles/Domination/RavenousHunter/RavenousHunter.dds"
 					},
@@ -103,7 +103,7 @@
 						"id": 8134,
 						"key": "IngeniousHunter",
 						"name": "Πολυμήχανος Κυνηγός",
-						"shortDesc": "Οι <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">εξοντώσεις</lol-uikit-tooltipped-keyword> <b>διαφορετικών Ηρώων</b> δίνουν μόνιμα <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_CDR\">Μείωση Χρόνου Επαναφόρτισης</lol-uikit-tooltipped-keyword> ενεργών αντικειμένων (περιλαμβάνει και τα Φυλαχτά).",
+						"shortDesc": "Οι <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>εξοντώσεις</lol-uikit-tooltipped-keyword> <b>διαφορετικών ηρώων</b> δίνουν μόνιμα <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_CDR'>Μείωση Χρόνου Επαναφόρτισης</lol-uikit-tooltipped-keyword> ενεργών αντικειμένων (περιλαμβάνει και τα Φυλαχτά).",
 						"longDesc": "Αποκτάτε @StartingActiveItemCDR.0*100@% <b>Μείωση Χρόνου Επαναφόρτισης ενεργών αντικειμένων</b> συν επιπλέον @ActiveItemCDRPerStack.0*100@% για κάθε στοίβα <i>Κυνηγού Επικηρυγμένων</i> (συμπεριλαμβάνονται και τα Φυλαχτά).<br><br>Αποκτάτε μία στοίβα <i>Κυνηγού Επικηρυγμένων</i> την πρώτη φορά που εξοντώνετε κάθε αντίπαλο Ήρωα.",
 						"icon": "ASSETS/Perks/Styles/Domination/IngeniousHunter/IngeniousHunter.dds"
 					},
@@ -111,7 +111,7 @@
 						"id": 8105,
 						"key": "RelentlessHunter",
 						"name": "Ανελέητος Κυνηγός",
-						"shortDesc": "Οι <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">εξοντώσεις</lol-uikit-tooltipped-keyword> <b>διαφορετικών</b> μονάδων δίνουν μόνιμα <b><lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">Ταχύτητα Κίνησης</lol-uikit-tooltipped-keyword> εκτός μάχης</b>. ",
+						"shortDesc": "Οι <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>εξοντώσεις</lol-uikit-tooltipped-keyword> <b>διαφορετικών</b> μονάδων δίνουν μόνιμα <b><lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>Ταχύτητα Κίνησης</lol-uikit-tooltipped-keyword> εκτός μάχης</b>. ",
 						"longDesc": "Αποκτάτε @StartingOOCMS@ <b>Ταχύτητα Κίνησης εκτός μάχης</b> συν @OOCMS.0@ για κάθε στοίβα <i>Κυνηγού Επικηρυγμένων</i>.<br><br>Αποκτάτε μια στοίβα <i>Κυνηγού Επικηρυγμένων</i> την πρώτη φορά που εξοντώνετε κάθε αντίπαλο ήρωα.",
 						"icon": "ASSETS/Perks/Styles/Domination/RelentlessHunter/RelentlessHunter.dds"
 					}
@@ -129,27 +129,27 @@
 				"runes": [
 					{
 						"id": 8326,
-						"key": "KSAlchemicalEsoterica",
+						"key": "UnsealedSpellbook",
 						"name": "Ξεκλείδωτο Βιβλίο Επικαλεστή",
 						"shortDesc": "Ανταλλάξτε τα Θραύσματα Επικαλεστή στο κατάστημα για να αλλάξετε τα Ξόρκια Επικαλεστή σας κατά τη διάρκεια του παιχνιδιού. Τα Ξόρκια Επικαλεστή σας έχουν μειωμένο Χρόνο Επαναφόρτισης. <br>",
 						"longDesc": "Κερδίστε ένα Θραύσμα Επικαλεστή στα @ShardFirstMinutes@ λεπτά παιχνιδιού και άλλο ένα κάθε @ShardRechargeMinutes@ λεπτά στη συνέχεια (έως @Maxshards@ Θραύσματα).<br><br>Όταν είστε κοντά στο κατάστημα, μπορείτε να εξαργυρώσετε @ShardCost@ Θραύσματα Επικαλεστή για να αντικαταστήσετε ένα Ξόρκι Επικαλεστή με ένα άλλο. <br><br>Επιπλέον, οι Χρόνοι Επαναφόρτισης Ξορκιών Επικαλεστή σας μειώνονται κατά @SummonerCDR.0*100@%.<br><br><rules><i>Πλήγμα:</i> Αν αγοράσετε το Πλήγμα, δεν σημαίνει ότι θα αποκτήσετε και πρόσβαση στα αντικείμενα Πλήγματος<br>Δεν μπορείτε να έχετε δύο ίδια Ξόρκια Επικαλεστή</rules>",
-						"icon": "ASSETS/Perks/Styles/Inspiration/KSAlchemicalEsoterica/KSAlchemicalEsoterica.dds"
+						"icon": "ASSETS/Perks/Styles/Inspiration/UnsealedSpellbook/UnsealedSpellbook.dds"
 					},
 					{
 						"id": 8351,
-						"key": "KSGlacialAugment",
+						"key": "GlacialAugment",
 						"name": "Παγωμένη Ενίσχυση",
 						"shortDesc": "Η πρώτη σας επίθεση εναντίον ενός αντίπαλου ήρωα τον επιβραδύνει (ανά Χρόνο Επαναφόρτισης μονάδας). Όταν επιβραδύνετε ήρωες με ενεργά αντικείμενα, τους κεραυνοβολείτε με μια ακτίνα ψύχους που δημιουργεί μια ζώνη επιβράδυνσης μεγάλης διάρκειας.",
-						"longDesc": "Οι βασικές επιθέσεις σας σε αντίπαλους ήρωες τους επιβραδύνουν για @SlowDuration.0@ δευτ. Η επιβράδυνση ενισχύεται κατά τη διάρκειά της.<li><i>Από μακριά</i>: Οι επιθέσεις από απόσταση προκαλούν επιβράδυνση έως @SlowAmountBase.0*-100@% - @SlowAmountMax.0*-100@%</li> <li><i>Από κοντά</i>: Οι επιθέσεις από κοντά προκαλούν επιβράδυνση έως @SlowAmountBaseMelee.0*-100@% - @SlowAmountMaxMelee.0*-100@%</li><br>Αν επιβραδυνθεί ένας Ήρωας με ενεργά αντικείμενα, τον διαπερνά μια ακτίνα ψύχους, η οποία παγώνει το έδαφος γύρω του για @SlowZoneDuration@ δευτ. και επιβραδύνει όλες τις μονάδες που βρίσκονται εντός της περιοχής κατά @SlowZoneSlow*-100@%.<br><br>Χρόνος Επαναφόρτισης: @UnitCDBase@-@UnitCD16@ δευτ. ανά μονάδα",
-						"icon": "ASSETS/Perks/Styles/Inspiration/KSGlacialAugment/KSGlacialAugment.dds"
+						"longDesc": "Οι βασικές επιθέσεις σας σε αντίπαλους ήρωες τους επιβραδύνουν για @SlowDuration.0@ δευτερόλεπτα. Η επιβράδυνση ενισχύεται κατά τη διάρκειά της.<li><i>Από απόσταση</i>: Οι επιθέσεις από απόσταση προκαλούν επιβράδυνση έως @SlowAmountBase.0*-100@% - @SlowAmountMax.0*-100@%</li> <li><i>Από κοντά</i>: Οι επιθέσεις από κοντά προκαλούν επιβράδυνση έως @SlowAmountBaseMelee.0*-100@% - @SlowAmountMaxMelee.0*-100@%</li><br>Αν επιβραδυνθεί ένας ήρωας με ενεργά αντικείμενα, τον διαπερνά μια ακτίνα ψύχους, η οποία παγώνει το έδαφος γύρω του για @SlowZoneDuration@ δευτερόλεπτα και επιβραδύνει όλες τις μονάδες που βρίσκονται εντός της περιοχής κατά @SlowZoneSlow*-100@%.<br><br>Χρόνος Επαναφόρτισης: @UnitCDBase@-@UnitCD16@ δευτερόλεπτα ανά μονάδα",
+						"icon": "ASSETS/Perks/Styles/Inspiration/GlacialAugment/GlacialAugment.dds"
 					},
 					{
 						"id": 8359,
-						"key": "KSLooter",
+						"key": "Kleptomancy",
 						"name": "Κλεπτομαντεία",
-						"shortDesc": "Μόλις χρησιμοποιήσετε μια ικανότητα, η επόμενη επίθεσή σας θα δώσει μπόνους χρυσό, αν ο στόχος σας είναι Ήρωας. Υπάρχει επίσης πιθανότητα να αποκτήσετε ένα αναλώσιμο αντικείμενο.",
-						"longDesc": "Μόλις χρησιμοποιήσετε μια ικανότητα, η επόμενη επίθεσή σας θα δώσει μπόνους χρυσό, αν ο στόχος σας είναι Ήρωας. Υπάρχει επίσης πιθανότητα να αποκτήσετε ένα αναλώσιμο αντικείμενο.",
-						"icon": "ASSETS/Perks/Styles/Inspiration/KSLooter/KSLooter.dds"
+						"shortDesc": "Μόλις χρησιμοποιήσετε μια ικανότητα, η επόμενη επίθεσή σας θα δώσει μπόνους Χρυσό, αν ο στόχος σας είναι ήρωας. Υπάρχει επίσης πιθανότητα να αποκτήσετε ένα αναλώσιμο αντικείμενο.",
+						"longDesc": "Μόλις χρησιμοποιήσετε μια ικανότητα, η επόμενη επίθεσή σας θα δώσει μπόνους Χρυσό, αν ο στόχος σας είναι ήρωας. Υπάρχει επίσης πιθανότητα να αποκτήσετε ένα αναλώσιμο αντικείμενο.",
+						"icon": "ASSETS/Perks/Styles/Inspiration/Kleptomancy/Kleptomancy.dds"
 					}
 				]
 			},
@@ -157,27 +157,27 @@
 				"runes": [
 					{
 						"id": 8306,
-						"key": "DontBlink",
+						"key": "HextechFlashtraption",
 						"name": "Μαγοτεχνική Φλασοσυσκευή",
 						"shortDesc": "Όταν το Φλας δεν είναι διαθέσιμο, μετατρέπεται σε <i>Μαγοφλάς</i>.<br><br><i>Μαγοφλάς</i>: Μαζέψτε ενέργεια και μεταφερθείτε σε μια νέα θέση.",
 						"longDesc": "Όταν το Φλας επαναφορτίζεται, αντικαθίσταται από το <i>Μαγοφλάς</i>.<br><br><i>Μαγοφλάς</i>: Μαζέψτε ενέργεια για @ChannelDuration@ δευτερόλεπτα και μεταφερθείτε σε μια νέα θέση.<br><br>Χρόνος Επαναφόρτισης: @CooldownTime@ δευτερόλεπτα. Όταν πολεμάτε με άλλους ήρωες, μπαίνει σε Χρόνο Επαναφόρτισης για @ChampionCombatCooldown@ δευτερόλεπτα.",
-						"icon": "ASSETS/Perks/Styles/Inspiration/DontBlink/DontBlink.dds"
+						"icon": "ASSETS/Perks/Styles/Inspiration/HextechFlashtraption/HextechFlashtraption.dds"
 					},
 					{
 						"id": 8304,
 						"key": "MagicalFootwear",
 						"name": "Μαγικά Παπούτσια",
-						"shortDesc": "Αποκτάτε δωρεάν μπότες στα @GiveBootsAtMinute@ λεπτά, αλλά δεν μπορείτε να αγοράσετε μπότες πριν από αυτή τη χρονική στιγμή. Για κάθε <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">εξόντωση</lol-uikit-tooltipped-keyword> που πετυχαίνετε, οι μπότες σας θα γίνουν διαθέσιμες @SecondsSoonerPerTakedown@ δευτερόλεπτα νωρίτερα.",
+						"shortDesc": "Αποκτάτε δωρεάν μπότες στα @GiveBootsAtMinute@ λεπτά, αλλά δεν μπορείτε να αγοράσετε μπότες πριν από αυτή τη χρονική στιγμή. Για κάθε <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>εξόντωση</lol-uikit-tooltipped-keyword> που πετυχαίνετε, οι μπότες σας θα γίνουν διαθέσιμες @SecondsSoonerPerTakedown@ δευτερόλεπτα νωρίτερα.",
 						"longDesc": "Αποκτάτε δωρεάν Ελαφρώς Μαγικές Μπότες στα @GiveBootsAtMinute@ λεπτά, αλλά δεν μπορείτε να αγοράσετε μπότες πριν από αυτή τη χρονική στιγμή. Κάθε εξόντωση που σημειώνετε μειώνει το χρόνο που πρέπει να περιμένετε για να αποκτήσετε τις μπότες σας κατά @SecondsSoonerPerTakedown@ δευτερόλεπτα.<br><br>Οι Ελαφρώς Μαγικές Μπότες σάς δίνουν επιπλέον Ταχύτητα Κίνησης +@AdditionalMovementSpeed@.",
 						"icon": "ASSETS/Perks/Styles/Inspiration/MagicalFootwear/MagicalFootwear.dds"
 					},
 					{
 						"id": 8313,
-						"key": "AllInGoodTime",
+						"key": "PerfectTiming",
 						"name": "Τέλειος Συγχρονισμός",
-						"shortDesc": "Αποκτάτε ένα δωρεάν Χρονόμετρο. Το Χρονόμετρο έχει μια επίδραση <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Stasis\">Καταστολής</lol-uikit-tooltipped-keyword> που μπορείτε να χρησιμοποιήσετε μόνο μία φορά.",
+						"shortDesc": "Αποκτάτε ένα δωρεάν Χρονόμετρο. Το Χρονόμετρο έχει μια επίδραση <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Stasis'>Καταστολής</lol-uikit-tooltipped-keyword> που μπορείτε να χρησιμοποιήσετε μόνο μία φορά.",
 						"longDesc": "Ξεκινάτε το παιχνίδι με ένα Εκκίνηση Χρονόμετρου που μετατρέπεται σε Χρονόμετρο μετά από @InitialCooldown.0@ λεπτά. Το Χρονόμετρο έχει μια επίδραση Καταστολής που μπορείτε να χρησιμοποιήσετε μόνο μία φορά.<br><br>Μειώνει τον Χρόνο Επαναφόρτισης των αντικειμένων Κλεψύδρα της Ζόνια, Φύλακας Άγγελος και Πέτρινη Πανοπλία του Γκαργκόιλ κατά @PercentGAZhonyasCDR.0*100@%.",
-						"icon": "ASSETS/Perks/Styles/Style5/AllInGoodTime/AllInGoodTime.dds"
+						"icon": "ASSETS/Perks/Styles/Style5/PerfectTiming/PerfectTiming.dds"
 					}
 				]
 			},
@@ -185,27 +185,27 @@
 				"runes": [
 					{
 						"id": 8321,
-						"key": "NanaTaxman",
+						"key": "FuturesMarket",
 						"name": "Παζάρι του Μέλλοντος",
 						"shortDesc": "Μπορείτε να δανείζεστε για να αγοράζετε αντικείμενα.",
 						"longDesc": "Μπορείτε να δανείζεστε για να αγοράζετε αντικείμενα. Το ποσό που μπορείτε να δανειστείτε αυξάνεται με την πάροδο του χρόνου.<br><br>Έξοδα Δανεισμού: @ExcessCostPenaltyFlat@ Χρυσός",
-						"icon": "ASSETS/Perks/Styles/Style5/NanaTaxman/NanaTaxman.dds"
+						"icon": "ASSETS/Perks/Styles/Style5/FuturesMarket/FuturesMarket.dds"
 					},
 					{
 						"id": 8316,
-						"key": "TheClearChoice",
+						"key": "MinionDematerializer",
 						"name": "Εξαϋλωτής Υπηρετών",
 						"shortDesc": "Ξεκινάτε το παιχνίδι με @GainedMinionKillers@ Εξαϋλωτής Υπηρετών. Όταν σκοτώνετε υπηρέτες με αυτό το αντικείμενο, αποκτάτε μόνιμη μπόνους ζημιά ενάντια στο συγκεκριμένο τύπο υπηρέτη.",
 						"longDesc": "Ξεκινάτε το παιχνίδι με @GainedMinionKillers@ Εξαϋλωτής Υπηρετών που σκοτώνουν και απορροφούν ακαριαία τους υπηρέτες στη λωρίδα. Οι Εξαϋλωτής Υπηρετών βρίσκονται σε Χρόνο Επαναφόρτισης για τα πρώτα @InitialCooldown@ δευτερόλεπτα του αγώνα.<br><br>Αν απορροφήσετε έναν υπηρέτη, η ζημιά σας ενάντια στον συγκεκριμένο τύπο υπηρέτη αυξάνεται μόνιμα κατά +@DamageBonusForAnyAbsorbed.0*100@% και επιπλέον +@DamageBonusPerAdditionalAbsorbed.0*100@% για κάθε επιπλέον υπηρέτη αυτού του τύπου που απορροφάτε.<br>",
-						"icon": "ASSETS/Perks/Styles/Inspiration/TheClearChoice/TheClearChoice.dds"
+						"icon": "ASSETS/Perks/Styles/Inspiration/MinionDematerializer/MinionDematerializer.dds"
 					},
 					{
 						"id": 8345,
-						"key": "BiscuitsAndBonuses",
+						"key": "BiscuitDelivery",
 						"name": "Έφτασε το Μπισκοτάκι",
-						"shortDesc": "Αποκτάτε ένα δωρεάν Μπισκότο κάθε @BiscuitMinuteInterval@ λεπτά, μέχρι να συμπληρωθούν @SwapOverMinute@ λεπτά. Όταν τρώτε ένα Μπισκότο, αυξάνεται μόνιμα το μέγιστο Μάνα σας και αναπληρώνετε Ζωή και Μάνα.",
+						"shortDesc": "Αποκτάτε ένα δωρεάν Μπισκότο κάθε @BiscuitMinuteInterval@ λεπτά, μέχρι να συμπληρωθούν @SwapOverMinute@ λεπτά. Η κατανάλωση του μπισκότου αυξάνει μόνιμα το μέγιστο Μάνα σας και αναπληρώνει Ζωή και Μάνα.",
 						"longDesc": "Έφτασε το Μπισκοτάκι: Αποκτήστε ένα Ολοκληρωτικό Μπισκότο Αιώνιας Θέλησης κάθε @BiscuitMinuteInterval@ λεπτά, μέχρι να συμπληρωθούν @SwapOverMinute@ λεπτά.<br><br>Τα Μπισκότα αναπληρώνουν το @HealthHealPercent.0*100@% της Ζωής και του Μάνα που σας λείπει. Η χρήση ενός μπισκότου αυξάνει μόνιμα το όριο Μάνα σας κατά @PermanentMana@. <br><br><i>Χωρίς Μάνα:</i> Οι ήρωες χωρίς Μάνα αναπληρώνουν το @HealthHealPercentManaless.0*100@% της Ζωής που τους λείπει.",
-						"icon": "ASSETS/Perks/Styles/Inspiration/BiscuitsAndBonuses/BiscuitsAndBonuses.dds"
+						"icon": "ASSETS/Perks/Styles/Inspiration/BiscuitDelivery/BiscuitDelivery.dds"
 					}
 				]
 			},
@@ -213,19 +213,19 @@
 				"runes": [
 					{
 						"id": 8347,
-						"key": "Intelligence",
+						"key": "CosmicInsight",
 						"name": "Κοσμική Γνώση",
-						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_CDR\">Μείωση Χρόνου Επαναφόρτισης</lol-uikit-tooltipped-keyword> + @CDR*100@%<br>Μέγιστη Μείωση Χρόνου Επαναφόρτισης +@CDR*100@%<br>Μείωση Χρόνου Επαναφόρτισης Ξορκιών Επικαλεστή + @CDR*100@%<br>Μείωση Χρόνου Επαναφόρτισης Αντικειμένων + @CDR*100@%",
+						"shortDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_CDR'>Μείωση Χρόνου Επαναφόρτισης</lol-uikit-tooltipped-keyword> +@CDR*100@%<br>Μέγιστη Μείωση Χρόνου Επαναφόρτισης +@CDR*100@%<br>Μείωση Χρόνου Επαναφόρτισης Ξορκιών Επικαλεστή +@CDR*100@%<br>Μείωση Χρόνου Επαναφόρτισης Αντικειμένων +@CDR*100@%",
 						"longDesc": "Μείωση Χρόνου Επαναφόρτισης +@CDR*100@%<br>Μέγιστη Μείωση Χρόνου Επαναφόρτισης +@CDR*100@%<br>Μείωση Χρόνου Επαναφόρτισης Ξορκιών Επικαλεστή +@CDR*100@%<br>Μείωση Χρόνου Επαναφόρτισης Αντικειμένων +@CDR*100@%",
-						"icon": "ASSETS/Perks/Styles/Inspiration/Intelligence/Intelligence.dds"
+						"icon": "ASSETS/Perks/Styles/Inspiration/CosmicInsight/CosmicInsight.dds"
 					},
 					{
 						"id": 8410,
-						"key": "HotPursuit",
+						"key": "ApproachVelocity",
 						"name": "Ταχύτητα Προσέγγισης",
-						"shortDesc": "Μπόνους <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">Ταχύτητα Κίνησης</lol-uikit-tooltipped-keyword>, όταν κινείστε προς συμμάχους που έχουν επηρεαστεί με επιδράσεις που <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairMov\">δεν τους επιτρέπουν να κινηθούν κανονικά</lol-uikit-tooltipped-keyword> ή προς αντιπάλους που έχετε επηρεάσει εσείς με τέτοιες επιδράσεις.",
+						"shortDesc": "Μπόνους <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>Ταχύτητα Κίνησης</lol-uikit-tooltipped-keyword>, όταν κινείστε προς συμμάχους που έχουν επηρεαστεί με επιδράσεις που <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_ImpairMov'>δεν τους επιτρέπουν να κινηθούν κανονικά</lol-uikit-tooltipped-keyword> ή προς αντιπάλους που έχετε επηρεάσει εσείς με τέτοιες επιδράσεις.",
 						"longDesc": "Αποκτάτε @MovementSpeedPercentBonus.0*100@% Ταχύτητα Κίνησης, όταν κινείστε προς συμμάχους που έχουν επηρεαστεί με επιδράσεις που δεν τους επιτρέπουν να κινηθούν κανονικά ή προς αντιπάλους που έχετε επηρεάσει εσείς με τέτοιες επιδράσεις. <br><br>Εμβέλεια: @ActivationDistance@",
-						"icon": "ASSETS/Perks/Styles/Resolve/HotPursuit/HotPursuit.dds"
+						"icon": "ASSETS/Perks/Styles/Resolve/ApproachVelocity/ApproachVelocity.dds"
 					},
 					{
 						"id": 8352,
@@ -267,8 +267,8 @@
 						"id": 8021,
 						"key": "FleetFootwork",
 						"name": "Γρήγοροι Ελιγμοί",
-						"shortDesc": "Η επίθεση και η κίνηση δημιουργούν στοίβες Ενέργειας. Στις 100 στοίβες, η επόμενη επίθεσή σας αυξάνει την <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">Ταχύτητα Κίνησής</lol-uikit-tooltipped-keyword> σας και σας θεραπεύει.",
-						"longDesc": "Η επίθεση και η κίνηση δημιουργούν στοίβες Ενέργειας. Στις 100 στοίβες η επόμενη επίθεσή σας γίνεται Φορτισμένη.<br><br>Οι Φορτισμένες επιθέσεις σάς θεραπεύουν για @HealBase@ - @HealMax@ (+@HealBonusADRatio.-1@ μπόνους Ζημιά Επίθεσης, +@HealAPRatio.-1@ Ισχύς Ικανότητας) και σας δίνουν +@MSBuff*100@% Ταχύτητα Κίνησης για @MSDuration.0@ δευτερόλεπτα.<br><rules>Όταν χρησιμοποιείται σε υπηρέτη, η Θεραπεία έχει το @MinionHealMod*100@% της αποτελεσματικότητάς της.<br>Η Θεραπεία αυξάνεται κατά το @HealCritMod*100@% του συντελεστή Ζημιάς Καίριου Χτυπήματος όταν ενεργοποιείται από Καίριο Χτύπημα.</rules>",
+						"shortDesc": "Η επίθεση και η κίνηση δημιουργούν στοίβες Ενέργειας. Στις 100 στοίβες, η επόμενη επίθεσή σας αυξάνει την <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>Ταχύτητα Κίνησής</lol-uikit-tooltipped-keyword> σας και σας θεραπεύει.",
+						"longDesc": "Η επίθεση και η κίνηση δημιουργούν στοίβες Ενέργειας. Στις 100 στοίβες, η επόμενη επίθεσή σας γίνεται Φορτισμένη.<br><br>Οι Φορτισμένες επιθέσεις σάς θεραπεύουν για @HealBase@ - @HealMax@ (+@HealBonusADRatio.-1@ μπόνους Ζημιά Επίθεσης, +@HealAPRatio.-1@ Ισχύς Ικανότητας) και σας δίνουν +@MSBuff*100@% Ταχύτητα Κίνησης για @MSDuration.0@ δευτ.<br><rules>Όταν χρησιμοποιείται σε υπηρέτη, η Θεραπεία έχει το @MinionHealMod*100@% της αποτελεσματικότητάς της (@MinionHealMod*50@% για ήρωες που μάχονται από απόσταση).<br>Η Θεραπεία αυξάνεται κατά το @HealCritMod*100@% του συντελεστή Ζημιάς Καίριου Χτυπήματος όταν ενεργοποιείται από Καίριο Χτύπημα.</rules>",
 						"icon": "ASSETS/Perks/Styles/Precision/FleetFootwork/FleetFootwork.dds"
 					}
 				]
@@ -287,7 +287,7 @@
 						"id": 9111,
 						"key": "Triumph",
 						"name": "Θρίαμβος",
-						"shortDesc": "Οι <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">εξοντώσεις</lol-uikit-tooltipped-keyword> αναπληρώνουν το @MissingHealthRestored.0*100@% της Ζωής που σας λείπει και σας δίνουν επιπλέον @BonusGold@ χρυσό. ",
+						"shortDesc": "Οι <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>εξοντώσεις</lol-uikit-tooltipped-keyword> αναπληρώνουν το @MissingHealthRestored.0*100@% της Ζωής που σας λείπει και σας δίνουν επιπλέον @BonusGold@ Χρυσό. ",
 						"longDesc": "Οι εξοντώσεις αναπληρώνουν το @MissingHealthRestored.0*100@% της Ζωής που σας λείπει και σας δίνουν επιπλέον @BonusGold@ χρυσό. <br><br><hr></hr><br><i>«Όσο πιο επικίνδυνο το παιχνίδι, τόσο μεγαλύτερη η δόξα». <br>—Νοξιανός Τιμωρός</i>",
 						"icon": "ASSETS/Perks/Styles/Precision/DangerousGame.dds"
 					},
@@ -307,7 +307,7 @@
 						"id": 9104,
 						"key": "LegendAlacrity",
 						"name": "Θρύλος: Προθυμία",
-						"shortDesc": "Οι <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">εξοντώσεις</lol-uikit-tooltipped-keyword> εχθρών δίνουν μόνιμα <b>Ταχύτητα Επίθεσης</b>. ",
+						"shortDesc": "Οι <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>εξοντώσεις</lol-uikit-tooltipped-keyword> εχθρών δίνουν μόνιμα <b>Ταχύτητα Επίθεσης</b>. ",
 						"longDesc": "Αποκτάτε @AttackSpeedBase*100@% Ταχύτητα Επίθεσης συν επιπλέον @AttackSpeedPerStack*100@% για κάθε στοίβα <i>Θρύλου</i> (έως @MaxLegendStacks@).<br><br>Με κάθε εξόντωση ήρωα, επικού τέρατος ή εκτέλεση μεγάλου τέρατος ή υπηρέτη σημειώνετε πρόοδο για να αποκτήσετε στοίβες <i>Θρύλου</i>.",
 						"icon": "ASSETS/Perks/Styles/Precision/Legend_Heroism.dds"
 					},
@@ -315,7 +315,7 @@
 						"id": 9105,
 						"key": "LegendTenacity",
 						"name": "Θρύλος: Εμμονή",
-						"shortDesc": "Οι <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">εξοντώσεις</lol-uikit-tooltipped-keyword> εχθρών δίνουν μόνιμα <b>Εμμονή</b>. ",
+						"shortDesc": "Οι <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>εξοντώσεις</lol-uikit-tooltipped-keyword> εχθρών δίνουν μόνιμα <b>Εμμονή</b>. ",
 						"longDesc": "Αποκτάτε @TenacityBase*100@% Εμμονή συν επιπλέον @TenacityPerStack*100@% για κάθε στοίβα <i>Θρύλου</i> (έως @MaxLegendStacks@).<br><br>Με κάθε εξόντωση ήρωα, επικού τέρατος ή εκτέλεση μεγάλου τέρατος ή υπηρέτη σημειώνετε πρόοδο για να αποκτήσετε στοίβες <i>Θρύλου</i>.",
 						"icon": "ASSETS/Perks/Styles/Precision/Legend_Tenacity.dds"
 					},
@@ -323,7 +323,7 @@
 						"id": 9103,
 						"key": "LegendBloodline",
 						"name": "Θρύλος: Δεσμοί Αίματος",
-						"shortDesc": "Οι <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">εκτελέσεις</lol-uikit-tooltipped-keyword> εχθρών δίνουν μόνιμα <b>Αρπαγή Ζωής</b>. ",
+						"shortDesc": "Οι <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>εκτελέσεις</lol-uikit-tooltipped-keyword> εχθρών δίνουν μόνιμα <b>Αρπαγή Ζωής</b>. ",
 						"longDesc": "Αποκτάτε @LifeStealPerStack*100@% Αρπαγή Ζωής για κάθε στοίβα <i>Θρύλου</i> (έως @MaxLegendStacks@).<br><br>Με κάθε εκτέλεση ήρωα, επικού ή μεγάλου τέρατος ή υπηρέτη σημειώνετε πρόοδο για να αποκτήσετε στοίβες <i>Θρύλου</i>.",
 						"icon": "ASSETS/Perks/Styles/Precision/Legend_Infamy.dds"
 					}
@@ -379,7 +379,7 @@
 						"id": 8439,
 						"key": "Aftershock",
 						"name": "Απόηχος",
-						"shortDesc": "Όταν <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Immobilize\">ακινητοποιείτε</lol-uikit-tooltipped-keyword> έναν αντίπαλο ήρωα, ενισχύετε την άμυνά σας και αργότερα προκαλείτε <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">Ευέλικτη Ζημιά</lol-uikit-tooltipped-keyword> σε όλους τους εχθρούς που βρίσκονται γύρω σας.",
+						"shortDesc": "Όταν <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Immobilize'>ακινητοποιείτε</lol-uikit-tooltipped-keyword> έναν αντίπαλο ήρωα, ενισχύετε την άμυνά σας και αργότερα προκαλείτε <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>Ευέλικτη Ζημιά</lol-uikit-tooltipped-keyword> σε όλους τους εχθρούς που βρίσκονται γύρω σας.",
 						"longDesc": "Αφού ακινητοποιήσετε έναν αντίπαλο ήρωα, η Θωράκιση και η Αντίσταση Μαγείας σας αυξάνονται κατά @FlatResists@ - @FlatResistMaximum@ για @DelayBeforeBurst.1@ δευτερόλεπτα. Στη συνέχεια γίνεται μια έκρηξη που προκαλεί Μαγική Ζημιά στους κοντινούς εχθρούς.<br><br>Ζημιά: @StartingBaseDamage@-@MaxBaseDamage@ (+@HealthRatio.-1@% της μέγιστης Ζωής σας) (+@DamageRatioAD*100@% της μπόνους Ζημιάς Επίθεσής σας) (+@DamageRatioAP*100@% της Ισχύος Ικανότητάς σας)<br>Χρόνος Επαναφόρτισης: @Cooldown@ δευτερόλεπτα",
 						"icon": "ASSETS/Perks/Styles/Resolve/VeteranAftershock/VeteranAftershock.dds"
 					},
@@ -407,7 +407,7 @@
 						"id": 8463,
 						"key": "FontOfLife",
 						"name": "Πηγή της Ζωής",
-						"shortDesc": "Όταν <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairMov\">παρεμποδίζετε</lol-uikit-tooltipped-keyword> την κίνηση ενός αντίπαλου ήρωα, τον σημαδεύετε. Οι σύμμαχοί σας θεραπεύονται όταν επιτίθενται σε ήρωες που έχετε σημαδέψει. ",
+						"shortDesc": "Όταν <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_ImpairMov'>παρεμποδίζετε</lol-uikit-tooltipped-keyword> την κίνηση ενός αντίπαλου ήρωα, τον σημαδεύετε. Οι σύμμαχοί σας θεραπεύονται όταν επιτίθενται σε ήρωες που έχετε σημαδέψει. ",
 						"longDesc": "Όταν παρεμποδίζετε την κίνηση ενός αντίπαλου Ήρωα, τον σημαδεύετε για @MarkDuration@ δευτερόλεπτα.<br><br>Οι σύμμαχοι Ήρωες που επιτίθενται σε σημαδεμένους αντιπάλους θεραπεύονται για @FlatHealAmount@ + το @HealthRatio.-1 * 100@% της μέγιστης Ζωής σας σε @HealDuration@ δευτερόλεπτα. ",
 						"icon": "ASSETS/Perks/Styles/Resolve/FontOfLife/FontOfLife.dds"
 					},
@@ -415,8 +415,8 @@
 						"id": 8473,
 						"key": "BucklerRing",
 						"name": "Κοκάλινη Επίστρωση",
-						"shortDesc": "Αφού δεχτείτε Ζημιά από έναν αντίπαλο ήρωα, οι επόμενες @BlockCount@ ικανότητες ή επιθέσεις που θα δεχτείτε από εχθρό προκαλούν @BlockBase@-@BlockMax@ λιγότερη Ζημιά.<br><br>Διάρκεια: @BlockDuration@ δευτερόλεπτα<br>Χρόνος Επαναφόρτισης: @Cooldown@ δευτερόλεπτα",
-						"longDesc": "Αφού δεχτείτε Ζημιά από έναν αντίπαλο ήρωα, οι επόμενες @BlockCount@ ικανότητες ή επιθέσεις που θα δεχτείτε από εχθρό προκαλούν @BlockBase@-@BlockMax@ λιγότερη Ζημιά.<br><br>Διάρκεια: @BlockDuration@ δευτερόλεπτα<br>Χρόνος Επαναφόρτισης: @Cooldown@ δευτερόλεπτα",
+						"shortDesc": "Αφού δεχτείτε Ζημιά από έναν αντίπαλο ήρωα, οι επόμενες @BlockCount@ ικανότητες ή επιθέσεις που θα δεχτείτε από αυτόν προκαλούν @BlockBase@-@BlockMax@ λιγότερη Ζημιά.<br><br>Διάρκεια: @BlockDuration@ δευτ.<br>Χρόνος Επαναφόρτισης: @Cooldown@ δευτ.",
+						"longDesc": "Αφού δεχτείτε Ζημιά από έναν αντίπαλο ήρωα, οι επόμενες @BlockCount@ ικανότητες ή επιθέσεις που θα δεχτείτε από αυτόν προκαλούν @BlockBase@-@BlockMax@ λιγότερη Ζημιά.<br><br>Διάρκεια: @BlockDuration@ δευτ.<br>Χρόνος Επαναφόρτισης: @Cooldown@ δευτ.",
 						"icon": "ASSETS/Perks/Styles/Resolve/BucklerRing/BucklerRing.dds"
 					}
 				]
@@ -515,7 +515,7 @@
 						"id": 8230,
 						"key": "PhaseRush",
 						"name": "Εφόρμηση Φάσης",
-						"shortDesc": "Αν χτυπήσετε έναν αντίπαλο Ήρωα με 3 <b>διαφορετικές</b> επιθέσεις ή ικανότητες, αυξάνεται η <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">Ταχύτητα Κίνησής</lol-uikit-tooltipped-keyword> σας. ",
+						"shortDesc": "Αν χτυπήσετε έναν αντίπαλο ήρωα με 3 <b>διαφορετικές</b> επιθέσεις ή ικανότητες, αυξάνεται η <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>Ταχύτητα Κίνησής</lol-uikit-tooltipped-keyword> σας. ",
 						"longDesc": "Αν χτυπήσετε έναν αντίπαλο Ήρωα με 3 επιθέσεις ή <b>διαφορετικές</b> ικανότητες εντός @Window@ δευτερολέπτων, αποκτάτε @HasteBase*100@ - @HasteMax*100@% Ταχύτητα Κίνησης, ανάλογα με το επίπεδο και @SlowResist*100@% Αντίσταση στην Επιβράδυνση.<br><br>Διάρκεια: @Duration@ δευτερόλεπτα<br>Χρόνος Επαναφόρτισης: @Cooldown@ δευτερόλεπτα.",
 						"icon": "ASSETS/Perks/Styles/Sorcery/PhaseRush/PhaseRush.dds"
 					}
@@ -555,7 +555,7 @@
 						"id": 8210,
 						"key": "Transcendence",
 						"name": "Υπέρβαση",
-						"shortDesc": "Αποκτάτε @MaxCDR*100@% <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_CDR\">Μείωση Χρόνου Επαναφόρτισης</lol-uikit-tooltipped-keyword> όταν φτάνετε στο επίπεδο @LevelToTurnOn@. Η επιπλέον Μείωση Χρόνου Επαναφόρτισης γίνεται Ισχύς Ικανότητας ή Ζημιά Επίθεσης (<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">Ευέλικτη επίδραση</lol-uikit-tooltipped-keyword>).",
+						"shortDesc": "Αποκτάτε @MaxCDR*100@% <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_CDR'>Μείωση Χρόνου Επαναφόρτισης</lol-uikit-tooltipped-keyword> όταν φτάνετε στο επίπεδο @LevelToTurnOn@. Η επιπλέον Μείωση Χρόνου Επαναφόρτισης γίνεται Ισχύς Ικανότητας ή Ζημιά Επίθεσης (<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'>Ευέλικτη επίδραση</lol-uikit-tooltipped-keyword>).",
 						"longDesc": "Αποκτάτε @MaxCDR*100@% Μείωση Χρόνου Επαναφόρτισης όταν φτάνετε στο επίπεδο @LevelToTurnOn@.<br><br>Κάθε ποσοστό Μείωσης Χρόνου Επαναφόρτισης που υπερβαίνει το όριο Μείωσης Χρόνου Επαναφόρτισης μετατρέπεται σε <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>ευέλικτο</font></lol-uikit-tooltipped-keyword> μπόνους @AdaptiveForce.-1*0.6@ Ζημιάς Επίθεσης ή @AdaptiveForce@ Ισχύος Ικανότητας.",
 						"icon": "ASSETS/Perks/Styles/Sorcery/Transcendence/Transcendence.dds"
 					},
@@ -563,7 +563,7 @@
 						"id": 8234,
 						"key": "Celerity",
 						"name": "Επιτάχυνση",
-						"shortDesc": "Αποκτάτε @PercentMS.0@% επιπλέον <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">Ταχύτητα Κίνησης</lol-uikit-tooltipped-keyword>. Αποκτάτε επιπλέον Ισχύ Ικανότητας ή Ζημιά Επίθεσης (<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">Ευέλικτη επίδραση</lol-uikit-tooltipped-keyword>), ανάλογα με την μπόνους Ταχύτητα Κίνησής σας. ",
+						"shortDesc": "Αποκτάτε @PercentMS.0@% επιπλέον <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>Ταχύτητα Κίνησης</lol-uikit-tooltipped-keyword>. Αποκτάτε επιπλέον Ισχύ Ικανότητας ή Ζημιά Επίθεσης (<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'>Ευέλικτη επίδραση</lol-uikit-tooltipped-keyword>), ανάλογα με την μπόνους Ταχύτητα Κίνησής σας. ",
 						"longDesc": "Αποκτάτε @PercentMS.0@% αυξημένη Ταχύτητα Κίνησης.<br>Η Μπόνους Ταχύτητα Κίνησής σας μετατρέπεται σε Ζημιά Επίθεσης ή σε Ισχύ Ικανότητας, <font color='#48C4B7'>ευέλικτη</font> σε ποσοστό @AdaptiveAD*8@% Ζημιάς Επίθεσης ή @AdaptiveAP*8@% Ισχύος Ικανότητας.",
 						"icon": "ASSETS/Perks/Styles/Sorcery/Celerity/CelerityTemp.dds"
 					},
@@ -571,7 +571,7 @@
 						"id": 8233,
 						"key": "AbsoluteFocus",
 						"name": "Απόλυτη Συγκέντρωση",
-						"shortDesc": "Όταν έχετε περισσότερη από @HealthPercent*100@% Ζωή, αποκτάτε επιπλέον <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">Ευέλικτη Ζημιά</lol-uikit-tooltipped-keyword>.",
+						"shortDesc": "Όταν έχετε περισσότερη από @HealthPercent*100@% Ζωή, αποκτάτε επιπλέον <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>Ευέλικτη Ζημιά</lol-uikit-tooltipped-keyword>.",
 						"longDesc": "Όταν έχετε περισσότερη από @HealthPercent*100@% Ζωή, αποκτάτε έως και <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>ευέλικτο</font></lol-uikit-tooltipped-keyword> μπόνους έως @MaxAdaptive.-1*0.6@ Ζημιά Επίθεσης ή @MaxAdaptive@ Ισχύ Ικανότητας (ανάλογα με το επίπεδο).",
 						"icon": "ASSETS/Perks/Styles/Sorcery/AbsoluteFocus/AbsoluteFocus.dds"
 					}
@@ -591,7 +591,7 @@
 						"id": 8232,
 						"key": "Waterwalking",
 						"name": "Περπάτημα στο Νερό",
-						"shortDesc": "Αποκτάτε <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">Ταχύτητα Κίνησης</lol-uikit-tooltipped-keyword> και Ισχύ Ικανότητας ή Ζημιά Επίθεσης (<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">Ευέλικτη επίδραση</lol-uikit-tooltipped-keyword>) όταν βρίσκεστε στο ποτάμι.",
+						"shortDesc": "Αποκτάτε <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>Ταχύτητα Κίνησης</lol-uikit-tooltipped-keyword> και Ισχύ Ικανότητας ή Ζημιά Επίθεσης (<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'>Ευέλικτη επίδραση</lol-uikit-tooltipped-keyword>) όταν βρίσκεστε στο ποτάμι.",
 						"longDesc": "Αποκτάτε Ταχύτητα Κίνησης @MovementSpeed@ και έως <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>ευέλικτο</font></lol-uikit-tooltipped-keyword> μπόνους έως @MaxAdaptive.-1*0.6@ Ζημιά Επίθεσης ή @MaxAdaptive@ Ισχύ Ικανότητας (ανάλογα με το επίπεδο) όταν βρίσκεστε στο ποτάμι.<br><br><hr>Εύχομαι να είσαι γρήγορος σαν ποταμός και ευέλικτος σαν ξαφνιασμένος Γαριδρομέας</hr><br><i></i><br>",
 						"icon": "ASSETS/Perks/Styles/Sorcery/Waterwalking/Waterwalking.dds"
 					},
@@ -599,7 +599,7 @@
 						"id": 8236,
 						"key": "GatheringStorm",
 						"name": "Επερχόμενη Θύελλα",
-						"shortDesc": "Αποκτάτε ολοένα αυξανόμενη Ζημιά Επίθεσης ή Ισχύ Ικανότητας (<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">Ευέλικτη επίδραση</lol-uikit-tooltipped-keyword>) στη διάρκεια του αγώνα.",
+						"shortDesc": "Αποκτάτε ολοένα αυξανόμενη Ζημιά Επίθεσης ή Ισχύ Ικανότητας (<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'>Ευέλικτη επίδραση</lol-uikit-tooltipped-keyword>) στη διάρκεια του αγώνα.",
 						"longDesc": "Κάθε @UpdateAfterMinutes@ λεπτά αγώνα, αποκτάτε Ισχύ Ικανότητας ή Ζημιά Επίθεσης, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Ευέλικτη</font></lol-uikit-tooltipped-keyword>.<br><br><i>10 λεπτά</i>: + 8 Ισχύ Ικανότητας ή 5 Ζημιά Επίθεσης <br><i>20 λεπτά</i>: + 24 Ισχύ Ικανότητας ή 14 Ζημιά Επίθεσης<br><i>30 λεπτά</i>: + 48 Ισχύ Ικανότητας ή 29 Ζημιά Επίθεσης<br><i>40 λεπτά</i>: + 80 Ισχύ Ικανότητας ή 48 Ζημιά Επίθεσης<br><i>50 λεπτά</i>: + 120 Ισχύ Ικανότητας ή 72 Ζημιά Επίθεσης<br><i>60 λεπτά</i>: + 168 Ισχύ Ικανότητας ή 101 Ζημιά Επίθεσης<br>κ.λπ.",
 						"icon": "ASSETS/Perks/Styles/Sorcery/GatheringStorm/GatheringStorm.dds"
 					}

@@ -11,7 +11,7 @@
 						"id": 8112,
 						"key": "Electrocute",
 						"name": "Elektrisieren",
-						"shortDesc": "Verursache zusätzlichen <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">adaptiven Schaden</lol-uikit-tooltipped-keyword>, wenn du einen Champion innerhalb von @WindowDuration@&nbsp;Sekunden mit 3&nbsp;<b>einzelnen</b> Angriffen oder Fähigkeiten triffst.",
+						"shortDesc": "Einen Champion innerhalb von @WindowDuration@&nbsp;Sekunden mit 3&nbsp;<b>individuellen</b> Angriffen oder Fähigkeiten zu treffen, verursacht zusätzlichen <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>adaptiven Schaden</lol-uikit-tooltipped-keyword>.",
 						"longDesc": "Verursache zusätzlichen <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>adaptiven Schaden</font></lol-uikit-tooltipped-keyword>, wenn du einen Champion innerhalb von @WindowDuration@&nbsp;Sekunden mit 3&nbsp;<b>einzelnen</b> Angriffen oder Fähigkeiten triffst.<br><br>Schaden: @DamageBase@–@DamageMax@ (+@BonusADRatio.-1@&nbsp;zusätzlicher Angriffsschaden, +@APRatio.-1@&nbsp;Fähigkeitsstärke) Schaden<br><br>Abklingzeit: @Cooldown@–@CooldownMin@&nbsp;Sekunden<br><br><hr></hr><i>„Wir nannten sie die Donnerfürsten, weil die bloße Erwähnung ihrer Blitze grenzenloses Unheil heraufbeschwören konnte.“</i>",
 						"icon": "ASSETS/Perks/Styles/Domination/Electrocute/Electrocute.dds"
 					},
@@ -19,7 +19,7 @@
 						"id": 8124,
 						"key": "Predator",
 						"name": "Räuber",
-						"shortDesc": "Verzaubere deine Stiefel mit einem aktiven Effekt, der dir erhöhtes <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">Lauftempo</lol-uikit-tooltipped-keyword> gewährt und deinen nächsten Angriff oder deine nächste Fähigkeit zusätzlichen <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">adaptiven Schaden</lol-uikit-tooltipped-keyword> verursachen lässt.",
+						"shortDesc": "Verzaubere deine Stiefel mit einem aktiven Effekt, der dir erhöhtes Lauftempo gewährt und deinen nächsten Angriff oder deine nächste Fähigkeit zusätzlichen <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>adaptiven Schaden</lol-uikit-tooltipped-keyword> verursachen lässt.",
 						"longDesc": "Verzaubert deine Stiefel mit dem aktiven Effekt <font color='#c60300'>„Räuber“</font>.<br><br>Wenn du außerhalb des Kampfes für 1,5&nbsp;Sekunden kanalisierst, wird dir 15&nbsp;Sekunden lang um 45&nbsp;% erhöhtes Lauftempo gewährt. Schaden verursachende Angriffe oder Fähigkeiten beenden diesen Effekt und verursachen 60–180 (+<scaleAD>0,4</scaleAD>&nbsp;zusätzlicher Angriffsschaden)(+<scaleAP>0,25</scaleAP>&nbsp;Fähigkeitsstärke) zusätzlichen <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>adaptiven Schaden</font></lol-uikit-tooltipped-keyword>.<br><br>Abklingzeit: 150–100&nbsp;Sekunden. Klingt zu Beginn des Spiels ab. 50&nbsp;% der Abklingzeit wird ausgelöst, wenn die Kanalisierung unterbrochen wird.",
 						"icon": "ASSETS/Perks/Styles/Domination/Predator/Predator.dds"
 					},
@@ -27,7 +27,7 @@
 						"id": 8128,
 						"key": "DarkHarvest",
 						"name": "Dunkle Seelenernte",
-						"shortDesc": "Champions, große Vasallen und große Monster lassen bei ihrem Tod Seelenessenz fallen. Berühre Seelen, um sie zu absorbieren und bei deinem nächsten Angriff abhängig von der Gesamtanzahl bisher gesammelter Seelenessenzen zusätzlichen <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">adaptiven Schaden</lol-uikit-tooltipped-keyword> zu verursachen.",
+						"shortDesc": "Champions, große Vasallen und große Monster lassen bei ihrem Tod Seelenessenz fallen. Berühre Seelen, um sie zu absorbieren und bei deinem nächsten Angriff abhängig von der Gesamtanzahl bisher gesammelter Seelenessenzen zusätzlichen <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>adaptiven Schaden</lol-uikit-tooltipped-keyword> zu verursachen.",
 						"longDesc": "Champions, große Vasallen und große Monster lassen bei ihrem Tod Seelenessenz fallen. Sammle Seelen auf, um <font color='#c60300'>„seelenerfüllt“</font> zu werden. Dein nächster Angriff gegen einen Champion oder ein Gebäude verbraucht die <font color='#c60300'>„Seelenerfüllung“</font> und verursacht zusätzlichen <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>adaptiven Schaden</font></lol-uikit-tooltipped-keyword>.<br><br>Die <font color='#c60300'>„Seelenerfüllung“</font> hält @ONHDuration@&nbsp;Sekunde(n) lang an. Die Dauer wird durch das Einsammeln von @SoulsRequiredForIncreasedDuration@&nbsp;Seelenessenzen um @ONHDurationLong@&nbsp;Sekunde(n) verlängert.<br><br>Zusätzlicher Schaden: @DamageMin@–@DamageMax@ (+<scaleAD>@ADRatio.2@&nbsp;zusätzlicher Angriffsschaden</scaleAD>) (+<scaleAP>@APRatio.1@&nbsp;Fähigkeitsstärke</scaleAP>) + eingesammelte Seelenessenzen.<br><rules><br>Champions&nbsp;– @champstacks@&nbsp;Seelenessenzen.<br>Monster&nbsp;– @monsterstacks@&nbsp;Seelenessenzen.<br>Vasallen&nbsp;– @minionstacks@&nbsp;Seelenessenzen.</rules>",
 						"icon": "ASSETS/Perks/Styles/Domination/DarkHarvest/DarkHarvest.dds"
 					}
@@ -39,7 +39,7 @@
 						"id": 8126,
 						"key": "CheapShot",
 						"name": "Perfider Trick",
-						"shortDesc": "Verursache zusätzlichen absoluten Schaden an gegnerischen Champions, deren <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairAct\">Bewegungen oder Handlungen eingeschränkt</lol-uikit-tooltipped-keyword> sind. ",
+						"shortDesc": "Du verursachst zusätzlichen absoluten Schaden an gegnerischen Champions, deren <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_ImpairAct'>Bewegungen oder Handlungen eingeschränkt</lol-uikit-tooltipped-keyword> sind. ",
 						"longDesc": "Verursache an gegnerischen Champions, <b>deren Bewegungen oder Handlungen eingeschränkt sind</b>, abhängig von der Stufe @DamageIncMin@–@DamageIncMax@&nbsp;zusätzlichen absoluten Schaden.<br><br>Abklingzeit: @Cooldown@&nbsp;Sekunden<br><rules>Wird erst durch Schaden aktiviert, nachdem die Einschränkung eingesetzt hat.</rules>",
 						"icon": "ASSETS/Perks/Styles/Domination/CheapShot/CheapShot.dds"
 					},
@@ -83,8 +83,8 @@
 						"id": 8138,
 						"key": "EyeballCollection",
 						"name": "Argus' Vermächtnis",
-						"shortDesc": "Sammle Augäpfel bei Champion-<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Tötungen</lol-uikit-tooltipped-keyword> oder beim Zerstören von Augen ein. Erhalte dauerhaften Angriffsschaden/dauerhafte Fähigkeitsstärke <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">(adaptiv)</lol-uikit-tooltipped-keyword> für jeden Augapfel plus einen zusätzlichen Bonus, wenn du deine Sammlung vervollständigst.",
-						"longDesc": "Sammle Augäpfel durch Tötungen von Champions oder das Zerstören von Augen ein. Erhalte einen <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptiven</font></lol-uikit-tooltipped-keyword> Bonus von @AdaptiveForce.-1*0.6@&nbsp;Angriffsschaden oder @AdaptiveForce@&nbsp;Fähigkeitsstärke pro gesammeltem Augapfel. <br><br>Nachdem du deine Sammlung mit @MaxEyeballs@&nbsp;Augäpfeln vervollständigt hast, erhältst du zusätzlich einen <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptiven</font></lol-uikit-tooltipped-keyword> Bonus von @CompletionBonus.-1*0.6@&nbsp;Angriffsschaden oder @CompletionBonus@&nbsp;Fähigkeitsstärke.<br><br>Erhalte @StacksPerTakedown@&nbsp;Augäpfel pro Championtötung, @StacksPerAssist@ pro Unterstützung und @StacksPerWard@ pro zerstörtem Auge.",
+						"shortDesc": "Sammle durch<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>Kills</lol-uikit-tooltipped-keyword> oder das Zerstören von Augen Augäpfel. Du erhältst pro Augapfel dauerhaften Angriffsschaden/dauerhafte Fähigkeitsstärke <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'>(adaptiv)</lol-uikit-tooltipped-keyword> plus einen zusätzlichen Bonus, wenn du deine Sammlung vervollständigst.",
+						"longDesc": "Sammle Augäpfel durch Champion-Kills und Unterstützungen oder das Zerstören von Augen. Du erhältst einen <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptiven</font></lol-uikit-tooltipped-keyword> Bonus von @AdaptiveForce.-1*0.6@&nbsp;Angriffsschaden oder @AdaptiveForce@&nbsp;Fähigkeitsstärke pro gesammeltem Augapfel. <br><br>Nachdem du deine Sammlung mit @MaxEyeballs@&nbsp;Augäpfeln vervollständigt hast, erhältst du zusätzlich einen <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptiven</font></lol-uikit-tooltipped-keyword> Bonus von @CompletionBonus.-1*0.6@&nbsp;Angriffsschaden oder @CompletionBonus@&nbsp;Fähigkeitsstärke.<br><br>Du erhältst @StacksPerTakedown@&nbsp;Augäpfel pro Champion-Kill, @StacksPerAssist@ pro Unterstützung und @StacksPerWard@ pro zerstörtem Auge.",
 						"icon": "ASSETS/Perks/Styles/Domination/EyeballCollection/EyeballCollection.dds"
 					}
 				]
@@ -95,7 +95,7 @@
 						"id": 8135,
 						"key": "RavenousHunter",
 						"name": "Gefräßiger Jäger",
-						"shortDesc": "<b>Erstmalige</b> <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Tötungen</lol-uikit-tooltipped-keyword> von Champions gewähren dauerhafte Heilung durch Fähigkeitsschaden. ",
+						"shortDesc": "<b>Erstmalige</b> <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>Kills</lol-uikit-tooltipped-keyword> gewähren dauerhafte Heilung durch Fähigkeitsschaden. ",
 						"longDesc": "Heilt um einen Prozentsatz des verursachten Schadens durch Fähigkeiten.<br>Heilung: @StartingOmnivamp*100@&nbsp;% + @OmnivampPerStack*100@&nbsp;% pro <i>„Kopfgeldjäger“</i>-Steigerung. <br><br>Erhalte für jeden gegnerischen Champion, den du zum 1.&nbsp;Mal tötest, 1&nbsp;<i>„Kopfgeldjäger“</i>-Steigerung.<br><rules><br>Heilung auf ein Drittel verringert bei Fähigkeiten mit Flächenwirkung.</rules><br>",
 						"icon": "ASSETS/Perks/Styles/Domination/RavenousHunter/RavenousHunter.dds"
 					},
@@ -103,7 +103,7 @@
 						"id": 8134,
 						"key": "IngeniousHunter",
 						"name": "Raffinierter Jäger",
-						"shortDesc": "<b>Erstmalige</b> <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Tötungen</lol-uikit-tooltipped-keyword> von Champions gewähren dauerhafte <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_CDR\">Abklingzeitverringerung</lol-uikit-tooltipped-keyword> für aktive Gegenstände (einschließlich Schmuckstücke).",
+						"shortDesc": "<b>Erstmalige</b> <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>Kills</lol-uikit-tooltipped-keyword> gewähren dauerhafte Abklingzeitverringerung für aktive Gegenstände (einschließlich Schmuckstücke).",
 						"longDesc": "Erhalte @StartingActiveItemCDR.0*100@&nbsp;% <b>Abklingzeitverringerung aktiver Gegenstände</b> und zusätzlich @ActiveItemCDRPerStack.0*100@&nbsp;% pro <i>„Kopfgeldjäger“</i>-Steigerung (einschließlich Schmuckstücke).<br><br>Du bekommst 1&nbsp;<i>„Kopfgeldjäger“</i>-Steigerung für jeden gegnerischen Champion, den du zum 1.&nbsp;Mal tötest.",
 						"icon": "ASSETS/Perks/Styles/Domination/IngeniousHunter/IngeniousHunter.dds"
 					},
@@ -111,7 +111,7 @@
 						"id": 8105,
 						"key": "RelentlessHunter",
 						"name": "Erbarmungsloser Jäger",
-						"shortDesc": "<b>Erstmalige</b> <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Tötungen</lol-uikit-tooltipped-keyword> von Champions gewähren dauerhaftes <b> <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">Lauftempo</lol-uikit-tooltipped-keyword> außerhalb des Kampfes</b>. ",
+						"shortDesc": "<b>Erstmalige</b> <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>Kills</lol-uikit-tooltipped-keyword> gewähren dauerhaftes <b> Lauftempo außerhalb von Kämpfen</b>. ",
 						"longDesc": "Erhalte @StartingOOCMS@&nbsp;<b>Lauftempo außerhalb des Kampfes</b> und @OOCMS.0@&nbsp;pro <i>„Kopfgeldjäger“</i>-Steigerung.<br><br>Du bekommst 1&nbsp;<i>„Kopfgeldjäger“</i>-Steigerung für jeden gegnerischen Champion, den du zum 1.&nbsp;Mal tötest (schließt Unterstützungen mit ein).",
 						"icon": "ASSETS/Perks/Styles/Domination/RelentlessHunter/RelentlessHunter.dds"
 					}
@@ -129,27 +129,27 @@
 				"runes": [
 					{
 						"id": 8326,
-						"key": "KSAlchemicalEsoterica",
+						"key": "UnsealedSpellbook",
 						"name": "Entsiegeltes Zauberbuch",
-						"shortDesc": "Tausche Beschwörersplitter beim Händler ein, um deine Beschwörerzauber während des Spiels auszutauschen. <br>Deine Beschwörerzauber haben verringerte Abklingzeiten. <br>",
-						"longDesc": "In der @ShardFirstMinutes@.&nbsp;Minute erhältst du einen Beschwörersplitter und alle @ShardRechargeMinutes@&nbsp;Minuten einen weiteren (max. @Maxshards@&nbsp;Splitter).<br><br>Wenn du in der Nähe des Händlers bist, kannst du @ShardCost@&nbsp;Beschwörersplitter gegen einen anderen Beschwörerzauber tauschen. <br><br>Zusätzlich dazu wird die Abklingzeit deiner Beschwörerzauber um @SummonerCDR.0*100@&nbsp;% verringert.<br><br><rules><i>Zerschmettern:</i> Durch den Kauf von „Zerschmettern“ erhältst du keinen Zugang zu Gegenständen, die „Zerschmettern“ verstärken.<br>Du kannst nicht zwei gleiche Beschwörerzauber haben.</rules>",
-						"icon": "ASSETS/Perks/Styles/Inspiration/KSAlchemicalEsoterica/KSAlchemicalEsoterica.dds"
+						"shortDesc": "Tausche Beschwörersplitter beim Händler ein, um deine Beschwörerzauber während des Spiels auszutauschen. Deine Beschwörerzauber haben verringerte Abklingzeiten. <br>",
+						"longDesc": "In der @ShardFirstMinutes@.&nbsp;Minute erhältst du einen Beschwörersplitter und alle @ShardRechargeMinutes@&nbsp;Minuten einen weiteren (max. @Maxshards@&nbsp;Splitter).<br><br>Wenn du in der Nähe des Händlers bist, kannst du @ShardCost@&nbsp;Beschwörersplitter gegen einen anderen Beschwörerzauber eintauschen. <br><br>Zusätzlich dazu wird die Abklingzeit deiner Beschwörerzauber um @SummonerCDR.0*100@&nbsp;% verringert.<br><br><rules><i>Zerschmettern:</i> Durch den Kauf von „Zerschmettern“ erhältst du keinen Zugang zu Gegenständen, die „Zerschmettern“ verstärken.<br>Du kannst nicht zwei gleiche Beschwörerzauber haben.</rules>",
+						"icon": "ASSETS/Perks/Styles/Inspiration/UnsealedSpellbook/UnsealedSpellbook.dds"
 					},
 					{
 						"id": 8351,
-						"key": "KSGlacialAugment",
+						"key": "GlacialAugment",
 						"name": "Eiszeit",
-						"shortDesc": "Dein 1. Angriff gegen einen gegnerischen Champion verlangsamt diesen (Abklingzeit pro Einheit). Die Verlangsamung eines Champions mit aktiven Gegenständen feuert einen Eisstrahl auf diesen ab und hinterlässt einen Bereich, der Gegner verlangsamt.",
-						"longDesc": "Ein normaler Angriff auf einen Champion verlangsamt diesen @SlowDuration.0@&nbsp;Sekunden lang. Die Verlangsamung wird über die Dauer des Effekts immer stärker.<li><i>Fernkampf</i>: Fernkampfangriffe verlangsamen um bis zu @SlowAmountBase.0*-100@&nbsp;%–@SlowAmountMax.0*-100@&nbsp;%.</li> <li><i>Nahkampf</i>: Nahkampfangriffe verlangsamen um bis zu @SlowAmountBaseMelee.0*-100@&nbsp;%–@SlowAmountMaxMelee.0*-100@&nbsp;%.</li><br>Einen Champions mit aktiven Gegenständen zu verlangsamen, feuert einen Eisstrahl ab, der den Gegner durchdringt und den Boden in der Nähe für @SlowZoneDuration@&nbsp;Sekunden einfriert. Alle Einheiten, die sich auf dem gefrorenen Boden befinden, werden um @SlowZoneSlow*-100@&nbsp;% verlangsamt.<br><br>Abklingzeit: @UnitCDBase@–@UnitCD16@&nbsp;Sekunde(n) pro Einheit",
-						"icon": "ASSETS/Perks/Styles/Inspiration/KSGlacialAugment/KSGlacialAugment.dds"
+						"shortDesc": "Dein erster Angriff gegen einen gegnerischen Champion verlangsamt ihn (Abklingzeit pro Einheit). Wird ein Champion mit der aktiven Komponente von Gegenständen verlangsamt, durchdringt ihn ein Eisstrahl, der einen verlangsamenden Bereich erzeugt.",
+						"longDesc": "Ein normaler Angriff auf einen Champion verlangsamt ihn @SlowDuration.0@&nbsp;Sekunden lang. Die Verlangsamung wird über die Dauer des Effekts immer stärker.<li><i>Fernkampf</i>: Fernkampfangriffe verlangsamen um bis zu @SlowAmountBase.0*-100@&nbsp;%–@SlowAmountMax.0*-100@&nbsp;%.</li> <li><i>Nahkampf</i>: Nahkampfangriffe verlangsamen um bis zu @SlowAmountBaseMelee.0*-100@&nbsp;%–@SlowAmountMaxMelee.0*-100@&nbsp;%.</li><br>Wird ein Champion mit der aktiven Komponente eines Gegenstandes verlangsamt, durchdringt ihn ein Eisstrahl, der den Boden in der Nähe für @SlowZoneDuration@&nbsp;Sekunden einfriert. Alle betroffenen Einheiten werden um @SlowZoneSlow*-100@&nbsp;% verlangsamt.<br><br>Abklingzeit: @UnitCDBase@–@UnitCD16@&nbsp;Sekunde(n) pro Einheit",
+						"icon": "ASSETS/Perks/Styles/Inspiration/GlacialAugment/GlacialAugment.dds"
 					},
 					{
 						"id": 8359,
-						"key": "KSLooter",
+						"key": "Kleptomancy",
 						"name": "Kleptomanie",
-						"shortDesc": "Nachdem du eine Fähigkeit benutzt hast, gewährt dir dein nächster Angriff auf einen Champion zusätzliches Gold. Es ist außerdem möglich, dass du Tränke oder Augen erbeutest.",
-						"longDesc": "Nachdem du eine Fähigkeit benutzt hast, gewährt dir dein nächster Angriff auf einen Champion zusätzliches Gold. Es ist außerdem möglich, dass du Tränke oder Augen erbeutest.",
-						"icon": "ASSETS/Perks/Styles/Inspiration/KSLooter/KSLooter.dds"
+						"shortDesc": "Nachdem du eine Fähigkeit benutzt hast, gibt dir dein nächster Angriff auf einen Champion zusätzliches Gold. Außerdem erhältst du vielleicht Verbrauchsgegenstände.",
+						"longDesc": "Nachdem du eine Fähigkeit benutzt hast, gibt dir dein nächster Angriff auf einen Champion zusätzliches Gold. Außerdem erhältst du vielleicht Verbrauchsgegenstände.",
+						"icon": "ASSETS/Perks/Styles/Inspiration/Kleptomancy/Kleptomancy.dds"
 					}
 				]
 			},
@@ -157,27 +157,27 @@
 				"runes": [
 					{
 						"id": 8306,
-						"key": "DontBlink",
+						"key": "HextechFlashtraption",
 						"name": "Hextech-Blitzfalle",
 						"shortDesc": "Wenn „Blitz“ abklingt, wird er stattdessen durch  <i>„Hexablitz“</i> ersetzt.<br><br><i>„Hexablitz“</i>: Kanalisiere, um dich an einen anderen Ort zu versetzen.",
 						"longDesc": "Wenn „Blitz“ abklingt, wird er stattdessen durch <i>„Hexablitz“</i> ersetzt.<br><br><i>„Hexablitz“</i>: Kanalisiere für @ChannelDuration@&nbsp;Sekunden, um dich an einen anderen Ort zu versetzen.<br><br>Abklingzeit: @CooldownTime@&nbsp;Sekunden. Eine Abklingzeit von @ChampionCombatCooldown@&nbsp;Sekunden wird ausgelöst, wenn du den Kampf gegen einen anderen Champion beginnst.",
-						"icon": "ASSETS/Perks/Styles/Inspiration/DontBlink/DontBlink.dds"
+						"icon": "ASSETS/Perks/Styles/Inspiration/HextechFlashtraption/HextechFlashtraption.dds"
 					},
 					{
 						"id": 8304,
 						"key": "MagicalFootwear",
 						"name": "Magisches Schuhwerk",
-						"shortDesc": "Erhalte nach @GiveBootsAtMinute@&nbsp;Minuten Spielzeit kostenlose Stiefel. Du kannst allerdings davor keine Stiefel kaufen. Für jede <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Tötung</lol-uikit-tooltipped-keyword>, an der du beteiligt bist, erhältst du deine Stiefel @SecondsSoonerPerTakedown@&nbsp;Sekunden früher.",
-						"longDesc": "Erhalte nach @GiveBootsAtMinute@&nbsp;Minuten Spielzeit ein kostenloses Paar „Leicht magische Stiefel“, allerdings kannst du davor keine Stiefel kaufen. Für jede Tötung, an der du beteiligt bist, wird die Ankunftszeit deiner Stiefel um @SecondsSoonerPerTakedown@&nbsp;Sekunde(n) verringert.<br><br>„Leicht magische Stiefel“ gewähren dir +@AdditionalMovementSpeed@&nbsp;Lauftempo.",
+						"shortDesc": "Nach @GiveBootsAtMinute@&nbsp;Minuten erhältst du kostenlose Stiefel. Du kannst allerdings davor keine Stiefel kaufen. Für jeden <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>Kill</lol-uikit-tooltipped-keyword> erhältst du deine Stiefel @SecondsSoonerPerTakedown@&nbsp;Sekunden früher.",
+						"longDesc": "Du erhältst nach @GiveBootsAtMinute@&nbsp;Minuten Spielzeit ein kostenloses Paar „Leicht magische Stiefel“, allerdings kannst du davor keine Stiefel kaufen. Für jeden Kill, an dem du beteiligt bist, wird die Ankunftszeit deiner Stiefel um @SecondsSoonerPerTakedown@&nbsp;Sekunde(n) verringert.<br><br>„Leicht magische Stiefel“ gewähren dir +@AdditionalMovementSpeed@&nbsp;Lauftempo.",
 						"icon": "ASSETS/Perks/Styles/Inspiration/MagicalFootwear/MagicalFootwear.dds"
 					},
 					{
 						"id": 8313,
-						"key": "AllInGoodTime",
+						"key": "PerfectTiming",
 						"name": "Perfektes Timing",
-						"shortDesc": "Erhalte eine kostenlose Stoppuhr. Die Stoppuhr verfügt über einen einmalig nutzbaren <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Stasis\">„Stase“</lol-uikit-tooltipped-keyword>-Effekt.",
+						"shortDesc": "Du erhältst eine kostenlose Stoppuhr. Die Stoppuhr verfügt über einen einmalig nutzbaren <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Stasis'>„Stase“</lol-uikit-tooltipped-keyword>-Effekt.",
 						"longDesc": "Erhalte zu Beginn des Spiels eine „Laufende Stoppuhr“, die sich nach @InitialCooldown.0@&nbsp;Minuten in eine Stoppuhr verwandelt. Die Stoppuhr gewährt einen einmaligen „Stase“-Effekt.<br><br>Verringert die Abklingzeiten von Zhonyas Stundenglas, Schutzengel und Steinpanzer des Wasserspeiers um @PercentGAZhonyasCDR.0*100@&nbsp;%.",
-						"icon": "ASSETS/Perks/Styles/Style5/AllInGoodTime/AllInGoodTime.dds"
+						"icon": "ASSETS/Perks/Styles/Style5/PerfectTiming/PerfectTiming.dds"
 					}
 				]
 			},
@@ -185,27 +185,27 @@
 				"runes": [
 					{
 						"id": 8321,
-						"key": "NanaTaxman",
+						"key": "FuturesMarket",
 						"name": "Zukunftsmarkt",
 						"shortDesc": "Du kannst Gegenstände auf Kredit kaufen.",
 						"longDesc": "Du kannst Gegenstände auf Kredit kaufen. Der Betrag, den du leihen kannst, erhöht sich mit der Zeit.<br><br>Leihgebühr: @ExcessCostPenaltyFlat@&nbsp;Gold",
-						"icon": "ASSETS/Perks/Styles/Style5/NanaTaxman/NanaTaxman.dds"
+						"icon": "ASSETS/Perks/Styles/Style5/FuturesMarket/FuturesMarket.dds"
 					},
 					{
 						"id": 8316,
-						"key": "TheClearChoice",
+						"key": "MinionDematerializer",
 						"name": "Vasallenauflöser",
-						"shortDesc": "Beginne das Spiel mit @GainedMinionKillers@ Vasallenauflösern. Einen Vasallen mit diesem Gegenstand zu töten, gewährt dir dauerhaft zusätzlichen Schaden gegen diesen Vasallentyp.",
-						"longDesc": "Du erhältst zu Beginn des Spiels @GainedMinionKillers@ Vasallenauflöser, die Lane-Vasallen augenblicklich töten und absorbieren. Die Vasallenauflöser klingen während der ersten @InitialCooldown@&nbsp;Sekunden des Spiels ab.<br><br>Einen Vasallen mit dem Gegenstand zu absorbieren, erhöht deinen Schaden gegen diesen Vasallentyp dauerhaft um +@DamageBonusForAnyAbsorbed.0*100@&nbsp;% und zusätzlich um +@DamageBonusPerAdditionalAbsorbed.0*100@&nbsp;% für jeden zusätzlich absorbierten Vasallen dieses Typs.<br>",
-						"icon": "ASSETS/Perks/Styles/Inspiration/TheClearChoice/TheClearChoice.dds"
+						"shortDesc": "Du beginnst das Spiel mit @GainedMinionKillers@ Vasallenauflösern. Wenn du einen Vasallen mit diesem Gegenstand tötest, gewährt dir das dauerhaft zusätzlichen Schaden gegen diesen Vasallentyp.",
+						"longDesc": "Du erhältst zu Beginn des Spiels @GainedMinionKillers@ Vasallenauflöser, die Lane-Vasallen augenblicklich töten und absorbieren. Die Vasallenauflöser klingen während der ersten @InitialCooldown@&nbsp;Sekunden des Spiels ab.<br><br>Wenn du einen Vasallen absorbierst, erhöht das deinen Schaden gegen diesen Vasallentyp dauerhaft um +@DamageBonusForAnyAbsorbed.0*100@&nbsp;% und zusätzlich um +@DamageBonusPerAdditionalAbsorbed.0*100@&nbsp;% für jeden zusätzlich absorbierten Vasallen dieses Typs.<br>",
+						"icon": "ASSETS/Perks/Styles/Inspiration/MinionDematerializer/MinionDematerializer.dds"
 					},
 					{
 						"id": 8345,
-						"key": "BiscuitsAndBonuses",
+						"key": "BiscuitDelivery",
 						"name": "Kekslieferung",
-						"shortDesc": "Erhalte @SwapOverMinute@&nbsp;Minuten lang alle @BiscuitMinuteInterval@&nbsp;Minuten einen kostenlosen Keks. Das Konsumieren eines Keks erhöht dauerhaft dein maximales Mana und stellt Leben und Mana wieder her.",
-						"longDesc": "Kekslieferung: Erhalte @SwapOverMinute@&nbsp;Minuten lang alle @BiscuitMinuteInterval@&nbsp;Minuten einen „Absoluter Keks des unvergänglichen Willens“.<br><br>Kekse stellen @HealthHealPercent.0*100@&nbsp;% deines fehlenden Lebens und Manas wieder her. Kekse erhöhen dauerhaft dein maximales Mana um @PermanentMana@&nbsp;Mana. <br><br><i>Manalos:</i> Champions ohne Mana stellen stattdessen @HealthHealPercentManaless.0*100@&nbsp;% ihres fehlenden Lebens wieder her.",
-						"icon": "ASSETS/Perks/Styles/Inspiration/BiscuitsAndBonuses/BiscuitsAndBonuses.dds"
+						"shortDesc": "Du erhältst @SwapOverMinute@&nbsp;Minuten lang alle @BiscuitMinuteInterval@&nbsp;Minuten einen kostenlosen Keks. Wenn du den Keks isst, erhöht das dauerhaft dein maximales Mana und stellt Leben und Mana wieder her.",
+						"longDesc": "Kekslieferung: Du erhältst @SwapOverMinute@&nbsp;Minuten lang alle @BiscuitMinuteInterval@&nbsp;Minuten „Absoluter Keks des unvergänglichen Willens“.<br><br>Kekse stellen @HealthHealPercent.0*100@&nbsp;% deines fehlenden Lebens und Manas wieder her. Kekse erhöhen deine Mana-Obergrenze dauerhaft um @PermanentMana@&nbsp;Mana. <br><br><i>Manalos:</i> Champions ohne Mana stellen stattdessen @HealthHealPercentManaless.0*100@&nbsp;% ihres fehlenden Lebens wieder her.",
+						"icon": "ASSETS/Perks/Styles/Inspiration/BiscuitDelivery/BiscuitDelivery.dds"
 					}
 				]
 			},
@@ -213,19 +213,19 @@
 				"runes": [
 					{
 						"id": 8347,
-						"key": "Intelligence",
+						"key": "CosmicInsight",
 						"name": "Kosmische Einsicht",
-						"shortDesc": "+@CDR*100@&nbsp;% <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_CDR\">Abklingzeitverringerung</lol-uikit-tooltipped-keyword><br>+@CDR*100@&nbsp;% maximale Abklingzeitverringerung<br>+@CDR*100@&nbsp;% Abklingzeitverringerung für Beschwörerzauber<br>+@CDR*100@&nbsp;% Abklingzeitverringerung für Gegenstände",
+						"shortDesc": "+@CDR*100@&nbsp;% Abklingzeitverringerung<br>+@CDR*100@&nbsp;% maximale Abklingzeitverringerung<br>+@CDR*100@&nbsp;% Abklingzeitverringerung für Beschwörerzauber<br>+@CDR*100@&nbsp;% Abklingzeitverringerung für Gegenstände",
 						"longDesc": "+@CDR*100@&nbsp;% Abklingzeitverringerung<br>+@CDR*100@&nbsp;% maximale Abklingzeitverringerung<br>+@CDR*100@&nbsp;% Abklingzeitverringerung für Beschwörerzauber<br>+@CDR*100@&nbsp;% Abklingzeitverringerung für Gegenstände",
-						"icon": "ASSETS/Perks/Styles/Inspiration/Intelligence/Intelligence.dds"
+						"icon": "ASSETS/Perks/Styles/Inspiration/CosmicInsight/CosmicInsight.dds"
 					},
 					{
 						"id": 8410,
-						"key": "HotPursuit",
+						"key": "ApproachVelocity",
 						"name": "Anziehungskraft",
-						"shortDesc": "Erhalte zusätzliches <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">Lauftempo</lol-uikit-tooltipped-keyword>, wenn du dich auf verbündete Champions zubewegst, deren <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairMov\">Bewegung eingeschränkt</lol-uikit-tooltipped-keyword> wurde, oder auf gegnerische Champions, deren Bewegung du beeinträchtigt hast.",
-						"longDesc": "Erhalte @MovementSpeedPercentBonus.0*100@&nbsp;% zusätzliches Lauftempo, wenn du dich auf verbündete Champions zubewegst, deren Bewegung beeinträchtigt wurde, oder auf gegnerische Champions, deren Bewegung du beeinträchtigt hast. <br><br>Reichweite: @ActivationDistance@",
-						"icon": "ASSETS/Perks/Styles/Resolve/HotPursuit/HotPursuit.dds"
+						"shortDesc": "Du erhältst zusätzliches Lauftempo, wenn du dich auf verbündete Champions zubewegst, deren <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_ImpairMov'>Bewegung eingeschränkt</lol-uikit-tooltipped-keyword> wurde, oder auf gegnerische Champions, deren Bewegung du beeinträchtigst.",
+						"longDesc": "Du erhältst @MovementSpeedPercentBonus.0*100@&nbsp;% Lauftempo, wenn du dich auf verbündete Champions zubewegst, deren Bewegung beeinträchtigt wurde, oder auf gegnerische Champions, deren Bewegung du beeinträchtigst. <br><br>Reichweite: @ActivationDistance@",
+						"icon": "ASSETS/Perks/Styles/Resolve/ApproachVelocity/ApproachVelocity.dds"
 					},
 					{
 						"id": 8352,
@@ -267,8 +267,8 @@
 						"id": 8021,
 						"key": "FleetFootwork",
 						"name": "Leichtfüßigkeit",
-						"shortDesc": "Deine Angriffe und Bewegungen bauen Energiesteigerungen auf. Bei 100&nbsp;Steigerungen heilt dich dein nächster Angriff und gewährt dir erhöhtes <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">Lauftempo</lol-uikit-tooltipped-keyword>.",
-						"longDesc": "Deine Angriffe und Bewegungen bauen Energiesteigerungen auf. Bei 100&nbsp;Steigerungen ist der nächste Angriff aufgeladen.<br><br>Aufgeladene Angriffe heilen dich um @HealBase@–@HealMax@ (+@HealBonusADRatio.-1@&nbsp;zusätzlicher Angriffsschaden, +@HealAPRatio.-1@&nbsp;Fähigkeitsstärke) und gewähren dir für @MSDuration.0@&nbsp;Sekunde(n) +@MSBuff*100@&nbsp;% Lauftempo.<br><rules>Die Effektivität der Heilung beträgt @MinionHealMod*100@&nbsp;%, wenn dein Ziel ein Vasall ist.<br>Bei einem kritischen Treffer wird die Heilung um @HealCritMod*100@&nbsp;% deines kritischen Schadensmodifikators erhöht.</rules>",
+						"shortDesc": "Deine Angriffe und Bewegungen bauen Energiesteigerungen auf. Bei 100&nbsp;Steigerungen heilt dich dein nächster Angriff und gewährt dir erhöhtes Lauftempo.",
+						"longDesc": "Deine Angriffe und Bewegungen bauen Energiesteigerungen auf. Bei 100&nbsp;Steigerungen ist der nächste Angriff aufgeladen.<br><br>Aufgeladene Angriffe heilen dich um @HealBase@–@HealMax@ (+@HealBonusADRatio.-1@&nbsp;zusätzlicher Angriffsschaden, +@HealAPRatio.-1@&nbsp;Fähigkeitsstärke) und gewähren dir für @MSDuration.0@&nbsp;Sekunde(n) +@MSBuff*100@&nbsp;% Lauftempo.<br><rules>Die Effektivität der Heilung beträgt @MinionHealMod*100@&nbsp;%, wenn dein Ziel ein Vasall ist (@MinionHealMod*50@&nbsp;% bei Fernkampf-Champions).<br>Bei einem kritischen Treffer wird die Heilung um @HealCritMod*100@&nbsp;% deines kritischen Schadensmodifikators erhöht.</rules>",
 						"icon": "ASSETS/Perks/Styles/Precision/FleetFootwork/FleetFootwork.dds"
 					}
 				]
@@ -287,15 +287,15 @@
 						"id": 9111,
 						"key": "Triumph",
 						"name": "Triumph",
-						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Tötungen</lol-uikit-tooltipped-keyword> stellen @MissingHealthRestored.0*100@&nbsp;% deines fehlenden Lebens wieder her und gewähren zusätzlich @BonusGold@&nbsp;Gold. ",
-						"longDesc": "Tötungen und Unterstützungen stellen @MissingHealthRestored.0*100@&nbsp;% deines fehlenden Lebens wieder her und gewähren zusätzlich @BonusGold@&nbsp;Gold. <br><br><hr></hr><br><i>„Das gefährlichste Spiel bringt den größten Ruhm.“ <br>—&nbsp;Noxianischer Vergelter</i>",
+						"shortDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>Kills</lol-uikit-tooltipped-keyword> stellen @MissingHealthRestored.0*100@&nbsp;% deines fehlenden Lebens wieder her und gewähren zusätzlich @BonusGold@&nbsp;Gold. ",
+						"longDesc": "Kills und Unterstützungen stellen @MissingHealthRestored.0*100@&nbsp;% deines fehlenden Lebens wieder her und gewähren zusätzlich @BonusGold@&nbsp;Gold. <br><br><hr></hr><br><i>„Das gefährlichste Spiel bringt den größten Ruhm.“ <br>—&nbsp;Noxianischer Vergelter</i>",
 						"icon": "ASSETS/Perks/Styles/Precision/DangerousGame.dds"
 					},
 					{
 						"id": 8009,
 						"key": "PresenceOfMind",
 						"name": "Geistesgegenwart",
-						"shortDesc": "Nachdem du eine Stufe aufgestiegen bist oder an einem Kill beteiligt warst, wird dein verbrauchtes Mana @BuffDuration@&nbsp;Sekunden lang vollständig zurückerstattet.",
+						"shortDesc": "Nachdem du eine Stufe aufgestiegen bist oder an einem Kill beteiligt warst, wird dein verbrauchtes Mana @BuffDuration@Sekunden lang vollständig zurückerstattet.",
 						"longDesc": "Nachdem du eine Stufe aufgestiegen bist oder an einem Kill beteiligt warst, wird dein verbrauchtes Mana @BuffDuration@&nbsp;Sekunden lang vollständig zurückerstattet.",
 						"icon": "ASSETS/Perks/Styles/Precision/LastResort/LastResortIcon.dds"
 					}
@@ -307,7 +307,7 @@
 						"id": 9104,
 						"key": "LegendAlacrity",
 						"name": "Legende: Eifer",
-						"shortDesc": "Wenn du Gegner <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">tötest</lol-uikit-tooltipped-keyword>, erhältst du dauerhaftes <b>Angriffstempo</b>. ",
+						"shortDesc": "Wenn du Gegner <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>tötest</lol-uikit-tooltipped-keyword>, erhältst du dauerhaftes <b>Angriffstempo</b>. ",
 						"longDesc": "Du erhältst für jede <i>„Legenden“</i>-Steigerung @AttackSpeedBase*100@&nbsp;% Angriffstempo sowie zusätzliche @AttackSpeedPerStack*100@&nbsp;% (max. @MaxLegendStacks@&nbsp;Steigerungen).<br><br>Du kannst deine <i>„Legenden“</i>-Steigerungen erhöhen, indem du Champions tötest, epische Monster niederringst, große Monster erlegst oder Vasallen ausschaltest.",
 						"icon": "ASSETS/Perks/Styles/Precision/Legend_Heroism.dds"
 					},
@@ -315,7 +315,7 @@
 						"id": 9105,
 						"key": "LegendTenacity",
 						"name": "Legende: Zähigkeit",
-						"shortDesc": "Wenn du Gegner <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">tötest</lol-uikit-tooltipped-keyword>, erhältst du dauerhafte <b>Zähigkeit</b>. ",
+						"shortDesc": "Wenn du Gegner <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>tötest</lol-uikit-tooltipped-keyword>, erhältst du dauerhafte <b>Zähigkeit</b>. ",
 						"longDesc": "Du erhältst für jede <i>„Legenden“</i>-Steigerung @TenacityBase*100@&nbsp;% Zähigkeit sowie zusätzliche @TenacityPerStack*100@&nbsp;% (max. @MaxLegendStacks@&nbsp;Steigerungen).<br><br>Du kannst deine <i>„Legenden“</i>-Steigerungen erhöhen, indem du Champions tötest, epische Monster niederringst, große Monster erlegst oder Vasallen ausschaltest.",
 						"icon": "ASSETS/Perks/Styles/Precision/Legend_Tenacity.dds"
 					},
@@ -323,7 +323,7 @@
 						"id": 9103,
 						"key": "LegendBloodline",
 						"name": "Legende: Blutdurst",
-						"shortDesc": "Wenn du Gegner <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">tötest</lol-uikit-tooltipped-keyword>, erhältst du dauerhaften<b> Lebensraub</b>. ",
+						"shortDesc": "Wenn du Gegner <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>tötest</lol-uikit-tooltipped-keyword>, erhältst du dauerhaften<b> Lebensraub</b>. ",
 						"longDesc": "Du erhältst für jede <i>Legenden</i>-Steigerung @LifeStealPerStack*100@&nbsp;% Lebensraub (maximal @MaxLegendStacks@&nbsp;Steigerungen).<br><br>Du kannst deine <i>Legenden</i>-Steigerungen erhöhen, indem du Champions tötest, epische Monster niederringst, große Monster erlegst oder Vasallen ausschaltest.",
 						"icon": "ASSETS/Perks/Styles/Precision/Legend_Infamy.dds"
 					}
@@ -336,7 +336,7 @@
 						"key": "CoupDeGrace",
 						"name": "Gnadenstoß",
 						"shortDesc": "Verursache mehr Schaden an Champions mit wenig Leben.",
-						"longDesc": "Verursache @BonusPercentDamage.0 *100@&nbsp;% zusätzlichen Schaden an Champions, deren Leben unter @EnemyHealthPercentageThreshold*100@&nbsp;% liegt.<br><br>Zusätzlich dazu gewähren Championtötungen oder Unterstützungen @Duration@&nbsp;Sekunden lang einen <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptiven</font></lol-uikit-tooltipped-keyword> Bonus von @AdaptiveForce.-1*0.6@&nbsp;Angriffsschaden oder @AdaptiveForce@&nbsp;Fähigkeitsstärke.",
+						"longDesc": "Du verursachst @BonusPercentDamage.0 *100@&nbsp;% zusätzlichen Schaden an Champions, deren Leben unter @EnemyHealthPercentageThreshold*100@&nbsp;% liegt.<br><br>Zusätzlich dazu gewähren Champion-Kills oder Unterstützungen @Duration@&nbsp;Sekunden lang einen <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptiven</font></lol-uikit-tooltipped-keyword> Bonus von @AdaptiveForce.-1*0.6@&nbsp;Angriffsschaden oder @AdaptiveForce@&nbsp;Fähigkeitsstärke.",
 						"icon": "ASSETS/Perks/Styles/Precision/CoupDeGrace/CoupDeGrace.dds"
 					},
 					{
@@ -379,7 +379,7 @@
 						"id": 8439,
 						"key": "Aftershock",
 						"name": "Nachbeben",
-						"shortDesc": "Nachdem du einen gegnerischen Champion <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Immobilize\">bewegungsunfähig</lol-uikit-tooltipped-keyword> gemacht hast, erhältst du Verteidigung und verursachst nach einer Verzögerung um dich herum <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">adaptiven Schaden</lol-uikit-tooltipped-keyword>.",
+						"shortDesc": "Nachdem du einen gegnerischen Champion <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Immobilize'>bewegungsunfähig</lol-uikit-tooltipped-keyword> gemacht hast, erhältst du Verteidigung und verursachst nach einer Verzögerung um dich herum <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>adaptiven Schaden</lol-uikit-tooltipped-keyword>.",
 						"longDesc": "Nachdem du einen gegnerischen Champion bewegungsunfähig gemacht hast, erhöht sich deine Rüstung und Magieresistenz @DelayBeforeBurst.1@&nbsp;Sekunden lang um @FlatResists@–@FlatResistMaximum@. Daraufhin explodierst du und verursachst magischen Schaden an nahen Gegnern.<br><br>Schaden: @StartingBaseDamage@–@MaxBaseDamage@ (+@HealthRatio.-1@&nbsp;% deines maximalen Lebens) (+@DamageRatioAD*100@&nbsp;% deines zusätzlichen Angriffsschadens) (+@DamageRatioAP*100@&nbsp;% deiner Fähigkeitsstärke)<br>Abklingzeit: @Cooldown@&nbsp;Sekunden",
 						"icon": "ASSETS/Perks/Styles/Resolve/VeteranAftershock/VeteranAftershock.dds"
 					},
@@ -407,7 +407,7 @@
 						"id": 8463,
 						"key": "FontOfLife",
 						"name": "Lebensquelle",
-						"shortDesc": "Wenn die Bewegung eines gegnerischen Champions <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairMov\">eingeschränkt</lol-uikit-tooltipped-keyword> wird, wird dieser markiert. Deine Verbündeten werden geheilt, wenn sie einen von dir markierten Champion angreifen. ",
+						"shortDesc": "Wenn die Bewegung eines gegnerischen Champions <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_ImpairMov'>eingeschränkt</lol-uikit-tooltipped-keyword> wird, wird dieser markiert. Deine Verbündeten werden geheilt, wenn sie einen von dir markierten Champion angreifen. ",
 						"longDesc": "Wenn die Bewegung eines gegnerischen Champions eingeschränkt wird, wird dieser @MarkDuration@&nbsp;Sekunden lang markiert.<br><br>Verbündete Champions, die markierte Gegner angreifen, werden @HealDuration@&nbsp;Sekunden lang um @FlatHealAmount@ + @HealthRatio.-1 * 100@&nbsp;% deines maximalen Lebens geheilt. ",
 						"icon": "ASSETS/Perks/Styles/Resolve/FontOfLife/FontOfLife.dds"
 					},
@@ -415,8 +415,8 @@
 						"id": 8473,
 						"key": "BucklerRing",
 						"name": "Knochenpanzerung",
-						"shortDesc": "Nachdem ein gegnerischer Champion dir Schaden zugefügt hat, verursachen die nächsten @BlockCount@&nbsp;Fähigkeiten oder Angriffe von Gegnern gegen dich @BlockBase@–@BlockMax@ weniger Schaden.<br><br>Dauer: @BlockDuration@&nbsp;s<br>Abklingzeit: @Cooldown@&nbsp;s",
-						"longDesc": "Nachdem ein gegnerischer Champion dir Schaden zugefügt hat, verursachen die nächsten @BlockCount@&nbsp;Fähigkeiten oder Angriffe von Gegnern gegen dich @BlockBase@–@BlockMax@ weniger Schaden.<br><br>Dauer: @BlockDuration@&nbsp;s<br>Abklingzeit: @Cooldown@&nbsp;s",
+						"shortDesc": "Nachdem ein gegnerischer Champion dir Schaden zugefügt hat, verursachen die nächsten @BlockCount@&nbsp;Fähigkeiten oder Angriffe von Gegnern gegen dich @BlockBase@–@BlockMax@&nbsp;weniger Schaden.<br><br>Dauer: @BlockDuration@&nbsp;s<br>Abklingzeit: @Cooldown@&nbsp;s",
+						"longDesc": "Nachdem ein gegnerischer Champion dir Schaden zugefügt hat, verursachen die nächsten @BlockCount@&nbsp;Fähigkeiten oder Angriffe von Gegnern gegen dich @BlockBase@–@BlockMax@&nbsp;weniger Schaden.<br><br>Dauer: @BlockDuration@&nbsp;s<br>Abklingzeit: @Cooldown@&nbsp;s",
 						"icon": "ASSETS/Perks/Styles/Resolve/BucklerRing/BucklerRing.dds"
 					}
 				]
@@ -515,7 +515,7 @@
 						"id": 8230,
 						"key": "PhaseRush",
 						"name": "Phasenrausch",
-						"shortDesc": "Einen Champion mit 3&nbsp;<b>individuellen</b> Angriffen oder Fähigkeiten zu treffen, gewährt dir einen Schub auf dein <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">Lauftempo</lol-uikit-tooltipped-keyword>. ",
+						"shortDesc": "Einen Champion mit 3&nbsp;<b>individuellen</b> Angriffen oder Fähigkeiten zu treffen, erhöht kurzzeitig dein Lauftempo. ",
 						"longDesc": "Einen Champion innerhalb von @Window@&nbsp;Sekunden mit 3&nbsp;<b>individuellen</b> Angriffen oder Fähigkeiten zu treffen, gewährt dir abhängig von der Stufe @HasteBase*100@–@HasteMax*100@&nbsp;% Lauftempo und @SlowResist*100@&nbsp;% Verlangsamungsresistenz.<br><br>Dauer: @Duration@&nbsp;Sekunden<br>Abklingzeit: @Cooldown@&nbsp;Sekunden",
 						"icon": "ASSETS/Perks/Styles/Sorcery/PhaseRush/PhaseRush.dds"
 					}
@@ -555,7 +555,7 @@
 						"id": 8210,
 						"key": "Transcendence",
 						"name": "Überlegenheit",
-						"shortDesc": "Erhalte @MaxCDR*100@&nbsp;% <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_CDR\">Abklingzeitverringerung</lol-uikit-tooltipped-keyword>, sobald du Stufe&nbsp;@LevelToTurnOn@ erreichst. Überschüssige Abklingzeitverringerung wird in Fähigkeitsstärke oder Angriffsschaden umgewandelt <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">(adaptiv)</lol-uikit-tooltipped-keyword>.",
+						"shortDesc": "Du erhältst @MaxCDR*100@&nbsp;% Abklingzeitverringerung, sobald du Stufe&nbsp;@LevelToTurnOn@ erreichst. Überschüssige Abklingzeitverringerung wird in Fähigkeitsstärke oder Angriffsschaden umgewandelt <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'>(adaptiv)</lol-uikit-tooltipped-keyword>.",
 						"longDesc": "Erhalte @MaxCDR*100@&nbsp;% Abklingzeitverringerung, sobald du Stufe&nbsp;@LevelToTurnOn@ erreichst.<br><br>Jedes Prozent der Abklingzeitverringerung, welches das Limit überschreitet, wird in einen <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptiven</font></lol-uikit-tooltipped-keyword> Bonus von @AdaptiveForce.-1*0.6@&nbsp;Angriffsschaden oder @AdaptiveForce@&nbsp;Fähigkeitsstärke umgewandelt.",
 						"icon": "ASSETS/Perks/Styles/Sorcery/Transcendence/Transcendence.dds"
 					},
@@ -563,7 +563,7 @@
 						"id": 8234,
 						"key": "Celerity",
 						"name": "Flinkheit",
-						"shortDesc": "Erhalte @PercentMS.0@&nbsp;% zusätzliches <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">Lauftempo</lol-uikit-tooltipped-keyword>. Erhalte zusätzliche Fähigkeitsstärke oder zusätzlichen Angriffsschaden <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">(adaptiv)</lol-uikit-tooltipped-keyword>. Der Bonus ist abhängig von deinem zusätzlichen Lauftempo. ",
+						"shortDesc": "Du erhältst @PercentMS.0@&nbsp;% zusätzliches Lauftempo. Du erhältst zusätzliche Fähigkeitsstärke oder zusätzlichen Angriffsschaden <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'>(adaptiv)</lol-uikit-tooltipped-keyword>. Der Bonus ist abhängig von deinem zusätzlichen Lauftempo. ",
 						"longDesc": "Erhalte um @PercentMS.0@&nbsp;% erhöhtes Lauftempo.<br>Dein zusätzliches Lauftempo wird <font color='#48C4B7'>adaptiv</font> in Angriffsschaden oder Fähigkeitsstärke mit einer Rate von @AdaptiveAD*8@&nbsp;% Angriffsschaden oder @AdaptiveAP*8@&nbsp;% Fähigkeitsstärke umgewandelt.",
 						"icon": "ASSETS/Perks/Styles/Sorcery/Celerity/CelerityTemp.dds"
 					},
@@ -571,7 +571,7 @@
 						"id": 8233,
 						"key": "AbsoluteFocus",
 						"name": "Absoluter Fokus",
-						"shortDesc": "Wenn du über mehr als @HealthPercent*100@&nbsp;% deines Lebens verfügst, wird dir <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">&nbsp;adaptiver Schaden</lol-uikit-tooltipped-keyword> gewährt.",
+						"shortDesc": "Wenn du über mehr als @HealthPercent*100@&nbsp;% deines Lebens verfügst, wird dir zusätzlicher <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>adaptiver Schaden</lol-uikit-tooltipped-keyword> gewährt.",
 						"longDesc": "Wenn du über mehr als @HealthPercent*100@&nbsp;% deines Lebens verfügst, wird dir abhängig von der Stufe ein Bonus von bis zu @MaxAdaptive.-1*0.6@&nbsp;Angriffsschaden oder @MaxAdaptive@&nbsp;Fähigkeitsstärke <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>(adaptiv)</font></lol-uikit-tooltipped-keyword> gewährt.",
 						"icon": "ASSETS/Perks/Styles/Sorcery/AbsoluteFocus/AbsoluteFocus.dds"
 					}
@@ -591,7 +591,7 @@
 						"id": 8232,
 						"key": "Waterwalking",
 						"name": "Wasserlauf",
-						"shortDesc": "Erhalte <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">Lauftempo</lol-uikit-tooltipped-keyword> und Fähigkeitsstärke oder Angriffsschaden <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">(adaptiv)</lol-uikit-tooltipped-keyword>, wenn du dich im Fluss befindest.",
+						"shortDesc": "Du erhältst im Fluss Lauftempo und Fähigkeitsstärke oder Angriffsschaden <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'>(adaptiv)</lol-uikit-tooltipped-keyword>.",
 						"longDesc": "Erhalte @MovementSpeed@&nbsp;Lauftempo und abhängig von der Stufe einen Bonus von bis zu @MaxAdaptive.-1*0.6@&nbsp;Angriffsschaden oder @MaxAdaptive@&nbsp;Fähigkeitsstärke <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>(adaptiv)</font></lol-uikit-tooltipped-keyword>, wenn du dich im Fluss aufhältst.<br><br><hr></hr><br><i>Mögest du so schnell sein wie tosendes Wasser und so wendig wie ein aufgeschreckter Kluftkrabbler.</i><br>",
 						"icon": "ASSETS/Perks/Styles/Sorcery/Waterwalking/Waterwalking.dds"
 					},
@@ -599,7 +599,7 @@
 						"id": 8236,
 						"key": "GatheringStorm",
 						"name": "Aufziehender Sturm",
-						"shortDesc": "Erhalte im Laufe des Spiels einen sich ständig erhöhenden Betrag an Fähigkeitsstärke oder Angriffsschaden <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">(adaptiv)</lol-uikit-tooltipped-keyword>.",
+						"shortDesc": "Du erhältst im Laufe des Spiels einen sich ständig erhöhenden Betrag an Fähigkeitsstärke oder Angriffsschaden <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'>(adaptiv)</lol-uikit-tooltipped-keyword>.",
 						"longDesc": "Erhalte alle @UpdateAfterMinutes@&nbsp;Minuten Fähigkeitsstärke oder Angriffsschaden <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>(adaptiv)</font></lol-uikit-tooltipped-keyword>.<br><br><i>10&nbsp;Minuten</i>: +8&nbsp;Fähigkeitsstärke oder 5&nbsp;Angriffsschaden <br><i>20&nbsp;Minuten</i>: +24&nbsp;Fähigkeitsstärke oder 14&nbsp;Angriffsschaden<br><i>30&nbsp;Minuten</i>: +48&nbsp;Fähigkeitsstärke oder 29&nbsp;Angriffsschaden<br><i>40&nbsp;Minuten</i>: +80&nbsp;Fähigkeitsstärke oder 48&nbsp;Angriffsschaden<br><i>50&nbsp;Minuten</i>: +120&nbsp;Fähigkeitsstärke oder 72&nbsp;Angriffsschaden<br><i>60&nbsp;Minuten</i>: +168&nbsp;Fähigkeitsstärke oder 101&nbsp;Angriffsschaden<br>usw.",
 						"icon": "ASSETS/Perks/Styles/Sorcery/GatheringStorm/GatheringStorm.dds"
 					}
