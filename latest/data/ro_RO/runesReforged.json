@@ -9,27 +9,27 @@
 				"runes": [
 					{
 						"id": 8112,
-						"key": "StormlordsMandate",
+						"key": "Electrocute",
 						"name": "Electrocutare",
 						"shortDesc": "Atunci când lovești un campion cu 3 atacuri sau abilități <b>diferite</b> în decurs de @WindowDuration@ sec., îi provoci <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">daune adaptive</lol-uikit-tooltipped-keyword> bonus.",
 						"longDesc": "Atunci când lovești un campion cu 3 atacuri sau abilități <b>diferite</b> în decurs de @WindowDuration@ sec., îi provoci <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'> daune adaptive</font></lol-uikit-tooltipped-keyword> bonus.<br><br>Daune: @DamageBase@-@DamageMax@ (+@BonusADRatio.-1@ AD bonus, +@APRatio.-1@ AP).<br><br>Timp de reactivare: @Cooldown@-@CooldownMin@ sec.<br><br><hr></hr><i>''Le spuneam «zeii tunetului», căci cei ce le pomeneau fulgerele le invocau mânia.''</i>",
-						"icon": "ASSETS/Perks/Styles/Domination/TLords/TLords.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/Electrocute/Electrocute.dds"
 					},
 					{
 						"id": 8124,
-						"key": "KSLycanthropy",
+						"key": "Predator",
 						"name": "Prădător",
 						"shortDesc": "Cizmele tale primesc o activă ce-ți oferă un bonus mare la <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">viteza de mișcare</lol-uikit-tooltipped-keyword>; de asemenea, următorul tău atac sau următoarea ta abilitate provoacă <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">daune adaptive</lol-uikit-tooltipped-keyword> bonus.",
-						"longDesc": "Îți descântă cizmele, oferindu-le efectul activ ''<font color='#c60300'>{{perk_displayname_KSLycanthropy}}</font>''.<br><br>{{ game_itemmod_bloodmoonboots }}",
-						"icon": "ASSETS/Perks/Styles/Domination/KSLycanthropy/KSLycanthropy.dds"
+						"longDesc": "Îți descântă cizmele, oferindu-le efectul activ ''<font color='#c60300'>{{perk_displayname_Predator}}</font>''.<br><br>{{ game_itemmod_bloodmoonboots }}",
+						"icon": "ASSETS/Perks/Styles/Domination/Predator/Predator.dds"
 					},
 					{
 						"id": 8128,
-						"key": "KSSoulReaper",
+						"key": "DarkHarvest",
 						"name": "Recolta sufletelor",
 						"shortDesc": "Campionii, minionii mari și monștrii mari lasă în urmă suflete atunci când mor. Când atingi un suflet, îl absorbi, iar următorul tău atac va provoca <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">daune adaptive</lol-uikit-tooltipped-keyword> bonus în funcție de numărul total de suflete adunate.",
 						"longDesc": "Campionii, minionii mari și monștrii mari lasă în urmă suflete atunci când mor. Când strângi suflete, primești efectul <font color='#c60300'>''Încărcare spirituală''</font>. Următorul tău atac împotriva unui campion sau unei structuri va consuma <font color='#c60300'>''Încărcarea spirituală''</font> și va provoca <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>daune adaptive</font></lol-uikit-tooltipped-keyword> bonus.<br><br><font color='#c60300'>''Încărcarea spirituală''</font> rezistă @ONHDuration@ sec., durată ce crește la @ONHDurationLong@ sec. după ce aduni @SoulsRequiredForIncreasedDuration@ suflete.<br><br>Daune bonus: @DamageMin@-@DamageMax@ (+<scaleAD>@ADRatio.2@ AD bonus</scaleAD>) (+<scaleAP>@APRatio.1@ AP</scaleAP>) + sufletele adunate.<br><rules><br>Campionii oferă @champstacks@ suflete.<br>Monștrii oferă @monsterstacks@ suflete.<br>Minionii oferă @minionstacks@ suflete.</rules>",
-						"icon": "ASSETS/Perks/Styles/Domination/KSSoulReaper/KSSoulReaper.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/DarkHarvest/DarkHarvest.dds"
 					}
 				]
 			},
@@ -41,23 +41,23 @@
 						"name": "Sub centură",
 						"shortDesc": "Provoci daune reale bonus împotriva campionilor inamici cu <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairAct\">mobilitate redusă sau acțiuni limitate</lol-uikit-tooltipped-keyword>. ",
 						"longDesc": "Când ataci campioni cu <b>mobilitate redusă sau acțiuni limitate</b>, le provoci @DamageIncMin@-@DamageIncMax@ daune reale bonus (în funcție de nivel).<br><br>Timp de reactivare: @Cooldown@ sec.<br><rules>Se aplică doar daunelor provocate după reducerea mobilității/limitarea acțiunilor.</rules>",
-						"icon": "ASSETS/Perks/Styles/Domination/Bully/Bully.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/CheapShot/CheapShot.dds"
 					},
 					{
 						"id": 8139,
-						"key": "Feast",
+						"key": "TasteOfBlood",
 						"name": "Gustul sângelui",
 						"shortDesc": "Îți refaci viață atunci când îi provoci daune unui campion inamic.",
 						"longDesc": "Te vindeci atunci când îi provoci daune unui campion inamic.<br><br>Vindecare: @HealAmount@-@HealAmountMax@ (+@ADRatio.-1@ AD bonus, +@APRatio.-1@ AP) viață (în funcție de nivel).<br><br>Timp de reactivare: @Cooldown@ sec.",
-						"icon": "ASSETS/Perks/Styles/Domination/Feast/GreenTerror_Feast.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/TasteOfBlood/GreenTerror_TasteOfBlood.dds"
 					},
 					{
 						"id": 8143,
-						"key": "DashAttack",
+						"key": "SuddenImpact",
 						"name": "Impact distrugător",
 						"shortDesc": "După ce te năpustești, sari, te deplasezi instantaneu, te teleportezi sau ieși din camuflaj, primești un scurt bonus de letalitate și penetrare magică.",
 						"longDesc": "După ce ieși din camuflaj, te năpustești, sari, te deplasezi instantaneu sau te teleportezi, dacă îi provoci daune unui campion, primești @BonusLethality.0@ letalitate și @BonusMpen.0@ penetrare magică timp de @Duration@ sec.<br><br>Timp de reactivare: @Cooldown@ sec.",
-						"icon": "ASSETS/Perks/Styles/Domination/DashAttack/DashAttack.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/SuddenImpact/SuddenImpact.dds"
 					}
 				]
 			},
@@ -68,24 +68,24 @@
 						"key": "ZombieWard",
 						"name": "Gardă zombificată",
 						"shortDesc": "După ce ucizi o gardă inamică, în locul ei apare o ''Gardă zombificată'' aliată. Când îți expiră gărzile, acestea reapar ca ''Gărzi zombificate''.",
-						"longDesc": "După ce ucizi o gardă inamică, în locul ei apare o ''Gardă zombificată'' aliată. În plus, când îți expiră gărzile, acestea reapar ca ''Gărzi zombificate''.<br><br>''Gărzile zombificate'' sunt vizibile, rămân pe hartă timp de @WardDuration@ sec. și nu sunt luate în considerare pentru limita maximă de gărzi.",
+						"longDesc": "După ce ucizi o gardă inamică, în locul ei apare o ''Gardă zombificată'' aliată. În plus, când îți expiră gărzile, acestea reapar ca ''Gărzi zombificate''.<br><br>''Gărzile zombificate'' sunt vizibile, rămân pe hartă timp de @WardDurationMin@-@WardDuration@ sec. și nu sunt luate în considerare pentru limita maximă de gărzi.",
 						"icon": "ASSETS/Perks/Styles/Domination/ZombieWard/ZombieWard.dds"
 					},
 					{
 						"id": 8120,
-						"key": "ViciousPoro",
+						"key": "GhostPoro",
 						"name": "Poro-fantomă",
 						"shortDesc": "Când intri într-un tufiș, apare un poro. Acesta rămâne în urmă pentru a-ți oferi viziune.",
-						"longDesc": "Intră în tufiș pentru a invoca un animăluț poro după o scurtă pregătire. Animăluțul poro va rămâne în tufiș pentru a-ți oferi viziune până invoci altul.<br><br>Dacă un inamic intră într-un tufiș în care se află un poro, îl sperie, iar efectul ''{{ perk_displayname_ViciousPoro }}'' intră într-o perioadă de reactivare de @Cooldown@ sec.<br><br>Pregătirea e întreruptă dacă suferi daune.",
-						"icon": "ASSETS/Perks/Styles/Domination/ViciousPoro/ViciousPoro.dds"
+						"longDesc": "Intră în tufiș pentru a invoca un animăluț poro după o scurtă pregătire. Animăluțul poro va rămâne în tufiș pentru a-ți oferi viziune până invoci altul.<br><br>Dacă un inamic intră într-un tufiș în care se află un poro, îl sperie, iar efectul ''{{ perk_displayname_GhostPoro }}'' intră într-o perioadă de reactivare de @Cooldown@ sec.<br><br>Pregătirea e întreruptă dacă suferi daune.",
+						"icon": "ASSETS/Perks/Styles/Domination/GhostPoro/GhostPoro.dds"
 					},
 					{
 						"id": 8138,
-						"key": "WardSlayer",
+						"key": "EyeballCollection",
 						"name": "Colecție de ochi",
 						"shortDesc": "Primești ochi atunci când <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">dobori</lol-uikit-tooltipped-keyword> campioni și gărzi. Fiecare ochi oferă permanent AD sau AP <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">(adaptiv)</lol-uikit-tooltipped-keyword>, plus un bonus când termini colecția.",
 						"longDesc": "Primești ochi atunci când dobori campioni și gărzi. Pentru fiecare ochi din colecție, primești {{ perk_subtext_AdaptiveForce }}. <br><br>După ce aduni @MaxEyeballs@ ochi și termini colecția, primești încă {{ perk_subtext_AdaptiveForce_EyeballCollection }}.<br><br>Primești @StacksPerTakedown@ ochi pentru asasinatele de campioni, @StacksPerAssist@ pentru participările la asasinate și @StacksPerWard@ ochi pentru doborârile de gărzi.",
-						"icon": "ASSETS/Perks/Styles/Domination/WardSlayer/WardSlayer.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/EyeballCollection/EyeballCollection.dds"
 					}
 				]
 			},
@@ -93,27 +93,27 @@
 				"runes": [
 					{
 						"id": 8135,
-						"key": "InsatiableHunter",
+						"key": "RavenousHunter",
 						"name": "Vânător lacom",
 						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Doborârile</lol-uikit-tooltipped-keyword> <b>unice</b> oferă vindecare permanentă din daunele provocate de abilități. ",
 						"longDesc": "Te vindeci în valoare de un anumit procent din daunele provocate de abilitățile tale.<br>Vindecare: @StartingOmnivamp*100@% + @OmnivampPerStack*100@% per cumul de <i>''Vânător de recompense''</i>. <br><br>Primești un cumul de <i>''Vânător de recompense''</i> prima oară când dobori câte un campion inamic.<br><rules><br>Efectul de vindecare este redus la o treime în cazul abilităților AoE.</rules><br>",
-						"icon": "ASSETS/Perks/Styles/Domination/InsatiableHunter/InsatiableHunter.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/RavenousHunter/RavenousHunter.dds"
 					},
 					{
 						"id": 8134,
-						"key": "BigGameHunter",
+						"key": "IngeniousHunter",
 						"name": "Vânător iscusit",
-						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Doborârile</lol-uikit-tooltipped-keyword> <b>unice</b> oferă permanent <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_CDR\">RTR pentru activele obiectelor</lol-uikit-tooltipped-keyword> (afectează și talismanele).",
+						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Doborârile</lol-uikit-tooltipped-keyword> <b>unice</b> oferă permanent <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_CDR\">RTR</lol-uikit-tooltipped-keyword> pentru activele obiectelor (afectează și talismanele).",
 						"longDesc": "Primești @StartingActiveItemCDR.0*100@% <b>RTR pentru activele obiectelor</b>, plus încă @ActiveItemCDRPerStack.0*100@% per cumul de <i>''Vânător de recompense''</i> (afectează și talismanele).<br><br>Primești un cumul de <i>''Vânător de recompense''</i> prima oară când dobori câte un campion inamic.",
-						"icon": "ASSETS/Perks/Styles/Domination/BigGameHunter/BigGameHunter.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/IngeniousHunter/IngeniousHunter.dds"
 					},
 					{
 						"id": 8105,
-						"key": "ProlificHunter",
+						"key": "RelentlessHunter",
 						"name": "Vânător neobosit",
 						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Doborârile</lol-uikit-tooltipped-keyword> <b>unice</b> oferă permanent <b><lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">viteză de mișcare</lol-uikit-tooltipped-keyword> în afara luptei</b>. ",
 						"longDesc": "Primești @StartingOOCMS@ <b>viteză de mișcare în afara luptei</b>, plus @OOCMS.0@ per cumul de <i>''Vânător de recompense''</i>.<br><br>Primești un cumul de <i>''Vânător de recompense''</i> prima oară când dobori câte un campion inamic.",
-						"icon": "ASSETS/Perks/Styles/Domination/ProlificHunter/ProlificHunter.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/RelentlessHunter/RelentlessHunter.dds"
 					}
 				]
 			}
@@ -372,7 +372,7 @@
 						"key": "KSRuinedKing",
 						"name": "Chemarea morților vii",
 						"shortDesc": "O dată la fiecare @TriggerTime@ sec., următorul tău atac împotriva unui campion inamic provoacă daune magice bonus, te vindecă și îți crește permanent viața.",
-						"longDesc": "La fiecare @TriggerTime@ sec. petrecute în luptă, următorul tău atac de bază împotriva unui campion: <li>provoacă daune magice bonus egale cu @PercentHealthDamage.0@% din viața ta maximă;<br>te vindecă în valoare de @PercentHealthHeal.0*100@% din viața ta maximă;<br>îți crește permanent viața cu @MaxHealthPerProc@</li><br><rules><i>Pentru campionii care atacă la distanță:</i> daunele provocate și vindecarea sunt înjumătățite, iar creșterea permanentă de viață este de @RangedHealthPerProc@.</rules>",
+						"longDesc": "La fiecare @TriggerTime@ sec. petrecute în luptă, următorul tău atac de bază împotriva unui campion:<li>provoacă daune magice bonus egale cu @PercentHealthDamage.0@% din viața ta maximă;</li><li>te vindecă în valoare de @PercentHealthHeal.0*100@% din viața ta maximă;</li><li>îți crește permanent viața cu @MaxHealthPerProc@</li><br><rules><i>Pentru campionii care atacă la distanță:</i> daunele provocate, vindecarea și viața permanentă primită sunt reduse cu @RangedPenaltyMod*100@%.</rules><br>",
 						"icon": "ASSETS/Perks/Styles/Resolve/KSRuinedKing/KSRuinedKing.dds"
 					},
 					{
@@ -380,7 +380,7 @@
 						"key": "Vengeance",
 						"name": "Replică",
 						"shortDesc": "După ce <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Immobilize\">imobilizezi</lol-uikit-tooltipped-keyword> un campion inamic, primești atribute defensive și, după o perioadă de așteptare, provoci în jur daune <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">adaptive</lol-uikit-tooltipped-keyword>.",
-						"longDesc": "După ce imobilizezi un campion inamic, primești un bonus de @FlatResists@ + @ResistInc.0*100@% la armură și la rezistența la magie, timp de @DelayBeforeBurst.1@ sec. Apoi explodezi și le provoci daune magice inamicilor din apropiere.<br><br>Daune: @StartingBaseDamage@-@MaxBaseDamage@ (+@HealthRatio.1@% din viața ta maximă)<br>Timp de reactivare: @Cooldown@ sec.",
+						"longDesc": "După ce imobilizezi un campion inamic, primești un bonus de @FlatResists@-@FlatResistMaximum@ la armură și la rezistența la magie, timp de @DelayBeforeBurst.1@ sec. Apoi explodezi și le provoci daune magice inamicilor din apropiere.<br><br>Daune: @StartingBaseDamage@-@MaxBaseDamage@ (+@HealthRatio.-1@% din viața ta maximă) (+@DamageRatioAD*100@% din daunele bonus din atac) (+@DamageRatioAP*100@% din puterea abilităților)<br>Timp de reactivare: @Cooldown@ sec.",
 						"icon": "ASSETS/Perks/Styles/Resolve/VeteranVengeance/VeteranVengeance.dds"
 					},
 					{
@@ -388,7 +388,7 @@
 						"key": "KSBuddyShield",
 						"name": "Mână dreaptă",
 						"shortDesc": "Îți protejezi aliații asupra cărora folosești vrăji și pe cei care se află foarte aproape de tine. Dacă tu sau un aliat pe care-l protejezi suferiți daune, amândoi primiți un scut și un bonus la viteza de mișcare.",
-						"longDesc": "{{ perk_shared_desc_KSBuddyShield }}<br><br>Timp de reactivare: @Cooldown@ sec.<br>Scut: @ShieldBase@-@ShieldMax@ (<scaleAP>+@APRatio.-1@ AP</scaleAP>) (<scalehealth>+@HPRatio.0*100@% viață bonus</scalehealth>).<br>Rapiditate: +@Haste*100@% viteză de mișcare.",
+						"longDesc": "{{ perk_shared_desc_KSBuddyShield }}<br><br>Timp de reactivare: <scaleLevel>@Cooldown@-@CooldownMaxLevel@</scaleLevel> secunde<br>Scut: <scaleLevel>@ShieldBase@-@ShieldMax@</scaleLevel> + <scaleAP>@APRatio.-1@%</scaleAP> din puterea abilităților + <scalehealth>@HPRatio.0*100@%</scalehealth> din viața bonus.<br>Rapiditate: +@Haste*100@% viteză de mișcare.",
 						"icon": "ASSETS/Perks/Styles/Resolve/KSBuddyShield/KSBuddyShield.dds"
 					}
 				]

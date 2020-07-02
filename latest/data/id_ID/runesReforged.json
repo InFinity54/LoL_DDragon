@@ -9,27 +9,27 @@
 				"runes": [
 					{
 						"id": 8112,
-						"key": "StormlordsMandate",
+						"key": "Electrocute",
 						"name": "Electrocute",
 						"shortDesc": "Menyerang Champion dengan 3 serangan atau Ability <b>berbeda</b> dalam waktu @WindowDuration@ detik akan menghasilkan bonus <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">Damage adaptif</lol-uikit-tooltipped-keyword>.",
 						"longDesc": "Menyerang Champion dengan 3 serangan atau Ability <b>berbeda</b> dalam waktu @WindowDuration@ detik akan menghasilkan bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>Damage adaptif</font></lol-uikit-tooltipped-keyword>.<br><br>Damage: @DamageBase@ - @DamageMax@ (+@BonusADRatio.-1@ bonus AD, +@APRatio.-1@ AP) Damage.<br><br>Cooldown: @Cooldown@ - @CooldownMin@ detik<br><br><hr></hr><i>'Kita menyebutnya Thunderlords, hanya untuk membicarakan petirnya yang mengundang bencana.'</i>",
-						"icon": "ASSETS/Perks/Styles/Domination/TLords/TLords.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/Electrocute/Electrocute.dds"
 					},
 					{
 						"id": 8124,
-						"key": "KSLycanthropy",
+						"key": "Predator",
 						"name": "Predator",
-						"shortDesc": "Tambahkan efek aktif pada Boots Anda yang memberikan peningkatan besar <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">Movement Speed</lol-uikit-tooltipped-keyword> dan menjadikan serangan atau Spell Anda berikutnya menghasilkan bonus <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">Damage adaptif</lol-uikit-tooltipped-keyword>.",
-						"longDesc": "Perkuat Boots Anda dengan efek aktif '<font color='#c60300'>{{perk_displayname_KSLycanthropy}}</font>.'<br><br>{{ game_itemmod_bloodmoonboots }}",
-						"icon": "ASSETS/Perks/Styles/Domination/KSLycanthropy/KSLycanthropy.dds"
+						"shortDesc": "Berikan efek aktif pada Boots Anda yang memberikan peningkatan besar pada <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">Movement Speed</lol-uikit-tooltipped-keyword> dan menyebabkan serangan atau Ability Anda berikutnya menghasilkan bonus <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">Damage adaptif</lol-uikit-tooltipped-keyword>.",
+						"longDesc": "Berikan efek aktif pada Boots Anda '<font color='#c60300'>{{perk_displayname_Predator}}</font>.'<br><br>{{ game_itemmod_bloodmoonboots }}",
+						"icon": "ASSETS/Perks/Styles/Domination/Predator/Predator.dds"
 					},
 					{
 						"id": 8128,
-						"key": "KSSoulReaper",
+						"key": "DarkHarvest",
 						"name": "Dark Harvest",
-						"shortDesc": "Champion, Minion besar, dan Monster besar menjatuhkan Soul Essence ketika mati. Sentuh Soul tersebut untuk menyerapnya dan menghasilkan bonus <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">Damage Adaptif</lol-uikit-tooltipped-keyword> pada serangan biasa Anda selanjutnya berdasarkan total Soul Essence yang dikumpulkan.",
-						"longDesc": "Champion, Minion besar, dan Monster besar akan menjatuhkan Soul Essence ketika mati. Kumpulkan Soul untuk mendapatkan efek <font color='#c60300'>Soul Charged</font>. Serangan Anda berikutnya pada Champion atau bangunan akan menggunakan <font color='#c60300'>Soul Charged</font> untuk menghasilkan bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>Damage adaptif</font></lol-uikit-tooltipped-keyword>.<br><br><font color='#c60300'>Soul Charged</font> bertahan selama @ONHDuration@ detik, durasi meningkat hingga @ONHDurationLong@ detik setelah mengumpulkan @SoulsRequiredForIncreasedDuration@ Soul Essence.<br><br>Bonus damage: @DamageMin@ - @DamageMax@ (+<scaleAD>@ADRatio.2@ bonus AD</scaleAD>) (+<scaleAP>@APRatio.1@ AP</scaleAP> ) + Soul Essence yang terkumpul.<br><rules><br>Champion - @champstacks@ Soul Essence.<br>Monster - @monsterstacks@ Soul Essence.<br>Minion - @minionstacks@ Soul Essence.</rules>",
-						"icon": "ASSETS/Perks/Styles/Domination/KSSoulReaper/KSSoulReaper.dds"
+						"shortDesc": "Champion, Minion besar, dan Monster besar akan menjatuhkan Soul Essence ketika mati. Sentuh Soul untuk menyerapnya dan menghasilkan bonus <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">Damage adaptif</lol-uikit-tooltipped-keyword> pada serangan biasa Anda berikutnya berdasarkan jumlah total Soul Essence yang terkumpul.",
+						"longDesc": "Champion, Minion besar, dan Monster besar akan menjatuhkan Soul Essence ketika mati. Kumpulkan Soul untuk mendapatkan efek <font color='#c60300'>Soul Charged</font>. Serangan Anda berikutnya pada Champion atau bangunan akan menggunakan efek <font color='#c60300'>Soul Charged</font> untuk menghasilkan bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>Damage adaptif</font></lol-uikit-tooltipped-keyword>.<br><br><font color='#c60300'>Soul Charged</font> bertahan selama @ONHDuration@ detik, meningkat hingga @ONHDurationLong@ detik setelah mengumpulkan @SoulsRequiredForIncreasedDuration@ Soul Essence.<br><br>Bonus Damage: @DamageMin@ - @DamageMax@ (+<scaleAD>@ADRatio.2@ bonus AD</scaleAD>) (+<scaleAP>@APRatio.1@ AP</scaleAP>) + Soul Essence yang telah dikumpulkan.<br><rules><br>Champion - @champstacks@ Soul Essence.<br>Monster - @monsterstacks@ Soul Essence.<br>Minion - @minionstacks@ Soul Essence.</rules>",
+						"icon": "ASSETS/Perks/Styles/Domination/DarkHarvest/DarkHarvest.dds"
 					}
 				]
 			},
@@ -39,25 +39,25 @@
 						"id": 8126,
 						"key": "CheapShot",
 						"name": "Cheap Shot",
-						"shortDesc": "Menghasilkan bonus True Damage pada Champion musuh yang <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairAct\">pergerakannya dilumpuhkan atau tidak bisa bergerak</lol-uikit-tooltipped-keyword>. ",
-						"longDesc": "Menyerang Champion dengan <b>aksi melumpuhkan pergerakan</b> akan menghasilkan @DamageIncMin@ - @DamageIncMax@ bonus True Damage (berdasarkan Level).<br><br>Cooldown: @Cooldown@ detik<br><rules>Aktif ketika Damage diterima setelah dilumpuhkan.</rules>",
-						"icon": "ASSETS/Perks/Styles/Domination/Bully/Bully.dds"
+						"shortDesc": "Menghasilkan bonus True Damage pada Champion musuh dengan <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairAct\">melumpuhkan pergerakan atau aksi</lol-uikit-tooltipped-keyword>. ",
+						"longDesc": "Menghasilkan Damage pada Champion dengan <b>melumpuhkan pergerakan atau aksi</b> akan menghasilkan @DamageIncMin@ - @DamageIncMax@ bonus True Damage (berdasarkan level).<br><br>Cooldown: @Cooldown@ detik<br><rules>Aktif pada Damage yang diterima setelah kelumpuhan.</rules>",
+						"icon": "ASSETS/Perks/Styles/Domination/CheapShot/CheapShot.dds"
 					},
 					{
 						"id": 8139,
-						"key": "Feast",
+						"key": "TasteOfBlood",
 						"name": "Taste of Blood",
-						"shortDesc": "Mendapatkan Heal ketika Anda menghasilkan Damage pada Champion musuh.",
-						"longDesc": "Memberi Anda Heal ketika menyerang Champion musuh.<br><br>Memulihkan: @HealAmount@-@HealAmountMax@ (+@ADRatio.-1@ bonus AD, +@APRatio.-1@ AP) Health (berdasarkan level)<br><br>Cooldown: @Cooldown@ detik",
-						"icon": "ASSETS/Perks/Styles/Domination/Feast/GreenTerror_Feast.dds"
+						"shortDesc": "Menerima Heal ketika Anda menghasilkan Damage pada Champion musuh.",
+						"longDesc": "Mendapatkan Heal ketika Anda menghasilkan Damage pada Champion musuh.<br><br>Heal: @HealAmount@-@HealAmountMax@ (+@ADRatio.-1@ bonus AD, +@APRatio.-1@ AP) Health (berdasarkan level)<br><br>Cooldown: @Cooldown@ detik",
+						"icon": "ASSETS/Perks/Styles/Domination/TasteOfBlood/GreenTerror_TasteOfBlood.dds"
 					},
 					{
 						"id": 8143,
-						"key": "DashAttack",
+						"key": "SuddenImpact",
 						"name": "Sudden Impact",
-						"shortDesc": "Mendapatkan Burst Lethality dan Magic Penetration setelah melakukan Dash, Leap, Blink, Teleport, atau setelah berhenti menghilang.",
-						"longDesc": "Setelah selesai menghilang, menggunakan Dash, Leap, Blink, atau Teleport, menghasilkan Damage pada Champion akan memberikan @BonusLethality.0@ Lethality dan @BonusMpen.0@ Magic Penetration selama @Duration@ detik.<br><br>Cooldown: @Cooldown@ detik",
-						"icon": "ASSETS/Perks/Styles/Domination/DashAttack/DashAttack.dds"
+						"shortDesc": "Dapatkan Burst Lethality dan Magic Penetration setelah menggunakan Dash, Leap, Blink, Teleport, atau setelah selesai menghilang.",
+						"longDesc": "Setelah berhenti menghilang atau menggunakan Dash, Leap, Blink, atau Teleport, menghasilkan Damage apa pun pada Champion memberi Anda @BonusLethality.0@ Lethality dan @BonusMpen.0@ Magic Penetration selama @Duration@ detik.<br><br>Cooldown: @Cooldown@ detik",
+						"icon": "ASSETS/Perks/Styles/Domination/SuddenImpact/SuddenImpact.dds"
 					}
 				]
 			},
@@ -68,24 +68,24 @@
 						"key": "ZombieWard",
 						"name": "Zombie Ward",
 						"shortDesc": "Setelah menghancurkan Ward, Zombie Ward teman akan bangkit di lokasinya. Ketika durasi Ward Anda habis, mereka juga bangkit sebagai Zombie Ward.",
-						"longDesc": "Setelah menghancurkan Ward musuh, Zombie Ward teman akan bangkit di lokasi tersebut. Selain itu, ketika durasi Ward Anda habis, dia akan bangkit kembali sebagai Zombie Ward.<br><br>Zombie Ward bisa terlihat, dan bertahan selama @WardDuration@ detik dan tidak termasuk dalam batas jumlah Ward Anda.",
+						"longDesc": "Setelah menghancurkan Ward, Zombie Ward teman akan bangkit menggantikannya. Selain itu, ketika Ward Anda habis, mereka akan bangkit sebagai Zombie Ward.<br><br>Zombie Ward bisa dilihat, dan bertahan selama @WardDurationMin@ - @WardDuration@ detik dan tidak termasuk batas jumlah Ward Anda.",
 						"icon": "ASSETS/Perks/Styles/Domination/ZombieWard/ZombieWard.dds"
 					},
 					{
 						"id": 8120,
-						"key": "ViciousPoro",
+						"key": "GhostPoro",
 						"name": "Ghost Poro",
-						"shortDesc": "Ketika Anda memasuki semak, seekor poro akan muncul. Dia akan tetap ada untuk memberi Anda Vision.",
-						"longDesc": "Masuki semak untuk memanggil poro setelah melakukan Channeling singkat. Poro tersebut akan menetap untuk memberikan Anda Vision sampai Anda memanggil yang baru.<br><br>Jika musuh memasuki semak yang terdapat poro, mereka akan mengusirnya, memasukan {{ perk_displayname_ViciousPoro }} dalam Cooldown selama @Cooldown@ detik.<br><br>Channeling Poro terganggu jika Anda menerima Damage.",
-						"icon": "ASSETS/Perks/Styles/Domination/ViciousPoro/ViciousPoro.dds"
+						"shortDesc": "Ketika memasuki semak, seekor poro akan muncul. Dia akan menetap untuk memberi Anda Vision.",
+						"longDesc": "Masuki semak untuk memanggil Poro setelah melakukan Channeling singkat. Poro tersebut akan menetap untuk memberi Anda Vision hingga Anda memanggil yang baru.<br><br>Jika musuh memasuki semak yang terdapat poro di dalamnya, mereka akan mengusirnya, membuat {{ perk_displayname_GhostPoro }} dalam Cooldown selama @Cooldown@ detik.<br><br>Channeling Poro akan terganggu jika Anda terkena Damage.",
+						"icon": "ASSETS/Perks/Styles/Domination/GhostPoro/GhostPoro.dds"
 					},
 					{
 						"id": 8138,
-						"key": "WardSlayer",
+						"key": "EyeballCollection",
 						"name": "Eyeball Collection",
-						"shortDesc": "Kumpulkan Eyeball setelah mendapatkan <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Kill atau Assist</lol-uikit-tooltipped-keyword> pada Champion atau menghancurkan Ward. Mendapatkan AD atau AP permanen, <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">adaptif</lol-uikit-tooltipped-keyword> untuk setiap Eyeball dan bonusnya setelah berhasil mengumpulkan semuanya.",
-						"longDesc": "Kumpulkan Eyeball dengan mendapatkan Kill atau Assist pada Champion atau menghancurkan Ward. Dapatkan {{ perk_subtext_AdaptiveForce }}, untuk setiap Eyeball yang dikumpulkan. <br><br>Setelah selesai mengumpulkan koleksi dengan jumlah @MaxEyeballs@ Eyeball, akan mendapatkan tambahan {{ perk_subtext_AdaptiveForce_EyeballCollection }}.<br><br>Kumpulkan @StacksPerTakedown@ Eyeball setiap membunuh Champion, @StacksPerAssist@ Eyeball per Assist, dan @StacksPerWard@ Eyeball setiap menghancurkan Ward.",
-						"icon": "ASSETS/Perks/Styles/Domination/WardSlayer/WardSlayer.dds"
+						"shortDesc": "Kumpulkan Eyeball setelah mendapatkan <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Kill atau Assist</lol-uikit-tooltipped-keyword> pada Champion atau Ward. Dapatkan permanen AD atau AP, <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">adaptif</lol-uikit-tooltipped-keyword> untuk setiap Eyeball dan bonusnya setelah melengkapi koleksi.",
+						"longDesc": "Kumpulkan Eyeball dengan mendapatkan Kill atau Assist pada Champion dan menghancurkan Ward. Dapatkan {{ perk_subtext_AdaptiveForce }}, per Eyeball yang telah dikumpulkan. <br><br>Setelah mengumpulkan semuanya yaitu sejumlah @MaxEyeballs@ Eyeball, mendapatkan tambahan {{ perk_subtext_AdaptiveForce_EyeballCollection }}.<br><br>Kumpulkan @StacksPerTakedown@ Eyeball per Champion Kill, @StacksPerAssist@ per Assist, dan @StacksPerWard@ setelah menghancurkan Ward.",
+						"icon": "ASSETS/Perks/Styles/Domination/EyeballCollection/EyeballCollection.dds"
 					}
 				]
 			},
@@ -93,27 +93,27 @@
 				"runes": [
 					{
 						"id": 8135,
-						"key": "InsatiableHunter",
+						"key": "RavenousHunter",
 						"name": "Ravenous Hunter",
-						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Kill atau Assist</lol-uikit-tooltipped-keyword> <b>unik</b> memberikan Heal permanen dari Ability Damage. ",
-						"longDesc": "Mendapatkan Heal dari persentase Damage yang Anda hasilkan dengan Ability.<br><br>Heal: @StartingOmnivamp*100@% + @OmnivampPerStack*100@% setiap tumpukan <i>Bounty Hunter</i> . <br><br>Dapatkan tumpukan <i>Bounty Hunter</i> ketika pertama kali mendapatkan Kill atau Assist pada setiap Champion musuh.<br><rules><br>Efek Heal berkurang menjadi sepertiga pada Ability Area of Effect.</rules><br>",
-						"icon": "ASSETS/Perks/Styles/Domination/InsatiableHunter/InsatiableHunter.dds"
+						"shortDesc": "<b>Unique</b> <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Takedown</lol-uikit-tooltipped-keyword> memberikan Heal permanen dari Ability Damage. ",
+						"longDesc": "Dapatkan Heal untuk persenan Damage yang Anda hasilkan dengan Ability Anda.<br>Healing: @StartingOmnivamp*100@% + @OmnivampPerStack*100@% per tumpukan <i>Bounty Hunter</i>. <br><br>Dapatkan tumpukan <i>Bounty Hunter</i> saat pertama kali mendapatkan Kill atau Assist pada setiap Champion musuh.<br><rules><br>Heal dikurangi sepertiganya untuk Ability efek area.</rules><br>",
+						"icon": "ASSETS/Perks/Styles/Domination/RavenousHunter/RavenousHunter.dds"
 					},
 					{
 						"id": 8134,
-						"key": "BigGameHunter",
+						"key": "IngeniousHunter",
 						"name": "Ingenious Hunter",
-						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Kill atau Assist</lol-uikit-tooltipped-keyword> <b>unik</b> memberikan Item aktif permanen <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_CDR\">CDR</lol-uikit-tooltipped-keyword> (termasuk Trinket).",
-						"longDesc": "Mendapatkan @StartingActiveItemCDR.0*100@% <b>CDR Item Aktif</b> dan tambahan @ActiveItemCDRPerStack.0*100@% dari setiap tumpukan <i>Bounty Hunter</i> (termasuk Trinket).<br><br>Dapatkan Tumpukan <i>Bounty Hunter</i> saat Anda pertama kali mendapatkan Kill atau Assist pada Champion musuh.",
-						"icon": "ASSETS/Perks/Styles/Domination/BigGameHunter/BigGameHunter.dds"
+						"shortDesc": "<b>Unique</b> <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Takedown</lol-uikit-tooltipped-keyword> memberi permanen<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_CDR\">CDR</lol-uikit-tooltipped-keyword> Item Aktif (termasuk Trinket).",
+						"longDesc": "Dapatkan @StartingActiveItemCDR.0*100@% <b>CDR Item Aktif</b> dan tambahan @ActiveItemCDRPerStack.0*100@% per tumpukan <i>Bounty Hunter</i> (termasuk Trinket).<br><br>Dapatkan tumpukan <i>Bounty Hunter</i> saat Anda pertama kali mendapatkan Kill atau Assist pada setiap Champion musuh.",
+						"icon": "ASSETS/Perks/Styles/Domination/IngeniousHunter/IngeniousHunter.dds"
 					},
 					{
 						"id": 8105,
-						"key": "ProlificHunter",
+						"key": "RelentlessHunter",
 						"name": "Relentless Hunter",
 						"shortDesc": "Mendapatkan <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Kill atau Assist</lol-uikit-tooltipped-keyword> <b>unik</b> akan memberikan <b><lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">Movement Speed</lol-uikit-tooltipped-keyword> permanen di luar pertarungan</b>. ",
 						"longDesc": "Mendapatkan @StartingOOCMS@ <b>Movement Speed menjauhi pertarungan</b> dan @OOCMS.0@ untuk setiap tumpukan <i>Bounty Hunter</i>.<br><br>Dapatkan Tumpukan <i>Bounty Hunter</i> saat Anda pertama kali mendapatkan Kill atau Assist pada Champion musuh.",
-						"icon": "ASSETS/Perks/Styles/Domination/ProlificHunter/ProlificHunter.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/RelentlessHunter/RelentlessHunter.dds"
 					}
 				]
 			}
@@ -168,7 +168,7 @@
 						"key": "BiscuitsAndBonuses",
 						"name": "Biscuit Delivery",
 						"shortDesc": "Mendapatkan Biscuit setiap @BiscuitMinuteInterval@ menit, hingga menit ke @SwapOverMinute@. Mengonsumsi Biscuit akan meningkatkan Mana maksimum Anda secara permanen dan memulihkan Health dan Mana.",
-						"longDesc": "Biscuit Delivery: Mendapatkan {{game_item_displayname_2010}} setiap @BiscuitMinuteInterval@ menit, hingga @SwapOverMinute@ menit.<br><br>Biscuit memulihkan @HealthHealPercent.0*100@% Health dan Mana Anda yang hilang. Mengonsumsi Biscuit akan meningkatkan batas maksimum Mana Anda sebesar @PermanentMana@ secara permanen. <br><br><i>Manaless:</i> Champion tanpa Mana akan memulihkan @HealthHealPercentManaless.0*100@% Health yang hilang.<br>",
+						"longDesc": "Biscuit Delivery: Mendapatkan {{game_item_displayname_2010}} setiap @BiscuitMinuteInterval@ menit, hingga @SwapOverMinute@ menit.<br><br>Biscuit memulihkan @HealthHealPercent.0*100@% Health dan Mana Anda yang hilang. Mengonsumsi Biscuit akan meningkatkan batas maksimum Mana Anda sebesar @PermanentMana@ secara permanen. <br><br><i>Manaless:</i> Champion tanpa Mana akan memulihkan @HealthHealPercentManaless.0*100@% Health yang hilang.",
 						"icon": "ASSETS/Perks/Styles/Inspiration/BiscuitsAndBonuses/BiscuitsAndBonuses.dds"
 					},
 					{
@@ -252,7 +252,7 @@
 						"key": "PressThreeAttacks",
 						"name": "Press the Attack",
 						"shortDesc": "Menyerang Champion musuh secara beruntun sebanyak @HitsRequired@ kali akan membuat mereka rentan, menghasilkan bonus Damage dan menyebabkan mereka menerima Damage lebih besar dari semua sumber selama @AmpDuration@ detik.",
-						"longDesc": "Melakukan serangan biasa pada Champion musuh secara beruntun sebanyak @HitsRequired@ kali akan menghasilkan @MinDamage@ - @MaxDamage@ bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>Damage adaptif</font></lol-uikit-tooltipped-keyword> (berdasarkan level) dan membuatnya kebal, meningkatkan Damage yang diterimanya sebesar @AmpPotencySelf.0*100@% dari semua sumber selama @AmpDuration@ detik.",
+						"longDesc": "Melakukan serangan biasa pada Champion musuh secara beruntun sebanyak @HitsRequired@ kali akan menghasilkan @MinDamage@ - @MaxDamage@ bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>Damage adaptif</font></lol-uikit-tooltipped-keyword> (berdasarkan level) dan membuatnya rentan, meningkatkan Damage yang diterimanya sebesar @AmpPotencySelf.0*100@% dari semua sumber selama @AmpDuration@detik.",
 						"icon": "ASSETS/Perks/Styles/Precision/PressThreeAttacks/PressThreeAttacks.dds"
 					},
 					{
@@ -336,7 +336,7 @@
 						"key": "CoupDeGrace",
 						"name": "Coup de Grace",
 						"shortDesc": "Menghasilkan Damage lebih besar pada Champion musuh yang memiliki Health rendah.",
-						"longDesc": "Menghasilkan @BonusPercentDamage.0 *100@% Damage lebih besar pada Champion yang memiliki lebih sedikit Health dari @EnemyHealthPercentageThreshold*100@%. <br>Selain itu, mendapatkan Kill atau Assist pada Champion akan memberikan {{perk_subtext_AdaptiveForce }} selama @Duration@ detik.",
+						"longDesc": "Menghasilkan @BonusPercentDamage.0 *100@% Damage lebih besar pada Champion yang memiliki lebih sedikit Health dari @EnemyHealthPercentageThreshold*100@%. <br>Selain itu, mendapatkan Kill atau Assist pada Champion akan memberikan {{perk_subtext_AdaptiveForce }} selama @Duration@detik.",
 						"icon": "ASSETS/Perks/Styles/Precision/CoupDeGrace/CoupDeGrace.dds"
 					},
 					{
@@ -372,7 +372,7 @@
 						"key": "KSRuinedKing",
 						"name": "Grasp of the Undying",
 						"shortDesc": "Setiap @TriggerTime@ detik serangan Anda berikutnya pada Champion menghasilkan bonus Magic Damage, memberi Anda Heal, dan meningkatkan Health Anda secara permanen.",
-						"longDesc": "Setiap @TriggerTime@ detik dalam pertarungan, serangan biasa Anda berikutnya pada Champion akan:<li>Menghasilkan bonus Magic Damage setara @PercentHealthDamage.0@% dari max Health Anda<br>Memberi Anda Heal sebesar @PercentHealthHeal.0*100@% dari max Health Anda<br>Meningkatkan Health Anda secara permanen sebesar @MaxHealthPerProc@</li><br><rules><i>Champion Jarak Jauh:</i> Damage dan Heal dikurangi setengahnya dan mendapatkan @RangedHealthPerProc@ Health permanen.</rules>",
+						"longDesc": "Setiap @TriggerTime@ detik dalam pertarungan, serangan biasa Anda berikutnya pada Champion akan:<li>Menghasilkan bonus Magic Damage sebesar @PercentHealthDamage.0@% dari max Health Anda</li><li>Memberi Anda Heal sebesar @PercentHealthHeal.0*100@% dari max Health Anda</li><li>Secara permanen meningkatkan Health Anda sebesar @MaxHealthPerProc@</li><br><rules><i>Champion Ranged:</i> Damage, Heal, dan Health permanen yang didapat dikurangi sebesar @RangedPenaltyMod*100@%.</rules><br>",
 						"icon": "ASSETS/Perks/Styles/Resolve/KSRuinedKing/KSRuinedKing.dds"
 					},
 					{
@@ -380,7 +380,7 @@
 						"key": "Vengeance",
 						"name": "Aftershock",
 						"shortDesc": "Setelah <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Immobilize\">melumpuhkan</lol-uikit-tooltipped-keyword> Champion musuh Anda mendapatkan Defense kemudian mendapatkan Burst <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">Damage adaptif</lol-uikit-tooltipped-keyword> ke sekitar Anda.",
-						"longDesc": "Setelah melumpuhkan Champion musuh, meningkatkan Armor dan Magic Resist Anda sebesar @FlatResists@ + @ResistInc.0*100@% selama @DelayBeforeBurst.1@ detik. Kemudian meledak, menghasilkan Magic Damage pada musuh terdekat.<br><br>Damage: @StartingBaseDamage@ - @MaxBaseDamage@ (+@HealthRatio.1@% dari Health maksimum Anda)<br>Cooldown: @Cooldown@ detik",
+						"longDesc": "Setelah melumpuhkan Champion musuh, meningkatkan Armor dan Magic Resist Anda sebesar @FlatResists@ - @FlatResistMaximum@ selama @DelayBeforeBurst.1@ detik. Kemudian meledak, menghasilkan Magic Damage pada musuh terdekat.<br><br>Damage: @StartingBaseDamage@ - @MaxBaseDamage@ (+@HealthRatio.-1@% dari Health maksimum Anda) (+@DamageRatioAD*100@% dari bonus Attack Damage Anda) (+@DamageRatioAP*100@% dari Ability Power Anda)<br>Cooldown: @Cooldown@ detik",
 						"icon": "ASSETS/Perks/Styles/Resolve/VeteranVengeance/VeteranVengeance.dds"
 					},
 					{
@@ -388,7 +388,7 @@
 						"key": "KSBuddyShield",
 						"name": "Guardian",
 						"shortDesc": "Lindungi teman yang Anda berikan Ability dan yang berada sangat dekat. Jika Anda atau teman yang dilindungi menerima Damage, kalian berdua mendapatkan efek Haste dan Shield.",
-						"longDesc": "{{ perk_shared_desc_KSBuddyShield }}<br><br>Cooldown: @Cooldown@ detik<br>Shield: @ShieldBase@ - @ShieldMax@ +(<scaleAP>@APRatio.-1@ AP</scaleAP>) + (<scalehealth>+@HPRatio.0*100@% bonus Health</scalehealth>).<br>Haste: +@Haste*100@% Movement Speed.",
+						"longDesc": "{{ perk_shared_desc_KSBuddyShield }}<br><br>Cooldown: <scaleLevel>@Cooldown@ - @CooldownMaxLevel@</scaleLevel> detik<br>Shield: <scaleLevel>@ShieldBase@ - @ShieldMax@</scaleLevel> + <scaleAP>@APRatio.-1@%</scaleAP> dari Ability Power Anda + <scalehealth>@HPRatio.0*100@%</scalehealth> dari bonus Health Anda.<br>Haste: +@Haste*100@% Movement Speed.",
 						"icon": "ASSETS/Perks/Styles/Resolve/KSBuddyShield/KSBuddyShield.dds"
 					}
 				]
@@ -408,7 +408,7 @@
 						"key": "Siege",
 						"name": "Demolish",
 						"shortDesc": "Mengisi serangan kuat pada Tower ketika berada di dekatnya.",
-						"longDesc": "Mengisi serangan kuat pada Tower selama @TotalSiegeTime@ detik, ketika berjarak @DistanceToTower@ dengan Tower tersebut. Serangan kuat itu menghasilkan @OutputDamagePerStack@ (+@MaxHealthPercentDamage.0 * 100@% dari Health maksimum Anda) bonus Physical Damage.<br><br>Cooldown: @CooldownSeconds@ detik",
+						"longDesc": "Mengisi serangan kuat pada Tower selama @TotalSiegeTime@ detik, ketika berjarak @DistanceToTower@ dengan Tower tersebut. Serangan kuat itu menghasilkan @OutputDamagePerStack@ (+@MaxHealthPercentDamage.0 * 100@% dari Health maksimum Anda) bonus Physical Damage.<br><br>Cooldown: @CooldownSeconds@detik",
 						"icon": "ASSETS/Perks/Styles/Resolve/BrickHitHouse/BrickHitHouse.dds"
 					},
 					{
@@ -428,7 +428,7 @@
 						"key": "NemMarks",
 						"name": "Iron Skin",
 						"shortDesc": "Mendapatkan +@ArmorBase@ Armor. <br>Mendapatkan Heal, termasuk Item konsumsi, meningkatkan Armor Anda sebesar @TotalExtraArmor*100@% untuk sementara.",
-						"longDesc": "Mendapatkan +@ArmorBase@ Armor. <br><br>Efek Heal dari Item konsumsi akan memberikan Heal setidaknya sebesar @FlatHealThreshold@ Health dan Shield yang meningkatkan Armor Anda sebesar @TotalExtraArmor*100@% selama @EvolveArmorDuration@ detik.",
+						"longDesc": "Mendapatkan +@ArmorBase@ Armor. <br><br>Efek Heal dari Item konsumsi akan memberikan Heal setidaknya sebesar @FlatHealThreshold@ Health dan Shield yang meningkatkan Armor Anda sebesar @TotalExtraArmor*100@% selama @EvolveArmorDuration@detik.",
 						"icon": "ASSETS/Perks/Styles/Resolve/NemMarks/NemMarks.dds"
 					},
 					{
@@ -436,7 +436,7 @@
 						"key": "NemMage",
 						"name": "Mirror Shell",
 						"shortDesc": "Mendapatkan +@MRBase@ Magic Resist. <br>Mendapatkan Heal, termasuk Item konsumsi, meningkatkan Magic Resist Anda sebesar @EvolveBonusMR*100@% untuk sementara.<br>",
-						"longDesc": "Mendapatkan +@MRBase@ Magic Resist. <br><br>Efek Heal dari Item konsumsi akan memberikan Heal setidaknya sebesar @FlatHealThreshold@ Health dan Shield yang meningkatkan total Magic Resist Anda sebesar @EvolveBonusMR*100@% selama @EvolveShellDuration@ detik.",
+						"longDesc": "Mendapatkan +@MRBase@ Magic Resist. <br><br>Efek Heal dari Item konsumsi akan memberikan Heal setidaknya sebesar @FlatHealThreshold@ Health dan Shield yang meningkatkan total Magic Resist Anda sebesar @EvolveBonusMR*100@% selama @EvolveShellDuration@detik.",
 						"icon": "ASSETS/Perks/Styles/Resolve/NemMage/NemMage.dds"
 					},
 					{
@@ -472,7 +472,7 @@
 						"key": "SecondWind",
 						"name": "Second Wind",
 						"shortDesc": "Setelah menerima Damage dari Champion musuh akan mendapatkan Heal sebagian besar Health Anda yang hilang secara perlahan. ",
-						"longDesc": "Setelah menerima Damage dari Champion musuh, menerima Heal sebesar @RegenPercentMax.0*100@% dari Health Anda yang hilang +@RegenFlat.0@ selama @RegenSeconds@ detik.",
+						"longDesc": "Setelah menerima Damage dari Champion musuh, menerima Heal sebesar @RegenPercentMax.0*100@% dari Health Anda yang hilang +@RegenFlat.0@ selama @RegenSeconds@detik.",
 						"icon": "ASSETS/Perks/Styles/Resolve/SecondWind/SecondWind.dds"
 					}
 				]
@@ -508,7 +508,7 @@
 						"key": "PhaseRush",
 						"name": "Phase Rush",
 						"shortDesc": "Menyerang Champion musuh dengan 3 serangan atau Ability <b>berbeda</b> akan memberikan Burst <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">Movement Speed</lol-uikit-tooltipped-keyword>. ",
-						"longDesc": "Menyerang Champion musuh dengan 3 serangan atau Ability <b>berbeda</b> dalam waktu @Window@ detik akan memberikan @HasteBase*100@ - @HasteMax*100@% Movement Speed berdasarkan level dan @SlowResist*100@% Slow Resistance.<br><br>Durasi: @Duration@ detik<br>Cooldown: @Cooldown@ detik",
+						"longDesc": "Menyerang Champion musuh dengan 3 serangan atau Ability <b>berbeda</b> dalam waktu @Window@ detik akan memberikan @HasteBase*100@ - @HasteMax*100@% Movement Speed berdasarkan level dan @SlowResist*100@% Slow Resistance.<br><br>Durasi: @Duration@ detik<br>Cooldown: @Cooldown@detik",
 						"icon": "ASSETS/Perks/Styles/Sorcery/PhaseRush/PhaseRush.dds"
 					}
 				]
@@ -520,15 +520,15 @@
 						"key": "NullifyingOrb",
 						"name": "Nullifying Orb",
 						"shortDesc": "Mendapatkan Shield Magic Damage ketika Health anda menjadi rendah akibat Magic Damage.",
-						"longDesc": "Ketika Anda menerima Magic Damage yang mengurangi Health Anda di bawah @PercHealthTrigger.0*100@%, akan mendapatkan Shield yang menyerap @ShieldMin@ - @ShieldMax@ Magic Damage berdasarkan level (<scaleAP>+@APRatio.-1@ AP</scaleAP> dan <scaleAD>+@ADRatio.-1@ bonus AD</scaleAD>) selama @ShieldDuration@ detik.<br><br>Cooldown: @Cooldown@ detik",
+						"longDesc": "Ketika Anda menerima Magic Damage yang mengurangi Health Anda di bawah @PercHealthTrigger.0*100@%, akan mendapatkan Shield yang menyerap @ShieldMin@ - @ShieldMax@ Magic Damage berdasarkan level (<scaleAP>+@APRatio.-1@ AP</scaleAP> dan <scaleAD>+@ADRatio.-1@ bonus AD</scaleAD>) selama @ShieldDuration@ detik.<br><br>Cooldown: @Cooldown@detik",
 						"icon": "ASSETS/Perks/Styles/Sorcery/NullifyingOrb/Pokeshield.dds"
 					},
 					{
 						"id": 8226,
 						"key": "ManaflowBand",
 						"name": "Manaflow Band",
-						"shortDesc": "Secara berkala, Mana atau Energy pada Ability berikutnya yang Anda gunakan akan dikembalikan dan memulihkan Mana atau Energy Anda yang hilang.",
-						"longDesc": "Setiap @Cooldown.0@ detik, Ability berikutnya yang Anda gunakan biaya Mana atau Energynya akan dikembalikan, dan memulihkan @MPToRestoreRatio.0*100@% dari Mana atau Energy Anda yang hilang.",
+						"shortDesc": "Secara berkala, biaya Mana atau Energy pada Ability berikutnya yang Anda gunakan akan dikembalikan dan memulihkan Mana atau Energy Anda yang hilang.",
+						"longDesc": "Setiap @Cooldown.0@ detik, Ability berikutnya yang Anda gunakan biaya Mana atau Energynya akan dikembalikan, dan memulihkan @MPToRestoreRatio.0*100@% Mana atau Energy Anda yang hilang.",
 						"icon": "ASSETS/Perks/Styles/Sorcery/ManaflowBand/ManaflowBand.dds"
 					},
 					{
@@ -576,7 +576,7 @@
 						"key": "Scorch",
 						"name": "Scorch",
 						"shortDesc": "Ability pertama Anda yang kena setiap @BurnlockoutDuration@ detik akan membakar Champion.",
-						"longDesc": "Ability Anda berikutnya yang mengenai Champion akan membakarnya menghasilkan @damage@ - @damagemax@ bonus Magic Damage berdasarkan level setelah @dotduration@ detik.<br><br>Cooldown: @BurnlockoutDuration@ detik",
+						"longDesc": "Ability Anda berikutnya yang mengenai Champion akan membakarnya menghasilkan @damage@ - @damagemax@ bonus Magic Damage berdasarkan level setelah @dotduration@ detik.<br><br>Cooldown: @BurnlockoutDuration@detik",
 						"icon": "ASSETS/Perks/Styles/Sorcery/Scorch/Scorch.dds"
 					},
 					{

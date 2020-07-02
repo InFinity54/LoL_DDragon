@@ -9,27 +9,27 @@
 				"runes": [
 					{
 						"id": 8112,
-						"key": "StormlordsMandate",
+						"key": "Electrocute",
 						"name": "감전",
-						"shortDesc": "@WindowDuration@초 동안 같은 챔피언에게 <b>개별</b> 공격 또는 스킬을 3회 적중시키면 추가 <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">적응형 피해</lol-uikit-tooltipped-keyword> 적용",
-						"longDesc": "@WindowDuration@초 동안 같은 챔피언에게 <b>개별</b> 공격 또는 스킬을 3회 적중시키면 추가 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>적응형 피해</font></lol-uikit-tooltipped-keyword>를 입힙니다.<br><br>피해량: @DamageBase@ ~ @DamageMax@ (+추가 공격력의 @BonusADRatio.-1@, +주문력의 @APRatio.-1@)<br><br>재사용 대기시간: @Cooldown@ ~ @CooldownMin@초<br><br><hr></hr><i>'우리는 그들을 천둥군주라고 부른다. 그들의 번개를 입에 올리는 것은 재앙을 부르는 길이기 때문이다.'</i>",
-						"icon": "ASSETS/Perks/Styles/Domination/TLords/TLords.dds"
+						"shortDesc": "@WindowDuration@초 동안 같은 챔피언에게 기본 공격 3회 또는 <b>개별</b> 스킬 3회를 적중시키면 추가 <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">적응형 피해</lol-uikit-tooltipped-keyword> 적용",
+						"longDesc": "@WindowDuration@초 동안 같은 챔피언에게 기본 공격 3회 또는 <b>개별</b> 스킬 3회를 적중시키면 추가 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>적응형 피해</font></lol-uikit-tooltipped-keyword>를 입힙니다.<br><br>피해량: @DamageBase@ ~ @DamageMax@ (+추가 공격력의 @BonusADRatio.-1@, +주문력의 @APRatio.-1@)<br><br>재사용 대기시간: @Cooldown@ ~ @CooldownMin@초<br><br><hr></hr><i>'우리는 그들을 천둥군주라고 부른다. 그들의 번개를 입에 올리는 것은 재앙을 부르는 길이기 때문이다.'</i>",
+						"icon": "ASSETS/Perks/Styles/Domination/Electrocute/Electrocute.dds"
 					},
 					{
 						"id": 8124,
-						"key": "KSLycanthropy",
+						"key": "Predator",
 						"name": "포식자",
 						"shortDesc": "장화에 사용 효과 추가. 사용 시 일시적으로 <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">이동 속도</lol-uikit-tooltipped-keyword>가 대폭 증가하며 다음 공격 또는 스킬 사용 시 추가 <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">적응형 피해</lol-uikit-tooltipped-keyword>",
-						"longDesc": "장화에 '<font color='#c60300'>{{perk_displayname_KSLycanthropy}}</font>' 사용 효과를 부여합니다.<br><br>{{ game_itemmod_bloodmoonboots }}",
-						"icon": "ASSETS/Perks/Styles/Domination/KSLycanthropy/KSLycanthropy.dds"
+						"longDesc": "장화에 '<font color='#c60300'>{{perk_displayname_Predator}}</font>' 사용 효과를 부여합니다.<br><br>{{ game_itemmod_bloodmoonboots }}",
+						"icon": "ASSETS/Perks/Styles/Domination/Predator/Predator.dds"
 					},
 					{
 						"id": 8128,
-						"key": "KSSoulReaper",
+						"key": "DarkHarvest",
 						"name": "어둠의 수확",
 						"shortDesc": "챔피언, 대형 미니언, 대형 몬스터 처치 시 영혼의 정수 생성. 수집한 영혼의 정수 총 개수에 따라 다음 공격에 추가 <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">적응형 피해</lol-uikit-tooltipped-keyword> 적용",
 						"longDesc": "챔피언, 대형 미니언, 대형 몬스터가 처치되면 영혼의 정수를 남깁니다. 이 영혼을 수집하면 <font color='#c60300'>영혼 충전</font> 상태가 됩니다. 이 상태로 챔피언 또는 구조물을 기본 공격하면 <font color='#c60300'>충전된 영혼</font>이 소모되며 추가로 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>적응형 피해</font></lol-uikit-tooltipped-keyword>를 줍니다.<br><br><font color='#c60300'>충전된 영혼</font>은 @ONHDuration@초 동안 유지되며, 영혼의 정수를 @SoulsRequiredForIncreasedDuration@개 수집한 후에는 유지 시간이 @ONHDurationLong@초로 늘어납니다.<br><br>추가 피해량: @DamageMin@ ~ @DamageMax@ (+<scaleAD>추가 공격력의 @ADRatio.2@</scaleAD>) (+<scaleAP>주문력의 @APRatio.1@</scaleAP>) + 수집한 영혼의 정수 개수<br><rules><br>챔피언: 영혼의 정수 @champstacks@개<br>몬스터: 영혼의 정수 @monsterstacks@개<br>미니언: 영혼의 정수 @minionstacks@개</rules>",
-						"icon": "ASSETS/Perks/Styles/Domination/KSSoulReaper/KSSoulReaper.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/DarkHarvest/DarkHarvest.dds"
 					}
 				]
 			},
@@ -41,23 +41,23 @@
 						"name": "비열한 한 방",
 						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairAct\">이동 또는 행동이 제약된</lol-uikit-tooltipped-keyword> 적 챔피언에게 추가 고정 피해 ",
 						"longDesc": "<b>이동 또는 행동을 방해받은</b> 상태의 챔피언에게 피해를 주면 레벨에 따라 @DamageIncMin@ ~ @DamageIncMax@의 추가 고정 피해를 입힙니다.<br><br>재사용 대기시간: @Cooldown@초<br><rules>방해 효과 이후 피해를 가할 때 활성화됩니다.</rules>",
-						"icon": "ASSETS/Perks/Styles/Domination/Bully/Bully.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/CheapShot/CheapShot.dds"
 					},
 					{
 						"id": 8139,
-						"key": "Feast",
+						"key": "TasteOfBlood",
 						"name": "피의 맛",
-						"shortDesc": "적 챔피언에게 피해를 주면 체력 회복",
+						"shortDesc": "적 챔피언에게 피해를 입히면 체력을 회복합니다.",
 						"longDesc": "적 챔피언에게 피해를 입히면 체력을 회복합니다.<br><br>회복량: @HealAmount@ ~ @HealAmountMax@ (+추가 공격력의 @ADRatio.-1@, +주문력의 @APRatio.-1@) (레벨에 비례)<br><br>재사용 대기시간: @Cooldown@초",
-						"icon": "ASSETS/Perks/Styles/Domination/Feast/GreenTerror_Feast.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/TasteOfBlood/GreenTerror_TasteOfBlood.dds"
 					},
 					{
 						"id": 8143,
-						"key": "DashAttack",
+						"key": "SuddenImpact",
 						"name": "돌발 일격",
 						"shortDesc": "돌진, 도약, 점멸, 순간이동을 사용하거나 은신에서 빠져나오면 물리 관통력 및 마법 관통력 급증",
 						"longDesc": "돌진, 도약, 점멸, 순간이동을 사용하거나 은신에서 빠져나온 뒤 적 챔피언에게 피해를 주면 @Duration@초 동안 @BonusLethality.0@의 물리 관통력과 @BonusMpen.0@의 마법 관통력을 얻습니다.<br><br>재사용 대기시간: @Cooldown@초",
-						"icon": "ASSETS/Perks/Styles/Domination/DashAttack/DashAttack.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/SuddenImpact/SuddenImpact.dds"
 					}
 				]
 			},
@@ -68,24 +68,24 @@
 						"key": "ZombieWard",
 						"name": "좀비 와드",
 						"shortDesc": "와드 파괴 시 그 자리에 아군 좀비 와드 생성. 자신이 설치한 와드의 지속 시간이 끝나면 좀비 와드로 부활",
-						"longDesc": "와드를 파괴하고 나면 그 자리에 아군 좀비 와드가 생성됩니다. 또한 자신이 설치한 와드의 지속 시간이 끝나면 좀비 와드로 부활합니다.<br><br>좀비 와드는 적이 볼 수 있고 @WardDuration@초 동안 유지되며, 설치 가능 와드 수에 영향을 주지 않습니다.",
+						"longDesc": "와드를 파괴하고 나면 그 자리에 아군 좀비 와드가 생성됩니다. 또한 자신이 설치한 와드의 지속 시간이 끝나면 좀비 와드로 부활합니다.<br><br>좀비 와드는 적이 볼 수 있고 @WardDurationMin@ ~ @WardDuration@초 동안 유지되며, 설치 가능 와드 수에 영향을 주지 않습니다.",
 						"icon": "ASSETS/Perks/Styles/Domination/ZombieWard/ZombieWard.dds"
 					},
 					{
 						"id": 8120,
-						"key": "ViciousPoro",
+						"key": "GhostPoro",
 						"name": "유령 포로",
 						"shortDesc": "수풀에 들어가면 포로가 수풀에 남아 시야 제공",
-						"longDesc": "수풀에 들어가면 잠시 정신 집중 후 포로가 소환됩니다. 포로는 새로운 포로가 소환될 때까지 그 자리에 남아 시야를 밝힙니다.<br><br>적 챔피언이 수풀에 들어가 포로를 몰아내면 {{ perk_displayname_ViciousPoro }} 효과가 @Cooldown@초의 재사용 대기시간에 들어갑니다.<br><br>정신 집중 중에 피해를 입으면 포로 소환이 중단됩니다.",
-						"icon": "ASSETS/Perks/Styles/Domination/ViciousPoro/ViciousPoro.dds"
+						"longDesc": "수풀에 들어가면 잠시 정신 집중 후 포로가 소환됩니다. 포로는 새로운 포로가 소환될 때까지 그 자리에 남아 시야를 밝힙니다.<br><br>적 챔피언이 수풀에 들어가 포로를 몰아내면 {{ perk_displayname_GhostPoro }} 효과가 @Cooldown@초의 재사용 대기시간에 들어갑니다.<br><br>정신 집중 중에 피해를 입으면 포로 소환이 중단됩니다.",
+						"icon": "ASSETS/Perks/Styles/Domination/GhostPoro/GhostPoro.dds"
 					},
 					{
 						"id": 8138,
-						"key": "WardSlayer",
+						"key": "EyeballCollection",
 						"name": "시야 수집",
 						"shortDesc": "와드 또는 챔피언 <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">처치 관여</lol-uikit-tooltipped-keyword> 시마다 감시 중첩 획득. 중첩당 <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">적응형</lol-uikit-tooltipped-keyword>으로 공격력 또는 주문력 영구 증가 및 최대 중첩 도달 시 추가 증가",
 						"longDesc": "챔피언 처치 및 와드 파괴에 관여하면 감시 중첩을 얻습니다. 감시 중첩 하나당 {{ perk_subtext_AdaptiveForce }}의 효과를 얻습니다. <br><br>감시 중첩이 최대치인 @MaxEyeballs@회에 도달하면 {{ perk_subtext_AdaptiveForce_EyeballCollection }}의 효과를 부가적으로 획득합니다.<br><br>적 챔피언 처치 시마다 감시 중첩 @StacksPerTakedown@회, 어시스트를 올릴 때마다 @StacksPerAssist@회, 와드 파괴 관여 시마다 @StacksPerWard@회를 얻습니다.",
-						"icon": "ASSETS/Perks/Styles/Domination/WardSlayer/WardSlayer.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/EyeballCollection/EyeballCollection.dds"
 					}
 				]
 			},
@@ -93,27 +93,27 @@
 				"runes": [
 					{
 						"id": 8135,
-						"key": "InsatiableHunter",
+						"key": "RavenousHunter",
 						"name": "굶주린 사냥꾼",
 						"shortDesc": "적 챔피언당 <b>1회</b> 한정 <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">처치 관여</lol-uikit-tooltipped-keyword> 시 스킬 피해로 인한 체력 회복량 영구 증가 ",
 						"longDesc": "스킬로 입힌 피해량의 일부만큼 체력을 회복합니다.<br>체력 회복량: @StartingOmnivamp*100@% + <i>현상금 사냥꾼</i> 중첩 1회당 @OmnivampPerStack*100@% <br><br>각 적 챔피언을 처치하는 데 처음으로 관여할 때마다 <i>현상금 사냥꾼</i> 중첩을 얻을 수 있습니다.<br><rules><br>광역 스킬의 경우 치유 효과가 1/3로 감소합니다.</rules><br>",
-						"icon": "ASSETS/Perks/Styles/Domination/InsatiableHunter/InsatiableHunter.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/RavenousHunter/RavenousHunter.dds"
 					},
 					{
 						"id": 8134,
-						"key": "BigGameHunter",
+						"key": "IngeniousHunter",
 						"name": "영리한 사냥꾼",
 						"shortDesc": "적 챔피언당 <b>1회</b> 한정 <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">처치 관여</lol-uikit-tooltipped-keyword> 시 영구적으로 사용 아이템 <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_CDR\">재사용 대기시간 감소</lol-uikit-tooltipped-keyword> (장신구 포함)",
-						"longDesc": "<b>사용 아이템 재사용 대기시간</b>이 @StartingActiveItemCDR.0*100@% + <i>현상금 사냥꾼</i> 중첩 1회당 @ActiveItemCDRPerStack.0*100@% 감소합니다. (장신구 포함)<br><br>적 챔피언 처치에 관여 시 챔피언당 1회씩 <i>현상금 사냥꾼</i> 중첩을 얻을 수 있습니다.",
-						"icon": "ASSETS/Perks/Styles/Domination/BigGameHunter/BigGameHunter.dds"
+						"longDesc": "<b>사용 아이템 재사용 대기시간</b>이 @StartingActiveItemCDR.0*100@% + <i>현상금 사냥꾼</i> 중첩 1회당 @ActiveItemCDRPerStack.0*100@% 감소합니다. (장신구 포함)<br><br>각 적 챔피언을 처치하는 데 처음으로 관여할 때마다 <i>현상금 사냥꾼</i> 중첩을 얻을 수 있습니다.",
+						"icon": "ASSETS/Perks/Styles/Domination/IngeniousHunter/IngeniousHunter.dds"
 					},
 					{
 						"id": 8105,
-						"key": "ProlificHunter",
+						"key": "RelentlessHunter",
 						"name": "끈질긴 사냥꾼",
 						"shortDesc": "적 챔피언당 <b>1회</b> 한정 <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">처치 관여</lol-uikit-tooltipped-keyword> 시 <b>전투에서 벗어나 있을 때 <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">이동 속도</lol-uikit-tooltipped-keyword></b> 영구 증가 ",
 						"longDesc": "<b>전투에서 벗어나 있을 때 이동 속도</b>가 @StartingOOCMS@ + <i>현상금 사냥꾼</i> 중첩 1회당 @OOCMS.0@만큼 증가합니다.<br><br>적 챔피언 처치에 관여 시 챔피언당 1회씩 <i>현상금 사냥꾼</i> 중첩을 얻을 수 있습니다.",
-						"icon": "ASSETS/Perks/Styles/Domination/ProlificHunter/ProlificHunter.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/RelentlessHunter/RelentlessHunter.dds"
 					}
 				]
 			}
@@ -372,7 +372,7 @@
 						"key": "KSRuinedKing",
 						"name": "착취의 손아귀",
 						"shortDesc": "@TriggerTime@초마다 적 챔피언 기본 공격 시 추가 마법 피해, 체력 회복, 체력 영구 증가",
-						"longDesc": "전투 중 @TriggerTime@초마다 챔피언에 대한 기본 공격 시 다음 효과를 받습니다. <li>자신 최대 체력의 @PercentHealthDamage.0@%에 해당하는 추가 마법 피해</li><li>자신 최대 체력의 @PercentHealthHeal.0*100@%에 해당하는 체력 회복</li><li>체력 @MaxHealthPerProc@만큼 영구 증가</li><br><rules><i>원거리 챔피언:</i> 피해량과 회복량이 반으로 줄어들며 영구적으로 체력이 @RangedHealthPerProc@ 증가합니다.</rules>",
+						"longDesc": "전투 중 @TriggerTime@초마다 챔피언에 대한 기본 공격 시 다음 효과를 얻습니다.<li>자신의 최대 체력의 @PercentHealthDamage.0@%에 해당하는 추가 마법 피해를 가하고,</li><li>자신 최대 체력의 @PercentHealthHeal.0*100@%에 해당하는 체력 회복</li><li>자신의 체력을 영구적으로 @MaxHealthPerProc@ 증가시킵니다.</li><br><rules><i>원거리 챔피언:</i> 피해량, 회복량, 체력 영구 증가량이 @RangedPenaltyMod*100@% 감소합니다.</rules><br>",
 						"icon": "ASSETS/Perks/Styles/Resolve/KSRuinedKing/KSRuinedKing.dds"
 					},
 					{
@@ -380,7 +380,7 @@
 						"key": "Vengeance",
 						"name": "여진",
 						"shortDesc": "적 챔피언을 <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Immobilize\">이동 불가</lol-uikit-tooltipped-keyword> 상태로 만들면 방어력/마법 저항력 증가 및 잠시 후 주변에 대량의 <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">적응형 피해</lol-uikit-tooltipped-keyword>",
-						"longDesc": "적을 이동 불가 상태로 만들면 @DelayBeforeBurst.1@초 동안 방어력과 마법 저항력이 @FlatResists@ + @ResistInc.0*100@% 증가하며, 폭발이 일어나 근처 적에게 마법 피해를 줍니다.<br><br>피해량: @StartingBaseDamage@ ~ @MaxBaseDamage@ (+자신의 최대 체력의 @HealthRatio.1@%)<br>재사용 대기시간: @Cooldown@초",
+						"longDesc": "적을 이동 불가 상태로 만들면 @DelayBeforeBurst.1@초 동안 방어력과 마법 저항력이 @FlatResists@ ~ @FlatResistMaximum@ 증가하며, 폭발이 일어나 근처 적에게 마법 피해를 줍니다.<br><br>피해량: @StartingBaseDamage@ ~ @MaxBaseDamage@ (+최대 체력의 @HealthRatio.-1@%) (+추가 공격력의 @DamageRatioAD*100@%) (+주문력의 @DamageRatioAP*100@%)<br>재사용 대기시간: @Cooldown@초",
 						"icon": "ASSETS/Perks/Styles/Resolve/VeteranVengeance/VeteranVengeance.dds"
 					},
 					{
@@ -388,7 +388,7 @@
 						"key": "KSBuddyShield",
 						"name": "수호자",
 						"shortDesc": "스킬 대상으로 지정한 아군과 가까운 아군을 보호. 자신 또는 보호받는 아군이 피해를 입으면 둘 다 이동 속도 증가 및 보호막 획득",
-						"longDesc": "{{ perk_shared_desc_KSBuddyShield }}<br><br>재사용 대기시간: @Cooldown@초<br>보호막 체력: @ShieldBase@ ~ @ShieldMax@ +(<scaleAP>주문력의 @APRatio.-1@</scaleAP>) + (<scalehealth>+추가 체력의 @HPRatio.0*100@%</scalehealth>)<br>이동 속도 증가: +@Haste*100@%",
+						"longDesc": "{{ perk_shared_desc_KSBuddyShield }}<br><br>재사용 대기시간: <scaleLevel>@Cooldown@ ~ @CooldownMaxLevel@</scaleLevel>초<br>보호막 체력: <scaleLevel>@ShieldBase@ ~ @ShieldMax@</scaleLevel> + 주문력의 <scaleAP>@APRatio.-1@%</scaleAP> + 추가 체력의 <scalehealth>@HPRatio.0*100@%</scalehealth><br>이동 속도 증가: +@Haste*100@%",
 						"icon": "ASSETS/Perks/Styles/Resolve/KSBuddyShield/KSBuddyShield.dds"
 					}
 				]
@@ -507,8 +507,8 @@
 						"id": 8230,
 						"key": "PhaseRush",
 						"name": "난입",
-						"shortDesc": "한 챔피언에게 <b>개별</b> 스킬 또는 기본 공격 3회 시 일시적으로 <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">이동 속도</lol-uikit-tooltipped-keyword> 증가 ",
-						"longDesc": "@Window@초 안에 한 챔피언에게 <b>개별</b> 공격 또는 스킬 공격을 3회 가하면 레벨에 따라 @HasteBase*100@ ~ @HasteMax*100@%의 이동 속도와 @SlowResist*100@%의 둔화 저항 효과를 얻습니다.<br><br>지속시간: @Duration@초<br>재사용 대기시간: @Cooldown@초",
+						"shortDesc": "한 챔피언에게 기본 공격 3회 또는 <b>개별</b> 스킬 3회 적중 시 일시적으로 <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">이동 속도</lol-uikit-tooltipped-keyword> 증가",
+						"longDesc": "@Window@초 안에 한 챔피언에게 기본 공격 3회 또는 <b>개별</b> 스킬 3회를 적중시키면 레벨에 따라 @HasteBase*100@ ~ @HasteMax*100@%의 이동 속도와 @SlowResist*100@%의 둔화 저항 효과를 얻습니다.<br><br>지속시간: @Duration@초<br>재사용 대기시간: @Cooldown@초",
 						"icon": "ASSETS/Perks/Styles/Sorcery/PhaseRush/PhaseRush.dds"
 					}
 				]

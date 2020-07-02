@@ -9,27 +9,27 @@
 				"runes": [
 					{
 						"id": 8112,
-						"key": "StormlordsMandate",
+						"key": "Electrocute",
 						"name": "Électrocution",
 						"shortDesc": "Toucher un champion avec 3 attaques ou compétences <b>différentes</b> en moins de @WindowDuration@ sec inflige des <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">dégâts adaptatifs</lol-uikit-tooltipped-keyword> supplémentaires.",
 						"longDesc": "Toucher un champion ennemi avec 3 attaques ou compétences <b>différentes</b> en moins de @WindowDuration@ sec inflige des <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>dégâts adaptatifs</font></lol-uikit-tooltipped-keyword> supplémentaires.<br><br>Dégâts : @DamageBase@ - @DamageMax@ (+@BonusADRatio.-1@ dégâts d'attaque supplémentaires, +@APRatio.-1@ puissance) pts de dégâts.<br><br>Délai de récupération : @Cooldown@ - @CooldownMin@ sec.<br><br><hr></hr><i>''On les appelait les lords fulminants, car parler de leurs éclairs était une invitation à l'anéantissement.''</i>",
-						"icon": "ASSETS/Perks/Styles/Domination/TLords/TLords.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/Electrocute/Electrocute.dds"
 					},
 					{
 						"id": 8124,
-						"key": "KSLycanthropy",
+						"key": "Predator",
 						"name": "Prédateur",
 						"shortDesc": "Ajoute une propriété active à vos bottes qui octroie un important bonus en <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">vitesse de déplacement</lol-uikit-tooltipped-keyword> et qui permet à votre prochaine attaque ou compétence d'infliger des <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">dégâts adaptatifs</lol-uikit-tooltipped-keyword> supplémentaires.",
-						"longDesc": "Enchante vos bottes avec la propriété active <font color='#c60300'>{{perk_displayname_KSLycanthropy}}</font>.<br><br>{{ game_itemmod_bloodmoonboots }}",
-						"icon": "ASSETS/Perks/Styles/Domination/KSLycanthropy/KSLycanthropy.dds"
+						"longDesc": "Enchante vos bottes avec la propriété active <font color='#c60300'>{{perk_displayname_Predator}}</font>.<br><br>{{ game_itemmod_bloodmoonboots }}",
+						"icon": "ASSETS/Perks/Styles/Domination/Predator/Predator.dds"
 					},
 					{
 						"id": 8128,
-						"key": "KSSoulReaper",
+						"key": "DarkHarvest",
 						"name": "Moisson noire",
 						"shortDesc": "Les champions, les grands sbires et les grands monstres laissent une essence d'âme en mourant. Touchez une âme pour l'absorber et permettre à votre prochaine attaque d'infliger des <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">dégâts adaptatifs</lol-uikit-tooltipped-keyword> supplémentaires (selon le total d'essences d'âme collectées).",
 						"longDesc": "Les champions, les grands sbires et les grands monstres laissent une essence d'âme en mourant. Ramassez des âmes pour entamer une <font color='#c60300'>Collection d'âmes</font>. Votre prochaine attaque contre un champion ou un bâtiment consomme votre <font color='#c60300'>Collection d'âmes</font> pour infliger des <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>dégâts adaptatifs</font></lol-uikit-tooltipped-keyword> supplémentaires.<br><br><font color='#c60300'>Collection d'âmes</font> dure @ONHDuration@ sec, et la durée est augmentée à @ONHDurationLong@ sec après avoir collecté @SoulsRequiredForIncreasedDuration@ essences d'âme.<br><br>Dégâts supplémentaires : @DamageMin@ - @DamageMax@ (+<scaleAD>@ADRatio.2@ dégâts d'attaque supplémentaires</scaleAD>) (+<scaleAP>@APRatio.1@ puissance</scaleAP>) + essences d'âme collectées.<br><rules><br>Champions - @champstacks@ essences d'âme.<br>Monstres - @monsterstacks@ essences d'âme.<br>Sbires - @minionstacks@ essences d'âme.</rules>",
-						"icon": "ASSETS/Perks/Styles/Domination/KSSoulReaper/KSSoulReaper.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/DarkHarvest/DarkHarvest.dds"
 					}
 				]
 			},
@@ -41,23 +41,23 @@
 						"name": "Coup bas",
 						"shortDesc": "Vous infligez des dégâts bruts supplémentaires aux champions ennemis dont <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairAct\">les actions ou les déplacements sont restreints</lol-uikit-tooltipped-keyword>. ",
 						"longDesc": "Blesser des champions dont <b>les actions ou les déplacements sont restreints</b> leur inflige @DamageIncMin@ - @DamageIncMax@ pts de dégâts bruts supplémentaires (selon le niveau).<br><br>Délai de récupération : @Cooldown@ sec.<br><rules>S'active avec les dégâts qui surviennent après la restriction.</rules>",
-						"icon": "ASSETS/Perks/Styles/Domination/Bully/Bully.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/CheapShot/CheapShot.dds"
 					},
 					{
 						"id": 8139,
-						"key": "Feast",
+						"key": "TasteOfBlood",
 						"name": "Goût du sang",
 						"shortDesc": "Vous récupérez des PV quand vous blessez un champion ennemi.",
 						"longDesc": "Vous récupérez des PV quand vous blessez un champion ennemi.<br><br>Soins : @HealAmount@-@HealAmountMax@ (+@ADRatio.-1@ dégâts d'attaque supplémentaires, +@APRatio.-1@ puissance) PV (selon le niveau).<br><br>Délai de récupération : @Cooldown@ sec.",
-						"icon": "ASSETS/Perks/Styles/Domination/Feast/GreenTerror_Feast.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/TasteOfBlood/GreenTerror_TasteOfBlood.dds"
 					},
 					{
 						"id": 8143,
-						"key": "DashAttack",
+						"key": "SuddenImpact",
 						"name": "Ruée offensive",
 						"shortDesc": "Vous gagnez de la létalité et de la pénétration magique après avoir utilisé une ruée, un bond, un saut instantané ou une téléportation ou en cessant d'être furtif.",
 						"longDesc": "Après avoir cessé d'être furtif ou après avoir utilisé une ruée, un bond, un saut instantané ou une téléportation, infliger des dégâts à un champion vous octroie +@BonusLethality.0@ létalité et +@BonusMpen.0@ pénétration magique pendant @Duration@ sec.<br><br>Délai de récupération : @Cooldown@ sec.",
-						"icon": "ASSETS/Perks/Styles/Domination/DashAttack/DashAttack.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/SuddenImpact/SuddenImpact.dds"
 					}
 				]
 			},
@@ -68,24 +68,24 @@
 						"key": "ZombieWard",
 						"name": "Balise zombie",
 						"shortDesc": "Quand vous détruisez une balise, une Balise zombie alliée apparaît à sa place. Quand vos balises expirent, elles reviennent sous la forme de Balises zombies.",
-						"longDesc": "Quand vous détruisez une balise, une Balise zombie alliée apparaît à sa place. De plus, quand vos balises expirent, elles reviennent sous la forme de Balises zombies.<br><br>Les Balises zombies sont visibles, durent @WardDuration@ sec et ne comptent pas dans la limite de balises posées.",
+						"longDesc": "Quand vous détruisez une balise, une Balise zombie alliée apparaît à sa place. De plus, quand vos balises expirent, elles reviennent sous la forme de Balises zombies.<br><br>Les Balises zombies sont visibles, durent<br> @WardDurationMin@ - @WardDuration@ sec et ne comptent pas dans la limite de balises posées.",
 						"icon": "ASSETS/Perks/Styles/Domination/ZombieWard/ZombieWard.dds"
 					},
 					{
 						"id": 8120,
-						"key": "ViciousPoro",
+						"key": "GhostPoro",
 						"name": "Poro fantôme",
 						"shortDesc": "Quand vous passez dans les herbes hautes, un Poro apparaît. Il reste derrière vous et vous donne la vision des environs.",
-						"longDesc": "Entrez dans des hautes herbes pour invoquer un Poro après une brève canalisation. Le Poro reste derrière pour vous donner la vision des environs jusqu'à ce que vous en invoquiez un autre.<br><br>Si un ennemi entre dans les hautes herbes où se trouve un Poro, il l'effraie et {{ perk_displayname_ViciousPoro }} entre en récupération pendant @Cooldown@ sec.<br><br>La canalisation du Poro est interrompue si vous subissez des dégâts.",
-						"icon": "ASSETS/Perks/Styles/Domination/ViciousPoro/ViciousPoro.dds"
+						"longDesc": "Entrez dans des hautes herbes pour invoquer un Poro après une brève canalisation. Le Poro reste derrière pour vous donner la vision des environs jusqu'à ce que vous en invoquiez un autre.<br><br>Si un ennemi entre dans les hautes herbes où se trouve un Poro, il l'effraie et {{ perk_displayname_GhostPoro }} entre en récupération pendant @Cooldown@ sec.<br><br>La canalisation du Poro est interrompue si vous subissez des dégâts.",
+						"icon": "ASSETS/Perks/Styles/Domination/GhostPoro/GhostPoro.dds"
 					},
 					{
 						"id": 8138,
-						"key": "WardSlayer",
+						"key": "EyeballCollection",
 						"name": "Arracheur d'œil",
 						"shortDesc": "Vous collectez des yeux en participant à l'<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">élimination</lol-uikit-tooltipped-keyword> des champions et des balises. Vous gagnez définitivement des dégâts d'attaque ou de la puissance (<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">bonus adaptatif</lol-uikit-tooltipped-keyword>) pour chaque œil, plus un bonus une fois votre collection terminée.",
-						"longDesc": "Vous collectez des yeux en participant à l'élimination des champions et des balises. Vous gagnez +{{ perk_subtext_AdaptiveForce }} par œil collecté. <br><br>Une fois votre collecte terminée (@MaxEyeballs@ yeux), vous gagnez +{{ perk_subtext_AdaptiveForce_EyeballCollection }}.<br><br>Vous collectez @StacksPerTakedown@ yeux par champion tué, @StacksPerAssist@ par assistance et @StacksPerWard@ œil par balise détruite.",
-						"icon": "ASSETS/Perks/Styles/Domination/WardSlayer/WardSlayer.dds"
+						"longDesc": "Vous collectez des yeux en participant à l'élimination des champions et des balises. Vous gagnez {{ perk_subtext_AdaptiveForce }} par œil collecté. <br><br>Une fois votre collecte terminée (@MaxEyeballs@ yeux), vous gagnez {{ perk_subtext_AdaptiveForce_EyeballCollection }}.<br><br>Vous collectez @StacksPerTakedown@ yeux par champion tué, @StacksPerAssist@ par assistance et @StacksPerWard@ œil par balise détruite.",
+						"icon": "ASSETS/Perks/Styles/Domination/EyeballCollection/EyeballCollection.dds"
 					}
 				]
 			},
@@ -93,27 +93,27 @@
 				"runes": [
 					{
 						"id": 8135,
-						"key": "InsatiableHunter",
+						"key": "RavenousHunter",
 						"name": "Chasseur vorace",
 						"shortDesc": "Participer à l'<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">élimination</lol-uikit-tooltipped-keyword> d'un champion <b>unique</b> vous permet définitivement de récupérer des PV quand vos compétences infligent des dégâts. ",
 						"longDesc": "Vous récupérez des PV équivalents à un pourcentage des dégâts infligés par vos compétences.<br>Soins : @StartingOmnivamp*100@% + @OmnivampPerStack*100@% par effet <i>Chasseur de primes</i> cumulé. <br><br>Vous gagnez un effet <i>Chasseur de primes</i> la première fois que vous participez à l'élimination de chaque champion ennemi.<br><rules><br>Les soins sont réduits à un tiers pour les compétences à effet de zone.</rules><br>",
-						"icon": "ASSETS/Perks/Styles/Domination/InsatiableHunter/InsatiableHunter.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/RavenousHunter/RavenousHunter.dds"
 					},
 					{
 						"id": 8134,
-						"key": "BigGameHunter",
+						"key": "IngeniousHunter",
 						"name": "Chasseur ingénieux",
-						"shortDesc": "Participer à l'<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">élimination</lol-uikit-tooltipped-keyword> d'un champion <b>unique</b> octroie un bonus permanent en <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_CDR\">réduction des délais de récupération</lol-uikit-tooltipped-keyword> des objets activables</lol-uikit-tooltipped-keyword> (y compris les reliques). ",
+						"shortDesc": "Participer à l'<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">élimination</lol-uikit-tooltipped-keyword> d'un champion <b>unique</b> octroie un bonus permanent en <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_CDR\">réduction des délais de récupération</lol-uikit-tooltipped-keyword> des objets activables</lol-uikit-tooltipped-keyword> (y compris les reliques).",
 						"longDesc": "Vous gagnez +@StartingActiveItemCDR.0*100@% de <b>réduction des délais de récupération des objets activables</b> (y compris les reliques) plus @ActiveItemCDRPerStack.0*100@% supplémentaires par effet <i>Chasseur de primes</i> cumulé.<br><br>Vous gagnez un effet <i>Chasseur de primes</i> la première fois que vous participez à l'élimination de chaque champion ennemi.",
-						"icon": "ASSETS/Perks/Styles/Domination/BigGameHunter/BigGameHunter.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/IngeniousHunter/IngeniousHunter.dds"
 					},
 					{
 						"id": 8105,
-						"key": "ProlificHunter",
+						"key": "RelentlessHunter",
 						"name": "Chasseur acharné",
 						"shortDesc": "Participer à l'<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">élimination</lol-uikit-tooltipped-keyword> d'un champion <b>unique</b> augmente définitivement votre <b><lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">vitesse de déplacement</lol-uikit-tooltipped-keyword> en dehors des combats</b>. ",
 						"longDesc": "Vous gagnez +@StartingOOCMS@ <b>vitesse de déplacement en dehors des combats</b> plus @OOCMS.0@ par effet <i>Chasseur de primes</i> cumulé.<br><br>Vous gagnez un effet <i>Chasseur de primes</i> la première fois que vous participez à l'élimination de chaque champion ennemi.",
-						"icon": "ASSETS/Perks/Styles/Domination/ProlificHunter/ProlificHunter.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/RelentlessHunter/RelentlessHunter.dds"
 					}
 				]
 			}
@@ -372,7 +372,7 @@
 						"key": "KSRuinedKing",
 						"name": "Poigne de l'immortel",
 						"shortDesc": "Toutes les @TriggerTime@ sec, votre prochaine attaque contre un champion inflige des dégâts magiques supplémentaires, vous soigne et augmente définitivement vos PV.",
-						"longDesc": "Toutes les @TriggerTime@ sec en combat, votre prochaine attaque de base contre un champion : <li>Inflige des dégâts magiques supplémentaires équivalents à @PercentHealthDamage.0@% de vos PV max.<br>Vous rend @PercentHealthHeal.0*100@% de vos PV max.<br>Augmente définitivement vos PV de @MaxHealthPerProc@.</li><br><rules><i>Champions à distance :</i> les dégâts et les soins sont réduits de moitié, le gain définitif de PV passe à @RangedHealthPerProc@.</rules>",
+						"longDesc": "Toutes les @TriggerTime@ sec en combat, votre prochaine attaque de base contre un champion : <li>Inflige des dégâts magiques supplémentaires équivalents à @PercentHealthDamage.0@% de vos PV max.</li><li>Vous rend @PercentHealthHeal.0*100@% de vos PV max.</li><li>Augmente définitivement vos PV de @MaxHealthPerProc@.</li><br><rules><i>Champions à distance :</i> les dégâts, les soins et le gain définitif de PV sont réduits de @RangedPenaltyMod*100@%.</rules><br>",
 						"icon": "ASSETS/Perks/Styles/Resolve/KSRuinedKing/KSRuinedKing.dds"
 					},
 					{
@@ -380,7 +380,7 @@
 						"key": "Vengeance",
 						"name": "Après-coup",
 						"shortDesc": "Après avoir <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Immobilize\">immobilisé</lol-uikit-tooltipped-keyword> un champion ennemi, vous augmentez vos défenses, puis vous infligez des <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">dégâts adaptatifs</lol-uikit-tooltipped-keyword> autour de vous.",
-						"longDesc": "Après avoir immobilisé un champion ennemi, votre armure et votre résistance magique augmentent de @FlatResists@ + @ResistInc.0*100@% pendant @DelayBeforeBurst.1@ sec. Une explosion se produit ensuite, infligeant des dégâts magiques aux ennemis proches.<br><br>Dégâts : @StartingBaseDamage@ - @MaxBaseDamage@ (+@HealthRatio.1@% de vos PV max).<br>Délai de récupération : @Cooldown@ sec.",
+						"longDesc": "Après avoir immobilisé un champion ennemi, votre armure et votre résistance magique augmentent de @FlatResists@ - @FlatResistMaximum@ pendant @DelayBeforeBurst.1@ sec. Une explosion se produit ensuite, infligeant des dégâts magiques aux ennemis proches.<br><br>Dégâts : @StartingBaseDamage@ - @MaxBaseDamage@ (+@HealthRatio.-1@% de vos PV max) (+@DamageRatioAD*100@% de vos dégâts d'attaque supplémentaires) (+@DamageRatioAP*100@% de votre puissance).<br>Délai de récupération : @Cooldown@ sec.",
 						"icon": "ASSETS/Perks/Styles/Resolve/VeteranVengeance/VeteranVengeance.dds"
 					},
 					{
@@ -388,7 +388,7 @@
 						"key": "KSBuddyShield",
 						"name": "Gardien",
 						"shortDesc": "Vous protégez les alliés sur lesquels vous jetez des sorts et ceux qui sont très proches. Si un allié protégé ou vous-même devriez subir des dégâts, vous recevez tous les deux un bouclier et un bonus de vitesse.",
-						"longDesc": "{{ perk_shared_desc_KSBuddyShield }}<br><br>Délai de récupération : @Cooldown@ sec.<br>Bouclier : @ShieldBase@ - @ShieldMax@ +(<scaleAP>@APRatio.-1@ puissance</scaleAP>) + (<scalehealth>+@HPRatio.0*100@% des PV supplémentaires</scalehealth>).<br>Bonus de vitesse : +@Haste*100@% de vitesse de déplacement.",
+						"longDesc": "{{ perk_shared_desc_KSBuddyShield }}<br><br>Délai de récupération : <scaleLevel>@Cooldown@ - @CooldownMaxLevel@</scaleLevel> sec.<br>Bouclier : <scaleLevel>@ShieldBase@ - @ShieldMax@</scaleLevel> + <scaleAP>@APRatio.-1@%</scaleAP> de votre puissance + <scalehealth>@HPRatio.0*100@%</scalehealth> de vos PV supplémentaires.<br>Bonus de vitesse : +@Haste*100@% de vitesse de déplacement.",
 						"icon": "ASSETS/Perks/Styles/Resolve/KSBuddyShield/KSBuddyShield.dds"
 					}
 				]
@@ -527,7 +527,7 @@
 						"id": 8226,
 						"key": "ManaflowBand",
 						"name": "Ruban de mana",
-						"shortDesc": "Périodiquement, vous récupérez le coût en mana ou en énergie de votre prochaine compétence et vous recevez une partie de votre mana manquant ou de votre énergie manquante.",
+						"shortDesc": "Périodiquement, vous récupérez le coût en mana/énergie de votre prochaine compétence et recevez une partie de votre mana/énergie manquant(e).",
 						"longDesc": "Toutes les @Cooldown.0@ sec, vous récupérez le coût en mana ou en énergie de votre prochaine compétence et vous recevez @MPToRestoreRatio.0*100@% de votre mana manquant ou de votre énergie manquante.",
 						"icon": "ASSETS/Perks/Styles/Sorcery/ManaflowBand/ManaflowBand.dds"
 					},

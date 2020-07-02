@@ -9,27 +9,27 @@
 				"runes": [
 					{
 						"id": 8112,
-						"key": "StormlordsMandate",
+						"key": "Electrocute",
 						"name": "Elettroshock",
 						"shortDesc": "Colpire un campione con 3 attacchi o abilità <b>diversi</b> entro @WindowDuration@ secondi infligge <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">danni adattivi</lol-uikit-tooltipped-keyword> bonus.",
 						"longDesc": "Colpire un campione con 3 <b>diversi</b> attacchi o abilità entro @WindowDuration@ secondi infligge <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>danni adattivi</font></lol-uikit-tooltipped-keyword> bonus.<br><br>Danni: @DamageBase@-@DamageMax@ (+@BonusADRatio.-1@ attacco fisico bonus, +@APRatio.-1@ potere magico).<br><br>Ricarica: @Cooldown@-@CooldownMin@ secondi.<br><br><hr></hr><i>Li chiamavamo 'Signori del Tuono', perché anche solo parlare del loro lampo aveva effetti disastrosi</i>",
-						"icon": "ASSETS/Perks/Styles/Domination/TLords/TLords.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/Electrocute/Electrocute.dds"
 					},
 					{
 						"id": 8124,
-						"key": "KSLycanthropy",
+						"key": "Predator",
 						"name": "Predatore",
 						"shortDesc": "Aggiungi un effetto attivo ai tuoi stivali, che conferisce un grande aumento di <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">velocità di movimento</lol-uikit-tooltipped-keyword> e ti fa infliggere danni bonus <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">adattivi</lol-uikit-tooltipped-keyword> con il prossimo attacco o abilità.",
-						"longDesc": "Incanta i tuoi stivali con l'effetto attivo ''<font color='#c60300'>{{perk_displayname_KSLycanthropy}}</font>''.<br><br>{{ game_itemmod_bloodmoonboots }}",
-						"icon": "ASSETS/Perks/Styles/Domination/KSLycanthropy/KSLycanthropy.dds"
+						"longDesc": "Incanta i tuoi stivali con l'effetto attivo ''<font color='#c60300'>{{perk_displayname_Predator}}</font>.''<br><br>{{ game_itemmod_bloodmoonboots }}",
+						"icon": "ASSETS/Perks/Styles/Domination/Predator/Predator.dds"
 					},
 					{
 						"id": 8128,
-						"key": "KSSoulReaper",
+						"key": "DarkHarvest",
 						"name": "Raccolto oscuro",
 						"shortDesc": "Campioni, minion grandi e mostri grandi lasciano un'essenza dell'anima quando muoiono. Tocca le anime per assorbirle e infliggere danni bonus <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">adattivi</lol-uikit-tooltipped-keyword> con il tuo prossimo attacco in base all'essenza dell'anima raccolta.",
 						"longDesc": "Campioni, minion grandi e mostri grandi lasciano un'essenza dell'anima quando muoiono. Raccogli anime per ottenere <font color='#c60300'>Carica spirituale</font>. Attaccare un campione o una struttura consuma <font color='#c60300'>Carica spirituale</font> per infliggere <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>danni adattivi</font></lol-uikit-tooltipped-keyword> bonus.<br><br><font color='#c60300'>Carica spirituale</font> dura @ONHDuration@ secondi, che aumentano a @ONHDurationLong@ secondi dopo aver raccolto @SoulsRequiredForIncreasedDuration@ essenze dell'anima.<br><br>Danni bonus: @DamageMin@-@DamageMax@ (+<scaleAD>@ADRatio.2@ attacco fisico bonus</scaleAD>) (+<scaleAP>@APRatio.1@ potere magico</scaleAP>) + essenze dell'anima raccolte.<br><rules><br>Campioni: @champstacks@ essenze dell'anima.<br>Mostri: @monsterstacks@ essenze dell'anima.<br>Minion: @minionstacks@ essenze dell'anima.</rules>",
-						"icon": "ASSETS/Perks/Styles/Domination/KSSoulReaper/KSSoulReaper.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/DarkHarvest/DarkHarvest.dds"
 					}
 				]
 			},
@@ -41,23 +41,23 @@
 						"name": "Colpo basso",
 						"shortDesc": "Infliggi danni puri bonus ai campioni nemici vittime di <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairAct\">impedimenti al movimento o alle azioni</lol-uikit-tooltipped-keyword>. ",
 						"longDesc": "Danneggiare campioni vittime di <b>impedimenti al movimento o alle azioni</b> infligge @DamageIncMin@-@DamageIncMax@ danni puri bonus (in base al livello).<br><br>Ricarica: @Cooldown@ secondi.<br><rules>Si attiva coi danni inflitti dopo l'impedimento.</rules>",
-						"icon": "ASSETS/Perks/Styles/Domination/Bully/Bully.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/CheapShot/CheapShot.dds"
 					},
 					{
 						"id": 8139,
-						"key": "Feast",
+						"key": "TasteOfBlood",
 						"name": "Assaggio di sangue",
 						"shortDesc": "Ti curi quando danneggi un campione nemico.",
-						"longDesc": "Ti curi quando danneggi un campione nemico.<br><br>Guarigione: @HealAmount@-@HealAmountMax@ (+@ADRatio.-1@ attacco fisico bonus, +@APRatio.-1@ potere magico) salute in base al livello quando danneggi un campione nemico.<br><br>Ricarica: @Cooldown@ secondi.",
-						"icon": "ASSETS/Perks/Styles/Domination/Feast/GreenTerror_Feast.dds"
+						"longDesc": "Ti curi quando danneggi un campione nemico.<br><br>Guarigione: @HealAmount@-@HealAmountMax@ (+@ADRatio.-1@ attacco fisico bonus, +@APRatio.-1@ potere magico) salute in base al livello.<br><br>Ricarica: @Cooldown@ secondi.",
+						"icon": "ASSETS/Perks/Styles/Domination/TasteOfBlood/GreenTerror_TasteOfBlood.dds"
 					},
 					{
 						"id": 8143,
-						"key": "DashAttack",
+						"key": "SuddenImpact",
 						"name": "Impatto improvviso",
 						"shortDesc": "Ottieni una raffica di letalità e penetrazione magica dopo aver usato uno scatto, un balzo, un Flash o un Teletrasporto, o all'uscita dall'invisibilità.",
-						"longDesc": "Dopo l'uscita dall'invisibilità o dopo aver usato uno scatto, un balzo, un Flash o un teletrasporto, danneggiare un campione conferisce @BonusLethality.0@ letalità e @BonusMpen.0@ penetrazione magica per @Duration@ secondi.<br><br>Ricarica: @Cooldown@ secondi",
-						"icon": "ASSETS/Perks/Styles/Domination/DashAttack/DashAttack.dds"
+						"longDesc": "Dopo aver usato uno scatto, un balzo, un Flash o un Teletrasporto, danneggiare un campione conferisce @BonusLethality.0@ letalità e @BonusMpen.0@ penetrazione magica per @Duration@ secondi.<br><br>Ricarica: @Cooldown@ secondi",
+						"icon": "ASSETS/Perks/Styles/Domination/SuddenImpact/SuddenImpact.dds"
 					}
 				]
 			},
@@ -68,24 +68,24 @@
 						"key": "ZombieWard",
 						"name": "Lume zombi",
 						"shortDesc": "Quando distruggi un lume, al suo posto appare un lume zombi alleato. Quando i tuoi lumi scadono si rianimano come lumi zombi.",
-						"longDesc": "Quando distruggi un lume, al suo posto appare un lume zombi alleato. Inoltre, quando i tuoi lumi scadono, si rianimano come lumi zombi.<br><br>I lumi zombi sono visibili, durano @WardDuration@ secondi e non contano per il limite di lumi.",
+						"longDesc": "Quando distruggi un lume, al suo posto appare un lume zombi alleato. Inoltre, quando i tuoi lumi scadono, si rianimano come lumi zombi.<br><br>I lumi zombi sono visibili, durano @WardDurationMin@-@WardDuration@ secondi e non contano per il limite di lumi.",
 						"icon": "ASSETS/Perks/Styles/Domination/ZombieWard/ZombieWard.dds"
 					},
 					{
 						"id": 8120,
-						"key": "ViciousPoro",
+						"key": "GhostPoro",
 						"name": "Poro fantasma",
 						"shortDesc": "Quando entri nell'erba alta, appare un poro. Rimarrà nell'erba per darti visione.",
-						"longDesc": "Entra nell'erba alta per evocare un poro dopo una breve canalizzazione. Il poro rimarrà a darti visione finché non ne evochi un altro.<br><br>Se un nemico entra nell'erba alta con dentro il poro, lo fa scappare e manda {{ perk_displayname_ViciousPoro }} in ricarica per @Cooldown@ secondi.<br><br>La canalizzazione del poro viene interrotta se subisci danni.",
-						"icon": "ASSETS/Perks/Styles/Domination/ViciousPoro/ViciousPoro.dds"
+						"longDesc": "Entra nell'erba alta per evocare un poro dopo una breve canalizzazione. Il poro rimarrà a darti visione finché non ne evochi un altro.<br><br>Se un nemico entra nell'erba alta con dentro il poro, lo fa scappare e manda {{ perk_displayname_GhostPoro }} in ricarica per @Cooldown@ secondi.<br><br>La canalizzazione del poro viene interrotta se subisci danni.",
+						"icon": "ASSETS/Perks/Styles/Domination/GhostPoro/GhostPoro.dds"
 					},
 					{
 						"id": 8138,
-						"key": "WardSlayer",
+						"key": "EyeballCollection",
 						"name": "Collezione di Bulbi",
-						"shortDesc": "Ottieni bulbi oculari all'<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">eliminazione</lol-uikit-tooltipped-keyword> dei campioni e dei lumi. Ottieni attacco fisico o potere magico permanenti, <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">adattivi</lol-uikit-tooltipped-keyword> per ogni bulbo oculare più il bonus per il completamento della collezione.",
-						"longDesc": "Ottieni bulbi oculari all'eliminazione dei campioni e dei lumi. Ottieni {{ perk_subtext_AdaptiveForce }} per bulbo oculare raccolto. <br><br>Al completamento della tua collezione di @MaxEyeballs@ bulbi oculari, ottieni {{ perk_subtext_AdaptiveForce_EyeballCollection }} bonus.<br><br>Ottieni @StacksPerTakedown@ bulbi oculari per uccisione di campione, @StacksPerAssist@ per assist, e @StacksPerWard@ per lume distrutto.",
-						"icon": "ASSETS/Perks/Styles/Domination/WardSlayer/WardSlayer.dds"
+						"shortDesc": "Ottieni bulbi oculari all'<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">eliminazione</lol-uikit-tooltipped-keyword> di campioni e lumi. Ottieni attacco fisico o potere magico permanenti, <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">adattivi</lol-uikit-tooltipped-keyword> per ogni bulbo oculare più il bonus per il completamento della collezione.",
+						"longDesc": "Ottieni bulbi oculari all'eliminazione di campioni e lumi. Ottieni {{ perk_subtext_AdaptiveForce }} per bulbo oculare raccolto. <br><br>Al completamento della tua collezione di @MaxEyeballs@ bulbi oculari, ottieni {{ perk_subtext_AdaptiveForce_EyeballCollection }} bonus.<br><br>Ottieni @StacksPerTakedown@ bulbi oculari per uccisione di campione, @StacksPerAssist@ per assist, e @StacksPerWard@ per lume distrutto.",
+						"icon": "ASSETS/Perks/Styles/Domination/EyeballCollection/EyeballCollection.dds"
 					}
 				]
 			},
@@ -93,27 +93,27 @@
 				"runes": [
 					{
 						"id": 8135,
-						"key": "InsatiableHunter",
+						"key": "RavenousHunter",
 						"name": "Cacciatore famelico",
-						"shortDesc": "Le <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">eliminazioni</lol-uikit-tooltipped-keyword> <b>uniche</b> conferiscono guarigione permanente dai danni delle abilità.",
+						"shortDesc": "Le <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">eliminazioni</lol-uikit-tooltipped-keyword> <b>uniche</b> conferiscono guarigione permanente dai danni delle abilità. ",
 						"longDesc": "Ti curi di una percentuale dei danni che infliggi con le tue abilità.<br>Guarigione: @StartingOmnivamp*100@% + @OmnivampPerStack*100@% per ogni carica di <i>Cacciatore di taglie</i>. <br><br>Ottieni una carica di <i>Cacciatore di taglie</i> per la prima eliminazione che ottieni su ogni campione nemico.<br><rules><br>Guarigione ridotta a un terzo per le abilità ad area.</rules><br>",
-						"icon": "ASSETS/Perks/Styles/Domination/InsatiableHunter/InsatiableHunter.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/RavenousHunter/RavenousHunter.dds"
 					},
 					{
 						"id": 8134,
-						"key": "BigGameHunter",
-						"name": "Ingegnoso cacciatore",
+						"key": "IngeniousHunter",
+						"name": "Cacciatore ingegnoso",
 						"shortDesc": "Le <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">eliminazioni</lol-uikit-tooltipped-keyword> <b>uniche</b> conferiscono <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_CDR\">riduzione ricarica</lol-uikit-tooltipped-keyword> per oggetti attivi permanente (trinket inclusi).",
 						"longDesc": "Ottieni @StartingActiveItemCDR.0*100@% di <b>riduzione ricarica oggetti attivi</b> più @ActiveItemCDRPerStack.0*100@% per ogni carica di <i>Cacciatore di taglie</i> (trinket inclusi).<br><br>Ottieni una carica di <i>Cacciatore di taglie</i> per la prima eliminazione che ottieni su ogni campione nemico.",
-						"icon": "ASSETS/Perks/Styles/Domination/BigGameHunter/BigGameHunter.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/IngeniousHunter/IngeniousHunter.dds"
 					},
 					{
 						"id": 8105,
-						"key": "ProlificHunter",
+						"key": "RelentlessHunter",
 						"name": "Cacciatore implacabile",
 						"shortDesc": "Le <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">eliminazioni</lol-uikit-tooltipped-keyword> <b>uniche</b> conferiscono <b><lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">velocità di movimento</lol-uikit-tooltipped-keyword></b> permanente fuori dai combattimenti. ",
 						"longDesc": "Ottieni @StartingOOCMS@ <b>velocità di movimento fuori dai combattimenti</b> più @OOCMS.0@ per carica di <i>Cacciatore di taglie</i>.<br><br>Ottieni una carica di <i>Cacciatore di taglie</i> per la prima eliminazione che ottieni su ogni campione nemico.",
-						"icon": "ASSETS/Perks/Styles/Domination/ProlificHunter/ProlificHunter.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/RelentlessHunter/RelentlessHunter.dds"
 					}
 				]
 			}
@@ -372,7 +372,7 @@
 						"key": "KSRuinedKing",
 						"name": "Presa dell'immortale",
 						"shortDesc": "Ogni @TriggerTime@ secondi il tuo prossimo attacco contro un campione infligge danni magici bonus, ti cura e aumenta permanentemente la tua salute.",
-						"longDesc": "Ogni @TriggerTime@ secondi in combattimento, il prossimo attacco contro un campione: <li>Infligge danni magici bonus pari al @PercentHealthDamage.0@% della tua salute massima<br>Ti cura del @PercentHealthHeal.0*100@% della tua salute massima<br>Aumenta permanentemente la tua salute di @MaxHealthPerProc@</li><br><rules><i>Campioni a distanza:</i> danni e guarigione sono dimezzati e ottengono invece @RangedHealthPerProc@ salute permanente.</rules>",
+						"longDesc": "Ogni @TriggerTime@ secondi in combattimento, il prossimo attacco contro un campione:<li>Infligge danni magici bonus pari al @PercentHealthDamage.0@% della tua salute massima</li><li>Ti cura del @PercentHealthHeal.0*100@% della tua salute massima</li><li>Aumenta permanentemente la tua salute di @MaxHealthPerProc@</li><br><rules><i>Campioni a distanza:</i> danni, guarigione e salute permanente sono ridotti del @RangedPenaltyMod*100@%.</rules><br>",
 						"icon": "ASSETS/Perks/Styles/Resolve/KSRuinedKing/KSRuinedKing.dds"
 					},
 					{
@@ -380,7 +380,7 @@
 						"key": "Vengeance",
 						"name": "Scossa di assestamento",
 						"shortDesc": "Dopo aver <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Immobilize\">immobilizzato</lol-uikit-tooltipped-keyword> un campione nemico ottieni difese per poi infliggere una raffica di <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">danni adattivi</lol-uikit-tooltipped-keyword> intorno a te.",
-						"longDesc": "Dopo aver immobilizzato un campione nemico, la tua armatura e resistenza magica aumentano di @FlatResists@ + @ResistInc.0*100@% per @DelayBeforeBurst.1@ secondi. Poi esplode, infliggendo danni magici ai nemici vicini.<br><br>Danni: @StartingBaseDamage@-@MaxBaseDamage@ (+@HealthRatio.1@% della tua salute massima)<br>Ricarica: @Cooldown@ secondi",
+						"longDesc": "Dopo aver immobilizzato un campione nemico, la tua armatura e resistenza magica aumentano di @FlatResists@-@FlatResistMaximum@ per @DelayBeforeBurst.1@ secondi. Poi esplode, infliggendo danni magici ai nemici vicini.<br><br>Danni: @StartingBaseDamage@-@MaxBaseDamage@ (+@HealthRatio.-1@% della tua salute massima, +@DamageRatioAD*100@% del tuo attacco fisico bonus, +@DamageRatioAP*100@% del tuo potere magico)<br>Ricarica: @Cooldown@ secondi",
 						"icon": "ASSETS/Perks/Styles/Resolve/VeteranVengeance/VeteranVengeance.dds"
 					},
 					{
@@ -388,7 +388,7 @@
 						"key": "KSBuddyShield",
 						"name": "Sorvegliante",
 						"shortDesc": "Fai la guardia agli alleati sui quali lanci abilità e su quelli vicini a te. Se subisci danni o se un alleato al quale fai la guardia subisce danni, siete entrambi velocizzati e ottenete uno scudo.",
-						"longDesc": "{{ perk_shared_desc_KSBuddyShield }}<br><br>Ricarica: @Cooldown@ secondi<br>Scudo: @ShieldBase@-@ShieldMax@ (<scaleAP>+@APRatio.-1@ potere magico</scaleAP>) (<scalehealth>+@HPRatio.0*100@% salute bonus</scalehealth>).<br>Velocità: @Haste*100@% velocità di movimento.",
+						"longDesc": "{{ perk_shared_desc_KSBuddyShield }}<br><br>Ricarica: <scaleLevel>@Cooldown@-@CooldownMaxLevel@</scaleLevel> secondi<br>Scudo: <scaleLevel>@ShieldBase@-@ShieldMax@</scaleLevel> + <scaleAP>@APRatio.-1@%</scaleAP> del tuo potere magico + <scalehealth>@HPRatio.0*100@%</scalehealth> della tua salute bonus.<br>Velocità: +@Haste*100@% velocità di movimento.",
 						"icon": "ASSETS/Perks/Styles/Resolve/KSBuddyShield/KSBuddyShield.dds"
 					}
 				]

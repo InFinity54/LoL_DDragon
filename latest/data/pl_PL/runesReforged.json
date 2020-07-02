@@ -9,27 +9,27 @@
 				"runes": [
 					{
 						"id": 8112,
-						"key": "StormlordsMandate",
+						"key": "Electrocute",
 						"name": "Elektryzacja",
 						"shortDesc": "Trafienie bohatera 3 <b>oddzielnymi</b> atakami lub umiejętnościami w ciągu @WindowDuration@ sek. zadaje dodatkowe <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">obrażenia adaptacyjne</lol-uikit-tooltipped-keyword>.",
 						"longDesc": "Trafienie bohatera 3 <b>oddzielnymi</b> atakami lub umiejętnościami w ciągu @WindowDuration@ sek. zadaje dodatkowe <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>obrażenia adaptacyjne</font></lol-uikit-tooltipped-keyword>.<br><br>Obrażenia: @DamageBase@-@DamageMax@ (+@BonusADRatio.-1@ pkt. dodatkowych obrażeń od ataku, +@APRatio.-1@ pkt. mocy umiejętności) pkt.<br><br>Czas odnowienia: @Cooldown@-@CooldownMin@ sek.<br><br><hr></hr><i>„Nazywamy ich Władcami Piorunów, bo mówienie o ich błyskawicach to kuszenie losu”.</i>",
-						"icon": "ASSETS/Perks/Styles/Domination/TLords/TLords.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/Electrocute/Electrocute.dds"
 					},
 					{
 						"id": 8124,
-						"key": "KSLycanthropy",
+						"key": "Predator",
 						"name": "Drapieżnik",
 						"shortDesc": "Dodaj swoim butom efekt użycia, którzy przyznaje dużą premię do <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">prędkości ruchu</lol-uikit-tooltipped-keyword> i powoduje, że twój następny atak lub umiejętność zada dodatkowe <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">obrażenia adaptacyjne</lol-uikit-tooltipped-keyword>.",
-						"longDesc": "Wyposaża buty w aktywny efekt „<font color='#c60300'>{{perk_displayname_KSLycanthropy}}</font>”.<br><br>{{ game_itemmod_bloodmoonboots }}",
-						"icon": "ASSETS/Perks/Styles/Domination/KSLycanthropy/KSLycanthropy.dds"
+						"longDesc": "Wyposaża buty w aktywny efekt „<font color='#c60300'>{{perk_displayname_Predator}}</font>”.<br><br>{{ game_itemmod_bloodmoonboots }}",
+						"icon": "ASSETS/Perks/Styles/Domination/Predator/Predator.dds"
 					},
 					{
 						"id": 8128,
-						"key": "KSSoulReaper",
+						"key": "DarkHarvest",
 						"name": "Mroczne Żniwa",
 						"shortDesc": "Bohaterowie, duże stwory i duże potwory upuszczają esencję duszy w chwili śmierci. Dotykaj dusz, aby je pochłaniać, dzięki czemu twój następny atak zada dodatkowe <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">obrażenia adaptacyjne</lol-uikit-tooltipped-keyword> zależne od liczby zebranych esencji dusz.",
 						"longDesc": "Bohaterowie, duże stwory i duże potwory upuszczają esencję duszy w chwili śmierci. Zbieraj dusze, aby zyskać efekt <font color='#c60300'>Naładowania Duszy</font>. Twój następny atak na bohaterze lub budowli zużywa <font color='#c60300'>Naładowanie Duszy</font>, aby zadać dodatkowe <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>obrażenia adaptacyjne</font></lol-uikit-tooltipped-keyword>.<br><br><font color='#c60300'>Naładowanie Duszy</font> utrzymuje się przez @ONHDuration@ sek., wydłużone do @ONHDurationLong@ sek. po zebraniu @SoulsRequiredForIncreasedDuration@ szt. esencji duszy.<br><br>Dodatkowe obrażenia: @DamageMin@-@DamageMax@ pkt. (+<scaleAD>@ADRatio.2@ pkt. dodatkowych obrażeń od ataku</scaleAD>) (+<scaleAP>@APRatio.1@ pkt. mocy umiejętności</scaleAP>) + liczba zebranych esencji duszy.<br><rules><br>Bohaterowie — @champstacks@ szt. esencji duszy.<br>Potwory — @monsterstacks@ szt. esencji duszy.<br>Stwory — @minionstacks@ szt. esencji duszy.</rules>",
-						"icon": "ASSETS/Perks/Styles/Domination/KSSoulReaper/KSSoulReaper.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/DarkHarvest/DarkHarvest.dds"
 					}
 				]
 			},
@@ -41,23 +41,23 @@
 						"name": "Cios Poniżej Pasa",
 						"shortDesc": "Zadajesz dodatkowe nieuchronne obrażenia wrogim bohaterom, którzy mają <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairAct\">ograniczone ruchy lub zdolność podejmowania akcji</lol-uikit-tooltipped-keyword>. ",
 						"longDesc": "Zadawanie obrażeń bohaterom z <b>ograniczonymi ruchami lub możliwością działania</b> sprawia, że otrzymują @DamageIncMin@-@DamageIncMax@ pkt. dodatkowych nieuchronnych obrażeń (zależnie od poziomu).<br><br>Czas odnowienia: @Cooldown@ sek.<br><rules>Działa na obrażenia zadane po zakończeniu ograniczenia.</rules>",
-						"icon": "ASSETS/Perks/Styles/Domination/Bully/Bully.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/CheapShot/CheapShot.dds"
 					},
 					{
 						"id": 8139,
-						"key": "Feast",
+						"key": "TasteOfBlood",
 						"name": "Smak Krwi",
 						"shortDesc": "Leczysz się, gdy zadajesz obrażenia wrogim bohaterom.",
 						"longDesc": "Leczysz się, gdy zadajesz obrażenia wrogim bohaterom.<br><br>Leczenie: @HealAmount@-@HealAmountMax@ (+@ADRatio.-1@ pkt. dodatkowych obrażeń od ataku, +@APRatio.-1@ pkt. mocy umiejętności) pkt. zdrowia (zależnie od poziomu)<br><br>Czas odnowienia: @Cooldown@ sek.",
-						"icon": "ASSETS/Perks/Styles/Domination/Feast/GreenTerror_Feast.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/TasteOfBlood/GreenTerror_TasteOfBlood.dds"
 					},
 					{
 						"id": 8143,
-						"key": "DashAttack",
+						"key": "SuddenImpact",
 						"name": "Niespodziewane Uderzenie",
-						"shortDesc": "Zyskujesz destrukcję i przebicie odporności po użyciu doskoku, skoku, mignięcia, teleportacji lub zakończeniu ukrywania się.",
-						"longDesc": "Po zakończeniu ukrywania się lub użyciu doskoku, skoku, mignięcia, teleportacji lub zadaniu jakichkolwiek obrażeń bohaterowi, zyskujesz @BonusLethality.0@ pkt. destrukcji i @BonusMpen.0@ pkt. przebicia odporności na @Duration@ sek.<br><br>Czas odnowienia: @Cooldown@ sek.",
-						"icon": "ASSETS/Perks/Styles/Domination/DashAttack/DashAttack.dds"
+						"shortDesc": "Zyskujesz destrukcję i przebicie odporności na magię po użyciu doskoku, skoku, mignięcia, teleportacji lub zakończeniu ukrywania się.",
+						"longDesc": "Po zakończeniu ukrywania się albo użyciu doskoku, skoku, mignięcia lub teleportacji zadanie jakichkolwiek obrażeń bohaterowi daje ci @BonusLethality.0@ pkt. destrukcji i @BonusMpen.0@ pkt. przebicia odporności na magię na @Duration@ sek.<br><br>Czas odnowienia: @Cooldown@ sek.",
+						"icon": "ASSETS/Perks/Styles/Domination/SuddenImpact/SuddenImpact.dds"
 					}
 				]
 			},
@@ -68,24 +68,24 @@
 						"key": "ZombieWard",
 						"name": "Zombi Totem",
 						"shortDesc": "Gdy zniszczysz totem, na jego miejscu pojawi się sojuszniczy Zombi Totem. Gdy totemy wygasną, powstają jako Zombi Totemy.",
-						"longDesc": "Gdy zniszczysz totem, na jego miejscu pojawi się sojuszniczy Zombi Totem. Dodatkowo, gdy totemy wygasną, powstają jako Zombi Totemy.<br><br>Zombi Totemy są widoczne, utrzymują się przez @WardDuration@ sek. i nie liczą się do limitu totemów.",
+						"longDesc": "Gdy zniszczysz totem, na jego miejscu pojawi się sojuszniczy Zombi Totem. Dodatkowo, gdy totemy wygasną, powstają jako Zombi Totemy.<br><br>Zombi Totemy są widoczne, utrzymują się przez @WardDurationMin@-@WardDuration@ sek. i nie liczą się do limitu totemów.",
 						"icon": "ASSETS/Perks/Styles/Domination/ZombieWard/ZombieWard.dds"
 					},
 					{
 						"id": 8120,
-						"key": "ViciousPoro",
+						"key": "GhostPoro",
 						"name": "Duch Poro",
 						"shortDesc": "Poro pojawia się, gdy wchodzisz w zarośla. Gdy opuścisz zarośla, Poro w nich pozostanie, by dawać ci wizję.",
-						"longDesc": "Wejdź w zarośla, aby po krótkim przygotowaniu przywołać Poro. Poro pozostanie w miejscu i będzie zapewniać wizję do czasu przywołania nowego.<br><br>Jeżeli wróg wejdzie w zarośla, w których znajduje się Poro, wystraszy go, a {{ perk_displayname_ViciousPoro }} będzie odnawiał się przez @Cooldown@ sek.<br><br>Przygotowanie przywoływania Poro zostanie przerwane, jeśli otrzymasz obrażenia.",
-						"icon": "ASSETS/Perks/Styles/Domination/ViciousPoro/ViciousPoro.dds"
+						"longDesc": "Wejdź w zarośla, aby po krótkim przygotowaniu przywołać Poro. Poro pozostanie w miejscu i będzie zapewniać wizję do czasu przywołania nowego.<br><br>Jeżeli wróg wejdzie w zarośla, w których znajduje się Poro, wystraszy go, a {{ perk_displayname_GhostPoro }} będzie odnawiał się przez @Cooldown@ sek.<br><br>Przygotowanie przywoływania Poro zostanie przerwane, jeśli otrzymasz obrażenia.",
+						"icon": "ASSETS/Perks/Styles/Domination/GhostPoro/GhostPoro.dds"
 					},
 					{
 						"id": 8138,
-						"key": "WardSlayer",
+						"key": "EyeballCollection",
 						"name": "Kolekcja Oczu",
 						"shortDesc": "Zbieraj gałki oczne, niszcząc totemy i biorąc <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">udział w zabójstwach</lol-uikit-tooltipped-keyword> bohaterów. Zyskujesz stałe obrażenia od ataku lub moc umiejętności <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">(adaptacyjne)</lol-uikit-tooltipped-keyword> za każdą gałkę oczną oraz dodatkową premię za pełną kolekcję.",
 						"longDesc": "Zbieraj gałki oczne, niszcząc totemy i biorąc udział w zabójstwach bohaterów. Zyskujesz {{ perk_subtext_AdaptiveForce }} pkt. za każdą gałkę oczną. <br><br>Po skompletowaniu maksymalnej liczby gałek ocznych (@MaxEyeballs@) zyskujesz dodatkowe {{ perk_subtext_AdaptiveForce_EyeballCollection }} pkt.<br><br>Za zabójstwo bohatera zbierasz następującą liczbę gałek ocznych: @StacksPerTakedown@, za asystę: @StacksPerAssist@, a za udział w zniszczeniu totemu: @StacksPerWard@.",
-						"icon": "ASSETS/Perks/Styles/Domination/WardSlayer/WardSlayer.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/EyeballCollection/EyeballCollection.dds"
 					}
 				]
 			},
@@ -93,27 +93,27 @@
 				"runes": [
 					{
 						"id": 8135,
-						"key": "InsatiableHunter",
+						"key": "RavenousHunter",
 						"name": "Krwiożerczy Łowca",
 						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Udział w zabójstwie</lol-uikit-tooltipped-keyword> <b>(tylko raz na każdego bohatera)</b> na stałe zapewnia leczenie z obrażeń zadanych za pomocą umiejętności. ",
-						"longDesc": "Leczysz się o pewien procent obrażeń zadanych za pomocą swoich umiejętności.<br>Leczenie: @StartingOmnivamp*100@% + @OmnivampPerStack*100@% za każdy ładunek <i>Łowcy Nagród</i>. <br><br>Zdobywasz ładunek <i>Łowcy Nagród</i>, gdy bierzesz udział w zabójstwie każdego wrogiego bohatera po raz pierwszy.<br><rules><br>Wartość leczenia zmniejszona do jednej trzeciej w przypadku umiejętności obszarowych.</rules><br>",
-						"icon": "ASSETS/Perks/Styles/Domination/InsatiableHunter/InsatiableHunter.dds"
+						"longDesc": "Leczysz się o pewien procent obrażeń zadanych za pomocą swoich umiejętności.<br>Leczenie: @StartingOmnivamp*100@% + @OmnivampPerStack*100@% za każdy ładunek <i>Łowcy Nagród</i>. <br><br>Zdobywasz ładunek <i>Łowcy Nagród</i>, gdy bierzesz udział w zabójstwie każdego wrogiego bohatera po raz pierwszy.<br><rules><br>Wartość leczenia jest zmniejszona do jednej trzeciej w przypadku umiejętności obszarowych.</rules><br>",
+						"icon": "ASSETS/Perks/Styles/Domination/RavenousHunter/RavenousHunter.dds"
 					},
 					{
 						"id": 8134,
-						"key": "BigGameHunter",
+						"key": "IngeniousHunter",
 						"name": "Pomysłowy Łowca",
-						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Udział w zabójstwie</lol-uikit-tooltipped-keyword> <b>(tylko raz na każdego bohatera)</b> daje na stałe premię do <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_CDR\">skrócenia czasu odnowienia</lol-uikit-tooltipped-keyword> efektów użyć przedmiotów (łącznie z Talizmanami).",
-						"longDesc": "Zyskujesz @StartingActiveItemCDR.0*100@% <b>skrócenia czasu odnowienia efektu użycia przedmiotów</b> plus dodatkowo @ActiveItemCDRPerStack.0*100@% za każdy ładunek <i>Łowcy Nagród</i> (działa także na Talizmany).<br><br>Zdobywasz ładunek <i>Łowcy Nagród</i>, gdy bierzesz udział w zabójstwie każdego wrogiego bohatera po raz pierwszy.",
-						"icon": "ASSETS/Perks/Styles/Domination/BigGameHunter/BigGameHunter.dds"
+						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Udział w zabójstwie</lol-uikit-tooltipped-keyword> <b>(tylko raz na każdego bohatera)</b> daje na stałe premię do <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_CDR\">skrócenia czasu odnowienia</lol-uikit-tooltipped-keyword> efektów użyć przedmiotów (działa także na Talizmany).",
+						"longDesc": "Zyskujesz @StartingActiveItemCDR.0*100@% <b>skrócenia czasu odnowienia efektów użycia przedmiotów</b> plus dodatkowo @ActiveItemCDRPerStack.0*100@% za każdy ładunek <i>Łowcy Nagród</i> (działa także na Talizmany).<br><br>Zdobywasz ładunek <i>Łowcy Nagród</i>, gdy bierzesz udział w zabójstwie każdego wrogiego bohatera po raz pierwszy.",
+						"icon": "ASSETS/Perks/Styles/Domination/IngeniousHunter/IngeniousHunter.dds"
 					},
 					{
 						"id": 8105,
-						"key": "ProlificHunter",
+						"key": "RelentlessHunter",
 						"name": "Bezwzględny Łowca",
 						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Udział w zabójstwie</lol-uikit-tooltipped-keyword> <b>(raz na każdego bohatera)</b> daje stałą, <b>działającą poza walką, premię do <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">prędkości ruchu</lol-uikit-tooltipped-keyword></b>. ",
 						"longDesc": "Zyskujesz @StartingOOCMS@ <b>jedn. prędkości ruchu poza walką</b> plus @OOCMS.0@ jedn. za każdy ładunek <i>Łowcy Nagród</i>.<br><br>Zdobywasz ładunek <i>Łowcy Nagród</i>, gdy bierzesz udział w zabójstwie każdego wrogiego bohatera po raz pierwszy.",
-						"icon": "ASSETS/Perks/Styles/Domination/ProlificHunter/ProlificHunter.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/RelentlessHunter/RelentlessHunter.dds"
 					}
 				]
 			}
@@ -372,7 +372,7 @@
 						"key": "KSRuinedKing",
 						"name": "Uścisk Nieumarłego",
 						"shortDesc": "Co @TriggerTime@ sek. twój następny atak zadaje wrogim bohaterom dodatkowe obrażenia magiczne, leczy cię i na stałe zwiększa twoje zdrowie.",
-						"longDesc": "Co każde @TriggerTime@ sek. w walce twój następny podstawowy atak na bohaterze:<li>Zada dodatkowe obrażenia magiczne w wysokości @PercentHealthDamage.0@% twojego maksymalnego zdrowia<br>Uleczy cię o @PercentHealthHeal.0*100@% twojego maksymalnego zdrowia<br>Na stałe zwiększy twoje zdrowie o @MaxHealthPerProc@ pkt.</li><br><rules><i>Bohaterowie walczący z dystansu:</i> Obrażenia i leczenie są zmniejszone o połowę i zyskują @RangedHealthPerProc@ pkt. zdrowia na stałe.</rules>",
+						"longDesc": "Co każde @TriggerTime@ sek. w walce twój następny podstawowy atak na bohaterze:<li>Zada dodatkowe obrażenia magiczne w wysokości @PercentHealthDamage.0@% twojego maksymalnego zdrowia</li><li>Uleczy cię o @PercentHealthHeal.0*100@% twojego maksymalnego zdrowia</li><li>Na stałe zwiększy twoje zdrowie o @MaxHealthPerProc@ pkt.</li><br><rules><i>Bohaterowie walczący z dystansu:</i> Zadawane obrażenia, leczenie i pkt. zdrowia uzyskane na stałe są zmniejszone o @RangedPenaltyMod*100@%.</rules><br>",
 						"icon": "ASSETS/Perks/Styles/Resolve/KSRuinedKing/KSRuinedKing.dds"
 					},
 					{
@@ -380,7 +380,7 @@
 						"key": "Vengeance",
 						"name": "Reperkusje",
 						"shortDesc": "Po <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Immobilize\">unieruchomieniu</lol-uikit-tooltipped-keyword> wrogiego bohatera zwiększa się twoja obrona, a po chwili zadajesz wokół siebie <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">obrażenia adaptacyjne</lol-uikit-tooltipped-keyword>.",
-						"longDesc": "Po unieruchomieniu wrogiego bohatera twój pancerz i odporność na magię zwiększają się o @FlatResists@ pkt. + @ResistInc.0*100@% na @DelayBeforeBurst.1@ sek. Następnie wybuchasz i zadajesz obrażenia magiczne pobliskim wrogom.<br><br>Obrażenia: @StartingBaseDamage@-@MaxBaseDamage@ pkt. (+@HealthRatio.1@% twojego maksymalnego zdrowia)<br>Czas odnowienia: @Cooldown@ sek.",
+						"longDesc": "Po unieruchomieniu wrogiego bohatera twój pancerz i odporność na magię zwiększają się o @FlatResists@-@FlatResistMaximum@ pkt. na @DelayBeforeBurst.1@ sek. Następnie wybuchasz i zadajesz obrażenia magiczne pobliskim wrogom.<br><br>Obrażenia: @StartingBaseDamage@-@MaxBaseDamage@ pkt. (+@HealthRatio.-1@% twojego maksymalnego zdrowia) (+@DamageRatioAD*100@% twoich dodatkowych obrażeń od ataku) (+@DamageRatioAP*100@% twojej mocy umiejętności)<br>Czas odnowienia: @Cooldown@ sek.",
 						"icon": "ASSETS/Perks/Styles/Resolve/VeteranVengeance/VeteranVengeance.dds"
 					},
 					{
@@ -388,7 +388,7 @@
 						"key": "KSBuddyShield",
 						"name": "Opiekun",
 						"shortDesc": "Strzeż sojuszników, na których rzucasz zaklęcia, i tych, którzy są bardzo blisko. Jeżeli ty lub strzeżony sojusznik otrzymacie obrażenia, oboje zostajecie przyspieszeni i otrzymujecie tarczę.",
-						"longDesc": "{{ perk_shared_desc_KSBuddyShield }}<br><br>Czas odnowienia: @Cooldown@ sek.<br>Tarcza: @ShieldBase@-@ShieldMax@ pkt. +(<scaleAP>@APRatio.-1@ pkt. mocy umiejętności</scaleAP>) + (<scalehealth>+@HPRatio.0*100@% dodatkowego zdrowia</scalehealth>).<br>Przyspieszenie: +@Haste*100@% prędkości ruchu.",
+						"longDesc": "{{ perk_shared_desc_KSBuddyShield }}<br><br>Czas odnowienia: <scaleLevel>@Cooldown@ — @CooldownMaxLevel@</scaleLevel> sek.<br>Wytrzymałość tarczy: <scaleLevel>@ShieldBase@ — @ShieldMax@ pkt.</scaleLevel> + <scaleAP>@APRatio.-1@%</scaleAP> twojej mocy umiejętności + <scalehealth>@HPRatio.0*100@%</scalehealth> twojego dodatkowego zdrowia.<br>Przyspieszenie: +@Haste*100@% prędkości ruchu.",
 						"icon": "ASSETS/Perks/Styles/Resolve/KSBuddyShield/KSBuddyShield.dds"
 					}
 				]

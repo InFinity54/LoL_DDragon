@@ -9,27 +9,27 @@
 				"runes": [
 					{
 						"id": 8112,
-						"key": "StormlordsMandate",
+						"key": "Electrocute",
 						"name": "Electrocute",
 						"shortDesc": "Hitting a champion with 3 <b>separate</b> attacks or abilities in @WindowDuration@s deals bonus <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">adaptive damage</lol-uikit-tooltipped-keyword>.",
 						"longDesc": "Hitting a champion with 3 <b>separate</b> attacks or abilities within @WindowDuration@s deals bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>adaptive damage</font></lol-uikit-tooltipped-keyword>.<br><br>Damage: @DamageBase@ - @DamageMax@ (+@BonusADRatio.-1@ bonus AD, +@APRatio.-1@ AP) damage.<br><br>Cooldown: @Cooldown@ - @CooldownMin@s<br><br><hr></hr><i>'We called them the Thunderlords, for to speak of their lightning was to invite disaster.'</i>",
-						"icon": "ASSETS/Perks/Styles/Domination/TLords/TLords.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/Electrocute/Electrocute.dds"
 					},
 					{
 						"id": 8124,
-						"key": "KSLycanthropy",
+						"key": "Predator",
 						"name": "Predator",
 						"shortDesc": "Add an active effect to your boots that grants a large boost of <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">MS</lol-uikit-tooltipped-keyword> and causes your next attack or ability to deal bonus <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">adaptive damage</lol-uikit-tooltipped-keyword>.",
-						"longDesc": "Enchants your boots with the active effect '<font color='#c60300'>{{perk_displayname_KSLycanthropy}}</font>.'<br><br>{{ game_itemmod_bloodmoonboots }}",
-						"icon": "ASSETS/Perks/Styles/Domination/KSLycanthropy/KSLycanthropy.dds"
+						"longDesc": "Enchants your boots with the active effect '<font color='#c60300'>{{perk_displayname_Predator}}</font>.'<br><br>{{ game_itemmod_bloodmoonboots }}",
+						"icon": "ASSETS/Perks/Styles/Domination/Predator/Predator.dds"
 					},
 					{
 						"id": 8128,
-						"key": "KSSoulReaper",
+						"key": "DarkHarvest",
 						"name": "Dark Harvest",
 						"shortDesc": "Champions, large minions, and large monsters drop soul essence on death. Touch souls to absorb them and deal bonus <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">adaptive damage</lol-uikit-tooltipped-keyword> on your next attack based on total soul essence collected.",
 						"longDesc": "Champions, large minions, and large monsters drop soul essence on death. Collect souls to become <font color='#c60300'>Soul Charged</font>. Your next attack on a champion or structure consumes <font color='#c60300'>Soul Charged</font> to deal bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>adaptive damage</font></lol-uikit-tooltipped-keyword>.<br><br><font color='#c60300'>Soul Charged</font> lasts @ONHDuration@s, increased to @ONHDurationLong@s after collecting @SoulsRequiredForIncreasedDuration@ soul essence.<br><br>Bonus damage: @DamageMin@ - @DamageMax@ (+<scaleAD>@ADRatio.2@ bonus AD</scaleAD>) (+<scaleAP>@APRatio.1@ AP</scaleAP>) + soul essence collected.<br><rules><br>Champions - @champstacks@ soul essence.<br>Monsters - @monsterstacks@ soul essence.<br>Minions - @minionstacks@ soul essence.</rules>",
-						"icon": "ASSETS/Perks/Styles/Domination/KSSoulReaper/KSSoulReaper.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/DarkHarvest/DarkHarvest.dds"
 					}
 				]
 			},
@@ -41,23 +41,23 @@
 						"name": "Cheap Shot",
 						"shortDesc": "Deal bonus true damage to enemy champions with <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairAct\">impaired movement or actions</lol-uikit-tooltipped-keyword>. ",
 						"longDesc": "Damaging champions with <b>impaired movement or actions</b> deals @DamageIncMin@ - @DamageIncMax@ bonus true damage (based on level).<br><br>Cooldown: @Cooldown@s<br><rules>Activates on damage occurring after the impairment.</rules>",
-						"icon": "ASSETS/Perks/Styles/Domination/Bully/Bully.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/CheapShot/CheapShot.dds"
 					},
 					{
 						"id": 8139,
-						"key": "Feast",
+						"key": "TasteOfBlood",
 						"name": "Taste of Blood",
 						"shortDesc": "Heal when you damage an enemy champion.",
 						"longDesc": "Heal when you damage an enemy champion.<br><br>Healing: @HealAmount@-@HealAmountMax@ (+@ADRatio.-1@ bonus AD, +@APRatio.-1@ AP) health (based on level)<br><br>Cooldown: @Cooldown@s",
-						"icon": "ASSETS/Perks/Styles/Domination/Feast/GreenTerror_Feast.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/TasteOfBlood/GreenTerror_TasteOfBlood.dds"
 					},
 					{
 						"id": 8143,
-						"key": "DashAttack",
+						"key": "SuddenImpact",
 						"name": "Sudden Impact",
 						"shortDesc": "Gain a burst of Lethality and Magic Penetration after using a dash, leap, blink, teleport, or when leaving stealth.",
 						"longDesc": "After exiting stealth or using a dash, leap, blink, or teleport, dealing any damage to a champion grants you @BonusLethality.0@ Lethality and @BonusMpen.0@ Magic Penetration for @Duration@s.<br><br>Cooldown: @Cooldown@s",
-						"icon": "ASSETS/Perks/Styles/Domination/DashAttack/DashAttack.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/SuddenImpact/SuddenImpact.dds"
 					}
 				]
 			},
@@ -68,24 +68,24 @@
 						"key": "ZombieWard",
 						"name": "Zombie Ward",
 						"shortDesc": "After killing a ward, a friendly Zombie Ward is raised in its place. When your wards expire, they also reanimate as Zombie Wards.",
-						"longDesc": "After killing a ward, a friendly Zombie Ward is raised in its place. Additionally, when your wards expire, they reanimate as Zombie Wards.<br><br>Zombie Wards are visible, last for @WardDuration@s and don't count towards your ward limit.",
+						"longDesc": "After killing a ward, a friendly Zombie Ward is raised in its place. Additionally, when your wards expire, they reanimate as Zombie Wards.<br><br>Zombie Wards are visible, last for @WardDurationMin@ - @WardDuration@s and don't count towards your ward limit.",
 						"icon": "ASSETS/Perks/Styles/Domination/ZombieWard/ZombieWard.dds"
 					},
 					{
 						"id": 8120,
-						"key": "ViciousPoro",
+						"key": "GhostPoro",
 						"name": "Ghost Poro",
 						"shortDesc": "When you enter brush, a poro appears. It will stay behind to give you vision.",
-						"longDesc": "Enter a brush to summon a poro after a brief channel. The poro will stay behind to give you vision until you summon a new one.<br><br>If an enemy enters brush with a poro in it, they scare it away, putting {{ perk_displayname_ViciousPoro }} on a @Cooldown@s cooldown.<br><br>Poro channel is interrupted if you take damage.",
-						"icon": "ASSETS/Perks/Styles/Domination/ViciousPoro/ViciousPoro.dds"
+						"longDesc": "Enter a brush to summon a poro after a brief channel. The poro will stay behind to give you vision until you summon a new one.<br><br>If an enemy enters brush with a poro in it, they scare it away, putting {{ perk_displayname_GhostPoro }} on a @Cooldown@s cooldown.<br><br>Poro channel is interrupted if you take damage.",
+						"icon": "ASSETS/Perks/Styles/Domination/GhostPoro/GhostPoro.dds"
 					},
 					{
 						"id": 8138,
-						"key": "WardSlayer",
+						"key": "EyeballCollection",
 						"name": "Eyeball Collection",
 						"shortDesc": "Collect eyeballs for champion and ward <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">takedowns</lol-uikit-tooltipped-keyword>. Gain permanent AD or AP, <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">adaptive</lol-uikit-tooltipped-keyword> for each eyeball plus bonus upon collection completion.",
 						"longDesc": "Collect eyeballs for champion and ward takedowns. Gain {{ perk_subtext_AdaptiveForce }}, per eyeball collected. <br><br>Upon completing your collection at @MaxEyeballs@ eyeballs, additionally gain {{ perk_subtext_AdaptiveForce_EyeballCollection }}.<br><br>Collect @StacksPerTakedown@ eyeballs per champion kill, @StacksPerAssist@ per assist, and @StacksPerWard@ per ward takedown.",
-						"icon": "ASSETS/Perks/Styles/Domination/WardSlayer/WardSlayer.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/EyeballCollection/EyeballCollection.dds"
 					}
 				]
 			},
@@ -93,27 +93,27 @@
 				"runes": [
 					{
 						"id": 8135,
-						"key": "InsatiableHunter",
+						"key": "RavenousHunter",
 						"name": "Ravenous Hunter",
 						"shortDesc": "<b>Unique</b> <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">takedowns</lol-uikit-tooltipped-keyword> grant permanent healing from ability damage. ",
 						"longDesc": "Heal for a percentage of the damage dealt by your abilities.<br>Healing: @StartingOmnivamp*100@% + @OmnivampPerStack*100@% per <i>Bounty Hunter</i> stack. <br><br>Earn a <i>Bounty Hunter</i> stack the first time you get a takedown on each enemy champion.<br><rules><br>Healing reduced to one third for Area of Effect abilities.</rules><br>",
-						"icon": "ASSETS/Perks/Styles/Domination/InsatiableHunter/InsatiableHunter.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/RavenousHunter/RavenousHunter.dds"
 					},
 					{
 						"id": 8134,
-						"key": "BigGameHunter",
+						"key": "IngeniousHunter",
 						"name": "Ingenious Hunter",
 						"shortDesc": "<b>Unique</b> <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">takedowns</lol-uikit-tooltipped-keyword> grant permanent Active Item <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_CDR\">CDR</lol-uikit-tooltipped-keyword> (includes Trinkets).",
 						"longDesc": "Gain @StartingActiveItemCDR.0*100@% <b>Active Item CDR</b> plus an additional @ActiveItemCDRPerStack.0*100@% per <i>Bounty Hunter</i> stack (includes Trinkets).<br><br>Earn a <i>Bounty Hunter</i> stack the first time you get a takedown on each enemy champion.",
-						"icon": "ASSETS/Perks/Styles/Domination/BigGameHunter/BigGameHunter.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/IngeniousHunter/IngeniousHunter.dds"
 					},
 					{
 						"id": 8105,
-						"key": "ProlificHunter",
+						"key": "RelentlessHunter",
 						"name": "Relentless Hunter",
 						"shortDesc": "<b>Unique</b> <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">takedowns</lol-uikit-tooltipped-keyword> grant permanent <b>out of combat <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">MS</lol-uikit-tooltipped-keyword></b>. ",
 						"longDesc": "Gain @StartingOOCMS@ <b>out of combat Movement Speed</b> plus @OOCMS.0@ per <i>Bounty Hunter</i> stack.<br><br>Earn a <i>Bounty Hunter</i> stack the first time you get a takedown on each enemy champion.",
-						"icon": "ASSETS/Perks/Styles/Domination/ProlificHunter/ProlificHunter.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/RelentlessHunter/RelentlessHunter.dds"
 					}
 				]
 			}
@@ -372,7 +372,7 @@
 						"key": "KSRuinedKing",
 						"name": "Grasp of the Undying",
 						"shortDesc": "Every @TriggerTime@s your next attack on a champion deals bonus magic damage, heals you, and permanently increases your health.",
-						"longDesc": "Every @TriggerTime@s in combat, your next basic attack on a champion will:<li>Deal bonus magic damage equal to @PercentHealthDamage.0@% of your max health<br>Heals you for @PercentHealthHeal.0*100@% of your max health<br>Permanently increase your health by @MaxHealthPerProc@</li><br><rules><i>Ranged Champions:</i> Damage and healing are halved and gain @RangedHealthPerProc@ permanent health instead.</rules>",
+						"longDesc": "Every @TriggerTime@s in combat, your next basic attack on a champion will:<li>Deal bonus magic damage equal to @PercentHealthDamage.0@% of your max health</li><li>Heals you for @PercentHealthHeal.0*100@% of your max health</li><li>Permanently increase your health by @MaxHealthPerProc@</li><br><rules><i>Ranged Champions:</i> Damage, healing, and permanent health gained reduced by @RangedPenaltyMod*100@%.</rules><br>",
 						"icon": "ASSETS/Perks/Styles/Resolve/KSRuinedKing/KSRuinedKing.dds"
 					},
 					{
@@ -380,7 +380,7 @@
 						"key": "Vengeance",
 						"name": "Aftershock",
 						"shortDesc": "After <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Immobilize\">immobilizing</lol-uikit-tooltipped-keyword> an enemy champion gain defenses and later deal a burst of <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">adaptive damage</lol-uikit-tooltipped-keyword> around you.",
-						"longDesc": "After immobilizing an enemy champion, increase your Armor and Magic Resist by @FlatResists@ + @ResistInc.0*100@% for @DelayBeforeBurst.1@s. Then explode, dealing magic damage to nearby enemies.<br><br>Damage: @StartingBaseDamage@ - @MaxBaseDamage@ (+@HealthRatio.1@% of your maximum health)<br>Cooldown: @Cooldown@s",
+						"longDesc": "After immobilizing an enemy champion, increase your Armor and Magic Resist by @FlatResists@ - @FlatResistMaximum@ for @DelayBeforeBurst.1@s. Then explode, dealing magic damage to nearby enemies.<br><br>Damage: @StartingBaseDamage@ - @MaxBaseDamage@ (+@HealthRatio.-1@% of your maximum health) (+@DamageRatioAD*100@% of your bonus attack damage) (+@DamageRatioAP*100@% of your ability power)<br>Cooldown: @Cooldown@s",
 						"icon": "ASSETS/Perks/Styles/Resolve/VeteranVengeance/VeteranVengeance.dds"
 					},
 					{
@@ -388,7 +388,7 @@
 						"key": "KSBuddyShield",
 						"name": "Guardian",
 						"shortDesc": "Guard allies you cast spells on and those that are very nearby. If you or a guarded ally would take damage, you're both hasted and granted a shield.",
-						"longDesc": "{{ perk_shared_desc_KSBuddyShield }}<br><br>Cooldown: @Cooldown@s<br>Shield: @ShieldBase@ - @ShieldMax@ +(<scaleAP>@APRatio.-1@ AP</scaleAP>) + (<scalehealth>+@HPRatio.0*100@% bonus health</scalehealth>).<br>Haste: +@Haste*100@% Movement Speed.",
+						"longDesc": "{{ perk_shared_desc_KSBuddyShield }}<br><br>Cooldown: <scaleLevel>@Cooldown@ - @CooldownMaxLevel@</scaleLevel> seconds<br>Shield: <scaleLevel>@ShieldBase@ - @ShieldMax@</scaleLevel> + <scaleAP>@APRatio.-1@%</scaleAP> of your ability power + <scalehealth>@HPRatio.0*100@%</scalehealth> of your bonus health.<br>Haste: +@Haste*100@% Movement Speed.",
 						"icon": "ASSETS/Perks/Styles/Resolve/KSBuddyShield/KSBuddyShield.dds"
 					}
 				]

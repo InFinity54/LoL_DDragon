@@ -9,27 +9,27 @@
 				"runes": [
 					{
 						"id": 8112,
-						"key": "StormlordsMandate",
+						"key": "Electrocute",
 						"name": "Eletrocutar",
 						"shortDesc": "Acertar um Campeão com 3 ataques ou habilidades <b>separadas</b> em @WindowDuration@ causa <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">Dano Adaptativo</lol-uikit-tooltipped-keyword> adicional.",
 						"longDesc": "Acertar um Campeão com 3 ataques ou habilidades <b>separadas</b> em até @WindowDuration@s causa <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'> <font color='#48C4B7'>Dano Adaptativo</font></lol-uikit-tooltipped-keyword> adicional.<br><br>Dano: @DamageBase@ - @DamageMax@ (+@BonusADRatio.-1@ de DdA adicional, +@APRatio.-1@ de PdH) de dano.<br><br>Tempo de Recarga: @Cooldown@ - @CooldownMin@s<br><br><hr></hr><i>''Nós os chamávamos de Senhores do Trovão, porque mencionar seus raios era um prenúncio para um desastre.''</i>",
-						"icon": "ASSETS/Perks/Styles/Domination/TLords/TLords.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/Electrocute/Electrocute.dds"
 					},
 					{
 						"id": 8124,
-						"key": "KSLycanthropy",
+						"key": "Predator",
 						"name": "Predador",
 						"shortDesc": "Adiciona um efeito ativo às suas botas que concede um enorme aumento de <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">VdM</lol-uikit-tooltipped-keyword> e faz com que seu próximo ataque ou habilidade cause <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">Dano Adaptativo</lol-uikit-tooltipped-keyword> adicional.",
-						"longDesc": "Encanta suas botas com o efeito ativo '<font color='#c60300'>{{perk_displayname_KSLycanthropy}}</font>.'<br><br>{{ game_itemmod_bloodmoonboots }}",
-						"icon": "ASSETS/Perks/Styles/Domination/KSLycanthropy/KSLycanthropy.dds"
+						"longDesc": "Encanta suas botas com o efeito ativo ''<font color='#c60300'>{{perk_displayname_Predator}}</font>''.<br><br>{{ game_itemmod_bloodmoonboots }}",
+						"icon": "ASSETS/Perks/Styles/Domination/Predator/Predator.dds"
 					},
 					{
 						"id": 8128,
-						"key": "KSSoulReaper",
+						"key": "DarkHarvest",
 						"name": "Colheita Sombria",
-						"shortDesc": "Campeões, tropas grandes e monstros grandes deixam essências de almas ao morrerem. Toque nas almas para absorvê-las e causar <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">Dano Adaptativo</lol-uikit-tooltipped-keyword> adicional no seu próximo ataque com base no total de essências de almas coletadas.",
-						"longDesc": "Campeões, tropas grandes e monstros grandes deixam essências de alma ao morrer. Colete almas para ficar com <font color='#c60300'>Alma Carregada</font>. Seu próximo ataque a um Campeão ou estrutura consome a <font color='#c60300'>Alma Carregada</font> para causar <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>Dano Adaptativo</font></lol-uikit-tooltipped-keyword> adicional.<br><br>A <font color='#c60300'>Alma Carregada</font> dura @ONHDuration@s, aumentando para @ONHDurationLong@s após coletar @SoulsRequiredForIncreasedDuration@ essência(s) de alma.<br><br>Dano adicional: de @DamageMin@ a @DamageMax@ (+<scaleAD>@ADRatio.2@ de DdA adicional</scaleAD>) (+<scaleAP>@APRatio.1@ de PdH</scaleAP>) + essências de alma coletadas.<br><rules><br>Campeões - @champstacks@ de essência de alma.<br>Monstros - @monsterstacks@ de essência de alma.<br>Tropas - @minionstacks@ de essência de alma.</rules>",
-						"icon": "ASSETS/Perks/Styles/Domination/KSSoulReaper/KSSoulReaper.dds"
+						"shortDesc": "Campeões, tropas grandes e monstros grandes deixam essências de alma ao morrer. Toque nas almas para absorvê-las e causar <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">Dano Adaptativo</lol-uikit-tooltipped-keyword> adicional no seu próximo ataque com base no total de essências de almas coletadas.",
+						"longDesc": "Campeões, tropas grandes e monstros grandes deixam essências de alma ao morrer. Colete almas para ficar com <font color='#c60300'>Alma Carregada</font>. Seu próximo ataque a um Campeão ou estrutura consome a <font color='#c60300'>Alma Carregada</font> para causar <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>Dano Adaptativo</font></lol-uikit-tooltipped-keyword>.<br><br>A <font color='#c60300'>Alma Carregada</font> dura @ONHDuration@s, aumentando para @ONHDurationLong@s após coletar @SoulsRequiredForIncreasedDuration@ essência(s) de alma.<br><br>Dano adicional: de @DamageMin@ a @DamageMax@ (+<scaleAD>@ADRatio.2@ de DdA adicional</scaleAD>) (+<scaleAP>@APRatio.1@ de PdH</scaleAP>) + essências de alma coletadas.<br><rules><br>Campeões - @champstacks@ de essência de alma.<br>Monstros - @monsterstacks@ de essência de alma.<br>Tropas - @minionstacks@ de essência de alma.</rules>",
+						"icon": "ASSETS/Perks/Styles/Domination/DarkHarvest/DarkHarvest.dds"
 					}
 				]
 			},
@@ -41,23 +41,23 @@
 						"name": "Golpe Desleal",
 						"shortDesc": "Causa Dano Verdadeiro adicional a Campeões inimigos com <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairAct\">mobilidade ou ações debilitadas</lol-uikit-tooltipped-keyword>. ",
 						"longDesc": "Causar dano a Campeões com <b>movimento ou ações debilitadas</b> causa @DamageIncMin@ - @DamageIncMax@ de Dano Verdadeiro adicional (com base no nível).<br><br>Tempo de Recarga: @Cooldown@s<br><rules>É ativado pelo dano causado após a debilitação.</rules>",
-						"icon": "ASSETS/Perks/Styles/Domination/Bully/Bully.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/CheapShot/CheapShot.dds"
 					},
 					{
 						"id": 8139,
-						"key": "Feast",
+						"key": "TasteOfBlood",
 						"name": "Gosto de Sangue",
 						"shortDesc": "Cura ao causar dano a um Campeão inimigo.",
 						"longDesc": "Cura ao causar dano a um Campeão inimigo.<br><br>Cura: @HealAmount@-@HealAmountMax@ (+@ADRatio.-1@ de DdA adicional, +@APRatio.-1@ de PdH) de Vida (com base no nível).<br><br>Tempo de Recarga: @Cooldown@s",
-						"icon": "ASSETS/Perks/Styles/Domination/Feast/GreenTerror_Feast.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/TasteOfBlood/GreenTerror_TasteOfBlood.dds"
 					},
 					{
 						"id": 8143,
-						"key": "DashAttack",
+						"key": "SuddenImpact",
 						"name": "Impacto Repentino",
-						"shortDesc": "Depois de usar um avanço, salto, teletransporte, teleporte ou ao sair da furtividade, você ganha uma quantidade súbita de Letalidade/Penetração Mágica.",
+						"shortDesc": "Depois de usar um avanço, salto, teletransporte, teleporte ou ao sair da furtividade, você ganha uma quantidade súbita de Letalidade e Penetração Mágica.",
 						"longDesc": "Depois de sair da furtividade ou usar um avanço, salto, teletransporte ou teleporte, causar dano a um Campeão concede @BonusLethality.0@ de Letalidade e @BonusMpen.0@ de Penetração Mágica por @Duration@s.<br><br>Tempo de Recarga: @Cooldown@s",
-						"icon": "ASSETS/Perks/Styles/Domination/DashAttack/DashAttack.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/SuddenImpact/SuddenImpact.dds"
 					}
 				]
 			},
@@ -68,24 +68,24 @@
 						"key": "ZombieWard",
 						"name": "Sentinela Zumbi",
 						"shortDesc": "Ao abater uma sentinela, uma Sentinela Zumbi aliada surge em seu lugar. Quando suas sentinelas expiram, elas também ressuscitam como Sentinelas Zumbis.",
-						"longDesc": "Ao abater uma sentinela, uma Sentinela Zumbi aliada surge em seu lugar. Além disso, quando suas sentinelas expiram, elas ressuscitam como Sentinelas Zumbis.<br><br>As Sentinelas Zumbis são visíveis, duram @WardDuration@s e não afetam seu limite de sentinelas.",
+						"longDesc": "Ao abater uma sentinela, uma Sentinela Zumbi aliada surge em seu lugar. Além disso, quando suas sentinelas expiram, elas ressuscitam como Sentinelas Zumbis.<br><br>As Sentinelas Zumbis são visíveis, duram de @WardDurationMin@s a @WardDuration@s e não afetam seu limite de sentinelas.",
 						"icon": "ASSETS/Perks/Styles/Domination/ZombieWard/ZombieWard.dds"
 					},
 					{
 						"id": 8120,
-						"key": "ViciousPoro",
+						"key": "GhostPoro",
 						"name": "Poro Fantasma",
-						"shortDesc": "Quando você entra em um arbusto, um Poro aparece. Ele ficará atrás de você para lhe conceder visão.",
-						"longDesc": "Entre em um arbusto para invocar um Poro depois de uma breve canalização. O Poro ficará para trás para conceder visão até que você invoque um novo.<br><br>Se um inimigo entrar em um arbusto com um Poro, ele o assusta, colocando {{ perk_displayname_ViciousPoro }} em @Cooldown@s de Tempo de Recarga.<br><br>A canalização do Poro é interrompida se você receber dano.",
-						"icon": "ASSETS/Perks/Styles/Domination/ViciousPoro/ViciousPoro.dds"
+						"shortDesc": "Quando você entra em um arbusto, um Poro aparece. Ele ficará atrás para conceder visão.",
+						"longDesc": "Entre em um arbusto para invocar um Poro depois de uma breve canalização. O Poro ficará para trás para conceder visão até que você invoque um novo.<br><br>Se um inimigo entrar em um arbusto com um Poro, ele o assusta, colocando {{ perk_displayname_GhostPoro }} em @Cooldown@s de Tempo de Recarga.<br><br>A canalização do Poro é interrompida se você receber dano.",
+						"icon": "ASSETS/Perks/Styles/Domination/GhostPoro/GhostPoro.dds"
 					},
 					{
 						"id": 8138,
-						"key": "WardSlayer",
+						"key": "EyeballCollection",
 						"name": "Globos Oculares",
-						"shortDesc": "Coleta Globos Oculares ao <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">abater</lol-uikit-tooltipped-keyword> Campeões e sentinelas. Concede DdA ou PdH permanente <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">Adaptativos</lol-uikit-tooltipped-keyword> por cada Globo Ocular coletado, além de adicionais ao completar a coleção.",
-						"longDesc": "Coleta Globos Oculares ao abater Campeões e sentinelas. Concede {{ perk_subtext_AdaptiveForce }} por Globo Ocular coletado. <br><br>Após completar sua coleção de @MaxEyeballs@ Globos Oculares, você ganha um adicional de {{ perk_subtext_AdaptiveForce_EyeballCollection }}<br><br>Coleta @StacksPerTakedown@ Globos Oculares por abates de Campeões, @StacksPerAssist@ por assistências e @StacksPerWard@ por abates de sentinelas.",
-						"icon": "ASSETS/Perks/Styles/Domination/WardSlayer/WardSlayer.dds"
+						"shortDesc": "Coleta Globos Oculares ao <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">abater</lol-uikit-tooltipped-keyword> Campeões e sentinelas. Concede DdA ou PdH permanente <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">Adaptativo</lol-uikit-tooltipped-keyword> por cada Globo Ocular coletado, além de adicionais ao completar a coleção.",
+						"longDesc": "Coleta Globos Oculares ao abater Campeões e sentinelas. Concede {{ perk_subtext_AdaptiveForce }} por Globo Ocular coletado. <br><br>Após completar sua coleção de @MaxEyeballs@ Globos Oculares, você também ganha {{ perk_subtext_AdaptiveForce_EyeballCollection }}.<br><br>Coleta @StacksPerTakedown@ Globos Oculares por abates de Campeões, @StacksPerAssist@ por assistências e @StacksPerWard@ por abates de sentinelas.",
+						"icon": "ASSETS/Perks/Styles/Domination/EyeballCollection/EyeballCollection.dds"
 					}
 				]
 			},
@@ -93,27 +93,27 @@
 				"runes": [
 					{
 						"id": 8135,
-						"key": "InsatiableHunter",
+						"key": "RavenousHunter",
 						"name": "Caça Voraz",
 						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Abates</lol-uikit-tooltipped-keyword> <b>únicos</b> concedem cura permanente do dano de habilidades. ",
 						"longDesc": "Cura um percentual do dano que você causa com suas habilidades.<br>Cura: @StartingOmnivamp*100@% + @OmnivampPerStack*100@% por acúmulo de <i>Caçando Recompensas</i>. <br><br>Recebe um acúmulo de <i>Caçando Recompensas</i> sempre que abater um Campeão inimigo pela primeira vez.<br><rules><br>Cura reduzida a um terço para habilidades de área de ação.</rules><br>",
-						"icon": "ASSETS/Perks/Styles/Domination/InsatiableHunter/InsatiableHunter.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/RavenousHunter/RavenousHunter.dds"
 					},
 					{
 						"id": 8134,
-						"key": "BigGameHunter",
+						"key": "IngeniousHunter",
 						"name": "Caça Ardilosa",
-						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Abates</lol-uikit-tooltipped-keyword> <b>únicos</b> concedem <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_CDR\">RTR </lol-uikit-tooltipped-keyword> permanente para itens ativos (inclui Amuletos).",
+						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Abates</lol-uikit-tooltipped-keyword> <b>únicos</b> concedem <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_CDR\">RTR</lol-uikit-tooltipped-keyword> permanente para itens ativos (inclui Amuletos).",
 						"longDesc": "Recebe @StartingActiveItemCDR.0*100@% <b>de RTR de itens ativos</b> mais @ActiveItemCDRPerStack.0*100@% por acúmulo de <i>Caçando Recompensas</i> (inclui Amuletos).<br><br>Recebe um acúmulo de <i>Caçando Recompensas</i> sempre que abater um Campeão inimigo pela primeira vez.",
-						"icon": "ASSETS/Perks/Styles/Domination/BigGameHunter/BigGameHunter.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/IngeniousHunter/IngeniousHunter.dds"
 					},
 					{
 						"id": 8105,
-						"key": "ProlificHunter",
+						"key": "RelentlessHunter",
 						"name": "Caça Incansável",
 						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Abates</lol-uikit-tooltipped-keyword> <b>únicos</b> concedem <b><lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">VdM</lol-uikit-tooltipped-keyword></b> permanente fora de combate. ",
 						"longDesc": "Recebe @StartingOOCMS@ de <b>Velocidade de Movimento fora de combate</b> mais @OOCMS.0@ por acúmulo de <i>Caçando Recompensas</i>.<br><br>Recebe um acúmulo de <i>Caçando Recompensas</i> sempre que abater um Campeão inimigo pela primeira vez.",
-						"icon": "ASSETS/Perks/Styles/Domination/ProlificHunter/ProlificHunter.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/RelentlessHunter/RelentlessHunter.dds"
 					}
 				]
 			}
@@ -176,7 +176,7 @@
 						"key": "AllInGoodTime",
 						"name": "Sincronia Perfeita",
 						"shortDesc": "Recebe um {{game_item_displayname_2420}} grátis. {{game_item_displayname_2420}} tem um efeito de <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Stasis\">Estase</lol-uikit-tooltipped-keyword> de uso único.",
-						"longDesc": "Comece o jogo com um {{ game_item_displayname_2419 }} que se transforma em {{ game_item_displayname_2420 }} após @InitialCooldown.0@ mins. {{ game_item_displayname_2420 }} tem um efeito de Estase de uso único.<br><br>Reduz o Tempo de Recarga de {{ game_item_displayname_3157 }}, {{ game_item_displayname_3026 }} e {{ game_item_displayname_3193 }} em @PercentGAZhonyasCDR.0*100@%.",
+						"longDesc": "Comece o jogo com um {{ game_item_displayname_2419 }} que se transforma em {{ game_item_displayname_2420 }} após @InitialCooldown.0@ min. {{ game_item_displayname_2420 }} tem um efeito de Estase de uso único.<br><br>Reduz o Tempo de Recarga de {{ game_item_displayname_3157 }}, {{ game_item_displayname_3026 }} e {{ game_item_displayname_3193 }} em @PercentGAZhonyasCDR.0*100@%.",
 						"icon": "ASSETS/Perks/Styles/Style5/AllInGoodTime/AllInGoodTime.dds"
 					}
 				]
@@ -187,8 +187,8 @@
 						"id": 8304,
 						"key": "MagicalFootwear",
 						"name": "Calçados Mágicos",
-						"shortDesc": "Concede botas gratuitamente aos @GiveBootsAtMinute@ mins, mas não é possível comprar botas antes disso. Cada <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">abate</lol-uikit-tooltipped-keyword> bem-sucedido faz suas botas virem @SecondsSoonerPerTakedown@s mais cedo.",
-						"longDesc": "Recebe {{game_item_displayname_2422}} gratuitamente aos @GiveBootsAtMinute@ mins, mas não é possível comprar botas antes disso. Para cada abate, você adquire as botas @SecondsSoonerPerTakedown@s mais cedo.<br><br>{{game_item_displayname_2422}} concede um adicional de +@AdditionalMovementSpeed@ de Velocidade de Movimento e é aprimorado por menos 50 de ouro.",
+						"shortDesc": "Concede botas gratuitamente aos @GiveBootsAtMinute@ min, mas não é possível comprar botas antes disso. Cada <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">abate</lol-uikit-tooltipped-keyword> bem-sucedido faz suas botas virem @SecondsSoonerPerTakedown@s mais cedo.",
+						"longDesc": "Recebe {{game_item_displayname_2422}} gratuitamente aos @GiveBootsAtMinute@ min, mas não é possível comprar botas antes disso. Para cada abate, você adquire as botas @SecondsSoonerPerTakedown@s mais cedo.<br><br>{{game_item_displayname_2422}} concede um adicional de +@AdditionalMovementSpeed@ de Velocidade de Movimento e é aprimorado por menos 50 de ouro.",
 						"icon": "ASSETS/Perks/Styles/Inspiration/MagicalFootwear/MagicalFootwear.dds"
 					},
 					{
@@ -307,7 +307,7 @@
 						"id": 9104,
 						"key": "LegendDauntless",
 						"name": "Lenda: Espontaneidade",
-						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\"> Golpes finais </lol-uikit-tooltipped-keyword> em inimigos concedem <b>Velocidade de Ataque</b>. ",
+						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Golpes finais</lol-uikit-tooltipped-keyword> em inimigos concedem <b>Velocidade de Ataque</b>. ",
 						"longDesc": "Recebe @AttackSpeedBase*100@% de Velocidade de Ataque mais um adicional de @AttackSpeedPerStack*100@% para cada acúmulo de <i>Lenda</i> (máx. de @MaxLegendStacks@ acúmulos).<br><br>Ganha progresso em acúmulos de <i>Lenda</i> por cada abate de Campeão, monstro épico, monstro grande e tropa.",
 						"icon": "ASSETS/Perks/Styles/Precision/Legend_Heroism.dds"
 					},
@@ -315,7 +315,7 @@
 						"id": 9105,
 						"key": "LegendTenacity",
 						"name": "Lenda: Tenacidade",
-						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\"> Golpes finais</lol-uikit-tooltipped-keyword> em inimigos concedem <b> Tenacidade</b>. ",
+						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Golpes finais</lol-uikit-tooltipped-keyword> em inimigos concedem <b>Tenacidade</b>. ",
 						"longDesc": "Recebe @TenacityBase*100@% de Tenacidade mais um adicional de @TenacityPerStack*100@% por cada acúmulo de <i>Lenda</i> (máx. de @MaxLegendStacks@ acúmulos).<br><br>Ganha progresso em acúmulos de <i>Lenda</i> por cada abate de Campeão, monstro épico, monstro grande e tropa.",
 						"icon": "ASSETS/Perks/Styles/Precision/Legend_Tenacity.dds"
 					},
@@ -323,7 +323,7 @@
 						"id": 9103,
 						"key": "LegendInfamy",
 						"name": "Lenda: Linhagem",
-						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\"> Golpes finais</lol-uikit-tooltipped-keyword> em inimigos concedem <b> Roubo de Vida</b>. ",
+						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Golpes finais</lol-uikit-tooltipped-keyword> em inimigos concedem <b>Roubo de Vida</b>. ",
 						"longDesc": "Ganha @LifeStealPerStack*100@% de Roubo de Vida por cada acúmulo de <i>Lenda</i> (máx. de @MaxLegendStacks@ acúmulos).<br><br>Ganha progresso em acúmulos de <i>Lenda</i> por cada abate de Campeão, monstro épico, monstro grande e tropa.",
 						"icon": "ASSETS/Perks/Styles/Precision/Legend_Infamy.dds"
 					}
@@ -372,7 +372,7 @@
 						"key": "KSRuinedKing",
 						"name": "Aperto dos Mortos-Vivos",
 						"shortDesc": "A cada @TriggerTime@s, seu próximo ataque contra um Campeão causa Dano Mágico adicional, cura você e aumenta permanentemente sua Vida.",
-						"longDesc": "A cada @TriggerTime@s em combate, seu próximo ataque básico contra um Campeão irá:<li>Causar Dano Mágico adicional equivalente a @PercentHealthDamage.0@% da sua Vida máxima<br>Curar você em @PercentHealthHeal.0*100@% da sua Vida máxima<br>Aumentar permanentemente sua Vida em @MaxHealthPerProc@</li><br><rules><i>Campeões de ataque à distância:</i> O dano e a cura são reduzidos pela metade e você recebe @RangedHealthPerProc@ de Vida permanente em vez disso.</rules>",
+						"longDesc": "A cada @TriggerTime@s em combate, seu próximo ataque básico contra um Campeão irá:<li>Causar Dano Mágico adicional equivalente a @PercentHealthDamage.0@% da sua Vida máxima</li><li>Curar você em @PercentHealthHeal.0*100@% da sua Vida máxima</li><li>Aumentar permanentemente sua Vida em @MaxHealthPerProc@</li><br><rules><i>Campeões de ataque à distância:</i> Dano, cura e Vida permanente recebidos são reduzidos em @RangedPenaltyMod*100@%.</rules><br>",
 						"icon": "ASSETS/Perks/Styles/Resolve/KSRuinedKing/KSRuinedKing.dds"
 					},
 					{
@@ -380,7 +380,7 @@
 						"key": "Vengeance",
 						"name": "Pós-choque",
 						"shortDesc": "Depois de <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Immobilize\">imobilizar</lol-uikit-tooltipped-keyword> um Campeão inimigo, ganha defesas e realiza um ataque explosivo de <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">dano adaptativo</lol-uikit-tooltipped-keyword> ao seu redor.",
-						"longDesc": "Após imobilizar um Campeão inimigo, aumenta sua Armadura e Resistência Mágica em @FlatResists@ + @ResistInc.0*100@% por @DelayBeforeBurst.1@s. Depois explode, causando Dano Mágico a inimigos próximos.<br><br>Dano: @StartingBaseDamage@ - @MaxBaseDamage@ (+@HealthRatio.1@% de sua Vida máxima).<br>Tempo de Recarga: @Cooldown@s",
+						"longDesc": "Após imobilizar um Campeão inimigo, aumenta sua Armadura e Resistência Mágica em @FlatResists@ - @FlatResistMaximum@ por @DelayBeforeBurst.1@s. Depois explode, causando Dano Mágico a inimigos próximos.<br><br>Dano: @StartingBaseDamage@ - @MaxBaseDamage@ (+@HealthRatio.-1@% da sua Vida máxima) (+@DamageRatioAD*100@% do seu Dano de Ataque adicional) (+@DamageRatioAP*100@% do seu Poder de Habilidade)<br>Tempo de Recarga: @Cooldown@s",
 						"icon": "ASSETS/Perks/Styles/Resolve/VeteranVengeance/VeteranVengeance.dds"
 					},
 					{
@@ -388,7 +388,7 @@
 						"key": "KSBuddyShield",
 						"name": "Guardião",
 						"shortDesc": "Protege aliados sobre os quais você lançou habilidades e aliados muito próximos. Se você ou um Campeão aliado protegido sofrer dano, ambos recebem aceleração e um escudo.",
-						"longDesc": "{{ perk_shared_desc_KSBuddyShield }}<br><br>Tempo de Recarga: @Cooldown@s<br>Escudo: @ShieldBase@ - @ShieldMax@ +(<scaleAP>@APRatio.-1@ de PdH</scaleAP>) + (<scalehealth>+@HPRatio.0*100@% de Vida adicional</scalehealth>).<br>Aceleração: +@Haste*100@% de Velocidade de Movimento.",
+						"longDesc": "{{ perk_shared_desc_KSBuddyShield }}<br><br>Tempo de Recarga: de <scaleLevel>@Cooldown@ a @CooldownMaxLevel@</scaleLevel> segundos<br>Escudo: <scaleLevel>@ShieldBase@ - @ShieldMax@</scaleLevel> + <scaleAP>@APRatio.-1@%</scaleAP> do seu Poder de Habilidade + <scalehealth>@HPRatio.0*100@%</scalehealth> da sua Vida adicional.<br>Aceleração: +@Haste*100@% de Velocidade de Movimento.",
 						"icon": "ASSETS/Perks/Styles/Resolve/KSBuddyShield/KSBuddyShield.dds"
 					}
 				]
@@ -527,8 +527,8 @@
 						"id": 8226,
 						"key": "ManaflowBand",
 						"name": "Faixa de Fluxo de Mana",
-						"shortDesc": "Periodicamente, sua próxima habilidade utilizada tem seu custo de Mana ou de Energia recuperado e restaura uma porção de sua Mana ou Energia usada.",
-						"longDesc": "A cada @Cooldown.0@s, a próxima habilidade utilizada tem seu custo de Mana ou de Energia recuperado e restaura @MPToRestoreRatio.0*100@% da sua Mana ou Energia perdida.",
+						"shortDesc": "Periodicamente, a próxima habilidade que você utilizar tem seu custo de Mana ou de Energia recuperado e restaura uma porção de sua Mana ou Energia perdida.",
+						"longDesc": "A cada @Cooldown.0@s, a próxima habilidade que você utilizar tem seu custo de Mana ou de Energia recuperado e restaura @MPToRestoreRatio.0*100@% da sua Mana ou Energia perdida.",
 						"icon": "ASSETS/Perks/Styles/Sorcery/ManaflowBand/ManaflowBand.dds"
 					},
 					{
@@ -547,7 +547,7 @@
 						"id": 8210,
 						"key": "Transcendence",
 						"name": "Transcendência",
-						"shortDesc": "Recebe @MaxCDR*100@% de <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_CDR\">Redução do Tempo de Recarga</lol-uikit-tooltipped-keyword> quando atinge o nível @LevelToTurnOn@. A RTR excedente é convertida em PdH ou DdA <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">Adaptativos</lol-uikit-tooltipped-keyword>.",
+						"shortDesc": "Recebe @MaxCDR*100@% de <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_CDR\">Redução do Tempo de Recarga</lol-uikit-tooltipped-keyword> quando atinge o nível @LevelToTurnOn@. A RTR excedente é convertida em PdH ou DdA <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">Adaptativo</lol-uikit-tooltipped-keyword>.",
 						"longDesc": "Recebe @MaxCDR*100@% de Redução do Tempo de Recarga quando atinge o nível @LevelToTurnOn@.<br><br>Cada percentual de RTR acima do limite de RTR é convertido em {{ perk_subtext_AdaptiveForce }}.",
 						"icon": "ASSETS/Perks/Styles/Sorcery/Transcendence/Transcendence.dds"
 					},

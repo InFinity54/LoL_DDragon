@@ -9,27 +9,27 @@
 				"runes": [
 					{
 						"id": 8112,
-						"key": "StormlordsMandate",
+						"key": "Electrocute",
 						"name": "Electrocute",
 						"shortDesc": "การโจมตีหรือใช้สกิลใส่แชมป์เปี้ยนที่<b>ไม่ซ้ำกัน</b> 3 ครั้งในเวลา @WindowDuration@ วินาที จะสร้างโบนัส<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">ความเสียหายแบบ Adaptive</lol-uikit-tooltipped-keyword>",
 						"longDesc": "การโจมตีหรือใช้สกิลที่<b>ไม่ซ้ำกัน</b>ใส่แชมป์เปี้ยนศัตรูถึง 3 ครั้ง ภายในเวลา @WindowDuration@ วินาที จะสร้างโบนัส<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>ความเสียหายแบบ Adaptive</font></lol-uikit-tooltipped-keyword><br><br>ความเสียหาย: @DamageBase@ - @DamageMax@ หน่วย บวกด้วย (โบนัสพลังโจมตี +@BonusADRatio.-1@ หน่วย และ พลังเวทย์ +@APRatio.-1@ หน่วย)<br><br>คูลดาวน์: @Cooldown@ - @CooldownMin@ วินาที<br><br><hr></hr><i>'เราเรียกมันว่า Thunderlords เพราะการกล่าวถึงสายฟ้าของมันก็เหมือนการนำมาซึ่งหายนะ'</i>",
-						"icon": "ASSETS/Perks/Styles/Domination/TLords/TLords.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/Electrocute/Electrocute.dds"
 					},
 					{
 						"id": 8124,
-						"key": "KSLycanthropy",
+						"key": "Predator",
 						"name": "Predator",
-						"shortDesc": "เพิ่มความสามารถแบบกดใช้ให้กับรองเท้าของคุณ เมื่อกดใช้จะเพิ่ม<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">ความเร็วเคลื่อนที่</lol-uikit-tooltipped-keyword>อย่างมาก และทำให้การโจมตีหรือสกิลถัดไปของคุณ สร้างโบนัสความเสียหายแบบ <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">Adaptive</lol-uikit-tooltipped-keyword>",
-						"longDesc": "เพิ่มความสามารถให้กับรองเท้าของคุณให้สามารถกดใช้ '<font color='#c60300'>{{perk_displayname_KSLycanthropy}}</font>' ได้<br><br>{{ game_itemmod_bloodmoonboots }}",
-						"icon": "ASSETS/Perks/Styles/Domination/KSLycanthropy/KSLycanthropy.dds"
+						"shortDesc": "เพิ่มเอฟเฟกต์กดใช้ให้กับรองเท้าของคุณ ที่จะทำให้ได้รับ<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">ความเร็วเคลื่อนที่</lol-uikit-tooltipped-keyword>เพิ่มขึ้นอย่างมาก และทำให้การโจมตีหรือสกิลครั้งถัดไปของคุณสร้างโบนัส<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">ความเสียหายแบบ Adaptive</lol-uikit-tooltipped-keyword>",
+						"longDesc": "เพิ่มเอฟเฟกต์กดใช้ '<font color='#c60300'>{{perk_displayname_Predator}}</font>' ให้กับรองเท้าของคุณ<br><br>{{ game_itemmod_bloodmoonboots }}",
+						"icon": "ASSETS/Perks/Styles/Domination/Predator/Predator.dds"
 					},
 					{
 						"id": 8128,
-						"key": "KSSoulReaper",
+						"key": "DarkHarvest",
 						"name": "Dark Harvest",
-						"shortDesc": "แชมป์เปี้ยน มินเนี่ยนตัวใหญ่ และสัตว์ป่าขนาดใหญ่จะดรอปวิญญาณเมื่อถูกสังหาร เมื่อคุณเก็บวิญญาณ การโจมตีครั้งต่อไปจะสร้างโบนัสความเสียหายเพิ่มเติมแบบ <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">Adaptive</lol-uikit-tooltipped-keyword> ตามจำนวนวิญญาณที่คุณเก็บได้",
-						"longDesc": "แชมป์เปี้ยน มินเนี่ยนตัวใหญ่ และสัตว์ป่าขนาดใหญ่ จะดรอปวิญญาณไว้เมื่อถูกสังหาร การเก็บวิญญาณจะทำให้คุณได้รับเอฟเฟกต์ <font color='#c60300'>Soul Charged</font> การโจมตีครั้งถัดไปของคุณที่โจมตีใส่แชมป์เปี้ยนหรือสิ่งก่อสร้างจะใช้ <font color='#c60300'>Soul Charged</font> เพื่อสร้างโบนัสความเสียหายแบบ <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>Adaptive</font></lol-uikit-tooltipped-keyword><br><br><font color='#c60300'>Soul Charged</font> จะคงอยู่เป็นเวลา @ONHDuration@ วินาที และจะเพิ่มขึ้นเป็น @ONHDurationLong@ วินาที หลังจากที่คุณเก็บสะสมวิญญาณได้ @SoulsRequiredForIncreasedDuration@ ดวง<br><br>โบนัสความเสียหาย: @DamageMin@ - @DamageMax@ หน่วย (โบนัสพลังโจมตี +<scaleAD>@ADRatio.2@</scaleAD> หน่วย) (พลังเวทย์ +<scaleAP>@APRatio.1@</scaleAP> หน่วย) + วิญญาณที่เก็บได้<br><rules><br>วิญญาณแชมป์เปี้ยน - @champstacks@ ดวง<br>วิญญาณสัตว์ป่า - @monsterstacks@ ดวง<br>วิญญาณมินเนี่ยน - @minionstacks@ ดวง</rules>",
-						"icon": "ASSETS/Perks/Styles/Domination/KSSoulReaper/KSSoulReaper.dds"
+						"shortDesc": "แชมป์เปี้ยน มินเนี่ยนตัวใหญ่ และสัตว์ป่าขนาดใหญ่จะดรอปวิญญาณตอนตาย การเก็บวิญญาณจะทำให้คุณสร้างโบนัส<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">ความเสียหายแบบ Adaptive</lol-uikit-tooltipped-keyword> เมื่อคุณโจมตีครั้งถัดไป โดยคิดตามจำนวนวิญญาณที่คุณเก็บสะสมได้ทั้งหมด",
+						"longDesc": "แชมป์เปี้ยน, มินเนี่ยนตัวใหญ่, และสัตว์ป่าขนาดใหญ่จะดรอปวิญญาณตอนตาย เก็บวิญญาณเพื่อได้รับเอฟเฟกต์ <font color='#c60300'>Soul Charged</font> การโจมตีครั้งถัดไปของคุณใส่แชมป์เปี้ยนหรือสิ่งก่อสร้างจะใช้ <font color='#c60300'>Soul Charged</font> เพื่อสร้างโบนัส <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>ความเสียหายแบบ Adaptive</font></lol-uikit-tooltipped-keyword><br><br><font color='#c60300'>Soul Charged</font> จะคงอยู่เป็นเวลา @ONHDuration@ วินาที และจะเพิ่มขึ้นเป็น @ONHDurationLong@ วินาที หลังจากที่สะสมวิญญาณได้ @SoulsRequiredForIncreasedDuration@ ดวง<br><br>โบนัสความเสียหาย: @DamageMin@ - @DamageMax@ หน่วย (โบนัสพลังโจมตี +<scaleAD>@ADRatio.2@ หน่วย</scaleAD>) (พลังเวทย์ +<scaleAP>@APRatio.1@ หน่วย</scaleAP>) + วิญญาณที่เก็บได้<br><rules><br>แชมป์เปี้ยน - @champstacks@ ดวง<br>สัตว์ป่า - @monsterstacks@ ดวง<br>มินเนี่ยน - @minionstacks@ ดวง</rules>",
+						"icon": "ASSETS/Perks/Styles/Domination/DarkHarvest/DarkHarvest.dds"
 					}
 				]
 			},
@@ -39,25 +39,25 @@
 						"id": 8126,
 						"key": "CheapShot",
 						"name": "Cheap Shot",
-						"shortDesc": "สร้างโบนัสความเสียหายจริงให้กับแชมป์เปี้ยนศัตรูที่โดน<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairAct\">เอฟเฟกต์หยุดการเคลื่อนที่หรือการกระทำ</lol-uikit-tooltipped-keyword>",
-						"longDesc": "การสร้างความเสียหายให้กับแชมป์เปี้ยนด้วย <b>เอฟเฟกต์หยุดการเคลื่อนที่หรือการกระทำ</b> สร้างโบนัสความเสียหายจริง @DamageIncMin@ - @DamageIncMax@ หน่วย (ขึ้นกับเลเวล)<br><br>คูลดาวน์: @Cooldown@ วินาที<br><rules>เปิดใช้งานหลังจากเกิดความเสียหายจากเอฟเฟกต์หยุดการเคลื่อนที่</rules>",
-						"icon": "ASSETS/Perks/Styles/Domination/Bully/Bully.dds"
+						"shortDesc": "สร้างโบนัสความเสียหายจริงให้กับแชมป์เปี้ยนศัตรูที่ถูกเอฟเฟกต์ <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairAct\">หยุดการเคลื่อนไหวหรือการกระทำ</lol-uikit-tooltipped-keyword>",
+						"longDesc": "การสร้างความเสียหายให้กับแชมป์เปี้ยนที่ถูก <b>หยุดการเคลื่อนไหวหรือการกระทำ</b> จะสร้างโบนัสความเสียหายจริง @DamageIncMin@ - @DamageIncMax@ หน่วย (ขึ้นตามเลเวล)<br><br>คูลดาวน์: @Cooldown@ วินาที<br><rules>ผลจะเกิดกับความเสียหายหลังจากเอฟเฟกต์หยุดการเคลื่อนไหวหรือการกระทำ</rules>",
+						"icon": "ASSETS/Perks/Styles/Domination/CheapShot/CheapShot.dds"
 					},
 					{
 						"id": 8139,
-						"key": "Feast",
+						"key": "TasteOfBlood",
 						"name": "Taste of Blood",
-						"shortDesc": "คุณจะได้รับฮีลเมื่อคุณสร้างความเสียหายให้แก่แชมป์เปี้ยนศัตรู",
-						"longDesc": "คุณจะได้รับฮีลเมื่อคุณสร้างความเสียหายกับแชมป์เปี้ยนศัตรู<br><br>การฮีล: ฮีลพลังชีวิต @HealAmount@ -",
-						"icon": "ASSETS/Perks/Styles/Domination/Feast/GreenTerror_Feast.dds"
+						"shortDesc": "ฮีลเมื่อคุณสร้างความเสียหายให้กับแชมป์เปี้ยนศัตรู",
+						"longDesc": "ฮีลเมื่อคุณสร้างความเสียหายให้กับแชมป์เปี้ยนศัตรู<br><br>ฮีล: @HealAmount@ - @HealAmountMax@ หน่วย บวกด้วย (โบนัสพลังโจมตี +@ADRatio.-1@ หน่วย และ พลังเวทย์ +@APRatio.-1@ หน่วย) (ขึ้นตามเลเวล)<br><br>คูลดาวน์: @Cooldown@ วินาที",
+						"icon": "ASSETS/Perks/Styles/Domination/TasteOfBlood/GreenTerror_TasteOfBlood.dds"
 					},
 					{
 						"id": 8143,
-						"key": "DashAttack",
+						"key": "SuddenImpact",
 						"name": "Sudden Impact",
-						"shortDesc": "ได้รับค่าโจมตีจุดตายและเจาะเกราะเวทย์ เพิ่มขึ้นอย่างมากหลังจากที่คุณพุ่ง, กระโจน, วาร์ป, เทเลพอร์ตหรือออกจากการหายตัว",
-						"longDesc": "หลังจากที่คุณออกจากการหายตัว, พุ่ง, กระโจน, วาร์ป, เทเลพอร์ต การสร้างความเสียหายให้กับแชมป์เปี้ยนจะทำให้ได้รับค่าโจมตีจุดตาย @BonusLethality.0@ หน่วย และเจาะเกราะเวทย์ @BonusMpen.0@ หน่วย เป็นเวลา @Duration@ วินาที<br><br>คูลดาวน์: @Cooldown@ วินาที",
-						"icon": "ASSETS/Perks/Styles/Domination/DashAttack/DashAttack.dds"
+						"shortDesc": "ได้รับค่าโจมตีจุดตายและเจาะเกราะเวทย์เพิ่มขึ้นอย่างมากหลังจากที่คุณพุ่ง, กระโจน, วาร์ป, เทเลพอร์ต หรือเมื่อออกจากการล่องหน",
+						"longDesc": "หลังจากที่ออกจากการล่องหนหรือทำการพุ่ง, กระโจน, วาร์ป หรือ เทเลพอร์ต การสร้างความเสียหายใด ๆ ให้กับแชมป์เปี้ยน จะทำให้ได้รับค่าโจมตีจุดตาย @BonusLethality.0@ หน่วย และเจาะเกราะเวทย์ @BonusMpen.0@ เป็นเวลา @Duration@ วินาที<br><br>คูลดาวน์: @Cooldown@ วินาที",
+						"icon": "ASSETS/Perks/Styles/Domination/SuddenImpact/SuddenImpact.dds"
 					}
 				]
 			},
@@ -68,24 +68,24 @@
 						"key": "ZombieWard",
 						"name": "Zombie Ward",
 						"shortDesc": "หลังจากทำลายวอร์ดศัตรู หรือเมื่อวอร์ดคุณหมดเวลาลง จะสร้าง Zombie Ward ขึ้นมาแทนที่",
-						"longDesc": "หลังจากที่คุณทำลายวอร์ดศัตรู หรือเมื่อวอร์ดคุณหมดเวลาลงจะทำการสร้าง Zombie Ward ขึ้นมาแทนที่ <br><br>Zombie Wards สามารถมองเห็นได้และจะคงอยู่เป็นเวลา @WardDuration@ วินาที Zombie Ward จะไม่นับรวมในจำนวนวอร์ดสูงสุดของคุณ",
+						"longDesc": "หลังจากที่คุณทำลายวอร์ด จะทำการสร้าง Zombie Ward ขึ้นมาแทนที่ อีกทั้งเมื่อวอร์ดของคุณหมดเวลาลง พวกมันจะเกิดขึ้นมาใหม่อีกครั้งเป็น Zombie Ward<br><br>Zombie Ward สามารถมองเห็นได้และจะคงอยู่เป็นเวลา @WardDurationMin@ - @WardDuration@ วินาที และ Zombie Ward จะไม่นับรวมในจำนวนวอร์ดสูงสุดของคุณ",
 						"icon": "ASSETS/Perks/Styles/Domination/ZombieWard/ZombieWard.dds"
 					},
 					{
 						"id": 8120,
-						"key": "ViciousPoro",
+						"key": "GhostPoro",
 						"name": "Ghost Poro",
-						"shortDesc": "เมื่อคุณเดินเข้าพุ่มไม้ จะทำการอัญเชิญ Poro มันจะคงอยู่และให้วิสัยทัศน์กับคุณ",
-						"longDesc": "เมื่อคุณเดินเข้าพุ่มไม้ จะทำการอัญเชิญ Poro หลังจากร่ายเป็นเวลาหนึ่ง Poro จะคงอยู่และมอบวิสัยทัศน์ให้กับคุณจนกว่าคุณจะอัญเชิญตัวใหม่<br><br>เมื่อศัตรูเดินเข้าพุ่มไม้ที่มี Poro อยู่ มันจะวิ่งหนีไป และทำให้ {{ perk_displayname_ViciousPoro }} ติดคูลดาวน์ @Cooldown@ วินาที<br><br>การอัญเชิญ Poro จะถูกหยุดเมื่อคุณเข้าสู่การต่อสู้กับแชมป์เปี้ยน",
-						"icon": "ASSETS/Perks/Styles/Domination/ViciousPoro/ViciousPoro.dds"
+						"shortDesc": "เมื่อคุณเคลื่อนที่เข้าพุ่มไม้ Poro จะปรากฎออกมา มันจะอยู่คอยมอบวิสัยทัศน์ให้กับคุณ",
+						"longDesc": "เมื่อเคลื่อนที่เข้าพุ่มไม้จะทำการอัญเชิญ Poro หลังจากทำการร่ายเป็นระยะเวลาหนึ่ง Poro จะอยู่และมอบวิสัยทัศน์ให้กับคุณจนกว่าคุณจะอัญเชิญตัวใหม่<br><br>ถ้าหากศัตรูเคลื่อนที่เข้าพุ่มไม้ที่มี Poro อยู่ มันจะทำให้เขากลัวเเละหนีไป ทำให้ {{ perk_displayname_GhostPoro }} ติดคูลดาวน์ @Cooldown@ วินาที<br><br>การอัญเชิญ Poro จะถูกหยุดเมื่อคุณได้รับความเสียหาย",
+						"icon": "ASSETS/Perks/Styles/Domination/GhostPoro/GhostPoro.dds"
 					},
 					{
 						"id": 8138,
-						"key": "WardSlayer",
+						"key": "EyeballCollection",
 						"name": "Eyeball Collection",
-						"shortDesc": "เก็บสะสมลูกตาจาก<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">การโค่นล้ม</lol-uikit-tooltipped-keyword>แชมป์เปี้ยนและวอร์ด จะได้รับค่าพลังเวทย์หรือพลังโจมตี คิดแบบ <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">Adaptive</lol-uikit-tooltipped-keyword> จากทุก ๆ ลูกตาที่คุณเก็บได้ และได้รับโบนัสเพิ่มขึ้นอีกเมื่อคุณเก็บสะสมได้ครบ",
-						"longDesc": "เก็บสะสมลูกตาจากการโค่นล้มแชมป์เปี้ยนและวอร์ด จะได้รับ {{ perk_subtext_AdaptiveForce }} ต่อลูกตาที่เก็บได้ <br><br>หลังจากที่คุณเก็บลูกตาได้ครบ @MaxEyeballs@ ลูก จะได้รับ {{ perk_subtext_AdaptiveForce_EyeballCollection }} เพิ่มเติม<br><br>เมื่อคุณสังหารแชมป์เปี้ยนจะได้รับ @StacksPerTakedown@ ลูก เมื่อช่วยเหลือสังหารแชมป์เปี้ยนจะได้รับ @StacksPerAssist@ ลูก และเมื่อโค่นล้มวอร์ดจะได้รับ @StacksPerWard@ ลูก",
-						"icon": "ASSETS/Perks/Styles/Domination/WardSlayer/WardSlayer.dds"
+						"shortDesc": "เก็บลูกตาจาก<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">การโค่นล้ม</lol-uikit-tooltipped-keyword>แชมป์เปี้ยนและวอร์ด ได้รับค่าพลังโจมตีหรือพลังเวทย์แบบถาวร คิดแบบ <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">Adaptive</lol-uikit-tooltipped-keyword> สำหรับทุก ๆ ลูกตาที่เก็บได้ และจะได้รับโบนัสเพิ่มขึ้นอีกเมื่อเก็บสะสมได้ครบ",
+						"longDesc": "สะสมลูกตาจากการโค่นล้มแชมป์เปี้ยนและวอร์ด ได้รับ{{ perk_subtext_AdaptiveForce }} ต่อลูกตาที่สะสมได้ <br><br>หลังจากที่คุณสะสมได้ครบ @MaxEyeballs@ ลูก จะได้รับ{{ perk_subtext_AdaptiveForce_EyeballCollection }} เพิ่มเติม<br><br>การสังหารแชมป์เปี้ยนจะได้รับ @StacksPerTakedown@ ลูกตา ช่วยสังหารจะได้รับ @StacksPerAssist@ ลูกตา และการโค่นล้มวอร์ดจะได้รับ @StacksPerWard@ ลูกตา",
+						"icon": "ASSETS/Perks/Styles/Domination/EyeballCollection/EyeballCollection.dds"
 					}
 				]
 			},
@@ -93,27 +93,27 @@
 				"runes": [
 					{
 						"id": 8135,
-						"key": "InsatiableHunter",
+						"key": "RavenousHunter",
 						"name": "Ravenous Hunter",
-						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">การโค่นล้ม</lol-uikit-tooltipped-keyword>ศัตรูที่<b>ไม่ซ้ำกัน</b> จะทำให้ได้รับการฮีลแบบถาวรจากความเสียหายของสกิล",
-						"longDesc": "ได้รับผลฮีลเป็นอัตราส่วนจากค่าความเสียหายที่ทำใส่ศัตรูด้วยสกิล<br>พลังฮีล: @StartingOmnivamp*100@% + @OmnivampPerStack*100@% ต่อแต้ม <i>Bounty Hunter</i> ที่สะสมได้ <br><br>ได้รับแต้ม <i>Bounty Hunter</i> มาสะสมเมื่อโค่นล้มแชมป์เปี้ยนศัตรูแต่ละตัวในครั้งแรก<br><rules><br>ผลฮีลจะลดลงเหลือ 1 ใน 3 สำหรับสกิลหรือความสามารถที่โจมตีเป็นพื้นที่กลุ่มเป้าหมาย</rules><br>",
-						"icon": "ASSETS/Perks/Styles/Domination/InsatiableHunter/InsatiableHunter.dds"
+						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">การโค่นล้ม</lol-uikit-tooltipped-keyword><b>ที่ไม่ซ้ำกัน</b> จะทำให้ได้รับผลฮีลจากการสร้างความเสียหายด้วยสกิล",
+						"longDesc": "ฮีลตามสัดส่วนของความเสียหายจากสกิลที่คุณทำได้<br>ฮีล: @StartingOmnivamp*100@% + @OmnivampPerStack*100@% ต่อแต้มสะสม <i>Bounty Hunter</i> ที่มี <br><br>ได้รับแต้มสะสม <i>Bounty Hunter</i> จากการโค่นล้มแชมป์เปี้ยนศัตรูเเต่ละตัวครั้งเเรก<br><rules><br>ผลฮีลจะลดลงเหลือเพียงหนึ่งในสามสำหรับสกิลที่สร้างความเสียหายเป็นพื้นที่ (AoE)</rules><br>",
+						"icon": "ASSETS/Perks/Styles/Domination/RavenousHunter/RavenousHunter.dds"
 					},
 					{
 						"id": 8134,
-						"key": "BigGameHunter",
+						"key": "IngeniousHunter",
 						"name": "Ingenious Hunter",
-						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">การโค่นล้ม</lol-uikit-tooltipped-keyword>ศัตรู<b>ที่ไม่ซ้ำกัน</b>จะทำให้ได้รับค่า<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_CDR\">ลดคูลดาวน์</lol-uikit-tooltipped-keyword>ของไอเทมกดใช้แบบถาวร (รวมถึงเครื่องประดับด้วย)",
-						"longDesc": "ได้รับ<b>ค่าลดคูลดาวน์</b>ให้กับไอเทมกดใช้ @StartingActiveItemCDR.0*100@% บวกด้วย @ActiveItemCDRPerStack.0*100@% ต่อแต้ม <i>Bounty Hunter</i> ที่สะสมได้ (รวมเครื่องประดับด้วย)<br><br>สามารถรับแต้ม <i>Bounty Hunter</i> ได้จากการโค่นล้มแชมป์เปี้ยนศัตรูแต่ละตัวในครั้งแรก",
-						"icon": "ASSETS/Perks/Styles/Domination/BigGameHunter/BigGameHunter.dds"
+						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">การโค่นล้ม</lol-uikit-tooltipped-keyword><b>ที่ไม่ซ้ำกัน</b> จะทำให้ได้รับ<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_CDR\">ค่าลดคูลดาวน์</lol-uikit-tooltipped-keyword>ของไอเทมกดใช้แบบถาวร (รวมถึง Trinket)",
+						"longDesc": "ได้รับ<b>ค่าลดคูลดาวน์ไอเทมกดใช้</b> @StartingActiveItemCDR.0*100@% และจะได้รับเพิ่มอีก @ActiveItemCDRPerStack.0*100@% ต่อแต้มสะสม <i>Bounty Hunter</i> (รวมถึง Trinket)<br><br>ได้รับแต้มสะสม <i>Bounty Hunter</i> จากการโค่นล้มแชมป์เปี้ยนศัตรูเเต่ละตัวครั้งเเรก",
+						"icon": "ASSETS/Perks/Styles/Domination/IngeniousHunter/IngeniousHunter.dds"
 					},
 					{
 						"id": 8105,
-						"key": "ProlificHunter",
+						"key": "RelentlessHunter",
 						"name": "Relentless Hunter",
-						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">การโค่นล้ม</lol-uikit-tooltipped-keyword><b>ที่ไม่ซ้ำกัน</b>จะทำให้ได้รับ<b> <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">ความเร็วเคลื่อนที่</lol-uikit-tooltipped-keyword></b> เพิ่มขึ้นแบบถาวร เมื่อไม่ได้อยู่ในการต่อสู้ ",
+						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">การโค่นล้ม</lol-uikit-tooltipped-keyword><b>ที่ไม่ซ้ำกัน</b>จะทำให้ได้รับ<b> <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">ความเร็วเคลื่อนที่</lol-uikit-tooltipped-keyword></b>เพิ่มขึ้นแบบถาวร เมื่อไม่ได้อยู่ในการต่อสู้ ",
 						"longDesc": "ได้รับ<b>ความเร็วเคลื่อนที่เมื่อไม่อยู่ในการต่อสู้</b>เพิ่มขึ้น @StartingOOCMS@ หน่วย บวกด้วย @OOCMS.0@ หน่วยต่อจำนวนแต้ม <i>Bounty Hunter</i> ที่สะสมได้<br><br>คุณสามารถรับแต้ม <i>Bounty Hunter</i> ได้ จากการโค่นล้มแชมป์เปี้ยนศัตรูแต่ละตัวลงในครั้งแรก",
-						"icon": "ASSETS/Perks/Styles/Domination/ProlificHunter/ProlificHunter.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/RelentlessHunter/RelentlessHunter.dds"
 					}
 				]
 			}
@@ -140,7 +140,7 @@
 						"key": "KSGlacialAugment",
 						"name": "Glacial Augment",
 						"shortDesc": "การโจมตีครั้งแรกใส่แชมป์เปี้ยนศัตรูจะส่งผลสโลว์ (แต่ละเป้าหมายมีคูลดาวน์ต่างกัน) แชมป์เปี้ยนที่ถูกสโลว์ด้วยไอเทมกดใช้ จะถูกลำแสงแช่แข็งยิงใส่และสร้างพื้นที่สโลว์ตรงบริเวณเป้าหมาย",
-						"longDesc": "การโจมตีปกติใส่แชมป์เปี้ยนศัตรูจะทำการสโลว์พวกเขาเป็นเวลา @SlowDuration.0@ วินาที ผลสโลว์จะค่อย ๆ ส่งผลมากขึ้นตลอดระยะเวลา<li><i>การโจมตีระยะไกล</i>: การโจมตีระยะไกลจะสโลว์ศัตรูได้มากถึง @SlowAmountBase.0*-100@% - @SlowAmountMax.0*-100@%</li> <li><i>การโจมตีระยะประชิด</i>: การโจมตีระยะประชิดจะสโลว์ศัตรูได้มากถึง @SlowAmountBaseMelee.0*-100@% - @SlowAmountMaxMelee.0*-100@%</li><br>การสโลว์แชมป์เปี้ยนด้วยไอเทมกดใช้งาน จะยิงลำแสงแช่แข็งออกไปยังพวกเขา และทำการสร้างพื้นที่สโลว์ศัตรูขึ้นมาในบริเวณนั้นเป็นเวลา @SlowZoneDuration@ วินาที ยูนิตภายในพื้นที่จะถูกสโลว์ @SlowZoneSlow*-100@%<br><br>คูลดาวน์: @UnitCDBase@-@UnitCD16@ วินาที โดยคิดแยกกันแต่ละเป้าหมาย",
+						"longDesc": "การโจมตีปกติใส่แชมป์เปี้ยนศัตรูจะทำการสโลว์พวกเขาเป็นเวลา @SlowDuration.0@ วินาที ผลสโลว์จะค่อย ๆ ส่งผลมากขึ้นตลอดระยะเวลา<li><i>การโจมตีระยะไกล</i>: การโจมตีระยะไกลจะสโลว์ศัตรูได้มากถึง @SlowAmountBase.0*-100@% - @SlowAmountMax.0*-100@%</li> <li><i>การโจมตีระยะประชิด</i>: การโจมตีระยะประชิดจะสโลว์ศัตรูได้มากถึง @SlowAmountBaseMelee.0*-100@% - @SlowAmountMaxMelee.0*-100@%</li><br>การสโลว์แชมป์เปี้ยนด้วยไอเทมกดใช้งาน จะยิงลำแสงแช่แข็งออกไปยังพวกเขา และทำการสร้างพื้นที่สโลว์ศัตรูขึ้นมาในบริเวณนั้นเป็นเวลา @SlowZoneDuration@ วินาที ยูนิตภายในพื้นที่จะถูกสโลว์ @SlowZoneSlow*-100@%<br><br>คูลดาวน์: @UnitCDBase@ - @UnitCD16@ วินาที โดยคิดแยกกันแต่ละเป้าหมาย",
 						"icon": "ASSETS/Perks/Styles/Inspiration/KSGlacialAugment/KSGlacialAugment.dds"
 					},
 					{
@@ -204,7 +204,7 @@
 						"key": "TheClearChoice",
 						"name": "Minion Dematerializer",
 						"shortDesc": "คุณจะเริ่มเกมมาพร้อมกับไอเทม {{game_item_displayname_2403}} @GainedMinionKillers@ อัน การดูดกลืนมินเนี่ยนด้วยไอเทมนี้จะทำให้คุณสร้างโบนัสความเสียหายถาวรต่อมินเนี่ยนประเภทนั้น",
-						"longDesc": "คุณจะเริ่มเกมมาพร้อมกับไอเทม {{game_item_displayname_2403}} @GainedMinionKillers@ อัน ซึ่งสามารถใช้สังหารและดูดกลืนเลนมินเนี่ยนได้ทันที {{game_item_displayname_2403}} จะติดคูลดาวน์ในช่วง @InitialCooldown@ วินาทีแรกของเกม<br><br>การดูดกลืนมินเนี่ยนจะทำให้คุณสร้างความเสียหายเพิ่มขึ้น +@DamageBonusForAnyAbsorbed.0*100@% เมื่อโจมตีใส่มินเนี่ยนประเภทนั้นแบบถาวร และจะเพิ่มขึ้นอีก +@DamageBonusPerAdditionalAbsorbed.0*100@% สำหรับทุก ๆ มินเนี่ยนประเภทนั้นที่ถูกดูดกลืน<br>",
+						"longDesc": "คุณจะเริ่มเกมมาพร้อมกับไอเทม {{game_item_displayname_2403}} @GainedMinionKillers@ อัน ซึ่งสามารถใช้สังหารและดูดกลืนเลนมินเนี่ยนได้ทันที {{game_item_displayname_2403}} จะติดคูลดาวน์ในช่วง @InitialCooldown@ วินาทีแรกของเกม<br><br>การดูดกลืนมินเนี่ยนจะทำให้คุณสร้างความเสียหายเพิ่มขึ้นแบบถาวร +@DamageBonusForAnyAbsorbed.0*100@% เมื่อโจมตีใส่มินเนี่ยนประเภทนั้น และจะเพิ่มขึ้นอีก +@DamageBonusPerAdditionalAbsorbed.0*100@% สำหรับทุก ๆ มินเนี่ยนประเภทนั้นที่ถูกดูดกลืน<br>",
 						"icon": "ASSETS/Perks/Styles/Inspiration/TheClearChoice/TheClearChoice.dds"
 					}
 				]
@@ -260,7 +260,7 @@
 						"key": "Berserk",
 						"name": "Lethal Tempo",
 						"shortDesc": "หลังจากที่คุณสร้างความเสียหายให้กับแชมป์เปี้ยนเป็นเวลา @LeadInDelay.1@ วินาที คุณจะได้รับความเร็วโจมตีอย่างมาก ความเร็วโจมตีที่ได้จาก Lethal Tempo จะสามารถทะลุขีดจำกัดความเร็วโจมตีได้",
-						"longDesc": "เมื่อผ่านไป @LeadInDelay.1@ วินาที หลังจากสร้างความเสียหายกับแชมป์เปี้ยนจะได้รับความเร็วโจมตี @AttackSpeedMin*100@ - @AttackSpeedMax*100@% (ขึ้นกับเลเวล) เป็นเวลา @AttackSpeedBuffDurationMin@ วินาที การโจมตีแชมป์เปี้ยนจะช่วยเพิ่มระยะเวลาของผลนี้เป็น @AttackSpeedBuffDurationMax@ วินาที<br><br>คูลดาวน์: @Cooldown@ วินาที<br><br>{{perk_displayname_FlowofBattle}} จะทำให้คุณสามารถมีความเร็วโจมตีทะลุขีดจำกัดได้ชั่วขณะ",
+						"longDesc": "เมื่อผ่านไป @LeadInDelay.1@ วินาที หลังจากสร้างความเสียหายกับแชมป์เปี้ยนจะได้รับความเร็วโจมตี @AttackSpeedMin*100@% - @AttackSpeedMax*100@% (ขึ้นกับเลเวล) เป็นเวลา @AttackSpeedBuffDurationMin@ วินาที การโจมตีแชมป์เปี้ยนจะช่วยเพิ่มระยะเวลาของผลนี้เป็น @AttackSpeedBuffDurationMax@ วินาที<br><br>คูลดาวน์: @Cooldown@ วินาที<br><br>{{perk_displayname_FlowofBattle}} จะทำให้คุณสามารถมีความเร็วโจมตีทะลุขีดจำกัดได้ชั่วขณะ",
 						"icon": "ASSETS/Perks/Styles/Precision/FlowofBattle/FlowofBattleTemp.dds"
 					},
 					{
@@ -280,7 +280,7 @@
 						"key": "Overheal",
 						"name": "Overheal",
 						"shortDesc": "ผลฮีลที่เกินมาจะกลายเป็นโล่ป้องกันความเสียหายให้กับคุณ",
-						"longDesc": "ผลฮีลที่เกินพลังชีวิตจะกลายเป็นโล่ป้องกันความเสียหายได้มากถึง @ShieldCapRatio.0*100@% จากพลังชีวิตสูงสุดของคุณ +@MaxBaseShieldCap@ หน่วย<br><br>คุณจะได้รับโล่ป้องกันความเสียหาย @ShieldGenerationRateSelf.0*100@% จากผลฮีลที่เกินพลังชีวิตของตนเอง หรือ @ShieldGenerationRateOtherMax.0*100@% จากผลฮีลที่เกินพลังชีวิตของเพื่อนร่วมทีม",
+						"longDesc": "ผลฮีลที่เกินพลังชีวิตจะกลายเป็นโล่ป้องกันความเสียหายได้มากถึง @ShieldCapRatio.0*100@% จากพลังชีวิตสูงสุดของคุณ บวกด้วย @MaxBaseShieldCap@ หน่วย<br><br>คุณจะได้รับโล่ป้องกันความเสียหาย @ShieldGenerationRateSelf.0*100@% จากผลฮีลที่เกินพลังชีวิตของตนเอง หรือ @ShieldGenerationRateOtherMax.0*100@% จากผลฮีลที่เกินพลังชีวิตของเพื่อนร่วมทีม",
 						"icon": "ASSETS/Perks/Styles/Precision/Overheal.dds"
 					},
 					{
@@ -372,7 +372,7 @@
 						"key": "KSRuinedKing",
 						"name": "Grasp of the Undying",
 						"shortDesc": "ทุก ๆ @TriggerTime@ วินาที การโจมตีปกติครั้งถัดไปที่โจมตีใส่แชมป์เปี้ยน จะสร้างโบนัสความเสียหายเวทย์ ฮีลคุณ และเพิ่มพลังชีวิตของคุณแบบถาวร",
-						"longDesc": "ทุก ๆ @TriggerTime@ วินาทีที่คุณอยู่ในการต่อสู้ การโจมตีปกติครั้งถัดไปที่โจมตีใส่แชมป์เปี้ยนจะ:<li>สร้างโบนัสความเสียหายเวทย์เท่ากับ @PercentHealthDamage.0@% จากพลังชีวิตสูงสุดของคุณ</li><li>ฮีลคุณ @PercentHealthHeal.0*100@% จากพลังชีวิตสูงสุดของคุณ</li><li>เพิ่มพลังชีวิตแบบถาวร @MaxHealthPerProc@ หน่วย</li><br><rules><i>แชมป์เปี้ยนโจมตีระยะไกล:</i> ความเสียหายและผลฮีลจะลดลงครึ่งหนึ่ง แต่จะได้รับพลังชีวิตถาวร @RangedHealthPerProc@ หน่วย แทน</rules>",
+						"longDesc": "ทุก ๆ @TriggerTime@ วินาทีที่คุณอยู่ในการต่อสู้ การโจมตีปกติครั้งถัดไปที่โจมตีใส่แชมป์เปี้ยนจะ:<li>สร้างโบนัสความเสียหายเวทย์เท่ากับ @PercentHealthDamage.0@% จากพลังชีวิตสูงสุดของคุณ</li><li>ฮีลคุณเป็นจำนวน @PercentHealthHeal.0*100@% จากพลังชีวิตสูงสุดของคุณ</li><li>เพิ่มพลังชีวิตของคุณแบบถาวร @MaxHealthPerProc@ หน่วย</li><br><rules><i>แชมป์เปี้ยนโจมตีระยะไกล:</i> ความเสียหาย, ผลฮีล และ พลังชีวิตที่ได้รับถาวรจะลดลง @RangedPenaltyMod*100@%</rules><br>",
 						"icon": "ASSETS/Perks/Styles/Resolve/KSRuinedKing/KSRuinedKing.dds"
 					},
 					{
@@ -380,7 +380,7 @@
 						"key": "Vengeance",
 						"name": "Aftershock",
 						"shortDesc": "หลังจาก<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Immobilize\">หยุดการเคลื่อนที่</lol-uikit-tooltipped-keyword>แชมป์เปี้ยนศัตรู คุณจะได้รับพลังป้องกันและหลังจากนั้นจะสร้าง<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">ความเสียหายแบบ Adaptive</lol-uikit-tooltipped-keyword> รอบตัวคุณ",
-						"longDesc": "หลังจากที่คุณใช้เอฟเฟกต์หยุดการเคลื่อนที่กับแชมป์เปี้ยนศัตรู คุณจะได้รับเกราะและต้านทานเวทย์เพิ่มขึ้น @FlatResists@ หน่วย + @ResistInc.0*100@% เป็นเวลา @DelayBeforeBurst.1@ วินาที หลังจากนั้น มันจะระเบิดสร้างความเสียหายเวทย์ให้กับศัตรูรอบข้าง<br><br>ความเสียหาย: @StartingBaseDamage@ - @MaxBaseDamage@ หน่วย (+@HealthRatio.1@% จากพลังชีวิตสูงสุดของคุณ)<br>คูลดาวน์: @Cooldown@ วินาที",
+						"longDesc": "หลังจากที่คุณใช้เอฟเฟกต์หยุดการเคลื่อนที่กับแชมป์เปี้ยนศัตรู คุณจะได้รับเกราะและต้านทานเวทย์เพิ่มขึ้น @FlatResists@ - @FlatResistMaximum@ หน่วย เป็นเวลา @DelayBeforeBurst.1@ วินาที หลังจากนั้น มันจะระเบิดสร้างความเสียหายเวทย์ให้กับศัตรูรอบข้าง<br><br>ความเสียหาย: @StartingBaseDamage@ - @MaxBaseDamage@ หน่วย (+@HealthRatio.-1@% จากพลังชีวิตสูงสุดของคุณ) (+@DamageRatioAD*100@% จากโบนัสพลังโจมตีของคุณ) (+@DamageRatioAP*100@% จากพลังเวทย์ของคุณ)<br>คูลดาวน์: @Cooldown@ วินาที",
 						"icon": "ASSETS/Perks/Styles/Resolve/VeteranVengeance/VeteranVengeance.dds"
 					},
 					{
@@ -388,7 +388,7 @@
 						"key": "KSBuddyShield",
 						"name": "Guardian",
 						"shortDesc": "ปกป้องเพื่อนร่วมทีมเวลาที่คุณใช้สกิลใส่และยืนอยู่ใกล้กันกับพวกเขา เมื่อคุณหรือเพื่อนร่วมทีมที่ได้รับการปกป้องได้รับความเสียหาย คุณและเพื่อนร่วมทีมจะได้รับ Haste และโล่ป้องกันความเสียหาย",
-						"longDesc": "{{ perk_shared_desc_KSBuddyShield }}<br><br>คูลดาวน์: @Cooldown@ วินาที<br>โล่ป้องกันความเสียหาย: @ShieldBase@ - @ShieldMax@ หน่วย + (<scaleAP>พลังเวทย์ @APRatio.-1@ หน่วย</scaleAP>) + (<scalehealth>โบนัสพลังชีวิต +@HPRatio.0*100@%</scalehealth>)<br>Haste: ความเร็วเคลื่อนที่เพิ่มขึ้น +@Haste*100@%",
+						"longDesc": "{{ perk_shared_desc_KSBuddyShield }}<br><br>คูลดาวน์: <scaleLevel>@Cooldown@ - @CooldownMaxLevel@</scaleLevel> วินาที<br>โล่ป้องกันความเสียหาย: <scaleLevel>@ShieldBase@ - @ShieldMax@</scaleLevel> หน่วย + <scaleAP>@APRatio.-1@%</scaleAP> จากพลังเวทย์ของคุณ + <scalehealth>@HPRatio.0*100@%</scalehealth> จากโบนัสพลังชีวิตของคุณ<br>Haste: ความเร็วเคลื่อนที่เพิ่มขึ้น +@Haste*100@%",
 						"icon": "ASSETS/Perks/Styles/Resolve/KSBuddyShield/KSBuddyShield.dds"
 					}
 				]
@@ -492,7 +492,7 @@
 						"key": "SummonAery",
 						"name": "Summon Aery",
 						"shortDesc": "การโจมตีและสกิลของคุณจะส่ง Aery ไปยังเป้าหมาย สร้างความเสียหายให้กับศัตรู หรือสร้างโล่ป้องกันความเสียหายให้กับเพื่อนร่วมทีม",
-						"longDesc": "การโจมตีและสกิลของคุณจะส่ง Aery ไปยังเป้าหมาย สร้างความเสียหายให้กับแชมป์เปี้ยนศัตรู หรือสร้างโล่ป้องกันความเสียหายให้กับเพื่อนร่วมทีม<br><br>ความเสียหาย: @DamageBase@ - @DamageMax@ หน่วย ขึ้นตามเลเวล (+<scaleAP>พลังเวทย์ @DamageAPRatio.-1@</scaleAP> หน่วย และ +<scaleAD>โบนัสพลังโจมตี @DamageADRatio.-1@</scaleAD> หน่วย)<br>โล่ป้องกันความเสียหาย: @ShieldBase@ - @ShieldMax@ หน่วย ขึ้นตามเลเวล (+<scaleAP>พลังเวทย์ @ShieldRatio.-1@</scaleAP> หน่วย และ +<scaleAD>โบนัสพลังโจมตี @ShieldRatioAD.-1@</scaleAD> หน่วย)<br><br>Aery จะไม่สามารถส่งออกไปได้อีกจนกว่าเธอจะกลับมาหาคุณ",
+						"longDesc": "การโจมตีและสกิลของคุณจะส่ง Aery ไปยังเป้าหมาย สร้างความเสียหายให้กับแชมป์เปี้ยนศัตรู หรือสร้างโล่ป้องกันความเสียหายให้กับเพื่อนร่วมทีม<br><br>ความเสียหาย: @DamageBase@ - @DamageMax@ หน่วย ขึ้นตามเลเวล บวกด้วย (<scaleAP>พลังเวทย์ +@DamageAPRatio.-1@</scaleAP> หน่วย และ <scaleAD>โบนัสพลังโจมตี +@DamageADRatio.-1@</scaleAD> หน่วย)<br>โล่ป้องกันความเสียหาย: @ShieldBase@ - @ShieldMax@ หน่วย ขึ้นตามเลเวล บวกด้วย (<scaleAP>พลังเวทย์ +@ShieldRatio.-1@</scaleAP> หน่วย และ <scaleAD>โบนัสพลังโจมตี +@ShieldRatioAD.-1@</scaleAD> หน่วย)<br><br>Aery จะไม่สามารถส่งออกไปได้อีกจนกว่าเธอจะกลับมาหาคุณ",
 						"icon": "ASSETS/Perks/Styles/Sorcery/SummonAery/SummonAery.dds"
 					},
 					{
@@ -520,15 +520,15 @@
 						"key": "NullifyingOrb",
 						"name": "Nullifying Orb",
 						"shortDesc": "เมื่อคุณได้รับความเสียหายเวทย์และทำให้พลังชีวิตลดลงถึงระดับหนึ่ง จะได้รับโล่ป้องกันความเสียหายเวทย์",
-						"longDesc": "เมื่อได้รับความเสียหายเวทย์ที่จะทำให้พลังชีวิตของคุณเหลือต่ำกว่า @PercHealthTrigger.0*100@% คุณจะได้รับโล่ป้องกันความเสียหายเวทย์ @ShieldMin@ - @ShieldMax@ หน่วย ขึ้นตามเลเวล (<scaleAP>พลังเวทย์ +@APRatio.-1@ หน่วย</scaleAP> และ <scaleAD>โบนัสพลังโจมตี +@ADRatio.-1@ หน่วย</scaleAD>) เป็นเวลา @ShieldDuration@ วินาที<br><br>คูลดาวน์: @Cooldown@ วินาที",
+						"longDesc": "เมื่อได้รับความเสียหายเวทย์ที่จะทำให้พลังชีวิตของคุณเหลือต่ำกว่า @PercHealthTrigger.0*100@% คุณจะได้รับโล่ป้องกันความเสียหายเวทย์ @ShieldMin@ - @ShieldMax@ หน่วย ขึ้นตามเลเวล บวกด้วย (<scaleAP>พลังเวทย์ +@APRatio.-1@ หน่วย</scaleAP> และ <scaleAD>โบนัสพลังโจมตี +@ADRatio.-1@ หน่วย</scaleAD>) เป็นเวลา @ShieldDuration@ วินาที<br><br>คูลดาวน์: @Cooldown@ วินาที",
 						"icon": "ASSETS/Perks/Styles/Sorcery/NullifyingOrb/Pokeshield.dds"
 					},
 					{
 						"id": 8226,
 						"key": "ManaflowBand",
 						"name": "Manaflow Band",
-						"shortDesc": "เมื่อถึงเวลาหนึ่ง สกิลถัดไปของคุณจะได้ค่าใช้สกิลคืนทั้งหมด และได้รับการฟื้นฟูเป็นอัตราส่วนจากมานาหรือ Energy ที่หายไป",
-						"longDesc": "ทุก ๆ @Cooldown.0@ วินาที การใช้สกิลครั้งถัดไปของคุณจะได้รับค่าใช้สกิลคืนทั้งหมด นอกจากนี้ยังทำการฟื้นคืนมานาหรือ Energy ให้กับคุณ @MPToRestoreRatio.0*100@% จากมานาหรือ Energy ที่หายไป",
+						"shortDesc": "เมื่อถึงเวลาหนึ่ง เมื่อคุณใช้สกิลถัดไปคุณจะได้รับมานาที่ใช้ไปกลับคืนมา และได้รับการฟื้นฟูเป็นอัตราส่วนจากมานาหรือ Energy ที่หายไปอีกด้วย",
+						"longDesc": "ทุก ๆ @Cooldown.0@ วินาที การใช้สกิลครั้งถัดไปของคุณจะได้รับมานาที่ใช้ไปกลับคืนมา และ @MPToRestoreRatio.0*100@% จากมานาหรือ Energy ที่หายไปของคุณ",
 						"icon": "ASSETS/Perks/Styles/Sorcery/ManaflowBand/ManaflowBand.dds"
 					},
 					{
@@ -584,7 +584,7 @@
 						"key": "Waterwalking",
 						"name": "Waterwalking",
 						"shortDesc": "ได้รับ<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">ความเร็วเคลื่อนที่</lol-uikit-tooltipped-keyword>และพลังเวทย์หรือพลังโจมตีแบบ <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">Adaptive</lol-uikit-tooltipped-keyword> ขณะอยู่ในแม่น้ำ",
-						"longDesc": "ได้รับความเร็วเคลื่อนที่เพิ่มขึ้น @MovementSpeed@ หน่วย และ {{ perk_subtext_AdaptiveForce_Max }} (ขึ้นตามเลเวล) เมื่อเคลื่อนที่บนแม่น้ำ<br><br><hr></hr><br><i>ขอให้คุณว่องไวดั่งสายน้ำเชี่ยวและคล่องแคล่วดั่ง Rift Scuttler ที่ตกใจ</i><br>",
+						"longDesc": "ได้รับความเร็วเคลื่อนที่เพิ่มขึ้น @MovementSpeed@ หน่วย และ{{ perk_subtext_AdaptiveForce_Max }} (ขึ้นตามเลเวล) เมื่อเคลื่อนที่บนแม่น้ำ<br><br><hr></hr><br><i>ขอให้คุณว่องไวดั่งสายน้ำเชี่ยวและคล่องแคล่วดั่ง Rift Scuttler ที่ตกใจ</i><br>",
 						"icon": "ASSETS/Perks/Styles/Sorcery/Waterwalking/Waterwalking.dds"
 					},
 					{

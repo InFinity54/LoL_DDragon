@@ -9,27 +9,27 @@
 				"runes": [
 					{
 						"id": 8112,
-						"key": "StormlordsMandate",
+						"key": "Electrocute",
 						"name": "電撃",
 						"shortDesc": "@WindowDuration@秒以内に敵チャンピオンを<b>個別の</b>スキルか通常攻撃で3回攻撃すると、追加<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">アダプティブダメージ</lol-uikit-tooltipped-keyword>を与える。",
 						"longDesc": "@WindowDuration@秒以内に敵チャンピオンを<b>個別の</b>スキルか通常攻撃で3回攻撃すると、追加<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>アダプティブダメージ</font></lol-uikit-tooltipped-keyword>を与える。<br><br>ダメージ: @DamageBase@ - @DamageMax@(+増加攻撃力x@BonusADRatio.-1@、+魔力x@APRatio.-1@)。<br><br>クールダウン: @Cooldown@秒 - @CooldownMin@秒<br><br><hr></hr>「彼らの稲光は大惨事をもたらしたことから“雷帝”と呼ばれた」",
-						"icon": "ASSETS/Perks/Styles/Domination/TLords/TLords.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/Electrocute/Electrocute.dds"
 					},
 					{
 						"id": 8124,
-						"key": "KSLycanthropy",
+						"key": "Predator",
 						"name": "プレデター",
-						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">移動速度</lol-uikit-tooltipped-keyword>を大きく増加させ、次に行う通常攻撃またはスキルで追加<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">アダプティブダメージ</lol-uikit-tooltipped-keyword>を与える発動効果を、ブーツに付与する。",
-						"longDesc": "ブーツに<font color='#c60300'>「{{perk_displayname_KSLycanthropy}}」</font>の発動効果を付与する。<br><br>{{ game_itemmod_bloodmoonboots }}",
-						"icon": "ASSETS/Perks/Styles/Domination/KSLycanthropy/KSLycanthropy.dds"
+						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">移動速度</lol-uikit-tooltipped-keyword>を大きく増加させ、次の通常攻撃またはスキルで追加<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">アダプティブダメージ</lol-uikit-tooltipped-keyword>を与える発動効果を、ブーツに付与する。",
+						"longDesc": "ブーツに<font color='#c60300'>「{{perk_displayname_Predator}}」</font>の発動効果を付与する。<br><br>{{ game_itemmod_bloodmoonboots }}",
+						"icon": "ASSETS/Perks/Styles/Domination/Predator/Predator.dds"
 					},
 					{
 						"id": 8128,
-						"key": "KSSoulReaper",
+						"key": "DarkHarvest",
 						"name": "魂の収穫",
-						"shortDesc": "敵チャンピオン、大型ミニオン、大型モンスターは倒されたときに魂を落とす。魂に触れると「ソウルエッセンス」を吸収して、次の通常攻撃で吸収したソウルエッセンスの合計数に応じた追加<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">アダプティブダメージ</lol-uikit-tooltipped-keyword>を与える。",
-						"longDesc": "チャンピオン、大型ミニオン、大型モンスターが死亡時に魂を落とすようになる。魂を拾うと<font color='#c60300'>「ソウルチャージ」</font>を獲得し、敵チャンピオンか建造物に対して行う次の通常攻撃で<font color='#c60300'>「ソウルチャージ」</font>を消費して追加<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>アダプティブダメージ</font></lol-uikit-tooltipped-keyword>を与える。<br><br><font color='#c60300'>「ソウルチャージ」</font>は@ONHDuration@秒間持続し、この時間はソウルエッセンスを@SoulsRequiredForIncreasedDuration@個集めると最大@ONHDurationLong@秒まで増加する。<br><br>追加ダメージ: @DamageMin@ - @DamageMax@(+<scaleAD>増加攻撃力x@ADRatio.2@</scaleAD>)(+<scaleAP>魔力x@APRatio.1@</scaleAP>)+集めたソウルエッセンスの数<br><rules><br>チャンピオン - @champstacks@個のソウルエッセンス<br>モンスター - @monsterstacks@個のソウルエッセンス<br>ミニオン - @minionstacks@個のソウルエッセンス</rules>",
-						"icon": "ASSETS/Perks/Styles/Domination/KSSoulReaper/KSSoulReaper.dds"
+						"shortDesc": "チャンピオン、大型ミニオン、大型モンスターが死亡時に魂を落とすようになる。魂に触れると「ソウルエッセンス」を吸収して、次の通常攻撃で吸収したソウルエッセンスの合計数に応じた追加<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">アダプティブダメージ</lol-uikit-tooltipped-keyword>を与える。",
+						"longDesc": "チャンピオン、大型ミニオン、大型モンスターが死亡時に魂を落とすようになる。魂を拾うと<font color='#c60300'>「ソウルチャージ」</font>を獲得し、敵チャンピオンか建造物に対する次の通常攻撃で<font color='#c60300'>「ソウルチャージ」</font>を消費して追加<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>アダプティブダメージ</font></lol-uikit-tooltipped-keyword>を与える。<br><br><font color='#c60300'>「ソウルチャージ」</font>は@ONHDuration@秒間持続し、ソウルエッセンスを@SoulsRequiredForIncreasedDuration@個集めると最大@ONHDurationLong@秒まで増加。<br><br>追加ダメージ: @DamageMin@ - @DamageMax@(+<scaleAD>増加攻撃力x@ADRatio.2@</scaleAD>)(+<scaleAP>魔力x@APRatio.1@</scaleAP>)+集めたソウルエッセンスの数<br><rules><br>チャンピオン - @champstacks@個のソウルエッセンス<br>モンスター - @monsterstacks@個のソウルエッセンス<br>ミニオン - @minionstacks@個のソウルエッセンス</rules>",
+						"icon": "ASSETS/Perks/Styles/Domination/DarkHarvest/DarkHarvest.dds"
 					}
 				]
 			},
@@ -39,25 +39,25 @@
 						"id": 8126,
 						"key": "CheapShot",
 						"name": "追い打ち",
-						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairAct\">移動妨害か行動不能</lol-uikit-tooltipped-keyword>効果を受けている敵チャンピオンに対し、追加確定ダメージを与える。",
+						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairAct\">移動妨害か行動不能</lol-uikit-tooltipped-keyword>効果を受けている敵チャンピオンに対し、追加確定ダメージを与える。 ",
 						"longDesc": "<b>移動妨害か行動不能</b>効果を受けている敵チャンピオンに対し、レベルに応じて@DamageIncMin@ - @DamageIncMax@の追加確定ダメージを与える。<br><br>クールダウン: @Cooldown@秒<br><rules>移動妨害か行動不能効果のあとに発生したダメージで発動する。</rules>",
-						"icon": "ASSETS/Perks/Styles/Domination/Bully/Bully.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/CheapShot/CheapShot.dds"
 					},
 					{
 						"id": 8139,
-						"key": "Feast",
+						"key": "TasteOfBlood",
 						"name": "血の味わい",
 						"shortDesc": "敵チャンピオンにダメージを与えると体力を回復。",
-						"longDesc": "敵チャンピオンにダメージを与えると自身の体力を回復する。<br><br>回復量:レベルに応じて@HealAmount@ - @HealAmountMax@(+増加攻撃力x@ADRatio.-1@、+魔力x@APRatio.-1@)<br><br>クールダウン: @Cooldown@秒",
-						"icon": "ASSETS/Perks/Styles/Domination/Feast/GreenTerror_Feast.dds"
+						"longDesc": "敵チャンピオンにダメージを与えると自身の体力を回復。<br><br>回復量: レベルに応じて@HealAmount@ - @HealAmountMax@(+増加攻撃力x@ADRatio.-1@、+魔力x@APRatio.-1@)<br><br>クールダウン: @Cooldown@秒",
+						"icon": "ASSETS/Perks/Styles/Domination/TasteOfBlood/GreenTerror_TasteOfBlood.dds"
 					},
 					{
 						"id": 8143,
-						"key": "DashAttack",
+						"key": "SuddenImpact",
 						"name": "サドンインパクト",
-						"shortDesc": "ステルス状態が解除されるか、ダッシュ、リープ、ブリンク、テレポートを使用してから敵チャンピオンにダメージを与えると脅威と魔法防御貫通を獲得。",
+						"shortDesc": "ステルス状態が解除されるか、ダッシュ、リープ、ブリンク、テレポートを使用してから敵チャンピオンにダメージを与えると、少しの間脅威と魔法防御貫通を獲得。",
 						"longDesc": "ステルス状態が解除されるか、ダッシュ、リープ、ブリンク、テレポートを使用してから敵チャンピオンにダメージを与えると、@Duration@秒間脅威@BonusLethality.0@と魔法防御貫通@BonusMpen.0@を獲得。<br><br>クールダウン: @Cooldown@秒",
-						"icon": "ASSETS/Perks/Styles/Domination/DashAttack/DashAttack.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/SuddenImpact/SuddenImpact.dds"
 					}
 				]
 			},
@@ -68,24 +68,24 @@
 						"key": "ZombieWard",
 						"name": "ゾンビワード",
 						"shortDesc": "敵のワードを破壊、または自分のワードの持続時間が尽きると、その場に味方の「ゾンビワード」が発生する。",
-						"longDesc": "敵のワードを破壊、または自分のワードの持続時間が尽きると、その場に「ゾンビワード」が発生する。<br><br>「ゾンビワード」は可視化されており、@WardDuration@秒間持続する。また、ワード設置数の制限にはカウントされない。",
+						"longDesc": "敵のワードを破壊、または自分のワードの持続時間が尽きると、その場に「ゾンビワード」が発生する。<br><br>「ゾンビワード」は可視化されており、@WardDurationMin@ - @WardDuration@秒間持続する。また、ワード設置数の制限にはカウントされない。",
 						"icon": "ASSETS/Perks/Styles/Domination/ZombieWard/ZombieWard.dds"
 					},
 					{
 						"id": 8120,
-						"key": "ViciousPoro",
+						"key": "GhostPoro",
 						"name": "ゴーストポロ",
 						"shortDesc": "茂みに入るとポロが出現し、その場に残って視界を確保する。",
-						"longDesc": "茂みに入ると、少し詠唱してからポロを召喚する。召喚されたポロは、新たなポロを召喚するまでその場に残って視界を確保してくれる。<br><br>ポロがいる茂みに敵が入ると、ポロは追い払われて「{{ perk_displayname_ViciousPoro }}」は@Cooldown@秒間のクールダウンに入る。<br><br>ダメージを受けると詠唱はキャンセルされる。",
-						"icon": "ASSETS/Perks/Styles/Domination/ViciousPoro/ViciousPoro.dds"
+						"longDesc": "茂みに入ると、少し詠唱してからポロを召喚する。召喚されたポロは、新たなポロを召喚するまでその場に残って視界を確保してくれる。<br><br>ポロがいる茂みに敵が入ると、ポロは追い払われて「{{ perk_displayname_GhostPoro }}」は@Cooldown@秒間のクールダウンに入る。<br><br>ダメージを受けると詠唱はキャンセルされる。",
+						"icon": "ASSETS/Perks/Styles/Domination/GhostPoro/GhostPoro.dds"
 					},
 					{
 						"id": 8138,
-						"key": "WardSlayer",
+						"key": "EyeballCollection",
 						"name": "目玉コレクター",
-						"shortDesc": "敵チャンピオンから<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">キルまたはアシスト</lol-uikit-tooltipped-keyword>を獲得するか、ワードを破壊またはワードの破壊をアシストすると目玉を獲得する。集めた目玉1つにつき攻撃力または魔力(<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">アダプティブ</lol-uikit-tooltipped-keyword>)を恒久的に獲得する。目玉コレクションが完成すると攻撃力と魔力がさらに増加する。",
-						"longDesc": "敵チャンピオンからキルまたはアシストを獲得する、あるいはワードを破壊または破壊をアシストすると目玉を獲得。集めた目玉1つにつき{{ perk_subtext_AdaptiveForce }}を獲得。<br><br>目玉を@MaxEyeballs@個集めてコレクションが完成すると、さらに{{ perk_subtext_AdaptiveForce_EyeballCollection }}を獲得。<br><br>敵チャンピオンをキルすると@StacksPerTakedown@個、アシストすると@StacksPerAssist@個、ワードからは@StacksPerWard@個の目玉を獲得。",
-						"icon": "ASSETS/Perks/Styles/Domination/WardSlayer/WardSlayer.dds"
+						"shortDesc": "敵チャンピオンから<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">キルまたはアシスト</lol-uikit-tooltipped-keyword>を獲得するか、ワードを破壊または破壊をアシストすると目玉を獲得する。集めた目玉1つにつき攻撃力または魔力(<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">アダプティブ</lol-uikit-tooltipped-keyword>)を恒久的に獲得。目玉コレクションが完成すると攻撃力と魔力がさらに増加。",
+						"longDesc": "敵チャンピオンからキルまたはアシストを獲得するか、ワードを破壊または破壊をアシストすると目玉を獲得。集めた目玉1つにつき{{ perk_subtext_AdaptiveForce }}を獲得。<br><br>目玉を@MaxEyeballs@個集めてコレクションが完成すると、さらに{{ perk_subtext_AdaptiveForce_EyeballCollection }}を獲得。<br><br>敵チャンピオンをキルすると@StacksPerTakedown@個、アシストすると@StacksPerAssist@個、ワードからは@StacksPerWard@個の目玉を獲得。",
+						"icon": "ASSETS/Perks/Styles/Domination/EyeballCollection/EyeballCollection.dds"
 					}
 				]
 			},
@@ -93,27 +93,27 @@
 				"runes": [
 					{
 						"id": 8135,
-						"key": "InsatiableHunter",
+						"key": "RavenousHunter",
 						"name": "強欲な賞金首狩り",
-						"shortDesc": "<b>それぞれ異なる</b>敵から<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">キルまたはアシスト</lol-uikit-tooltipped-keyword>を獲得するたびに、ダメージを与えるスキルが恒久的に体力回復効果を獲得する。",
-						"longDesc": "スキルで与えたダメージの一定割合分、体力を回復。<br>回復量: @StartingOmnivamp*100@% + 「賞金首狩り」のスタック毎に@OmnivampPerStack*100@%を獲得。<br><br>「賞金首狩り」のスタックはそれぞれ異なる敵チャンピオンを初めてキルまたはアシストする毎に1つ獲得。<br><rules><br>範囲効果スキルでの回復量は3分の1に減少。</rules><br>",
-						"icon": "ASSETS/Perks/Styles/Domination/InsatiableHunter/InsatiableHunter.dds"
+						"shortDesc": "<b>それぞれ異なる</b>敵から<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">キルまたはアシスト</lol-uikit-tooltipped-keyword>を獲得するたびに、ダメージを与えるスキルが恒久的に体力回復効果を獲得。 ",
+						"longDesc": "スキルで与えたダメージの一定割合分、体力を回復。<br>回復量: @StartingOmnivamp*100@% + 「賞金首狩り」のスタックごとに@OmnivampPerStack*100@%を獲得。<br><br>「賞金首狩り」のスタックはそれぞれ異なる敵チャンピオンから初めてキルまたはアシストするごとに1つ獲得。<br><rules><br>範囲効果スキルでの回復量は3分の1に減少。</rules><br>",
+						"icon": "ASSETS/Perks/Styles/Domination/RavenousHunter/RavenousHunter.dds"
 					},
 					{
 						"id": 8134,
-						"key": "BigGameHunter",
+						"key": "IngeniousHunter",
 						"name": "巧妙な賞金首狩り",
-						"shortDesc": "<b>それぞれ異なる</b>敵チャンピオンから<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">キルまたはアシスト</lol-uikit-tooltipped-keyword>を獲得すると発動効果アイテムの<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_CDR\">クールダウン</lol-uikit-tooltipped-keyword>(トリンケットを含む)が恒久的に短縮される。",
-						"longDesc": "<b>アイテムの発動効果のクールダウン短縮</b>を@StartingActiveItemCDR.0*100@%獲得し、さらに「賞金首狩り」のスタック毎に@ActiveItemCDRPerStack.0*100@%を獲得する(トリンケットにも適用)。<br><br>「賞金首狩り」のスタックはそれぞれ異なる敵チャンピオンから初めてキルまたはアシストを獲得する毎に1つ獲得。",
-						"icon": "ASSETS/Perks/Styles/Domination/BigGameHunter/BigGameHunter.dds"
+						"shortDesc": "<b>それぞれ異なる</b>敵チャンピオンから<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">キルまたはアシスト</lol-uikit-tooltipped-keyword>を獲得すると、発動効果アイテムの<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_CDR\">クールダウン短縮</lol-uikit-tooltipped-keyword>を恒久的に獲得する(トリンケットを含む)。",
+						"longDesc": "<b>アイテムの発動効果のクールダウン短縮</b>を@StartingActiveItemCDR.0*100@%獲得し、さらに「賞金首狩り」のスタックごとに@ActiveItemCDRPerStack.0*100@%を獲得(トリンケットにも適用)。<br><br>「賞金首狩り」のスタックはそれぞれ異なる敵チャンピオンから初めてキルまたはアシストするごとに1つ獲得。",
+						"icon": "ASSETS/Perks/Styles/Domination/IngeniousHunter/IngeniousHunter.dds"
 					},
 					{
 						"id": 8105,
-						"key": "ProlificHunter",
+						"key": "RelentlessHunter",
 						"name": "執拗な賞金首狩り",
 						"shortDesc": "<b>それぞれ異なる</b>敵チャンピオンから<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">キルまたはアシスト</lol-uikit-tooltipped-keyword>を獲得すると<b>非戦闘時の<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">移動速度</lol-uikit-tooltipped-keyword></b>が恒久的に増加する。",
 						"longDesc": "<b>非戦闘時の移動速度</b>が@StartingOOCMS@増加し、さらに「賞金首狩り」のスタック毎に@OOCMS.0@増加。<br><br>「賞金首狩り」のスタックはそれぞれ異なる敵チャンピオンを初めてキルまたはアシストする毎に1つ獲得。",
-						"icon": "ASSETS/Perks/Styles/Domination/ProlificHunter/ProlificHunter.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/RelentlessHunter/RelentlessHunter.dds"
 					}
 				]
 			}
@@ -187,7 +187,7 @@
 						"id": 8304,
 						"key": "MagicalFootwear",
 						"name": "魔法の靴",
-						"shortDesc": "試合開始から@GiveBootsAtMinute@分の時点で無料のブーツを獲得するが、それまではブーツを購入できない。<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">キルかアシストを獲得</lol-uikit-tooltipped-keyword>するたびにブーツを獲得するまでの時間が@SecondsSoonerPerTakedown@秒短縮される。",
+						"shortDesc": "試合開始から@GiveBootsAtMinute@分の時点で無料のブーツを獲得するが、それまではブーツを購入できない。<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">キルまたはアシスト</lol-uikit-tooltipped-keyword>を獲得するたびにブーツを獲得するまでの時間が@SecondsSoonerPerTakedown@秒短縮される。",
 						"longDesc": "試合開始から@GiveBootsAtMinute@分経過するとコスト無しで「{{game_item_displayname_2422}}」を獲得。それまではブーツを購入できない。キルかアシストするごとに「{{game_item_displayname_2422}}」獲得までの時間が@SecondsSoonerPerTakedown@秒短縮される。<br><br>「{{game_item_displayname_2422}}」は追加で移動速度+@AdditionalMovementSpeed@を付与し、アップグレードコストが50ゴールド安くなる。",
 						"icon": "ASSETS/Perks/Styles/Inspiration/MagicalFootwear/MagicalFootwear.dds"
 					},
@@ -372,7 +372,7 @@
 						"key": "KSRuinedKing",
 						"name": "不死者の握撃",
 						"shortDesc": "@TriggerTime@秒ごとに、敵チャンピオンに対する通常攻撃が追加魔法ダメージを与え、体力を回復。さらに最大体力を恒久的に増加させる。",
-						"longDesc": "@TriggerTime@秒ごとに、敵チャンピオンに対する通常攻撃が以下の追加効果を獲得。<li>自身の最大体力の@PercentHealthDamage.0@%に相当する追加魔法ダメージを与える<br>最大体力の@PercentHealthHeal.0*100@%分、体力を回復<br>最大体力を恒久的に@MaxHealthPerProc@増加</li><br><rules>遠隔攻撃チャンピオン: ダメージと回復量が半減し、最大体力は@RangedHealthPerProc@増加。</rules>",
+						"longDesc": "@TriggerTime@秒毎に、敵チャンピオンに対する通常攻撃が以下の追加効果を獲得:<li>自身の最大体力の@PercentHealthDamage.0@%に相当する追加魔法ダメージを与える</li><li>最大体力の@PercentHealthHeal.0*100@%分、体力を回復</li><li>最大体力を恒久的に@MaxHealthPerProc@増加させる</li><br><rules>遠隔攻撃チャンピオン: ダメージ、回復量、恒久的に増加する最大体力量が@RangedPenaltyMod*100@%減少。</rules><br>",
 						"icon": "ASSETS/Perks/Styles/Resolve/KSRuinedKing/KSRuinedKing.dds"
 					},
 					{
@@ -380,15 +380,15 @@
 						"key": "Vengeance",
 						"name": "アフターショック",
 						"shortDesc": "敵に<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Immobilize\">移動不能効果</lol-uikit-tooltipped-keyword>を与えると防御力を獲得し、その後爆発して自身の周囲の敵ユニットに大きな<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">アダプティブダメージ</lol-uikit-tooltipped-keyword>を与える。",
-						"longDesc": "敵チャンピオンに移動不能効果を与えると@DelayBeforeBurst.1@秒間、物理防御と魔法防御が@FlatResists@+@ResistInc.0*100@%増加し、その後爆発して周囲の敵ユニットに魔法ダメージを与える。<br><br>ダメージ: @StartingBaseDamage@ - @MaxBaseDamage@(+自身の最大体力の@HealthRatio.1@%)<br>クールダウン: @Cooldown@秒",
+						"longDesc": "敵チャンピオンに移動不能効果を与えると@DelayBeforeBurst.1@秒間、物理防御と魔法防御が@FlatResists@ - @FlatResistMaximum@増加し、その後爆発して周囲の敵ユニットに魔法ダメージを与える。<br><br>ダメージ: @StartingBaseDamage@ - @MaxBaseDamage@(+自身の最大体力の@HealthRatio.-1@%)(+自身の増加攻撃力の@DamageRatioAD*100@%)(+自身の魔力の@DamageRatioAP*100@%)<br>クールダウン: @Cooldown@秒",
 						"icon": "ASSETS/Perks/Styles/Resolve/VeteranVengeance/VeteranVengeance.dds"
 					},
 					{
 						"id": 8465,
 						"key": "KSBuddyShield",
 						"name": "ガーディアン",
-						"shortDesc": "自分がスキルを使用した味方と自分の近くにいる味方をガードする。ガードしている味方か自分のどちらかがダメージを受けることが確定すると、両者がシールドを獲得して移動速度が増加する。",
-						"longDesc": "{{ perk_shared_desc_KSBuddyShield }}<br><br>クールダウン: @Cooldown@秒<br>シールド: @ShieldBase@ - @ShieldMax@ + (<scaleAP>魔力x@APRatio.-1@</scaleAP>) + (<scalehealth>増加体力の@HPRatio.0*100@%</scalehealth>)<br>速度増加: 移動速度 +@Haste*100@%増加",
+						"shortDesc": "自分がスキルを使用した味方と自分の近くにいる味方を「ガード」する。「ガード」している味方か自分のどちらかがダメージを受けると、両者がシールドを獲得して移動速度が増加する。",
+						"longDesc": "{{ perk_shared_desc_KSBuddyShield }}<br><br>クールダウン: <scaleLevel>@Cooldown@ - @CooldownMaxLevel@</scaleLevel>秒<br>シールド: <scaleLevel>@ShieldBase@ - @ShieldMax@</scaleLevel> + 自身の魔力の<scaleAP>@APRatio.-1@%</scaleAP> + 自身の増加体力の<scalehealth>@HPRatio.0*100@%</scalehealth><br>速度増加: 移動速度 +@Haste*100@%",
 						"icon": "ASSETS/Perks/Styles/Resolve/KSBuddyShield/KSBuddyShield.dds"
 					}
 				]
@@ -528,7 +528,7 @@
 						"key": "ManaflowBand",
 						"name": "マナフローバンド",
 						"shortDesc": "一定時間毎に、次に使用するスキルのマナまたは気コストが還元され、減少マナまたは気を一定量回復する。",
-						"longDesc": "@Cooldown.0@秒ごとに、次に使うスキルのマナまたは気コストが還元され、さらに減少マナまたは気の@MPToRestoreRatio.0*100@%を回復。",
+						"longDesc": "@Cooldown.0@秒毎に、次に使用するスキルのマナまたは気コストが還元され、減少マナまたは気の@MPToRestoreRatio.0*100@%を回復する。",
 						"icon": "ASSETS/Perks/Styles/Sorcery/ManaflowBand/ManaflowBand.dds"
 					},
 					{

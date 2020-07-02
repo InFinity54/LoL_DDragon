@@ -9,27 +9,27 @@
 				"runes": [
 					{
 						"id": 8112,
-						"key": "StormlordsMandate",
+						"key": "Electrocute",
 						"name": "死亡电刑",
 						"shortDesc": "@WindowDuration@ 秒内使用三个<b>独立的</b>普攻或技能攻击一名敌方英雄时将造成额外<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">适性伤害</lol-uikit-tooltipped-keyword>。",
 						"longDesc": "@WindowDuration@ 秒内使用 3 个<b>独立的</b>普攻或技能攻击一名英雄时将造成额外<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>适性伤害</font></lol-uikit-tooltipped-keyword>。<br><br>伤害：@DamageBase@ - @DamageMax@（+@BonusADRatio.-1@ 额外物理攻击；+@APRatio.1@ 魔法攻击）。<br><br>冷却时间：@Cooldown@ - @CooldownMin@ 秒<br><br><hr></hr><i>「我们称呼他们为雷神，意味着他们的雷电将引发灾厄。」</i>",
-						"icon": "ASSETS/Perks/Styles/Domination/TLords/TLords.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/Electrocute/Electrocute.dds"
 					},
 					{
 						"id": 8124,
-						"key": "KSLycanthropy",
+						"key": "Predator",
 						"name": "掠食者",
-						"shortDesc": "添加一个主动效果到你的鞋子，其会赋予你大量<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">跑速</lol-uikit-tooltipped-keyword>，并使你接下来的普攻或技能造成额外<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">适性伤害</lol-uikit-tooltipped-keyword>。",
-						"longDesc": "使你的鞋子附带主动效果：<font color='#c60300'>{{perk_displayname_KSLycanthropy}}</font>。<br><br>{{ game_itemmod_bloodmoonboots }}",
-						"icon": "ASSETS/Perks/Styles/Domination/KSLycanthropy/KSLycanthropy.dds"
+						"shortDesc": "添加一个主动效果到你的鞋子，其会使你获得大量<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">跑速</lol-uikit-tooltipped-keyword>，并使你下一次的普攻或技能造成额外<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">适性伤害</lol-uikit-tooltipped-keyword>。",
+						"longDesc": "添加主动效果「<font color='#c60300'>{{perk_displayname_Predator}}</font>」到你的鞋子。<br><br>{{ game_itemmod_bloodmoonboots }}",
+						"icon": "ASSETS/Perks/Styles/Domination/Predator/Predator.dds"
 					},
 					{
 						"id": 8128,
-						"key": "KSSoulReaper",
+						"key": "DarkHarvest",
 						"name": "灵魂收割",
 						"shortDesc": "英雄、大型士兵及大型野怪死亡时会掉落灵魂精华。碰触这些灵魂可吸收它们，并使你接下来的攻击根据搜集到的灵魂精华数造成额外<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">适性伤害</lol-uikit-tooltipped-keyword>。",
-						"longDesc": "英雄、大型士兵及大型野怪死亡时会掉落灵魂精华。搜集一个灵魂精华将使你获得<font color='#c60300'>灵魂充能</font>。你下一次对英雄或建筑物的攻击将消耗<font color='#c60300'>灵魂充能</font>，并造成额外<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>适性伤害</font></lol-uikit-tooltipped-keyword>。<br><br><font color='#c60300'>灵魂充能</font>会持续存在 @ONHDuration@ 秒，搜集到 @SoulsRequiredForIncreasedDuration@ 个灵魂精华之后将延长至 @ONHDurationLong@ 秒。<br><br>额外伤害：@DamageMin@ - @DamageMax@（+<scaleAD>@ADRatio.2@ 额外物理攻击</scaleAD>）（+<scaleAP>@APRatio.1@ 魔法攻击</scaleAP>）+ 已搜集的灵魂精华数。<br><rules><br>英雄 － 提供 @champstacks@ 个灵魂精华。<br>野怪 － 提供 @monsterstacks@ 个灵魂精华。<br>士兵 － 提供 @minionstacks@ 个灵魂精华。<br></rules>",
-						"icon": "ASSETS/Perks/Styles/Domination/KSSoulReaper/KSSoulReaper.dds"
+						"longDesc": "英雄、大型士兵及大型野怪死亡时会掉落灵魂精华。搜集灵魂精华将使你获得<font color='#c60300'>灵魂充能</font>。你下一次对敌方英雄或建筑物的攻击将消耗<font color='#c60300'>灵魂充能</font>，并造成额外<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>适性伤害</font></lol-uikit-tooltipped-keyword>。<br><br><font color='#c60300'>灵魂充能</font>可持续存在 @ONHDuration@ 秒，搜集到 @SoulsRequiredForIncreasedDuration@ 个灵魂精华后将延长至 @ONHDurationLong@ 秒。<br><br>额外伤害：@DamageMin@ - @DamageMax@（+<scaleAD>@ADRatio.2@ 额外物理攻击</scaleAD>）（+<scaleAP>@APRatio.1@ 魔法攻击</scaleAP>）+ 已搜集的灵魂精华数。<br><rules><br>英雄 - 提供 @champstacks@ 个灵魂精华。<br>野怪 - 提供@monsterstacks@ 个灵魂精华。<br>士兵 - 提供 @minionstacks@ 个灵魂精华。</rules>",
+						"icon": "ASSETS/Perks/Styles/Domination/DarkHarvest/DarkHarvest.dds"
 					}
 				]
 			},
@@ -39,25 +39,25 @@
 						"id": 8126,
 						"key": "CheapShot",
 						"name": "凌虐",
-						"shortDesc": "对<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairAct\">行动或移动受到限制</lol-uikit-tooltipped-keyword>的敌方英雄造成额外真实伤害。 ",
-						"longDesc": "伤害<b>行动或移动受限</b>的敌方英雄时造成 @DamageIncMin@ - @DamageIncMax@ 额外真实伤害（随等级提升）。<br><br>冷却时间：@Cooldown@ 秒<br><rules>行动受限发生后才会触发额外伤害效果。</rules>",
-						"icon": "ASSETS/Perks/Styles/Domination/Bully/Bully.dds"
+						"shortDesc": "伤害<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairAct\">移动或行动受到限制</lol-uikit-tooltipped-keyword>的敌方英雄时造成额外真实伤害。",
+						"longDesc": "伤害<b>移动或行动受到限制</b>的敌方英雄时造成 @DamageIncMin@ - @DamageIncMax@ 额外真实伤害（随等级提升）。<br><br>冷却时间：@Cooldown@ 秒<br><rules>行动受限发生后才会触发效果。</rules>",
+						"icon": "ASSETS/Perks/Styles/Domination/CheapShot/CheapShot.dds"
 					},
 					{
 						"id": 8139,
-						"key": "Feast",
+						"key": "TasteOfBlood",
 						"name": "血噬",
 						"shortDesc": "伤害一名敌方英雄时回复自身生命。",
-						"longDesc": "伤害一名敌方英雄时治愈自己。<br><br>治愈量：@HealAmount@-@HealAmountMax@（+@ADRatio.-1@ 额外物理攻击、+@APRatio.-1@ 魔法攻击）生命（随等级提升）<br><br>冷却时间：@Cooldown@ 秒",
-						"icon": "ASSETS/Perks/Styles/Domination/Feast/GreenTerror_Feast.dds"
+						"longDesc": "伤害一名敌方英雄时治愈自己。<br><br>治愈量：@HealAmount@ - @HealAmountMax@（+@ADRatio.-1@ 额外物理攻击、+@APRatio.-1@ 魔法攻击）生命（随等级提升）<br><br>冷却时间：@Cooldown@ 秒",
+						"icon": "ASSETS/Perks/Styles/Domination/TasteOfBlood/GreenTerror_TasteOfBlood.dds"
 					},
 					{
 						"id": 8143,
-						"key": "DashAttack",
+						"key": "SuddenImpact",
 						"name": "即刻冲击",
 						"shortDesc": "使用冲撞、跳跃、闪现、传送或脱离潜行状态后获得大量物理致命及魔法穿透。",
-						"longDesc": "脱离潜行状态，或使用冲撞、跳跃、闪现、传送后，对一名敌方英雄造成伤害将使你获得 @BonusLethality.0@ 物理致命及 @BonusMpen.0@ 魔法穿透，持续 @Duration@ 秒。<br><br>冷却时间：@Cooldown@ 秒",
-						"icon": "ASSETS/Perks/Styles/Domination/DashAttack/DashAttack.dds"
+						"longDesc": "脱离潜行状态，或使用冲撞、跳跃、闪现、传送后，对一名敌方英雄造成伤害将使你获得@BonusLethality.0@ 物理致命和 @BonusMpen.0@ 魔法穿透，持续 @Duration@ 秒。<br><br>冷却时间：@Cooldown@ 秒",
+						"icon": "ASSETS/Perks/Styles/Domination/SuddenImpact/SuddenImpact.dds"
 					}
 				]
 			},
@@ -68,24 +68,24 @@
 						"key": "ZombieWard",
 						"name": "僵尸守卫",
 						"shortDesc": "摧毁一个守卫后，一个友方的僵尸守卫会出现在原本的位置。你之前放置的守卫到期的话也会以僵尸守卫的型态重生。",
-						"longDesc": "摧毁一个守卫后，一个友方的僵尸守卫会出现在原地。此外，你先前放置的守卫到期時也会以僵尸守卫的型态重生。<br><br>僵尸守卫不会隐形，可在场上停留 @WardDuration@ 秒，并且不会被计入你的守卫上限。",
+						"longDesc": "摧毁一个守卫后，一个友方的僵尸守卫会出现在原地。此外，你先前放置的守卫到期时也会以僵尸守卫的型态重生。<br><br>僵尸守卫不会隐形，可在场上停留 @WardDurationMin@ - @WardDuration@ 秒，并且不会被计入你的守卫上限。",
 						"icon": "ASSETS/Perks/Styles/Domination/ZombieWard/ZombieWard.dds"
 					},
 					{
 						"id": 8120,
-						"key": "ViciousPoro",
+						"key": "GhostPoro",
 						"name": "幽灵普罗",
 						"shortDesc": "当你进入草丛时你可以召唤出一只幽灵普罗，它会留在原地提供你该处的视野。",
-						"longDesc": "进入草丛之后，借由吟唱来召唤出一只幽灵普罗。幽灵普罗会留在原地提供视野，直到你召唤一只新的幽灵普罗。<br><br>敌人进入藏有幽灵普罗的草丛时，幽灵普罗会被吓跑，并使{{ perk_displayname_ViciousPoro }}进入冷却，持续 @Cooldown@ 秒。<br><br>受到伤害时会中断吟唱。",
-						"icon": "ASSETS/Perks/Styles/Domination/ViciousPoro/ViciousPoro.dds"
+						"longDesc": "进入草丛后，借由吟唱来召唤出一只幽灵普罗。幽灵普罗会留在原地提供视野，直到你召唤出一只新的普罗。<br><br>敌人进入藏有幽灵普罗的草丛时，它们会被吓跑，并使{{ perk_displayname_GhostPoro }}进入冷却，持续 @Cooldown@ 秒。<br><br>受到伤害时会中断吟唱。",
+						"icon": "ASSETS/Perks/Styles/Domination/GhostPoro/GhostPoro.dds"
 					},
 					{
 						"id": 8138,
-						"key": "WardSlayer",
+						"key": "EyeballCollection",
 						"name": "眼球收集器",
-						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">对敌方英雄造成击杀、助攻或摧毁守卫</lol-uikit-tooltipped-keyword>后获得眼球。每颗眼球都会永久赋予你物理攻击或魔法攻击 <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">（适性）</lol-uikit-tooltipped-keyword>，完成收集之后还会获得额外加成。",
-						"longDesc": "摧毁守卫，或是对敌方英雄造成击杀或助攻后获得眼球。每颗眼球都会使你获得 {{ perk_subtext_AdaptiveForce }}。<br><br>完成收集之后（ @MaxEyeballs@ 颗眼球 ），你将额外获得 {{ perk_subtext_AdaptiveForce_EyeballCollection }}。<br><br>击杀敌方英雄后获得 @StacksPerTakedown@ 颗眼球；取得助攻后获得 @StacksPerAssist@ 颗眼球；摧毁守卫后获得 @StacksPerWard@ 颗眼球。",
-						"icon": "ASSETS/Perks/Styles/Domination/WardSlayer/WardSlayer.dds"
+						"shortDesc": "对敌方英雄造成<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">击杀、助攻或摧毁守卫</lol-uikit-tooltipped-keyword>后获得眼球。每颗眼球都会永久赋予你物理攻击或魔法攻击<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">（适性）</lol-uikit-tooltipped-keyword>，完成收集之后还会获得额外加成。",
+						"longDesc": "摧毁守卫，或是对敌方英雄造成击杀或助攻后获得眼球。每颗眼球都会使你获得 {{ perk_subtext_AdaptiveForce }}。<br><br>完成收集后（共 @MaxEyeballs@ 颗眼球），你将额外获得 {{ perk_subtext_AdaptiveForce_EyeballCollection }}。<br><br>击杀敌方英雄后获得 @StacksPerTakedown@ 颗眼球；取得助攻后获得 @StacksPerAssist@ 颗眼球；摧毁守卫后获得 @StacksPerWard@ 颗眼球。",
+						"icon": "ASSETS/Perks/Styles/Domination/EyeballCollection/EyeballCollection.dds"
 					}
 				]
 			},
@@ -93,27 +93,27 @@
 				"runes": [
 					{
 						"id": 8135,
-						"key": "InsatiableHunter",
+						"key": "RavenousHunter",
 						"name": "嗜血猎人",
 						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">造成击杀或助攻</lol-uikit-tooltipped-keyword>后（<b>对同一英雄只能触发一次</b>）永久使一部分的技能伤害转化成治愈效果。",
-						"longDesc": "将一部份你的技能造成的伤害转化成治愈效果。<br>治愈量: @StartingOmnivamp*100@% 技能伤害，每层<i>赏金猎人</i>叠层还会再使其增加 @OmnivampPerStack*100@% 。 <br><br>从一名敌方英雄身上取得击杀或助攻会获得一层<i>赏金猎人</i>叠层，此效果对同一英雄只能触发一次。<br><rules><br>范围伤害仅能造成三分之一的治愈效果。</rules><br>",
-						"icon": "ASSETS/Perks/Styles/Domination/InsatiableHunter/InsatiableHunter.dds"
+						"longDesc": "将一部分技能造成的伤害转化成治愈效果。<br>治愈量：@StartingOmnivamp*100@% 技能伤害，每层<i>赏金猎人</i>叠层还会再使其提升 @OmnivampPerStack*100@%。<br><br>从一名敌方英雄身上取得击杀或助攻时获得一层<i>赏金猎人</i>叠层。对同一英雄只能触发一次。<br><rules><br>范围伤害仅能造成三分之一的治愈效果。</rules><br>",
+						"icon": "ASSETS/Perks/Styles/Domination/RavenousHunter/RavenousHunter.dds"
 					},
 					{
 						"id": 8134,
-						"key": "BigGameHunter",
+						"key": "IngeniousHunter",
 						"name": "狡诈猎人",
-						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">造成击杀或助攻</lol-uikit-tooltipped-keyword>后（<b>对同一英雄只能触发一次</b>）永久获得主动道具<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_CDR\">冷却时间减免</lol-uikit-tooltipped-keyword>（包括饰品）。",
-						"longDesc": "获得 @StartingActiveItemCDR.0*100@% <b>主动道具冷却时间减免</b>，每层<i>赏金猎人</i>叠层都还会使其再提升 @ActiveItemCDRPerStack.0*100@%（包括饰品）。<br><br>从一名敌方英雄身上取得击杀或助攻会获得一层<i>赏金猎人</i>叠层，此效果对同一英雄只能触发一次。",
-						"icon": "ASSETS/Perks/Styles/Domination/BigGameHunter/BigGameHunter.dds"
+						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">造成击杀或助攻</lol-uikit-tooltipped-keyword>后（<b>对同一英雄只能触发一次</b>）永久获得主动道具冷却时间减免（包括饰品）。",
+						"longDesc": "获得 @StartingActiveItemCDR.0*100@% <b>主动道具冷却时间减免</b>，每层<i>赏金猎人</i>叠层还会再使其提升 @ActiveItemCDRPerStack.0*100@%（包括饰品）。<br><br>从一名敌方英雄身上取得击杀或助攻时获得一层<i>赏金猎人</i>叠层。对同一英雄只能触发一次。",
+						"icon": "ASSETS/Perks/Styles/Domination/IngeniousHunter/IngeniousHunter.dds"
 					},
 					{
 						"id": 8105,
-						"key": "ProlificHunter",
+						"key": "RelentlessHunter",
 						"name": "残虐猎人",
 						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">造成击杀或助攻</lol-uikit-tooltipped-keyword>后（<b>对同一英雄只能触发一次</b>）永久获得<b>脱离战斗<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">跑速</lol-uikit-tooltipped-keyword></b>。",
 						"longDesc": "获得 @StartingOOCMS@ 点<b>脱离战斗跑速</b>，每层<i>赏金猎人</i>叠层还会再使其增加 @OOCMS.0@ 点。<br><br>从一名敌方英雄身上取得击杀或助攻会获得一层<i>赏金猎人</i>叠层，此效果对同一英雄只能触发一次。",
-						"icon": "ASSETS/Perks/Styles/Domination/ProlificHunter/ProlificHunter.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/RelentlessHunter/RelentlessHunter.dds"
 					}
 				]
 			}
@@ -372,7 +372,7 @@
 						"key": "KSRuinedKing",
 						"name": "不死之握",
 						"shortDesc": "进入战斗之后，每过 @TriggerTime@ 秒你下一次对敌方英雄的普攻将造成额外魔法伤害，使你回复生命，并永久提升你的生命。",
-						"longDesc": "进入战斗之后，每过 @TriggerTime@ 秒你下一次对敌方英雄的普攻将附带以下效果：<li>额外造成相当于自身 @PercentHealthDamage.0@% 最大生命的魔法伤害。<br>使你回复相当于自身 @PercentHealthHeal.0*100@% 最大生命的血量<br>永久提升 @MaxHealthPerProc@ 生命</li><br><rules><i>远程攻击型英雄：</i>额外伤害及治愈效果减半，且改为获得 @RangedHealthPerProc@ 永久生命。</rules>",
+						"longDesc": "进入战斗之后，每过 @TriggerTime@ 秒你下一次对敌方英雄的普攻将附带以下效果：<li>额外造成相当于自身 @PercentHealthDamage.0@% 最大生命的魔法伤害</li><li>使你回复相当于自身 @PercentHealthHeal.0*100@% 最大生命的血量</li><li>永久提升 @MaxHealthPerProc@ 生命</li><br><rules><i>远程攻击型英雄：</i>伤害、治愈效果和获得的永久生命值将减少 @RangedPenaltyMod*100@%。</rules><br>",
 						"icon": "ASSETS/Perks/Styles/Resolve/KSRuinedKing/KSRuinedKing.dds"
 					},
 					{
@@ -380,7 +380,7 @@
 						"key": "Vengeance",
 						"name": "裂地冲击",
 						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Immobilize\">定身</lol-uikit-tooltipped-keyword>一名敌方英雄之后你的物理防御及魔法防御会增加，接着对周围敌人造成大量<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">适性伤害</lol-uikit-tooltipped-keyword>。",
-						"longDesc": "定身一名敌方英雄后，当前物理防御及魔法防御提升 @FlatResists@ + @ResistInc.0*100@% ，持续 @DelayBeforeBurst.1@ 秒。效果结束后对周围敌人造成伤害。<br><br>伤害: @StartingBaseDamage@ - @MaxBaseDamage@ (+@HealthRatio.1@% 你的最大生命) <br>冷却时间: @Cooldown@秒",
+						"longDesc": "定身一名敌方英雄后，当前物理防御及魔法防御提升 @FlatResists@ - @FlatResistMaximum@ ，持续 @DelayBeforeBurst.1@ 秒。爆炸后对周围敌人造成魔法伤害。<br><br>伤害: @StartingBaseDamage@ - @MaxBaseDamage@ （+@HealthRatio.-1@% 你的最大生命）（+@DamageRatioAD*100@% 自身额外物理攻击） （+@DamageRatioAP*100@% 你的魔法攻击）<br>冷却时间： @Cooldown@ 秒",
 						"icon": "ASSETS/Perks/Styles/Resolve/VeteranVengeance/VeteranVengeance.dds"
 					},
 					{
@@ -388,7 +388,7 @@
 						"key": "KSBuddyShield",
 						"name": "神圣守护",
 						"shortDesc": "守护被你选作技能目标的友军，以及在你身边的友军。若你或受到守护的友军即将受到伤害，两者皆会获得一个护盾并受到加速。",
-						"longDesc": "{{ perk_shared_desc_KSBuddyShield }}<br><br>冷却时间：@Cooldown@ 秒<br>护盾值：@ShieldBase@ - @ShieldMax@ +（<scaleAP>@APRatio.-1@ 魔法攻击</scaleAP>）+（<scalehealth>+@HPRatio.0*100@% 额外生命</scalehealth>）。<br>加速：+@Haste*100@% 额外跑速。",
+						"longDesc": "{{ perk_shared_desc_KSBuddyShield }}<br><br>冷却时间：<scaleLevel>@Cooldown@ - @CooldownMaxLevel@</scaleLevel> 秒<br>护盾值：<scaleLevel>@ShieldBase@ - @ShieldMax@</scaleLevel> + <scaleAP>@APRatio.-1@%</scaleAP> 你的魔法攻击+ <scalehealth>@HPRatio.0*100@%</scalehealth> 你的额外生命。<br>加速：+@Haste*100@% 额外跑速。",
 						"icon": "ASSETS/Perks/Styles/Resolve/KSBuddyShield/KSBuddyShield.dds"
 					}
 				]

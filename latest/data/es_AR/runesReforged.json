@@ -9,27 +9,27 @@
 				"runes": [
 					{
 						"id": 8112,
-						"key": "StormlordsMandate",
+						"key": "Electrocute",
 						"name": "Electrocutar",
 						"shortDesc": "Alcanzar a un campeón con 3 ataques o habilidades <b>por separado</b> dentro de @WindowDuration@ seg inflige una bonificación de <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">daño adaptable</lol-uikit-tooltipped-keyword>.",
 						"longDesc": "Alcanzar a un campeón con 3 ataques o habilidades <b>distintos</b> dentro de @WindowDuration@ seg inflige una bonificación de <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>daño adaptable</font></lol-uikit-tooltipped-keyword>.<br><br>Daño: @DamageBase@ - @DamageMax@ (+@BonusADRatio.-1@ de bonificación de DA, +@APRatio.-1@ de PH) de daño.<br><br>Enfriamiento: @Cooldown@ - @CooldownMin@ seg<br><br><hr></hr><i>''Los llamamos Señores del Trueno, pues hablar de sus rayos era invitar el desastre''.</i>",
-						"icon": "ASSETS/Perks/Styles/Domination/TLords/TLords.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/Electrocute/Electrocute.dds"
 					},
 					{
 						"id": 8124,
-						"key": "KSLycanthropy",
+						"key": "Predator",
 						"name": "Depredador",
-						"shortDesc": "Agrega un efecto activo a tus botas que otorga una gran mejora de <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">VM</lol-uikit-tooltipped-keyword> y ocasiona que tu siguiente ataque o hechizo inflija una bonificación de <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">daño adaptable</lol-uikit-tooltipped-keyword>.",
-						"longDesc": "Encanta tus botas y les otorga el efecto activo '<font color='#c60300'>{{perk_displayname_KSLycanthropy}}</font>'.<br><br>{{ game_itemmod_bloodmoonboots }}",
-						"icon": "ASSETS/Perks/Styles/Domination/KSLycanthropy/KSLycanthropy.dds"
+						"shortDesc": "Agrega un efecto activo a tus botas que otorga una gran mejora de <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">VM</lol-uikit-tooltipped-keyword> y ocasiona que tu siguiente ataque o hechizo inflija <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">daño adaptable</lol-uikit-tooltipped-keyword> adicional.",
+						"longDesc": "Encanta tus botas y les otorga el efecto activo ''<font color='#c60300'>{{perk_displayname_Predator}}</font>''.<br><br>{{ game_itemmod_bloodmoonboots }}",
+						"icon": "ASSETS/Perks/Styles/Domination/Predator/Predator.dds"
 					},
 					{
 						"id": 8128,
-						"key": "KSSoulReaper",
+						"key": "DarkHarvest",
 						"name": "Cosecha Oscura",
-						"shortDesc": "Los campeones, súbditos grandes y monstruos grandes sueltan esencias de alma al morir. Toca las almas para absorberlas y tu siguiente ataque tendrá una bonificación de <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">daño adaptable</lol-uikit-tooltipped-keyword> según el total de esencias de almas obtenidas.",
-						"longDesc": "Los campeones, súbditos grandes y monstruos grandes sueltan esencias de alma al morir. Recoge un alma y tendrás <font color='#c60300'>Carga de Alma</font>. Tu siguiente ataque a un campeón o estructura consume <font color='#c60300'>Carga de Alma</font> para infligir una bonificación de daño adaptable.<br><br><font color='#c60300'>Carga de Alma</font> dura @ONHDuration@ seg y puede aumentar hasta @ONHDurationLong@ seg después de recoger @SoulsRequiredForIncreasedDuration@ esencias de alma.<br><br>Bonificación de daño: @DamageMin@ - @DamageMax@ (+<scaleAD>@ADRatio.2@ bonificación de DA</scaleAD>) (+<scaleAP>@APRatio.1@ de PH</scaleAP>)+ las esencias de alma recolectadas.<br><rules><br>Almas de campeones - @champstacks@ de esencia de alma.<br>Almas de los monstruos - @monsterstacks@ de esencia de alma.<br>Almas de los súbditos - @minionstacks@ de esencia de alma.</rules>",
-						"icon": "ASSETS/Perks/Styles/Domination/KSSoulReaper/KSSoulReaper.dds"
+						"shortDesc": "Los campeones, súbditos grandes y monstruos grandes sueltan esencias de alma al morir. Toca las almas para absorberlas y tu siguiente ataque infligirá <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">daño adaptable</lol-uikit-tooltipped-keyword> adicional según el total de esencias de almas obtenidas.",
+						"longDesc": "Los campeones, súbditos grandes y monstruos grandes sueltan esencias de alma al morir. Recoge almas y tendrás <font color='#c60300'>Carga de Alma</font>. Tu siguiente ataque a un campeón o estructura consumirá <font color='#c60300'>Carga de Alma</font> para infligir <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>daño adaptable</font></lol-uikit-tooltipped-keyword> adicional.<br><br><font color='#c60300'>Carga de Alma</font> dura @ONHDuration@ seg y puede aumentar hasta @ONHDurationLong@ seg después de reunir @SoulsRequiredForIncreasedDuration@ esencias de alma.<br><br>Daño adicional: @DamageMin@ - @DamageMax@ (+<scaleAD>@ADRatio.2@ de DA adicional</scaleAD>) (+<scaleAP>@APRatio.1@ de PH</scaleAP>) + las esencias de alma recolectadas.<br><rules><br>Campeones: @champstacks@ de esencia de alma.<br>Monstruos: @monsterstacks@ de esencia de alma.<br>Súbditos: @minionstacks@ de esencia de alma.</rules>",
+						"icon": "ASSETS/Perks/Styles/Domination/DarkHarvest/DarkHarvest.dds"
 					}
 				]
 			},
@@ -39,25 +39,25 @@
 						"id": 8126,
 						"key": "CheapShot",
 						"name": "Golpe Bajo",
-						"shortDesc": "Inflige una bonificación de daño verdadero a campeones enemigos que estén bajo <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairAct\">efectos de control</lol-uikit-tooltipped-keyword>. ",
-						"longDesc": "Al dañar campeones con <b>movimientos o acciones alterados</b>, les infliges @DamageIncMin@ - @DamageIncMax@ de bonificación de daño verdadero (según el nivel).<br><br>Enfriamiento: @Cooldown@ seg<br><rules>Se activa con el daño que ocurra después de la alteración.</rules>",
-						"icon": "ASSETS/Perks/Styles/Domination/Bully/Bully.dds"
+						"shortDesc": "Infliges daño verdadero adicional a los campeones enemigos que estén bajo <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairAct\">efectos de control</lol-uikit-tooltipped-keyword>. ",
+						"longDesc": "Al dañar campeones con <b>efectos de control</b>, les infliges @DamageIncMin@ - @DamageIncMax@ de daño verdadero adicional (según el nivel).<br><br>Enfriamiento: @Cooldown@ seg<br><rules>Se activa con el daño que ocurra después de la alteración.</rules>",
+						"icon": "ASSETS/Perks/Styles/Domination/CheapShot/CheapShot.dds"
 					},
 					{
 						"id": 8139,
-						"key": "Feast",
+						"key": "TasteOfBlood",
 						"name": "Sabor a Sangre",
-						"shortDesc": "Recupera vida cuando dañes a un campeón enemigo.",
-						"longDesc": "Te curas cuando infliges daño a un campeón enemigo.<br><br>Curación: @HealAmount@-@HealAmountMax@ (+@ADRatio.-1@ de bonificación de DA, +@APRatio.-1@ de PH) de vida (según el nivel)<br><br>Enfriamiento: @Cooldown@ seg.",
-						"icon": "ASSETS/Perks/Styles/Domination/Feast/GreenTerror_Feast.dds"
+						"shortDesc": "Recupera vida cuando dañas a un campeón enemigo.",
+						"longDesc": "Te curas cuando infliges daño a un campeón enemigo.<br><br>Curación: @HealAmount@-@HealAmountMax@ (+@ADRatio.-1@ de DA adicional, +@APRatio.-1@ de PH) de vida (según el nivel)<br><br>Enfriamiento: @Cooldown@ seg.",
+						"icon": "ASSETS/Perks/Styles/Domination/TasteOfBlood/GreenTerror_TasteOfBlood.dds"
 					},
 					{
 						"id": 8143,
-						"key": "DashAttack",
+						"key": "SuddenImpact",
 						"name": "Impacto Súbito",
-						"shortDesc": "Otorga un aumento de letalidad y penetración de magia después de usar un desplazamiento, salto, teletransportación, destello o al salir de sigilo.",
-						"longDesc": "Después de salir de sigilo o usar un desplazamiento, salto, teletransportación o destello, al infligir cualquier daño a un campeón obtienes @BonusLethality.0@ de letalidad y @BonusMpen.0@ de penetración de magia durante @Duration@ seg.<br><br>Enfriamiento: @Cooldown@ seg",
-						"icon": "ASSETS/Perks/Styles/Domination/DashAttack/DashAttack.dds"
+						"shortDesc": "Otorga un aumento de Letalidad y Penetración de Magia después de usar un desplazamiento, salto o teleportación, o al salir de sigilo.",
+						"longDesc": "Después de salir de sigilo o usar un desplazamiento, salto o teleportación, infligir cualquier daño a un campeón te otorga @BonusLethality.0@ de Letalidad y @BonusMpen.0@ de Penetración de Magia durante @Duration@ seg.<br><br>Enfriamiento: @Cooldown@ seg",
+						"icon": "ASSETS/Perks/Styles/Domination/SuddenImpact/SuddenImpact.dds"
 					}
 				]
 			},
@@ -68,24 +68,24 @@
 						"key": "ZombieWard",
 						"name": "Centinela Zombi",
 						"shortDesc": "Después de matar un centinela, un centinela zombi aliado se levantará en su lugar. Cuando tus centinelas expiren, también revivirán como centinelas zombis.",
-						"longDesc": "Después de matar un centinela, un centinela zombi aliado aparecerá en su lugar. Además, cuando tus centinelas expiren, revivirán como centinelas zombis.<br><br>Los centinelas zombis son visibles, duran @WardDuration@ seg y no cuentan para el límite de centinelas.",
+						"longDesc": "Después de destruir un centinela, un centinela zombi aliado aparecerá en su lugar. Además, cuando tus centinelas expiren, revivirán como centinelas zombis.<br><br>Los centinelas zombis son visibles, duran @WardDurationMin@ - @WardDuration@ seg y no cuentan para el límite de centinelas.",
 						"icon": "ASSETS/Perks/Styles/Domination/ZombieWard/ZombieWard.dds"
 					},
 					{
 						"id": 8120,
-						"key": "ViciousPoro",
+						"key": "GhostPoro",
 						"name": "Poro Fantasma",
 						"shortDesc": "Cuando entres a la maleza, aparecerá un poro. Este se quedará atrás para otorgarte visión.",
-						"longDesc": "Entra a la maleza para invocar un poro después de una breve canalización. El poro se quedará atrás para otorgarte visión hasta que invoques uno nuevo.<br><br>Si un enemigo entra a la maleza donde haya un poro, este se asustará y pondrá al {{ perk_displayname_ViciousPoro }} en un enfriamiento de @Cooldown@ seg.<br><br>La canalización del poro se interrumpe si recibes daño.",
-						"icon": "ASSETS/Perks/Styles/Domination/ViciousPoro/ViciousPoro.dds"
+						"longDesc": "Entra a la maleza para invocar un poro después de una breve canalización. El poro se quedará atrás para otorgarte visión hasta que invoques a uno nuevo.<br><br>Si un enemigo entra a la maleza donde haya un poro, este se asustará y pondrá al {{ perk_displayname_GhostPoro }} en un enfriamiento de @Cooldown@ seg.<br><br>La canalización del poro se interrumpe si recibes daño.",
+						"icon": "ASSETS/Perks/Styles/Domination/GhostPoro/GhostPoro.dds"
 					},
 					{
 						"id": 8138,
-						"key": "WardSlayer",
+						"key": "EyeballCollection",
 						"name": "Colección de Ojos",
-						"shortDesc": "Obtienes ojos por <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">derribo</lol-uikit-tooltipped-keyword> de campeón o centinela. Otorga DA o PH permanente <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">adaptable</lol-uikit-tooltipped-keyword> por cada ojo obtenido más una bonificación al completar la colección.",
+						"shortDesc": "Obtienes ojos por <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">derribos</lol-uikit-tooltipped-keyword> de campeones o centinelas. Otorga DA o PH permanente <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">adaptable</lol-uikit-tooltipped-keyword> por cada ojo obtenido más una bonificación al completar la colección.",
 						"longDesc": "Obtienes ojos por asesinatos de campeones y por derribos de centinelas. Otorga {{ perk_subtext_AdaptiveForce }} por ojo obtenido. <br><br>Al completar tu colección con @MaxEyeballs@ ojos, otorga permanentemente {{ perk_subtext_AdaptiveForce_EyeballCollection }} adicional.<br><br>Obtienes @StacksPerTakedown@ ojos por asesinato de campeón, @StacksPerAssist@ por asistencia y @StacksPerWard@ por derribo de centinela.",
-						"icon": "ASSETS/Perks/Styles/Domination/WardSlayer/WardSlayer.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/EyeballCollection/EyeballCollection.dds"
 					}
 				]
 			},
@@ -93,27 +93,27 @@
 				"runes": [
 					{
 						"id": 8135,
-						"key": "InsatiableHunter",
+						"key": "RavenousHunter",
 						"name": "Cazador Voraz",
-						"shortDesc": "Los <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">derribos</lol-uikit-tooltipped-keyword> <b>únicos</b> otorgan curación permanente de daño de habilidad.",
-						"longDesc": "Te cura un porcentaje del daño que inflijas con tus habilidades.<br>Curación: @StartingOmnivamp*100@% + @OmnivampPerStack*100@% por acumulación de <i>Cazarrecompensas</i>. <br><br>Otorga una acumulación de <i>Cazarrecompensas</i> la primera vez que logres derribar a cada campeón enemigo.<br><rules><br>La curación se reduce a un tercio para habilidades de área de efecto.</rules><br>",
-						"icon": "ASSETS/Perks/Styles/Domination/InsatiableHunter/InsatiableHunter.dds"
+						"shortDesc": "Los <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">derribos</lol-uikit-tooltipped-keyword> <b>únicos</b> otorgan curación permanente del daño de habilidades. ",
+						"longDesc": "Te cura por un porcentaje del daño que inflijas con tus habilidades.<br>Curación: @StartingOmnivamp*100@% + @OmnivampPerStack*100@% por acumulación de <i>Cazarrecompensas</i>. <br><br>Otorga una acumulación de <i>Cazarrecompensas</i> la primera vez que logres derribar a cada campeón enemigo.<br><rules><br>La curación se reduce a un tercio en el caso de las habilidades de área de efecto.</rules><br>",
+						"icon": "ASSETS/Perks/Styles/Domination/RavenousHunter/RavenousHunter.dds"
 					},
 					{
 						"id": 8134,
-						"key": "BigGameHunter",
+						"key": "IngeniousHunter",
 						"name": "Cazador Ingenioso",
 						"shortDesc": "Los <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">derribos</lol-uikit-tooltipped-keyword> <b>únicos</b> otorgan <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_CDR\">RDE</lol-uikit-tooltipped-keyword> de objetos activos de manera permanente (incluye baratijas).",
-						"longDesc": "Otorga un @StartingActiveItemCDR.0*100@% de <b>RDE de objetos activos</b> más un @ActiveItemCDRPerStack.0*100@% adicional por acumulación de <i>Cazarrecompensas</i> (incluye baratijas).<br><br>Otorga una acumulación de <i>Cazarrecompensas</i> la primera vez que logres un derribo en cada uno de los campeones enemigos.",
-						"icon": "ASSETS/Perks/Styles/Domination/BigGameHunter/BigGameHunter.dds"
+						"longDesc": "Otorga un @StartingActiveItemCDR.0*100@% de <b>RDE de objetos activos</b> más un @ActiveItemCDRPerStack.0*100@% adicional por acumulación de <i>Cazarrecompensas</i> (incluye baratijas).<br><br>Otorga una acumulación de <i>Cazarrecompensas</i> la primera vez que logres un derribo contra cada uno de los campeones enemigos.",
+						"icon": "ASSETS/Perks/Styles/Domination/IngeniousHunter/IngeniousHunter.dds"
 					},
 					{
 						"id": 8105,
-						"key": "ProlificHunter",
+						"key": "RelentlessHunter",
 						"name": "Cazador Implacable",
 						"shortDesc": "Los <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">derribos</lol-uikit-tooltipped-keyword> <b>únicos</b> otorgan <b><lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">VM</lol-uikit-tooltipped-keyword> permanente fuera de combate</b>. ",
 						"longDesc": "Otorga @StartingOOCMS@ <b>de Velocidad de Movimiento fuera de combate</b> más @OOCMS.0@ por acumulación de <i>Cazarrecompensas</i>.<br><br>Otorga una acumulación de <i>Cazarrecompensas</i> la primera vez que logres derribar a cada uno de los campeones enemigos.",
-						"icon": "ASSETS/Perks/Styles/Domination/ProlificHunter/ProlificHunter.dds"
+						"icon": "ASSETS/Perks/Styles/Domination/RelentlessHunter/RelentlessHunter.dds"
 					}
 				]
 			}
@@ -372,7 +372,7 @@
 						"key": "KSRuinedKing",
 						"name": "Aliento del Agónico",
 						"shortDesc": "Cada @TriggerTime@ seg, tu siguiente ataque a un campeón infligirá daño mágico adicional, te curará y aumentará permanentemente tu vida.",
-						"longDesc": "Cada @TriggerTime@ seg en combate, tu siguiente ataque básico a un campeón:<li>Infligirá un daño mágico adicional equivalente al @PercentHealthDamage.0@% de tu vida máxima<br>Te cura un @PercentHealthHeal.0*100@% de tu vida máxima<br>Aumentará permanentemente tu vida por @MaxHealthPerProc@</li><br><rules><i>Campeones a distancia:</i> Daño y curación reducidos a la mitad y obtienes @RangedHealthPerProc@ de vida permanente.</rules>",
+						"longDesc": "Cada @TriggerTime@ seg en combate, tu siguiente ataque básico a un campeón:<li>Infligirá daño mágico adicional igual al @PercentHealthDamage.0@% de tu vida máxima.</li><li>Te cura un @PercentHealthHeal.0*100@% de tu vida máxima.</li><li>Aumenta permanentemente tu vida por @MaxHealthPerProc@.</li><br><rules><i>Campeones a distancia:</i> El daño, y la curación y vida permanente obtenidas se reducen un @RangedPenaltyMod*100@%.</rules><br>",
 						"icon": "ASSETS/Perks/Styles/Resolve/KSRuinedKing/KSRuinedKing.dds"
 					},
 					{
@@ -380,7 +380,7 @@
 						"key": "Vengeance",
 						"name": "Réplica",
 						"shortDesc": "Después de <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Immobilize\">inmovilizar</lol-uikit-tooltipped-keyword> a un campeón enemigo, obtienes defensas y después infligirás una ráfaga de daño <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">adaptable</lol-uikit-tooltipped-keyword> a tu alrededor.",
-						"longDesc": "Después de inmovilizar a un campeón enemigo, aumenta tu armadura y resistencia mágica por @FlatResists@ + @ResistInc.0*100@% durante @DelayBeforeBurst.1@ seg. Luego explotará e infligirá daño mágico a los campeones cercanos.<br><br>Daño: @StartingBaseDamage@-@MaxBaseDamage@ (+@HealthRatio.1@% de tu vida máxima)<br>Enfriamiento: @Cooldown@ seg",
+						"longDesc": "Después de inmovilizar a un campeón enemigo, aumenta tu armadura y resistencia mágica por @FlatResists@ - @FlatResistMaximum@ durante @DelayBeforeBurst.1@ seg. Luego explotarás e infligirás daño mágico a los enemigos cercanos.<br><br>Daño: @StartingBaseDamage@ - @MaxBaseDamage@ (+@HealthRatio.-1@% de tu vida máxima) (+@DamageRatioAD*100@% de tu daño de ataque adicional) (+@DamageRatioAP*100@% de tu poder de habilidad)<br>Enfriamiento: @Cooldown@ seg",
 						"icon": "ASSETS/Perks/Styles/Resolve/VeteranVengeance/VeteranVengeance.dds"
 					},
 					{
@@ -388,7 +388,7 @@
 						"key": "KSBuddyShield",
 						"name": "Guardián",
 						"shortDesc": "Protege a los aliados a los que les hayas lanzado un hechizo y a los que estén muy cerca de ti. Si un aliado protegido o tú reciben daño, ambos aumentarán su velocidad y obtendrán un escudo.",
-						"longDesc": "{{ perk_shared_desc_KSBuddyShield }}<br><br>Enfriamiento: @Cooldown@ seg<br>Escudo: @ShieldBase@ - @ShieldMax@ +(<scaleAP>@APRatio.-1@ de PH</scaleAP>) + (<scalehealth>+@HPRatio.0*100@% de bonificación de vida</scalehealth>).<br>Velocidad: +@Haste*100@% de velocidad de movimiento.",
+						"longDesc": "{{ perk_shared_desc_KSBuddyShield }}<br><br>Enfriamiento: <scaleLevel>@Cooldown@ - @CooldownMaxLevel@</scaleLevel> seg<br>Escudo: <scaleLevel>@ShieldBase@ - @ShieldMax@</scaleLevel> + <scaleAP>@APRatio.-1@%</scaleAP> de tu Poder de Habilidad + <scalehealth>@HPRatio.0*100@%</scalehealth> de tu Vida adicional.<br>Velocidad: +@Haste*100@% de Velocidad de Movimiento.",
 						"icon": "ASSETS/Perks/Styles/Resolve/KSBuddyShield/KSBuddyShield.dds"
 					}
 				]
@@ -408,7 +408,7 @@
 						"key": "Siege",
 						"name": "Demolición",
 						"shortDesc": "Carga un poderoso ataque contra una torre al estar cerca de ella.",
-						"longDesc": "Carga un poderoso ataque en contra de una torre durante @TotalSiegeTime@ seg al estar a @DistanceToTower@ de distancia de ella. El ataque cargado inflige @OutputDamagePerStack@ (+@MaxHealthPercentDamage.0 * 100@% de tu Vida Máxima) como bonificación de daño físico.<br><br>Enfriamiento: @CooldownSeconds@ seg",
+						"longDesc": "Carga un poderoso ataque en contra de una torre durante @TotalSiegeTime@ seg al estar a @DistanceToTower@ de distancia de ella. El ataque cargado inflige @OutputDamagePerStack@ (+@MaxHealthPercentDamage.0 * 100@% de tu Vida Máxima) de daño físico adicional.<br><br>Enfriamiento: @CooldownSeconds@ seg",
 						"icon": "ASSETS/Perks/Styles/Resolve/BrickHitHouse/BrickHitHouse.dds"
 					},
 					{
