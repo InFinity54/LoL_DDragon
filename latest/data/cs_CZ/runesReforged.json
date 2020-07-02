@@ -1,0 +1,602 @@
+[
+	{
+		"id": 8100,
+		"key": "Domination",
+		"name": "Dominance",
+		"icon": "ASSETS/Perks/Styles/7200_Domination.dds",
+		"slots": [
+			{
+				"runes": [
+					{
+						"id": 8112,
+						"key": "StormlordsMandate",
+						"name": "Zásah proudem",
+						"shortDesc": "Pokud v rozmezí @WindowDuration@ sek. zasáhneš nějakého šampiona 3 <b>samostatnými</b> útoky nebo schopnostmi, způsobíš mu bonusové <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">adaptivní poškození</lol-uikit-tooltipped-keyword>.",
+						"longDesc": "Pokud v rozmezí @WindowDuration@ sek. zasáhneš nějakého šampiona 3 <b>samostatnými</b> útoky nebo schopnostmi, způsobíš mu bonusové <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>adaptivní poškození</font></lol-uikit-tooltipped-keyword>.<br><br>Poškození: @DamageBase@-@DamageMax@ bodů (+@BonusADRatio.-1@ bonusového útočného poškození, +@APRatio.-1@ síly schopností).<br><br>Přebíjecí doba: @Cooldown@-@CooldownMin@ sek.<br><br><hr></hr><i>„Říkali jsme jim Páni hromů, protože hovořit o jejich blescích, přivolávali bychom na sebe pohromu.“</i>",
+						"icon": "ASSETS/Perks/Styles/Domination/TLords/TLords.dds"
+					},
+					{
+						"id": 8124,
+						"key": "KSLycanthropy",
+						"name": "Predátor",
+						"shortDesc": "Přidá tvým botám aktivovatelný efekt, jenž ti poskytne výrazný bonus k <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">rychlosti pohybu</lol-uikit-tooltipped-keyword> a tvému dalšímu útoku nebo schopnosti přidá bonusové <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">adaptivní poškození</lol-uikit-tooltipped-keyword>.",
+						"longDesc": "Očaruje tvoje boty aktivovatelným efektem „<font color='#c60300'>{{perk_displayname_KSLycanthropy}}</font>“.<br><br>{{ game_itemmod_bloodmoonboots }}",
+						"icon": "ASSETS/Perks/Styles/Domination/KSLycanthropy/KSLycanthropy.dds"
+					},
+					{
+						"id": 8128,
+						"key": "KSSoulReaper",
+						"name": "Temné žně",
+						"shortDesc": "Šampioni, velcí poskoci a velké příšery po své smrti zanechávají esenci duše. Když se duše dotkneš, pohltíš ji a tvůj následující útok způsobí bonusové <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">adaptivní poškození</lol-uikit-tooltipped-keyword>, jehož výše se odvíjí od počtu nasbíraných esencí duší.",
+						"longDesc": "Šampioni, velcí poskoci a velké příšery po své smrti zanechávají esenci duše. Sbíráním duší získáš efekt <font color='#c60300'>Nabití duší</font>. Tvůj příští útok vedený proti šampionovi nebo budově efekt <font color='#c60300'>Nabití duší</font> spotřebuje a způsobí bonusové <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>adaptivní poškození</font></lol-uikit-tooltipped-keyword>.<br><br><font color='#c60300'>Nabití duší</font> trvá @ONHDuration@ sek., po nasbírání @SoulsRequiredForIncreasedDuration@ jednotek esence duše se tato doba prodlužuje na @ONHDurationLong@ sek.<br><br>Bonusové poškození: @DamageMin@-@DamageMax@ bodů (+<scaleAD>@ADRatio.2@ bonusového útočného poškození</scaleAD>) (+<scaleAP>@APRatio.1@ síly schopností</scaleAP>) + množství nasbírané esence duše<br><rules><br>Šampioni - @champstacks@ esence duše.<br>Příšery - @monsterstacks@ esence duše.<br>Poskoci - @minionstacks@ esence duše.</rules>",
+						"icon": "ASSETS/Perks/Styles/Domination/KSSoulReaper/KSSoulReaper.dds"
+					}
+				]
+			},
+			{
+				"runes": [
+					{
+						"id": 8126,
+						"key": "CheapShot",
+						"name": "Rána pod pás",
+						"shortDesc": "Nepřátelským šampionům s <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairAct\">omezenou pohyblivostí nebo akcemi</lol-uikit-tooltipped-keyword> způsobíš bonusové přímé poškození. ",
+						"longDesc": "Když poškodíš nepřátele s <b>omezenou pohyblivostí nebo akcemi</b>, způsobíš jim @DamageIncMin@-@DamageIncMax@ bodů bonusového přímého poškození (v závislosti na úrovni).<br><br>Přebíjecí doba: @Cooldown@ sek.<br><rules>Bonus se aktivuje při poškození způsobeném po omezení pohyblivosti.</rules>",
+						"icon": "ASSETS/Perks/Styles/Domination/Bully/Bully.dds"
+					},
+					{
+						"id": 8139,
+						"key": "Feast",
+						"name": "Chuť krve",
+						"shortDesc": "Když způsobíš poškození nepřátelskému šampionovi, vyléčíš se.",
+						"longDesc": "Když způsobíš poškození nepřátelskému šampionovi, vyléčíš se.<br><br>Léčení: @HealAmount@-@HealAmountMax@ zdraví (+@ADRatio.-1@ bonusového útočného poškození, +@APRatio.-1@ síly schopností) (podle úrovně).<br><br>Přebíjecí doba: @Cooldown@ sek.",
+						"icon": "ASSETS/Perks/Styles/Domination/Feast/GreenTerror_Feast.dds"
+					},
+					{
+						"id": 8143,
+						"key": "DashAttack",
+						"name": "Náhlý dopad",
+						"shortDesc": "Poté, co použiješ přeběhnutí, skok, přesun či teleportaci nebo přijdeš o neviditelnost, získáš nárazový bonus k vražednosti a průraznosti magie.",
+						"longDesc": "Poté, co přijdeš o neviditelnost nebo použiješ přeběhnutí, skok, přesun či teleportaci, způsobením poškození šampionovi získáš na následujících @Duration@ sek. @BonusLethality.0@ k vražednosti a @BonusMpen.0@ k průraznosti magie.<br><br>Přebíjecí doba: @Cooldown@ sek.",
+						"icon": "ASSETS/Perks/Styles/Domination/DashAttack/DashAttack.dds"
+					}
+				]
+			},
+			{
+				"runes": [
+					{
+						"id": 8136,
+						"key": "ZombieWard",
+						"name": "Zombie totem",
+						"shortDesc": "Když zničíš nějaký totem, objeví se místo něj spojenecký Zombie totem. Když některému tvému totemu vyprší životnost, objeví se také znovu jako Zombie totem.",
+						"longDesc": "Když zničíš nějaký totem, objeví se místo něj spojenecký Zombie totem. Když navíc některému tvému totemu vyprší životnost, objeví se znovu jako Zombie totem.<br><br>Zombie totemy jsou viditelné, mají životnost @WardDuration@ sekund a nezapočítávají se do tvého limitu totemů.",
+						"icon": "ASSETS/Perks/Styles/Domination/ZombieWard/ZombieWard.dds"
+					},
+					{
+						"id": 8120,
+						"key": "ViciousPoro",
+						"name": "Přízračný poro",
+						"shortDesc": "Když vstoupíš do křoví, objeví se poro. Zůstane v něm, aby ti poskytoval výhled na okolí.",
+						"longDesc": "Když vejdeš do křoví, vyvoláš po krátkém soustředění pora. Poro v křoví zůstane a bude ti poskytovat výhled na mapu, dokud nevyvoláš nového.<br><br>Pokud do křoví, kde je poro, vstoupí nepřítel, vyplaší ho a efektu {{ perk_displayname_ViciousPoro }} se spustí přebíjecí doba dlouhá @Cooldown@ sek.<br><br>Vyvolávání pora se přeruší, utrpíš-li nějaké poškození.",
+						"icon": "ASSETS/Perks/Styles/Domination/ViciousPoro/ViciousPoro.dds"
+					},
+					{
+						"id": 8138,
+						"key": "WardSlayer",
+						"name": "Sbírka bulv",
+						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Likvidacemi</lol-uikit-tooltipped-keyword> šampionů a totemů získáváš bulvy. Za každou získanou bulvu obdržíš trvalý <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">adaptivní</lol-uikit-tooltipped-keyword> bonus k útočnému poškození nebo síle schopností, který se ještě zvýší po dokončení celé sbírky.",
+						"longDesc": "Likvidacemi šampionů a totemů získáváš bulvy. Každá bulva ti přidává {{ perk_subtext_AdaptiveForce }}. <br><br>Když po nasbírání @MaxEyeballs@ bulev dokončíš svou sbírku, získáš navíc {{ perk_subtext_AdaptiveForce_EyeballCollection }}.<br><br>Za zabití šampiona obdržíš @StacksPerTakedown@ bulvy, za asistenci @StacksPerAssist@ bulvy a za totem @StacksPerWard@ bulvy.",
+						"icon": "ASSETS/Perks/Styles/Domination/WardSlayer/WardSlayer.dds"
+					}
+				]
+			},
+			{
+				"runes": [
+					{
+						"id": 8135,
+						"key": "InsatiableHunter",
+						"name": "Hladový lovec",
+						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Likvidace</lol-uikit-tooltipped-keyword> <b>jedinečných</b> nepřátel ti poskytuje trvalý bonus k léčení pomocí poškození způsobeného schopnostmi. ",
+						"longDesc": "Vyléčíš se o určitou část poškození způsobeného svými schopnostmi.<br>Léčení: @StartingOmnivamp*100@ % + @OmnivampPerStack*100@ % za každý stupeň <i>Lovce odměn</i>. <br><br>Stupeň efektu <i>Lovec odměn</i> získáš, kdykoliv poprvé zlikviduješ nějakého nepřátelského šampiona.<br><rules><br>(U schopností s plošnými efekty je léčení sníženo na jednu třetinu.)</rules><br>",
+						"icon": "ASSETS/Perks/Styles/Domination/InsatiableHunter/InsatiableHunter.dds"
+					},
+					{
+						"id": 8134,
+						"key": "BigGameHunter",
+						"name": "Brilantní lovec",
+						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Likvidace</lol-uikit-tooltipped-keyword> <b>jedinečných</b> nepřátel ti poskytuje trvalý bonus ke <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_CDR\">zkrácení přebíjecích dob</lol-uikit-tooltipped-keyword> aktivovatelných předmětů (včetně talismanů).",
+						"longDesc": "Získáš @StartingActiveItemCDR.0*100@ % <b>ke zkrácení přebíjecích dob aktivovatelných předmětů</b> (včetně talismanů) plus dalších @ActiveItemCDRPerStack.0*100@ % za každý stupeň efektu <i>Lovec odměn</i>.<br><br>Stupeň efektu <i>Lovec odměn</i> získáš, kdykoliv poprvé zlikviduješ nějakého nepřátelského šampiona.",
+						"icon": "ASSETS/Perks/Styles/Domination/BigGameHunter/BigGameHunter.dds"
+					},
+					{
+						"id": 8105,
+						"key": "ProlificHunter",
+						"name": "Neúnavný lovec",
+						"shortDesc": "<b>Unikátní</b> <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">likvidace</lol-uikit-tooltipped-keyword> přidávají trvalý bonus <b>k <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">rychlosti pohybu</lol-uikit-tooltipped-keyword> mimo boj</b>. ",
+						"longDesc": "Získáš @StartingOOCMS@ <b>k rychlosti pohybu mimo boj</b> plus @OOCMS.0@ za každý stupeň efektu <i>Lovec odměn</i>.<br><br>Stupeň efektu <i>Lovec odměn</i> získáš, kdykoliv poprvé zlikviduješ nějakého nepřátelského šampiona.",
+						"icon": "ASSETS/Perks/Styles/Domination/ProlificHunter/ProlificHunter.dds"
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 8300,
+		"key": "Inspiration",
+		"name": "Povzbuzení",
+		"icon": "ASSETS/Perks/Styles/7203_Whimsy.dds",
+		"slots": [
+			{
+				"runes": [
+					{
+						"id": 8326,
+						"key": "KSAlchemicalEsoterica",
+						"name": "Odpečetěná kniha kouzel",
+						"shortDesc": "Používej vyvolávací úlomky v obchodě k výměně vyvolávačových kouzel během hry. Tvoje vyvolávačova kouzla mají kratší přebíjecí dobu. <br>",
+						"longDesc": "V @ShardFirstMinutes@. minutě a poté vždy po uplynutí @ShardRechargeMinutes@ min. dostaneš vyvolávací úlomek (max. @Maxshards@ úlomky).<br><br>V blízkosti obchodu si můžeš za @ShardCost@ vyvolávací úlomek vyměnit jedno vyvolávačovo kouzlo za nějaké jiné. <br><br>Přebíjecí doby vyvolávačových kouzel jsou navíc o @SummonerCDR.0*100@ % kratší.<br><br><rules><i>Udeřit:</i> Zakoupením kouzla Udeřit nezískáš přístup k předmětům, které jej vyžadují<br>Nelze mít dvě stejná vyvolávačova kouzla</rules>",
+						"icon": "ASSETS/Perks/Styles/Inspiration/KSAlchemicalEsoterica/KSAlchemicalEsoterica.dds"
+					},
+					{
+						"id": 8351,
+						"key": "KSGlacialAugment",
+						"name": "Ledovcové vylepšení",
+						"shortDesc": "Svým prvním útokem proti nepřátelskému šampionovi jej zpomalíš (každá jednotka má vlastní přebíjecí dobu). Když zpomalíš šampiony aktivovatelnými předměty, vystřelíš na ně mrazící paprsek, který vytvoří přetrvávající zónu zpomalení.",
+						"longDesc": "Základním útokem vedeným proti šampionovi jej na @SlowDuration.0@ sek. zpomalíš. Zpomalení se během svého trvání zvyšuje.<li><i>Na dálku</i>: Střelecké útoky zpomalují cíl až o @SlowAmountBase.0*-100@-@SlowAmountMax.0*-100@ %.</li><li><i>Na blízko</i>: Kontaktní útoky zpomalují cíl až o @SlowAmountBaseMelee.0*-100@-@SlowAmountMaxMelee.0*-100@ %.</li> <br>Když šampiona zpomalíš aktivovatelnými předměty, vystřelíš skrz něj mrazicí paprsek, který na @SlowZoneDuration@ sek. zmrazí okolní oblast a zpomalí všechny jednotky uvnitř o @SlowZoneSlow*-100@ %.<br><br>Přebíjecí doba: @UnitCDBase@-@UnitCD16@ sek. u každé jednotky",
+						"icon": "ASSETS/Perks/Styles/Inspiration/KSGlacialAugment/KSGlacialAugment.dds"
+					},
+					{
+						"id": 8359,
+						"key": "KSLooter",
+						"name": "Kleptomanie",
+						"shortDesc": "Když útok, jenž následuje po seslání nějaké schopnosti, použiješ proti šampionovi, obdržíš tak bonusové zlaťáky. Také máš šanci získat spotřebovatelný předmět.",
+						"longDesc": "Když útok, jenž následuje po seslání nějaké schopnosti, použiješ proti šampionovi, obdržíš tak bonusové zlaťáky. Také máš šanci získat spotřebovatelný předmět.",
+						"icon": "ASSETS/Perks/Styles/Inspiration/KSLooter/KSLooter.dds"
+					}
+				]
+			},
+			{
+				"runes": [
+					{
+						"id": 8306,
+						"key": "DontBlink",
+						"name": "Magitechnický skokostroj",
+						"shortDesc": "Když se kouzlu Skok počítá přebíjecí doba, nahrazuje ho <i>Magiskok</i>.<br><br><i>Magiskok</i>: Po soustředění se přeneseš na novou pozici.",
+						"longDesc": "Když se kouzlu Skok počítá přebíjecí doba, nahrazuje ho <i>Magiskok</i>.<br><br><i>Magiskok</i>: Po soustředění dlouhém @ChannelDuration@ sek. se přeneseš na novou pozici.<br><br>Přebíjecí doba: @CooldownTime@ sek. Jakmile začneš bojovat s nějakým šampionem, začne se kouzlu počítat přebíjecí doba dlouhá @ChampionCombatCooldown@ sek.",
+						"icon": "ASSETS/Perks/Styles/Inspiration/DontBlink/DontBlink.dds"
+					},
+					{
+						"id": 8345,
+						"key": "BiscuitsAndBonuses",
+						"name": "Zásilka sušenek",
+						"shortDesc": "Každých @BiscuitMinuteInterval@ min. získáš zdarma sušenku, a to až do @SwapOverMinute@ min. Spotřebováním sušenky se ti trvale zvýší maximální hodnota many a zároveň se ti obnoví zdraví a mana.",
+						"longDesc": "Zásilka sušenek: Každých @BiscuitMinuteInterval@ min. získáš předmět {{game_item_displayname_2010}}, a to až do @SwapOverMinute@ min.<br><br>Sušenky ti obnoví @HealthHealPercent.0*100@ % chybějícího zdraví a many. Spotřebováním libovolné sušenky se ti trvale zvýší maximální hodnota many o @PermanentMana@ bodů. <br><br><i>Bez many:</i> Šampionům bez many se místo toho obnoví @HealthHealPercentManaless.0*100@ % chybějícího zdraví. ",
+						"icon": "ASSETS/Perks/Styles/Inspiration/BiscuitsAndBonuses/BiscuitsAndBonuses.dds"
+					},
+					{
+						"id": 8313,
+						"key": "AllInGoodTime",
+						"name": "Dokonalé načasování",
+						"shortDesc": "Obdržíš zdarma {{game_item_displayname_2420}}. {{game_item_displayname_2420}} mohou jednorázově aktivovat <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Stasis\">stázi</lol-uikit-tooltipped-keyword>.",
+						"longDesc": "Na začátku hry obdržíš předmět {{ game_item_displayname_2419 }}, který se po @InitialCooldown.0@ min. přemění na {{ game_item_displayname_2420 }}. {{ game_item_displayname_2420 }} mají k dispozici jednorázovou stázi.<br><br>Přebíjecí doby předmětů {{ game_item_displayname_3157 }}, {{ game_item_displayname_3026 }} a {{ game_item_displayname_3193 }} se zkracují o @PercentGAZhonyasCDR.0*100@ %.",
+						"icon": "ASSETS/Perks/Styles/Style5/AllInGoodTime/AllInGoodTime.dds"
+					}
+				]
+			},
+			{
+				"runes": [
+					{
+						"id": 8304,
+						"key": "MagicalFootwear",
+						"name": "Magické boty",
+						"shortDesc": "V @GiveBootsAtMinute@. minutě získáš zdarma boty, do té doby si však žádné boty koupit nemůžeš. Každá <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">likvidace</lol-uikit-tooltipped-keyword> uspíší získání bot o @SecondsSoonerPerTakedown@ sek.",
+						"longDesc": "V @GiveBootsAtMinute@. minutě získáš zdarma {{game_item_displayname_2422}}, do té doby si však žádné boty koupit nemůžeš. Za každou provedenou likvidaci se doba pro získání bot zkracuje o @SecondsSoonerPerTakedown@ sek. <br><br>{{game_item_displayname_2422}} ti přidají +@AdditionalMovementSpeed@ k rychlosti pohybu a jejich vylepšení je o 50 zlaťáků levnější.",
+						"icon": "ASSETS/Perks/Styles/Inspiration/MagicalFootwear/MagicalFootwear.dds"
+					},
+					{
+						"id": 8321,
+						"key": "NanaTaxman",
+						"name": "Investice do budoucna",
+						"shortDesc": "Při nakupování předmětů můžeš jít do minusu.",
+						"longDesc": "Při nakupování předmětů můžeš jít do minusu. Částka, kterou si můžeš půjčit, se postupem času zvyšuje.<br><br>Poplatek: @ExcessCostPenaltyFlat@ zlaťáků",
+						"icon": "ASSETS/Perks/Styles/Style5/NanaTaxman/NanaTaxman.dds"
+					},
+					{
+						"id": 8316,
+						"key": "TheClearChoice",
+						"name": "Dematerializovač poskoků",
+						"shortDesc": "Na začátku hry obdržíš @GainedMinionKillers@x {{game_item_displayname_2403}}. Když tímto předmětem zabiješ nějakého poskoka, získáš trvalý bonus k poškození vůči tomuto typu poskoků.",
+						"longDesc": "Na začátku zápasu obdržíš @GainedMinionKillers@x {{game_item_displayname_2403}}, tento předmět dokáže okamžitě zabít a pohltit lajnové poskoky. Během prvních @InitialCooldown@ sek. utkání se předmětu {{game_item_displayname_2403}} počítá přebíjecí doba.<br><br>Když tímto předmětem pohltíš nějakého poskoka, poškození způsobované danému typu poskoků se ti trvale zvýší o @DamageBonusForAnyAbsorbed.0*100@ % a o další +@DamageBonusPerAdditionalAbsorbed.0*100@ % za každého dalšího pohlceného poskoka téhož typu.<br>",
+						"icon": "ASSETS/Perks/Styles/Inspiration/TheClearChoice/TheClearChoice.dds"
+					}
+				]
+			},
+			{
+				"runes": [
+					{
+						"id": 8347,
+						"key": "Intelligence",
+						"name": "Kosmické porozumění",
+						"shortDesc": "+@CDR*100@<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_CDR\"> % ke zkrácení přebíjecích dob</lol-uikit-tooltipped-keyword><br>+@CDR*100@ % k maximálnímu zkrácení přebíjecích dob<br>+@CDR*100@ % ke zkrácení přebíjecích dob vyvolávačových kouzel<br>+@CDR*100@ % ke zkrácení přebíjecích dob předmětů",
+						"longDesc": "+@CDR*100@ % ke zkrácení přebíjecích dob<br>+@CDR*100@ % k maximálnímu zkrácení přebíjecích dob<br>+@CDR*100@ % ke zkrácení přebíjecích dob vyvolávačových kouzel<br>+@CDR*100@ % ke zkrácení přebíjecích dob předmětů",
+						"icon": "ASSETS/Perks/Styles/Inspiration/Intelligence/Intelligence.dds"
+					},
+					{
+						"id": 8410,
+						"key": "HotPursuit",
+						"name": "Náběhová rychlost",
+						"shortDesc": "Když míříš k nedalekým spojeneckým šampionům, jimž byla <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairMov\">omezena pohyblivost</lol-uikit-tooltipped-keyword>, nebo k nepřátelským šampionům, kteří byli zasaženi tvým vlastním efektem pro omezení pohyblivosti</lol-uikit-tooltipped-keyword>, získáš bonus k <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">rychlosti pohybu.",
+						"longDesc": "Když míříš k nedalekým spojeneckým šampionům, jimž byla omezena pohyblivost, nebo k nepřátelským šampionům, kteří byli zasaženi tvým vlastním efektem pro omezení pohyblivosti, získáš @MovementSpeedPercentBonus.0*100@ % k rychlosti pohybu. <br><br>Dosah: @ActivationDistance@",
+						"icon": "ASSETS/Perks/Styles/Resolve/HotPursuit/HotPursuit.dds"
+					},
+					{
+						"id": 8339,
+						"key": "TheThirdPath",
+						"name": "Nebeské těleso",
+						"shortDesc": "+@HealthBonus@ zdraví (trvale)<br>-@ChampionDamagePenalty*100@ % k poškození způsobovanému šampionům a příšerám až do @EndTime@. minuty",
+						"longDesc": "+@HealthBonus@ zdraví (trvale)<br>-@ChampionDamagePenalty*100@ % k poškození způsobovanému šampionům a příšerám až do @EndTime@. minuty<br><br><hr></hr><br><i>„Ty nejslavnější legendy žijí dál mezi hvězdami.“ <br>- Daphna, Poutnice mezi sny</i>",
+						"icon": "ASSETS/Perks/Styles/Inspiration/TheThirdPath/TheThirdPath.dds"
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 8000,
+		"key": "Precision",
+		"name": "Přesnost",
+		"icon": "ASSETS/Perks/Styles/7201_Precision.dds",
+		"slots": [
+			{
+				"runes": [
+					{
+						"id": 8005,
+						"key": "PressThreeAttacks",
+						"name": "Nepolevující útok",
+						"shortDesc": "Když @HitsRequired@x po sobě zasáhneš nějakého šampiona, stane se zranitelným, uštědříš mu bonusové poškození a zajistíš, že po dobu @AmpDuration@ sek. mu bude ze všech zdrojů způsobováno zvýšené poškození.",
+						"longDesc": "Zasáhneš-li nějakého nepřátelského šampiona @HitsRequired@ základními útoky po sobě, způsobíš mu @MinDamage@-@MaxDamage@ bodů bonusového <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>adaptivního poškození</font></lol-uikit-tooltipped-keyword> (v závislosti na úrovni) a učiníš jej zranitelným, což bude mít za následek, že mu po dobu @AmpDuration@ sek. bude ze všech zdrojů způsobováno o @AmpPotencySelf.0*100@ % vyšší poškození.",
+						"icon": "ASSETS/Perks/Styles/Precision/PressThreeAttacks/PressThreeAttacks.dds"
+					},
+					{
+						"id": 8008,
+						"key": "Berserk",
+						"name": "Smrtící tempo",
+						"shortDesc": "@LeadInDelay.1@ sek. poté, co způsobíš poškození nějakému šampionovi, získáš výrazný bonus k rychlosti útoků. Smrtící tempo ti umožní dočasně překonat limit rychlosti útoků.",
+						"longDesc": "@LeadInDelay.1@ sek. poté, co způsobíš poškození nějakému šampionovi, získáš na @AttackSpeedBuffDurationMin@ sek. @AttackSpeedMin*100@-@AttackSpeedMax*100@ % k rychlosti útoků (podle úrovně). Když zaútočíš na šampiona, efekt se prodlouží na @AttackSpeedBuffDurationMax@ sek.<br><br>Přebíjecí doba: @Cooldown@ sek.<br><br>{{perk_displayname_FlowofBattle}} ti umožní dočasně překonat limit rychlosti útoků.",
+						"icon": "ASSETS/Perks/Styles/Precision/FlowofBattle/FlowofBattleTemp.dds"
+					},
+					{
+						"id": 8021,
+						"key": "KSFleetFootwork",
+						"name": "Hbité nohy",
+						"shortDesc": "Útočením a pohybováním se nasčítávají stupně energie. Po dosažení 100 stupňů tě tvůj následující útok vyléčí a zvýší ti <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">rychlost pohybu</lol-uikit-tooltipped-keyword>.",
+						"longDesc": "Útočením a pohybováním se nasčítávají stupně energie. Po dosažení 100 stupňů bude tvůj následující útok nabitý energií.<br><br>Útoky nabité energií ti vyléčí @HealBase@-@HealMax@ zdraví (+@HealBonusADRatio.-1@ bonusového útočného poškození, +@HealAPRatio.-1@ síly schopností) a poskytnou ti na @MSDuration.0@ sek. +@MSBuff*100@ % k rychlosti pohybu.<br><rules>Při použití na poskoka je účinnost léčení @MinionHealMod*100@ %.<br>Pokud k léčení dojde při kritickém zásahu, zvýší se léčení o @HealCritMod*100@ % tvého modifikátoru kritického zásahu.</rules>",
+						"icon": "ASSETS/Perks/Styles/Precision/KSFleetFootwork/KSFleetFootwork.dds"
+					}
+				]
+			},
+			{
+				"runes": [
+					{
+						"id": 9101,
+						"key": "Overheal",
+						"name": "Přeléčení",
+						"shortDesc": "Přebytečné léčení se na tobě mění na štít.",
+						"longDesc": "Léčení nad tvou úroveň maximálního zdraví se přemění na štít, jehož síla může být až @ShieldCapRatio.0*100@ % tvého celkového zdraví + @MaxBaseShieldCap@ bodů.<br><br>Pokud jsi zdrojem léčení přímo ty, přechází do štítu @ShieldGenerationRateSelf.0*100@ % přebytečného léčení. V případě, že tě léčí spojenci, tvoří štít @ShieldGenerationRateOtherMax.0*100@ % přebytečného léčení.",
+						"icon": "ASSETS/Perks/Styles/Precision/Overheal.dds"
+					},
+					{
+						"id": 9111,
+						"key": "AdrenalineRush",
+						"name": "Triumf",
+						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Likvidace</lol-uikit-tooltipped-keyword> ti obnovují @MissingHealthRestored.0*100@ % chybějícího zdraví a poskytnou ti navíc @BonusGold@ zlaťáků. ",
+						"longDesc": "Doražení obnoví @MissingHealthRestored.0*100@ % chybějícího zdraví a poskytne ti navíc @BonusGold@ zlaťáků. <br><br><hr></hr><br><i>„Nejnebezpečnější hra přináší tu největší slávu.“ <br>- Noxijský průzkumník</i>",
+						"icon": "ASSETS/Perks/Styles/Precision/DangerousGame.dds"
+					},
+					{
+						"id": 8009,
+						"key": "CastOnKill",
+						"name": "Duchapřítomnost",
+						"shortDesc": "Po dobu @BuffDuration@ sek. od získání nové úrovně nebo likvidace protivníka se ti plně obnovuje veškerá používaná mana.",
+						"longDesc": "Po dobu @BuffDuration@ sek. od získání nové úrovně nebo likvidace protivníka se ti plně obnovuje veškerá používaná mana.",
+						"icon": "ASSETS/Perks/Styles/Precision/LastResort/LastResortIcon.dds"
+					}
+				]
+			},
+			{
+				"runes": [
+					{
+						"id": 9104,
+						"key": "LegendDauntless",
+						"name": "Legenda: Horlivost",
+						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Likvidováním</lol-uikit-tooltipped-keyword> nepřátel získáváš trvalý bonus k <b>rychlosti útoků</b>. ",
+						"longDesc": "Získáš @AttackSpeedBase*100@ % k rychlosti útoků plus dodatečných @AttackSpeedPerStack*100@ % za každý stupeň <i>Legendy</i> (max. @MaxLegendStacks@ stupňů).<br><br>Stupně <i>Legendy</i> postupně získáváš likvidací šampionů, likvidací epických příšer, zabíjením velkých příšer a zabíjením poskoků.",
+						"icon": "ASSETS/Perks/Styles/Precision/Legend_Heroism.dds"
+					},
+					{
+						"id": 9105,
+						"key": "LegendTenacity",
+						"name": "Legenda: Houževnatost",
+						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Likvidováním</lol-uikit-tooltipped-keyword> nepřátel získáváš trvalý bonus k <b>houževnatosti</b>. ",
+						"longDesc": "Získáš @TenacityBase*100@ % k houževnatosti plus dodatečných @TenacityPerStack*100@ % za každý stupeň <i>Legendy</i> (max. @MaxLegendStacks@ stupňů).<br><br>Stupně <i>Legendy</i> postupně získáváš likvidací šampionů, likvidací epických příšer, zabíjením velkých příšer a zabíjením poskoků.",
+						"icon": "ASSETS/Perks/Styles/Precision/Legend_Tenacity.dds"
+					},
+					{
+						"id": 9103,
+						"key": "LegendInfamy",
+						"name": "Legenda: Pokrevní linie",
+						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Likvidováním</lol-uikit-tooltipped-keyword> nepřátel získáváš trvalý bonus k <b>léčení útoky</b>. ",
+						"longDesc": "Získáš @LifeStealPerStack*100@ % k léčení útoky za každý stupeň <i>Legendy</i> (max. @MaxLegendStacks@ stupňů).<br><br>Stupně <i>Legendy</i> postupně získáváš likvidací šampionů, likvidací epických příšer, zabíjením velkých příšer a zabíjením poskoků.",
+						"icon": "ASSETS/Perks/Styles/Precision/Legend_Infamy.dds"
+					}
+				]
+			},
+			{
+				"runes": [
+					{
+						"id": 8014,
+						"key": "CoupDeGrace",
+						"name": "Rána z milosti",
+						"shortDesc": "Šampionům s nízkou hodnotou zdraví způsobuješ zvýšené poškození.",
+						"longDesc": "Šampionům s méně než @EnemyHealthPercentageThreshold*100@ % zdraví způsobuješ o @BonusPercentDamage.0 *100@ % vyšší poškození.<br><br>Likvidace šampionů ti navíc na @Duration@ sek. poskytuje {{ perk_subtext_AdaptiveForce }}.",
+						"icon": "ASSETS/Perks/Styles/Precision/CoupDeGrace/CoupDeGrace.dds"
+					},
+					{
+						"id": 8017,
+						"key": "GiantSlayer",
+						"name": "Podseknutí",
+						"shortDesc": "Šampionům, kteří mají více maximálního zdraví než ty, způsobují tvoje útoky vyšší poškození.",
+						"longDesc": "Všem šampionům, kteří mají o @MinHealthDifference@ víc maximálního zdraví než ty, způsobují tvoje útoky o @MinBonusDamagePercent.0*100@ % vyšší poškození. Pokud mají o @MaxHealthDifference@ víc maximálního zdraví než ty, zvyšuje se tento bonus na @MaxBonusDamagePercent.0*100@ %.",
+						"icon": "ASSETS/Perks/Styles/Precision/GiantSlayer/GiantSlayer.dds"
+					},
+					{
+						"id": 8299,
+						"key": "ToTheDeath",
+						"name": "Poslední vzdor",
+						"shortDesc": "Pokud máš málo zdraví, způsobuješ šampionům zvýšené poškození.",
+						"longDesc": "Pokud máš méně než @HealthThresholdStart.0*100@ % zdraví, způsobuješ šampionům o @MinBonusDamagePercent.0*100@-@MaxBonusDamagePercent.0*100@ % vyšší poškození. Maximálního poškození dosáhneš na @HealthThresholdEnd.0*100@ % zdraví.",
+						"icon": "ASSETS/Perks/Styles/Sorcery/ToTheDeath/ToTheDeath.dds"
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 8400,
+		"key": "Resolve",
+		"name": "Odhodlání",
+		"icon": "ASSETS/Perks/Styles/7204_Resolve.dds",
+		"slots": [
+			{
+				"runes": [
+					{
+						"id": 8437,
+						"key": "KSRuinedKing",
+						"name": "Spáry nehynoucích",
+						"shortDesc": "Vždy po uplynutí @TriggerTime@ sek. způsobí tvůj následující útok vůči šampionovi bonusové magické poškození, navíc tě vyléčí a permanentně ti zvýší zdraví.",
+						"longDesc": "Když bojuješ, vždy po uplynutí @TriggerTime@ sek. má tvůj příští základní útok vedený proti šampionovi tyto efekty: <li>Způsobí bonusové magické poškození ve výši @PercentHealthDamage.0@ % tvého maximálního zdraví<br>Vyléčí ti @PercentHealthHeal.0*100@ % tvého maximálního zdraví<br>Trvale ti zvýší zdraví o @MaxHealthPerProc@</li><br><rules><i>Střelečtí šampioni:</i> Poškození i léčení jsou poloviční a místo uvedené hodnoty trvale přidávají @RangedHealthPerProc@ zdraví.</rules>",
+						"icon": "ASSETS/Perks/Styles/Resolve/KSRuinedKing/KSRuinedKing.dds"
+					},
+					{
+						"id": 8439,
+						"key": "Vengeance",
+						"name": "Následný otřes",
+						"shortDesc": "Když <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Immobilize\">znehybníš</lol-uikit-tooltipped-keyword> nepřátelského šampiona, získáš bonus k obraně a později kolem sebe vyvoláš výboj <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">adaptivního poškození</lol-uikit-tooltipped-keyword>.",
+						"longDesc": "Poté, co znehybníš nepřátelského šampiona, se ti na @DelayBeforeBurst.1@ sek. zvýší hodnota brnění a odolnosti vůči magii o @FlatResists@ bodů + @ResistInc.0*100@ %. Pak dojde k explozi, která způsobí magické poškození okolním nepřátelům.<br><br>Poškození: @StartingBaseDamage@-@MaxBaseDamage@ bodů (+@HealthRatio.1@ % tvého maximálního zdraví)<br>Přebíjecí doba: @Cooldown@ sek.",
+						"icon": "ASSETS/Perks/Styles/Resolve/VeteranVengeance/VeteranVengeance.dds"
+					},
+					{
+						"id": 8465,
+						"key": "KSBuddyShield",
+						"name": "Strážce",
+						"shortDesc": "Střež spojence, na které sešleš nějaké kouzlo nebo kteří se nacházejí v tvojí těsné blízkosti. Pokud byste ty nebo nějaký střežený spojenec měli utržit poškození, oba získáte zrychlení a štít.",
+						"longDesc": "{{ perk_shared_desc_KSBuddyShield }}<br><br>Přebíjecí doba: @Cooldown@ sek.<br>Štít: @ShieldBase@-@ShieldMax@ +(<scaleAP>@APRatio.-1@ síly schopností</scaleAP>) + (<scalehealth>+@HPRatio.0*100@ % bonusového zdraví</scalehealth>).<br>Zrychlení: +@Haste*100@ % k rychlosti pohybu.",
+						"icon": "ASSETS/Perks/Styles/Resolve/KSBuddyShield/KSBuddyShield.dds"
+					}
+				]
+			},
+			{
+				"runes": [
+					{
+						"id": 8242,
+						"key": "Recharge",
+						"name": "Neochvějnost",
+						"shortDesc": "Po seslání vyvolávačova kouzla získáš na chvíli bonus k houževnatosti a odolnosti vůči zpomalení. Za každé vyvolávačovo kouzlo, kterému se počítá přebíjecí doba, navíc obdržíš zvýšení houževnatosti a odolnosti vůči zpomalení. ",
+						"longDesc": "Po seslání vyvolávačova kouzla získáš na @BuffDuration@ sek. @BonusTenacity*100@ % k houževnatosti a odolnosti vůči zpomalení. Za každé vyvolávačovo kouzlo, kterému se počítá přebíjecí doba, se ti navíc houževnatost a odolnost vůči zpomalení zvýší o @PersistTenacity*100@ %. ",
+						"icon": "ASSETS/Perks/Styles/Sorcery/Recharge/Recharge.dds"
+					},
+					{
+						"id": 8446,
+						"key": "Siege",
+						"name": "Zničit",
+						"shortDesc": "Když se nacházíš poblíž věže, nabiješ si proti ní mocný útok.",
+						"longDesc": "Když se nacházíš v okruhu @DistanceToTower@ jednotek od věže, nabiješ si během @TotalSiegeTime@ sek. mocný útok, který proti ní budeš moci použít. Nabitý útok způsobuje bonusové fyzické poškození ve výši @OutputDamagePerStack@ bodů (+@MaxHealthPercentDamage.0 * 100@ % tvého maximálního zdraví).<br><br>Přebíjecí doba: @CooldownSeconds@ sek.",
+						"icon": "ASSETS/Perks/Styles/Resolve/BrickHitHouse/BrickHitHouse.dds"
+					},
+					{
+						"id": 8463,
+						"key": "BloodFromStone",
+						"name": "Pramen života",
+						"shortDesc": "Když nějakému nepřátelskému šampionovi <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairMov\">omezíš</lol-uikit-tooltipped-keyword> pohyblivost, označíš ho. Když pak tvoji spojenci zaútočí na takto označeného protivníka, vyléčí se. ",
+						"longDesc": "Když nějakému nepřátelskému šampionovi omezíš pohyblivost, na @MarkDuration@ sek. ho označíš. <br><br>Spojenečtí šampioni, kteří na takto označené šampiony zaútočí, se během @HealDuration@ sek. vyléčí ve výši @FlatHealAmount@ bodů + @HealthRatio.-1 * 100@ % tvého maximálního zdraví. ",
+						"icon": "ASSETS/Perks/Styles/Resolve/BloodFromStone/BloodFromStone.dds"
+					}
+				]
+			},
+			{
+				"runes": [
+					{
+						"id": 8430,
+						"key": "NemMarks",
+						"name": "Železná kůže",
+						"shortDesc": "Získáš +@ArmorBase@ brnění. <br>Léčení, a to včetně pomocí spotřebovatelných předmětů, ti dočasně zvyšuje hodnotu brnění o @TotalExtraArmor*100@ %.",
+						"longDesc": "Získáš +@ArmorBase@ k brnění. <br><br>Léčivé efekty ze spotřebovatelných předmětů, léčení ve výši alespoň @FlatHealThreshold@ zdraví a štíty ti na @EvolveArmorDuration@ sek. zvyšují hodnotu brnění o @TotalExtraArmor*100@ %.",
+						"icon": "ASSETS/Perks/Styles/Resolve/NemMarks/NemMarks.dds"
+					},
+					{
+						"id": 8435,
+						"key": "NemMage",
+						"name": "Zrcadlový krunýř",
+						"shortDesc": "Získáš +@MRBase@ k odolnosti vůči magii. <br>Léčení, a to včetně pomocí spotřebovatelných předmětů, ti dočasně zvyšuje odolnost vůči magii o @EvolveBonusMR*100@ %.<br>",
+						"longDesc": "Získáš +@MRBase@ k odolnosti vůči magii. <br><br>Léčivé efekty ze spotřebovatelných předmětů, léčení ve výši alespoň @FlatHealThreshold@ zdraví a štíty ti na @EvolveShellDuration@ sek. zvyšují odolnost vůči magii o @EvolveBonusMR*100@ %. ",
+						"icon": "ASSETS/Perks/Styles/Resolve/NemMage/NemMage.dds"
+					},
+					{
+						"id": 8429,
+						"key": "NemFighter",
+						"name": "Udržování kondice",
+						"shortDesc": "Po @MinutesRequired@ min. získáš @ArmorBase@ brnění a @MRBase@ k odolnosti vůči magii a hodnoty brnění a odolnosti vůči magii se ti zvýší o @ExtraResist@ %.",
+						"longDesc": "{{ perk_short_desc_NemFighter }}",
+						"icon": "ASSETS/Perks/Styles/Resolve/NemFighter/NemFighter.dds"
+					}
+				]
+			},
+			{
+				"runes": [
+					{
+						"id": 8451,
+						"key": "HealthBandit",
+						"name": "Přehnaný růst",
+						"shortDesc": "Kdykoliv ve tvé blízkosti zemře nějaký nepřátelský poskok nebo příšera, tvé maximální zdraví se trvale zvýší.",
+						"longDesc": "Za každých @UnitsPerTier@ příšer či nepřátelských poskoků, které zemřou ve tvé blízkosti, se ti maximální zdraví trvale zvýší o @MaxHealthRatioPerTier*100@ %.",
+						"icon": "ASSETS/Perks/Styles/Resolve/HealthBandit/HealthBandit.dds"
+					},
+					{
+						"id": 8453,
+						"key": "AmpShields",
+						"name": "Oživit",
+						"shortDesc": "Účinnost tebou sesílaných nebo přijímaných léčení a štítů je o @StandardAmp.0@ % vyšší, u cílů s nízkým zdravím se tato hodnota zvyšuje o dalších @ExtraAmp.0@ %.",
+						"longDesc": "Účinnost tebou sesílaných nebo přijímaných léčení a štítů je o @StandardAmp.0@ % vyšší, u cílů s méně než @HealthCutoff.0@ % zdraví se tato hodnota zvyšuje o dalších @ExtraAmp.0@ %.",
+						"icon": "ASSETS/Perks/Styles/Resolve/AmpShields/AmpShields.dds"
+					},
+					{
+						"id": 8444,
+						"key": "SecondWind",
+						"name": "Druhý dech",
+						"shortDesc": "Poté, co utrpíš poškození od nepřátelského šampiona, si během určité doby obnovíš část chybějícího zdraví. ",
+						"longDesc": "Poté, co utrpíš poškození od nepřátelského šampiona, si během @RegenSeconds@ sek. vyléčíš @RegenPercentMax.0*100@ % chybějícího zdraví +@RegenFlat.0@ zdraví.",
+						"icon": "ASSETS/Perks/Styles/Resolve/SecondWind/SecondWind.dds"
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 8200,
+		"key": "Sorcery",
+		"name": "Čarodějnictví",
+		"icon": "ASSETS/Perks/Styles/7202_Sorcery.dds",
+		"slots": [
+			{
+				"runes": [
+					{
+						"id": 8214,
+						"key": "SummonAery",
+						"name": "Vyvolat Aery",
+						"shortDesc": "Tvé útoky a schopnosti vysílají na cíl Aery, která způsobí poškození nepřátelům a spojencům poskytne štít.",
+						"longDesc": "Tvé útoky a schopnosti vyšlou Aery k danému cíli, nepřátelské šampiony tím poškodí a spojencům poskytne štít.<br><br>Poškození: @DamageBase@-@DamageMax@ bodů v závislosti na úrovni (+<scaleAP>@DamageAPRatio.-1@ síly schopností</scaleAP> a +<scaleAD>@DamageADRatio.-1@ bonusového útočného poškození</scaleAD>)<br>Štít: @ShieldBase@-@ShieldMax@ bodů v závislosti na úrovni (+<scaleAP>@ShieldRatio.-1@ síly schopností</scaleAP> a +<scaleAD>@ShieldRatioAD.-1@ bonusového útočného poškození</scaleAD>) <br><br>Aery nelze vyslat znovu, dokud se k tobě nevrátí.",
+						"icon": "ASSETS/Perks/Styles/Sorcery/SummonAery/SummonAery.dds"
+					},
+					{
+						"id": 8229,
+						"key": "ArcaneComet",
+						"name": "Magická kometa",
+						"shortDesc": "Když nějakému šampionovi způsobíš poškození svou schopností, hodíš na jeho pozici kometu, která mu způsobí další poškození.",
+						"longDesc": "Když nějakému šampionovi způsobíš poškození svou schopností, vrhneš na jeho pozici kometu. Jestliže Magické kometě právě běží přebíjecí doba, její zbývající přebíjecí doba se zkrátí.<br><br><lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>Adaptivní poškození</font></lol-uikit-tooltipped-keyword>: @DamageBase@-@DamageMax@ bodů v závislosti na úrovni (<scaleAP>+@APRatio.-1@ síly schopností</scaleAP> a <scaleAD>@ADRatio.-1@ bonusového útočného poškození</scaleAD>)<br>Přebíjecí doba: @RechargeTime@-@RechargeTimeMin@ sek.<br><rules><br>Zkrácení přebíjecí doby:<br>Jeden cíl: @PercentRefund*100@ %.<br>Plošný efekt: @AoEPercentRefund*100@ %.<br>Postupné poškození: @DotPercentRefund*100@ %.<br></rules>",
+						"icon": "ASSETS/Perks/Styles/Sorcery/ArcaneComet/ArcaneComet.dds"
+					},
+					{
+						"id": 8230,
+						"key": "PhaseRush",
+						"name": "Fázový shon",
+						"shortDesc": "Pokud nějakého šampiona zasáhneš 3 <b>samostatnými</b> útoky nebo schopnostmi, získáš krátký bonus k <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">rychlosti pohybu</lol-uikit-tooltipped-keyword>. ",
+						"longDesc": "Pokud během @Window@ sek. zasáhneš nějakého šampiona 3 útoky nebo <b>samostatnými</b> schopnostmi, získáš @HasteBase*100@-@HasteMax*100@ % k rychlosti pohybu (v závislosti na úrovni) a @SlowResist*100@ % k odolnosti vůči zpomalení.<br><br>Trvání: @Duration@ sek.<br>Přebíjecí doba: @Cooldown@ sek.",
+						"icon": "ASSETS/Perks/Styles/Sorcery/PhaseRush/PhaseRush.dds"
+					}
+				]
+			},
+			{
+				"runes": [
+					{
+						"id": 8224,
+						"key": "NullifyingOrb",
+						"name": "Neutralizující oko",
+						"shortDesc": "Když ti klesne zdraví příliš nízko vinou utrpěného magického poškození, získáš štít proti magickému poškození.",
+						"longDesc": "Pokud utrpíš magické poškození, při kterém by ti kleslo zdraví pod @PercHealthTrigger.0*100@ %, získáš štít, který během @ShieldDuration@ sek. absorbuje v závislosti na úrovni @ShieldMin@-@ShieldMax@ bodů magického poškození (<scaleAP>+@APRatio.-1@ síly schopností</scaleAP> a <scaleAD>+@ADRatio.-1@ bonusového útočného poškození</scaleAD>).<br><br>Přebíjecí doba: @Cooldown@ sek.",
+						"icon": "ASSETS/Perks/Styles/Sorcery/NullifyingOrb/Pokeshield.dds"
+					},
+					{
+						"id": 8226,
+						"key": "ManaflowBand",
+						"name": "Prsten manového proudu",
+						"shortDesc": "V určitém intervalu ti tvoje následující použité kouzlo vrátí manu či energii spotřebovanou na jeho seslání a obnoví ti část chybějící many či energie.",
+						"longDesc": "Každých @Cooldown.0@ sek. ti tvoje následující použité kouzlo vrátí manu či energii spotřebovanou na jeho seslání a obnoví ti @MPToRestoreRatio.0*100@ % tvé chybějící many či energie.",
+						"icon": "ASSETS/Perks/Styles/Sorcery/ManaflowBand/ManaflowBand.dds"
+					},
+					{
+						"id": 8243,
+						"key": "TheUltimateHat",
+						"name": "Ultimátní klobouk",
+						"shortDesc": "Tvoje ultimátní schopnost má kratší přebíjecí dobu. Ta se navíc dál zkrátí pokaždé, kdykoliv svou ultimátku sešleš.",
+						"longDesc": "Přebíjecí doba tvé ultimátní schopnosti se sníží o @StartingCDR@ %. Kdykoliv sešleš ultimátku, její přebíjecí doba se trvale zkrátí o @CDChunkPerStack@ %. Efekt se může nasčítat až @MaxStacks@x.",
+						"icon": "ASSETS/Perks/Styles/Sorcery/TheUltimateHat/TheUltimateHat.dds"
+					}
+				]
+			},
+			{
+				"runes": [
+					{
+						"id": 8210,
+						"key": "Transcendence",
+						"name": "Prostoupení",
+						"shortDesc": "Když se dostaneš na @LevelToTurnOn@. úroveň, získáš @MaxCDR*100@ % ke <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_CDR\">zkrácení přebíjecích dob</lol-uikit-tooltipped-keyword>. Přebývající hodnota zkrácení přebíjecích dob se <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">adaptivně</lol-uikit-tooltipped-keyword> přemění na sílu schopností nebo útočné poškození.",
+						"longDesc": "Po dosažení @LevelToTurnOn@. úrovně získáš @MaxCDR*100@ % ke zkrácení přebíjecích dob.<br><br>Každé procento zkrácení přebíjecích dob, které překročí limit zkrácení přebíjecích dob, se promění na {{ perk_subtext_AdaptiveForce }}.",
+						"icon": "ASSETS/Perks/Styles/Sorcery/Transcendence/Transcendence.dds"
+					},
+					{
+						"id": 8234,
+						"key": "Celerity",
+						"name": "Rychlost",
+						"shortDesc": "Získáváš @PercentMS.0@ % k <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">rychlosti pohybu</lol-uikit-tooltipped-keyword>. V závislosti na bonusové rychlosti pohybu získáváš <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">adaptivní</lol-uikit-tooltipped-keyword> bonus k síle schopností nebo útočnému poškození. ",
+						"longDesc": "Získáš @PercentMS.0@ % k rychlosti pohybu.<br>Tvoje bonusová rychlost pohybu se <font color='#48C4B7'>adaptivně</font> převádí do útočného poškození nebo síly schopností, a to v poměru @AdaptiveAD*8@ % do útočného poškození nebo @AdaptiveAP*8@ % do síly schopností.",
+						"icon": "ASSETS/Perks/Styles/Sorcery/Celerity/CelerityTemp.dds"
+					},
+					{
+						"id": 8233,
+						"key": "AbsoluteFocus",
+						"name": "Absolutní soustředění",
+						"shortDesc": "Když máš víc než @HealthPercent*100@ % zdraví, získáš bonusové <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">adaptivní poškození</lol-uikit-tooltipped-keyword>.",
+						"longDesc": "Když máš víc než @HealthPercent*100@ % zdraví, získáš {{ perk_subtext_AdaptiveForce_Max }} (podle úrovně).",
+						"icon": "ASSETS/Perks/Styles/Sorcery/AbsoluteFocus/AbsoluteFocus.dds"
+					}
+				]
+			},
+			{
+				"runes": [
+					{
+						"id": 8237,
+						"key": "Scorch",
+						"name": "Sežehnutí",
+						"shortDesc": "Vždy po uplynutí @BurnlockoutDuration@ sek. tvá první seslaná schopnost popálí zasažené šampiony.",
+						"longDesc": "Tvoje následující schopnost zapálí zasažené šampiony, kteří tak během @dotduration@ sek. utrpí @damage@-@damagemax@ bodů bonusového magického poškození (v závislosti na úrovni).<br><br>Přebíjecí doba: @BurnlockoutDuration@ sek.",
+						"icon": "ASSETS/Perks/Styles/Sorcery/Scorch/Scorch.dds"
+					},
+					{
+						"id": 8232,
+						"key": "Waterwalking",
+						"name": "Chůze po vodě",
+						"shortDesc": "Když jsi v řece, získáš bonus k <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">rychlosti pohybu</lol-uikit-tooltipped-keyword> a <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">adaptivně</lol-uikit-tooltipped-keyword> také k síle schopností nebo útočnému poškození.",
+						"longDesc": "Když jsi v řece, získáš @MovementSpeed@ bodů k rychlosti pohybu a {{ perk_subtext_AdaptiveForce_Max }} (podle úrovně).<br><br><hr></hr><br><i>Kéž máš rychlost divoké řeky a hbitost vyplašeného říčního kraba.</i><br>",
+						"icon": "ASSETS/Perks/Styles/Sorcery/Waterwalking/Waterwalking.dds"
+					},
+					{
+						"id": 8236,
+						"key": "GatheringStorm",
+						"name": "Ženoucí se bouře",
+						"shortDesc": "V průběhu zápasu získáváš zvyšující se <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">adaptivní</lol-uikit-tooltipped-keyword> bonus k útočnému poškození nebo síle schopností.",
+						"longDesc": "Vždy po uplynutí @UpdateAfterMinutes@ min. získáš bonus k síle schopností či útočnému poškození (<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptivně</font></lol-uikit-tooltipped-keyword>).<br><br><i>10 minut</i>: + 8 k síle schopností nebo 5 k útočnému poškození.<br><i>20 minut</i>: + 24 k síle schopností nebo 14 k útočnému poškození <br><i>30 minut</i>: dalších + 48 k síle schopností nebo 29 k útočnému poškození<br><i>40 minut</i>: + 80 k síle schopností nebo 48 k útočnému poškození<br><i>50 minut</i>: + 120 k síle schopností nebo 72 k útočnému poškození<br><i>60 min</i>: + 168 k síle schopností nebo 101 k útočnému poškození<br>atd.",
+						"icon": "ASSETS/Perks/Styles/Sorcery/GatheringStorm/GatheringStorm.dds"
+					}
+				]
+			}
+		]
+	}
+]

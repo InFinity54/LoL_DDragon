@@ -1,0 +1,602 @@
+[
+	{
+		"id": 8100,
+		"key": "Domination",
+		"name": "Доминирование",
+		"icon": "ASSETS/Perks/Styles/7200_Domination.dds",
+		"slots": [
+			{
+				"runes": [
+					{
+						"id": 8112,
+						"key": "StormlordsMandate",
+						"name": "Казнь электричеством",
+						"shortDesc": "Наносит дополнительный <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">адаптивный урон</lol-uikit-tooltipped-keyword>, если вы поражаете врага 3 <b>отдельными</b> атаками или умениями в течение @WindowDuration@ сек.",
+						"longDesc": "Наносит дополнительный <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>адаптивный урон</font></lol-uikit-tooltipped-keyword>, если вы поражаете врага 3 <b>отдельными</b> атаками или умениями в течение @WindowDuration@ сек.<br><br>Урон: @DamageBase@-@DamageMax@ (+@BonusADRatio.-1@ от дополнительной силы атаки, +@APRatio.-1@ от силы умений).<br><br>Перезарядка: @Cooldown@-@CooldownMin@ сек.<br><br><hr></hr><i>''Мы зовем их повелителями грома, ибо упомянув их молнии, можно накликать катастрофу''.</i>",
+						"icon": "ASSETS/Perks/Styles/Domination/TLords/TLords.dds"
+					},
+					{
+						"id": 8124,
+						"key": "KSLycanthropy",
+						"name": "Хищник",
+						"shortDesc": "У ваших ботинок появляется активный эффект, который значительно увеличивает <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">скорость передвижения</lol-uikit-tooltipped-keyword>, а также усиливает ваши следующие атаку или умение, благодаря чему они наносят дополнительный <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">адаптивный урон</lol-uikit-tooltipped-keyword>.",
+						"longDesc": "Зачаровывает ваши ботинки активным эффектом <font color='#c60300'>{{perk_displayname_KSLycanthropy}}</font>.<br><br>{{ game_itemmod_bloodmoonboots }}",
+						"icon": "ASSETS/Perks/Styles/Domination/KSLycanthropy/KSLycanthropy.dds"
+					},
+					{
+						"id": 8128,
+						"key": "KSSoulReaper",
+						"name": "Темная жатва",
+						"shortDesc": "Чемпионы, большие миньоны и большие монстры оставляют после смерти эссенцию души. Коснитесь души, чтобы поглотить ее и нанести дополнительный <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">адаптивный урон</lol-uikit-tooltipped-keyword> во время следующей автоатаки в зависимости от общего количества собранной эссенции души.",
+						"longDesc": "Чемпионы, большие миньоны и большие монстры после смерти оставляют эссенцию души. Собирайте души, чтобы получить <font color='#c60300'>Заряд душ</font>. Ваша следующая автоатака против чемпиона или строения поглощает <font color='#c60300'>Заряд душ</font> и наносит дополнительный <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>адаптивный урон</font></lol-uikit-tooltipped-keyword>.<br><br><font color='#c60300'>Заряд душ</font> существует в течение @ONHDuration@ сек. Время существования увеличивается до @ONHDurationLong@ сек. после подбора @SoulsRequiredForIncreasedDuration@ эссенции души.<br><br>Дополнительный урон: @DamageMin@-@DamageMax@ (+<scaleAD>@ADRatio.2@ от дополнительной силы атаки</scaleAD>) (+<scaleAP>@APRatio.1@ от силы умений</scaleAP>) + собранная эссенция души.<br><rules><br>Чемпионы: @champstacks@ эссенции души.<br>Монстры: @monsterstacks@ эссенции души.<br>Миньоны: @minionstacks@ эссенции души.</rules>",
+						"icon": "ASSETS/Perks/Styles/Domination/KSSoulReaper/KSSoulReaper.dds"
+					}
+				]
+			},
+			{
+				"runes": [
+					{
+						"id": 8126,
+						"key": "CheapShot",
+						"name": "Грязный прием",
+						"shortDesc": "Наносит дополнительный чистый урон вражеским чемпионам, которые <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairAct\">ограничены в передвижении или выполнении действий</lol-uikit-tooltipped-keyword>. ",
+						"longDesc": "Нанося урон чемпионам, которые <b>ограничены в передвижении или выполнении действий</b>, вы дополнительно наносите им @DamageIncMin@-@DamageIncMax@ чистого урона (в зависимости от уровня).<br><br>Перезарядка: @Cooldown@ сек.<br><rules>Распространяется на урон, который наносится после окончания ограничения.</rules>",
+						"icon": "ASSETS/Perks/Styles/Domination/Bully/Bully.dds"
+					},
+					{
+						"id": 8139,
+						"key": "Feast",
+						"name": "Вкус крови",
+						"shortDesc": "Восстанавливает здоровье, когда вы наносите урон вражескому чемпиону.",
+						"longDesc": "При нанесении урона вражескому чемпиону вы восстанавливаете себе здоровье.<br><br>Лечение: @HealAmount@-@HealAmountMax@ (+@ADRatio.-1@ от дополнительной силы атаки, +@APRatio.-1@ от силы умений) здоровья (в зависимости от уровня)<br><br>Перезарядка: @Cooldown@ сек.",
+						"icon": "ASSETS/Perks/Styles/Domination/Feast/GreenTerror_Feast.dds"
+					},
+					{
+						"id": 8143,
+						"key": "DashAttack",
+						"name": "Внезапный удар",
+						"shortDesc": "После прыжка, рывка, телепортации или выхода из скрытности ваши смертоносность и магическое пробивание ненадолго увеличиваются.",
+						"longDesc": "При нанесении любого урона чемпиону после прыжка, рывка, телепортации или выхода из скрытности ваша смертоносность увеличивается на @BonusLethality.0@, а магическое пробивание - на @BonusMpen.0@ на @Duration@ сек.<br><br>Перезарядка: @Cooldown@ сек.",
+						"icon": "ASSETS/Perks/Styles/Domination/DashAttack/DashAttack.dds"
+					}
+				]
+			},
+			{
+				"runes": [
+					{
+						"id": 8136,
+						"key": "ZombieWard",
+						"name": "Тотем-зомби",
+						"shortDesc": "Если вы уничтожаете тотем, на его месте появляется ваш Тотем-зомби. Кроме того, по окончании действия ваших тотемов они восстают в виде Тотемов-зомби.",
+						"longDesc": "Если вы уничтожаете тотем, на его месте появляется ваш Тотем-зомби. Кроме того, по окончании действия ваших тотемов они восстают в виде Тотемов-зомби.<br><br>Тотемы-зомби видимы для всех, существуют в течение @WardDuration@ сек. и не учитываются в ограничении на количество одновременно существующих тотемов.",
+						"icon": "ASSETS/Perks/Styles/Domination/ZombieWard/ZombieWard.dds"
+					},
+					{
+						"id": 8120,
+						"key": "ViciousPoro",
+						"name": "Призрачный поро",
+						"shortDesc": "Когда вы входите в кусты, в них появляется поро. Он остается там, обеспечивая вам обзор.",
+						"longDesc": "Зайдя в кусты, после небольшой подготовки вы призываете поро. Поро остается на месте, обеспечивая обзор, пока вы не призовете другого поро.<br><br>Если в эти же кусты заходит враг, поро пугается и убегает, а {{ perk_displayname_ViciousPoro }} уходит на перезарядку на @Cooldown@ сек.<br><br>Подготовка к призыву поро прерывается, если вы получаете урон.",
+						"icon": "ASSETS/Perks/Styles/Domination/ViciousPoro/ViciousPoro.dds"
+					},
+					{
+						"id": 8138,
+						"key": "WardSlayer",
+						"name": "Коллекция глаз",
+						"shortDesc": "Вы получаете глаза за <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">добивания</lol-uikit-tooltipped-keyword> чемпионов и тотемов. За каждый собранный глаз вы навсегда получаете силу атаки или силу умений (<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">адаптивно</lol-uikit-tooltipped-keyword>). После сбора полной коллекции эти показатели увеличиваются еще сильнее.",
+						"longDesc": "Вы получаете глаза за добивания чемпионов и тотемов. Каждый глаз дает вам {{ perk_subtext_AdaptiveForce }}.<br><br>Собрав полную коллекцию из @MaxEyeballs@ глаз, вы также получаете {{ perk_subtext_AdaptiveForce_EyeballCollection }}.<br><br>Вы получаете следующее количество глаз за различные действия: убийство чемпиона - @StacksPerTakedown@, содействие - @StacksPerAssist@, добивание тотема - @StacksPerWard@.",
+						"icon": "ASSETS/Perks/Styles/Domination/WardSlayer/WardSlayer.dds"
+					}
+				]
+			},
+			{
+				"runes": [
+					{
+						"id": 8135,
+						"key": "InsatiableHunter",
+						"name": "Ненасытный охотник",
+						"shortDesc": "<b>Уникальные</b> <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">добивания</lol-uikit-tooltipped-keyword> дают постоянное лечение при нанесении урона умениями.",
+						"longDesc": "Часть урона, который вы наносите умениями, возвращается к вам в виде здоровья.<br>Лечение: @StartingOmnivamp*100@% + @OmnivampPerStack*100@% за каждый заряд <i>Охотника за головами</i>. <br><br>Вы получаете заряды <i>Охотника за головами</i> за первое убийство каждого вражеского чемпиона (по одному заряду на врага).<br><rules><br>Лечение от умений, бьющих по площади, уменьшено втрое.</rules><br>",
+						"icon": "ASSETS/Perks/Styles/Domination/InsatiableHunter/InsatiableHunter.dds"
+					},
+					{
+						"id": 8134,
+						"key": "BigGameHunter",
+						"name": "Изобретательный охотник",
+						"shortDesc": "<b>Уникальные</b> <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">добивания</lol-uikit-tooltipped-keyword> навсегда <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_CDR\">сокращают перезарядку</lol-uikit-tooltipped-keyword> активных предметов (включая аксессуары).",
+						"longDesc": "Сокращает <b>время перезарядки активных предметов</b> на @StartingActiveItemCDR.0*100@% плюс @ActiveItemCDRPerStack.0*100@% за каждый заряд <i>Охотника за головами</i> (включая аксессуары).<br><br>Вы получаете заряды <i>Охотника за головами</i> за первое добивание каждого вражеского чемпиона (по одному заряду на врага).",
+						"icon": "ASSETS/Perks/Styles/Domination/BigGameHunter/BigGameHunter.dds"
+					},
+					{
+						"id": 8105,
+						"key": "ProlificHunter",
+						"name": "Беспощадный охотник",
+						"shortDesc": "<b>Уникальные</b> <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">добивания</lol-uikit-tooltipped-keyword> навсегда увеличивают <b><lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">скорость передвижения</lol-uikit-tooltipped-keyword> вне боя</b>. ",
+						"longDesc": "Увеличивает <b>скорость передвижения вне боя</b> на @StartingOOCMS@ плюс @OOCMS.0@ за каждый заряд <i>Охотника за головами</i>.<br><br>Вы получаете заряды <i>Охотника за головами</i> за первое добивание каждого вражеского чемпиона (по одному заряду на врага).",
+						"icon": "ASSETS/Perks/Styles/Domination/ProlificHunter/ProlificHunter.dds"
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 8300,
+		"key": "Inspiration",
+		"name": "Вдохновение",
+		"icon": "ASSETS/Perks/Styles/7203_Whimsy.dds",
+		"slots": [
+			{
+				"runes": [
+					{
+						"id": 8326,
+						"key": "KSAlchemicalEsoterica",
+						"name": "Раскрытая книга заклинаний",
+						"shortDesc": "Вы можете тратить Осколки заклинаний на замену заклинаний призывателя в магазине во время игры. Время перезарядки ваших заклинаний призывателя сокращено. <br>",
+						"longDesc": "Вы получаете Осколок заклинаний на @ShardFirstMinutes@ минуте, а после этого – по одному Осколку раз в @ShardRechargeMinutes@ мин. Максимальное количество: @Maxshards@.<br><br>Находясь около магазина, вы можете потратить Осколки заклинаний (@ShardCost@ шт.), чтобы поменять заклинание призывателя на другое. <br><br>Кроме того, время перезарядки вашего заклинания призывателя уменьшается на @SummonerCDR.0*100@%.<br><br><rules><i>Кара:</i> приобретя Кару, вы не получите доступа к предметам Кары<br>У вас не может быть двух одинаковых заклинаний призывателя</rules>",
+						"icon": "ASSETS/Perks/Styles/Inspiration/KSAlchemicalEsoterica/KSAlchemicalEsoterica.dds"
+					},
+					{
+						"id": 8351,
+						"key": "KSGlacialAugment",
+						"name": "Ледяной нарост",
+						"shortDesc": "Ваша первая атака против вражеского чемпиона замедляет его (на каждого чемпиона отдельная перезарядка). Замедляя чемпионов с помощью активных предметов, вы выпускаете в них ледяной луч, который создает вокруг них область замедления.",
+						"longDesc": "Поражая чемпионов автоатаками, вы замедляете их на @SlowDuration.0@ сек. Сила замедления постепенно увеличивается во время действия.<li><i>Дальний бой</i>: атаки дальнего боя замедляют на значение вплоть до @SlowAmountBase.0*-100@-@SlowAmountMax.0*-100@%</li> <li><i>Ближний бой</i>: атаки ближнего боя замедляют на значение вплоть до @SlowAmountBaseMelee.0*-100@-@SlowAmountMaxMelee.0*-100@%</li> <br>При замедлении чемпиона с помощью активных предметов вы выпускаете ледяной луч, который замораживает землю вокруг него на @SlowZoneDuration@ сек. Все бойцы на замороженной земле замедляются на @SlowZoneSlow*-100@%.<br><br>Перезарядка: @UnitCDBase@-@UnitCD16@ сек. для каждого бойца.",
+						"icon": "ASSETS/Perks/Styles/Inspiration/KSGlacialAugment/KSGlacialAugment.dds"
+					},
+					{
+						"id": 8359,
+						"key": "KSLooter",
+						"name": "Клептомантия",
+						"shortDesc": "После применения умения ваша следующая атака против чемпиона дает вам золото. Кроме того, вы можете получить расходуемый предмет.",
+						"longDesc": "После применения умения ваша следующая атака против чемпиона дает вам золото. Кроме того, вы можете получить расходуемый предмет.",
+						"icon": "ASSETS/Perks/Styles/Inspiration/KSLooter/KSLooter.dds"
+					}
+				]
+			},
+			{
+				"runes": [
+					{
+						"id": 8306,
+						"key": "DontBlink",
+						"name": "Хекстековый скачок",
+						"shortDesc": "Когда Скачок находится на перезарядке, его заменяет <i>Хекс-скачок</i>.<br><br><i>Хекс-скачок</i>: после подготовки перемещает вас на новое место.",
+						"longDesc": "Когда Скачок находится на перезарядке, его заменяет <i>Хекс-скачок</i>.<br><br><i>Хекс-скачок</i>: после @ChannelDuration@ сек. подготовки перемещает вас в новое место.<br><br>Перезарядка: @CooldownTime@ сек. Когда вы начинаете бой с чемпионом, заклинание уходит на перезарядку на @ChampionCombatCooldown@ сек.",
+						"icon": "ASSETS/Perks/Styles/Inspiration/DontBlink/DontBlink.dds"
+					},
+					{
+						"id": 8345,
+						"key": "BiscuitsAndBonuses",
+						"name": "Доставка печенья",
+						"shortDesc": "Вы получаете бесплатную печеньку каждые @BiscuitMinuteInterval@ мин. вплоть до @SwapOverMinute@ минуты. При использовании печеньки вы навсегда увеличиваете свой максимальный запас маны, а также восстанавливаете здоровье и ману.",
+						"longDesc": "Доставка печенья: вы получаете предмет {{game_item_displayname_2010}} каждые @BiscuitMinuteInterval@ мин. вплоть до @SwapOverMinute@ минуты.<br><br>Печеньки восстанавливают @HealthHealPercent.0*100@% от недостающего здоровья и маны. При использовании печенек они навсегда увеличивают ваш максимальный запас маны на @PermanentMana@. <br><br><i>Без маны:</i> чемпионы без маны восстанавливают себе @HealthHealPercentManaless.0*100@% от недостающего здоровья.",
+						"icon": "ASSETS/Perks/Styles/Inspiration/BiscuitsAndBonuses/BiscuitsAndBonuses.dds"
+					},
+					{
+						"id": 8313,
+						"key": "AllInGoodTime",
+						"name": "Самое время",
+						"shortDesc": "Дает бесплатный предмет {{game_item_displayname_2420}}. {{game_item_displayname_2420}} может единожды наложить на вас эффект <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Stasis\">Стазиса</lol-uikit-tooltipped-keyword>.",
+						"longDesc": "Вы начинаете игру с предметом {{ game_item_displayname_2419 }}, который превращается в предмет {{ game_item_displayname_2420 }} через @InitialCooldown.0@ мин. {{ game_item_displayname_2420 }} может единожды наложить на вас эффект Стазиса.<br><br>Сокращает перезарядку предметов {{ game_item_displayname_3157 }}, {{ game_item_displayname_3026 }} и {{ game_item_displayname_3193 }} на @PercentGAZhonyasCDR.0*100@%.",
+						"icon": "ASSETS/Perks/Styles/Style5/AllInGoodTime/AllInGoodTime.dds"
+					}
+				]
+			},
+			{
+				"runes": [
+					{
+						"id": 8304,
+						"key": "MagicalFootwear",
+						"name": "Магическая обувь",
+						"shortDesc": "Вы получаете бесплатные ботинки на @GiveBootsAtMinute@ минуте, но не можете купить ботинки до этого момента. Каждое <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">добивание</lol-uikit-tooltipped-keyword> сокращает время ожидания ботинок на @SecondsSoonerPerTakedown@ сек.",
+						"longDesc": "Вы получаете бесплатные {{game_item_displayname_2422}} на @GiveBootsAtMinute@ минуте, но не можете купить ботинки до этого момента. За каждое добивание чемпиона время, оставшееся до получения ботинок, сокращается на @SecondsSoonerPerTakedown@ сек.<br><br>{{game_item_displayname_2422}} дополнительно увеличивают вашу скорость передвижения на 10, а их улучшение стоит на 50 золота меньше.",
+						"icon": "ASSETS/Perks/Styles/Inspiration/MagicalFootwear/MagicalFootwear.dds"
+					},
+					{
+						"id": 8321,
+						"key": "NanaTaxman",
+						"name": "Рынок будущего",
+						"shortDesc": "Вы можете покупать предметы в долг.",
+						"longDesc": "Вы получаете возможность покупать предметы в долг. Максимальная сумма долга повышается со временем.<br><br>Комиссия: @ExcessCostPenaltyFlat@ золота",
+						"icon": "ASSETS/Perks/Styles/Style5/NanaTaxman/NanaTaxman.dds"
+					},
+					{
+						"id": 8316,
+						"key": "TheClearChoice",
+						"name": "Дезинтегратор миньонов",
+						"shortDesc": "Вы начинаете игру с предметом {{game_item_displayname_2403}} с @GainedMinionKillers@ зарядами. Убивая миньонов этим предметом, вы навсегда получаете прибавку к урону против миньонов этого типа.",
+						"longDesc": "В начале игры вы получаете предмет {{game_item_displayname_2403}} с @GainedMinionKillers@ зарядами, который мгновенно убивает и поглощает миньонов на линии. В течение первых @InitialCooldown@ сек. игры {{game_item_displayname_2403}} находится на перезарядке.<br><br>При поглощении миньона ваш урон против этого типа миньонов навсегда увеличивается на @DamageBonusForAnyAbsorbed.0*100@% и еще на @DamageBonusPerAdditionalAbsorbed.0*100@% за каждого дополнительного поглощенного миньона этого типа.<br>",
+						"icon": "ASSETS/Perks/Styles/Inspiration/TheClearChoice/TheClearChoice.dds"
+					}
+				]
+			},
+			{
+				"runes": [
+					{
+						"id": 8347,
+						"key": "Intelligence",
+						"name": "Космическое знание",
+						"shortDesc": "+@CDR*100@% <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_CDR\">сокращения перезарядки</lol-uikit-tooltipped-keyword><br>+@CDR*100@% максимального сокращения перезарядки<br>+@CDR*100@% сокращения перезарядки заклинаний призывателя<br>+@CDR*100@% сокращения перезарядки предметов",
+						"longDesc": "+@CDR*100@% сокращения перезарядки<br>+@CDR*100@% максимального сокращения перезарядки<br>+@CDR*100@% сокращения перезарядки заклинаний призывателя<br>+@CDR*100@% сокращения перезарядки предметов",
+						"icon": "ASSETS/Perks/Styles/Inspiration/Intelligence/Intelligence.dds"
+					},
+					{
+						"id": 8410,
+						"key": "HotPursuit",
+						"name": "Скорость сближения",
+						"shortDesc": "Увеличивает <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">скорость передвижения</lol-uikit-tooltipped-keyword> при перемещении в сторону союзных чемпионов, у которых <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairMov\">ограничено передвижение</lol-uikit-tooltipped-keyword>, или вражеских чемпионов, передвижение которых ограничили вы.",
+						"longDesc": "Увеличивает скорость передвижения на @MovementSpeedPercentBonus.0*100@% при перемещении в сторону союзных чемпионов, у которых ограничено передвижение, или вражеских чемпионов, передвижение которых ограничили вы. <br><br>Дальность: @ActivationDistance@ ед.",
+						"icon": "ASSETS/Perks/Styles/Resolve/HotPursuit/HotPursuit.dds"
+					},
+					{
+						"id": 8339,
+						"key": "TheThirdPath",
+						"name": "Небесное тело",
+						"shortDesc": "+@HealthBonus@ постоянного здоровья<br>-@ChampionDamagePenalty*100@% урона чемпионам и монстрам до @EndTime@ минуты",
+						"longDesc": "+@HealthBonus@ постоянного здоровья<br>-@ChampionDamagePenalty*100@% урона чемпионам и монстрам до @EndTime@ минуты<br><br><hr></hr><br><i>''Величайшие легенды живут на звездах''. <br>– Дафна Мечтательница</i>",
+						"icon": "ASSETS/Perks/Styles/Inspiration/TheThirdPath/TheThirdPath.dds"
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 8000,
+		"key": "Precision",
+		"name": "Точность",
+		"icon": "ASSETS/Perks/Styles/7201_Precision.dds",
+		"slots": [
+			{
+				"runes": [
+					{
+						"id": 8005,
+						"key": "PressThreeAttacks",
+						"name": "Решительное наступление",
+						"shortDesc": "Атаковав чемпиона несколько раз подряд (@HitsRequired@), вы ослабляете его и наносите ему дополнительный урон. Ослабленные враги получают больше урона из всех источников в течение @AmpDuration@ сек.",
+						"longDesc": "При нанесении вражескому чемпиону @HitsRequired@ последовательных автоатак вы дополнительно наносите ему @MinDamage@-@MaxDamage@ <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>адаптивного урона</font></lol-uikit-tooltipped-keyword> (в зависимости от уровня) и ослабляете его. Ослабленный чемпион получает на @AmpPotencySelf.0*100@% больше урона из всех источников в течение @AmpDuration@ сек.",
+						"icon": "ASSETS/Perks/Styles/Precision/PressThreeAttacks/PressThreeAttacks.dds"
+					},
+					{
+						"id": 8008,
+						"key": "Berserk",
+						"name": "Смертельный темп",
+						"shortDesc": "Спустя @LeadInDelay.1@ сек. после нанесения урона чемпиону ваша скорость атаки значительно увеличивается. Смертельный темп позволяет вам временно превысить ограничение на максимальную скорость атаки.",
+						"longDesc": "Спустя @LeadInDelay.1@ сек. после нанесения урона чемпиону ваша скорость атаки увеличивается на @AttackSpeedMin*100@-@AttackSpeedMax*100@% (в зависимости от уровня) на @AttackSpeedBuffDurationMin@ сек. Атакуя чемпиона, вы повышаете длительность эффекта до @AttackSpeedBuffDurationMax@ сек.<br><br>Перезарядка: @Cooldown@ сек.<br><br>{{perk_displayname_FlowofBattle}} позволяет вам временно превысить ограничение на максимальную скорость атаки.",
+						"icon": "ASSETS/Perks/Styles/Precision/FlowofBattle/FlowofBattleTemp.dds"
+					},
+					{
+						"id": 8021,
+						"key": "KSFleetFootwork",
+						"name": "Искусное лавирование",
+						"shortDesc": "Во время передвижения и атак накапливаются заряды энергии. Когда их станет 100, ваша следующая атака восстановит вам здоровье и увеличит <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">скорость передвижения</lol-uikit-tooltipped-keyword>.",
+						"longDesc": "Во время передвижения и атак накапливаются заряды энергии. Когда их станет 100, ваша следующая атака будет заряженной.<br><br>Заряженные атаки восстанавливают вам здоровье в размере @HealBase@-@HealMax@ (+@HealBonusADRatio.-1@ от дополнительной силы атаки, +@HealAPRatio.-1@ от силы умений) и увеличивают скорость передвижения на @MSBuff*100@% на @MSDuration.0@ сек.<br><rules>Если цель - миньон, сила лечения составляет @MinionHealMod*100@%.<br>Когда лечение срабатывает от критического удара, его сила увеличивается на @HealCritMod*100@% от модификатора критического урона.</rules>",
+						"icon": "ASSETS/Perks/Styles/Precision/KSFleetFootwork/KSFleetFootwork.dds"
+					}
+				]
+			},
+			{
+				"runes": [
+					{
+						"id": 9101,
+						"key": "Overheal",
+						"name": "Сверхлечение",
+						"shortDesc": "Избыточное лечение превращается в щит.",
+						"longDesc": "Избыточное лечение превращается в щит, прочность которого может достигать @ShieldCapRatio.0*100@% от вашего максимального запаса здоровья + @MaxBaseShieldCap@.<br><br>Если вы лечите сами себя, в щит превращается @ShieldGenerationRateSelf.0*100@% от избыточного лечения. Если вас лечат союзники, в щит превращается @ShieldGenerationRateOtherMax.0*100@% от избыточного лечения.",
+						"icon": "ASSETS/Perks/Styles/Precision/Overheal.dds"
+					},
+					{
+						"id": 9111,
+						"key": "AdrenalineRush",
+						"name": "Триумф",
+						"shortDesc": "При <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">добивании</lol-uikit-tooltipped-keyword> восстанавливает @MissingHealthRestored.0*100@% от недостающего здоровья и дополнительно дает @BonusGold@ золота.",
+						"longDesc": "При добивании восстанавливает @MissingHealthRestored.0*100@% от недостающего здоровья и дополнительно дает @BonusGold@ золота. <br><br><hr></hr><br><i>''Чем опаснее игра, тем больше славы она приносит''. <br>– Ноксианский счетовод</i>",
+						"icon": "ASSETS/Perks/Styles/Precision/DangerousGame.dds"
+					},
+					{
+						"id": 8009,
+						"key": "CastOnKill",
+						"name": "Присутствие духа",
+						"shortDesc": "В течение @BuffDuration@ сек. после повышения уровня или добивания вы получаете назад всю затраченную ману.",
+						"longDesc": "В течение @BuffDuration@ сек. после повышения уровня или добивания вы получаете назад всю затраченную ману.",
+						"icon": "ASSETS/Perks/Styles/Precision/LastResort/LastResortIcon.dds"
+					}
+				]
+			},
+			{
+				"runes": [
+					{
+						"id": 9104,
+						"key": "LegendDauntless",
+						"name": "Легенда: рвение",
+						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Добивания</lol-uikit-tooltipped-keyword> врагов навсегда увеличивают вашу <b>скорость атаки</b>. ",
+						"longDesc": "Ваша скорость атаки увеличивается на @AttackSpeedBase*100@% плюс еще на @AttackSpeedPerStack*100@% за каждый заряд <i>Легенды</i> (не более @MaxLegendStacks@ зарядов).<br><br>Вы получаете заряды <i>Легенды</i> за добивания чемпионов, добивания эпических монстров, убийства больших монстров и убийства миньонов.",
+						"icon": "ASSETS/Perks/Styles/Precision/Legend_Heroism.dds"
+					},
+					{
+						"id": 9105,
+						"key": "LegendTenacity",
+						"name": "Легенда: стойкость",
+						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Добивания</lol-uikit-tooltipped-keyword> врагов навсегда увеличивают вашу <b>стойкость</b>. ",
+						"longDesc": "Ваша стойкость увеличивается на @TenacityBase*100@% плюс еще на @TenacityPerStack*100@% за каждый заряд <i>Легенды</i> (не более @MaxLegendStacks@ зарядов).<br><br>Вы получаете заряды <i>Легенды</i> за добивания чемпионов, добивания эпических монстров, убийства больших монстров и убийства миньонов.",
+						"icon": "ASSETS/Perks/Styles/Precision/Legend_Tenacity.dds"
+					},
+					{
+						"id": 9103,
+						"key": "LegendInfamy",
+						"name": "Легенда: родословная",
+						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Добивания</lol-uikit-tooltipped-keyword> врагов навсегда увеличивают ваш <b>вампиризм</b>. ",
+						"longDesc": "Ваш вампиризм увеличивается на @LifeStealPerStack*100@% за каждый заряд <i>Легенды</i> (не более @MaxLegendStacks@ зарядов).<br><br>Вы получаете заряды <i>Легенды</i> за добивания чемпионов, добивания эпических монстров, убийства больших монстров и убийства миньонов.",
+						"icon": "ASSETS/Perks/Styles/Precision/Legend_Infamy.dds"
+					}
+				]
+			},
+			{
+				"runes": [
+					{
+						"id": 8014,
+						"key": "CoupDeGrace",
+						"name": "Удар милосердия",
+						"shortDesc": "Вы наносите больше урона чемпионам с низким уровнем здоровья.",
+						"longDesc": "Вы наносите на @BonusPercentDamage.0 *100@% больше урона чемпионам, уровень здоровья которых ниже @EnemyHealthPercentageThreshold*100@%. <br><br>Кроме того, добивания чемпионов дают {{ perk_subtext_AdaptiveForce }} на @Duration@ сек.",
+						"icon": "ASSETS/Perks/Styles/Precision/CoupDeGrace/CoupDeGrace.dds"
+					},
+					{
+						"id": 8017,
+						"key": "GiantSlayer",
+						"name": "Реванш",
+						"shortDesc": "Вы наносите дополнительный урон чемпионам, у которых больше максимального запаса здоровья, чем у вас.",
+						"longDesc": "Вы дополнительно наносите @MinBonusDamagePercent.0*100@% урона чемпионам, запас здоровья которых больше вашего на @MinHealthDifference@. Когда разница достигает @MaxHealthDifference@, дополнительный урон увеличивается до @MaxBonusDamagePercent.0*100@%.",
+						"icon": "ASSETS/Perks/Styles/Precision/GiantSlayer/GiantSlayer.dds"
+					},
+					{
+						"id": 8299,
+						"key": "ToTheDeath",
+						"name": "Последний рубеж",
+						"shortDesc": "Ваши атаки наносят чемпионам дополнительный урон, когда у вас мало здоровья.",
+						"longDesc": "Вы наносите на @MinBonusDamagePercent.0*100@-@MaxBonusDamagePercent.0*100@% больше урона чемпионам, когда ваш уровень здоровья ниже @HealthThresholdStart.0*100@%. Максимальное количество урона достигается при @HealthThresholdEnd.0*100@% здоровья.",
+						"icon": "ASSETS/Perks/Styles/Sorcery/ToTheDeath/ToTheDeath.dds"
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 8400,
+		"key": "Resolve",
+		"name": "Храбрость",
+		"icon": "ASSETS/Perks/Styles/7204_Resolve.dds",
+		"slots": [
+			{
+				"runes": [
+					{
+						"id": 8437,
+						"key": "KSRuinedKing",
+						"name": "Хватка нежити",
+						"shortDesc": "Каждые @TriggerTime@ сек. ваша следующая автоатака против чемпиона наносит дополнительный магический урон, а также восстанавливает вам здоровье и навсегда увеличивает ваш запас здоровья.",
+						"longDesc": "Каждые @TriggerTime@ сек. в бою ваша следующая автоатака против чемпиона приобретает следующие эффекты:<li>Наносит дополнительный магический урон в размере @PercentHealthDamage.0@% от вашего максимального запаса здоровья<br>Восстанавливает вам здоровье в размере @PercentHealthHeal.0*100@% от вашего максимального запаса здоровья<br>Навсегда увеличивает ваш запас здоровья на @MaxHealthPerProc@</li><br><rules><i>Чемпионы дальнего боя:</i> для чемпионов дальнего боя урон и лечение уменьшены вдвое. Кроме того, они получают @RangedHealthPerProc@ постоянного здоровья.</rules>",
+						"icon": "ASSETS/Perks/Styles/Resolve/KSRuinedKing/KSRuinedKing.dds"
+					},
+					{
+						"id": 8439,
+						"key": "Vengeance",
+						"name": "Дрожь земли",
+						"shortDesc": "После <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Immobilize\">обездвиживания</lol-uikit-tooltipped-keyword> вражеского чемпиона ваши защитные показатели увеличиваются, а спустя короткое время вы наносите взрывной <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">адаптивный урон</lol-uikit-tooltipped-keyword> вокруг себя.",
+						"longDesc": "После обездвиживания вражеского чемпиона ваши броня и сопротивление магии увеличиваются на @FlatResists@ + @ResistInc.0*100@% на @DelayBeforeBurst.1@ сек. После этого вы взрываетесь, нанося магический урон ближайшим врагам.<br><br>Урон: @StartingBaseDamage@-@MaxBaseDamage@ (+@HealthRatio.1@% от вашего максимального запаса здоровья)<br>Перезарядка: @Cooldown@ сек.",
+						"icon": "ASSETS/Perks/Styles/Resolve/VeteranVengeance/VeteranVengeance.dds"
+					},
+					{
+						"id": 8465,
+						"key": "KSBuddyShield",
+						"name": "Страж",
+						"shortDesc": "Вы защищаете ближайших союзников или союзников, к которым применяете заклинания. Если вы или защищенный союзник получаете урон, вы оба ускоряетесь и получаете щит.",
+						"longDesc": "{{ perk_shared_desc_KSBuddyShield }}<br><br>Перезарядка: @Cooldown@ сек.<br>Щит: @ShieldBase@-@ShieldMax@ (<scaleAP>+@APRatio.-1@ от силы умений</scaleAP>) (<scalehealth>+@HPRatio.0*100@% от дополнительного здоровья</scalehealth>).<br>Ускорение: +@Haste*100@% скорости передвижения.",
+						"icon": "ASSETS/Perks/Styles/Resolve/KSBuddyShield/KSBuddyShield.dds"
+					}
+				]
+			},
+			{
+				"runes": [
+					{
+						"id": 8242,
+						"key": "Recharge",
+						"name": "Неустрашимость",
+						"shortDesc": "После использования заклинания призывателя ваши стойкость и сопротивление замедлению ненадолго увеличиваются. Кроме того, ваши стойкость увеличивается за каждое заклинание призывателя на перезарядке. ",
+						"longDesc": "После использования заклинания призывателя ваши стойкость и сопротивление замедлению увеличиваются на @BonusTenacity*100@% на @BuffDuration@ сек. Кроме того, ваши стойкость увеличивается на @PersistTenacity*100@% за каждое заклинание призывателя на перезарядке. ",
+						"icon": "ASSETS/Perks/Styles/Sorcery/Recharge/Recharge.dds"
+					},
+					{
+						"id": 8446,
+						"key": "Siege",
+						"name": "Снос",
+						"shortDesc": "Вы готовите мощную атаку против башни, когда находитесь поблизости от нее.",
+						"longDesc": "Вы готовите мощную атаку против башни в течение @TotalSiegeTime@ сек., когда находитесь в пределах @DistanceToTower@ ед. от нее. Заряженная атака наносит дополнительный физический урон в размере @OutputDamagePerStack@ (+@MaxHealthPercentDamage.0 * 100@% от вашего максимального запаса здоровья).<br><br>Перезарядка: @CooldownSeconds@ сек.",
+						"icon": "ASSETS/Perks/Styles/Resolve/BrickHitHouse/BrickHitHouse.dds"
+					},
+					{
+						"id": 8463,
+						"key": "BloodFromStone",
+						"name": "Живой источник",
+						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairMov\">Ограничивая</lol-uikit-tooltipped-keyword> передвижение вражеских чемпионов, вы помечаете их. Когда ваши союзники атакуют помеченных чемпионов, они восстанавливают себе здоровье. ",
+						"longDesc": "Если вы ограничиваете передвижение вражеского чемпиона, он помечается на @MarkDuration@ сек. <br><br>Союзные чемпионы, которые атакуют помеченных врагов, восстанавливают себе здоровье в размере @FlatHealAmount@ + @HealthRatio.-1 * 100@% от вашего максимального запаса здоровья в течение @HealDuration@ сек. ",
+						"icon": "ASSETS/Perks/Styles/Resolve/BloodFromStone/BloodFromStone.dds"
+					}
+				]
+			},
+			{
+				"runes": [
+					{
+						"id": 8430,
+						"key": "NemMarks",
+						"name": "Железная кожа",
+						"shortDesc": "Увеличивает броню на @ArmorBase@. <br>Эффекты лечения, включая расходуемые предметы, временно увеличивают вашу броню на @TotalExtraArmor*100@%.",
+						"longDesc": "Ваша броня увеличивается на @ArmorBase@. <br><br>При восстановлении здоровья с помощью расходуемых предметов, лечении (не менее @FlatHealThreshold@ здоровья) или наложении щита ваша броня увеличивается на @TotalExtraArmor*100@% на @EvolveArmorDuration@ сек.",
+						"icon": "ASSETS/Perks/Styles/Resolve/NemMarks/NemMarks.dds"
+					},
+					{
+						"id": 8435,
+						"key": "NemMage",
+						"name": "Отражающий панцирь",
+						"shortDesc": "Увеличивает сопротивление магии на @MRBase@. <br>Эффекты лечения, включая расходуемые предметы, временно увеличивают ваше сопротивление магии на @EvolveBonusMR*100@%.<br>",
+						"longDesc": "Ваше сопротивление магии увеличивается на @MRBase@. <br><br>При восстановлении здоровья с помощью расходуемых предметов, лечении (не менее @FlatHealThreshold@ здоровья) или наложении щита ваше сопротивление магии увеличивается на @EvolveBonusMR*100@% на @EvolveShellDuration@ сек.",
+						"icon": "ASSETS/Perks/Styles/Resolve/NemMage/NemMage.dds"
+					},
+					{
+						"id": 8429,
+						"key": "NemFighter",
+						"name": "Накопление",
+						"shortDesc": "После @MinutesRequired@ минуты вы получаете @ArmorBase@ брони и @MRBase@ сопротивления магии; кроме того, ваши броня и сопротивление магии увеличиваются на @ExtraResist@%.",
+						"longDesc": "{{ perk_short_desc_NemFighter }}",
+						"icon": "ASSETS/Perks/Styles/Resolve/NemFighter/NemFighter.dds"
+					}
+				]
+			},
+			{
+				"runes": [
+					{
+						"id": 8451,
+						"key": "HealthBandit",
+						"name": "Разрастание",
+						"shortDesc": "Навсегда увеличивает максимальный запас здоровья, когда рядом умирают миньоны или монстры.",
+						"longDesc": "Вы навсегда увеличиваете максимальный запас здоровья на @MaxHealthRatioPerTier*100@% за каждых @UnitsPerTier@ монстров или миньонов, умерших около вас.",
+						"icon": "ASSETS/Perks/Styles/Resolve/HealthBandit/HealthBandit.dds"
+					},
+					{
+						"id": 8453,
+						"key": "AmpShields",
+						"name": "Оживление",
+						"shortDesc": "Сила лечения и прочность щитов, которые вы накладываете или получаете, увеличиваются на @StandardAmp.0@%. Если у цели низкий уровень здоровья, сила эффектов увеличивается еще на @ExtraAmp.0@%.",
+						"longDesc": "Сила лечения и прочность щитов, которые вы накладываете или получаете, увеличиваются на @StandardAmp.0@%. Если уровень здоровья цели ниже @HealthCutoff.0@%, объем увеличения повышается на @ExtraAmp.0@%.",
+						"icon": "ASSETS/Perks/Styles/Resolve/AmpShields/AmpShields.dds"
+					},
+					{
+						"id": 8444,
+						"key": "SecondWind",
+						"name": "Второе дыхание",
+						"shortDesc": "При получении урона от вражеского чемпиона вы восстанавливаете себе здоровье в течение некоторого времени.",
+						"longDesc": "При получении урона от вражеского чемпиона вы восстанавливаете себе здоровье в размере @RegenPercentMax.0*100@% от недостающего здоровья +@RegenFlat.0@ в течение @RegenSeconds@ сек.",
+						"icon": "ASSETS/Perks/Styles/Resolve/SecondWind/SecondWind.dds"
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 8200,
+		"key": "Sorcery",
+		"name": "Колдовство",
+		"icon": "ASSETS/Perks/Styles/7202_Sorcery.dds",
+		"slots": [
+			{
+				"runes": [
+					{
+						"id": 8214,
+						"key": "SummonAery",
+						"name": "Призыв Пушинки",
+						"shortDesc": "Ваши автоатаки и умения направляют Пушинку к цели: она наносит урон врагам или накладывает щит на союзников.",
+						"longDesc": "Ваши атаки и умения направляют к цели Пушинку, которая наносит урон вражеским чемпионам или накладывает щит на союзников.<br><br>Урон: @DamageBase@-@DamageMax@ в зависимости от уровня (+<scaleAP>@DamageAPRatio.-1@ от силы умений</scaleAP> и +<scaleAD>@DamageADRatio.-1@ от дополнительной силы атаки</scaleAD>)<br>Прочность щита: @ShieldBase@-@ShieldMax@ в зависимости от уровня (+<scaleAP>@ShieldRatio.-1@ от силы умений</scaleAP> и +<scaleAD>@ShieldRatioAD.-1@ от дополнительной силы атаки</scaleAD>) <br><br>Пушинку нельзя послать снова, пока она не вернется к вам.",
+						"icon": "ASSETS/Perks/Styles/Sorcery/SummonAery/SummonAery.dds"
+					},
+					{
+						"id": 8229,
+						"key": "ArcaneComet",
+						"name": "Магическая комета",
+						"shortDesc": "Когда вы наносите урон умением чемпиону, туда, где он находится, падает комета, которая наносит урон.",
+						"longDesc": "Когда вы наносите урон умением чемпиону, туда, где он находится, падает комета. Если при нанесении урона Магическая комета находится на перезарядке, оставшееся время перезарядки сокращается.<br><br><lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>Адаптивный урон</font></lol-uikit-tooltipped-keyword>: @DamageBase@-@DamageMax@ в зависимости от уровня (<scaleAP>+@APRatio.-1@ от силы умений</scaleAP> и <scaleAD>+@ADRatio.-1@ от дополнительной силы атаки</scaleAD>)<br>Перезарядка: @RechargeTime@-@RechargeTimeMin@ сек.<br><rules><br>Сокращение перезарядки:<br>От умений против одной цели: @PercentRefund*100@%.<br>От эффектов, действующих по площади: @AoEPercentRefund*100@%.<br>От периодических эффектов: @DotPercentRefund*100@%.<br></rules>",
+						"icon": "ASSETS/Perks/Styles/Sorcery/ArcaneComet/ArcaneComet.dds"
+					},
+					{
+						"id": 8230,
+						"key": "PhaseRush",
+						"name": "Фазовый рывок",
+						"shortDesc": "Поражая вражеского чемпиона 3 <b>отдельными</b> атаками или умениями, вы кратковременно увеличиваете свою <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">скорость передвижения</lol-uikit-tooltipped-keyword>. ",
+						"longDesc": "При поражении вражеского чемпиона 3 атаками или <b>отдельными</b> умениями в течение @Window@ сек. ваша скорость передвижения увеличивается на @HasteBase*100@-@HasteMax*100@% в зависимости от уровня, и вы получаете @SlowResist*100@% устойчивости к замедлению.<br><br>Продолжительность: @Duration@ сек.<br>Перезарядка: @Cooldown@ сек.",
+						"icon": "ASSETS/Perks/Styles/Sorcery/PhaseRush/PhaseRush.dds"
+					}
+				]
+			},
+			{
+				"runes": [
+					{
+						"id": 8224,
+						"key": "NullifyingOrb",
+						"name": "Сфера уничтожения",
+						"shortDesc": "Если после получения магического урона у вас остается мало здоровья, вы получаете щит от магического урона.",
+						"longDesc": "При получении магического урона, после которого ваш уровень здоровья опускается ниже @PercHealthTrigger.0*100@%, вы получаете щит, поглощающий магический урон в размере @ShieldMin@-@ShieldMax@ в зависимости от уровня (<scaleAP>+@APRatio.-1@ от силы умений</scaleAP> и <scaleAD>+@ADRatio.-1@ от дополнительной силы атаки</scaleAD>) в течение @ShieldDuration@ сек.<br><br>Перезарядка: @Cooldown@ сек.",
+						"icon": "ASSETS/Perks/Styles/Sorcery/NullifyingOrb/Pokeshield.dds"
+					},
+					{
+						"id": 8226,
+						"key": "ManaflowBand",
+						"name": "Поток маны",
+						"shortDesc": "Периодически возмещает затраты маны или энергии первого примененного умения. Кроме того, восстанавливает часть недостающей маны или энергии.",
+						"longDesc": "Восстанавливает затраты маны или энергии первого примененного умения каждые @Cooldown.0@ сек. Кроме того, восстанавливает @MPToRestoreRatio.0*100@% от недостающей маны или энергии.",
+						"icon": "ASSETS/Perks/Styles/Sorcery/ManaflowBand/ManaflowBand.dds"
+					},
+					{
+						"id": 8243,
+						"key": "TheUltimateHat",
+						"name": "Шляпа абсолюта",
+						"shortDesc": "Время перезарядки вашего абсолютного умения сокращено. Каждый раз, когда вы применяете абсолютное умение, его перезарядка сокращается еще сильнее.",
+						"longDesc": "Время перезарядки вашего абсолютного умения сокращено на @StartingCDR@%. Каждый раз, когда вы применяете абсолютное умение, его перезарядка сокращается еще на @CDChunkPerStack@%. Суммируется до @MaxStacks@ раз.",
+						"icon": "ASSETS/Perks/Styles/Sorcery/TheUltimateHat/TheUltimateHat.dds"
+					}
+				]
+			},
+			{
+				"runes": [
+					{
+						"id": 8210,
+						"key": "Transcendence",
+						"name": "Превосходство",
+						"shortDesc": "Увеличивает <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_CDR\">сокращение перезарядки</lol-uikit-tooltipped-keyword> на @MaxCDR*100@%, когда вы достигаете @LevelToTurnOn@ уровня. Избыточное сокращение перезарядки переходит в силу умений или силу атаки (<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">адаптивно</lol-uikit-tooltipped-keyword>).",
+						"longDesc": "Ваше сокращение перезарядки увеличивается на @MaxCDR*100@%, когда вы достигаете @LevelToTurnOn@ уровня.<br><br>Каждый процент избыточного сокращения перезарядки превращается в {{ perk_subtext_AdaptiveForce }}.",
+						"icon": "ASSETS/Perks/Styles/Sorcery/Transcendence/Transcendence.dds"
+					},
+					{
+						"id": 8234,
+						"key": "Celerity",
+						"name": "Быстрота",
+						"shortDesc": "Ваша <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">скорость передвижения</lol-uikit-tooltipped-keyword> увеличивается на @PercentMS.0@%. Ваши сила умений или сила атаки увеличиваются в зависимости от дополнительной скорости передвижения (<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">адаптивно</lol-uikit-tooltipped-keyword>). ",
+						"longDesc": "Ваша скорость передвижения увеличивается на @PercentMS.0@%.<br>Дополнительная скорость передвижения превращается в силу атаки или силу умений (<font color='#48C4B7'>адаптивно</font>): @AdaptiveAD*8@% силы атаки или @AdaptiveAP*8@% силы умений.",
+						"icon": "ASSETS/Perks/Styles/Sorcery/Celerity/CelerityTemp.dds"
+					},
+					{
+						"id": 8233,
+						"key": "AbsoluteFocus",
+						"name": "Полная сосредоточенность",
+						"shortDesc": "Когда уровень вашего здоровья выше @HealthPercent*100@%, вы наносите дополнительный <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">адаптивный урон</lol-uikit-tooltipped-keyword>.",
+						"longDesc": "Когда уровень вашего здоровья выше @HealthPercent*100@%, вы получаете {{ perk_subtext_AdaptiveForce_Max }} (в зависимости от уровня).",
+						"icon": "ASSETS/Perks/Styles/Sorcery/AbsoluteFocus/AbsoluteFocus.dds"
+					}
+				]
+			},
+			{
+				"runes": [
+					{
+						"id": 8237,
+						"key": "Scorch",
+						"name": "Ожог",
+						"shortDesc": "Каждые @BurnlockoutDuration@ сек. ваше первое попадание умением обжигает чемпионов.",
+						"longDesc": "При следующем попадании умением по чемпиону ваша цель воспламеняется и дополнительно получает @damage@-@damagemax@ магического урона в зависимости от уровня через @dotduration@ сек.<br><br>Перезарядка: @BurnlockoutDuration@ сек.",
+						"icon": "ASSETS/Perks/Styles/Sorcery/Scorch/Scorch.dds"
+					},
+					{
+						"id": 8232,
+						"key": "Waterwalking",
+						"name": "Хождение по воде",
+						"shortDesc": "Увеличивает <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">скорость передвижения</lol-uikit-tooltipped-keyword>, а также силу умений или силу атаки (<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">адаптивно</lol-uikit-tooltipped-keyword>), когда вы находитесь на реке.",
+						"longDesc": "Дает @MovementSpeed@ скорости передвижения и {{ perk_subtext_AdaptiveForce_Max }} (в зависимости от уровня), когда вы находитесь на реке.<br><br><hr></hr><br><i>Пусть же вы будете быстры, как журчащая река, и проворны, как пугливый краб.</i><br>",
+						"icon": "ASSETS/Perks/Styles/Sorcery/Waterwalking/Waterwalking.dds"
+					},
+					{
+						"id": 8236,
+						"key": "GatheringStorm",
+						"name": "Надвигающаяся буря",
+						"shortDesc": "По ходу игры вы получаете растущие прибавки к силе атаки или силе умений (<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">адаптивно</lol-uikit-tooltipped-keyword>).",
+						"longDesc": "Раз в @UpdateAfterMinutes@ мин. вы получаете силу умений или силу атаки (<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>адаптивно</font></lol-uikit-tooltipped-keyword>).<br><br><i>10 минут</i>: +8 силы умений или +5 силы атаки <br><i>20 минут</i>: +24 силы умений или +14 силы атаки<br><i>30 минут</i>: +48 силы умений или +29 силы атаки<br><i>40 минут</i>: +80 силы умений или +48 силы атаки<br><i>50 минут</i>: +120 силы умений или +72 силы атаки<br><i>60 минут</i>: +168 силы умений или +101 силы атаки<br>И т.д.",
+						"icon": "ASSETS/Perks/Styles/Sorcery/GatheringStorm/GatheringStorm.dds"
+					}
+				]
+			}
+		]
+	}
+]

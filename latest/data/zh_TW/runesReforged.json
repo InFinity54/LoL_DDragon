@@ -1,0 +1,602 @@
+[
+	{
+		"id": 8100,
+		"key": "Domination",
+		"name": "征服",
+		"icon": "ASSETS/Perks/Styles/7200_Domination.dds",
+		"slots": [
+			{
+				"runes": [
+					{
+						"id": 8112,
+						"key": "StormlordsMandate",
+						"name": "死亡電刑",
+						"shortDesc": "@WindowDuration@ 秒內使用三個<b>獨立的</b>普攻或技能攻擊一名敵方英雄時將造成額外<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">適性傷害</lol-uikit-tooltipped-keyword>。",
+						"longDesc": "@WindowDuration@ 秒內使用 3 個<b>獨立的</b>普攻或技能攻擊一名英雄時將造成額外<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>適性傷害</font></lol-uikit-tooltipped-keyword>。<br><br>傷害：@DamageBase@ - @DamageMax@（+@BonusADRatio.-1@ 額外物理攻擊；+@APRatio.1@ 魔法攻擊）。<br><br>冷卻時間：@Cooldown@ - @CooldownMin@ 秒<br><br><hr></hr><i>「我們稱呼他們為雷神，意味著他們的雷電將引發災厄。」</i>",
+						"icon": "ASSETS/Perks/Styles/Domination/TLords/TLords.dds"
+					},
+					{
+						"id": 8124,
+						"key": "KSLycanthropy",
+						"name": "掠食者",
+						"shortDesc": "添加一個主動效果到你的鞋子，其會賦予你大量<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">跑速</lol-uikit-tooltipped-keyword>，並使你接下來的普攻或技能造成額外<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">適性傷害</lol-uikit-tooltipped-keyword>。",
+						"longDesc": "使你的鞋子附帶主動效果：<font color='#c60300'>{{perk_displayname_KSLycanthropy}}</font>。<br><br>{{ game_itemmod_bloodmoonboots }}",
+						"icon": "ASSETS/Perks/Styles/Domination/KSLycanthropy/KSLycanthropy.dds"
+					},
+					{
+						"id": 8128,
+						"key": "KSSoulReaper",
+						"name": "靈魂收割",
+						"shortDesc": "英雄、大型士兵及大型野怪死亡時會掉落靈魂精華。碰觸這些靈魂可吸收它們，並使你接下來的攻擊根據蒐集到的靈魂精華數造成額外<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">適性傷害</lol-uikit-tooltipped-keyword>。",
+						"longDesc": "英雄、大型士兵及大型野怪死亡時會掉落靈魂精華。蒐集一個靈魂精華將使你獲得<font color='#c60300'>靈魂充能</font>。你下一次對英雄或建築物的攻擊將消耗<font color='#c60300'>靈魂充能</font>，並造成額外<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>適性傷害</font></lol-uikit-tooltipped-keyword>。<br><br><font color='#c60300'>靈魂充能</font>會持續存在 @ONHDuration@ 秒，蒐集到@SoulsRequiredForIncreasedDuration@ 個靈魂精華之後將延長至 @ONHDurationLong@ 秒。<br><br>額外傷害：@DamageMin@ - @DamageMax@（+<scaleAD>@ADRatio.2@ 額外物理攻擊</scaleAD>）（+<scaleAP>@APRatio.1@ 魔法攻擊</scaleAP>）+ 已蒐集的靈魂精華數。<br><rules><br>英雄 － 提供 @champstacks@ 個靈魂精華。<br>野怪 － 提供 @monsterstacks@ 個靈魂精華。<br>士兵 － 提供 @minionstacks@ 個靈魂精華。<br></rules>",
+						"icon": "ASSETS/Perks/Styles/Domination/KSSoulReaper/KSSoulReaper.dds"
+					}
+				]
+			},
+			{
+				"runes": [
+					{
+						"id": 8126,
+						"key": "CheapShot",
+						"name": "凌虐",
+						"shortDesc": "對<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairAct\">行動或移動受到限制</lol-uikit-tooltipped-keyword>的敵方英雄造成額外真實傷害。 ",
+						"longDesc": "傷害<b>行動或移動受限</b>的敵方英雄時造成 @DamageIncMin@ - @DamageIncMax@ 額外真實傷害（隨等級提升）。<br><br>冷卻時間：@Cooldown@ 秒<br><rules>行動受限發生後才會觸發額外傷害效果。</rules>",
+						"icon": "ASSETS/Perks/Styles/Domination/Bully/Bully.dds"
+					},
+					{
+						"id": 8139,
+						"key": "Feast",
+						"name": "血噬",
+						"shortDesc": "傷害一名敵方英雄時回復自身生命。",
+						"longDesc": "傷害一名敵方英雄時治癒自己。<br><br>治癒量：@HealAmount@-@HealAmountMax@（+@ADRatio.-1@ 額外物理攻擊、+@APRatio.-1@ 魔法攻擊）生命（隨等級提升）<br><br>冷卻時間：@Cooldown@ 秒",
+						"icon": "ASSETS/Perks/Styles/Domination/Feast/GreenTerror_Feast.dds"
+					},
+					{
+						"id": 8143,
+						"key": "DashAttack",
+						"name": "即刻衝擊",
+						"shortDesc": "使用衝撞、跳躍、閃現、傳送或脫離潛行狀態後獲得大量物理致命及魔法穿透。",
+						"longDesc": "脫離潛行狀態，或使用衝撞、跳躍、閃現、傳送後，對一名敵方英雄造成傷害將使你獲得 @BonusLethality.0@ 物理致命及 @BonusMpen.0@ 魔法穿透，持續 @Duration@ 秒。<br><br>冷卻時間：@Cooldown@ 秒",
+						"icon": "ASSETS/Perks/Styles/Domination/DashAttack/DashAttack.dds"
+					}
+				]
+			},
+			{
+				"runes": [
+					{
+						"id": 8136,
+						"key": "ZombieWard",
+						"name": "殭屍守衛",
+						"shortDesc": "摧毀一個守衛後，一個友方的殭屍守衛會出現在原本的位置。你之前放置的守衛到期的話也會以殭屍守衛的型態重生。",
+						"longDesc": "摧毀一個守衛後，一個友方的殭屍守衛會出現在原地。此外，你先前放置的守衛到期時也會以殭屍守衛的型態重生。<br><br>殭屍守衛不會隱形，可在場上停留 @WardDuration@ 秒，並且不會被計入你的守衛上限。",
+						"icon": "ASSETS/Perks/Styles/Domination/ZombieWard/ZombieWard.dds"
+					},
+					{
+						"id": 8120,
+						"key": "ViciousPoro",
+						"name": "幽靈普羅",
+						"shortDesc": "當你進入草叢時你可以召喚出一隻幽靈普羅，牠會留在原地提供你該處的視野。",
+						"longDesc": "進入草叢之後，藉由吟唱來召喚出一隻幽靈普羅。幽靈普羅會留在原地提供視野，直到你召喚一隻新的幽靈普羅。<br><br>敵人進入藏有幽靈普羅的草叢時，幽靈普羅會被嚇跑，並使{{ perk_displayname_ViciousPoro }}進入冷卻，持續 @Cooldown@ 秒。<br><br>受到傷害時會中斷吟唱。",
+						"icon": "ASSETS/Perks/Styles/Domination/ViciousPoro/ViciousPoro.dds"
+					},
+					{
+						"id": 8138,
+						"key": "WardSlayer",
+						"name": "眼球收集器",
+						"shortDesc": "對敵方英雄造成<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">擊殺、助攻或摧毀守衛</lol-uikit-tooltipped-keyword>後獲得眼球。每顆眼球都會永久賦予你物理攻擊或魔法攻擊<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">（適性）</lol-uikit-tooltipped-keyword>，完成收集之後還會獲得額外加成。",
+						"longDesc": "摧毀守衛，或是對敵方英雄造成擊殺或助攻後獲得眼球。每顆眼球都會使你獲得 {{ perk_subtext_AdaptiveForce }}。<br><br>完成收集之後（ @MaxEyeballs@ 顆眼球 ），你將額外獲得 {{ perk_subtext_AdaptiveForce_EyeballCollection }}。<br><br>擊殺敵方英雄後獲得 @StacksPerTakedown@ 顆眼球；取得助攻後獲得 @StacksPerAssist@ 顆眼球；摧毀守衛後獲得 @StacksPerWard@ 顆眼球。",
+						"icon": "ASSETS/Perks/Styles/Domination/WardSlayer/WardSlayer.dds"
+					}
+				]
+			},
+			{
+				"runes": [
+					{
+						"id": 8135,
+						"key": "InsatiableHunter",
+						"name": "嗜血獵人",
+						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">造成擊殺或助攻</lol-uikit-tooltipped-keyword>後（<b>對同一英雄只能觸發一次</b>）永久使一部分的技能傷害轉化成治癒效果。",
+						"longDesc": "將一部份你的技能造成的傷害轉化成治癒效果。<br>治癒量: @StartingOmnivamp*100@% 技能傷害，每層<i>賞金獵人</i>疊層還會再使其增加 @OmnivampPerStack*100@% 。 <br><br>從一名敵方英雄身上取得擊殺或助攻會獲得一層<i>賞金獵人</i>疊層，此效果對同一英雄只能觸發一次。<br><rules><br>範圍傷害僅能造成三分之一的治癒效果。</rules><br>",
+						"icon": "ASSETS/Perks/Styles/Domination/InsatiableHunter/InsatiableHunter.dds"
+					},
+					{
+						"id": 8134,
+						"key": "BigGameHunter",
+						"name": "狡詐獵人",
+						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">造成擊殺或助攻</lol-uikit-tooltipped-keyword>後（<b>對同一英雄只能觸發一次</b>）永久獲得主動道具<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_CDR\">冷卻時間減免</lol-uikit-tooltipped-keyword>（包括飾品）。",
+						"longDesc": "獲得 @StartingActiveItemCDR.0*100@% <b>主動道具冷卻時間減免</b>，每層<i>賞金獵人</i>疊層都還會使其再提升 @ActiveItemCDRPerStack.0*100@%（包括飾品）。<br><br>從一名敵方英雄身上取得擊殺或助攻會獲得一層<i>賞金獵人</i>疊層，此效果對同一英雄只能觸發一次。",
+						"icon": "ASSETS/Perks/Styles/Domination/BigGameHunter/BigGameHunter.dds"
+					},
+					{
+						"id": 8105,
+						"key": "ProlificHunter",
+						"name": "殘虐獵人",
+						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">造成擊殺或助攻</lol-uikit-tooltipped-keyword>後（<b>對同一英雄只能觸發一次</b>）永久獲得<b>脫離戰鬥<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">跑速</lol-uikit-tooltipped-keyword></b>。",
+						"longDesc": "獲得 @StartingOOCMS@ 點<b>脫離戰鬥跑速</b>，每層<i>賞金獵人</i>疊層還會再使其增加 @OOCMS.0@ 點。<br><br>從一名敵方英雄身上取得擊殺或助攻會獲得一層<i>賞金獵人</i>疊層，此效果對同一英雄只能觸發一次。",
+						"icon": "ASSETS/Perks/Styles/Domination/ProlificHunter/ProlificHunter.dds"
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 8300,
+		"key": "Inspiration",
+		"name": "啟示",
+		"icon": "ASSETS/Perks/Styles/7203_Whimsy.dds",
+		"slots": [
+			{
+				"runes": [
+					{
+						"id": 8326,
+						"key": "KSAlchemicalEsoterica",
+						"name": "啟封法書",
+						"shortDesc": "遊戲期間在商店使用召喚師碎片來更改你的召喚師技能。縮減你召喚師技能的冷卻時間。<br>",
+						"longDesc": "遊戲進行至 @ShardFirstMinutes@ 分鐘時獲得一個召喚師碎片，之後每 @ShardRechargeMinutes@ 分鐘會再獲得一個碎片（最多 @Maxshards@ 個碎片）。<br><br>返回商店時，你可以使用 @ShardCost@ 個召喚師碎片，將原本的召喚師技能替換成一個不同的召喚師技能。<br><br>此外，召喚師技能的冷卻時間縮減 @SummonerCDR.0*100@%。<br><br><rules><i>重擊：</i>購買重擊並不會使你獲得重擊相關道具的購買權限<br>無法同時擁有兩個相同的召喚師技能。</rules>",
+						"icon": "ASSETS/Perks/Styles/Inspiration/KSAlchemicalEsoterica/KSAlchemicalEsoterica.dds"
+					},
+					{
+						"id": 8351,
+						"key": "KSGlacialAugment",
+						"name": "冰川增幅",
+						"shortDesc": "你對一名敵方英雄的首次普攻會緩速他們（數秒內無法對相同目標觸發效果）。使用主動道具緩速英雄時會發射一道急凍射線，凍結周圍地面，並對範圍內敵人造成緩速。",
+						"longDesc": "普攻一名敵方英雄時對他們造成緩速效果，持續 @SlowDuration.0@ 秒。緩速效果會在持續時間內逐漸增強。<br><rules><br>遠程普攻最大緩速效果：@SlowAmountBase.0*-100@% - @SlowAmountMax.0*-100@%<br>近戰普攻最大緩速效果：@SlowAmountBaseMelee.0*-100@% - @SlowAmountMaxMelee.0*-100@%<br></rules><br>使用主動道具緩速一名敵方英雄時會發射一道急凍射線凍結地面，持續 @SlowZoneDuration@ 秒，降低範圍內所有單位 @SlowZoneSlow*-100@% 跑速。<br><br>冷卻時間：@UnitCDBase@ - @UnitCD16@ 秒內無法對相同目標產生作用。",
+						"icon": "ASSETS/Perks/Styles/Inspiration/KSGlacialAugment/KSGlacialAugment.dds"
+					},
+					{
+						"id": 8359,
+						"key": "KSLooter",
+						"name": "竊盜高手",
+						"shortDesc": "使用一個技能後，你下一次對敵方英雄的攻擊命中的話將獲得金錢獎勵，還有機會獲得一個消耗品。",
+						"longDesc": "使用一個技能後，你下一次對敵方英雄的攻擊命中的話將獲得金錢獎勵，還有機會獲得一個消耗品。",
+						"icon": "ASSETS/Perks/Styles/Inspiration/KSLooter/KSLooter.dds"
+					}
+				]
+			},
+			{
+				"runes": [
+					{
+						"id": 8306,
+						"key": "DontBlink",
+						"name": "海克斯充能閃現",
+						"shortDesc": "閃現正在冷卻時會被<i>海克斯閃現</i>取代。<br><br><i>海克斯閃現</i>：吟唱數秒後閃現至一個新的位置。",
+						"longDesc": "閃現處於冷卻時將被替換成<i>海克斯閃現</i>。<br><br><i>海克斯閃現</i>：吟唱 @ChannelDuration.1@ 秒後，閃現至一個新的位置。<br><br>冷卻時間：@CooldownTime@ 秒。當你進入與敵方英雄的戰鬥時，冷卻時間為 @ChampionCombatCooldown@ 秒。",
+						"icon": "ASSETS/Perks/Styles/Inspiration/DontBlink/DontBlink.dds"
+					},
+					{
+						"id": 8345,
+						"key": "BiscuitsAndBonuses",
+						"name": "乾糧快遞",
+						"shortDesc": "每 @BiscuitMinuteInterval@ 分鐘獲得一個免費的乾糧，直到遊戲進行至 @SwapOverMinute@ 分鐘為止。使用一個乾糧將永久提升你的最大魔力，並回復你的生命及魔力。",
+						"longDesc": "乾糧快遞：每 @BiscuitMinuteInterval@ 分鐘獲得一個{{game_item_displayname_2010}}，直到 @SwapOverMinute@ 分鐘為止。<br><br>乾糧將回復你 @HealthHealPercent.0*100@% 失去生命及魔力。每使用一個乾糧將使你的魔力上限永久提升 @PermanentMana@ 點。<br><br><i>無魔：</i>若英雄不具魔力，改成回復 @HealthHealPercentManaless.0*100@% 失去生命。",
+						"icon": "ASSETS/Perks/Styles/Inspiration/BiscuitsAndBonuses/BiscuitsAndBonuses.dds"
+					},
+					{
+						"id": 8313,
+						"key": "AllInGoodTime",
+						"name": "完美計時",
+						"shortDesc": "獲得一個免費的{{game_item_displayname_2420}}。{{game_item_displayname_2420}}可以使用一次<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Stasis\">凝滯</lol-uikit-tooltipped-keyword>效果。",
+						"longDesc": "遊戲一開始獲得一個{{ game_item_displayname_2419 }}，@InitialCooldown.0@ 分鐘之後轉化成{{ game_item_displayname_2420 }}。{{ game_item_displayname_2420 }}可發動一次凝滯效果。<br><br>縮減 @PercentGAZhonyasCDR.0*100@% {{ game_item_displayname_3157 }}、{{ game_item_displayname_3026 }}及{{ game_item_displayname_3193 }}的冷卻時間。",
+						"icon": "ASSETS/Perks/Styles/Style5/AllInGoodTime/AllInGoodTime.dds"
+					}
+				]
+			},
+			{
+				"runes": [
+					{
+						"id": 8304,
+						"key": "MagicalFootwear",
+						"name": "魔法靈靴",
+						"shortDesc": "遊戲進行至 @GiveBootsAtMinute@ 分鐘時獲得一雙免費的鞋子，在這之前你無法購買任何鞋子。每次<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">造成擊殺或助攻</lol-uikit-tooltipped-keyword>都會使鞋子送達的時間提前 @SecondsSoonerPerTakedown@ 秒。",
+						"longDesc": "遊戲進行至 @GiveBootsAtMinute@ 分鐘時獲得免費的{{game_item_displayname_2422}}，在這之前無法購買任何鞋子。每次造成擊殺或助攻都會使你提前 @SecondsSoonerPerTakedown@ 秒獲得鞋子。<br><br>{{game_item_displayname_2422}}將賦予你 +@AdditionalMovementSpeed@ 跑速，且升級價格減少 50 金錢。",
+						"icon": "ASSETS/Perks/Styles/Inspiration/MagicalFootwear/MagicalFootwear.dds"
+					},
+					{
+						"id": 8321,
+						"key": "NanaTaxman",
+						"name": "未來市集",
+						"shortDesc": "你可以透過貸款來購買道具。",
+						"longDesc": "你可以透過貸款購買道具，可貸款的金額會隨時間增加。<br><br>貸款費：@ExcessCostPenaltyFlat@ 金錢",
+						"icon": "ASSETS/Perks/Styles/Style5/NanaTaxman/NanaTaxman.dds"
+					},
+					{
+						"id": 8316,
+						"key": "TheClearChoice",
+						"name": "小兵去質器",
+						"shortDesc": "遊戲開始時獲得 @GainedMinionKillers@ 個{{game_item_displayname_2403}}。使用此道具擊殺小兵將永久提升你對該類型小兵的傷害。",
+						"longDesc": "遊戲開始時獲得 @GainedMinionKillers@ 個能夠立刻擊殺並吸收線上小兵的 {{game_item_displayname_2403}} 。遊戲開始後的前 @InitialCooldown@ 秒內無法使用 {{game_item_displayname_2403}} 。<br><br>吸收一名小兵可使你對該類型小兵的傷害永久提升+@DamageBonusForAnyAbsorbed.0*100@% ，對相同類型的小兵每額外使用一次小兵去質器，該傷害加成就會再提升+@DamageBonusPerAdditionalAbsorbed.0*100@% 。<br>",
+						"icon": "ASSETS/Perks/Styles/Inspiration/TheClearChoice/TheClearChoice.dds"
+					}
+				]
+			},
+			{
+				"runes": [
+					{
+						"id": 8347,
+						"key": "Intelligence",
+						"name": "銀河視界",
+						"shortDesc": "+@CDR*100@% <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_CDR\">冷卻時間減免</lol-uikit-tooltipped-keyword><br>+@CDR*100@% 最大冷卻時間減免<br>+@CDR*100@% 召喚師技能冷卻時間減免<br>+@CDR*100@% 道具效果冷卻時間減免",
+						"longDesc": "+@CDR*100@% 冷卻時間減免<br>+@CDR*100@% 最大冷卻時間減免<br>+@CDR*100@% 召喚師技能冷卻時間減免<br>+@CDR*100@% 道具效果冷卻時間減免",
+						"icon": "ASSETS/Perks/Styles/Inspiration/Intelligence/Intelligence.dds"
+					},
+					{
+						"id": 8410,
+						"key": "HotPursuit",
+						"name": "斗轉星移",
+						"shortDesc": "朝<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairMov\">行動受到限制</lol-uikit-tooltipped-keyword>的友方英雄或被你限制行動的敵方英雄移動時獲得額外<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">跑速</lol-uikit-tooltipped-keyword>。",
+						"longDesc": "朝行動受到限制的友方英雄或受到你的控場效果影響的敵方英雄移動時獲得 @MovementSpeedPercentBonus.0*100@% 跑速。<br><br>範圍：@ActivationDistance@",
+						"icon": "ASSETS/Perks/Styles/Resolve/HotPursuit/HotPursuit.dds"
+					},
+					{
+						"id": 8339,
+						"key": "TheThirdPath",
+						"name": "天界之身",
+						"shortDesc": "永久提升 @HealthBonus@ 生命<br>遊戲進行至 @EndTime@ 分鐘之前對敵方英雄及野怪的傷害減少 @ChampionDamagePenalty*100@%。",
+						"longDesc": "永久增加 +@HealthBonus@ 生命<br>遊戲進行至 @EndTime@ 分鐘之前你對英雄及野怪的傷害減少 @ChampionDamagePenalty*100@%<br><br><hr></hr><br><i>「那些最偉大的傳奇人物都居住在天界。」<br>—「夢想家」達芙娜</i>",
+						"icon": "ASSETS/Perks/Styles/Inspiration/TheThirdPath/TheThirdPath.dds"
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 8000,
+		"key": "Precision",
+		"name": "精準",
+		"icon": "ASSETS/Perks/Styles/7201_Precision.dds",
+		"slots": [
+			{
+				"runes": [
+					{
+						"id": 8005,
+						"key": "PressThreeAttacks",
+						"name": "強攻",
+						"shortDesc": "連續普攻 @HitsRequired@ 次敵方英雄將使他變得脆弱並造成額外傷害，接下來 @AmpDuration@ 秒內他們承受的所有傷害將提升。",
+						"longDesc": "連續使用 @HitsRequired@ 次普攻攻擊一名敵方英雄時造成 @MinDamage@ - @MaxDamage@ 額外<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>適性傷害</font></lol-uikit-tooltipped-keyword>（隨等級提升），同時使他們變得脆弱。接下來 @AmpDuration@ 秒內他們承受的所有傷害將提升 @AmpPotencySelf.0*100@%。",
+						"icon": "ASSETS/Perks/Styles/Precision/PressThreeAttacks/PressThreeAttacks.dds"
+					},
+					{
+						"id": 8008,
+						"key": "Berserk",
+						"name": "致命節奏",
+						"shortDesc": "一旦傷害一名敵方英雄，@LeadInDelay.1@ 秒後你將獲得大量攻速。致命節奏可使你暫時突破攻速上限。",
+						"longDesc": "一旦對一名敵方英雄造成傷害，@LeadInDelay.1@ 秒後你將獲得 @AttackSpeedMin*100@ - @AttackSpeedMax*100@% 攻速（隨等級提升），持續 @AttackSpeedBuffDurationMin@ 秒。繼續攻擊一名敵方英雄將使此效果延長至 @AttackSpeedBuffDurationMax@ 秒。<br><br>冷卻時間：@Cooldown@ 秒<br><br>{{perk_displayname_FlowofBattle}}將使你暫時突破攻速上限。",
+						"icon": "ASSETS/Perks/Styles/Precision/FlowofBattle/FlowofBattleTemp.dds"
+					},
+					{
+						"id": 8021,
+						"key": "KSFleetFootwork",
+						"name": "瞬疾步法",
+						"shortDesc": "攻擊或移動會累加能量。達 100 層時，你下一次的攻擊將治癒你並賦予你額外<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">跑速</lol-uikit-tooltipped-keyword>。",
+						"longDesc": "攻擊或移動會累加能量。達 100 層時，你下一次的攻擊將充滿能量。<br><br>充能攻擊會使你回復 @HealBase@ - @HealMax@（+@HealBonusADRatio.-1@ 額外物理攻擊、+@HealAPRatio.-1@ 魔法攻擊）生命，並賦予你 @MSBuff*100@% 額外跑速，持續 @MSDuration.0@ 秒。<br><rules>作用在小兵身上時的治癒效果只有 @MinionHealMod*100@%。<br>充能攻擊觸發暴擊時治癒效果將會增強。提升的幅度為 @HealCritMod*100@% 暴擊傷害係數。</rules>",
+						"icon": "ASSETS/Perks/Styles/Precision/KSFleetFootwork/KSFleetFootwork.dds"
+					}
+				]
+			},
+			{
+				"runes": [
+					{
+						"id": 9101,
+						"key": "Overheal",
+						"name": "超量治癒",
+						"shortDesc": "你身上溢補的治癒量將轉化成一個護盾。",
+						"longDesc": "你身上溢補的治癒量會轉化成一個護盾，護盾值最多達 @ShieldCapRatio.0*100@% 自身總生命 + @MaxBaseShieldCap@。<br><br>自己對自己的溢補治癒量將有@ShieldGenerationRateSelf.0*100@% 會轉化成護盾，來自友軍的溢補治癒量將有 @ShieldGenerationRateOtherMax.0*100@% 會轉化成護盾。",
+						"icon": "ASSETS/Perks/Styles/Precision/Overheal.dds"
+					},
+					{
+						"id": 9111,
+						"key": "AdrenalineRush",
+						"name": "凱旋",
+						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">造成擊殺或助攻時</lol-uikit-tooltipped-keyword>回復@MissingHealthRestored.0*100@% 失去生命並額外獲得 @BonusGold@ 金錢。 ",
+						"longDesc": "造成擊殺或助攻時回復 @MissingHealthRestored.0*100@% 失去生命並獲得額外 @BonusGold@ 金錢。<br><br><hr></hr><br><i>「最危險的對決伴隨著最偉大的榮耀。」<br>—諾克薩斯謀士</i>",
+						"icon": "ASSETS/Perks/Styles/Precision/DangerousGame.dds"
+					},
+					{
+						"id": 8009,
+						"key": "CastOnKill",
+						"name": "氣定神閒",
+						"shortDesc": "取得擊殺、助攻或升級後，接下來 @BuffDuration@ 秒內完全回復消耗的魔力。",
+						"longDesc": "取得擊殺、助攻或升級後，接下來 @BuffDuration@ 秒內完全回復消耗的魔力。",
+						"icon": "ASSETS/Perks/Styles/Precision/LastResort/LastResortIcon.dds"
+					}
+				]
+			},
+			{
+				"runes": [
+					{
+						"id": 9104,
+						"key": "LegendDauntless",
+						"name": "傳奇：敏捷",
+						"shortDesc": "對敵人<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">造成擊殺或助攻</lol-uikit-tooltipped-keyword>將賦予你永久<b>攻速</b>。",
+						"longDesc": "獲得 @AttackSpeedBase*100@% 攻速，每層<i>傳奇</i>疊層都會再使其提升 @AttackSpeedPerStack*100@%（最多 @MaxLegendStacks@ 層）。<br><br>你可以藉由對敵方英雄、史詩級野怪造成擊殺或助攻；擊殺大型野怪或士兵來累積<i>傳奇</i>疊層。",
+						"icon": "ASSETS/Perks/Styles/Precision/Legend_Heroism.dds"
+					},
+					{
+						"id": 9105,
+						"key": "LegendTenacity",
+						"name": "傳奇：韌性",
+						"shortDesc": "對敵人造成<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">撃殺或助攻</lol-uikit-tooltipped-keyword>將賦予你永久<b>韌性</b>。 ",
+						"longDesc": "獲得 @TenacityBase*100@% 韌性，每層<i>傳奇</i>疊層都會再使其提升 @TenacityPerStack*100@%（最多 @MaxLegendStacks@ 層）。<br><br>你可以藉由對敵方英雄、史詩級野怪造成擊殺或助攻；擊殺大型野怪或士兵來累積<i>傳奇</i>疊層。",
+						"icon": "ASSETS/Perks/Styles/Precision/Legend_Tenacity.dds"
+					},
+					{
+						"id": 9103,
+						"key": "LegendInfamy",
+						"name": "傳奇：血脈",
+						"shortDesc": "對敵人<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">造成擊殺或助攻</lol-uikit-tooltipped-keyword>將賦予你永久<b>普攻吸血</b>。",
+						"longDesc": "每層<i>傳奇</i>疊層賦予你 @LifeStealPerStack*100@% 普攻吸血效果（最多 @MaxLegendStacks@ 層）。<br><br>你可以藉由對敵方英雄、史詩級野怪造成擊殺或助攻；擊殺大型野怪或士兵來累積<i>傳奇</i>疊層。",
+						"icon": "ASSETS/Perks/Styles/Precision/Legend_Infamy.dds"
+					}
+				]
+			},
+			{
+				"runes": [
+					{
+						"id": 8014,
+						"key": "CoupDeGrace",
+						"name": "致命一擊",
+						"shortDesc": "對低血量的英雄造成額外傷害。",
+						"longDesc": "對生命低於 @EnemyHealthPercentageThreshold*100@% 的英雄造成 @BonusPercentDamage.0 *100@% 額外傷害。<br>每次對敵方英雄造成擊殺或助攻時都會獲得 {{ perk_subtext_AdaptiveForce }}，持續 @Duration@ 秒。",
+						"icon": "ASSETS/Perks/Styles/Precision/CoupDeGrace/CoupDeGrace.dds"
+					},
+					{
+						"id": 8017,
+						"key": "GiantSlayer",
+						"name": "斬殺",
+						"shortDesc": "對最大生命比你高的英雄造成額外傷害。",
+						"longDesc": "敵方英雄的最大生命大於你 @MinHealthDifference@ 點以上時造成 @MinBonusDamagePercent.0*100@% 額外傷害，大於你 @MaxHealthDifference@ 點時額外傷害將提升至 @MaxBonusDamagePercent.0*100@%。",
+						"icon": "ASSETS/Perks/Styles/Precision/GiantSlayer/GiantSlayer.dds"
+					},
+					{
+						"id": 8299,
+						"key": "ToTheDeath",
+						"name": "背水一戰",
+						"shortDesc": "你的生命低於一定值時會對敵方英雄造成額外傷害。",
+						"longDesc": "生命低於 @HealthThresholdStart.0*100@% 時對敵方英雄造成 @MinBonusDamagePercent.0*100@% - @MaxBonusDamagePercent.0*100@% 額外傷害。生命降至 @HealthThresholdEnd.0*100@% 時造成最大額外傷害。",
+						"icon": "ASSETS/Perks/Styles/Sorcery/ToTheDeath/ToTheDeath.dds"
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 8400,
+		"key": "Resolve",
+		"name": "意志",
+		"icon": "ASSETS/Perks/Styles/7204_Resolve.dds",
+		"slots": [
+			{
+				"runes": [
+					{
+						"id": 8437,
+						"key": "KSRuinedKing",
+						"name": "不死之握",
+						"shortDesc": "進入戰鬥之後，每過 @TriggerTime@ 秒你下一次對敵方英雄的普攻將造成額外魔法傷害，使你回復生命，並永久提升你的生命。",
+						"longDesc": "進入戰鬥之後，每過 @TriggerTime@ 秒你下一次對敵方英雄的普攻將附帶以下效果：<li>額外造成相當於自身 @PercentHealthDamage.0@% 最大生命的魔法傷害。<br>使你回復相當於自身 @PercentHealthHeal.0*100@% 最大生命的血量<br>永久提升 @MaxHealthPerProc@ 生命</li><br><rules><i>遠程攻擊型英雄：</i>額外傷害及治癒效果減半，且改為獲得 @RangedHealthPerProc@ 永久生命。</rules>",
+						"icon": "ASSETS/Perks/Styles/Resolve/KSRuinedKing/KSRuinedKing.dds"
+					},
+					{
+						"id": 8439,
+						"key": "Vengeance",
+						"name": "裂地衝擊",
+						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Immobilize\">定身</lol-uikit-tooltipped-keyword>一名敵方英雄之後你的物理防禦及魔法防禦會增加，接著對周圍敵人造成大量<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">適性傷害</lol-uikit-tooltipped-keyword>。",
+						"longDesc": "定身一名敵方英雄後，當前物理防禦及魔法防禦提升 @FlatResists@ + @ResistInc.0*100@% ，持續 @DelayBeforeBurst.1@ 秒。效果結束後對周圍敵人造成傷害。<br><br>傷害: @StartingBaseDamage@ - @MaxBaseDamage@ (+@HealthRatio.1@% 你的最大生命) <br>冷卻時間: @Cooldown@秒",
+						"icon": "ASSETS/Perks/Styles/Resolve/VeteranVengeance/VeteranVengeance.dds"
+					},
+					{
+						"id": 8465,
+						"key": "KSBuddyShield",
+						"name": "神聖守護",
+						"shortDesc": "守護被你選作技能目標的友軍，以及在你身邊的友軍。若你或受到守護的友軍即將受到傷害，兩者皆會獲得一個護盾並受到加速。",
+						"longDesc": "{{ perk_shared_desc_KSBuddyShield }}<br><br>冷卻時間：@Cooldown@ 秒<br>護盾值：@ShieldBase@ - @ShieldMax@ +（<scaleAP>@APRatio.-1@ 魔法攻擊</scaleAP>）+（<scalehealth>+@HPRatio.0*100@% 額外生命</scalehealth>）。<br>加速：+@Haste*100@% 額外跑速。",
+						"icon": "ASSETS/Perks/Styles/Resolve/KSBuddyShield/KSBuddyShield.dds"
+					}
+				]
+			},
+			{
+				"runes": [
+					{
+						"id": 8242,
+						"key": "Recharge",
+						"name": "堅毅",
+						"shortDesc": "施放一個召喚師技能後，你會獲得大量韌性及緩速抗性，持續一段時間。每個正在冷卻的召喚師技能都會提升你的韌性及緩速抗性。",
+						"longDesc": "施放一個召喚師技能後，獲得額外 @BonusTenacity*100@% 韌性及緩速抗性，持續 @BuffDuration@ 秒。每個正在冷卻的召喚師技能都會使你的韌性和緩速抗性提升 @PersistTenacity*100@%。",
+						"icon": "ASSETS/Perks/Styles/Sorcery/Recharge/Recharge.dds"
+					},
+					{
+						"id": 8446,
+						"key": "Siege",
+						"name": "爆破",
+						"shortDesc": "位於敵方防禦塔附近時對其進行強大的蓄力攻擊。",
+						"longDesc": "位於敵方防禦塔周圍 @DistanceToTower@ 單位之內時，於 @TotalSiegeTime@ 秒內蓄力一次對敵方防禦塔的強大攻擊。蓄力攻擊將造成 @OutputDamagePerStack@（+@MaxHealthPercentDamage.0 * 100@% 自身最大生命）額外物理傷害。<br><br>冷卻時間：@CooldownSeconds@ 秒",
+						"icon": "ASSETS/Perks/Styles/Resolve/BrickHitHouse/BrickHitHouse.dds"
+					},
+					{
+						"id": 8463,
+						"key": "BloodFromStone",
+						"name": "生命之泉",
+						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairMov\">限制</lol-uikit-tooltipped-keyword>一名敵方英雄的行動時標記他們。友軍攻擊被你標記的英雄時將受到治癒。",
+						"longDesc": "對一名敵方英雄造成行動受限效果時標記他們 @MarkDuration@ 秒。<br><br>友方英雄攻擊被標記的敵人時將於 @HealDuration@ 秒內回復相當於 @FlatHealAmount@ + @HealthRatio.-1 * 100@% 你的最大生命的血量。",
+						"icon": "ASSETS/Perks/Styles/Resolve/BloodFromStone/BloodFromStone.dds"
+					}
+				]
+			},
+			{
+				"runes": [
+					{
+						"id": 8430,
+						"key": "NemMarks",
+						"name": "鋼鐵肌膚",
+						"shortDesc": "獲得 @ArmorBase@ 物理防禦。<br>治癒效果（包括消耗品的治癒效果）會暫時使你的物理防禦提升 @TotalExtraArmor*100@%。",
+						"longDesc": "獲得 @ArmorBase@ 物理防禦。<br><br>獲得來自消耗品的治癒效果、至少回復 @FlatHealThreshold@ 生命的治癒效果，或是受到護盾保護時提升 @TotalExtraArmor*100@% 物理防禦，持續 @EvolveArmorDuration@ 秒。",
+						"icon": "ASSETS/Perks/Styles/Resolve/NemMarks/NemMarks.dds"
+					},
+					{
+						"id": 8435,
+						"key": "NemMage",
+						"name": "魔鏡之護",
+						"shortDesc": "獲得 @MRBase@ 魔法防禦。<br>治癒效果（包括消耗品的治癒效果）會暫時使你的魔法防禦提升 @EvolveBonusMR*100@%。<br>",
+						"longDesc": "獲得 @MRBase@ 魔法防禦。<br><br>獲得來自消耗品的治癒效果、至少回復 @FlatHealThreshold@ 生命的治癒效果，或是受到護盾保護時提升 @EvolveBonusMR*100@% 魔法防禦，持續 @EvolveShellDuration@ 秒。",
+						"icon": "ASSETS/Perks/Styles/Resolve/NemMage/NemMage.dds"
+					},
+					{
+						"id": 8429,
+						"key": "NemFighter",
+						"name": "調節",
+						"shortDesc": "遊戲進行至 @MinutesRequired@ 分鐘後獲得 @ArmorBase@ 物理防禦及 @MRBase@ 魔法防禦，並提升 @ExtraResist@% 物理防禦及魔法防禦。",
+						"longDesc": "{{ perk_short_desc_NemFighter }}",
+						"icon": "ASSETS/Perks/Styles/Resolve/NemFighter/NemFighter.dds"
+					}
+				]
+			},
+			{
+				"runes": [
+					{
+						"id": 8451,
+						"key": "HealthBandit",
+						"name": "過度生長",
+						"shortDesc": "周圍野怪或小兵死亡時提升自身最大生命。",
+						"longDesc": "周圍每 @UnitsPerTier@ 隻野怪或敵方小兵死亡時，你將永久提升 @MaxHealthRatioPerTier*100@% 最大生命。",
+						"icon": "ASSETS/Perks/Styles/Resolve/HealthBandit/HealthBandit.dds"
+					},
+					{
+						"id": 8453,
+						"key": "AmpShields",
+						"name": "甦醒",
+						"shortDesc": "你施放或接收到的治癒及護盾效果增強 @StandardAmp.0@% ，對低血量的目標再增強 @ExtraAmp.0@%。",
+						"longDesc": "你施放或接收到的治癒及護盾效果增強 @StandardAmp.0@%，對生命低於 @HealthCutoff.0@% 的目標再增強 @ExtraAmp.0@%。",
+						"icon": "ASSETS/Perks/Styles/Resolve/AmpShields/AmpShields.dds"
+					},
+					{
+						"id": 8444,
+						"key": "SecondWind",
+						"name": "回春",
+						"shortDesc": "受到敵方英雄傷害後於時間內回復一部分失去生命。",
+						"longDesc": "受到一名敵方英雄傷害後，於 @RegenSeconds@ 秒內回復等同於 @RegenPercentMax.0*100@% 失去生命 + @RegenFlat.0@ 的血量。",
+						"icon": "ASSETS/Perks/Styles/Resolve/SecondWind/SecondWind.dds"
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 8200,
+		"key": "Sorcery",
+		"name": "巫術",
+		"icon": "ASSETS/Perks/Styles/7202_Sorcery.dds",
+		"slots": [
+			{
+				"runes": [
+					{
+						"id": 8214,
+						"key": "SummonAery",
+						"name": "召喚艾莉",
+						"shortDesc": "你的普攻和技能會將艾莉送至目標身上，傷害敵人或保護友軍。",
+						"longDesc": "你的普攻和技能會將艾莉送至目標身上，對敵方英雄造成傷害或保護友方英雄。<br><br>傷害：@DamageBase@ - @DamageMax@，隨等級提升（+<scaleAP>@DamageAPRatio.-1@ 魔法攻擊</scaleAP>、+<scaleAD>@DamageADRatio.-1@ 額外物理攻擊</scaleAD>）<br>護盾：@ShieldBase@ - @ShieldMax@，隨等級提升（+<scaleAP>@ShieldRatio.-1@ 魔法攻擊</scaleAP>、+<scaleAD>@ShieldRatioAD.-1@ 額外物理攻擊</scaleAD>）<br><br>艾莉尚未返回你的身邊時無法將牠再次送至一名新的目標身上。",
+						"icon": "ASSETS/Perks/Styles/Sorcery/SummonAery/SummonAery.dds"
+					},
+					{
+						"id": 8229,
+						"key": "ArcaneComet",
+						"name": "奧術彗星",
+						"shortDesc": "使用技能傷害一名敵方英雄時召喚一顆彗星至他們的位置。",
+						"longDesc": "使用技能傷害一名敵方英雄時召喚一顆彗星到他們的位置。奧術彗星進入冷卻後，使用技能傷害敵方英雄將縮減剩餘冷卻時間。<br><br><lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>適性傷害</font></lol-uikit-tooltipped-keyword>：@DamageBase@ - @DamageMax@，隨等級提升（<scaleAP>+@APRatio.-1@ 魔法攻擊</scaleAP>、<scaleAD>+@ADRatio.-1@ 額外物理攻擊</scaleAD>）<br>冷卻時間：@RechargeTime@ - @RechargeTimeMin@ 秒<br><rules><br>冷卻時間減免：<br>單體傷害：@PercentRefund*100@%。<br>範圍傷害：@AoEPercentRefund*100@%。<br>持續傷害：@DotPercentRefund*100@%。<br></rules>",
+						"icon": "ASSETS/Perks/Styles/Sorcery/ArcaneComet/ArcaneComet.dds"
+					},
+					{
+						"id": 8230,
+						"key": "PhaseRush",
+						"name": "相位衝擊",
+						"shortDesc": "使用 3 個<b>獨立的</b>普攻或技能攻擊一名敵方英雄時獲得大量<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">跑速</lol-uikit-tooltipped-keyword>。",
+						"longDesc": "@Window@ 秒內使用 3 次普攻或 3 個<b>獨立的</b>技能攻擊一名敵方英雄時獲得@HasteBase*100@ - @HasteMax*100@% 跑速（隨等級提升）及 @SlowResist*100@% 緩速抗性。<br><br>持續時間：@Duration@ 秒<br>冷卻時間：@Cooldown@ 秒",
+						"icon": "ASSETS/Perks/Styles/Sorcery/PhaseRush/PhaseRush.dds"
+					}
+				]
+			},
+			{
+				"runes": [
+					{
+						"id": 8224,
+						"key": "NullifyingOrb",
+						"name": "除魔晶球",
+						"shortDesc": "若承受的魔法傷害將使你的生命變得過低的話，你會獲得一個魔法傷害護盾。",
+						"longDesc": "如接下來承受的魔法傷害將使你的生命低於@PercHealthTrigger.0*100@% 的話獲得一個護盾，根據英雄等級吸收 @ShieldMin@ - @ShieldMax@ 點魔法傷害（<scaleAP>+@APRatio.-1@ 魔法攻擊</scaleAP>、 <scaleAD>+@ADRatio.-1@ 額外物理攻擊</scaleAD>），持續 @ShieldDuration@ 秒。<br><br>冷卻時間：@Cooldown@ 秒",
+						"icon": "ASSETS/Perks/Styles/Sorcery/NullifyingOrb/Pokeshield.dds"
+					},
+					{
+						"id": 8226,
+						"key": "ManaflowBand",
+						"name": "附魔之帶",
+						"shortDesc": "定期使你下一次使用的技能返還其消耗魔力或能量，並回復一部份你失去的魔力或能量。",
+						"longDesc": "每過 @Cooldown.0@ 秒，你下一次使用的技能將返還其消耗魔力或能量，並回復 @MPToRestoreRatio.0*100@% 失去魔力或能量。",
+						"icon": "ASSETS/Perks/Styles/Sorcery/ManaflowBand/ManaflowBand.dds"
+					},
+					{
+						"id": 8243,
+						"key": "TheUltimateHat",
+						"name": "終焉法帽",
+						"shortDesc": "縮減大絕的冷卻時間。每次施放大絕都會再縮減更多冷卻時間。",
+						"longDesc": "大絕的冷卻時間縮減 @StartingCDR@%。每次施放大絕都會使冷卻時間再縮減 @CDChunkPerStack@%。最多疊加 @MaxStacks@ 次。",
+						"icon": "ASSETS/Perks/Styles/Sorcery/TheUltimateHat/TheUltimateHat.dds"
+					}
+				]
+			},
+			{
+				"runes": [
+					{
+						"id": 8210,
+						"key": "Transcendence",
+						"name": "卓越",
+						"shortDesc": "等級達 @LevelToTurnOn@ 級時獲得 @MaxCDR*100@% <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_CDR\">冷卻時間減免</lol-uikit-tooltipped-keyword>。超出上限的冷卻減免會轉換成魔法攻擊或物理攻擊<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">（適性）</lol-uikit-tooltipped-keyword>。",
+						"longDesc": "等級達 @LevelToTurnOn@ 級時獲得 @MaxCDR*100@% 冷卻時間減免。<br><br>超出上限的冷卻減免，每 1 % 都會轉換成 {{ perk_subtext_AdaptiveForce }}。",
+						"icon": "ASSETS/Perks/Styles/Sorcery/Transcendence/Transcendence.dds"
+					},
+					{
+						"id": 8234,
+						"key": "Celerity",
+						"name": "迅捷",
+						"shortDesc": "獲得 @PercentMS.0@% 額外<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">跑速</lol-uikit-tooltipped-keyword>。根據你的跑速加成獲得額外魔法攻擊或物理攻擊<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">（適性）</lol-uikit-tooltipped-keyword>。",
+						"longDesc": "獲得 @PercentMS.0@% 額外跑速。<br>將@AdaptiveAD*8@% 跑速加成轉化成物理攻擊，或將 @AdaptiveAP*8@% 跑速加成轉換成魔法攻擊（<font color='#48C4B7'>適性</font>）。",
+						"icon": "ASSETS/Perks/Styles/Sorcery/Celerity/CelerityTemp.dds"
+					},
+					{
+						"id": 8233,
+						"key": "AbsoluteFocus",
+						"name": "絕對專注",
+						"shortDesc": "生命高於 @HealthPercent*100@% 時獲得額外<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">適性傷害</lol-uikit-tooltipped-keyword>。",
+						"longDesc": "生命高於 @HealthPercent*100@% 時獲得 {{ perk_subtext_AdaptiveForce_Max }}（隨等級提升）。<br>",
+						"icon": "ASSETS/Perks/Styles/Sorcery/AbsoluteFocus/AbsoluteFocus.dds"
+					}
+				]
+			},
+			{
+				"runes": [
+					{
+						"id": 8237,
+						"key": "Scorch",
+						"name": "焦灼",
+						"shortDesc": "每過 @BurnlockoutDuration@ 秒你的首個技能命中敵方英雄時會使其燃燒。",
+						"longDesc": "你下一次施放的技能命中敵方英雄時使其燃燒，@dotduration@ 秒後造成 @damage@ - @damagemax@ 額外魔法傷害（隨等級提升）。<br><br>冷卻時間：@BurnlockoutDuration@ 秒。",
+						"icon": "ASSETS/Perks/Styles/Sorcery/Scorch/Scorch.dds"
+					},
+					{
+						"id": 8232,
+						"key": "Waterwalking",
+						"name": "水行者",
+						"shortDesc": "位於河道上時獲得<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">額外跑速</lol-uikit-tooltipped-keyword>及魔法攻擊／物理攻擊<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">（適性）</lol-uikit-tooltipped-keyword>。",
+						"longDesc": "位於河道上時獲得 @MovementSpeed@ 跑速及 {{ perk_subtext_AdaptiveForce_Max }}（隨等級提升）。<br><br><hr></hr><br><i>願你與奔騰不息的河流一樣迅捷，與受到驚嚇的河蟹一樣靈敏。</i><br>",
+						"icon": "ASSETS/Perks/Styles/Sorcery/Waterwalking/Waterwalking.dds"
+					},
+					{
+						"id": 8236,
+						"key": "GatheringStorm",
+						"name": "暴風凝聚",
+						"shortDesc": "隨著遊戲的進行獲得逐漸增加的物理攻擊或魔法攻擊<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Adaptive\">（適性）</lol-uikit-tooltipped-keyword>。",
+						"longDesc": "每隔 @UpdateAfterMinutes@ 分鐘獲得魔法攻擊或物理攻擊（<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>適性</font></lol-uikit-tooltipped-keyword>）。<br><br><i>10 分鐘</i>：+ 8 魔法攻擊或 5 物理攻擊<br><i>20 分鐘</i>：+ 24 魔法攻擊或 14 物理攻擊<br><i>30 分鐘</i>：+ 48 魔法攻擊或 29 物理攻擊<br><i>40 分鐘</i>：+ 80 魔法攻擊或 48 物理攻擊<br><i>50 分鐘</i>：+ 120 魔法攻擊或 72 物理攻擊<br><i>60 分鐘</i>：+ 168 魔法攻擊或 101 物理攻擊<br>以此類推…",
+						"icon": "ASSETS/Perks/Styles/Sorcery/GatheringStorm/GatheringStorm.dds"
+					}
+				]
+			}
+		]
+	}
+]
