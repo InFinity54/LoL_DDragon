@@ -3,7 +3,7 @@
 		"id": 8100,
 		"key": "Domination",
 		"name": "Dominazione",
-		"icon": "ASSETS/Perks/Styles/7200_Domination.dds",
+		"icon": "perk-images/Styles/7200_Domination.png",
 		"slots": [
 			{
 				"runes": [
@@ -13,7 +13,7 @@
 						"name": "Elettroshock",
 						"shortDesc": "Colpire un campione con 3 attacchi o abilità <b>diversi</b> entro @WindowDuration@ secondi infligge <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>danni adattivi</lol-uikit-tooltipped-keyword> bonus.",
 						"longDesc": "Colpire un campione con 3 <b>diversi</b> attacchi o abilità entro @WindowDuration@ secondi infligge <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>danni adattivi</font></lol-uikit-tooltipped-keyword> bonus.<br><br>Danni: @DamageBase@-@DamageMax@ (+@BonusADRatio.-1@ attacco fisico bonus, +@APRatio.-1@ potere magico).<br><br>Ricarica: @Cooldown@-@CooldownMin@ secondi.<br><br><hr></hr><i>Li chiamavamo 'Signori del Tuono', perché anche solo parlare del loro lampo aveva effetti disastrosi</i>",
-						"icon": "ASSETS/Perks/Styles/Domination/Electrocute/Electrocute.dds"
+						"icon": "perk-images/Styles/Domination/Electrocute/Electrocute.png"
 					},
 					{
 						"id": 8124,
@@ -21,7 +21,7 @@
 						"name": "Predatore",
 						"shortDesc": "Aggiungi un effetto attivo ai tuoi stivali, che conferisce un grande aumento di <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>velocità di movimento</lol-uikit-tooltipped-keyword> e ti fa infliggere danni bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>adattivi</lol-uikit-tooltipped-keyword> con il prossimo attacco o abilità.",
 						"longDesc": "Incanta i tuoi stivali con l'effetto attivo ''<font color='#c60300'>Predatore</font>.''<br><br>Canalizza per 1,5 secondi fuori dal combattimento per ottenere il 45% della velocità di movimento per 15 secondi. Gli attacchi e le abilità che infliggono danni fanno terminare questo effetto, infliggendo 60-180 (+<scaleAD>0,4</scaleAD> attacco fisico bonus) (+<scaleAP>0,25</scaleAP> potere magico) <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>danni adattivi</font></lol-uikit-tooltipped-keyword> bonus.<br><br>Ricarica: 150-100 secondi. Inizia la partita in ricarica. 50% di ricarica in caso di interruzione durante la canalizzazione.",
-						"icon": "ASSETS/Perks/Styles/Domination/Predator/Predator.dds"
+						"icon": "perk-images/Styles/Domination/Predator/Predator.png"
 					},
 					{
 						"id": 8128,
@@ -29,7 +29,7 @@
 						"name": "Raccolto oscuro",
 						"shortDesc": "Campioni, minion grandi e mostri grandi lasciano un'essenza dell'anima quando muoiono. Tocca le anime per assorbirle e infliggere danni bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>adattivi</lol-uikit-tooltipped-keyword> con il tuo prossimo attacco in base all'essenza dell'anima raccolta.",
 						"longDesc": "Campioni, minion grandi e mostri grandi lasciano un'essenza dell'anima quando muoiono. Raccogli anime per ottenere <font color='#c60300'>Carica spirituale</font>. Attaccare un campione o una struttura consuma <font color='#c60300'>Carica spirituale</font> per infliggere <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>danni adattivi</font></lol-uikit-tooltipped-keyword> bonus.<br><br><font color='#c60300'>Carica spirituale</font> dura @ONHDuration@ secondi, che aumentano a @ONHDurationLong@ secondi dopo aver raccolto @SoulsRequiredForIncreasedDuration@ essenze dell'anima.<br><br>Danni bonus: @DamageMin@-@DamageMax@ (+<scaleAD>@ADRatio.2@ attacco fisico bonus</scaleAD>) (+<scaleAP>@APRatio.1@ potere magico</scaleAP>) + essenze dell'anima raccolte.<br><rules><br>Campioni: @champstacks@ essenze dell'anima.<br>Mostri: @monsterstacks@ essenze dell'anima.<br>Minion: @minionstacks@ essenze dell'anima.</rules>",
-						"icon": "ASSETS/Perks/Styles/Domination/DarkHarvest/DarkHarvest.dds"
+						"icon": "perk-images/Styles/Domination/DarkHarvest/DarkHarvest.png"
 					}
 				]
 			},
@@ -41,7 +41,7 @@
 						"name": "Colpo basso",
 						"shortDesc": "Infliggi danni puri bonus ai campioni nemici vittime di <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_ImpairAct'>impedimenti al movimento o alle azioni</lol-uikit-tooltipped-keyword>. ",
 						"longDesc": "Danneggiare campioni vittime di <b>impedimenti al movimento o alle azioni</b> infligge @DamageIncMin@-@DamageIncMax@ danni puri bonus (in base al livello).<br><br>Ricarica: @Cooldown@ secondi.<br><rules>Si attiva coi danni inflitti dopo l'impedimento.</rules>",
-						"icon": "ASSETS/Perks/Styles/Domination/CheapShot/CheapShot.dds"
+						"icon": "perk-images/Styles/Domination/CheapShot/CheapShot.png"
 					},
 					{
 						"id": 8139,
@@ -49,7 +49,7 @@
 						"name": "Assaggio di sangue",
 						"shortDesc": "Ti curi quando danneggi un campione nemico.",
 						"longDesc": "Ti curi quando danneggi un campione nemico.<br><br>Guarigione: @HealAmount@-@HealAmountMax@ (+@ADRatio.-1@ attacco fisico bonus, +@APRatio.-1@ potere magico) salute in base al livello.<br><br>Ricarica: @Cooldown@ secondi.",
-						"icon": "ASSETS/Perks/Styles/Domination/TasteOfBlood/GreenTerror_TasteOfBlood.dds"
+						"icon": "perk-images/Styles/Domination/TasteOfBlood/GreenTerror_TasteOfBlood.png"
 					},
 					{
 						"id": 8143,
@@ -57,7 +57,7 @@
 						"name": "Impatto improvviso",
 						"shortDesc": "Ottieni una raffica di letalità e penetrazione magica dopo aver usato uno scatto, un balzo, un Flash o un Teletrasporto, o all'uscita dall'invisibilità.",
 						"longDesc": "Dopo aver usato uno scatto, un balzo, un Flash o un Teletrasporto, danneggiare un campione conferisce @BonusLethality.0@ letalità e @BonusMpen.0@ penetrazione magica per @Duration@ secondi.<br><br>Ricarica: @Cooldown@ secondi",
-						"icon": "ASSETS/Perks/Styles/Domination/SuddenImpact/SuddenImpact.dds"
+						"icon": "perk-images/Styles/Domination/SuddenImpact/SuddenImpact.png"
 					}
 				]
 			},
@@ -69,7 +69,7 @@
 						"name": "Lume zombi",
 						"shortDesc": "Quando distruggi un lume, al suo posto appare un lume zombi alleato. Quando i tuoi lumi scadono si rianimano come lumi zombi.",
 						"longDesc": "Quando distruggi un lume, al suo posto appare un lume zombi alleato. Inoltre, quando i tuoi lumi scadono, si rianimano come lumi zombi.<br><br>I lumi zombi sono visibili, durano @WardDurationTooltipMin@-@WardDuration@ secondi e non contano per il limite di lumi.",
-						"icon": "ASSETS/Perks/Styles/Domination/ZombieWard/ZombieWard.dds"
+						"icon": "perk-images/Styles/Domination/ZombieWard/ZombieWard.png"
 					},
 					{
 						"id": 8120,
@@ -77,7 +77,7 @@
 						"name": "Poro fantasma",
 						"shortDesc": "Quando entri nell'erba alta, appare un poro. Rimarrà nell'erba per darti visione.",
 						"longDesc": "Entra nell'erba alta per evocare un poro dopo una breve canalizzazione. Il poro rimarrà a darti visione finché non ne evochi un altro.<br><br>Se un nemico entra nell'erba alta con dentro il poro, lo fa scappare e manda Poro fantasma in ricarica per @Cooldown@ secondi.<br><br>La canalizzazione del poro viene interrotta se subisci danni.",
-						"icon": "ASSETS/Perks/Styles/Domination/GhostPoro/GhostPoro.dds"
+						"icon": "perk-images/Styles/Domination/GhostPoro/GhostPoro.png"
 					},
 					{
 						"id": 8138,
@@ -85,7 +85,7 @@
 						"name": "Collezione di Bulbi",
 						"shortDesc": "Ottieni bulbi oculari all'<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>eliminazione</lol-uikit-tooltipped-keyword> di campioni e lumi. Ottieni attacco fisico o potere magico permanenti, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'>adattivi</lol-uikit-tooltipped-keyword>, per ogni bulbo oculare più il bonus per il completamento della collezione.",
 						"longDesc": "Ottieni bulbi oculari all'eliminazione di campioni e lumi. Ottieni un bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adattivo</font></lol-uikit-tooltipped-keyword> di @AdaptiveForce.-1*0.6@ attacco fisico o @AdaptiveForce@ potere magico per bulbo oculare raccolto. <br><br>Al completamento della tua collezione di @MaxEyeballs@ bulbi oculari, ottieni un bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adattivo</font></lol-uikit-tooltipped-keyword> di @CompletionBonus.-1*0.6@ attacco fisico o @CompletionBonus@ potere magico bonus.<br><br>Ottieni @StacksPerTakedown@ bulbi oculari per uccisione di campione, @StacksPerAssist@ per assist, e @StacksPerWard@ per lume distrutto.",
-						"icon": "ASSETS/Perks/Styles/Domination/EyeballCollection/EyeballCollection.dds"
+						"icon": "perk-images/Styles/Domination/EyeballCollection/EyeballCollection.png"
 					}
 				]
 			},
@@ -97,7 +97,7 @@
 						"name": "Cacciatore famelico",
 						"shortDesc": "Le <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>eliminazioni</lol-uikit-tooltipped-keyword> <b>uniche</b> conferiscono guarigione permanente dai danni delle abilità. ",
 						"longDesc": "Ti curi di una percentuale dei danni che infliggi con le tue abilità.<br>Guarigione: @StartingOmnivamp*100@% + @OmnivampPerStack*100@% per ogni carica di <i>Cacciatore di taglie</i>. <br><br>Ottieni una carica di <i>Cacciatore di taglie</i> per la prima eliminazione che ottieni su ogni campione nemico.<br><rules><br>Guarigione ridotta a un terzo per le abilità ad area.</rules><br>",
-						"icon": "ASSETS/Perks/Styles/Domination/RavenousHunter/RavenousHunter.dds"
+						"icon": "perk-images/Styles/Domination/RavenousHunter/RavenousHunter.png"
 					},
 					{
 						"id": 8134,
@@ -105,7 +105,7 @@
 						"name": "Cacciatore ingegnoso",
 						"shortDesc": "Le <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>eliminazioni</lol-uikit-tooltipped-keyword> <b>uniche</b> conferiscono <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_CDR'>riduzione ricarica</lol-uikit-tooltipped-keyword> per oggetti attivi permanente (trinket inclusi).",
 						"longDesc": "Ottieni @StartingActiveItemCDR.0*100@% di <b>riduzione ricarica oggetti attivi</b> più @ActiveItemCDRPerStack.0*100@% per ogni carica di <i>Cacciatore di taglie</i> (trinket inclusi).<br><br>Ottieni una carica di <i>Cacciatore di taglie</i> per la prima eliminazione che ottieni su ogni campione nemico.",
-						"icon": "ASSETS/Perks/Styles/Domination/IngeniousHunter/IngeniousHunter.dds"
+						"icon": "perk-images/Styles/Domination/IngeniousHunter/IngeniousHunter.png"
 					},
 					{
 						"id": 8105,
@@ -113,7 +113,7 @@
 						"name": "Cacciatore implacabile",
 						"shortDesc": "Le <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>eliminazioni</lol-uikit-tooltipped-keyword> <b>uniche</b> conferiscono <b><lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>velocità di movimento</lol-uikit-tooltipped-keyword></b> permanente fuori dal combattimento. ",
 						"longDesc": "Ottieni @StartingOOCMS@ <b>velocità di movimento fuori dai combattimenti</b> più @OOCMS.0@ per carica di <i>Cacciatore di taglie</i>.<br><br>Ottieni una carica di <i>Cacciatore di taglie</i> per la prima eliminazione che ottieni su ogni campione nemico.",
-						"icon": "ASSETS/Perks/Styles/Domination/RelentlessHunter/RelentlessHunter.dds"
+						"icon": "perk-images/Styles/Domination/RelentlessHunter/RelentlessHunter.png"
 					}
 				]
 			}
@@ -123,7 +123,7 @@
 		"id": 8300,
 		"key": "Inspiration",
 		"name": "Ispirazione",
-		"icon": "ASSETS/Perks/Styles/7203_Whimsy.dds",
+		"icon": "perk-images/Styles/7203_Whimsy.png",
 		"slots": [
 			{
 				"runes": [
@@ -133,7 +133,7 @@
 						"name": "Libro incantesimi non sigillato",
 						"shortDesc": "Scambia all'emporio i frammenti evocatore ottenuti per cambiare i tuoi incantesimi dell'evocatore. I tuoi incantesimi dell'evocatore hanno la ricarica ridotta. <br>",
 						"longDesc": "Ottieni un frammento dell'evocatore a @ShardFirstMinutes@ minuti, più un altro ogni @ShardRechargeMinutes@ minuti dopo il primo (massimo @Maxshards@ frammenti).<br><br>Quando sei vicino all'emporio puoi scambiare @ShardCost@ frammenti dell'evocatore per cambiare un incantesimo dell'evocatore con un altro. <br><br>Inoltre, le ricariche dei tuoi incantesimi dell'evocatore si riducono del @SummonerCDR.0*100@%.<br><br><rules><i>Punizione:</i> comprare Punizione non dà accesso agli oggetti di Punizione<br>Non puoi avere due incantesimi dell'evocatore uguali</rules>",
-						"icon": "ASSETS/Perks/Styles/Inspiration/UnsealedSpellbook/UnsealedSpellbook.dds"
+						"icon": "perk-images/Styles/Inspiration/UnsealedSpellbook/UnsealedSpellbook.png"
 					},
 					{
 						"id": 8351,
@@ -141,7 +141,7 @@
 						"name": "Potenziamento glaciale",
 						"shortDesc": "Il tuo primo attacco contro un campione nemico lo rallenta (ricarica legata al singolo nemico). Rallentare i campioni con oggetti attivi attiva un raggio congelante che crea una zona di rallentamento temporanea.",
 						"longDesc": "Gli attacchi base contro un campione lo rallentano per @SlowDuration.0@ secondi. Il rallentamento diventa più forte nel corso della durata dell'effetto.<li><i>A distanza</i>: gli attacchi a distanza rallentano fino al @SlowAmountBase.0*-100@%-@SlowAmountMax.0*-100@%</li> <li><i>Mischia</i>: gli attacchi in mischia rallentano fino al @SlowAmountBaseMelee.0*-100@%-@SlowAmountMaxMelee.0*-100@%</li><br>Rallentare un campione con oggetti attivi lancia un raggio congelante che congela il terreno circostante per @SlowZoneDuration@ secondi, rallentando tutte le unità all'interno dell'area del @SlowZoneSlow*-100@%.<br><br>Ricarica: @UnitCDBase@-@UnitCD16@ secondi per unità",
-						"icon": "ASSETS/Perks/Styles/Inspiration/GlacialAugment/GlacialAugment.dds"
+						"icon": "perk-images/Styles/Inspiration/GlacialAugment/GlacialAugment.png"
 					},
 					{
 						"id": 8359,
@@ -149,7 +149,7 @@
 						"name": "Cleptomanzia",
 						"shortDesc": "Dopo aver usato un'abilità, il tuo prossimo attacco contro un campione conferisce oro bonus. C'è anche una probabilità che tu ottenga un oggetto consumabile.",
 						"longDesc": "Dopo aver usato un'abilità, il tuo prossimo attacco contro un campione conferisce oro bonus. C'è anche una probabilità che tu ottenga un oggetto consumabile.",
-						"icon": "ASSETS/Perks/Styles/Inspiration/Kleptomancy/Kleptomancy.dds"
+						"icon": "perk-images/Styles/Inspiration/Kleptomancy/Kleptomancy.png"
 					}
 				]
 			},
@@ -161,7 +161,7 @@
 						"name": "Marchingegno Hexflash",
 						"shortDesc": "Mentre Flash è in ricarica viene rimpiazzato da <i>Hexflash</i>.<br><br><i>Hexflash</i>: canalizza per teletrasportarti in una nuova posizione.",
 						"longDesc": "Mentre Flash è in ricarica, viene rimpiazzato da <i>Hexflash</i>.<br><br><i>Hexflash</i>: canalizza per @ChannelDuration@ secondi per teletrasportarti in una nuova posizione.<br><br>Ricarica: @CooldownTime@ secondi. Va in ricarica da @ChampionCombatCooldown@ secondi quando entri in combattimento con i campioni.",
-						"icon": "ASSETS/Perks/Styles/Inspiration/HextechFlashtraption/HextechFlashtraption.dds"
+						"icon": "perk-images/Styles/Inspiration/HextechFlashtraption/HextechFlashtraption.png"
 					},
 					{
 						"id": 8304,
@@ -169,7 +169,7 @@
 						"name": "Calzature magiche",
 						"shortDesc": "Ottieni stivali gratis a @GiveBootsAtMinute@ minuti. Prima non puoi comprare stivali. Ogni <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>eliminazione</lol-uikit-tooltipped-keyword> che ottieni fa arrivare prima i tuoi stivali di @SecondsSoonerPerTakedown@ secondi.",
 						"longDesc": "Ottieni Stivali lievemente magici gratis a @GiveBootsAtMinute@ minuti. Prima non puoi comprare stivali. Per ogni eliminazione ottieni gli stivali @SecondsSoonerPerTakedown@ secondi prima.<br><br>Stivali lievemente magici conferiscono +@AdditionalMovementSpeed@ velocità di movimento.",
-						"icon": "ASSETS/Perks/Styles/Inspiration/MagicalFootwear/MagicalFootwear.dds"
+						"icon": "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png"
 					},
 					{
 						"id": 8313,
@@ -177,7 +177,7 @@
 						"name": "Tempismo perfetto",
 						"shortDesc": "Ottieni un Cronografo gratis. Cronografo ha un uso singolo di <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Stasis'>Stasi</lol-uikit-tooltipped-keyword>.",
 						"longDesc": "Inizi la partita con Trasformazione in Cronografo, che si trasforma in Cronografo dopo @InitialCooldown.0@ minuti. Cronografo ha un effetto di Stasi a uso singolo.<br><br>Riduce la ricarica di Clessidra di Zhonya, Angelo custode e Lastrapietra del gargoyle del @PercentGAZhonyasCDR.0*100@%.",
-						"icon": "ASSETS/Perks/Styles/Inspiration/PerfectTiming/PerfectTiming.dds"
+						"icon": "perk-images/Styles/Inspiration/PerfectTiming/PerfectTiming.png"
 					}
 				]
 			},
@@ -189,7 +189,7 @@
 						"name": "Mercato del futuro",
 						"shortDesc": "Puoi indebitarti per comprare oggetti.",
 						"longDesc": "Puoi indebitarti per comprare oggetti. La quantità di oro che puoi prendere in prestito aumenta col tempo.<br><br>Interesse debito: @ExcessCostPenaltyFlat@ oro",
-						"icon": "ASSETS/Perks/Styles/Inspiration/FuturesMarket/FuturesMarket.dds"
+						"icon": "perk-images/Styles/Inspiration/FuturesMarket/FuturesMarket.png"
 					},
 					{
 						"id": 8316,
@@ -197,7 +197,7 @@
 						"name": "Smaterializzatore",
 						"shortDesc": "Cominci la partita con @GainedMinionKillers@ \"Smaterializzatore\". Uccidere i minion con l'oggetto conferisce un bonus ai danni permanente contro quel tipo di minion.",
 						"longDesc": "Cominci la partita con @GainedMinionKillers@ Smaterializzatore che uccidono e assorbono all'istante i minion in corsia. Lo Smaterializzatore è in ricarica per i primi @InitialCooldown@ secondi della partita.<br><br>Assorbire un minion aumenta i tuoi danni di +@DamageBonusForAnyAbsorbed.0*100@% contro quel tipo di minion, permanentemente, e di +@DamageBonusPerAdditionalAbsorbed.0*100@% in più per ogni minion aggiuntivo dello stesso tipo assorbito.<br>",
-						"icon": "ASSETS/Perks/Styles/Inspiration/MinionDematerializer/MinionDematerializer.dds"
+						"icon": "perk-images/Styles/Inspiration/MinionDematerializer/MinionDematerializer.png"
 					},
 					{
 						"id": 8345,
@@ -205,7 +205,7 @@
 						"name": "Consegna biscotti",
 						"shortDesc": "Ottieni un Biscotto gratis ogni @BiscuitMinuteInterval@ minuti, fino a @SwapOverMinute@ minuti. Consumare un Biscotto aumenta permanentemente il mana massimo e recuperi salute e mana.",
 						"longDesc": "Consegna biscotti: ottieni un Biscotto eterno della volontà ogni @BiscuitMinuteInterval@ minuti, fino a @SwapOverMinute@ minuti.<br><br>I biscotti ti restituiscono il @HealthHealPercent.0*100@% di salute e mana mancanti. Consumare un biscotto aumenta permanentemente di @PermanentMana@ il tuo limite di mana. <br><br><i>Senza mana:</i> i campioni senza mana invece recuperano il @HealthHealPercentManaless.0*100@% della salute mancante.",
-						"icon": "ASSETS/Perks/Styles/Inspiration/BiscuitDelivery/BiscuitDelivery.dds"
+						"icon": "perk-images/Styles/Inspiration/BiscuitDelivery/BiscuitDelivery.png"
 					}
 				]
 			},
@@ -217,7 +217,7 @@
 						"name": "Intuito cosmico",
 						"shortDesc": "+@CDR*100@% <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_CDR'>riduzione ricarica</lol-uikit-tooltipped-keyword><br>+@CDR*100@% riduzione ricarica massima<br>+@CDR*100@% riduzione ricarica incantesimi dell'evocatore<br>+@CDR*100@% riduzione ricarica oggetti",
 						"longDesc": "+@CDR*100@% riduzione ricarica<br>+@CDR*100@% riduzione ricarica massima<br>+@CDR*100@% riduzione ricarica incantesimi dell'evocatore<br>+@CDR*100@% riduzione ricarica oggetti",
-						"icon": "ASSETS/Perks/Styles/Inspiration/CosmicInsight/CosmicInsight.dds"
+						"icon": "perk-images/Styles/Inspiration/CosmicInsight/CosmicInsight.png"
 					},
 					{
 						"id": 8410,
@@ -225,7 +225,7 @@
 						"name": "Velocità di avvicinamento",
 						"shortDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>Velocità di movimento bonus</lol-uikit-tooltipped-keyword> verso i campioni alleati vicini <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_ImpairMov'>vittime di impedimenti</lol-uikit-tooltipped-keyword> o verso i campioni nemici vittime dei tuoi impedimenti.",
 						"longDesc": "Ottieni il @MovementSpeedPercentBonus.0*100@% di velocità di movimento muovendoti verso i campioni alleati vicini vittime di impedimenti o verso i campioni nemici vittime dei tuoi impedimenti. <br><br>Gittata: @ActivationDistance@",
-						"icon": "ASSETS/Perks/Styles/Resolve/ApproachVelocity/ApproachVelocity.dds"
+						"icon": "perk-images/Styles/Resolve/ApproachVelocity/ApproachVelocity.png"
 					},
 					{
 						"id": 8352,
@@ -233,7 +233,7 @@
 						"name": "Tonico temporale",
 						"shortDesc": "Le tue pozioni, i biscotti e gli elisir durano il @PotionDuration*100@% in più e ottieni il @BonusMS*100@% di velocità di movimento mentre sei sotto il loro effetto.",
 						"longDesc": "Le tue pozioni, i biscotti e gli elisir durano il @PotionDuration*100@% in più e ottieni il @BonusMS*100@% di velocità di movimento mentre sei sotto il loro effetto.",
-						"icon": "ASSETS/Perks/Styles/Inspiration/TimeWarpTonic/TimeWarpTonic.dds"
+						"icon": "perk-images/Styles/Inspiration/TimeWarpTonic/TimeWarpTonic.png"
 					}
 				]
 			}
@@ -243,7 +243,7 @@
 		"id": 8000,
 		"key": "Precision",
 		"name": "Precisione",
-		"icon": "ASSETS/Perks/Styles/7201_Precision.dds",
+		"icon": "perk-images/Styles/7201_Precision.png",
 		"slots": [
 			{
 				"runes": [
@@ -253,7 +253,7 @@
 						"name": "Attacco sostenuto",
 						"shortDesc": "Colpire un campione nemico @HitsRequired@ volte consecutive lo rende vulnerabile e gli infligge danni bonus, facendogli subire più danni da tutte le fonti per @AmpDuration@ secondi.",
 						"longDesc": "Colpire un campione nemico con @HitsRequired@ attacchi base consecutivi infligge @MinDamage@-@MaxDamage@ danni bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>adattivi</font></lol-uikit-tooltipped-keyword> (in base al livello) e lo espone, facendogli subire il @AmpPotencyStartSelf.0*100@-@AmpPotencyMaxSelf.0*100@% di danni in più da tutte le fonti per @AmpDuration@ secondi.",
-						"icon": "ASSETS/Perks/Styles/Precision/PressTheAttack/PressTheAttack.dds"
+						"icon": "perk-images/Styles/Precision/PressTheAttack/PressTheAttack.png"
 					},
 					{
 						"id": 8008,
@@ -261,7 +261,7 @@
 						"name": "Tempo letale",
 						"shortDesc": "@LeadInDelay.1@ secondi dopo aver danneggiato un campione ottieni una grande quantità di velocità d'attacco. Tempo letale ti permette di superare momentaneamente il limite di velocità d'attacco.",
 						"longDesc": "@LeadInDelay.1@ secondi dopo aver danneggiato un campione ottieni il @AttackSpeedMin*100@-@AttackSpeedMax*100@% (in base al livello) della velocità d'attacco per @AttackSpeedBuffDurationMin@ secondi. Attaccare un campione estende l'effetto fino a @AttackSpeedBuffDurationMax@ secondi.<br><br>Ricarica: @Cooldown@ secondi<br><br>Tempo letale ti permette di superare momentaneamente il limite di velocità d'attacco.",
-						"icon": "ASSETS/Perks/Styles/Precision/FlowofBattle/FlowofBattleTemp.dds"
+						"icon": "perk-images/Styles/Precision/FlowofBattle/FlowofBattleTemp.png"
 					},
 					{
 						"id": 8021,
@@ -269,7 +269,7 @@
 						"name": "Piede lesto",
 						"shortDesc": "Attaccare e muoversi fa accumulare cariche di energia. A 100 cariche, il tuo prossimo attacco ti cura e ti conferisce <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>velocità di movimento</lol-uikit-tooltipped-keyword> aumentata.",
 						"longDesc": "Attaccare e muoversi fa accumulare cariche di energia. A 100 cariche, il tuo prossimo attacco è energizzato.<br><br>Gli attacchi energizzati ti curano di @HealBase@-@HealMax@ (+@HealBonusADRatio.-1@ attacco fisico bonus, +@HealAPRatio.-1@ potere magico) e ti conferiscono @MSBuff*100@% di velocità di movimento per @MSDuration.0@ secondi.<br><rules>La cura ha il @MinionHealMod*100@% dell'efficacia se usata sui minion (@MinionHealMod*50@% per i campioni a distanza).<br>La cura aumenta del @HealCritMod*100@% del tuo modificatore dei danni critici quando viene attivata da un colpo critico.</rules>",
-						"icon": "ASSETS/Perks/Styles/Precision/FleetFootwork/FleetFootwork.dds"
+						"icon": "perk-images/Styles/Precision/FleetFootwork/FleetFootwork.png"
 					},
 					{
 						"id": 8010,
@@ -277,7 +277,7 @@
 						"name": "Conquistatore",
 						"shortDesc": "Dopo @ThresholdTime@ secondi in combattimento, il tuo primo attacco contro un campione nemico fornisce attacco fisico e converte parte dei tuoi danni in danni puri.",
 						"longDesc": "Dopo @ThresholdTime@ secondi in combattimento, il tuo primo attacco contro un campione nemico fornisce @BaseAD@-@MaxAD@ danni fisici in base al livello per @BuffDuration@ secondi e converte il @TrueDamageBase*100@% dei tuoi danni ai campioni in danni puri.<br><br><rules>Solo mischia: danneggiare i campioni nemici ripristina questo buff.</rules>",
-						"icon": "ASSETS/Perks/Styles/Precision/Conqueror/Conqueror.dds"
+						"icon": "perk-images/Styles/Precision/Conqueror/Conqueror.png"
 					}
 				]
 			},
@@ -289,7 +289,7 @@
 						"name": "Sovraguarigione",
 						"shortDesc": "La cura in eccesso diventa uno scudo.",
 						"longDesc": "La cura in eccesso diventa uno scudo, fino a un massimo di @ShieldCapRatio.0*100@% della tua salute totale + @MaxBaseShieldCap@.<br><br>Lo scudo viene generato dal @ShieldGenerationRateSelf.0*100@% della cura su se stessi in eccesso, o dal @ShieldGenerationRateOtherMax.0*100@% della cura in eccesso ricevuta dagli alleati.",
-						"icon": "ASSETS/Perks/Styles/Precision/Overheal.dds"
+						"icon": "perk-images/Styles/Precision/Overheal.png"
 					},
 					{
 						"id": 9111,
@@ -297,7 +297,7 @@
 						"name": "Trionfo",
 						"shortDesc": "Le <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>eliminazioni</lol-uikit-tooltipped-keyword> ripristinano il @MissingHealthRestored.0*100@% della tua salute mancante e conferiscono @BonusGold@ oro aggiuntivo. ",
 						"longDesc": "Le eliminazioni ripristinano il @MissingHealthRestored.0*100@% della tua salute mancante e conferiscono @BonusGold@ oro aggiuntivo. <br><br><hr></hr><br><i>''Le prede più pericolose donano anche la gloria più grande.'' <br>—Guida noxiana</i>",
-						"icon": "ASSETS/Perks/Styles/Precision/DangerousGame.dds"
+						"icon": "perk-images/Styles/Precision/DangerousGame.png"
 					},
 					{
 						"id": 8009,
@@ -305,7 +305,7 @@
 						"name": "Presenza di spirito",
 						"shortDesc": "Le eliminazioni ripristinano il @PercentManaRestore*100@% del tuo mana massimo e rimborsano il @UltimateCooldownRefund*100@% della ricarica della suprema.",
 						"longDesc": "Le eliminazioni ripristinano il @PercentManaRestore*100@% del tuo mana massimo e rimborsano il @UltimateCooldownRefund*100@% della ricarica della suprema.",
-						"icon": "ASSETS/Perks/Styles/Precision/LastResort/LastResortIcon.dds"
+						"icon": "perk-images/Styles/Precision/LastResort/LastResortIcon.png"
 					}
 				]
 			},
@@ -317,7 +317,7 @@
 						"name": "Leggenda: Alacrità",
 						"shortDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>Gli abbattimenti</lol-uikit-tooltipped-keyword> ai danni dei nemici conferiscono <b>velocità d'attacco</b> permanente. ",
 						"longDesc": "Ottieni il @AttackSpeedBase*100@% di velocità d'attacco più un @AttackSpeedPerStack*100@% aggiuntivo per ogni carica di <i>Leggenda</i> (massimo @MaxLegendStacks@ cariche).<br><br>Ottieni progressi verso <i>Leggenda</i> per le eliminazioni dei campioni, dei mostri epici, dei mostri grandi e dei minion.",
-						"icon": "ASSETS/Perks/Styles/Precision/Legend_Heroism.dds"
+						"icon": "perk-images/Styles/Precision/Legend_Heroism.png"
 					},
 					{
 						"id": 9105,
@@ -325,7 +325,7 @@
 						"name": "Leggenda: Tenacia",
 						"shortDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>Gli abbattimenti</lol-uikit-tooltipped-keyword> ai danni dei nemici conferiscono <b>Tenacia</b> permanente. ",
 						"longDesc": "Ottieni il @TenacityBase*100@% di tenacia più un @TenacityPerStack*100@% aggiuntivo per ogni carica di <i>Leggenda</i> (massimo @MaxLegendStacks@ cariche).<br><br>Ottieni progressi verso <i>Leggenda</i> per le eliminazioni dei campioni, dei mostri epici, dei mostri grandi e dei minion.",
-						"icon": "ASSETS/Perks/Styles/Precision/Legend_Tenacity.dds"
+						"icon": "perk-images/Styles/Precision/Legend_Tenacity.png"
 					},
 					{
 						"id": 9103,
@@ -333,7 +333,7 @@
 						"name": "Leggenda: Stirpe",
 						"shortDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>Gli abbattimenti</lol-uikit-tooltipped-keyword> ai danni dei nemici conferiscono <b>rubavita</b> permanente. ",
 						"longDesc": "Ottieni il @LifeStealPerStack*100@% di rubavita per ogni carica di <i>Leggenda</i> (massimo @MaxLegendStacks@ cariche).<br><br>Ottieni progressi verso <i>Leggenda</i> per le eliminazioni dei campioni, dei mostri epici, dei mostri grandi e dei minion.",
-						"icon": "ASSETS/Perks/Styles/Precision/Legend_Infamy.dds"
+						"icon": "perk-images/Styles/Precision/Legend_Infamy.png"
 					}
 				]
 			},
@@ -345,7 +345,7 @@
 						"name": "Colpo di grazia",
 						"shortDesc": "Infliggi danni in più ai campioni nemici con poca salute.",
 						"longDesc": "Infliggi @BonusPercentDamage.0 *100@% danni in più ai campioni che hanno meno del @EnemyHealthPercentageThreshold*100@% di salute.<br><br>Inoltre, le eliminazioni dei campioni conferiscono un bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adattivo</font></lol-uikit-tooltipped-keyword> di @AdaptiveForce.-1*0.6@ attacco fisico o @AdaptiveForce@ potere magico per @Duration@ secondi.",
-						"icon": "ASSETS/Perks/Styles/Precision/CoupDeGrace/CoupDeGrace.dds"
+						"icon": "perk-images/Styles/Precision/CoupDeGrace/CoupDeGrace.png"
 					},
 					{
 						"id": 8017,
@@ -353,7 +353,7 @@
 						"name": "Taglio profondo",
 						"shortDesc": "Infliggi più danni a tutti i campioni con più salute massima di te.",
 						"longDesc": "Infliggi il @MinBonusDamagePercent.0*100@% di danni in più ai campioni con @MinHealthDifference@ salute massima più di te. I danni aumentano fino al @MaxBonusDamagePercent.0*100@% a @MaxHealthDifference@ di salute massima in più.",
-						"icon": "ASSETS/Perks/Styles/Precision/CutDown/CutDown.dds"
+						"icon": "perk-images/Styles/Precision/CutDown/CutDown.png"
 					},
 					{
 						"id": 8299,
@@ -361,7 +361,7 @@
 						"name": "L'ultima sfida",
 						"shortDesc": "I tuoi attacchi infliggono più danni ai campioni quando hai poca salute.",
 						"longDesc": "Infliggi @MinBonusDamagePercent.0*100@%-@MaxBonusDamagePercent.0*100@% danni aumentati ai campioni quando hai meno del @HealthThresholdStart.0*100@% di salute. Danni massimi ottenuti al @HealthThresholdEnd.0*100@% della salute.",
-						"icon": "ASSETS/Perks/Styles/Sorcery/LastStand/LastStand.dds"
+						"icon": "perk-images/Styles/Sorcery/LastStand/LastStand.png"
 					}
 				]
 			}
@@ -371,7 +371,7 @@
 		"id": 8400,
 		"key": "Resolve",
 		"name": "Determinazione",
-		"icon": "ASSETS/Perks/Styles/7204_Resolve.dds",
+		"icon": "perk-images/Styles/7204_Resolve.png",
 		"slots": [
 			{
 				"runes": [
@@ -381,7 +381,7 @@
 						"name": "Presa dell'immortale",
 						"shortDesc": "Ogni @TriggerTime@ secondi il tuo prossimo attacco contro un campione infligge danni magici bonus, ti cura e aumenta permanentemente la tua salute.",
 						"longDesc": "Ogni @TriggerTime@ secondi in combattimento, il prossimo attacco contro un campione:<li>Infligge danni magici bonus pari al @PercentHealthDamage.0@% della tua salute massima</li><li>Ti cura del @PercentHealthHeal.0*100@% della tua salute massima</li><li>Aumenta permanentemente la tua salute di @MaxHealthPerProc@</li><br><rules><i>Campioni a distanza:</i> danni, guarigione e salute permanente sono ridotti del @RangedPenaltyMod*100@%.</rules><br>",
-						"icon": "ASSETS/Perks/Styles/Resolve/GraspOfTheUndying/GraspOfTheUndying.dds"
+						"icon": "perk-images/Styles/Resolve/GraspOfTheUndying/GraspOfTheUndying.png"
 					},
 					{
 						"id": 8439,
@@ -389,7 +389,7 @@
 						"name": "Scossa di assestamento",
 						"shortDesc": "Dopo aver <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Immobilize'>immobilizzato</lol-uikit-tooltipped-keyword> un campione nemico ottieni difese per poi infliggere una raffica di danni magici intorno a te.",
 						"longDesc": "Dopo aver immobilizzato un campione nemico, la tua armatura e resistenza magica aumentano di @FlatResists@-@FlatResistMaximum@ per @DelayBeforeBurst.1@ secondi. Poi esplodi, infliggendo danni magici ai nemici vicini.<br><br>Danni: @StartingBaseDamage@-@MaxBaseDamage@ (+@HealthRatio.-1@% della tua salute massima, +@DamageRatioAD*100@% del tuo attacco fisico bonus, +@DamageRatioAP*100@% del tuo potere magico)<br>Ricarica: @Cooldown@ secondi",
-						"icon": "ASSETS/Perks/Styles/Resolve/VeteranAftershock/VeteranAftershock.dds"
+						"icon": "perk-images/Styles/Resolve/VeteranAftershock/VeteranAftershock.png"
 					},
 					{
 						"id": 8465,
@@ -397,7 +397,7 @@
 						"name": "Sorvegliante",
 						"shortDesc": "Protegge gli alleati sui quali lanci abilità e quelli vicini a te. Se subisci danni o se un alleato al quale fai la guardia subisce danni, siete entrambi velocizzati e ottenete uno scudo.",
 						"longDesc": "<i>Proteggi</i> gli alleati entro @SnuggleRange@ unità da te e gli alleati bersaglio delle tue abilità per @GuardDuration@ secondi. Quando <i>proteggi</i> un alleato, se uno di voi due subisce danni ottenete entrambi uno scudo e siete velocizzati per @ShieldDuration@ secondi.<br><br>Ricarica: <scaleLevel>@Cooldown@-@CooldownMaxLevel@</scaleLevel> secondi<br>Scudo: <scaleLevel>@ShieldBase@-@ShieldMax@</scaleLevel> + <scaleAP>@APRatio.-1@%</scaleAP> del tuo potere magico + <scalehealth>@HPRatio.0*100@%</scalehealth> della tua salute bonus.<br>Velocità: +@Haste*100@% velocità di movimento.",
-						"icon": "ASSETS/Perks/Styles/Resolve/Guardian/Guardian.dds"
+						"icon": "perk-images/Styles/Resolve/Guardian/Guardian.png"
 					}
 				]
 			},
@@ -409,7 +409,7 @@
 						"name": "Demolire",
 						"shortDesc": "Carica un potente attacco a una torre, quando sei vicino.",
 						"longDesc": "Carica un potente attacco contro una torre in @TotalDemolishTime@ secondi, se sei entro @DistanceToTower@ di portata. L'attacco caricato infligge @OutputDamagePerStack@ (+@MaxHealthPercentDamage.0 * 100@% della tua salute massima) danni fisici bonus.<br><br>Ricarica: @CooldownSeconds@ secondi.",
-						"icon": "ASSETS/Perks/Styles/Resolve/Demolish/Demolish.dds"
+						"icon": "perk-images/Styles/Resolve/Demolish/Demolish.png"
 					},
 					{
 						"id": 8463,
@@ -417,7 +417,7 @@
 						"name": "Fonte vitale",
 						"shortDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_ImpairMov'>Ostacolare</lol-uikit-tooltipped-keyword> i movimenti di un campione nemico lo marchia. Gli alleati si curano quando attaccano i campioni marchiati. ",
 						"longDesc": "Ostacolando i movimenti di un campione nemico, questi viene marchiato per @MarkDuration@ secondi.<br><br>I campioni alleati che attaccano i nemici marchiati guariscono di @FlatHealAmount@ + @HealthRatio.-1 * 100@% della tua salute massima in @HealDuration@ secondi. ",
-						"icon": "ASSETS/Perks/Styles/Resolve/FontOfLife/FontOfLife.dds"
+						"icon": "perk-images/Styles/Resolve/FontOfLife/FontOfLife.png"
 					},
 					{
 						"id": 8473,
@@ -425,7 +425,7 @@
 						"name": "Corazza ossea",
 						"shortDesc": "Dopo aver subito danni da un campione nemico, le prossime @BlockCount@ abilità o attacchi che ricevi dai nemici infliggono @BlockBase@-@BlockMax@ danni in meno.<br><br>Durata: @BlockDuration@ secondi<br>Ricarica: @Cooldown@ secondi.",
 						"longDesc": "Dopo aver subito danni da un campione nemico, le prossime @BlockCount@ abilità o attacchi che ricevi dai nemici infliggono @BlockBase@-@BlockMax@ danni in meno.<br><br>Durata: @BlockDuration@ secondi<br>Ricarica: @Cooldown@ secondi.",
-						"icon": "ASSETS/Perks/Styles/Resolve/BonePlating/BonePlating.dds"
+						"icon": "perk-images/Styles/Resolve/BonePlating/BonePlating.png"
 					}
 				]
 			},
@@ -437,7 +437,7 @@
 						"name": "Preparazione fisica",
 						"shortDesc": "Dopo @MinutesRequired@ minuti ottieni +@ArmorBase@ armatura e +@MRBase@ resistenza magica e aumenti la tua armatura e la resistenza magica del @ExtraResist@%.",
 						"longDesc": "Dopo @MinutesRequired@ minuti ottieni +@ArmorBase@ armatura e +@MRBase@ resistenza magica e aumenti la tua armatura e la resistenza magica del @ExtraResist@%.",
-						"icon": "ASSETS/Perks/Styles/Resolve/Conditioning/Conditioning.dds"
+						"icon": "perk-images/Styles/Resolve/Conditioning/Conditioning.png"
 					},
 					{
 						"id": 8444,
@@ -445,7 +445,7 @@
 						"name": "Secondo fiato",
 						"shortDesc": "Dopo aver subito danni da un campione nemico ti curi nel tempo di parte della salute mancante. ",
 						"longDesc": "Dopo aver subito danni da un campione nemico ti curi del @RegenPercentMax.0*100@% della tua salute mancante + @RegenFlat.0@ in @RegenSeconds@ secondi.",
-						"icon": "ASSETS/Perks/Styles/Resolve/SecondWind/SecondWind.dds"
+						"icon": "perk-images/Styles/Resolve/SecondWind/SecondWind.png"
 					},
 					{
 						"id": 8472,
@@ -453,7 +453,7 @@
 						"name": "Crisalide",
 						"shortDesc": "Cominci la partita con @StartingHealth@ salute extra. Dopo @MaxTakedowns@ eliminazioni, consuma quella salute per ottenere un bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adattivo</font></lol-uikit-tooltipped-keyword> di @AdaptiveForce.-1*0.6@ attacco fisico o @AdaptiveForce@ potere magico.",
 						"longDesc": "Cominci la partita con @StartingHealth@ salute extra. Dopo @MaxTakedowns@ eliminazioni, consuma quella salute per ottenere un bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adattivo</font></lol-uikit-tooltipped-keyword> di @AdaptiveForce.-1*0.6@ attacco fisico o @AdaptiveForce@ potere magico.",
-						"icon": "ASSETS/Perks/Styles/Resolve/Chrysalis/Chrysalis.dds"
+						"icon": "perk-images/Styles/Resolve/Chrysalis/Chrysalis.png"
 					}
 				]
 			},
@@ -465,7 +465,7 @@
 						"name": "Crescita eccessiva",
 						"shortDesc": "Ottieni salute massima permanente aggiuntiva quando i minion o i mostri muoiono vicino a te.",
 						"longDesc": "Ottieni permanentemente il @MaxHealthRatioPerTier*100@% della salute massima per ogni @UnitsPerTier@ mostri o minion nemici che muoiono vicino a te.",
-						"icon": "ASSETS/Perks/Styles/Resolve/Overgrowth/Overgrowth.dds"
+						"icon": "perk-images/Styles/Resolve/Overgrowth/Overgrowth.png"
 					},
 					{
 						"id": 8453,
@@ -473,7 +473,7 @@
 						"name": "Rivitalizzare",
 						"shortDesc": "Guarigioni e scudi lanciati o ricevuti da te sono più forti del @StandardAmp.0@% e aumentano di un @ExtraAmp.0@% aggiuntivo sui bersagli con poca salute.",
 						"longDesc": "Guarigioni e scudi lanciati o ricevuti da te sono più forti del @StandardAmp.0@% e aumentano di un @ExtraAmp.0@% aggiuntivo sui bersagli con meno del @HealthCutoff.0@% di salute.",
-						"icon": "ASSETS/Perks/Styles/Resolve/Revitalize/Revitalize.dds"
+						"icon": "perk-images/Styles/Resolve/Revitalize/Revitalize.png"
 					},
 					{
 						"id": 8242,
@@ -481,7 +481,7 @@
 						"name": "Risoluto",
 						"shortDesc": "Dopo aver lanciato un incantesimo dell'evocatore, ottieni tenacia e resistenza ai rallentamenti per una breve durata. Inoltre aumenta la tua tenacia e resistenza ai rallentamenti per ogni incantesimo dell'evocatore in ricarica. ",
 						"longDesc": "Dopo aver lanciato un incantesimo dell'evocatore, ottieni il @BonusTenacity*100@% della tenacia e di resistenza ai rallentamenti per @BuffDuration@ secondi. Inoltre aumenta la tua tenacia e resistenza ai rallentamenti del @PersistTenacity*100@% per ogni incantesimo dell'evocatore in ricarica. ",
-						"icon": "ASSETS/Perks/Styles/Sorcery/Unflinching/Unflinching.dds"
+						"icon": "perk-images/Styles/Sorcery/Unflinching/Unflinching.png"
 					}
 				]
 			}
@@ -491,7 +491,7 @@
 		"id": 8200,
 		"key": "Sorcery",
 		"name": "Stregoneria",
-		"icon": "ASSETS/Perks/Styles/7202_Sorcery.dds",
+		"icon": "perk-images/Styles/7202_Sorcery.png",
 		"slots": [
 			{
 				"runes": [
@@ -501,7 +501,7 @@
 						"name": "Evoca Aery",
 						"shortDesc": "I tuoi attacchi e le tue abilità inviano Aery verso un bersaglio, riparando gli alleati o danneggiando i nemici.",
 						"longDesc": "I tuoi attacchi e le abilità mandano Aery da un bersaglio, danneggiando i campioni nemici o riparando gli alleati.<br><br>Danni: @DamageBase@-@DamageMax@ in base al livello (+<scaleAP>@DamageAPRatio.-1@ potere magico</scaleAP> e +<scaleAD>@DamageADRatio.-1@ attacco fisico bonus</scaleAD>)<br>Scudo: @ShieldBase@-@ShieldMax@ in base al livello (+<scaleAP>@ShieldRatio.-1@ potere magico</scaleAP> e +<scaleAD>@ShieldRatioAD.-1@ attacco fisico bonus</scaleAD>)<br><br>Aery non può essere inviata nuovamente finché non torna da te.",
-						"icon": "ASSETS/Perks/Styles/Sorcery/SummonAery/SummonAery.dds"
+						"icon": "perk-images/Styles/Sorcery/SummonAery/SummonAery.png"
 					},
 					{
 						"id": 8229,
@@ -509,7 +509,7 @@
 						"name": "Cometa arcana",
 						"shortDesc": "Danneggiare un campione con un'abilità scaglia una cometa verso la sua posizione.",
 						"longDesc": "Danneggiare un campione con un'abilità scaglia una cometa verso la sua posizione, oppure, se Cometa arcana è in ricarica, riduce la sua ricarica residua.<br><br><lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>Danni adattivi</font></lol-uikit-tooltipped-keyword>: @DamageBase@-@DamageMax@ in base al livello (<scaleAP>+@APRatio.-1@ potere magico</scaleAP> e <scaleAD>+@ADRatio.-1@ attacco fisico bonus</scaleAD>)<br>Ricarica: @RechargeTime@-@RechargeTimeMin@ secondi<br><rules><br>Riduzione ricarica:<br>Bersaglio singolo: @PercentRefund*100@%.<br>Effetti ad area: @AoEPercentRefund*100@%.<br>Danni nel tempo: @DotPercentRefund*100@%.<br></rules>",
-						"icon": "ASSETS/Perks/Styles/Sorcery/ArcaneComet/ArcaneComet.dds"
+						"icon": "perk-images/Styles/Sorcery/ArcaneComet/ArcaneComet.png"
 					},
 					{
 						"id": 8230,
@@ -517,7 +517,7 @@
 						"name": "Scatto fasico",
 						"shortDesc": "Colpire un campione nemico con 3 abilità o attacchi <b>unici</b> conferisce un aumento momentaneo della <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>velocità di movimento</lol-uikit-tooltipped-keyword>. ",
 						"longDesc": "Colpire un campione nemico con 3 abilità o attacchi <b>diversi</b> entro @Window@ secondi conferisce @HasteBase*100@-@HasteMax*100@% della velocità di movimento in base al livello e @SlowResist*100@% di resistenza ai rallentamenti.<br><br>Durata: @Duration@ secondi<br>Ricarica: @Cooldown@ secondi",
-						"icon": "ASSETS/Perks/Styles/Sorcery/PhaseRush/PhaseRush.dds"
+						"icon": "perk-images/Styles/Sorcery/PhaseRush/PhaseRush.png"
 					}
 				]
 			},
@@ -529,15 +529,15 @@
 						"name": "Sfera dell'annullamento",
 						"shortDesc": "Ottieni uno scudo quando dei danni magici ti lascerebbero con poca salute.",
 						"longDesc": "Quando subisci danni magici che porterebbero la salute sotto il @PercHealthTrigger.0*100@%, ottieni uno scudo che assorbe @ShieldMin@-@ShieldMax@ danni magici in base al livello (<scaleAP>+@APRatio.-1@ potere magico</scaleAP> e <scaleAD>+@ADRatio.-1@ attacco fisico bonus</scaleAD>) per @ShieldDuration@ secondi.<br><br>Ricarica: @Cooldown@ secondi",
-						"icon": "ASSETS/Perks/Styles/Sorcery/NullifyingOrb/Pokeshield.dds"
+						"icon": "perk-images/Styles/Sorcery/NullifyingOrb/Pokeshield.png"
 					},
 					{
 						"id": 8226,
 						"key": "ManaflowBand",
 						"name": "Fascia del Flusso",
-						"shortDesc": "Colpire un campione nemico con un'abilità aumenta permanentemente il tuo mana massimo di @ManaIncrease@, fino a un massimo di @MaxManaIncrease@ mana.<br><br>Dopo aver raggiunto @MaxManaIncrease@ mana bonus, recuperi il @PercentManaRestore*100@% del tuo mana mancante ogni @PercentManaRestoreCooldown@ secondi.",
-						"longDesc": "Colpire un campione nemico con un'abilità aumenta permanentemente il tuo mana massimo di @ManaIncrease@, fino a un massimo di @MaxManaIncrease@ mana.<br><br>Dopo aver raggiunto @MaxManaIncrease@ mana bonus, recuperi il @PercentManaRestore*100@% del tuo mana mancante ogni @PercentManaRestoreCooldown@ secondi.<br><br>Ricarica: @Cooldown.0@ secondi",
-						"icon": "ASSETS/Perks/Styles/Sorcery/ManaflowBand/ManaflowBand.dds"
+						"shortDesc": "Colpire un campione nemico con un'abilità aumenta permanentemente il tuo mana massimo di @ManaIncrease@, fino a un massimo di @MaxManaIncrease@ mana.<br><br>Dopo aver raggiunto @MaxManaIncrease@ mana bonus, recuperi l' @PercentManaRestore*100@% del tuo mana mancante ogni @PercentManaRestoreCooldown@ secondi.",
+						"longDesc": "Colpire un campione nemico con un'abilità aumenta permanentemente il tuo mana massimo di @ManaIncrease@, fino a un massimo di @MaxManaIncrease@ mana.<br><br>Dopo aver raggiunto @MaxManaIncrease@ mana bonus, recuperi l' @PercentManaRestore*100@% del tuo mana mancante ogni @PercentManaRestoreCooldown@ secondi.<br><br>Ricarica: @Cooldown.0@ secondi",
+						"icon": "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png"
 					},
 					{
 						"id": 8243,
@@ -545,7 +545,7 @@
 						"name": "Il cappello supremo",
 						"shortDesc": "La ricarica della tua abilità suprema è ridotta. Ogni volta che lanci la tua suprema, la sua ricarica si riduce ulteriormente.",
 						"longDesc": "La ricarica della tua abilità suprema è ridotta del @StartingCDR@%. Ogni volta che lanci la tua suprema, la sua ricarica si riduce di un ulteriore @CDChunkPerStack@%. Si accumula fino a @MaxStacks@ volte.",
-						"icon": "ASSETS/Perks/Styles/Sorcery/TheUltimateHat/TheUltimateHat.dds"
+						"icon": "perk-images/Styles/Sorcery/TheUltimateHat/TheUltimateHat.png"
 					}
 				]
 			},
@@ -557,7 +557,7 @@
 						"name": "Trascendenza",
 						"shortDesc": "Ottieni il @MaxCDR*100@% di <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_CDR'>riduzione ricarica</lol-uikit-tooltipped-keyword> quando raggiungi il livello @LevelToTurnOn@. La riduzione ricarica in eccesso diventa potere magico o attacco fisico (<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'>adattivi</lol-uikit-tooltipped-keyword>).",
 						"longDesc": "Ottieni il @MaxCDR*100@% di riduzione ricarica quando raggiungi il livello @LevelToTurnOn@.<br><br>La percentuale di riduzione ricarica in eccesso viene convertita in un bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adattivo</font></lol-uikit-tooltipped-keyword> di @AdaptiveForce.-1*0.6@ attacco fisico o @AdaptiveForce@ potere magico.",
-						"icon": "ASSETS/Perks/Styles/Sorcery/Transcendence/Transcendence.dds"
+						"icon": "perk-images/Styles/Sorcery/Transcendence/Transcendence.png"
 					},
 					{
 						"id": 8234,
@@ -565,7 +565,7 @@
 						"name": "Celerità",
 						"shortDesc": "Ottieni il @PercentMS.0@% in più di <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>velocità di movimento</lol-uikit-tooltipped-keyword>. Ottieni potere magico o attacco fisico <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'>adattivi</lol-uikit-tooltipped-keyword> in base alla tua velocità di movimento bonus. ",
 						"longDesc": "Ottieni il @PercentMS.0@% di velocità di movimento.<br>La tua velocità di movimento bonus è convertita in potere magico o attacco fisico <font color='#48C4B7'>adattivi</font>, con un rapporto del @AdaptiveAD*8@% per l'attacco fisico o del @AdaptiveAP*8@% per il potere magico.",
-						"icon": "ASSETS/Perks/Styles/Sorcery/Celerity/CelerityTemp.dds"
+						"icon": "perk-images/Styles/Sorcery/Celerity/CelerityTemp.png"
 					},
 					{
 						"id": 8233,
@@ -573,7 +573,7 @@
 						"name": "Concentrazione assoluta",
 						"shortDesc": "Quando hai più del @HealthPercent*100@% della salute, ottieni <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>danni adattivi</lol-uikit-tooltipped-keyword> in più.",
 						"longDesc": "Quando hai più del @HealthPercent*100@% della salute, ottieni un bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adattivo</font></lol-uikit-tooltipped-keyword> fino a @MaxAdaptive.-1*0.6@ attacco fisico o @MaxAdaptive@ potere magico (in base al livello). <br><br>Conferisce @MinAdaptive.-1*0.6@ attacco fisico o @MinAdaptive@ potere magico al livello 1. ",
-						"icon": "ASSETS/Perks/Styles/Sorcery/AbsoluteFocus/AbsoluteFocus.dds"
+						"icon": "perk-images/Styles/Sorcery/AbsoluteFocus/AbsoluteFocus.png"
 					}
 				]
 			},
@@ -585,7 +585,7 @@
 						"name": "Bruciare",
 						"shortDesc": "La tua prima abilità che va a segno ogni @BurnlockoutDuration@ secondi incendia i campioni.",
 						"longDesc": "La tua prossima abilità che va a segno incendia i campioni nemici, infliggendo @damage@-@damagemax@ danni magici bonus in base al livello dopo @dotduration@ secondi.<br><br>Ricarica: @BurnlockoutDuration@ secondi.",
-						"icon": "ASSETS/Perks/Styles/Sorcery/Scorch/Scorch.dds"
+						"icon": "perk-images/Styles/Sorcery/Scorch/Scorch.png"
 					},
 					{
 						"id": 8232,
@@ -593,7 +593,7 @@
 						"name": "Camminare sull'acqua",
 						"shortDesc": "Ottieni <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>velocità di movimento</lol-uikit-tooltipped-keyword> e potere magico o attacco fisico, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'>adattivi</lol-uikit-tooltipped-keyword>, quando sei nel fiume.",
 						"longDesc": "Ottieni @MovementSpeed@ velocità di movimento e un bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adattivo</font></lol-uikit-tooltipped-keyword> fino a @MaxAdaptive.-1*0.6@ attacco fisico o @MaxAdaptive@ potere magico (in base al livello) quando sei nel fiume.<br><br><hr></hr><br><i>Sii impetuoso come un fiume in piena e agile come un argogranchio spaventato.</i><br>",
-						"icon": "ASSETS/Perks/Styles/Sorcery/Waterwalking/Waterwalking.dds"
+						"icon": "perk-images/Styles/Sorcery/Waterwalking/Waterwalking.png"
 					},
 					{
 						"id": 8236,
@@ -601,7 +601,7 @@
 						"name": "Tempesta incombente",
 						"shortDesc": "Ottieni quantità crescenti di attacco fisico o potere magico (<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'>adattivi</lol-uikit-tooltipped-keyword>) nel corso della partita.",
 						"longDesc": "Ogni @UpdateAfterMinutes@ minuti ottieni potere magico o attacco fisico (<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adattivi</font>)</lol-uikit-tooltipped-keyword>.<br><br><i>10 min</i>: +8 potere magico o +5 attacco fisico<br><i>20 min</i>: +24 potere magico o +14 attacco fisico<br><i>30 min</i>: +48 potere magico o +29 attacco fisico<br><i>40 min</i>: +80 potere magico o +48 attacco fisico<br><i>50 min</i>: +120 potere magico o +72 attacco fisico<br><i>60 min</i>: +168 potere magico o +101 attacco fisico<br>ecc...",
-						"icon": "ASSETS/Perks/Styles/Sorcery/GatheringStorm/GatheringStorm.dds"
+						"icon": "perk-images/Styles/Sorcery/GatheringStorm/GatheringStorm.png"
 					}
 				]
 			}

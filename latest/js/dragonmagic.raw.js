@@ -4267,7 +4267,7 @@ dd._spellDataLink = function(calc, spell, spellLevel, player)
 	this.spellLevel = spellLevel;
 	this.player = player;
 	
-	this.data = {};
+	this.data = fn.rebase({}, spell.datavalues);
 	this.generateLinks();
 };
 
