@@ -1,1 +1,1 @@
-Riot.DDragon.m={"n":{"item":"7.19.1","rune":"7.19.1","mastery":"7.19.1","summoner":"7.19.1","champion":"7.19.1","profileicon":"7.19.1","map":"7.19.1","language":"7.19.1","sticker":"7.19.1"},"v":"7.19.1","l":"en_US","cdn":null,"dd":"7.19.1","lg":"7.19.1","css":"7.19.1","profileiconmax":28};
+Riot.DDragon.m={"n":{"item":"7.20.1","rune":"7.20.1","mastery":"7.20.1","summoner":"7.20.1","champion":"7.20.1","profileicon":"7.20.1","map":"7.20.1","language":"7.20.1","sticker":"7.20.1"},"v":"7.20.1","l":"en_US","cdn":null,"dd":"7.20.1","lg":"7.20.1","css":"7.20.1","profileiconmax":28};
