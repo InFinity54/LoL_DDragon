@@ -68,7 +68,7 @@
 						"key": "ZombieWard",
 						"name": "Zombie totem",
 						"shortDesc": "Když zničíš nějaký totem, objeví se místo něj spojenecký Zombie totem. Když některému tvému totemu vyprší životnost, objeví se také znovu jako Zombie totem.",
-						"longDesc": "Když zničíš nějaký totem, objeví se místo něj spojenecký Zombie totem. Když navíc některému tvému totemu vyprší životnost, objeví se znovu jako Zombie totem.<br><br>Zombie totemy jsou viditelné, mají životnost @WardDurationMin@-@WardDuration@ sek. a nezapočítávají se do tvého limitu totemů.",
+						"longDesc": "Když zničíš nějaký totem, objeví se místo něj spojenecký Zombie totem. Když navíc některému tvému totemu vyprší životnost, objeví se znovu jako Zombie totem.<br><br>Zombie totemy jsou viditelné, mají životnost @WardDurationTooltipMin@-@WardDuration@ sek. a nezapočítávají se do tvého limitu totemů.",
 						"icon": "ASSETS/Perks/Styles/Domination/ZombieWard/ZombieWard.dds"
 					},
 					{
@@ -303,8 +303,8 @@
 						"id": 8009,
 						"key": "PresenceOfMind",
 						"name": "Duchapřítomnost",
-						"shortDesc": "Po dobu @BuffDuration@ sek. od získání nové úrovně nebo likvidace protivníka se ti plně obnovuje veškerá používaná mana.",
-						"longDesc": "Po dobu @BuffDuration@ sek. od získání nové úrovně nebo likvidace protivníka se ti plně obnovuje veškerá používaná mana.",
+						"shortDesc": "Likvidace ti obnovují @PercentManaRestore*100@ % maximální many a vracejí ti @UltimateCooldownRefund*100@ % přebíjecí doby ultimátky.",
+						"longDesc": "Likvidace ti obnovují @PercentManaRestore*100@ % maximální many a vracejí ti @UltimateCooldownRefund*100@ % přebíjecí doby ultimátky.",
 						"icon": "ASSETS/Perks/Styles/Precision/LastResort/LastResortIcon.dds"
 					}
 				]
@@ -535,8 +535,8 @@
 						"id": 8226,
 						"key": "ManaflowBand",
 						"name": "Prsten manového proudu",
-						"shortDesc": "V určitém intervalu ti tvoje následující použité kouzlo vrátí manu či energii spotřebovanou na jeho seslání a obnoví ti část chybějící many či energie.",
-						"longDesc": "Každých @Cooldown.0@ sek. ti tvoje následující použité kouzlo vrátí manu či energii spotřebovanou na jeho seslání a obnoví ti @MPToRestoreRatio.0*100@ % chybějící many či energie.",
+						"shortDesc": "Když zasáhneš nepřátelského šampiona nějakou schopností, maximální hodnota many se ti trvale zvýší o +@ManaIncrease@, a to až do celkového bonusu @MaxManaIncrease@ bodů.<br><br>Když bonusová mana dosáhne hodnoty @MaxManaIncrease@ bodů, vždy po uplynutí @PercentManaRestoreCooldown@ sek. se ti obnoví @PercentManaRestore*100@ % chybějící many.",
+						"longDesc": "Když zasáhneš nepřátelského šampiona nějakou schopností, maximální hodnota many se ti trvale zvýší o +@ManaIncrease@, a to až do celkového bonusu @MaxManaIncrease@ bodů.<br><br>Když bonusová mana dosáhne hodnoty @MaxManaIncrease@ bodů, vždy po uplynutí @PercentManaRestoreCooldown@ sek. se ti obnoví @PercentManaRestore*100@ % chybějící many.<br><br>Přebíjecí doba: @Cooldown.0@ sek.",
 						"icon": "ASSETS/Perks/Styles/Sorcery/ManaflowBand/ManaflowBand.dds"
 					},
 					{
@@ -572,7 +572,7 @@
 						"key": "AbsoluteFocus",
 						"name": "Absolutní soustředění",
 						"shortDesc": "Když máš víc než @HealthPercent*100@ % zdraví, získáš bonusové <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>adaptivní poškození</lol-uikit-tooltipped-keyword>.",
-						"longDesc": "Když máš víc než @HealthPercent*100@ % zdraví, získáš <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptivní</font></lol-uikit-tooltipped-keyword> bonus ve výši až +@MaxAdaptive.-1*0.6@ k útočnému poškození nebo +@MaxAdaptive@ k síle schopností (podle úrovně).",
+						"longDesc": "Když máš víc než @HealthPercent*100@ % zdraví, získáš <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptivní</font></lol-uikit-tooltipped-keyword> bonus ve výši až +@MaxAdaptive.-1*0.6@ k útočnému poškození nebo +@MaxAdaptive@ k síle schopností (podle úrovně). <br><br>Na 1. úrovni získáš +@MinAdaptive.-1*0.6@ k útočnému poškození nebo +@MinAdaptive@ k síle schopností. ",
 						"icon": "ASSETS/Perks/Styles/Sorcery/AbsoluteFocus/AbsoluteFocus.dds"
 					}
 				]

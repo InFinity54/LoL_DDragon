@@ -68,7 +68,7 @@
 						"key": "ZombieWard",
 						"name": "Lume zombi",
 						"shortDesc": "Quando distruggi un lume, al suo posto appare un lume zombi alleato. Quando i tuoi lumi scadono si rianimano come lumi zombi.",
-						"longDesc": "Quando distruggi un lume, al suo posto appare un lume zombi alleato. Inoltre, quando i tuoi lumi scadono, si rianimano come lumi zombi.<br><br>I lumi zombi sono visibili, durano @WardDurationMin@-@WardDuration@ secondi e non contano per il limite di lumi.",
+						"longDesc": "Quando distruggi un lume, al suo posto appare un lume zombi alleato. Inoltre, quando i tuoi lumi scadono, si rianimano come lumi zombi.<br><br>I lumi zombi sono visibili, durano @WardDurationTooltipMin@-@WardDuration@ secondi e non contano per il limite di lumi.",
 						"icon": "ASSETS/Perks/Styles/Domination/ZombieWard/ZombieWard.dds"
 					},
 					{
@@ -303,8 +303,8 @@
 						"id": 8009,
 						"key": "PresenceOfMind",
 						"name": "Presenza di spirito",
-						"shortDesc": "Per @BuffDuration@ secondi dopo aver ottenuto un livello o un'eliminazione, il mana che spendi viene ripristinato completamente.",
-						"longDesc": "Per @BuffDuration@ secondi dopo aver ottenuto un livello o un'eliminazione, il mana che spendi viene ripristinato completamente.",
+						"shortDesc": "Le eliminazioni ripristinano il @PercentManaRestore*100@% del tuo mana massimo e rimborsano il @UltimateCooldownRefund*100@% della ricarica della suprema.",
+						"longDesc": "Le eliminazioni ripristinano il @PercentManaRestore*100@% del tuo mana massimo e rimborsano il @UltimateCooldownRefund*100@% della ricarica della suprema.",
 						"icon": "ASSETS/Perks/Styles/Precision/LastResort/LastResortIcon.dds"
 					}
 				]
@@ -535,8 +535,8 @@
 						"id": 8226,
 						"key": "ManaflowBand",
 						"name": "Fascia del Flusso",
-						"shortDesc": "Periodicamente la tua prossima abilità ha il costo in mana rimborsato e ripristina parte di mana o energia mancanti.",
-						"longDesc": "Ogni @Cooldown.0@ secondi la tua prossima abilità ha il costo in mana o energia rimborsato e ripristina il @MPToRestoreRatio.0*100@% di mana o energia mancanti.",
+						"shortDesc": "Colpire un campione nemico con un'abilità aumenta permanentemente il tuo mana massimo di @ManaIncrease@, fino a un massimo di @MaxManaIncrease@ mana.<br><br>Dopo aver raggiunto @MaxManaIncrease@ mana bonus, recuperi il @PercentManaRestore*100@% del tuo mana mancante ogni @PercentManaRestoreCooldown@ secondi.",
+						"longDesc": "Colpire un campione nemico con un'abilità aumenta permanentemente il tuo mana massimo di @ManaIncrease@, fino a un massimo di @MaxManaIncrease@ mana.<br><br>Dopo aver raggiunto @MaxManaIncrease@ mana bonus, recuperi il @PercentManaRestore*100@% del tuo mana mancante ogni @PercentManaRestoreCooldown@ secondi.<br><br>Ricarica: @Cooldown.0@ secondi",
 						"icon": "ASSETS/Perks/Styles/Sorcery/ManaflowBand/ManaflowBand.dds"
 					},
 					{
@@ -572,7 +572,7 @@
 						"key": "AbsoluteFocus",
 						"name": "Concentrazione assoluta",
 						"shortDesc": "Quando hai più del @HealthPercent*100@% della salute, ottieni <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>danni adattivi</lol-uikit-tooltipped-keyword> in più.",
-						"longDesc": "Quando hai più del @HealthPercent*100@% della salute, ottieni un bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adattivo</font></lol-uikit-tooltipped-keyword> fino a @MaxAdaptive.-1*0.6@ attacco fisico o @MaxAdaptive@ potere magico (in base al livello)",
+						"longDesc": "Quando hai più del @HealthPercent*100@% della salute, ottieni un bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adattivo</font></lol-uikit-tooltipped-keyword> fino a @MaxAdaptive.-1*0.6@ attacco fisico o @MaxAdaptive@ potere magico (in base al livello). <br><br>Conferisce @MinAdaptive.-1*0.6@ attacco fisico o @MinAdaptive@ potere magico al livello 1. ",
 						"icon": "ASSETS/Perks/Styles/Sorcery/AbsoluteFocus/AbsoluteFocus.dds"
 					}
 				]

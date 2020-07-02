@@ -68,7 +68,7 @@
 						"key": "ZombieWard",
 						"name": "Тотем-зомби",
 						"shortDesc": "Если вы уничтожаете тотем, на его месте появляется ваш Тотем-зомби. Кроме того, по окончании действия ваших тотемов они восстают в виде Тотемов-зомби.",
-						"longDesc": "Если вы уничтожаете тотем, на его месте появляется ваш Тотем-зомби. Кроме того, по окончании действия ваших тотемов они восстают в виде Тотемов-зомби.<br><br>Тотемы-зомби видимы для всех, существуют в течение @WardDurationMin@-@WardDuration@ сек. и не учитываются в ограничении на количество одновременно существующих тотемов.",
+						"longDesc": "Если вы уничтожаете тотем, на его месте появляется ваш Тотем-зомби. Кроме того, по окончании действия ваших тотемов они восстают в виде Тотемов-зомби.<br><br>Тотемы-зомби видимы для всех, существуют в течение @WardDurationTooltipMin@-@WardDuration@ сек. и не учитываются в ограничении на количество одновременно существующих тотемов.",
 						"icon": "ASSETS/Perks/Styles/Domination/ZombieWard/ZombieWard.dds"
 					},
 					{
@@ -303,8 +303,8 @@
 						"id": 8009,
 						"key": "PresenceOfMind",
 						"name": "Присутствие духа",
-						"shortDesc": "В течение @BuffDuration@ сек. после повышения уровня или добивания вы получаете назад всю затраченную ману.",
-						"longDesc": "В течение @BuffDuration@ сек. после повышения уровня или добивания вы получаете назад всю затраченную ману.",
+						"shortDesc": "Добивания восстанавливают @PercentManaRestore*100@% от вашего максимального запаса маны и компенсируют @UltimateCooldownRefund*100@% от времени перезарядки вашего абсолютного умения.",
+						"longDesc": "Добивания восстанавливают @PercentManaRestore*100@% от вашего максимального запаса маны и компенсируют @UltimateCooldownRefund*100@% от времени перезарядки вашего абсолютного умения.",
 						"icon": "ASSETS/Perks/Styles/Precision/LastResort/LastResortIcon.dds"
 					}
 				]
@@ -535,8 +535,8 @@
 						"id": 8226,
 						"key": "ManaflowBand",
 						"name": "Поток маны",
-						"shortDesc": "Периодически возмещает затраты маны или энергии первого примененного умения. Кроме того, восстанавливает часть недостающей маны или энергии.",
-						"longDesc": "Восстанавливает затраты маны или энергии первого примененного умения каждые @Cooldown.0@ сек. Кроме того, восстанавливает @MPToRestoreRatio.0*100@% от недостающей маны или энергии.",
+						"shortDesc": "Поражение вражеского чемпиона умением навсегда увеличивает ваш максимальный запас маны на @ManaIncrease@ (вплоть до @MaxManaIncrease@ маны).<br><br>После получения @MaxManaIncrease@ дополнительной маны восстанавливает @PercentManaRestore*100@% от вашей недостающей маны каждые @PercentManaRestoreCooldown@ сек.",
+						"longDesc": "Поражение вражеского чемпиона умением навсегда увеличивает ваш максимальный запас маны на @ManaIncrease@ (вплоть до @MaxManaIncrease@ маны).<br><br>После получения @MaxManaIncrease@ дополнительной маны восстанавливает @PercentManaRestore*100@% от вашей недостающей маны каждые @PercentManaRestoreCooldown@ сек.<br><br>Перезарядка: @Cooldown.0@ сек.",
 						"icon": "ASSETS/Perks/Styles/Sorcery/ManaflowBand/ManaflowBand.dds"
 					},
 					{
@@ -572,7 +572,7 @@
 						"key": "AbsoluteFocus",
 						"name": "Полная сосредоточенность",
 						"shortDesc": "Когда уровень вашего здоровья выше @HealthPercent*100@%, вы наносите дополнительный <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>адаптивный урон</lol-uikit-tooltipped-keyword>.",
-						"longDesc": "Когда уровень вашего здоровья выше @HealthPercent*100@%, вы получаете до @MaxAdaptive.-1*0.6@ силы атаки или @MaxAdaptive@ силы умений (<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>адаптивно</font></lol-uikit-tooltipped-keyword>) (в зависимости от уровня).",
+						"longDesc": "Когда уровень вашего здоровья выше @HealthPercent*100@%, вы получаете до @MaxAdaptive.-1*0.6@ силы атаки или @MaxAdaptive@ силы умений (<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>адаптивно</font></lol-uikit-tooltipped-keyword>) (в зависимости от уровня).<br><br>Увеличивает силу атаки на @MinAdaptive.-1*0.6@ или силу умений на @MinAdaptive@ на 1-м уровне.",
 						"icon": "ASSETS/Perks/Styles/Sorcery/AbsoluteFocus/AbsoluteFocus.dds"
 					}
 				]

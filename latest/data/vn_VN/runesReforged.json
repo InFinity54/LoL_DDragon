@@ -68,7 +68,7 @@
 						"key": "ZombieWard",
 						"name": "Mắt Thây Ma",
 						"shortDesc": "Sau khi phá một mắt địch, một Mắt Thây Ma mọc lên thế chỗ. Khi mắt của bạn hết thời gian tồn tại, chúng cũng mọc lại thành Mắt Thây Ma.",
-						"longDesc": "Sau khi phá một mắt địch, một Mắt Thây Ma mọc lên thế chỗ. Nếu mắt bạn hết thời gian tồn tại, nó sẽ tái sinh thành Mắt Thây Ma.<br><br>Mắt Thây Ma nhìn thấy được, tồn tại @WardDurationMin@ - @WardDuration@ giây và không tính vào giới hạn mắt.",
+						"longDesc": "Sau khi phá mắt, một Mắt Thây Ma sẽ mọc lên thế chỗ. Ngoài ra, khi mắt của bạn hết thời gian, chúng cũng tái sinh thành Mắt Thây Ma.<br><br>Mắt Thây Ma có thể bị nhìn thấy, tồn tại @WardDurationTooltipMin@ - @WardDuration@ giây và không tính vào giới hạn mắt.",
 						"icon": "ASSETS/Perks/Styles/Domination/ZombieWard/ZombieWard.dds"
 					},
 					{
@@ -303,8 +303,8 @@
 						"id": 8009,
 						"key": "PresenceOfMind",
 						"name": "Hiện Diện Trí Tuệ",
-						"shortDesc": "Trong @BuffDuration@ giây sau khi lên cấp hoặc tham gia hạ gục, bạn được hoàn trả mọi năng lượng tiêu hao.",
-						"longDesc": "Trong @BuffDuration@ giây sau khi lên cấp hoặc tham gia hạ gục, bạn được hoàn trả mọi năng lượng tiêu hao.",
+						"shortDesc": "Tham gia hạ gục hồi @PercentManaRestore*100@% năng lượng tối đa và hoàn trả @UltimateCooldownRefund*100@% hồi chiêu chiêu cuối.",
+						"longDesc": "Tham gia hạ gục hồi @PercentManaRestore*100@% năng lượng tối đa và hoàn trả @UltimateCooldownRefund*100@% hồi chiêu chiêu cuối.",
 						"icon": "ASSETS/Perks/Styles/Precision/LastResort/LastResortIcon.dds"
 					}
 				]
@@ -535,8 +535,8 @@
 						"id": 8226,
 						"key": "ManaflowBand",
 						"name": "Dải Băng Năng Lượng",
-						"shortDesc": "Theo chu kỳ, kỹ năng kế tiếp bạn dùng được hoàn trả năng lượng / nội năng tiêu hao và hồi lại một phần năng lượng / nội năng đã mất.",
-						"longDesc": "Mỗi @Cooldown.0@ giây, kỹ năng kế tiếp bạn dùng được hoàn trả năng lượng / nội năng, và hồi @MPToRestoreRatio.0*100@% năng lượng / nội năng đã mất.",
+						"shortDesc": "Dùng kỹ năng trúng một tướng địch tăng vĩnh viễn @ManaIncrease@ năng lượng, tối đa @MaxManaIncrease@.<br><br>Khi có @MaxManaIncrease@ năng lượng cộng thêm, hồi @PercentManaRestore*100@% năng lượng đã mất mỗi @PercentManaRestoreCooldown@ giây.",
+						"longDesc": "Dùng kỹ năng trúng một tướng địch tăng vĩnh viễn @ManaIncrease@ năng lượng, tối đa @MaxManaIncrease@.<br><br>Khi có @MaxManaIncrease@ năng lượng cộng thêm, hồi @PercentManaRestore*100@% năng lượng đã mất mỗi @PercentManaRestoreCooldown@ giây.<br><br>Hồi chiêu: @Cooldown.0@ giây",
 						"icon": "ASSETS/Perks/Styles/Sorcery/ManaflowBand/ManaflowBand.dds"
 					},
 					{
@@ -572,7 +572,7 @@
 						"key": "AbsoluteFocus",
 						"name": "Tập Trung Tuyệt Đối",
 						"shortDesc": "Khi có trên @HealthPercent*100@% máu, nhận thêm <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_AdaptiveDmg\">sát thương thích ứng</lol-uikit-tooltipped-keyword>.",
-						"longDesc": "Khi trên @HealthPercent*100@% máu, nhận thêm tối đa Cộng thêm @MaxAdaptive.-1*0.6@ sức mạnh công kích hoặc @MaxAdaptive@ sức mạnh phép thuật, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>thích ứng</font></lol-uikit-tooltipped-keyword>. (theo cấp)",
+						"longDesc": "Khi trên @HealthPercent*100@% máu, nhận Cộng thêm @MaxAdaptive.-1*0.6@ sức mạnh công kích hoặc @MaxAdaptive@ sức mạnh phép thuật, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>thích ứng</font></lol-uikit-tooltipped-keyword>. (tùy cấp độ). <br><br>Cho @MinAdaptive.-1*0.6@ Sức mạnh Công kích hoặc @MinAdaptive@ Sức mạnh Phép thuật ở cấp 1. ",
 						"icon": "ASSETS/Perks/Styles/Sorcery/AbsoluteFocus/AbsoluteFocus.dds"
 					}
 				]

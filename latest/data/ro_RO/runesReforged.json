@@ -68,7 +68,7 @@
 						"key": "ZombieWard",
 						"name": "Gardă zombificată",
 						"shortDesc": "După ce ucizi o gardă inamică, în locul ei apare o ''Gardă zombificată'' aliată. Când îți expiră gărzile, acestea reapar ca ''Gărzi zombificate''.",
-						"longDesc": "După ce ucizi o gardă inamică, în locul ei apare o ''Gardă zombificată'' aliată. În plus, când îți expiră gărzile, acestea reapar ca ''Gărzi zombificate''.<br><br>''Gărzile zombificate'' sunt vizibile, rămân pe hartă timp de @WardDurationMin@-@WardDuration@ sec. și nu sunt luate în considerare pentru limita maximă de gărzi.",
+						"longDesc": "După ce ucizi o gardă inamică, în locul ei apare o ''Gardă zombificată'' aliată. În plus, când îți expiră gărzile, acestea reapar ca ''Gărzi zombificate''.<br><br>''Gărzile zombificate'' sunt vizibile, rămân pe hartă timp de @WardDurationTooltipMin@-@WardDuration@ sec. și nu sunt luate în considerare pentru limita maximă de gărzi.",
 						"icon": "ASSETS/Perks/Styles/Domination/ZombieWard/ZombieWard.dds"
 					},
 					{
@@ -303,8 +303,8 @@
 						"id": 8009,
 						"key": "PresenceOfMind",
 						"name": "Prezență de spirit",
-						"shortDesc": "Timp de @BuffDuration@ sec. după ce crești în nivel sau după ce dobori o unitate, primești înapoi toată mana folosită.",
-						"longDesc": "Timp de @BuffDuration@ sec. după ce crești în nivel sau după ce dobori o unitate, primești înapoi toată mana folosită.",
+						"shortDesc": "Doborârile îți refac @PercentManaRestore*100@% din mana maximă și scad timpul de reactivare al supremei cu @UltimateCooldownRefund*100@%.",
+						"longDesc": "Doborârile îți refac @PercentManaRestore*100@% din mana maximă și scad timpul de reactivare al supremei cu @UltimateCooldownRefund*100@%.",
 						"icon": "ASSETS/Perks/Styles/Precision/LastResort/LastResortIcon.dds"
 					}
 				]
@@ -535,8 +535,8 @@
 						"id": 8226,
 						"key": "ManaflowBand",
 						"name": "Brățară de mană",
-						"shortDesc": "Din când în când, ți se returnează costul de mană sau de energie al abilității următoare și îți refaci o parte din mana sau energia lipsă.",
-						"longDesc": "La fiecare @Cooldown.0@ sec., ți se returnează costul de mană sau energie al abilității următoare și îți refaci @MPToRestoreRatio.0*100@% din mana sau energia lipsă.",
+						"shortDesc": "Când lovești un campion inamic cu o abilitate, nivelul tău maxim de mană crește permanent cu @ManaIncrease@ (max: @MaxManaIncrease@ mană).<br><br>După ce ajungi la @MaxManaIncrease@ mană bonus, îți refaci @PercentManaRestore*100@% din mana lipsă la fiecare @PercentManaRestoreCooldown@ secunde.",
+						"longDesc": "Când lovești un campion inamic cu o abilitate, nivelul tău maxim de mană crește permanent cu @ManaIncrease@ (max: @MaxManaIncrease@ mană).<br><br>După ce ajungi la @MaxManaIncrease@ mană bonus, îți refaci @PercentManaRestore*100@% din mana lipsă la fiecare @PercentManaRestoreCooldown@ secunde.<br><br>Timp de reactivare: @Cooldown.0@ secunde",
 						"icon": "ASSETS/Perks/Styles/Sorcery/ManaflowBand/ManaflowBand.dds"
 					},
 					{
@@ -572,7 +572,7 @@
 						"key": "AbsoluteFocus",
 						"name": "Concentrare deplină",
 						"shortDesc": "Când ai peste @HealthPercent*100@% viață, primești <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>daune adaptive</lol-uikit-tooltipped-keyword> suplimentare.",
-						"longDesc": "Când ai peste @HealthPercent*100@% viață, primești un bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptiv</font></lol-uikit-tooltipped-keyword> de până la @MaxAdaptive.-1*0.6@ daune din atac sau @MaxAdaptive@ puterea abilităților (în funcție de nivel).",
+						"longDesc": "Când ai peste @HealthPercent*100@% viață, primești un bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptiv</font></lol-uikit-tooltipped-keyword> de până la @MaxAdaptive.-1*0.6@ daune din atac sau @MaxAdaptive@ puterea abilităților (în funcție de nivel). <br><br>Oferă @MinAdaptive.-1*0.6@ daune din atac sau @MinAdaptive@ puterea abilităților la nivelul 1. ",
 						"icon": "ASSETS/Perks/Styles/Sorcery/AbsoluteFocus/AbsoluteFocus.dds"
 					}
 				]

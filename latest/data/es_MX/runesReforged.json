@@ -68,7 +68,7 @@
 						"key": "ZombieWard",
 						"name": "Centinela Zombi",
 						"shortDesc": "Después de matar un centinela, un centinela zombi aliado se levantará en su lugar. Cuando tus centinelas expiren, también revivirán como centinelas zombis.",
-						"longDesc": "Después de destruir un centinela, un centinela zombi aliado aparecerá en su lugar. Además, cuando tus centinelas expiren, revivirán como centinelas zombis.<br><br>Los centinelas zombis son visibles, duran @WardDurationMin@ - @WardDuration@ seg y no cuentan para el límite de centinelas.",
+						"longDesc": "Después de destruir un centinela, un centinela zombi aliado aparecerá en su lugar. Además, cuando tus centinelas expiren, revivirán como centinelas zombis.<br><br>Los centinelas zombis son visibles, duran @WardDurationTooltipMin@ - @WardDuration@ seg y no cuentan para el límite de centinelas.",
 						"icon": "ASSETS/Perks/Styles/Domination/ZombieWard/ZombieWard.dds"
 					},
 					{
@@ -303,8 +303,8 @@
 						"id": 8009,
 						"key": "PresenceOfMind",
 						"name": "Concentración Profunda",
-						"shortDesc": "Durante @BuffDuration@ seg después de haber subido de nivel o de lograr un derribo, restaura todo el maná gastado.",
-						"longDesc": "Durante @BuffDuration@ seg después de haber subido de nivel o de lograr un derribo, restaura todo el maná gastado.",
+						"shortDesc": "Los derribos restauran @PercentManaRestore*100@% de tu maná máximo y @UltimateCooldownRefund*100@% del enfriamiento de tu definitiva.",
+						"longDesc": "Los derribos restauran @PercentManaRestore*100@% de tu maná máximo y @UltimateCooldownRefund*100@% del enfriamiento de tu definitiva.",
 						"icon": "ASSETS/Perks/Styles/Precision/LastResort/LastResortIcon.dds"
 					}
 				]
@@ -535,8 +535,8 @@
 						"id": 8226,
 						"key": "ManaflowBand",
 						"name": "Anillo de Flujo de Maná",
-						"shortDesc": "Periódicamente restaura el costo de maná o energía de la siguiente habilidad que uses y restaura parte de tu maná o energía faltantes.",
-						"longDesc": "Cada @Cooldown.0@ seg se restaurará el costo de maná o energía de la siguiente habilidad que uses y restaurará un @MPToRestoreRatio.0*100@% de tu maná o energía faltantes.",
+						"shortDesc": "Alcanzar a un campeón con una habilidad incrementa permanentemente tu maná máximo por @ManaIncrease@, hasta @MaxManaIncrease@ de maná.<br><br>Después de alcanzar @MaxManaIncrease@ de maná adicional, restaura @PercentManaRestore*100@% de tu maná faltante cada @PercentManaRestoreCooldown@ seg.",
+						"longDesc": "Alcanzar a un campeón con una habilidad incrementa permanentemente tu maná máximo por @ManaIncrease@, hasta @MaxManaIncrease@ de maná.<br><br>Después de alcanzar @MaxManaIncrease@ de maná adicional, restaura @PercentManaRestore*100@% de tu maná faltante cada @PercentManaRestoreCooldown@ seg.<br><br>Enfriamiento: @Cooldown.0@ seg.",
 						"icon": "ASSETS/Perks/Styles/Sorcery/ManaflowBand/ManaflowBand.dds"
 					},
 					{
@@ -572,7 +572,7 @@
 						"key": "AbsoluteFocus",
 						"name": "Concentración Absoluta",
 						"shortDesc": "Al tener más del @HealthPercent*100@% de vida, obtienes <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>daño adaptable</lol-uikit-tooltipped-keyword> adicional.",
-						"longDesc": "Al tener más del @HealthPercent*100@% de vida, obtienes una bonificación <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptable</font></lol-uikit-tooltipped-keyword> de hasta @MaxAdaptive.-1*0.6@ de daño de ataque o @MaxAdaptive@ de poder de habilidad (según el nivel).",
+						"longDesc": "Al tener más del @HealthPercent*100@% de vida, obtienes una bonificación <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptable</font></lol-uikit-tooltipped-keyword> de hasta @MaxAdaptive.-1*0.6@ de daño de ataque o @MaxAdaptive@ de poder de habilidad (según el nivel). <br><br>Otorga @MinAdaptive.-1*0.6@ de Daño de Ataque o @MinAdaptive@ de Poder de Habilidad en el nivel 1.",
 						"icon": "ASSETS/Perks/Styles/Sorcery/AbsoluteFocus/AbsoluteFocus.dds"
 					}
 				]

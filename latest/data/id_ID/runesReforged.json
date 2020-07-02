@@ -68,7 +68,7 @@
 						"key": "ZombieWard",
 						"name": "Zombie Ward",
 						"shortDesc": "Setelah menghancurkan Ward, Zombie Ward teman akan bangkit di lokasinya. Ketika durasi Ward Anda habis, mereka juga bangkit sebagai Zombie Ward.",
-						"longDesc": "Setelah menghancurkan Ward, Zombie Ward teman akan bangkit menggantikannya. Selain itu, ketika Ward Anda habis, mereka akan bangkit sebagai Zombie Ward.<br><br>Zombie Ward bisa dilihat, dan bertahan selama @WardDurationMin@ - @WardDuration@ detik dan tidak termasuk batas jumlah Ward Anda.",
+						"longDesc": "Setelah menghancurkan Ward, Zombie Ward teman akan bangkit menggantikannya. Selain itu, ketika Ward Anda habis, mereka akan bangkit sebagai Zombie Ward.<br><br>Zombie Ward bisa dilihat, dan bertahan selama @WardDurationTooltipMin@ - @WardDuration@ detik dan tidak termasuk batas jumlah Ward Anda.",
 						"icon": "ASSETS/Perks/Styles/Domination/ZombieWard/ZombieWard.dds"
 					},
 					{
@@ -303,8 +303,8 @@
 						"id": 8009,
 						"key": "PresenceOfMind",
 						"name": "Presence of Mind",
-						"shortDesc": "Selama @BuffDuration@ detik setelah naik level atau mendapatkan Kill atau Assist, Mana yang Anda gunakan dipulihkan seluruhnya.",
-						"longDesc": "Selama @BuffDuration@ detik setelah naik level atau mendapatkan Kill atau Assist, Mana yang Anda gunakan akan dipulihkan seluruhnya.",
+						"shortDesc": "Kill atau Assist memulihkan @PercentManaRestore*100@% Mana maksimum Anda dan mengembalikan @UltimateCooldownRefund*100@% Cooldown Ultimate Anda.",
+						"longDesc": "Kill atau Assist memulihkan @PercentManaRestore*100@% Mana maksimum Anda dan mengembalikan @UltimateCooldownRefund*100@% Cooldown Ultimate Anda.",
 						"icon": "ASSETS/Perks/Styles/Precision/LastResort/LastResortIcon.dds"
 					}
 				]
@@ -535,8 +535,8 @@
 						"id": 8226,
 						"key": "ManaflowBand",
 						"name": "Manaflow Band",
-						"shortDesc": "Secara berkala Ability berikutnya yang Anda gunakan biaya Mana atau Energynya dikembalikan dan memulihkan sebagian Mana atau Energy Anda yang hilang.",
-						"longDesc": "Setiap @Cooldown.0@ detik, Ability berikutnya yang Anda gunakan biaya Mana atau Energynya akan dikembalikan, dan memulihkan @MPToRestoreRatio.0*100@% Mana atau Energy Anda yang hilang.",
+						"shortDesc": "Menyerang Champion musuh dengan Ability meningkatkan Mana maksimum Anda secara permanen sebesar @ManaIncrease@, hingga @MaxManaIncrease@ Mana.<br><br>Setelah mencapai @MaxManaIncrease@ bonus Mana, memulihkan @PercentManaRestore*100@% Mana Anda yang hilang setiap @PercentManaRestoreCooldown@ detik.",
+						"longDesc": "Menyerang Champion musuh dengan Ability akan meningkatkan Mana maksimum Anda secara permanen sebesar @ManaIncrease@, hingga @MaxManaIncrease@ Mana.<br><br>Setelah mencapai @MaxManaIncrease@ bonus Mana, memulihkan @PercentManaRestore*100@% Mana Anda yang hilang setiap @PercentManaRestoreCooldown@ detik.<br><br>Cooldown: @Cooldown.0@ detik",
 						"icon": "ASSETS/Perks/Styles/Sorcery/ManaflowBand/ManaflowBand.dds"
 					},
 					{
@@ -572,7 +572,7 @@
 						"key": "AbsoluteFocus",
 						"name": "Absolute Focus",
 						"shortDesc": "Ketika memiliki Health di atas @HealthPercent*100@%, mendapatkan tambahan <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>Damage adaptif</lol-uikit-tooltipped-keyword>.",
-						"longDesc": "Saat Health di atas @HealthPercent*100@%, akan mendapatkan bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptif</font></lol-uikit-tooltipped-keyword> hingga @MaxAdaptive.-1*0.6@ Attack Damage atau @MaxAdaptive@ Ability Power (berdasarkan Level)",
+						"longDesc": "Saat Health di atas @HealthPercent*100@% mendapatkan bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptif</font></lol-uikit-tooltipped-keyword> hingga @MaxAdaptive.-1*0.6@ Attack Damage atau @MaxAdaptive@ Ability Power (berdasarkan level). <br><br>Memberikan @MinAdaptive.-1*0.6@ Attack Damage atau @MinAdaptive@ Ability Power di level 1. ",
 						"icon": "ASSETS/Perks/Styles/Sorcery/AbsoluteFocus/AbsoluteFocus.dds"
 					}
 				]

@@ -68,7 +68,7 @@
 						"key": "ZombieWard",
 						"name": "僵尸守卫",
 						"shortDesc": "摧毁一个守卫后，一个友方的僵尸守卫会出现在原本的位置。你之前放置的守卫到期的话也会以僵尸守卫的型态重生。",
-						"longDesc": "摧毁一个守卫后，一个友方的僵尸守卫会出现在原地。此外，你先前放置的守卫到期时也会以僵尸守卫的型态重生。<br><br>僵尸守卫不会隐形，可在场上停留 @WardDurationMin@ - @WardDuration@ 秒，并且不会被计入你的守卫上限。",
+						"longDesc": "摧毁一个守卫后，一个友方的僵尸守卫会出现在原地。此外，你先前放置的守卫到期时也会以僵尸守卫的型态重生。<br><br>僵尸守卫不会隐形，可在场上停留 @WardDurationTooltipMin@ - @WardDuration@ 秒，并且不会被计入你的守卫上限。",
 						"icon": "ASSETS/Perks/Styles/Domination/ZombieWard/ZombieWard.dds"
 					},
 					{
@@ -303,8 +303,8 @@
 						"id": 8009,
 						"key": "PresenceOfMind",
 						"name": "气定神闲",
-						"shortDesc": "取得击杀、助攻或升级后的 @BuffDuration@ 秒内，你花费的魔力将全数回复。",
-						"longDesc": "取得击杀、助攻或升级后的 @BuffDuration@ 秒内，你花费的魔力将全数回复。",
+						"shortDesc": "取得击杀或助攻后回复自身 @PercentManaRestore*100@% 最大魔力并返还 @UltimateCooldownRefund*100@% 大绝冷却时间。",
+						"longDesc": "取得击杀或助攻后回复自身 @PercentManaRestore*100@% 最大魔力并返还 @UltimateCooldownRefund*100@% 大绝冷却时间。",
 						"icon": "ASSETS/Perks/Styles/Precision/LastResort/LastResortIcon.dds"
 					}
 				]
@@ -535,8 +535,8 @@
 						"id": 8226,
 						"key": "ManaflowBand",
 						"name": "附魔之带",
-						"shortDesc": "定期使你下一次使用的技能返还其消耗魔力或能量，同时回复部分已消耗的魔力或能量。",
-						"longDesc": "每过 @Cooldown.0@ 秒，你下一次使用的技能将返还其消耗魔力或能量，并回复@MPToRestoreRatio.0*100@% 已消耗魔力或能量。",
+						"shortDesc": "使用技能击中一名敌方英雄时使你的最大魔力永久提升 @ManaIncrease@ 点，最多提升 @MaxManaIncrease@ 点魔力。<br><br>额外获得的魔力达 @MaxManaIncrease@ 点之后，每 @PercentManaRestoreCooldown@ 秒回复自身 @PercentManaRestore*100@% 已消耗魔力。",
+						"longDesc": "使用技能击中一名敌方英雄时使你的最大魔力永久提升 @ManaIncrease@ 点，最多提升 @MaxManaIncrease@ 点魔力。<br><br>额外获得的魔力达 @MaxManaIncrease@ 点之后，每@PercentManaRestoreCooldown@ 秒回复自身 @PercentManaRestore*100@% 已消耗魔力。<br><br>冷却时间：@Cooldown.0@ 秒",
 						"icon": "ASSETS/Perks/Styles/Sorcery/ManaflowBand/ManaflowBand.dds"
 					},
 					{
@@ -572,7 +572,7 @@
 						"key": "AbsoluteFocus",
 						"name": "绝对专注",
 						"shortDesc": "生命高于 @HealthPercent*100@% 时获得额外<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>适性伤害</lol-uikit-tooltipped-keyword>。",
-						"longDesc": "生命高于 @HealthPercent*100@% 时获得 最高@MaxAdaptive.-1*0.6@ 物理攻击或 @MaxAdaptive@ 魔法攻击<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>（适性）</font></lol-uikit-tooltipped-keyword>加成（随等级提升）。<br>",
+						"longDesc": "血量高于 @HealthPercent*100@% 生命时获得 最高@MaxAdaptive.-1*0.6@ 物理攻击或 @MaxAdaptive@ 魔法攻击<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>（适性）</font></lol-uikit-tooltipped-keyword>加成（随等级提升）。<br><br>等级 1 时获得 @MinAdaptive.-1*0.6@ 物理攻击或 @MinAdaptive@ 魔法攻击。",
 						"icon": "ASSETS/Perks/Styles/Sorcery/AbsoluteFocus/AbsoluteFocus.dds"
 					}
 				]

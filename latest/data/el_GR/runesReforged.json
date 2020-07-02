@@ -68,7 +68,7 @@
 						"key": "ZombieWard",
 						"name": "Μάτι Ζόμπι",
 						"shortDesc": "Όταν σκοτώνετε ένα Μάτι, στη θέση του φυτρώνει ένα φιλικό Μάτι Ζόμπι. Όταν λήγουν τα Μάτια σας, φυτρώνουν ξανά ως Μάτια Ζόμπι.",
-						"longDesc": "Όταν σκοτώνετε ένα Μάτι, στη θέση του φυτρώνει ένα φιλικό Μάτι Ζόμπι. Επιπλέον, όταν λήγουν τα Μάτια σας, φυτρώνουν ξανά ως Μάτια Ζόμπι.<br><br>Τα Μάτια Ζόμπι είναι ορατά, διαρκούν @WardDurationMin@ - @WardDuration@ δευτερόλεπτα και δεν υπολογίζονται στο όριο Ματιών σας.",
+						"longDesc": "Όταν σκοτώνετε ένα Μάτι, στη θέση του φυτρώνει ένα φιλικό Μάτι Ζόμπι. Επιπλέον, όταν λήγουν τα Μάτια σας, φυτρώνουν ξανά ως Μάτια Ζόμπι.<br><br>Τα Μάτια Ζόμπι είναι ορατά, διαρκούν @WardDurationTooltipMin@ - @WardDuration@ δευτερόλεπτα και δεν υπολογίζονται στο όριο Ματιών σας.",
 						"icon": "ASSETS/Perks/Styles/Domination/ZombieWard/ZombieWard.dds"
 					},
 					{
@@ -303,8 +303,8 @@
 						"id": 8009,
 						"key": "PresenceOfMind",
 						"name": "Ευστροφία",
-						"shortDesc": "Όταν ανεβαίνετε επίπεδο ή πετυχαίνετε μια εκτέλεση, το Μάνα που ξοδεύετε αναπληρώνεται πλήρως για @BuffDuration@ δευτερόλεπτα.",
-						"longDesc": "Όταν ανεβαίνετε επίπεδο ή πετυχαίνετε μια εκτέλεση, το Μάνα που ξοδεύετε αναπληρώνεται πλήρως για @BuffDuration@ δευτερόλεπτα.",
+						"shortDesc": "Οι εξοντώσεις αναπληρώνουν το @PercentManaRestore*100@% του μέγιστου Μάνα σας και επιστρέφουν το @UltimateCooldownRefund*100@% του Χρόνου Επαναφόρτισης της υπέρτατης ικανότητάς σας.",
+						"longDesc": "Οι εξοντώσεις αναπληρώνουν το @PercentManaRestore*100@% του μέγιστου Μάνα σας και επιστρέφουν το @UltimateCooldownRefund*100@% του Χρόνου Επαναφόρτισης της υπέρτατης ικανότητάς σας.",
 						"icon": "ASSETS/Perks/Styles/Precision/LastResort/LastResortIcon.dds"
 					}
 				]
@@ -535,8 +535,8 @@
 						"id": 8226,
 						"key": "ManaflowBand",
 						"name": "Δαχτυλίδι Ροής Μάνα",
-						"shortDesc": "Ανά τακτά χρονικά διαστήματα, η επόμενη ικανότητα που θα χρησιμοποιήσετε σας επιστρέφει το κόστος της σε Μάνα ή Ενέργεια και αναπληρώνει ένα μέρος του Μάνα ή της Ενέργειας που σας λείπει.",
-						"longDesc": "Κάθε @Cooldown.0@ δευτερόλεπτα, η επόμενη ικανότητα που θα χρησιμοποιήσετε σας επιστρέφει το κόστος της σε Μάνα ή Ενέργεια και αναπληρώνει το @MPToRestoreRatio.0*100@% του Μάνα ή της Ενέργειας που σας λείπει.",
+						"shortDesc": "Όταν χτυπάτε έναν αντίπαλο Ήρωα με μια ικανότητα, το μέγιστο Μάνα σας αυξάνεται μόνιμα κατά @ManaIncrease@ (έως @MaxManaIncrease@ Μάνα).<br><br>Όταν το μπόνους Μάνα γίνει @MaxManaIncrease@, αναπληρώνετε το @PercentManaRestore*100@% του Μάνα που σας λείπει κάθε @PercentManaRestoreCooldown@ δευτερόλεπτα.",
+						"longDesc": "Όταν χτυπάτε έναν αντίπαλο Ήρωα με μια ικανότητα, το μέγιστο Μάνα σας αυξάνεται μόνιμα κατά @ManaIncrease@ (έως @MaxManaIncrease@ Μάνα).<br><br>Όταν το μπόνους Μάνα γίνει @MaxManaIncrease@, αναπληρώνετε το @PercentManaRestore*100@% του Μάνα που σας λείπει κάθε @PercentManaRestoreCooldown@ δευτερόλεπτα.<br><br>Χρόνος Επαναφόρτισης @Cooldown.0@ δευτερόλεπτα",
 						"icon": "ASSETS/Perks/Styles/Sorcery/ManaflowBand/ManaflowBand.dds"
 					},
 					{
@@ -572,7 +572,7 @@
 						"key": "AbsoluteFocus",
 						"name": "Απόλυτη Συγκέντρωση",
 						"shortDesc": "Όταν έχετε περισσότερη από @HealthPercent*100@% Ζωή, αποκτάτε επιπλέον <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>Ευέλικτη Ζημιά</lol-uikit-tooltipped-keyword>.",
-						"longDesc": "Όταν έχετε περισσότερη από @HealthPercent*100@% Ζωή, αποκτάτε έως και <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>ευέλικτο</font></lol-uikit-tooltipped-keyword> μπόνους έως @MaxAdaptive.-1*0.6@ Ζημιά Επίθεσης ή @MaxAdaptive@ Ισχύ Ικανότητας (ανάλογα με το επίπεδο).",
+						"longDesc": "Όταν έχετε περισσότερη από @HealthPercent*100@% Ζωή, αποκτάτε έως και <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>ευέλικτο</font></lol-uikit-tooltipped-keyword> μπόνους έως @MaxAdaptive.-1*0.6@ Ζημιά Επίθεσης ή @MaxAdaptive@ Ισχύ Ικανότητας (ανάλογα με το επίπεδο). <br><br>Δίνει @MinAdaptive.-1*0.6@ Ζημιά Επίθεσης ή @MinAdaptive@ Ισχύ Ικανότητας στο επίπεδο 1. ",
 						"icon": "ASSETS/Perks/Styles/Sorcery/AbsoluteFocus/AbsoluteFocus.dds"
 					}
 				]

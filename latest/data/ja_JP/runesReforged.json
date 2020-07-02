@@ -68,7 +68,7 @@
 						"key": "ZombieWard",
 						"name": "ゾンビワード",
 						"shortDesc": "敵のワードを破壊、または自分のワードの持続時間が尽きると、その場に味方の「ゾンビワード」が発生する。",
-						"longDesc": "敵のワードを破壊、または自分のワードの持続時間が尽きると、その場に「ゾンビワード」が発生する。<br><br>「ゾンビワード」は可視化されており、@WardDurationMin@ - @WardDuration@秒間持続する。また、ワード設置数の制限にはカウントされない。",
+						"longDesc": "敵のワードを破壊、または自分のワードの持続時間が尽きると、その場に「ゾンビワード」が発生する。<br><br>「ゾンビワード」は可視化されており、@WardDurationTooltipMin@ - @WardDuration@秒間持続する。また、ワード設置数の制限にはカウントされない。",
 						"icon": "ASSETS/Perks/Styles/Domination/ZombieWard/ZombieWard.dds"
 					},
 					{
@@ -303,8 +303,8 @@
 						"id": 8009,
 						"key": "PresenceOfMind",
 						"name": "冷静沈着",
-						"shortDesc": "レベルアップする、あるいは敵チャンピオンからキルまたはアシストを獲得した直後の@BuffDuration@秒間、消費したマナがすべて還元される。",
-						"longDesc": "レベルアップする、あるいは敵チャンピオンからキルまたはアシストを獲得した直後の@BuffDuration@秒間、消費したマナがすべて還元される。",
+						"shortDesc": "キルかアシスト獲得時に最大マナの@PercentManaRestore*100@%を回復して、アルティメットのクールダウンが@UltimateCooldownRefund*100@%還元される。",
+						"longDesc": "キルかアシスト獲得時に最大マナの@PercentManaRestore*100@%を回復して、アルティメットのクールダウンが@UltimateCooldownRefund*100@%還元される。",
 						"icon": "ASSETS/Perks/Styles/Precision/LastResort/LastResortIcon.dds"
 					}
 				]
@@ -535,8 +535,8 @@
 						"id": 8226,
 						"key": "ManaflowBand",
 						"name": "マナフローバンド",
-						"shortDesc": "一定時間毎に、次に使用するスキルのマナまたは気コストが還元され、減少マナまたは気を一定量回復する。",
-						"longDesc": " @Cooldown.0@秒毎に、次に使用するスキルのマナまたは気コストが還元され、減少マナまたは気の@MPToRestoreRatio.0*100@%を回復する。",
+						"shortDesc": "敵チャンピオンにスキルを当てるたびに最大マナが@ManaIncrease@ずつ恒久的に増加(増加マナ上限は@MaxManaIncrease@)。<br><br>増加マナが@MaxManaIncrease@になると@PercentManaRestoreCooldown@秒ごとに減少マナの@PercentManaRestore*100@%を回復。",
+						"longDesc": "敵チャンピオンにスキルを当てるたびに最大マナが@ManaIncrease@ずつ恒久的に増加(増加マナ上限は@MaxManaIncrease@)。<br><br>増加マナが@MaxManaIncrease@になると@PercentManaRestoreCooldown@秒ごとに減少マナの@PercentManaRestore*100@%を回復。<br><br>クールダウン: @Cooldown.0@秒",
 						"icon": "ASSETS/Perks/Styles/Sorcery/ManaflowBand/ManaflowBand.dds"
 					},
 					{
@@ -572,7 +572,7 @@
 						"key": "AbsoluteFocus",
 						"name": "英気集中",
 						"shortDesc": "体力が@HealthPercent*100@%以上あると追加<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>アダプティブダメージ</lol-uikit-tooltipped-keyword>を獲得。",
-						"longDesc": "体力が@HealthPercent*100@%以上ある場合、最大で攻撃力@MaxAdaptive.-1*0.6@、または魔力@MaxAdaptive@の<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>アダプティブ</font></lol-uikit-tooltipped-keyword>ボーナス(レベルに比例)を獲得する。",
+						"longDesc": "体力が@HealthPercent*100@%以上ある場合、最大で攻撃力@MaxAdaptive.-1*0.6@、または魔力@MaxAdaptive@の<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>アダプティブ</font></lol-uikit-tooltipped-keyword>ボーナス(レベルに応じて)を獲得する。<br><br>レベル1で攻撃力@MinAdaptive.-1*0.6@または魔力@MinAdaptive@を獲得。",
 						"icon": "ASSETS/Perks/Styles/Sorcery/AbsoluteFocus/AbsoluteFocus.dds"
 					}
 				]

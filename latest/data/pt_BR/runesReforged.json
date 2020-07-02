@@ -68,7 +68,7 @@
 						"key": "ZombieWard",
 						"name": "Sentinela Zumbi",
 						"shortDesc": "Ao abater uma sentinela, uma Sentinela Zumbi aliada surge em seu lugar. Quando suas sentinelas expiram, elas também ressuscitam como Sentinelas Zumbis.",
-						"longDesc": "Ao abater uma sentinela, uma Sentinela Zumbi aliada surge em seu lugar. Além disso, quando suas sentinelas expiram, elas ressuscitam como Sentinelas Zumbis.<br><br>As Sentinelas Zumbis são visíveis, duram de @WardDurationMin@s a @WardDuration@s e não afetam seu limite de sentinelas.",
+						"longDesc": "Ao abater uma sentinela, uma Sentinela Zumbi aliada surge em seu lugar. Além disso, quando suas sentinelas expiram, elas ressuscitam como Sentinelas Zumbis.<br><br>As Sentinelas Zumbis são visíveis, duram de @WardDurationTooltipMin@ a @WardDuration@s e não afetam seu limite de sentinelas.",
 						"icon": "ASSETS/Perks/Styles/Domination/ZombieWard/ZombieWard.dds"
 					},
 					{
@@ -303,8 +303,8 @@
 						"id": 8009,
 						"key": "PresenceOfMind",
 						"name": "Presença de Espírito",
-						"shortDesc": "Por @BuffDuration@s após subir de nível ou realizar um abate, qualquer Mana gasta é totalmente restaurada.",
-						"longDesc": "Por @BuffDuration@s após subir de nível ou realizar um abate, qualquer Mana gasta é totalmente restaurada.",
+						"shortDesc": "Abates restauram @PercentManaRestore*100@% da sua Mana máxima e recuperam@UltimateCooldownRefund*100@% do Tempo de Recarga da ultimate.",
+						"longDesc": "Abates restauram @PercentManaRestore*100@% da sua Mana máxima e recuperam@UltimateCooldownRefund*100@% do Tempo de Recarga da ultimate.",
 						"icon": "ASSETS/Perks/Styles/Precision/LastResort/LastResortIcon.dds"
 					}
 				]
@@ -535,8 +535,8 @@
 						"id": 8226,
 						"key": "ManaflowBand",
 						"name": "Faixa de Fluxo de Mana",
-						"shortDesc": "Periodicamente, a próxima habilidade que você utilizar tem seu custo de Mana ou de Energia recuperado e restaura uma porção de sua Mana ou Energia perdida.",
-						"longDesc": "A cada @Cooldown.0@s, a próxima habilidade que você utilizar tem seu custo de Mana ou de Energia recuperado e restaura @MPToRestoreRatio.0*100@% da sua Mana ou Energia perdida.",
+						"shortDesc": "Atingir um Campeão inimigo com uma habilidade aumenta permanentemente sua Mana máxima em @ManaIncrease@, até o total de @MaxManaIncrease@ de Mana.<br><br>Após atingir @MaxManaIncrease@ de Mana adicional, @PercentManaRestore*100@% da sua Mana perdida é restaurada a cada @PercentManaRestoreCooldown@s",
+						"longDesc": "Atingir um Campeão inimigo com uma habilidade aumenta permanentemente sua Mana máxima em @ManaIncrease@, até o total de @MaxManaIncrease@ de Mana.<br><br>Após atingir @MaxManaIncrease@ de Mana adicional, @PercentManaRestore*100@% da sua Mana perdida é restaurada a cada @PercentManaRestoreCooldown@s<br><br>Tempo de Recarga: @Cooldown.0@s",
 						"icon": "ASSETS/Perks/Styles/Sorcery/ManaflowBand/ManaflowBand.dds"
 					},
 					{
@@ -572,7 +572,7 @@
 						"key": "AbsoluteFocus",
 						"name": "Foco Absoluto",
 						"shortDesc": "Acima de @HealthPercent*100@% de Vida, recebe <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>Dano Adaptativo</lol-uikit-tooltipped-keyword> adicional.",
-						"longDesc": "Acima de @HealthPercent*100@% de Vida, recebe um adicional <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptativo</font></lol-uikit-tooltipped-keyword> de até @MaxAdaptive.-1*0.6@ de Dano de Ataque ou @MaxAdaptive@ de Poder de Habilidade (com base no nível)",
+						"longDesc": "Acima de @HealthPercent*100@% de Vida, recebe um adicional <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptativo</font></lol-uikit-tooltipped-keyword> de até @MaxAdaptive.-1*0.6@ de Dano de Ataque ou @MaxAdaptive@ de Poder de Habilidade (com base no nível). <br><br>Concede @MinAdaptive.-1*0.6@ de Dano de Ataque ou @MinAdaptive@ de Poder de Habilidade no nível 1. ",
 						"icon": "ASSETS/Perks/Styles/Sorcery/AbsoluteFocus/AbsoluteFocus.dds"
 					}
 				]
@@ -600,7 +600,7 @@
 						"key": "GatheringStorm",
 						"name": "Tempestade Crescente",
 						"shortDesc": "Recebe quantidades crescentes de DdA ou PdH <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'>Adaptativo</lol-uikit-tooltipped-keyword> ao longo da partida.",
-						"longDesc": "A cada @UpdateAfterMinutes@ min, recebe PdH ou DdA <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptativo</font></lol-uikit-tooltipped-keyword>.<br><br><i>10 min</i>: + 8 de PdH ou 5 de DdA <br><i>20 min</i>: + 24 de PdH ou 14 de DdA<br><i>30 min</i>: + 48 de PdH ou 29 de DdA<br><i>40 min</i>: + 80 de PdH ou 48 de DdA<br><i>50 min</i>: + 120 de PdH ou 72 de DdA<br><i>60 min</i>: + 168 de PdH ou 101 de DdA<br>etc...",
+						"longDesc": "A cada @UpdateAfterMinutes@ min, recebe PdH ou DdA <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptativo</font></lol-uikit-tooltipped-keyword>.<br><br><i>10 min</i>: + 8 de PdH ou 5 de DdA <br><i>20 min</i>: + 24 de PdH ou 14 de DdA<br><i>30 min</i>: + 48 de PdH ou 29 de DdA<br><i>40 min</i>: + 80 de PdH ou 48 de DdA<br><i>50 min</i>: + 120 de PdH ou 72 de DdA<br><i>60 min</i>: + 168 de PdH ou 101 de DdA<br>etc.",
 						"icon": "ASSETS/Perks/Styles/Sorcery/GatheringStorm/GatheringStorm.dds"
 					}
 				]

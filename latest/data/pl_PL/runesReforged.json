@@ -68,7 +68,7 @@
 						"key": "ZombieWard",
 						"name": "Zombi Totem",
 						"shortDesc": "Gdy zniszczysz totem, na jego miejscu pojawi się sojuszniczy Zombi Totem. Gdy totemy wygasną, powstają jako Zombi Totemy.",
-						"longDesc": "Gdy zniszczysz totem, na jego miejscu pojawi się sojuszniczy Zombi Totem. Dodatkowo, gdy totemy wygasną, powstają jako Zombi Totemy.<br><br>Zombi Totemy są widoczne, utrzymują się przez @WardDurationMin@-@WardDuration@ sek. i nie liczą się do limitu totemów.",
+						"longDesc": "Gdy zniszczysz totem, na jego miejscu pojawi się sojuszniczy Zombi Totem. Dodatkowo, gdy totemy wygasną, powstają jako Zombi Totemy.<br><br>Zombi Totemy są widoczne, utrzymują się przez @WardDurationTooltipMin@-@WardDuration@ sek. i nie liczą się do limitu totemów.",
 						"icon": "ASSETS/Perks/Styles/Domination/ZombieWard/ZombieWard.dds"
 					},
 					{
@@ -303,8 +303,8 @@
 						"id": 8009,
 						"key": "PresenceOfMind",
 						"name": "Rozwój Myśli",
-						"shortDesc": "Przez @BuffDuration@ sek. po awansowaniu lub udziale w zabójstwie jakakolwiek wydana mana zostanie w pełni przywrócona.",
-						"longDesc": "Przez @BuffDuration@ sek. po awansowaniu lub udziale w zabójstwie jakakolwiek wydana mana zostanie w pełni przywrócona.",
+						"shortDesc": "Biorąc udział w zabójstwach odzyskujesz @PercentManaRestore*100@% swojej całkowitej many, a czas odnowienia twojej superumiejętności skraca się o @UltimateCooldownRefund*100@%.",
+						"longDesc": "Biorąc udział w zabójstwach odzyskujesz @PercentManaRestore*100@% swojej całkowitej many, a czas odnowienia twojej superumiejętności skraca się o @UltimateCooldownRefund*100@%.",
 						"icon": "ASSETS/Perks/Styles/Precision/LastResort/LastResortIcon.dds"
 					}
 				]
@@ -535,8 +535,8 @@
 						"id": 8226,
 						"key": "ManaflowBand",
 						"name": "Opaska Przepływu Many",
-						"shortDesc": "Co pewien czas zwraca koszt many lub energii następnej użytej umiejętności i przywraca część twojej brakującej many lub energii.",
-						"longDesc": "Co @Cooldown.0@ sek. koszt many lub energii następnej umiejętności zostaje zwrócony, a ponadto otrzymujesz @MPToRestoreRatio.0*100@% brakującej many lub energii.",
+						"shortDesc": "Trafienie wrogiego bohatera umiejętnością na stałe zwiększa twoją maksymalną manę o @ManaIncrease@ pkt., dopóki nie uzyskasz @MaxManaIncrease@ pkt. many.<br><br>Po osiągnięciu @MaxManaIncrease@ pkt. dodatkowej many będziesz regenerować @PercentManaRestore*100@% swojej brakującej many co @PercentManaRestoreCooldown@ sek.",
+						"longDesc": "Trafienie wrogiego bohatera umiejętnością na stałe zwiększa twoją maksymalną manę o @ManaIncrease@ pkt., dopóki nie uzyskasz @MaxManaIncrease@ pkt. many.<br><br>Po osiągnięciu @MaxManaIncrease@ pkt. dodatkowej many będziesz regenerować @PercentManaRestore*100@% swojej brakującej many co @PercentManaRestoreCooldown@ sek.<br><br>Czas odnowienia: @Cooldown.0@ sek.",
 						"icon": "ASSETS/Perks/Styles/Sorcery/ManaflowBand/ManaflowBand.dds"
 					},
 					{
@@ -572,7 +572,7 @@
 						"key": "AbsoluteFocus",
 						"name": "Całkowite Skupienie",
 						"shortDesc": "Gdy masz ponad @HealthPercent*100@% zdrowia, zyskujesz dodatkowe <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>obrażenia adaptacyjne</lol-uikit-tooltipped-keyword>.",
-						"longDesc": "Gdy masz ponad @HealthPercent*100@% zdrowia, zyskujesz <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptacyjna</font></lol-uikit-tooltipped-keyword> premia wynosząca maksymalnie @MaxAdaptive.-1*0.6@ pkt. obrażeń od ataku lub @MaxAdaptive@ pkt. mocy umiejętności  (zależnie od poziomu).",
+						"longDesc": "Gdy masz ponad @HealthPercent*100@% zdrowia, zyskujesz <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptacyjna</font></lol-uikit-tooltipped-keyword> premia wynosząca maksymalnie @MaxAdaptive.-1*0.6@ pkt. obrażeń od ataku lub @MaxAdaptive@ pkt. mocy umiejętności pkt. (zależnie od poziomu). <br><br>Zyskujesz @MinAdaptive.-1*0.6@ pkt. obrażeń od ataku lub @MinAdaptive@ pkt. mocy umiejętności na poziomie 1. ",
 						"icon": "ASSETS/Perks/Styles/Sorcery/AbsoluteFocus/AbsoluteFocus.dds"
 					}
 				]

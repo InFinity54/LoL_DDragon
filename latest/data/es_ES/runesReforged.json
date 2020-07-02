@@ -68,7 +68,7 @@
 						"key": "ZombieWard",
 						"name": "Guardián zombi",
 						"shortDesc": "Cuando eliminas un guardián, un guardián zombi aliado aparece en su lugar. Cuando tus guardianes desaparecen, resucitan como guardianes zombis.",
-						"longDesc": "Cuando eliminas un guardián, un guardián zombi aliado aparece en su lugar. Además, cuando tus guardianes desaparecen, resucitan como guardianes zombis.<br><br>Los guardianes zombis son visibles, duran @WardDurationMin@-@WardDuration@ s y no cuentan para el límite de guardianes.",
+						"longDesc": "Cuando eliminas un guardián, un guardián zombi aliado aparece en su lugar. Además, cuando tus guardianes desaparecen, resucitan como guardianes zombis.<br><br>Los guardianes zombis son visibles, duran @WardDurationTooltipMin@-@WardDuration@ s y no cuentan para el límite de guardianes.",
 						"icon": "ASSETS/Perks/Styles/Domination/ZombieWard/ZombieWard.dds"
 					},
 					{
@@ -303,8 +303,8 @@
 						"id": 8009,
 						"key": "PresenceOfMind",
 						"name": "Claridad mental",
-						"shortDesc": "Durante @BuffDuration@ s tras subir de nivel o conseguir un asesinato o asistencia, el maná que gastes se restaura por completo.",
-						"longDesc": "Durante @BuffDuration@ s tras subir de nivel o conseguir un asesinato o asistencia, el maná que gastes se restaura por completo.",
+						"shortDesc": "Los asesinatos y asistencias restauran un @PercentManaRestore*100@% de tu maná máximo y devuelven un @UltimateCooldownRefund*100@% del enfriamiento de tu definitiva.",
+						"longDesc": "Los asesinatos y asistencias restauran un @PercentManaRestore*100@% de tu maná máximo y devuelven un @UltimateCooldownRefund*100@% del enfriamiento de tu definitiva.",
 						"icon": "ASSETS/Perks/Styles/Precision/LastResort/LastResortIcon.dds"
 					}
 				]
@@ -535,8 +535,8 @@
 						"id": 8226,
 						"key": "ManaflowBand",
 						"name": "Banda de maná",
-						"shortDesc": "De forma periódica, recuperas el coste de maná o de energía de la próxima habilidad que lances, además de parte del maná o de la energía que te falte.",
-						"longDesc": "Cada @Cooldown.0@ s, recuperas el coste de maná o de energía de la siguiente habilidad que lances, además de un @MPToRestoreRatio.0*100@% del maná o de la energía que te falte.",
+						"shortDesc": "Golpear a un campeón enemigo con una habilidad aumenta permanentemente tu maná máximo en @ManaIncrease@, hasta @MaxManaIncrease@ de maná.<br><br>Tras llegar a @MaxManaIncrease@ de maná adicional, recuperas un @PercentManaRestore*100@% del maná que te falte cada @PercentManaRestoreCooldown@ s.",
+						"longDesc": "Golpear a un campeón enemigo con una habilidad aumenta permanentemente tu maná máximo en @ManaIncrease@, hasta @MaxManaIncrease@ de maná.<br><br>Tras llegar a @MaxManaIncrease@ de maná adicional, restauras un @PercentManaRestore*100@% del maná que te falte cada @PercentManaRestoreCooldown@ s.<br><br>Enfriamiento: @Cooldown.0@ s.",
 						"icon": "ASSETS/Perks/Styles/Sorcery/ManaflowBand/ManaflowBand.dds"
 					},
 					{
@@ -572,7 +572,7 @@
 						"key": "AbsoluteFocus",
 						"name": "Concentración absoluta",
 						"shortDesc": "Mientras estés por encima del @HealthPercent*100@% de vida, obtienes <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>daño adaptable</lol-uikit-tooltipped-keyword> adicional.",
-						"longDesc": "Mientras estés por encima del @HealthPercent*100@% de vida, obtienes una bonificación <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptable</font></lol-uikit-tooltipped-keyword> de hasta @MaxAdaptive.-1*0.6@ de daño de ataque o @MaxAdaptive@ de poder de habilidad (según el nivel).",
+						"longDesc": "Mientras estés por encima del @HealthPercent*100@% de vida, obtienes una bonificación <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptable</font></lol-uikit-tooltipped-keyword> de hasta @MaxAdaptive.-1*0.6@ de daño de ataque o @MaxAdaptive@ de poder de habilidad (según el nivel). <br><br>Otorga @MinAdaptive.-1*0.6@ de daño de ataque o @MinAdaptive@ de poder de habilidad a nivel 1. ",
 						"icon": "ASSETS/Perks/Styles/Sorcery/AbsoluteFocus/AbsoluteFocus.dds"
 					}
 				]

@@ -68,7 +68,7 @@
 						"key": "ZombieWard",
 						"name": "Zombi őrszem",
 						"shortDesc": "Az őrszemek megölésekor egy szövetséges Zombi őrszem jelenik meg a helyükön. Ha az őrszemeid kimerülnek, Zombi őrszemként élednek újjá.",
-						"longDesc": "Az őrszemek megölésekor egy szövetséges Zombi őrszem jelenik meg a helyükön. Ezenfelül ha az őrszemeid kimerülnek, Zombi őrszemként élednek újjá.<br><br>A Zombi őrszemek láthatóak, @WardDurationMin@ – @WardDuration@ másodpercig maradnak aktívak, és nem számítanak bele az őrszemek maximális számába.",
+						"longDesc": "Az őrszemek megölésekor egy szövetséges Zombi őrszem jelenik meg a helyükön. Ezenfelül ha az őrszemeid kimerülnek, Zombi őrszemként élednek újjá.<br><br>A Zombi őrszemek láthatóak, @WardDurationTooltipMin@ – @WardDuration@ másodpercig maradnak aktívak, és nem számítanak bele az őrszemek maximális számába.",
 						"icon": "ASSETS/Perks/Styles/Domination/ZombieWard/ZombieWard.dds"
 					},
 					{
@@ -303,8 +303,8 @@
 						"id": 8009,
 						"key": "PresenceOfMind",
 						"name": "Lélekjelenlét",
-						"shortDesc": "Szintlépések vagy kiiktatások után @BuffDuration@ másodpercig visszanyered az összes felhasznált manát.",
-						"longDesc": "Szintlépések vagy kiiktatások után @BuffDuration@ másodpercig visszanyered az összes felhasznált manát.",
+						"shortDesc": "A kiiktatások visszatöltik a hiányzó manád @PercentManaRestore*100@%-át, és @UltimateCooldownRefund*100@%-kal csökkentik a végső képesség töltési idejét.",
+						"longDesc": "A kiiktatások visszatöltik a hiányzó manád @PercentManaRestore*100@%-át, és @UltimateCooldownRefund*100@%-kal csökkentik a végső képesség töltési idejét.",
 						"icon": "ASSETS/Perks/Styles/Precision/LastResort/LastResortIcon.dds"
 					}
 				]
@@ -535,8 +535,8 @@
 						"id": 8226,
 						"key": "ManaflowBand",
 						"name": "Manaáramlás öve",
-						"shortDesc": "Időnként visszanyered a következő felhasznált képességed mana- vagy energiaköltségét és a hiányzó mana vagy energia egy részét.",
-						"longDesc": "@Cooldown.0@ másodpercenként visszanyered a következő felhasznált képességed mana- vagy energiaköltségét, valamint a hiányzó mana vagy energia @MPToRestoreRatio.0*100@%-át.",
+						"shortDesc": "Ha a képességeid eltalálnak egy ellenséges hőst, @ManaIncrease@ ponttal nő a maximális manád (legfeljebb @MaxManaIncrease@ bónuszmana).<br><br>@MaxManaIncrease@ bónuszmana elérésekor @PercentManaRestoreCooldown@ másodpercenként visszatölti a hiányzó manád @PercentManaRestore*100@%-át.",
+						"longDesc": "Ha a képességeid eltalálnak egy ellenséges hőst, @ManaIncrease@ ponttal nő a maximális manád (legfeljebb @MaxManaIncrease@ bónuszmana).<br><br>@MaxManaIncrease@ bónuszmana elérésekor @PercentManaRestoreCooldown@ másodpercenként visszatölti a hiányzó manád @PercentManaRestore*100@%-át.<br><br>Töltési idő: @Cooldown.0@ másodperc",
 						"icon": "ASSETS/Perks/Styles/Sorcery/ManaflowBand/ManaflowBand.dds"
 					},
 					{
@@ -572,7 +572,7 @@
 						"key": "AbsoluteFocus",
 						"name": "Tökéletes összpontosítás",
 						"shortDesc": "Ha több mint @HealthPercent*100@% életerőd van, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>adaptív sebzést</lol-uikit-tooltipped-keyword> kapsz.",
-						"longDesc": "Szinttől függően <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>(adaptív)</font></lol-uikit-tooltipped-keyword> legfeljebb @MaxAdaptive.-1*0.6@ bónusz sebzés vagy @MaxAdaptive@ varázserő ha több mint @HealthPercent*100@% életerőd van.",
+						"longDesc": "Szinttől függően +<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>(adaptív)</font></lol-uikit-tooltipped-keyword> legfeljebb @MaxAdaptive.-1*0.6@ bónusz sebzés vagy @MaxAdaptive@ varázserő, ha több mint @HealthPercent*100@% életerőd van. <br><br>@MinAdaptive.-1*0.6@ sebzést vagy @MinAdaptive@ varázserőt biztosít az 1. szinten. ",
 						"icon": "ASSETS/Perks/Styles/Sorcery/AbsoluteFocus/AbsoluteFocus.dds"
 					}
 				]

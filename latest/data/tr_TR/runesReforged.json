@@ -68,7 +68,7 @@
 						"key": "ZombieWard",
 						"name": "Zombi Totem",
 						"shortDesc": "Bir totemi kırdıktan sonra bu totemin yerinde senin takımına ait bir Zombi Totem ortaya çıkar. Ayrıca senin totemlerin de tükendiğinde Zombi Totem olarak yeniden doğar.",
-						"longDesc": "Bir totemi kırdıktan sonra bu totemin yerinde senin takımına ait bir Zombi Totem ortaya çıkar. Ayrıca totemlerin tükendiğinde Zombi Totem olarak yeniden doğar.<br><br>Zombi Totemler görünür haldedir, @WardDurationMin@ ila @WardDuration@ saniye kalırlar ve totem sınırı içinde sayılmazlar.",
+						"longDesc": "Bir totemi kırdıktan sonra bu totemin yerinde senin takımına ait bir Zombi Totem ortaya çıkar. Ayrıca totemlerin tükendiğinde Zombi Totem olarak yeniden doğar.<br><br>Zombi Totemler görünür haldedir, @WardDurationTooltipMin@ ila @WardDuration@ saniye kalırlar ve totem sınırı içinde sayılmazlar.",
 						"icon": "ASSETS/Perks/Styles/Domination/ZombieWard/ZombieWard.dds"
 					},
 					{
@@ -303,8 +303,8 @@
 						"id": 8009,
 						"key": "PresenceOfMind",
 						"name": "Pratik Zekâ",
-						"shortDesc": "Seviye atladıktan veya alt etme gerçekleştirdikten sonraki @BuffDuration@ saniye boyunca harcadığın bütün mana yenilenir.",
-						"longDesc": "Seviye atladıktan veya alt etme gerçekleştirdikten sonraki @BuffDuration@ saniye boyunca harcadığın bütün mana yenilenir.",
+						"shortDesc": "Rakiplerini alt etmek azami mananın %@PercentManaRestore*100@ kadarını yeniler ve ultinin bekleme süresinin %@UltimateCooldownRefund*100@ kadarını iade eder.",
+						"longDesc": "Rakiplerini alt etmek azami mananın %@PercentManaRestore*100@ kadarını yeniler ve ultinin bekleme süresinin %@UltimateCooldownRefund*100@ kadarını iade eder.",
 						"icon": "ASSETS/Perks/Styles/Precision/LastResort/LastResortIcon.dds"
 					}
 				]
@@ -535,8 +535,8 @@
 						"id": 8226,
 						"key": "ManaflowBand",
 						"name": "Mana Akışı Yüzüğü",
-						"shortDesc": "Kullandığın bir sonraki yeteneğin mana veya enerji bedeli düzenli olarak iade edilir ve eksik mana veya enerji miktarının bir kısmı yenilenir.",
-						"longDesc": "Her @Cooldown.0@ saniyede bir kullandığın ilk yeteneğin mana veya enerji bedeli iade edilir ve eksik mana veya enerji miktarının %@MPToRestoreRatio.0*100@ kadarı yenilenir.",
+						"shortDesc": "Bir rakip şampiyona yetenek isabet ettirmek azami mananı kalıcı olarak @ManaIncrease@ arttırır (en fazla @MaxManaIncrease@ mana kazanabilirsin).<br><br>@MaxManaIncrease@ ilave manaya ulaştığında, her @PercentManaRestoreCooldown@ saniye eksik mananın %@PercentManaRestore*100@ kadarını yenilersin.",
+						"longDesc": "Bir rakip şampiyona yetenek isabet ettirmek azami mananı kalıcı olarak @ManaIncrease@ arttırır (en fazla @MaxManaIncrease@ mana kazanabilirsin).<br><br>@MaxManaIncrease@ ilave manaya ulaştığında, her @PercentManaRestoreCooldown@ saniye eksik mananın %@PercentManaRestore*100@ kadarını yenilersin.<br><br>Bekleme süresi: @Cooldown.0@ saniye",
 						"icon": "ASSETS/Perks/Styles/Sorcery/ManaflowBand/ManaflowBand.dds"
 					},
 					{
@@ -572,7 +572,7 @@
 						"key": "AbsoluteFocus",
 						"name": "Mutlak Odak",
 						"shortDesc": "%@HealthPercent*100@ Can değerinin üzerindeyken ayrıca <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>değişken hasar</lol-uikit-tooltipped-keyword> kazanırsın.",
-						"longDesc": "%@HealthPercent*100@ Can değerinin üzerindeyken <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Değişken</font></lol-uikit-tooltipped-keyword> olarak en fazla @MaxAdaptive.-1*0.6@ Saldırı Gücü veya @MaxAdaptive@ Yetenek Gücü ilavesi kazanırsın (seviyeye göre).",
+						"longDesc": "Canın %@HealthPercent*100@ değerinin üzerindeyken seviyeye bağlı olarak <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Değişken</font></lol-uikit-tooltipped-keyword> olarak en fazla @MaxAdaptive.-1*0.6@ Saldırı Gücü veya @MaxAdaptive@ Yetenek Gücü ilavesi kazanırsın. <br><br>1. seviyede @MinAdaptive.-1*0.6@ Saldırı Gücü veya @MinAdaptive@ Yetenek Gücü kazandırır.",
 						"icon": "ASSETS/Perks/Styles/Sorcery/AbsoluteFocus/AbsoluteFocus.dds"
 					}
 				]

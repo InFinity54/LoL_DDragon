@@ -68,7 +68,7 @@
 						"key": "ZombieWard",
 						"name": "僵尸守卫",
 						"shortDesc": "在击杀一个敌方守卫后，该守卫的位置上会升起一个友方的僵尸守卫。当该守卫的持续时间耗尽后，其仍然会复活为一个僵尸守卫。",
-						"longDesc": "在击杀一个守卫后，该守卫的位置上会升起一个友方的僵尸守卫。此外，当你的守卫过期时，它们也会复生为僵尸守卫。<br><br>僵尸守卫不是隐形的，持续@WardDurationMin@ -@WardDuration@秒并且不会算在你的守卫限制内。",
+						"longDesc": "在击杀一个守卫后，该守卫的位置上会升起一个友方的僵尸守卫。此外，当你的守卫过期时，它们也会复生为僵尸守卫。<br><br>僵尸守卫不是隐形的，持续@WardDurationTooltipMin@ - @WardDuration@秒并且不会算在你的守卫限制内。",
 						"icon": "ASSETS/Perks/Styles/Domination/ZombieWard/ZombieWard.dds"
 					},
 					{
@@ -303,8 +303,8 @@
 						"id": 8009,
 						"key": "PresenceOfMind",
 						"name": "气定神闲",
-						"shortDesc": "在升级或参与击杀后的@BuffDuration@秒里，你花费的任何法力都会得到完全返还。",
-						"longDesc": "在升级或参与击杀后的@BuffDuration@秒里，你花费的任何法力都会得到完全返还。",
+						"shortDesc": "参与击杀后回复你@PercentManaRestore*100@%的最大法力值并返还你终极技能@UltimateCooldownRefund*100@%的冷却时间。",
+						"longDesc": "参与击杀后回复你@PercentManaRestore*100@%的最大法力值并返还你终极技能@UltimateCooldownRefund*100@%的冷却时间。",
 						"icon": "ASSETS/Perks/Styles/Precision/LastResort/LastResortIcon.dds"
 					}
 				]
@@ -535,8 +535,8 @@
 						"id": 8226,
 						"key": "ManaflowBand",
 						"name": "法力流系带",
-						"shortDesc": "周期性地使你使用的下一个技能返还它的法力或能量消耗，并为你回复一些已损失的法力或能量。",
-						"longDesc": "每过@Cooldown.0@秒，你使用的下一个技能将返还它的法力或能量消耗，并回复你@MPToRestoreRatio.0*100@%已损失的法力或能量。",
+						"shortDesc": "用一个技能命中一名敌方英雄时，可永久使你的最大法力值提升@ManaIncrease@，提升法力的上限为@MaxManaIncrease@法力。<br><br>在达到@MaxManaIncrease@额外法力值后，每@PercentManaRestoreCooldown@秒回复你@PercentManaRestore*100@%的已损失法力值。\t",
+						"longDesc": "用一个技能命中一名敌方英雄时，可永久使你的最大法力值提升@ManaIncrease@，提升法力的上限为@MaxManaIncrease@法力。<br><br>在达到@MaxManaIncrease@额外法力值后，每@PercentManaRestoreCooldown@秒回复你@PercentManaRestore*100@%的已损失法力值。<br><br>冷却时间：@Cooldown.0@秒",
 						"icon": "ASSETS/Perks/Styles/Sorcery/ManaflowBand/ManaflowBand.dds"
 					},
 					{
@@ -572,7 +572,7 @@
 						"key": "AbsoluteFocus",
 						"name": "绝对专注",
 						"shortDesc": "在高于@HealthPercent*100@%生命值时，获得额外的<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>自适应伤害</lol-uikit-tooltipped-keyword>。",
-						"longDesc": "在高于@HealthPercent*100@%生命值时，获得一个<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>自动适应的</font></lol-uikit-tooltipped-keyword>加成，@MaxAdaptive.-1*0.6@攻击力或@MaxAdaptive@法术强度(基于等级)",
+						"longDesc": "在高于@HealthPercent*100@%生命值时，获得一个<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>自动适应的</font></lol-uikit-tooltipped-keyword>加成，@MaxAdaptive.-1*0.6@攻击力或@MaxAdaptive@法术强度(基于等级)<br><br>在1级时提供@MinAdaptive.-1*0.6@攻击力或@MinAdaptive@法术强度。",
 						"icon": "ASSETS/Perks/Styles/Sorcery/AbsoluteFocus/AbsoluteFocus.dds"
 					}
 				]

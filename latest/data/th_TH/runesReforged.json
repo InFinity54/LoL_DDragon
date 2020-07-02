@@ -68,7 +68,7 @@
 						"key": "ZombieWard",
 						"name": "Zombie Ward",
 						"shortDesc": "หลังจากทำลายวอร์ดศัตรู หรือเมื่อวอร์ดคุณหมดเวลาลง จะสร้าง Zombie Ward ขึ้นมาแทนที่",
-						"longDesc": "หลังจากที่คุณทำลายวอร์ด จะทำการสร้าง Zombie Ward ขึ้นมาแทนที่ อีกทั้งเมื่อวอร์ดของคุณหมดเวลาลง พวกมันจะเกิดขึ้นมาใหม่อีกครั้งเป็น Zombie Ward<br><br>Zombie Ward สามารถมองเห็นได้และจะคงอยู่เป็นเวลา @WardDurationMin@ - @WardDuration@ วินาที และ Zombie Ward จะไม่นับรวมในจำนวนวอร์ดสูงสุดของคุณ",
+						"longDesc": "หลังจากที่คุณทำลายวอร์ด จะทำการสร้าง Zombie Ward ขึ้นมาแทนที่ อีกทั้งเมื่อวอร์ดของคุณหมดเวลาลง พวกมันจะเกิดขึ้นมาใหม่อีกครั้งเป็น Zombie Ward<br><br>Zombie Ward สามารถมองเห็นได้, คงอยู่เป็นเวลา @WardDurationTooltipMin@ - @WardDuration@ วินาที และจะไม่นับรวมในจำนวนวอร์ดสูงสุดของคุณ",
 						"icon": "ASSETS/Perks/Styles/Domination/ZombieWard/ZombieWard.dds"
 					},
 					{
@@ -303,8 +303,8 @@
 						"id": 8009,
 						"key": "PresenceOfMind",
 						"name": "Presence of Mind",
-						"shortDesc": "หลังจากที่คุณเลเวลอัพหรือทำการโค่นล้ม เป็นเวลา @BuffDuration@ วินาที จะได้รับมานาที่ใช้ไปกลับคืนมาทั้งหมด",
-						"longDesc": "หลังจากที่คุณเลเวลอัพหรือทำการโค่นล้ม เป็นเวลา @BuffDuration@ วินาที จะได้รับมานาที่ใช้ไปกลับคืนมาทั้งหมด",
+						"shortDesc": "การโค่นล้มจะฟื้นฟูมานา @PercentManaRestore*100@% จากมานาสูงสุดของคุณ และทำให้ได้รับคูลดาวน์ท่าไม้ตายกลับคืนมา @UltimateCooldownRefund*100@%",
+						"longDesc": "การโค่นล้มจะฟื้นฟูมานา @PercentManaRestore*100@% จากมานาสูงสุดของคุณ และทำให้ได้รับคูลดาวน์ท่าไม้ตายกลับคืนมา @UltimateCooldownRefund*100@%",
 						"icon": "ASSETS/Perks/Styles/Precision/LastResort/LastResortIcon.dds"
 					}
 				]
@@ -535,8 +535,8 @@
 						"id": 8226,
 						"key": "ManaflowBand",
 						"name": "Manaflow Band",
-						"shortDesc": "เมื่อถึงเวลาหนึ่ง การใช้สกิลครั้งถัดไปของคุณจะทำให้ได้รับมานาหรือ Energy ที่ใช้ร่ายกลับคืนมาทั้งหมด และฟื้นฟูมานาหรือ Energy ตามสัดส่วนมานาหรือ Energy ที่หายไปของคุณ",
-						"longDesc": "ทุก ๆ @Cooldown.0@ วินาที การใช้สกิลถัดไปของคุณ จะได้รับมานาหรือ Energy ที่ใช้ในการร่ายกลับคืนมา และฟื้นฟูมานาหรือ Energy @MPToRestoreRatio.0*100@% จากมานาหรือ Energy ที่หายไปของคุณ",
+						"shortDesc": "การใช้สกิลโดนแชมป์เปี้ยนศัตรู จะทำให้ได้รับค่ามานาสูงสุดเพิ่มขึ้น @ManaIncrease@ หน่วย ได้สูงสุด @MaxManaIncrease@ มานา<br><br>หลังจากที่ได้รับโบนัสมานา @MaxManaIncrease@ หน่วย จะช่วยฟื้นฟูมานา @PercentManaRestore*100@% จากมานาที่หายไปของคุณทุก ๆ @PercentManaRestoreCooldown@ วินาที",
+						"longDesc": "การใช้สกิลโดนแชมป์เปี้ยนศัตรู จะทำให้ได้รับค่ามานาสูงสุดเพิ่มขึ้น @ManaIncrease@ หน่วย ได้สูงสุด @MaxManaIncrease@ มานา<br><br>หลังจากที่ได้รับโบนัสมานา @MaxManaIncrease@ หน่วย จะช่วยฟื้นฟูมานา @PercentManaRestore*100@% จากมานาที่หายไปของคุณทุก ๆ @PercentManaRestoreCooldown@ วินาที<br><br>คูลดาวน์: @Cooldown.0@ วินาที",
 						"icon": "ASSETS/Perks/Styles/Sorcery/ManaflowBand/ManaflowBand.dds"
 					},
 					{
@@ -572,7 +572,7 @@
 						"key": "AbsoluteFocus",
 						"name": "Absolute Focus",
 						"shortDesc": "ในระหว่างที่มีพลังชีวิตมากกว่า @HealthPercent*100@% จะสร้าง <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>ความเสียหายแบบ Adaptive</lol-uikit-tooltipped-keyword> เพิ่มเติม",
-						"longDesc": "เมื่อมีพลังชีวิตมากกว่า @HealthPercent*100@% จะได้รับค่าโบนัสแบบ <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive</font></lol-uikit-tooltipped-keyword> สูงสุดจะอยู่ที่โบนัสพลังโจมตี @MaxAdaptive.-1*0.6@ หน่วย หรือพลังเวทย์ @MaxAdaptive@ หน่วย (ขึ้นกับเลเวล)",
+						"longDesc": "ในระหว่างที่มีพลังชีวิตมากกว่า @HealthPercent*100@% จะได้รับ ค่าโบนัสแบบ <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive</font></lol-uikit-tooltipped-keyword> สูงสุดจะอยู่ที่โบนัสพลังโจมตี @MaxAdaptive.-1*0.6@ หน่วย หรือพลังเวทย์ @MaxAdaptive@ หน่วย (ขึ้นตามเลเวล) <br><br>ได้รับพลังโจมตี @MinAdaptive.-1*0.6@ หน่วย หรือพลังเวทย์ @MinAdaptive@ หน่วย ที่เลเวล 1",
 						"icon": "ASSETS/Perks/Styles/Sorcery/AbsoluteFocus/AbsoluteFocus.dds"
 					}
 				]

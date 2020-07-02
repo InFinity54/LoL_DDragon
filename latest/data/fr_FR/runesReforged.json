@@ -68,7 +68,7 @@
 						"key": "ZombieWard",
 						"name": "Balise zombie",
 						"shortDesc": "Quand vous détruisez une balise, une Balise zombie alliée apparaît à sa place. Quand vos balises expirent, elles reviennent sous la forme de Balises zombies.",
-						"longDesc": "Quand vous détruisez une balise, une Balise zombie alliée apparaît à sa place. De plus, quand vos balises expirent, elles reviennent sous la forme de Balises zombies.<br><br>Les Balises zombies sont visibles, durent<br> @WardDurationMin@ - @WardDuration@ sec et ne comptent pas dans la limite de balises posées.",
+						"longDesc": "Quand vous détruisez une balise, une Balise zombie alliée apparaît à sa place. De plus, quand vos balises expirent, elles reviennent sous la forme de Balises zombies.<br><br>Les Balises zombies sont visibles, durent @WardDurationTooltipMin@ - @WardDuration@ sec et ne comptent pas dans la limite de balises posées.",
 						"icon": "ASSETS/Perks/Styles/Domination/ZombieWard/ZombieWard.dds"
 					},
 					{
@@ -303,8 +303,8 @@
 						"id": 8009,
 						"key": "PresenceOfMind",
 						"name": "Présence d'esprit",
-						"shortDesc": "Pendant @BuffDuration@ sec après avoir gagné un niveau ou avoir participé à l'élimination d'un champion, le mana que vous dépensez est entièrement restauré.",
-						"longDesc": "Pendant @BuffDuration@ sec après avoir gagné un niveau ou avoir participé à l'élimination d'un champion, le mana que vous dépensez est entièrement restauré.",
+						"shortDesc": "Les éliminations vous rendent @PercentManaRestore*100@% de votre mana max et annulent @UltimateCooldownRefund*100@% du délai de récupération de votre ultime.",
+						"longDesc": "Les éliminations vous rendent @PercentManaRestore*100@% de votre mana max et annulent @UltimateCooldownRefund*100@% du délai de récupération de votre ultime.",
 						"icon": "ASSETS/Perks/Styles/Precision/LastResort/LastResortIcon.dds"
 					}
 				]
@@ -535,8 +535,8 @@
 						"id": 8226,
 						"key": "ManaflowBand",
 						"name": "Ruban de mana",
-						"shortDesc": "Périodiquement, vous récupérez le coût en mana/énergie de votre prochaine compétence et recevez une partie de votre mana/énergie manquant(e).",
-						"longDesc": "Toutes les @Cooldown.0@ sec, vous récupérez le coût en mana ou en énergie de votre prochaine compétence et vous recevez @MPToRestoreRatio.0*100@% de votre mana manquant ou de votre énergie manquante.",
+						"shortDesc": "Frapper un champion ennemi avec une compétence augmente définitivement votre mana max de @ManaIncrease@ (bonus max : @MaxManaIncrease@).<br><br>À @MaxManaIncrease@ pts de mana bonus, vous récupérez @PercentManaRestore*100@% de votre mana manquant toutes les @PercentManaRestoreCooldown@ sec.",
+						"longDesc": "Frapper un champion ennemi avec une compétence augmente définitivement votre mana max de @ManaIncrease@ (bonus max : @MaxManaIncrease@).<br><br>À @MaxManaIncrease@ pts de mana bonus, vous récupérez @PercentManaRestore*100@% de votre mana manquant toutes les @PercentManaRestoreCooldown@ sec.<br><br>Délai de récupération : @Cooldown.0@ sec.",
 						"icon": "ASSETS/Perks/Styles/Sorcery/ManaflowBand/ManaflowBand.dds"
 					},
 					{
@@ -572,7 +572,7 @@
 						"key": "AbsoluteFocus",
 						"name": "Concentration absolue",
 						"shortDesc": "Quand vous avez plus de @HealthPercent*100@% de vos PV, vous gagnez des <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>dégâts adaptatifs</lol-uikit-tooltipped-keyword>.",
-						"longDesc": "Quand vous avez plus de @HealthPercent*100@% de vos PV, vous gagnez un bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptatif</font></lol-uikit-tooltipped-keyword> de jusqu'à @MaxAdaptive.-1*0.6@ dégâts d'attaque ou @MaxAdaptive@ puissance (selon le niveau).",
+						"longDesc": "Quand vous avez plus de @HealthPercent*100@% de vos PV, vous gagnez +un bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptatif</font></lol-uikit-tooltipped-keyword> de jusqu'à @MaxAdaptive.-1*0.6@ dégâts d'attaque ou @MaxAdaptive@ puissance (selon le niveau). <br><br>Octroie +@MinAdaptive.-1*0.6@ dégâts d'attaque ou +@MinAdaptive@ puissance au niveau 1. ",
 						"icon": "ASSETS/Perks/Styles/Sorcery/AbsoluteFocus/AbsoluteFocus.dds"
 					}
 				]

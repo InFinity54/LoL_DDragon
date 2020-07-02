@@ -68,7 +68,7 @@
 						"key": "ZombieWard",
 						"name": "Zombie-Auge",
 						"shortDesc": "Nachdem du ein Auge zerstört hast, erhebt sich an seiner Stelle ein freundlich gesinntes Zombie-Auge. Zusätzlich werden deine Augen, wenn sie auslaufen, als Zombie-Augen wiederbelebt.",
-						"longDesc": "Nachdem du ein Auge zerstört hast, erhebt sich an seiner Stelle ein freundlich gesinntes Zombie-Auge. Zusätzlich werden deine Augen, wenn sie kaputtgehen, als Zombie-Augen wiederbelebt.<br><br>Zombie-Augen sind sichtbar, bleiben für @WardDurationMin@–@WardDuration@&nbsp;Sekunden bestehen und zählen nicht zu deinem Augenlimit.",
+						"longDesc": "Nachdem du ein Auge zerstört hast, erhebt sich an seiner Stelle ein freundlich gesinntes Zombie-Auge. Zusätzlich werden deine Augen, wenn sie kaputtgehen, als Zombie-Augen wiederbelebt.<br><br>Zombie-Augen sind sichtbar, bleiben für @WardDurationTooltipMin@–@WardDuration@&nbsp;Sekunden bestehen und zählen nicht zu deinem Augenlimit.",
 						"icon": "ASSETS/Perks/Styles/Domination/ZombieWard/ZombieWard.dds"
 					},
 					{
@@ -303,8 +303,8 @@
 						"id": 8009,
 						"key": "PresenceOfMind",
 						"name": "Geistesgegenwart",
-						"shortDesc": "Nachdem du eine Stufe aufgestiegen bist oder an einem Kill beteiligt warst, wird dein verbrauchtes Mana @BuffDuration@&nbsp;Sekunden lang vollständig zurückerstattet.",
-						"longDesc": "Nachdem du eine Stufe aufgestiegen bist oder an einem Kill beteiligt warst, wird dein verbrauchtes Mana @BuffDuration@&nbsp;Sekunden lang vollständig zurückerstattet.",
+						"shortDesc": "Kills, an denen du beteiligt bist, stellen @PercentManaRestore*100@&nbsp;% deines maximalen Manas wieder her und erstatten @UltimateCooldownRefund*100@&nbsp;% der Abklingzeit deiner ultimativen Fähigkeit zurück.",
+						"longDesc": "Kills, an denen du beteiligt bist, stellen @PercentManaRestore*100@&nbsp;% deines maximalen Manas wieder her und erstatten @UltimateCooldownRefund*100@&nbsp;% der Abklingzeit deiner ultimativen Fähigkeit zurück.",
 						"icon": "ASSETS/Perks/Styles/Precision/LastResort/LastResortIcon.dds"
 					}
 				]
@@ -535,8 +535,8 @@
 						"id": 8226,
 						"key": "ManaflowBand",
 						"name": "Manafluss",
-						"shortDesc": "Die Mana- oder Energiekosten deiner nächsten Fähigkeit werden regelmäßig zurückerstattet. Außerdem wird ein Teil deines fehlenden Manas oder deiner fehlenden Energie wiederhergestellt.",
-						"longDesc": "Alle @Cooldown.0@&nbsp;Sekunden werden die Mana- oder Energiekosten deiner nächsten Fähigkeit zurückerstattet und @MPToRestoreRatio.0*100@&nbsp;% deines fehlenden Manas oder deiner fehlenden Energie wiederhergestellt.",
+						"shortDesc": "Wenn du einen gegnerischen Champion mit einer Fähigkeit triffst, erhöht sich dein maximales Mana permanent um @ManaIncrease@ (max. @MaxManaIncrease@&nbsp;Mana).<br><br>Ab @MaxManaIncrease@&nbsp;zusätzlichem Mana stellst du alle @PercentManaRestoreCooldown@&nbsp;Sekunden @PercentManaRestore*100@&nbsp;% deines fehlenden Manas wieder her.",
+						"longDesc": "Wenn du einen gegnerischen Champion mit einer Fähigkeit triffst, erhöht sich dein maximales Mana permanent um @ManaIncrease@ (max. @MaxManaIncrease@&nbsp;Mana).<br><br>Ab @MaxManaIncrease@&nbsp;zusätzlichem Mana stellst du alle @PercentManaRestoreCooldown@&nbsp;Sekunden @PercentManaRestore*100@&nbsp;% deines fehlenden Manas wieder her.<br><br>Abklingzeit: @Cooldown.0@&nbsp;Sekunden",
 						"icon": "ASSETS/Perks/Styles/Sorcery/ManaflowBand/ManaflowBand.dds"
 					},
 					{
@@ -572,7 +572,7 @@
 						"key": "AbsoluteFocus",
 						"name": "Absoluter Fokus",
 						"shortDesc": "Wenn du über mehr als @HealthPercent*100@&nbsp;% deines Lebens verfügst, wird dir zusätzlicher <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>adaptiver Schaden</lol-uikit-tooltipped-keyword> gewährt.",
-						"longDesc": "Wenn du über mehr als @HealthPercent*100@&nbsp;% deines Lebens verfügst, wird dir abhängig von der Stufe ein Bonus von bis zu @MaxAdaptive.-1*0.6@&nbsp;Angriffsschaden oder @MaxAdaptive@&nbsp;Fähigkeitsstärke <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>(adaptiv)</font></lol-uikit-tooltipped-keyword> gewährt.",
+						"longDesc": "Wenn du über mehr als @HealthPercent*100@&nbsp;% deines Lebens verfügst, wird dir abhängig von der Stufe ein Bonus von bis zu @MaxAdaptive.-1*0.6@&nbsp;Angriffsschaden oder @MaxAdaptive@&nbsp;Fähigkeitsstärke <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>(adaptiv)</font></lol-uikit-tooltipped-keyword> gewährt. <br><br>Gewährt @MinAdaptive.-1*0.6@&nbsp;Angriffsschaden oder @MinAdaptive@&nbsp;Fähigkeitsstärke auf Stufe&nbsp;1. ",
 						"icon": "ASSETS/Perks/Styles/Sorcery/AbsoluteFocus/AbsoluteFocus.dds"
 					}
 				]

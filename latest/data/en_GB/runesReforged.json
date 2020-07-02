@@ -68,7 +68,7 @@
 						"key": "ZombieWard",
 						"name": "Zombie Ward",
 						"shortDesc": "After killing a ward, a friendly Zombie Ward is raised in its place. When your wards expire, they also reanimate as Zombie Wards.",
-						"longDesc": "After killing a ward, a friendly Zombie Ward is raised in its place. Additionally, when your wards expire, they reanimate as Zombie Wards.<br><br>Zombie Wards are visible, last for @WardDurationMin@ - @WardDuration@s and don't count towards your ward limit.",
+						"longDesc": "After killing a ward, a friendly Zombie Ward is raised in its place. Additionally, when your wards expire, they reanimate as Zombie Wards.<br><br>Zombie Wards are visible, last for @WardDurationTooltipMin@ - @WardDuration@s and don't count towards your ward limit.",
 						"icon": "ASSETS/Perks/Styles/Domination/ZombieWard/ZombieWard.dds"
 					},
 					{
@@ -303,8 +303,8 @@
 						"id": 8009,
 						"key": "PresenceOfMind",
 						"name": "Presence of Mind",
-						"shortDesc": "For @BuffDuration@s after gaining a level or takedown any mana you spend is fully restored.",
-						"longDesc": "For @BuffDuration@s after gaining a level or takedown any mana you spend is fully restored.",
+						"shortDesc": "Takedowns restore @PercentManaRestore*100@% of your maximum mana and refund @UltimateCooldownRefund*100@% of your ultimate's cooldown.",
+						"longDesc": "Takedowns restore @PercentManaRestore*100@% of your maximum mana and refund @UltimateCooldownRefund*100@% of your ultimate's cooldown.",
 						"icon": "ASSETS/Perks/Styles/Precision/LastResort/LastResortIcon.dds"
 					}
 				]
@@ -535,8 +535,8 @@
 						"id": 8226,
 						"key": "ManaflowBand",
 						"name": "Manaflow Band",
-						"shortDesc": "Periodically your next ability used has its mana or energy cost refunded and restores some of your missing mana or energy.",
-						"longDesc": "Every @Cooldown.0@s, your next ability used has its mana or energy cost refunded, and restores @MPToRestoreRatio.0*100@% of your missing mana or energy.",
+						"shortDesc": "Hitting an enemy champion with an ability permanently increases your maximum mana by @ManaIncrease@, up to @MaxManaIncrease@ mana.<br><br>After reaching @MaxManaIncrease@ bonus mana, restore @PercentManaRestore*100@% of your missing mana every @PercentManaRestoreCooldown@ seconds.",
+						"longDesc": "Hitting an enemy champion with an ability permanently increases your maximum mana by @ManaIncrease@, up to @MaxManaIncrease@ mana.<br><br>After reaching @MaxManaIncrease@ bonus mana, restore @PercentManaRestore*100@% of your missing mana every @PercentManaRestoreCooldown@ seconds.<br><br>Cooldown: @Cooldown.0@ seconds",
 						"icon": "ASSETS/Perks/Styles/Sorcery/ManaflowBand/ManaflowBand.dds"
 					},
 					{
@@ -572,7 +572,7 @@
 						"key": "AbsoluteFocus",
 						"name": "Absolute Focus",
 						"shortDesc": "While above @HealthPercent*100@% health, gain extra <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>adaptive damage</lol-uikit-tooltipped-keyword>.",
-						"longDesc": "While above @HealthPercent*100@% health, gain an <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptive</font></lol-uikit-tooltipped-keyword> bonus of up to @MaxAdaptive.-1*0.6@ Attack Damage or @MaxAdaptive@ Ability Power (based on level).",
+						"longDesc": "While above @HealthPercent*100@% health, gain an <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptive</font></lol-uikit-tooltipped-keyword> bonus of up to @MaxAdaptive.-1*0.6@ Attack Damage or @MaxAdaptive@ Ability Power (based on level). <br><br>Grants @MinAdaptive.-1*0.6@ Attack Damage or @MinAdaptive@ Ability Power at level 1. ",
 						"icon": "ASSETS/Perks/Styles/Sorcery/AbsoluteFocus/AbsoluteFocus.dds"
 					}
 				]
