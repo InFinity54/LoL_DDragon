@@ -177,7 +177,7 @@
 						"name": "Самое время",
 						"shortDesc": "Дает бесплатный предмет Секундомер. Секундомер может единожды наложить на вас эффект <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Stasis'>Стазиса</lol-uikit-tooltipped-keyword>.",
 						"longDesc": "Вы начинаете игру с предметом Начальный секундомер, который превращается в предмет Секундомер через @InitialCooldown.0@ мин. Секундомер может единожды наложить на вас эффект Стазиса.<br><br>Сокращает перезарядку предметов Песочные часы Жони, Ангел-хранитель и Каменный доспех гаргульи на @PercentGAZhonyasCDR.0*100@%.",
-						"icon": "ASSETS/Perks/Styles/Style5/PerfectTiming/PerfectTiming.dds"
+						"icon": "ASSETS/Perks/Styles/Inspiration/PerfectTiming/PerfectTiming.dds"
 					}
 				]
 			},
@@ -189,7 +189,7 @@
 						"name": "Рынок будущего",
 						"shortDesc": "Вы можете покупать предметы в долг.",
 						"longDesc": "Вы получаете возможность покупать предметы в долг. Максимальная сумма долга повышается со временем.<br><br>Комиссия: @ExcessCostPenaltyFlat@ золота",
-						"icon": "ASSETS/Perks/Styles/Style5/FuturesMarket/FuturesMarket.dds"
+						"icon": "ASSETS/Perks/Styles/Inspiration/FuturesMarket/FuturesMarket.dds"
 					},
 					{
 						"id": 8316,
@@ -270,6 +270,14 @@
 						"shortDesc": "Во время передвижения и атак накапливаются заряды энергии. Когда их станет 100, ваша следующая атака восстановит вам здоровье и увеличит <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>скорость передвижения</lol-uikit-tooltipped-keyword>.",
 						"longDesc": "Во время передвижения и атак накапливаются заряды энергии. Когда их станет 100, ваша следующая атака будет заряженной.<br><br>Заряженные атаки восстанавливают вам здоровье в размере @HealBase@-@HealMax@ (+@HealBonusADRatio.-1@ от дополнительной силы атаки, +@HealAPRatio.-1@ от силы умений) и увеличивают скорость передвижения на @MSBuff*100@% на @MSDuration.0@ сек.<br><rules>Если цель - миньон, сила лечения составляет @MinionHealMod*100@% (@MinionHealMod*50@% для чемпионов дальнего боя).<br>Когда лечение срабатывает от критического удара, его сила увеличивается на @HealCritMod*100@% от модификатора критического урона.</rules>",
 						"icon": "ASSETS/Perks/Styles/Precision/FleetFootwork/FleetFootwork.dds"
+					},
+					{
+						"id": 8010,
+						"key": "Conqueror",
+						"name": "Завоеватель",
+						"shortDesc": "После @ThresholdTime@ сек. в бою ваша первая автоатака против вражеского чемпиона увеличивает вашу силу атаки и превращает часть вашего урона в чистый.",
+						"longDesc": "После @ThresholdTime@ сек. в бою ваша первая автоатака против вражеского чемпиона увеличивает вашу силу атаки на @BaseAD@-@MaxAD@ (в зависимости от уровня) на @BuffDuration@ сек. Кроме того, @TrueDamageBase*100@% от вашего урона по чемпионам превращаются в чистый урон.<br><br><rules>Только для чемпионов ближнего боя: нанесение урона вражеским чемпионам сбрасывает продолжительность действия усиления.</rules>",
+						"icon": "ASSETS/Perks/Styles/Precision/Conqueror/Conqueror.dds"
 					}
 				]
 			},
@@ -379,7 +387,7 @@
 						"id": 8439,
 						"key": "Aftershock",
 						"name": "Дрожь земли",
-						"shortDesc": "После <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Immobilize'>обездвиживания</lol-uikit-tooltipped-keyword> вражеского чемпиона ваши защитные показатели увеличиваются, а спустя короткое время вы наносите взрывной <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>адаптивный урон</lol-uikit-tooltipped-keyword> вокруг себя.",
+						"shortDesc": "После <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Immobilize'>обездвиживания</lol-uikit-tooltipped-keyword> вражеского чемпиона ваши защитные показатели увеличиваются, а затем вы наносите взрывной магический урон вокруг себя.",
 						"longDesc": "После обездвиживания вражеского чемпиона ваши броня и сопротивление магии увеличиваются на @FlatResists@-@FlatResistMaximum@ на @DelayBeforeBurst.1@ сек. После этого вы взрываетесь, нанося магический урон ближайшим врагам.<br><br>Урон: @StartingBaseDamage@-@MaxBaseDamage@ (+@HealthRatio.-1@% от вашего максимального запаса здоровья) (+@DamageRatioAD*100@% от вашей дополнительной силы атаки) (+@DamageRatioAP*100@% от вашей силы умений)<br>Перезарядка: @Cooldown@ сек.",
 						"icon": "ASSETS/Perks/Styles/Resolve/VeteranAftershock/VeteranAftershock.dds"
 					},
@@ -413,32 +421,16 @@
 					},
 					{
 						"id": 8473,
-						"key": "BucklerRing",
+						"key": "BonePlating",
 						"name": "Костяная пластина",
-						"shortDesc": "После получения урона от вражеского чемпиона следующие вражеские умения или автоатаки (до @BlockCount@) наносят вам на @BlockBase@-@BlockMax@ меньше урона.<br><br>Продолжительность: @BlockDuration@ сек.<br>Перезарядка: @Cooldown@ сек.",
-						"longDesc": "После получения урона от вражеского чемпиона следующие вражеские умения или автоатаки (до @BlockCount@) наносят вам на @BlockBase@-@BlockMax@ меньше урона.<br><br>Продолжительность: @BlockDuration@ сек.<br>Перезарядка: @Cooldown@ сек.",
-						"icon": "ASSETS/Perks/Styles/Resolve/BucklerRing/BucklerRing.dds"
+						"shortDesc": "После получения урона от вражеского чемпиона его следующие умения или автоатаки (до @BlockCount@) наносят вам на @BlockBase@-@BlockMax@ меньше урона.<br><br>Продолжительность: @BlockDuration@ сек.<br>Перезарядка: @Cooldown@ сек.",
+						"longDesc": "После получения урона от вражеского чемпиона его следующие умения или автоатаки (до @BlockCount@) наносят вам на @BlockBase@-@BlockMax@ меньше урона.<br><br>Продолжительность: @BlockDuration@ сек.<br>Перезарядка: @Cooldown@ сек.",
+						"icon": "ASSETS/Perks/Styles/Resolve/BonePlating/BonePlating.dds"
 					}
 				]
 			},
 			{
 				"runes": [
-					{
-						"id": 8430,
-						"key": "IronSkin",
-						"name": "Железная кожа",
-						"shortDesc": "Увеличивает броню на @ArmorBase@. <br>Эффекты лечения, включая расходуемые предметы, временно увеличивают вашу броню на @TotalExtraArmor*100@%.",
-						"longDesc": "Ваша броня увеличивается на @ArmorBase@. <br><br>При восстановлении здоровья с помощью расходуемых предметов, лечении (не менее @FlatHealThreshold@ здоровья) или наложении щита ваша броня увеличивается на @TotalExtraArmor*100@% на @EvolveArmorDuration@ сек.",
-						"icon": "ASSETS/Perks/Styles/Resolve/IronSkin/IronSkin.dds"
-					},
-					{
-						"id": 8435,
-						"key": "MirrorShell",
-						"name": "Отражающий панцирь",
-						"shortDesc": "Увеличивает сопротивление магии на @MRBase@. <br>Эффекты лечения, включая расходуемые предметы, временно увеличивают ваше сопротивление магии на @EvolveBonusMR*100@%.<br>",
-						"longDesc": "Ваше сопротивление магии увеличивается на @MRBase@. <br><br>При восстановлении здоровья с помощью расходуемых предметов, лечении (не менее @FlatHealThreshold@ здоровья) или наложении щита ваше сопротивление магии увеличивается на @EvolveBonusMR*100@% на @EvolveShellDuration@ сек. ",
-						"icon": "ASSETS/Perks/Styles/Resolve/MirrorShell/MirrorShell.dds"
-					},
 					{
 						"id": 8429,
 						"key": "Conditioning",
@@ -454,6 +446,14 @@
 						"shortDesc": "При получении урона от вражеского чемпиона вы восстанавливаете себе здоровье в течение некоторого времени.",
 						"longDesc": "При получении урона от вражеского чемпиона вы восстанавливаете себе здоровье в размере @RegenPercentMax.0*100@% от недостающего здоровья +@RegenFlat.0@ в течение @RegenSeconds@ сек.",
 						"icon": "ASSETS/Perks/Styles/Resolve/SecondWind/SecondWind.dds"
+					},
+					{
+						"id": 8472,
+						"key": "Chrysalis",
+						"name": "Куколка",
+						"shortDesc": "С самого начала игры ваш запас здоровья увеличен на @StartingHealth@. Приняв участие в нескольких убийствах (@MaxTakedowns@), вы поглощаете это здоровье и получаете @AdaptiveForce.-1*0.6@ силы атаки или @AdaptiveForce@ силы умений (<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>адаптивно</font></lol-uikit-tooltipped-keyword>).",
+						"longDesc": "С самого начала игры ваш запас здоровья увеличен на @StartingHealth@. Приняв участие в нескольких убийствах (@MaxTakedowns@), вы поглощаете это здоровье и получаете @AdaptiveForce.-1*0.6@ силы атаки или @AdaptiveForce@ силы умений (<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>адаптивно</font></lol-uikit-tooltipped-keyword>).",
+						"icon": "ASSETS/Perks/Styles/Resolve/Chrysalis/Chrysalis.dds"
 					}
 				]
 			},

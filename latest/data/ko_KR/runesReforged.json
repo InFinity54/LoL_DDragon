@@ -177,7 +177,7 @@
 						"name": "완벽한 타이밍",
 						"shortDesc": "초시계 획득. 초시계 아이템은 1회 사용 가능하며 사용 시 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Stasis'>경직</lol-uikit-tooltipped-keyword> 효과",
 						"longDesc": "게임 시작 시 초시계 키트 아이템을 받습니다. 이 아이템은 @InitialCooldown.0@분 후 초시계 아이템으로 변합니다. 초시계 아이템은 단 한 번 사용할 수 있으며, 사용 시 경직 효과를 얻습니다.<br><br>존야의 모래시계, 수호 천사, 가고일 돌갑옷의 재사용 대기시간이 @PercentGAZhonyasCDR.0*100@% 감소합니다.",
-						"icon": "ASSETS/Perks/Styles/Style5/PerfectTiming/PerfectTiming.dds"
+						"icon": "ASSETS/Perks/Styles/Inspiration/PerfectTiming/PerfectTiming.dds"
 					}
 				]
 			},
@@ -189,7 +189,7 @@
 						"name": "외상",
 						"shortDesc": "아이템 외상 구매 가능",
 						"longDesc": "외상으로 아이템을 구입할 수 있습니다. 외상 한도는 점차 증가합니다.<br><br>외상 비용: @ExcessCostPenaltyFlat@골드",
-						"icon": "ASSETS/Perks/Styles/Style5/FuturesMarket/FuturesMarket.dds"
+						"icon": "ASSETS/Perks/Styles/Inspiration/FuturesMarket/FuturesMarket.dds"
 					},
 					{
 						"id": 8316,
@@ -270,6 +270,14 @@
 						"shortDesc": "공격 및 이동 시 충전. 충전 중첩 100회 상태로 공격 시 체력 회복 및 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>이동 속도</lol-uikit-tooltipped-keyword> 증가",
 						"longDesc": "공격 또는 이동 시 충전 중첩이 쌓입니다. 중첩이 100회에 도달하면 충전 상태로 다음 공격을 할 수 있습니다.<br><br>충전 상태로 공격 시 @HealBase@ ~ @HealMax@ (+추가 공격력의 @HealBonusADRatio.-1@, +주문력의 @HealAPRatio.-1@)에 해당하는 체력이 회복되며 @MSDuration.0@초 동안 이동 속도가 @MSBuff*100@% 증가합니다.<br><rules>미니언에게 사용 시 회복 효과는 @MinionHealMod*100@%만 적용됩니다. (원거리 공격일 경우 @MinionHealMod*50@%)<br>공격이 치명타로 적중하면 회복량이 치명타 피해량 증가율의 @HealCritMod*100@%만큼 늘어납니다.</rules>",
 						"icon": "ASSETS/Perks/Styles/Precision/FleetFootwork/FleetFootwork.dds"
+					},
+					{
+						"id": 8010,
+						"key": "Conqueror",
+						"name": "정복자",
+						"shortDesc": "전투 개시 @ThresholdTime@초 후 적 챔피언에 대한 첫 공격 시 공격력 증가 및 챔피언에게 입히는 피해 일부 고정 피해로 변환",
+						"longDesc": "전투 개시 @ThresholdTime@초 후 적 챔피언에 대한 첫 공격 시 @BuffDuration@초 동안 레벨에 따라 @BaseAD@ ~ @MaxAD@의 추가 공격력을 얻고 챔피언에게 입히는 피해의 @TrueDamageBase*100@%가 고정 피해로 변환됩니다.<br><br><rules>근접 챔피언의 경우 적 챔피언에게 피해를 입히면 이 효과의 지속시간이 초기화됩니다.</rules>",
+						"icon": "ASSETS/Perks/Styles/Precision/Conqueror/Conqueror.dds"
 					}
 				]
 			},
@@ -379,7 +387,7 @@
 						"id": 8439,
 						"key": "Aftershock",
 						"name": "여진",
-						"shortDesc": "적 챔피언을 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Immobilize'>이동 불가</lol-uikit-tooltipped-keyword> 상태로 만들면 방어력/마법 저항력 증가 및 잠시 후 주변에 대량의 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>적응형 피해</lol-uikit-tooltipped-keyword>",
+						"shortDesc": "적 챔피언을 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Immobilize'>이동 불가</lol-uikit-tooltipped-keyword> 상태로 만들면 방어력/마법 저항력 증가 및 잠시 후 주변에 큰 마법 피해",
 						"longDesc": "적을 이동 불가 상태로 만들면 @DelayBeforeBurst.1@초 동안 방어력과 마법 저항력이 @FlatResists@ ~ @FlatResistMaximum@ 증가하며, 폭발이 일어나 근처 적에게 마법 피해를 줍니다.<br><br>피해량: @StartingBaseDamage@ ~ @MaxBaseDamage@ (+최대 체력의 @HealthRatio.-1@%) (+추가 공격력의 @DamageRatioAD*100@%) (+주문력의 @DamageRatioAP*100@%)<br>재사용 대기시간: @Cooldown@초",
 						"icon": "ASSETS/Perks/Styles/Resolve/VeteranAftershock/VeteranAftershock.dds"
 					},
@@ -413,32 +421,16 @@
 					},
 					{
 						"id": 8473,
-						"key": "BucklerRing",
+						"key": "BonePlating",
 						"name": "뼈 방패",
 						"shortDesc": "적 챔피언으로부터 피해를 입은 뒤 적이 가하는 @BlockCount@회의 스킬 및 기본 공격으로부터 @BlockBase@ ~ @BlockMax@만큼 피해를 덜 받습니다.<br><br>지속시간: @BlockDuration@초<br>재사용 대기시간: @Cooldown@초",
 						"longDesc": "적 챔피언으로부터 피해를 입은 뒤 적이 가하는 @BlockCount@회의 스킬 및 기본 공격으로부터 @BlockBase@ ~ @BlockMax@만큼 피해를 덜 받습니다.<br><br>지속시간: @BlockDuration@초<br>재사용 대기시간: @Cooldown@초",
-						"icon": "ASSETS/Perks/Styles/Resolve/BucklerRing/BucklerRing.dds"
+						"icon": "ASSETS/Perks/Styles/Resolve/BonePlating/BonePlating.dds"
 					}
 				]
 			},
 			{
 				"runes": [
-					{
-						"id": 8430,
-						"key": "IronSkin",
-						"name": "강철 피부",
-						"shortDesc": "방어력 +@ArmorBase@ 증가 <br>소모품 사용 효과를 포함하여 체력 회복 시 일시적으로 방어력 @TotalExtraArmor*100@% 증가",
-						"longDesc": "방어력이 +@ArmorBase@만큼 증가합니다. <br><br>체력이 @FlatHealThreshold@ 이상 회복되거나 소모품 효과로 체력이 회복되거나 보호막이 생성되면 방어력이 @EvolveArmorDuration@초간 @TotalExtraArmor*100@% 증가합니다.",
-						"icon": "ASSETS/Perks/Styles/Resolve/IronSkin/IronSkin.dds"
-					},
-					{
-						"id": 8435,
-						"key": "MirrorShell",
-						"name": "거울 갑옷",
-						"shortDesc": "마법 저항력 +@MRBase@ 증가 <br>소모품 사용 효과를 포함하여 체력 회복 시 일시적으로 마법 저항력 @EvolveBonusMR*100@% 증가<br>",
-						"longDesc": "마법 저항력이 +@MRBase@ 증가합니다. <br><br>체력이 @FlatHealThreshold@ 이상 회복되거나 소모품 효과로 체력이 회복되거나 보호막이 생성되면 마법 저항력이 @EvolveShellDuration@초간 @EvolveBonusMR*100@% 증가합니다. ",
-						"icon": "ASSETS/Perks/Styles/Resolve/MirrorShell/MirrorShell.dds"
-					},
 					{
 						"id": 8429,
 						"key": "Conditioning",
@@ -454,6 +446,14 @@
 						"shortDesc": "적 챔피언에게 피해를 입으면 일정 시간에 걸쳐 잃은 체력의 일부 회복 ",
 						"longDesc": "적 챔피언에게 피해를 입으면 @RegenSeconds@초 동안 잃은 체력의 @RegenPercentMax.0*100@% + @RegenFlat.0@만큼 회복합니다.",
 						"icon": "ASSETS/Perks/Styles/Resolve/SecondWind/SecondWind.dds"
+					},
+					{
+						"id": 8472,
+						"key": "Chrysalis",
+						"name": "번데기",
+						"shortDesc": "게임 시작 시 체력이 추가로 @StartingHealth@만큼 증가합니다. 챔피언 처치에 @MaxTakedowns@회 관여하면 해당 추가 체력을 소모해 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>적응형</font></lol-uikit-tooltipped-keyword>으로 추가 공격력 @AdaptiveForce.-1*0.6@ 또는 추가 주문력 @AdaptiveForce@ 효과를 얻습니다.",
+						"longDesc": "게임 시작 시 체력이 추가로 @StartingHealth@만큼 증가합니다. 챔피언 처치에 @MaxTakedowns@회 관여하면 해당 추가 체력을 소모해 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>적응형</font></lol-uikit-tooltipped-keyword>으로 추가 공격력 @AdaptiveForce.-1*0.6@ 또는 추가 주문력 @AdaptiveForce@ 효과를 얻습니다.",
+						"icon": "ASSETS/Perks/Styles/Resolve/Chrysalis/Chrysalis.dds"
 					}
 				]
 			},

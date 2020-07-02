@@ -177,7 +177,7 @@
 						"name": "完美时机",
 						"shortDesc": "获得一个免费的秒表。秒表有一个一次性使用的<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Stasis'>凝滞</lol-uikit-tooltipped-keyword>主动效果。",
 						"longDesc": "开始游戏时带着一个一次性使用的始动的秒表，可用来进入凝滞状态。秒表在最初的@InitialCooldown.0@分钟里无法被使用。<br><br>使中娅沙漏，守护天使,，和石像鬼石板甲的冷却时间减少@PercentGAZhonyasCDR.0*100@%。",
-						"icon": "ASSETS/Perks/Styles/Style5/PerfectTiming/PerfectTiming.dds"
+						"icon": "ASSETS/Perks/Styles/Inspiration/PerfectTiming/PerfectTiming.dds"
 					}
 				]
 			},
@@ -189,7 +189,7 @@
 						"name": "未来市场",
 						"shortDesc": "你可以欠债来购买装备。",
 						"longDesc": "你可以欠债来购买装备。你可以欠的数额会随时间增加。<br><br>借款费用：@ExcessCostPenaltyFlat@金币",
-						"icon": "ASSETS/Perks/Styles/Style5/FuturesMarket/FuturesMarket.dds"
+						"icon": "ASSETS/Perks/Styles/Inspiration/FuturesMarket/FuturesMarket.dds"
 					},
 					{
 						"id": 8316,
@@ -270,6 +270,14 @@
 						"shortDesc": "攻击和移动会积攒能量层数。在100层时，你的下次攻击会治疗你并提升<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>移动速度</lol-uikit-tooltipped-keyword>。",
 						"longDesc": "攻击和移动会积攒能量层数。在100层时，你的下次攻击会充盈能量。<br><br>充盈能量的攻击会治疗你@HealBase@ - @HealMax@(+@HealBonusADRatio.-1@额外攻击力。+@HealAPRatio.-1@法术强度)并提供+@MSBuff*100@%移动速度，持续@MSDuration.0@秒。<br><rules>在用在小兵身上时，治疗效果的效能为@MinionHealMod*100@%(远程英雄为@MinionHealMod*50@%)。<br>如果已命中的攻击触发了暴击，那么治疗效果会得到提升，数额为你@HealCritMod*100@%的暴击伤害修正系数。</rules>",
 						"icon": "ASSETS/Perks/Styles/Precision/FleetFootwork/FleetFootwork.dds"
+					},
+					{
+						"id": 8010,
+						"key": "Conqueror",
+						"name": "征服者",
+						"shortDesc": "在处于战斗状态@ThresholdTime@秒后，你对敌方英雄发起的第一次攻击将为你提供攻击力，并将你对该英雄造成伤害值中的一部分转化为真实伤害。",
+						"longDesc": "在处于战斗状态@ThresholdTime@秒后，你对敌方英雄发起的第一次攻击将为你提供@BaseAD@ - @MaxAD@攻击力，基于等级，持续@BuffDuration@秒，在此期间将你对该英雄造成伤害值的@TrueDamageBase*100@%转化为真实伤害。<br><br><rules>仅限近战：对敌方英雄造成伤害时可刷新这个增益效果。</rules>",
+						"icon": "ASSETS/Perks/Styles/Precision/Conqueror/Conqueror.dds"
 					}
 				]
 			},
@@ -379,7 +387,7 @@
 						"id": 8439,
 						"key": "Aftershock",
 						"name": "余震",
-						"shortDesc": "在你<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Immobilize\">定身</lol-uikit-tooltipped-keyword>一个敌方英雄后提供防御属性，稍后会在你的周围造成爆发性的<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>自适应伤害</lol-uikit-tooltipped-keyword>。",
+						"shortDesc": "在你<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Immobilize\">定身</lol-uikit-tooltipped-keyword>一个敌方英雄后提供防御属性，稍后会在你的周围造成爆发性的魔法伤害。",
 						"longDesc": "在定身住一名敌方英雄后，使你的当前护甲和魔法抗性提升@FlatResists@ + @ResistInc.0*100@%，持续@DelayBeforeBurst.1@秒。随后，在@DelayBeforeBurst.1@秒后对附近的敌人造成魔法伤害。<br><br>伤害值：@StartingBaseDamage@ - @MaxBaseDamage@ (+你@HealthRatio.1@%的最大生命值) (+@DamageRatioAD*100@%额外攻击力) (+@DamageRatioAP*100@%法术强度)<br>冷却时间：@Cooldown@秒",
 						"icon": "ASSETS/Perks/Styles/Resolve/VeteranAftershock/VeteranAftershock.dds"
 					},
@@ -413,32 +421,16 @@
 					},
 					{
 						"id": 8473,
-						"key": "BucklerRing",
+						"key": "BonePlating",
 						"name": "骸骨镀层",
-						"shortDesc": "在承受来自敌方英雄的伤害后，来自敌方的下@BlockCount@个技能或攻击对你造成的伤害减少@BlockBase@-@BlockMax@。<br><br>持续时间：@BlockDuration@秒<br>冷却时间：@Cooldown@秒",
-						"longDesc": "在承受来自敌方英雄的伤害后，来自敌方的下@BlockCount@个技能或攻击对你造成的伤害减少@BlockBase@-@BlockMax@。<br><br>持续时间：@BlockDuration@秒<br>冷却时间：@Cooldown@秒",
-						"icon": "ASSETS/Perks/Styles/Resolve/BucklerRing/BucklerRing.dds"
+						"shortDesc": "在承受来自一名敌方英雄的伤害后，你所受的下@BlockCount@次来自英雄的技能或攻击将少造成@BlockBase@-@BlockMax@伤害。<br><br>持续时长：@BlockDuration@秒<br>冷却时间：@Cooldown@秒",
+						"longDesc": "在承受来自一名敌方英雄的伤害后，你所受的下@BlockCount@次来自英雄的技能或攻击将少造成@BlockBase@-@BlockMax@伤害。<br><br>持续时长：@BlockDuration@秒<br>冷却时间：@Cooldown@秒",
+						"icon": "ASSETS/Perks/Styles/Resolve/BonePlating/BonePlating.dds"
 					}
 				]
 			},
 			{
 				"runes": [
-					{
-						"id": 8430,
-						"key": "IronSkin",
-						"name": "钢铁皮肤",
-						"shortDesc": "获得+@ArmorBase@护甲。<br>治疗（含消耗品）会使你的护甲暂时提升@TotalExtraArmor*100@%。",
-						"longDesc": "获得+@ArmorBase@护甲。<br><br>来自消耗品的治疗效果、至少@FlatHealThreshold@生命值的治疗效果和护盾效果，都会使你的护甲会提升@TotalExtraArmor*100@%，持续@EvolveArmorDuration@秒。",
-						"icon": "ASSETS/Perks/Styles/Resolve/IronSkin/IronSkin.dds"
-					},
-					{
-						"id": 8435,
-						"key": "MirrorShell",
-						"name": "镜之壳",
-						"shortDesc": "获得+@MRBase@魔法抗性。<br>治疗（含消耗品）会使你的魔法抗性暂时提升@EvolveBonusMR*100@%。<br>",
-						"longDesc": "获得@MRBase@魔法抗性。<br><br>来自消耗品的治疗效果、至少@FlatHealThreshold@生命值的治疗效果和护盾效果，都会使你的魔法抗性会提升@EvolveBonusMR*100@%，持续@EvolveShellDuration@秒。",
-						"icon": "ASSETS/Perks/Styles/Resolve/MirrorShell/MirrorShell.dds"
-					},
 					{
 						"id": 8429,
 						"key": "Conditioning",
@@ -454,6 +446,14 @@
 						"shortDesc": "在受到来自一名敌方英雄的伤害后，会持续治疗一些已损失生命值。",
 						"longDesc": "在你受到来自一名敌方英雄伤害之后，你会在@RegenSeconds@秒里持续回复生命值，总额相当于你@RegenPercentMax.0*100@%已损失生命值 +@RegenFlat.0@。",
 						"icon": "ASSETS/Perks/Styles/Resolve/SecondWind/SecondWind.dds"
+					},
+					{
+						"id": 8472,
+						"key": "Chrysalis",
+						"name": "蛹化",
+						"shortDesc": "开始游戏时带有@StartingHealth@额外生命值。在参与击杀@MaxTakedowns@次后，消耗掉该生命值加成来获得一个<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>自动适应的</font></lol-uikit-tooltipped-keyword>加成，@AdaptiveForce.-1*0.6@攻击力或@AdaptiveForce@法术强度。",
+						"longDesc": "开始游戏时带有@StartingHealth@额外生命值。在参与击杀@MaxTakedowns@次后，消耗掉该生命值加成来获得一个<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>自动适应的</font></lol-uikit-tooltipped-keyword>加成，@AdaptiveForce.-1*0.6@攻击力或@AdaptiveForce@法术强度。",
+						"icon": "ASSETS/Perks/Styles/Resolve/Chrysalis/Chrysalis.dds"
 					}
 				]
 			},
@@ -535,7 +535,7 @@
 						"id": 8226,
 						"key": "ManaflowBand",
 						"name": "法力流系带",
-						"shortDesc": "周期性地使你使用的下一个技能返还它的法力或能量消耗，并为你回复一些已损失的法力或能量。\t",
+						"shortDesc": "周期性地使你使用的下一个技能返还它的法力或能量消耗，并为你回复一些已损失的法力或能量。",
 						"longDesc": "每过@Cooldown.0@秒，你使用的下一个技能将返还它的法力或能量消耗，并回复你@MPToRestoreRatio.0*100@%已损失的法力或能量。",
 						"icon": "ASSETS/Perks/Styles/Sorcery/ManaflowBand/ManaflowBand.dds"
 					},

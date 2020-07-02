@@ -177,7 +177,7 @@
 						"name": "Momentul perfect",
 						"shortDesc": "Primești gratuit un ''Cronometru''. Activa obiectului ''Cronometru'' poate fi folosită o singură dată și oferă un efect de <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Stasis'>stază</lol-uikit-tooltipped-keyword>.",
 						"longDesc": "Începi jocul cu un ''Cronometru de început'', care se transformă în ''Cronometru'' după @InitialCooldown.0@ min. ''Cronometru'' poate fi folosit o singură dată și oferă un efect de stază.<br><br>Reduce cu @PercentGAZhonyasCDR.0*100@% timpii de reactivare pentru ''Clepsidra Zhonyei'', ''Înger păzitor'', și ''Platoșa garguiului''.",
-						"icon": "ASSETS/Perks/Styles/Style5/PerfectTiming/PerfectTiming.dds"
+						"icon": "ASSETS/Perks/Styles/Inspiration/PerfectTiming/PerfectTiming.dds"
 					}
 				]
 			},
@@ -189,7 +189,7 @@
 						"name": "Investiții de viitor",
 						"shortDesc": "Poți cumpăra obiecte pe credit.",
 						"longDesc": "Poți cumpăra obiecte pe credit. Cantitatea de aur pe care o poți împrumuta crește în timp.<br><br>Taxă de credit: @ExcessCostPenaltyFlat@ aur",
-						"icon": "ASSETS/Perks/Styles/Style5/FuturesMarket/FuturesMarket.dds"
+						"icon": "ASSETS/Perks/Styles/Inspiration/FuturesMarket/FuturesMarket.dds"
 					},
 					{
 						"id": 8316,
@@ -270,6 +270,14 @@
 						"shortDesc": "Când ataci sau te miști, aduni cumuluri de ''energie''. La 100 cumuluri, următorul tău atac te vindecă și-ți oferă un bonus la <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>viteza de mișcare</lol-uikit-tooltipped-keyword>.",
 						"longDesc": "Când ataci sau te miști, aduni cumuluri de ''energie''. La 100 de cumuluri, următorul tău atac devine ''energizat''.<br><br>Atacurile ''energizate'' te vindecă cu @HealBase@-@HealMax@ (+@HealBonusADRatio.-1@ AD bonus, +@HealAPRatio.-1@ AP) și îți oferă +@MSBuff*100@% viteză de mișcare timp de @MSDuration.0@ sec.<br><rules>Vindecările au o eficiență de @MinionHealMod*100@% dacă efectul este folosit asupra minionilor (eficiența scade la @MinionHealMod*50@% în cazul campionilor care atacă la distanță).<br>Atunci când vindecarea este declanșată de o lovitură critică, valoarea vieții refăcute crește cu @HealCritMod*100@% din modificatorul daunelor loviturilor critice.</rules>",
 						"icon": "ASSETS/Perks/Styles/Precision/FleetFootwork/FleetFootwork.dds"
+					},
+					{
+						"id": 8010,
+						"key": "Conqueror",
+						"name": "Cuceritor",
+						"shortDesc": "După @ThresholdTime@ secunde petrecute în luptă, primul tău atac împotriva unui campion inamic îți oferă AD și îți transformă o parte din daune în daune reale.",
+						"longDesc": "După @ThresholdTime@ secunde petrecute în luptă, primul tău atac împotriva unui campion inamic îți oferă @BaseAD@-@MaxAD@ AD, în funcție de nivel, timp de @BuffDuration@ secunde și îți transformă @TrueDamageBase*100@% din daunele împotriva campionilor în daune reale.<br><br><rules>Doar pentru melee: dacă le provoci daune campionilor inamici, reînnoiești durata buff-ului.</rules>",
+						"icon": "ASSETS/Perks/Styles/Precision/Conqueror/Conqueror.dds"
 					}
 				]
 			},
@@ -379,7 +387,7 @@
 						"id": 8439,
 						"key": "Aftershock",
 						"name": "Replică",
-						"shortDesc": "După ce <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Immobilize'>imobilizezi</lol-uikit-tooltipped-keyword> un campion inamic, primești atribute defensive și, după o perioadă de așteptare, provoci în jur <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>daune adaptive</lol-uikit-tooltipped-keyword>.",
+						"shortDesc": "După ce <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Immobilize'>imobilizezi</lol-uikit-tooltipped-keyword> un campion inamic, primești atribute defensive și, după o perioadă de așteptare, provoci daune magice bruște în jurul tău.",
 						"longDesc": "După ce imobilizezi un campion inamic, primești un bonus de @FlatResists@-@FlatResistMaximum@ la armură și la rezistența la magie, timp de @DelayBeforeBurst.1@ sec. Apoi explodezi și le provoci daune magice inamicilor din apropiere.<br><br>Daune: @StartingBaseDamage@-@MaxBaseDamage@ (+@HealthRatio.-1@% din viața ta maximă) (+@DamageRatioAD*100@% din daunele bonus din atac) (+@DamageRatioAP*100@% din puterea abilităților)<br>Timp de reactivare: @Cooldown@ sec.",
 						"icon": "ASSETS/Perks/Styles/Resolve/VeteranAftershock/VeteranAftershock.dds"
 					},
@@ -413,32 +421,16 @@
 					},
 					{
 						"id": 8473,
-						"key": "BucklerRing",
+						"key": "BonePlating",
 						"name": "Armură de os",
 						"shortDesc": "După ce suferi daune din partea unui campion inamic, următoarele @BlockCount@ vrăji sau atacuri folosite de acesta împotriva ta îți provoacă daune reduse cu @BlockBase@-@BlockMax@.<br><br>Durată: @BlockDuration@ sec.<br>Timp de reactivare: @Cooldown@ sec.",
 						"longDesc": "După ce suferi daune din partea unui campion inamic, următoarele @BlockCount@ vrăji sau atacuri folosite de acesta împotriva ta îți provoacă daune reduse cu @BlockBase@-@BlockMax@.<br><br>Durată: @BlockDuration@ sec.<br>Timp de reactivare: @Cooldown@ sec.",
-						"icon": "ASSETS/Perks/Styles/Resolve/BucklerRing/BucklerRing.dds"
+						"icon": "ASSETS/Perks/Styles/Resolve/BonePlating/BonePlating.dds"
 					}
 				]
 			},
 			{
 				"runes": [
-					{
-						"id": 8430,
-						"key": "IronSkin",
-						"name": "Piele de fier",
-						"shortDesc": "Primești +@ArmorBase@ armură. <br>Vindecările, inclusiv cele provenite din obiecte consumabile, îți cresc temporar armura cu @TotalExtraArmor*100@%.",
-						"longDesc": "Primești +@ArmorBase@ armură. <br><br>Armura ta crește cu @TotalExtraArmor*100@% timp de @EvolveArmorDuration@ sec. atunci când primești viață dintr-un obiect consumabil, când îți vindeci cel puțin @FlatHealThreshold@ viață sau când primești un scut.",
-						"icon": "ASSETS/Perks/Styles/Resolve/IronSkin/IronSkin.dds"
-					},
-					{
-						"id": 8435,
-						"key": "MirrorShell",
-						"name": "Oglindă în oglindă",
-						"shortDesc": "Primești +@MRBase@ rezistență la magie. <br>Vindecările, inclusiv cele provenite din obiecte consumabile, îți cresc temporar rezistența la magie cu @EvolveBonusMR*100@%.<br>",
-						"longDesc": "Primești +@MRBase@ rezistență la magie. <br><br>Rezistența ta la magie crește cu @EvolveBonusMR*100@% timp de @EvolveShellDuration@ sec. atunci când primești viață dintr-un obiect consumabil, când îți vindeci cel puțin @FlatHealThreshold@ viață sau când primești un scut. ",
-						"icon": "ASSETS/Perks/Styles/Resolve/MirrorShell/MirrorShell.dds"
-					},
 					{
 						"id": 8429,
 						"key": "Conditioning",
@@ -454,6 +446,14 @@
 						"shortDesc": "După ce suferi daune din partea unui campion inamic, îți vindeci în timp o parte din viața lipsă. ",
 						"longDesc": "După ce suferi daune din partea unui campion inamic, îți vindeci @RegenPercentMax.0*100@% din viața lipsă +@RegenFlat.0@ de-a lungul a @RegenSeconds@ sec.",
 						"icon": "ASSETS/Perks/Styles/Resolve/SecondWind/SecondWind.dds"
+					},
+					{
+						"id": 8472,
+						"key": "Chrysalis",
+						"name": "Crisalidă",
+						"shortDesc": "Începi jocul cu @StartingHealth@ viață suplimentară. La @MaxTakedowns@ doborâri, acea viață se transformă în un bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptiv</font></lol-uikit-tooltipped-keyword> de @AdaptiveForce.-1*0.6@ daune din atac sau @AdaptiveForce@ puterea abilităților.",
+						"longDesc": "Începi jocul cu @StartingHealth@ viață suplimentară. La @MaxTakedowns@ doborâri, acea viață se transformă în un bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptiv</font></lol-uikit-tooltipped-keyword> de @AdaptiveForce.-1*0.6@ daune din atac sau @AdaptiveForce@ puterea abilităților.",
+						"icon": "ASSETS/Perks/Styles/Resolve/Chrysalis/Chrysalis.dds"
 					}
 				]
 			},
@@ -564,7 +564,7 @@
 						"key": "Celerity",
 						"name": "Celeritate",
 						"shortDesc": "Primești @PercentMS.0@% <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>viteză de mișcare</lol-uikit-tooltipped-keyword> bonus. Primești suplimentar AP sau AD <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'>(adaptiv)</lol-uikit-tooltipped-keyword>, în funcție de viteza ta de mișcare bonus. ",
-						"longDesc": "Primești @PercentMS.0@% viteză de mișcare suplimentară.<br>Viteza ta de mișcare bonus se transformă în daune din atac sau puterea abilităților, <font color='#48C4B7'>adaptiv</font>, raportul fiind de @AdaptiveAD*8@% pentru daune din atac și de @AdaptiveAP*8@% pentru puterea abilităților.",
+						"longDesc": "Primești @PercentMS.0@% viteză de mișcare suplimentară.<br>Viteza ta de mișcare bonus se transformă în daune din atac sau putere a abilităților, <font color='#48C4B7'>adaptiv</font>, raportul fiind de @AdaptiveAD*8@% pentru daune din atac și de @AdaptiveAP*8@% pentru puterea abilităților.",
 						"icon": "ASSETS/Perks/Styles/Sorcery/Celerity/CelerityTemp.dds"
 					},
 					{

@@ -177,7 +177,7 @@
 						"name": "Sincronia Perfeita",
 						"shortDesc": "Recebe um Cronômetro grátis. Cronômetro tem um efeito de <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Stasis'>Estase</lol-uikit-tooltipped-keyword> de uso único.",
 						"longDesc": "Comece o jogo com um Cronômetro Iniciado que se transforma em Cronômetro após @InitialCooldown.0@ min. Cronômetro tem um efeito de Estase de uso único.<br><br>Reduz o Tempo de Recarga de Ampulheta de Zhonya, Anjo Guardião e Placa Gargolítica em @PercentGAZhonyasCDR.0*100@%.",
-						"icon": "ASSETS/Perks/Styles/Style5/PerfectTiming/PerfectTiming.dds"
+						"icon": "ASSETS/Perks/Styles/Inspiration/PerfectTiming/PerfectTiming.dds"
 					}
 				]
 			},
@@ -189,7 +189,7 @@
 						"name": "Mercado do Futuro",
 						"shortDesc": "Você pode ficar em débito para comprar itens.",
 						"longDesc": "Você pode ficar em débito para comprar itens. A quantidade de empréstimo aumenta com o tempo.<br><br>Taxa de empréstimo: @ExcessCostPenaltyFlat@ de ouro",
-						"icon": "ASSETS/Perks/Styles/Style5/FuturesMarket/FuturesMarket.dds"
+						"icon": "ASSETS/Perks/Styles/Inspiration/FuturesMarket/FuturesMarket.dds"
 					},
 					{
 						"id": 8316,
@@ -270,6 +270,14 @@
 						"shortDesc": "Atacar e se movimentar gera acúmulos de Energia. Com 100 acúmulos, seu próximo ataque cura você e concede um aumento de <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>VdM</lol-uikit-tooltipped-keyword>.",
 						"longDesc": "Atacar e se movimentar gera acúmulos de Energia. Com 100 acúmulos, seu próximo ataque é Energizado.<br><br>Ataques Energizados curam você em @HealBase@ - @HealMax@ (+@HealBonusADRatio.-1@ de DdA adicional, +@HealAPRatio.-1@ de PdH) e concedem +@MSBuff*100@% de Velocidade de Movimento por @MSDuration.0@s.<br><rules>A cura é @MinionHealMod*100@% tão eficaz quando usada em uma tropa (@MinionHealMod*50@% eficaz para ataques à distância).<br>A cura aumenta em @HealCritMod*100@% do seu modificador de Dano Crítico quando acionada por um Acerto Crítico.</rules>",
 						"icon": "ASSETS/Perks/Styles/Precision/FleetFootwork/FleetFootwork.dds"
+					},
+					{
+						"id": 8010,
+						"key": "Conqueror",
+						"name": "Conquistador",
+						"shortDesc": "Após @ThresholdTime@ segundos em combate, seu primeiro ataque contra um Campeão inimigo lhe concede DdA e converte parte do seu dano em Dano Verdadeiro.",
+						"longDesc": "Após @ThresholdTime@ segundos em combate, seu primeiro ataque contra um Campeão inimigo lhe concede @BaseAD@ a @MaxAD@ de DdA, com base no nível, por @BuffDuration@ segundos e converte @TrueDamageBase*100@% do seu dano a Campeões em Dano Verdadeiro.<br><br><rules>Somente corpo a corpo: Causar dano em Campeões reinicia esse efeito.</rules>",
+						"icon": "ASSETS/Perks/Styles/Precision/Conqueror/Conqueror.dds"
 					}
 				]
 			},
@@ -379,7 +387,7 @@
 						"id": 8439,
 						"key": "Aftershock",
 						"name": "Pós-choque",
-						"shortDesc": "Depois de <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Immobilize'>imobilizar</lol-uikit-tooltipped-keyword> um Campeão inimigo, ganha defesas e realiza um ataque explosivo de <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>Dano Adaptativo</lol-uikit-tooltipped-keyword> ao seu redor.",
+						"shortDesc": "Após <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Immobilize'>imobilizar</lol-uikit-tooltipped-keyword> um Campeão inimigo, ganha defesas e depois causa um ataque de Dano Mágico explosivo ao seu redor.",
 						"longDesc": "Após imobilizar um Campeão inimigo, aumenta sua Armadura e Resistência Mágica em @FlatResists@ - @FlatResistMaximum@ por @DelayBeforeBurst.1@s. Depois explode, causando Dano Mágico a inimigos próximos.<br><br>Dano: @StartingBaseDamage@ - @MaxBaseDamage@ (+@HealthRatio.-1@% da sua Vida máxima) (+@DamageRatioAD*100@% do seu Dano de Ataque adicional) (+@DamageRatioAP*100@% do seu Poder de Habilidade)<br>Tempo de Recarga: @Cooldown@s",
 						"icon": "ASSETS/Perks/Styles/Resolve/VeteranAftershock/VeteranAftershock.dds"
 					},
@@ -413,32 +421,16 @@
 					},
 					{
 						"id": 8473,
-						"key": "BucklerRing",
+						"key": "BonePlating",
 						"name": "Osso Revestido",
-						"shortDesc": "Após sofrer dano de um Campeão inimigo, os próximos @BlockCount@ ataques ou habilidades que você receber desse inimigo causarão @BlockBase@-@BlockMax@ a menos de dano.<br><br>Duração: @BlockDuration@s<br>Tempo de Recarga: @Cooldown@s",
-						"longDesc": "Após sofrer dano de um Campeão inimigo, os próximos @BlockCount@ ataques ou habilidades que você receber desse inimigo causarão @BlockBase@-@BlockMax@ a menos de dano.<br><br>Duração: @BlockDuration@s<br>Tempo de Recarga: @Cooldown@s",
-						"icon": "ASSETS/Perks/Styles/Resolve/BucklerRing/BucklerRing.dds"
+						"shortDesc": "Após sofrer dano de um Campeão inimigo, os próximos @BlockCount@ ataques ou habilidades que você receber desse inimigo causarão @BlockBase@ - @BlockMax@ a menos de dano.<br><br>Duração: @BlockDuration@s<br>Tempo de Recarga: @Cooldown@s",
+						"longDesc": "Após sofrer dano de um Campeão inimigo, os próximos @BlockCount@ ataques ou habilidades que você receber desse inimigo causarão @BlockBase@ - @BlockMax@ a menos de dano.<br><br>Duração: @BlockDuration@s<br>Tempo de Recarga: @Cooldown@s",
+						"icon": "ASSETS/Perks/Styles/Resolve/BonePlating/BonePlating.dds"
 					}
 				]
 			},
 			{
 				"runes": [
-					{
-						"id": 8430,
-						"key": "IronSkin",
-						"name": "Pele de Aço",
-						"shortDesc": "Recebe +@ArmorBase@ de Armadura. <br>Curas, incluindo consumíveis, aumentam sua Armadura em @TotalExtraArmor*100@% temporariamente.",
-						"longDesc": "Recebe +@ArmorBase@ de Armadura. <br><br>Efeitos de cura provindos de consumíveis curam pelo menos @FlatHealThreshold@ de Vida e escudos aumentam sua Armadura em @TotalExtraArmor*100@% por @EvolveArmorDuration@s.",
-						"icon": "ASSETS/Perks/Styles/Resolve/IronSkin/IronSkin.dds"
-					},
-					{
-						"id": 8435,
-						"key": "MirrorShell",
-						"name": "Casco Duplicado",
-						"shortDesc": "Recebe +@MRBase@ de Resistência Mágica. <br>Curas, incluindo consumíveis, aumentam sua Resistência Mágica em @EvolveBonusMR*100@% temporariamente.<br>",
-						"longDesc": "Recebe +@MRBase@ de Resistência Mágica. <br><br>Efeitos de cura provindos de consumíveis curam pelo menos @FlatHealThreshold@ de Vida e escudos aumentam sua Resistência Mágica em @EvolveBonusMR*100@% por @EvolveShellDuration@s. ",
-						"icon": "ASSETS/Perks/Styles/Resolve/MirrorShell/MirrorShell.dds"
-					},
 					{
 						"id": 8429,
 						"key": "Conditioning",
@@ -454,6 +446,14 @@
 						"shortDesc": "Após receber dano de um Campeão inimigo, um pouco da Vida perdida é restaurada ao longo do tempo. ",
 						"longDesc": "Após receber dano de um Campeão inimigo, recebe cura equivalente a @RegenPercentMax.0*100@% da Vida perdida +@RegenFlat.0@ por @RegenSeconds@s.",
 						"icon": "ASSETS/Perks/Styles/Resolve/SecondWind/SecondWind.dds"
+					},
+					{
+						"id": 8472,
+						"key": "Chrysalis",
+						"name": "Crisálida",
+						"shortDesc": "Comece o jogo com @StartingHealth@ de Vida adicional. Após @MaxTakedowns@ abates, consuma essa Vida para ganhar um adicional <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptativo</font></lol-uikit-tooltipped-keyword> de @AdaptiveForce.-1*0.6@ de Dano de Ataque ou @AdaptiveForce@ de Poder de Habilidade.",
+						"longDesc": "Comece o jogo com @StartingHealth@ de Vida adicional. Após @MaxTakedowns@ abates, consuma essa Vida para ganhar um adicional <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptativo</font></lol-uikit-tooltipped-keyword> de @AdaptiveForce.-1*0.6@ de Dano de Ataque ou @AdaptiveForce@ de Poder de Habilidade.",
+						"icon": "ASSETS/Perks/Styles/Resolve/Chrysalis/Chrysalis.dds"
 					}
 				]
 			},
@@ -564,7 +564,7 @@
 						"key": "Celerity",
 						"name": "Celeridade",
 						"shortDesc": "Recebe @PercentMS.0@% extra de <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>VdM</lol-uikit-tooltipped-keyword>. Recebe PdH ou DdA <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'>Adaptativo</lol-uikit-tooltipped-keyword> extra com base na sua VdM adicional. ",
-						"longDesc": "Recebe @PercentMS.0@% de Velocidade de Movimento adicional.<br>Sua Velocidade de Movimento adicional é convertida em Dano de Ataque ou Poder de Habilidade, <font color='#48C4B7'>adaptativo</font> na proporção de @AdaptiveAD*8@% de Dano de Ataque ou @AdaptiveAP*8@% de Poder de Habilidade.",
+						"longDesc": "Recebe @PercentMS.0@% de Velocidade de Movimento adicional.<br>Sua Velocidade de Movimento adicional é convertida em Dano de Ataque ou Poder de Habilidade <font color='#48C4B7'>Adaptativo</font> na proporção de @AdaptiveAD*8@% de Dano de Ataque ou @AdaptiveAP*8@% de Poder de Habilidade.",
 						"icon": "ASSETS/Perks/Styles/Sorcery/Celerity/CelerityTemp.dds"
 					},
 					{

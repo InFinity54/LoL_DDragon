@@ -177,7 +177,7 @@
 						"name": "Tempismo perfetto",
 						"shortDesc": "Ottieni un Cronografo gratis. Cronografo ha un uso singolo di <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Stasis'>Stasi</lol-uikit-tooltipped-keyword>.",
 						"longDesc": "Inizi la partita con Trasformazione in Cronografo, che si trasforma in Cronografo dopo @InitialCooldown.0@ minuti. Cronografo ha un effetto di Stasi a uso singolo.<br><br>Riduce la ricarica di Clessidra di Zhonya, Angelo custode e Lastrapietra del gargoyle del @PercentGAZhonyasCDR.0*100@%.",
-						"icon": "ASSETS/Perks/Styles/Style5/PerfectTiming/PerfectTiming.dds"
+						"icon": "ASSETS/Perks/Styles/Inspiration/PerfectTiming/PerfectTiming.dds"
 					}
 				]
 			},
@@ -189,7 +189,7 @@
 						"name": "Mercato del futuro",
 						"shortDesc": "Puoi indebitarti per comprare oggetti.",
 						"longDesc": "Puoi indebitarti per comprare oggetti. La quantità di oro che puoi prendere in prestito aumenta col tempo.<br><br>Interesse debito: @ExcessCostPenaltyFlat@ oro",
-						"icon": "ASSETS/Perks/Styles/Style5/FuturesMarket/FuturesMarket.dds"
+						"icon": "ASSETS/Perks/Styles/Inspiration/FuturesMarket/FuturesMarket.dds"
 					},
 					{
 						"id": 8316,
@@ -268,8 +268,16 @@
 						"key": "FleetFootwork",
 						"name": "Piede lesto",
 						"shortDesc": "Attaccare e muoversi fa accumulare cariche di energia. A 100 cariche, il tuo prossimo attacco ti cura e ti conferisce <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>velocità di movimento</lol-uikit-tooltipped-keyword> aumentata.",
-						"longDesc": "Attaccare e muoversi fa accumulare cariche di energia. A 100 cariche, il tuo prossimo attacco è energizzato.<br><br>Gli attacchi energizzati ti curano di @HealBase@-@HealMax@ (+@HealBonusADRatio.-1@ attacco fisico bonus, +@HealAPRatio.-1@ potere magico) e ti conferiscono @MSBuff*100@% di velocità di movimento per @MSDuration.0@ secondi.<br><rules>La cura ha il @MinionHealMod*100@% dell'efficacia, se usata sui minion.<br>La cura aumenta del @HealCritMod*100@% del tuo modificatore dei danni critici quando viene attivata da un colpo critico.</rules>",
+						"longDesc": "Attaccare e muoversi fa accumulare cariche di energia. A 100 cariche, il tuo prossimo attacco è energizzato.<br><br>Gli attacchi energizzati ti curano di @HealBase@-@HealMax@ (+@HealBonusADRatio.-1@ attacco fisico bonus, +@HealAPRatio.-1@ potere magico) e ti conferiscono @MSBuff*100@% di velocità di movimento per @MSDuration.0@ secondi.<br><rules>La cura ha il @MinionHealMod*100@% dell'efficacia se usata sui minion (@MinionHealMod*50@% per i campioni a distanza).<br>La cura aumenta del @HealCritMod*100@% del tuo modificatore dei danni critici quando viene attivata da un colpo critico.</rules>",
 						"icon": "ASSETS/Perks/Styles/Precision/FleetFootwork/FleetFootwork.dds"
+					},
+					{
+						"id": 8010,
+						"key": "Conqueror",
+						"name": "Conquistatore",
+						"shortDesc": "Dopo @ThresholdTime@ secondi in combattimento, il tuo primo attacco contro un campione nemico fornisce attacco fisico e converte parte dei tuoi danni in danni puri.",
+						"longDesc": "Dopo @ThresholdTime@ secondi in combattimento, il tuo primo attacco contro un campione nemico fornisce @BaseAD@-@MaxAD@ danni fisici in base al livello per @BuffDuration@ secondi e converte il @TrueDamageBase*100@% dei tuoi danni ai campioni in danni puri.<br><br><rules>Solo mischia: danneggiare i campioni nemici ripristina questo buff.</rules>",
+						"icon": "ASSETS/Perks/Styles/Precision/Conqueror/Conqueror.dds"
 					}
 				]
 			},
@@ -379,7 +387,7 @@
 						"id": 8439,
 						"key": "Aftershock",
 						"name": "Scossa di assestamento",
-						"shortDesc": "Dopo aver <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Immobilize'>immobilizzato</lol-uikit-tooltipped-keyword> un campione nemico ottieni difese per poi infliggere una raffica di <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>danni adattivi</lol-uikit-tooltipped-keyword> intorno a te.",
+						"shortDesc": "Dopo aver <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Immobilize'>immobilizzato</lol-uikit-tooltipped-keyword> un campione nemico ottieni difese per poi infliggere una raffica di danni magici intorno a te.",
 						"longDesc": "Dopo aver immobilizzato un campione nemico, la tua armatura e resistenza magica aumentano di @FlatResists@-@FlatResistMaximum@ per @DelayBeforeBurst.1@ secondi. Poi esplodi, infliggendo danni magici ai nemici vicini.<br><br>Danni: @StartingBaseDamage@-@MaxBaseDamage@ (+@HealthRatio.-1@% della tua salute massima, +@DamageRatioAD*100@% del tuo attacco fisico bonus, +@DamageRatioAP*100@% del tuo potere magico)<br>Ricarica: @Cooldown@ secondi",
 						"icon": "ASSETS/Perks/Styles/Resolve/VeteranAftershock/VeteranAftershock.dds"
 					},
@@ -413,32 +421,16 @@
 					},
 					{
 						"id": 8473,
-						"key": "BucklerRing",
+						"key": "BonePlating",
 						"name": "Corazza ossea",
-						"shortDesc": "Dopo aver subito danni da un campione nemico, le prossime @BlockCount@ abilità o attacchi che ricevi dai nemici infliggono @BlockBase@-@BlockMax@ danni in meno.<br><br>Durata: @BlockDuration@ secondi<br>Ricarica: @Cooldown@ secondi",
-						"longDesc": "Dopo aver subito danni da un campione nemico, le prossime @BlockCount@ abilità o attacchi che ricevi dai nemici infliggono @BlockBase@-@BlockMax@ danni in meno.<br><br>Durata: @BlockDuration@ secondi<br>Ricarica: @Cooldown@ secondi",
-						"icon": "ASSETS/Perks/Styles/Resolve/BucklerRing/BucklerRing.dds"
+						"shortDesc": "Dopo aver subito danni da un campione nemico, le prossime @BlockCount@ abilità o attacchi che ricevi dai nemici infliggono @BlockBase@-@BlockMax@ danni in meno.<br><br>Durata: @BlockDuration@ secondi<br>Ricarica: @Cooldown@ secondi.",
+						"longDesc": "Dopo aver subito danni da un campione nemico, le prossime @BlockCount@ abilità o attacchi che ricevi dai nemici infliggono @BlockBase@-@BlockMax@ danni in meno.<br><br>Durata: @BlockDuration@ secondi<br>Ricarica: @Cooldown@ secondi.",
+						"icon": "ASSETS/Perks/Styles/Resolve/BonePlating/BonePlating.dds"
 					}
 				]
 			},
 			{
 				"runes": [
-					{
-						"id": 8430,
-						"key": "IronSkin",
-						"name": "Pelle di ferro",
-						"shortDesc": "Ottieni +@ArmorBase@ armatura. <br>Le guarigioni, consumabili inclusi, aumentano temporaneamente la tua armatura del @TotalExtraArmor*100@%.",
-						"longDesc": "Ottieni +@ArmorBase@ armatura. <br><br>Gli effetti di guarigione degli oggetti consumabili, le cure da almeno @FlatHealThreshold@ salute e gli scudi aumentano la tua armatura del @TotalExtraArmor*100@% per @EvolveArmorDuration@ secondi.",
-						"icon": "ASSETS/Perks/Styles/Resolve/IronSkin/IronSkin.dds"
-					},
-					{
-						"id": 8435,
-						"key": "MirrorShell",
-						"name": "Guscio a specchio",
-						"shortDesc": "Ottieni +@MRBase@ resistenza magica. <br>Le guarigioni, consumabili inclusi, aumentano temporaneamente la tua resistenza magica del @EvolveBonusMR*100@%.<br>",
-						"longDesc": "Ottieni +@MRBase@ resistenza magica. <br><br>Gli effetti di guarigione degli oggetti consumabili, le cure da almeno @FlatHealThreshold@ salute e gli scudi aumentano la tua resistenza magica del @EvolveBonusMR*100@% per @EvolveShellDuration@ secondi. ",
-						"icon": "ASSETS/Perks/Styles/Resolve/MirrorShell/MirrorShell.dds"
-					},
 					{
 						"id": 8429,
 						"key": "Conditioning",
@@ -454,6 +446,14 @@
 						"shortDesc": "Dopo aver subito danni da un campione nemico ti curi nel tempo di parte della salute mancante. ",
 						"longDesc": "Dopo aver subito danni da un campione nemico ti curi del @RegenPercentMax.0*100@% della tua salute mancante + @RegenFlat.0@ in @RegenSeconds@ secondi.",
 						"icon": "ASSETS/Perks/Styles/Resolve/SecondWind/SecondWind.dds"
+					},
+					{
+						"id": 8472,
+						"key": "Chrysalis",
+						"name": "Crisalide",
+						"shortDesc": "Cominci la partita con @StartingHealth@ salute extra. Dopo @MaxTakedowns@ eliminazioni, consuma quella salute per ottenere un bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adattivo</font></lol-uikit-tooltipped-keyword> di @AdaptiveForce.-1*0.6@ attacco fisico o @AdaptiveForce@ potere magico.",
+						"longDesc": "Cominci la partita con @StartingHealth@ salute extra. Dopo @MaxTakedowns@ eliminazioni, consuma quella salute per ottenere un bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adattivo</font></lol-uikit-tooltipped-keyword> di @AdaptiveForce.-1*0.6@ attacco fisico o @AdaptiveForce@ potere magico.",
+						"icon": "ASSETS/Perks/Styles/Resolve/Chrysalis/Chrysalis.dds"
 					}
 				]
 			},

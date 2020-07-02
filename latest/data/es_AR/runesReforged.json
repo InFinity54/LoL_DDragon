@@ -177,7 +177,7 @@
 						"name": "Momento Oportuno",
 						"shortDesc": "Otorga un Cronómetro de forma gratuita. Cronómetro tiene un efecto de <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Stasis'>Estasis</lol-uikit-tooltipped-keyword> de un solo uso.",
 						"longDesc": "Comienza la partida con Iniciar el Cronómetro que se transforma en un Cronómetro después de @InitialCooldown.0@ min. Cronómetro tiene un efecto de Estasis de un solo uso.<br><br>Reduce el enfriamiento de Reloj de Arena de Zhonya, Ángel Guardián y Armadura Pétrea un @PercentGAZhonyasCDR.0*100@%.",
-						"icon": "ASSETS/Perks/Styles/Style5/PerfectTiming/PerfectTiming.dds"
+						"icon": "ASSETS/Perks/Styles/Inspiration/PerfectTiming/PerfectTiming.dds"
 					}
 				]
 			},
@@ -189,7 +189,7 @@
 						"name": "Mercado de Futuros",
 						"shortDesc": "Puedes endeudarte para comprar objetos.",
 						"longDesc": "Puedes endeudarte para comprar objetos. La cantidad que puedes pedir prestada aumenta con el tiempo.<br><br>Límite de deuda: @ExcessCostPenaltyFlat@ de oro",
-						"icon": "ASSETS/Perks/Styles/Style5/FuturesMarket/FuturesMarket.dds"
+						"icon": "ASSETS/Perks/Styles/Inspiration/FuturesMarket/FuturesMarket.dds"
 					},
 					{
 						"id": 8316,
@@ -270,6 +270,14 @@
 						"shortDesc": "Al atacar y moverte, juntas acumulaciones de Energía. Al llegar a 100 acumulaciones, tu siguiente ataque te curará y otorgará <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>VM</lol-uikit-tooltipped-keyword> aumentada.",
 						"longDesc": "Al atacar y moverte, juntas acumulaciones de Energía. Al llegar a 100 acumulaciones, tu siguiente ataque quedará Energizado.<br><br>Los ataques Energizados te curan de @HealBase@ a @HealMax@ (+@HealBonusADRatio.-1@ de DA adicional, +@HealAPRatio.-1@ de PH) y te otorgan +@MSBuff*100@% de velocidad de movimiento durante @MSDuration.0@ seg.<br><rules>La curación es un @MinionHealMod*100@% efectiva si se usa en un súbdito (@MinionHealMod*50@% efectivo para campeones a distancia).<br>La curación aumenta en un @HealCritMod*100@% de tu modificador de daño crítico al activarse por un golpe crítico.</rules>",
 						"icon": "ASSETS/Perks/Styles/Precision/FleetFootwork/FleetFootwork.dds"
+					},
+					{
+						"id": 8010,
+						"key": "Conqueror",
+						"name": "Conquistador",
+						"shortDesc": "Después de estar @ThresholdTime@ seg en combate, tu primer ataque contra un campeón enemigo te otorga DA y convierte parte de tu daño a campeones en daño verdadero.",
+						"longDesc": "Después de estar @ThresholdTime@ seg en combate, tu primer ataque contra un campeón enemigo te otorga de @BaseAD@ a @MaxAD@ de DA (según el nivel) durante @BuffDuration@ seg y convierte @TrueDamageBase*100@% de tu daño a campeones en daño verdadero.<br><br><rules>Solo cuerpo a cuerpo: infligir daño a campeones vuelve a aplicar el efecto.</rules>",
+						"icon": "ASSETS/Perks/Styles/Precision/Conqueror/Conqueror.dds"
 					}
 				]
 			},
@@ -379,7 +387,7 @@
 						"id": 8439,
 						"key": "Aftershock",
 						"name": "Réplica",
-						"shortDesc": "Después de <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Immobilize'>inmovilizar</lol-uikit-tooltipped-keyword> a un campeón enemigo, obtienes defensas y después infligirás una ráfaga de <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>daño adaptable</lol-uikit-tooltipped-keyword> a tu alrededor.",
+						"shortDesc": "Después de <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Immobilize'>inmovilizar</lol-uikit-tooltipped-keyword> a un campeón enemigo, obtienes defensas y después infliges una ráfaga de daño mágico a tu alrededor.",
 						"longDesc": "Después de inmovilizar a un campeón enemigo, aumenta tu armadura y resistencia mágica por @FlatResists@ - @FlatResistMaximum@ durante @DelayBeforeBurst.1@ seg. Luego explotarás e infligirás daño mágico a los enemigos cercanos.<br><br>Daño: @StartingBaseDamage@ - @MaxBaseDamage@ (+@HealthRatio.-1@% de tu vida máxima) (+@DamageRatioAD*100@% de tu daño de ataque adicional) (+@DamageRatioAP*100@% de tu poder de habilidad)<br>Enfriamiento: @Cooldown@ seg",
 						"icon": "ASSETS/Perks/Styles/Resolve/VeteranAftershock/VeteranAftershock.dds"
 					},
@@ -413,32 +421,16 @@
 					},
 					{
 						"id": 8473,
-						"key": "BucklerRing",
+						"key": "BonePlating",
 						"name": "Coraza Ósea",
 						"shortDesc": "Después de recibir daño de un campeón enemigo, reduce el daño de los siguientes @BlockCount@ hechizos o ataques que recibas de un enemigo por @BlockBase@ a @BlockMax@.<br><br>Duración: @BlockDuration@ seg<br>Enfriamiento: @Cooldown@ seg",
 						"longDesc": "Después de recibir daño de un campeón enemigo, reduce el daño de los siguientes @BlockCount@ hechizos o ataques que recibas de un enemigo por @BlockBase@ a @BlockMax@.<br><br>Duración: @BlockDuration@ seg<br>Enfriamiento: @Cooldown@ seg",
-						"icon": "ASSETS/Perks/Styles/Resolve/BucklerRing/BucklerRing.dds"
+						"icon": "ASSETS/Perks/Styles/Resolve/BonePlating/BonePlating.dds"
 					}
 				]
 			},
 			{
 				"runes": [
-					{
-						"id": 8430,
-						"key": "IronSkin",
-						"name": "Piel de Hierro",
-						"shortDesc": "Otorga +@ArmorBase@ de armadura. <br>Las curaciones, incluyendo consumibles, aumentan tu armadura un @TotalExtraArmor*100@% de manera temporal.",
-						"longDesc": "Otorga +@ArmorBase@ de armadura. <br><br>Los efectos de curación de consumibles curan por al menos @FlatHealThreshold@ de vida y los escudos aumentan tu armadura un @TotalExtraArmor*100@% durante @EvolveArmorDuration@ seg.",
-						"icon": "ASSETS/Perks/Styles/Resolve/IronSkin/IronSkin.dds"
-					},
-					{
-						"id": 8435,
-						"key": "MirrorShell",
-						"name": "Coraza Reflejante",
-						"shortDesc": "Otorga +@MRBase@ de resistencia mágica. <br>Las curaciones, incluyendo consumibles, aumentan tu resistencia mágica un @EvolveBonusMR*100@% de manera temporal.<br>",
-						"longDesc": "Otorga +@MRBase@ de resistencia mágica. <br><br>Los efectos de curación de consumibles curan por al menos @FlatHealThreshold@ de vida y los escudos aumentan tu resistencia mágica un @EvolveBonusMR*100@% durante @EvolveShellDuration@ seg. ",
-						"icon": "ASSETS/Perks/Styles/Resolve/MirrorShell/MirrorShell.dds"
-					},
 					{
 						"id": 8429,
 						"key": "Conditioning",
@@ -454,6 +446,14 @@
 						"shortDesc": "Después de recibir daño de un campeón enemigo, recuperarás progresivamente una parte de tu vida faltante.",
 						"longDesc": "Después de recibir daño de un campeón enemigo, te cura un @RegenPercentMax.0*100@% de tu vida faltante +@RegenFlat.0@ durante @RegenSeconds@ seg.",
 						"icon": "ASSETS/Perks/Styles/Resolve/SecondWind/SecondWind.dds"
+					},
+					{
+						"id": 8472,
+						"key": "Chrysalis",
+						"name": "Crisálida",
+						"shortDesc": "Inicias la partida con @StartingHealth@ de vida adicional. Después de @MaxTakedowns@ derribos, consume esa vida para obtener una bonificación <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptable</font></lol-uikit-tooltipped-keyword> de @AdaptiveForce.-1*0.6@ de daño de ataque o @AdaptiveForce@ de poder de habilidad.",
+						"longDesc": "Inicias la partida con @StartingHealth@ de vida adicional. Después de @MaxTakedowns@ derribos, consume esa vida para obtener una bonificación <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptable</font></lol-uikit-tooltipped-keyword> de @AdaptiveForce.-1*0.6@ de daño de ataque o @AdaptiveForce@ de poder de habilidad.",
+						"icon": "ASSETS/Perks/Styles/Resolve/Chrysalis/Chrysalis.dds"
 					}
 				]
 			},
@@ -535,7 +535,7 @@
 						"id": 8226,
 						"key": "ManaflowBand",
 						"name": "Anillo de Flujo de Maná",
-						"shortDesc": "Periódicamente restaurará el costo de maná o energía de la siguiente habilidad que uses y restaura algo de tu maná o energía faltantes.",
+						"shortDesc": "Periódicamente restaura el costo de maná o energía de la siguiente habilidad que uses y restaura parte de tu maná o energía faltantes.",
 						"longDesc": "Cada @Cooldown.0@ seg se restaurará el costo de maná o energía de la siguiente habilidad que uses y restaurará un @MPToRestoreRatio.0*100@% de tu maná o energía faltantes.",
 						"icon": "ASSETS/Perks/Styles/Sorcery/ManaflowBand/ManaflowBand.dds"
 					},
@@ -564,7 +564,7 @@
 						"key": "Celerity",
 						"name": "Celeridad",
 						"shortDesc": "Otorga @PercentMS.0@% de <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>VM</lol-uikit-tooltipped-keyword> adicional. Otorga PH o DA <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'>adaptable</lol-uikit-tooltipped-keyword> adicional según tu VM adicional. ",
-						"longDesc": "Otorga @PercentMS.0@% de velocidad de movimiento aumentada.<br>La velocidad de movimiento adicional se convierte en daño de ataque o poder de habilidad <font color='#48C4B7'>adaptable</font> con una tasa de @AdaptiveAD*8@% de daño de ataque o @AdaptiveAP*8@% de poder de habilidad.",
+						"longDesc": "Otorga @PercentMS.0@% de velocidad de movimiento aumentada.<br>La velocidad de movimiento adicional se convierte en daño de ataque o poder de habilidad <font color='#48C4B7'>adaptable</font>, a una tasa de @AdaptiveAD*8@% daño de ataque o @AdaptiveAP*8@% poder de habilidad.",
 						"icon": "ASSETS/Perks/Styles/Sorcery/Celerity/CelerityTemp.dds"
 					},
 					{

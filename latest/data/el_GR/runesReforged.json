@@ -177,7 +177,7 @@
 						"name": "Τέλειος Συγχρονισμός",
 						"shortDesc": "Αποκτάτε ένα δωρεάν Χρονόμετρο. Το Χρονόμετρο έχει μια επίδραση <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Stasis'>Καταστολής</lol-uikit-tooltipped-keyword> που μπορείτε να χρησιμοποιήσετε μόνο μία φορά.",
 						"longDesc": "Ξεκινάτε το παιχνίδι με ένα Εκκίνηση Χρονόμετρου που μετατρέπεται σε Χρονόμετρο μετά από @InitialCooldown.0@ λεπτά. Το Χρονόμετρο έχει μια επίδραση Καταστολής που μπορείτε να χρησιμοποιήσετε μόνο μία φορά.<br><br>Μειώνει τον Χρόνο Επαναφόρτισης των αντικειμένων Κλεψύδρα της Ζόνια, Φύλακας Άγγελος και Πέτρινη Πανοπλία του Γκαργκόιλ κατά @PercentGAZhonyasCDR.0*100@%.",
-						"icon": "ASSETS/Perks/Styles/Style5/PerfectTiming/PerfectTiming.dds"
+						"icon": "ASSETS/Perks/Styles/Inspiration/PerfectTiming/PerfectTiming.dds"
 					}
 				]
 			},
@@ -189,7 +189,7 @@
 						"name": "Παζάρι του Μέλλοντος",
 						"shortDesc": "Μπορείτε να δανείζεστε για να αγοράζετε αντικείμενα.",
 						"longDesc": "Μπορείτε να δανείζεστε για να αγοράζετε αντικείμενα. Το ποσό που μπορείτε να δανειστείτε αυξάνεται με την πάροδο του χρόνου.<br><br>Έξοδα Δανεισμού: @ExcessCostPenaltyFlat@ Χρυσός",
-						"icon": "ASSETS/Perks/Styles/Style5/FuturesMarket/FuturesMarket.dds"
+						"icon": "ASSETS/Perks/Styles/Inspiration/FuturesMarket/FuturesMarket.dds"
 					},
 					{
 						"id": 8316,
@@ -270,6 +270,14 @@
 						"shortDesc": "Η επίθεση και η κίνηση δημιουργούν στοίβες Ενέργειας. Στις 100 στοίβες, η επόμενη επίθεσή σας αυξάνει την <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>Ταχύτητα Κίνησής</lol-uikit-tooltipped-keyword> σας και σας θεραπεύει.",
 						"longDesc": "Η επίθεση και η κίνηση δημιουργούν στοίβες Ενέργειας. Στις 100 στοίβες, η επόμενη επίθεσή σας γίνεται Φορτισμένη.<br><br>Οι Φορτισμένες επιθέσεις σάς θεραπεύουν για @HealBase@ - @HealMax@ (+@HealBonusADRatio.-1@ μπόνους Ζημιά Επίθεσης, +@HealAPRatio.-1@ Ισχύς Ικανότητας) και σας δίνουν +@MSBuff*100@% Ταχύτητα Κίνησης για @MSDuration.0@ δευτ.<br><rules>Όταν χρησιμοποιείται σε υπηρέτη, η Θεραπεία έχει το @MinionHealMod*100@% της αποτελεσματικότητάς της (@MinionHealMod*50@% για ήρωες που μάχονται από απόσταση).<br>Η Θεραπεία αυξάνεται κατά το @HealCritMod*100@% του συντελεστή Ζημιάς Καίριου Χτυπήματος όταν ενεργοποιείται από Καίριο Χτύπημα.</rules>",
 						"icon": "ASSETS/Perks/Styles/Precision/FleetFootwork/FleetFootwork.dds"
+					},
+					{
+						"id": 8010,
+						"key": "Conqueror",
+						"name": "Κατακτητής",
+						"shortDesc": "Μετά από @ThresholdTime@ δευτερόλεπτα σε κατάσταση μάχης, η πρώτη σας επίθεση σε αντίπαλο ήρωα σάς δίνει Ζημιά Επίθεσης και μετατρέπει μέρος της Ζημιάς σας σε Πραγματική Ζημιά.",
+						"longDesc": "Μετά από @ThresholdTime@ δευτερόλεπτα σε κατάσταση μάχης, η πρώτη σας επίθεση σε αντίπαλο ήρωα σάς δίνει @BaseAD@ - @MaxAD@ Ζημιά Επίθεσης, ανάλογα με το επίπεδο, για @BuffDuration@ δευτερόλεπτα και μετατρέπει το @TrueDamageBase*100@% της Ζημιάς που κάνετε σε ήρωες σε Πραγματική Ζημιά.<br><br><rules>Μόνο για ήρωες που μάχονται από κοντά: η Ζημιά σε αντίπαλους ήρωες ανανεώνει αυτή την ενίσχυση.</rules>",
+						"icon": "ASSETS/Perks/Styles/Precision/Conqueror/Conqueror.dds"
 					}
 				]
 			},
@@ -379,7 +387,7 @@
 						"id": 8439,
 						"key": "Aftershock",
 						"name": "Απόηχος",
-						"shortDesc": "Όταν <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Immobilize'>ακινητοποιείτε</lol-uikit-tooltipped-keyword> έναν αντίπαλο ήρωα, ενισχύετε την άμυνά σας και αργότερα προκαλείτε <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>Ευέλικτη Ζημιά</lol-uikit-tooltipped-keyword> σε όλους τους εχθρούς που βρίσκονται γύρω σας.",
+						"shortDesc": "Όταν <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Immobilize'>ακινητοποιείτε</lol-uikit-tooltipped-keyword> έναν αντίπαλο ήρωα, ενισχύετε την άμυνά σας και αργότερα προκαλείτε Μαγική Ζημιά σε όλους τους εχθρούς που βρίσκονται γύρω σας.",
 						"longDesc": "Αφού ακινητοποιήσετε έναν αντίπαλο ήρωα, η Θωράκιση και η Αντίσταση Μαγείας σας αυξάνονται κατά @FlatResists@ - @FlatResistMaximum@ για @DelayBeforeBurst.1@ δευτερόλεπτα. Στη συνέχεια γίνεται μια έκρηξη που προκαλεί Μαγική Ζημιά στους κοντινούς εχθρούς.<br><br>Ζημιά: @StartingBaseDamage@-@MaxBaseDamage@ (+@HealthRatio.-1@% της μέγιστης Ζωής σας) (+@DamageRatioAD*100@% της μπόνους Ζημιάς Επίθεσής σας) (+@DamageRatioAP*100@% της Ισχύος Ικανότητάς σας)<br>Χρόνος Επαναφόρτισης: @Cooldown@ δευτερόλεπτα",
 						"icon": "ASSETS/Perks/Styles/Resolve/VeteranAftershock/VeteranAftershock.dds"
 					},
@@ -413,32 +421,16 @@
 					},
 					{
 						"id": 8473,
-						"key": "BucklerRing",
+						"key": "BonePlating",
 						"name": "Κοκάλινη Επίστρωση",
-						"shortDesc": "Αφού δεχτείτε Ζημιά από έναν αντίπαλο ήρωα, οι επόμενες @BlockCount@ ικανότητες ή επιθέσεις που θα δεχτείτε από αυτόν προκαλούν @BlockBase@-@BlockMax@ λιγότερη Ζημιά.<br><br>Διάρκεια: @BlockDuration@ δευτ.<br>Χρόνος Επαναφόρτισης: @Cooldown@ δευτ.",
-						"longDesc": "Αφού δεχτείτε Ζημιά από έναν αντίπαλο ήρωα, οι επόμενες @BlockCount@ ικανότητες ή επιθέσεις που θα δεχτείτε από αυτόν προκαλούν @BlockBase@-@BlockMax@ λιγότερη Ζημιά.<br><br>Διάρκεια: @BlockDuration@ δευτ.<br>Χρόνος Επαναφόρτισης: @Cooldown@ δευτ.",
-						"icon": "ASSETS/Perks/Styles/Resolve/BucklerRing/BucklerRing.dds"
+						"shortDesc": "Αφού δεχτείτε Ζημιά από έναν αντίπαλο ήρωα, οι επόμενες @BlockCount@ ικανότητες ή επιθέσεις που θα δεχτείτε από αυτόν προκαλούν @BlockBase@-@BlockMax@ λιγότερη Ζημιά.<br><br>Διάρκεια: @BlockDuration@ δευτερόλεπτα<br>Χρόνος Επαναφόρτισης: @Cooldown@ δευτερόλεπτα",
+						"longDesc": "Αφού δεχτείτε Ζημιά από έναν αντίπαλο ήρωα, οι επόμενες @BlockCount@ ικανότητες ή επιθέσεις που θα δεχτείτε από αυτόν προκαλούν @BlockBase@-@BlockMax@ λιγότερη Ζημιά.<br><br>Διάρκεια: @BlockDuration@ δευτερόλεπτα<br>Χρόνος Επαναφόρτισης: @Cooldown@ δευτερόλεπτα",
+						"icon": "ASSETS/Perks/Styles/Resolve/BonePlating/BonePlating.dds"
 					}
 				]
 			},
 			{
 				"runes": [
-					{
-						"id": 8430,
-						"key": "IronSkin",
-						"name": "Σιδερένια Αμφίεση",
-						"shortDesc": "Αποκτάτε +@ArmorBase@ Θωράκιση. <br>Όλες οι Θεραπείες, συμπεριλαμβανομένων των αναλώσιμων αντικειμένων, αυξάνουν τη Θωράκισή σας προσωρινά κατά @TotalExtraArmor*100@%.",
-						"longDesc": "Αποκτάτε +@ArmorBase@ Θωράκιση. <br><br>Οι επιδράσεις Θεραπείας από αναλώσιμα αντικείμενα, οι θεραπείες για τουλάχιστον @FlatHealThreshold@ Ζωή και οι ασπίδες αυξάνουν τη Θωράκισή σας κατά @TotalExtraArmor*100@% για @EvolveArmorDuration@ δευτερόλεπτα.",
-						"icon": "ASSETS/Perks/Styles/Resolve/IronSkin/IronSkin.dds"
-					},
-					{
-						"id": 8435,
-						"key": "MirrorShell",
-						"name": "Κέλυφος Καθρέφτη",
-						"shortDesc": "Αποκτάτε +@MRBase@ Αντίσταση Μαγείας. <br>Όλες οι Θεραπείες, συμπεριλαμβανομένων των αναλώσιμων αντικειμένων, αυξάνουν την Αντίσταση Μαγείας σας προσωρινά κατά @EvolveBonusMR*100@%.<br>",
-						"longDesc": "Αποκτάτε +@MRBase@ Αντίσταση Μαγείας. <br><br>Οι επιδράσεις Θεραπείας από αναλώσιμα αντικείμενα, οι Θεραπείες για τουλάχιστον @FlatHealThreshold@ Ζωή και οι ασπίδες αυξάνουν την Αντίσταση Μαγείας σας κατά @EvolveBonusMR*100@% για @EvolveShellDuration@ δευτερόλεπτα. ",
-						"icon": "ASSETS/Perks/Styles/Resolve/MirrorShell/MirrorShell.dds"
-					},
 					{
 						"id": 8429,
 						"key": "Conditioning",
@@ -454,6 +446,14 @@
 						"shortDesc": "Αφού δεχτείτε Ζημιά από έναν αντίπαλο Ήρωα, ανακτάτε μέρος της Ζωής που σας λείπει σε βάθος χρόνου. ",
 						"longDesc": "Αφού δεχτείτε Ζημιά από έναν αντίπαλο ήρωα, θεραπεύεστε για το @RegenPercentMax.0*100@% της μέγιστης Ζωής σας +@RegenFlat.0@ σε @RegenSeconds@ δευτ.",
 						"icon": "ASSETS/Perks/Styles/Resolve/SecondWind/SecondWind.dds"
+					},
+					{
+						"id": 8472,
+						"key": "Chrysalis",
+						"name": "Χρυσαλίδα",
+						"shortDesc": "Ξεκινάτε το παιχνίδι με επιπλέον @StartingHealth@ Ζωή. Στις @MaxTakedowns@ εξοντώσεις, καταναλώστε αυτήν την ποσότητα Ζωής για να αποκτήσετε <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>ευέλικτο</font></lol-uikit-tooltipped-keyword> μπόνους @AdaptiveForce.-1*0.6@ Ζημιάς Επίθεσης ή @AdaptiveForce@ Ισχύος Ικανότητας.",
+						"longDesc": "Ξεκινάτε το παιχνίδι με επιπλέον @StartingHealth@ Ζωή. Στις @MaxTakedowns@ εξοντώσεις, καταναλώστε αυτήν την ποσότητα Ζωής για να αποκτήσετε <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>ευέλικτο</font></lol-uikit-tooltipped-keyword> μπόνους @AdaptiveForce.-1*0.6@ Ζημιάς Επίθεσης ή @AdaptiveForce@ Ισχύος Ικανότητας.",
+						"icon": "ASSETS/Perks/Styles/Resolve/Chrysalis/Chrysalis.dds"
 					}
 				]
 			},
@@ -564,7 +564,7 @@
 						"key": "Celerity",
 						"name": "Επιτάχυνση",
 						"shortDesc": "Αποκτάτε @PercentMS.0@% επιπλέον <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>Ταχύτητα Κίνησης</lol-uikit-tooltipped-keyword>. Αποκτάτε επιπλέον Ισχύ Ικανότητας ή Ζημιά Επίθεσης (<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'>Ευέλικτη επίδραση</lol-uikit-tooltipped-keyword>), ανάλογα με την μπόνους Ταχύτητα Κίνησής σας. ",
-						"longDesc": "Αποκτάτε @PercentMS.0@% αυξημένη Ταχύτητα Κίνησης.<br>Η Μπόνους Ταχύτητα Κίνησής σας μετατρέπεται σε Ζημιά Επίθεσης ή σε Ισχύ Ικανότητας, <font color='#48C4B7'>ευέλικτη</font> σε ποσοστό @AdaptiveAD*8@% Ζημιάς Επίθεσης ή @AdaptiveAP*8@% Ισχύος Ικανότητας.",
+						"longDesc": "Αποκτάτε @PercentMS.0@% αυξημένη Ταχύτητα Κίνησης.<br>Η μπόνους Ταχύτητα Κίνησής σας μετατρέπεται σε Ζημιά Επίθεσης ή σε Ισχύ Ικανότητας, <font color='#48C4B7'>ευέλικτη</font> σε ποσοστό @AdaptiveAD*8@% Ζημιάς Επίθεσης ή @AdaptiveAP*8@% Ισχύος Ικανότητας.",
 						"icon": "ASSETS/Perks/Styles/Sorcery/Celerity/CelerityTemp.dds"
 					},
 					{

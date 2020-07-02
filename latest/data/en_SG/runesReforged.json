@@ -177,7 +177,7 @@
 						"name": "Perfect Timing",
 						"shortDesc": "Gain a free Stopwatch. Stopwatch has a one time use <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Stasis'>Stasis</lol-uikit-tooltipped-keyword> effect.",
 						"longDesc": "Start the game with a Commencing Stopwatch that transforms into a Stopwatch after @InitialCooldown.0@ min. Stopwatch has a one time use Stasis effect.<br><br>Reduces the cooldown of Zhonya's Hourglass, Guardian Angel, and Gargoyle Stoneplate by @PercentGAZhonyasCDR.0*100@%.",
-						"icon": "ASSETS/Perks/Styles/Style5/PerfectTiming/PerfectTiming.dds"
+						"icon": "ASSETS/Perks/Styles/Inspiration/PerfectTiming/PerfectTiming.dds"
 					}
 				]
 			},
@@ -189,7 +189,7 @@
 						"name": "Future's Market",
 						"shortDesc": "You can enter debt to buy items.",
 						"longDesc": "You can enter debt to buy items. The amount you can borrow increases over time.<br><br>Lending Fee: @ExcessCostPenaltyFlat@ gold",
-						"icon": "ASSETS/Perks/Styles/Style5/FuturesMarket/FuturesMarket.dds"
+						"icon": "ASSETS/Perks/Styles/Inspiration/FuturesMarket/FuturesMarket.dds"
 					},
 					{
 						"id": 8316,
@@ -270,6 +270,14 @@
 						"shortDesc": "Attacking and moving builds Energy stacks. At 100 stacks, your next attack heals you and grants increased <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>MS</lol-uikit-tooltipped-keyword>.",
 						"longDesc": "Attacking and moving builds Energy stacks. At 100 stacks, your next attack is Energized.<br><br>Energized attacks heal you for @HealBase@ - @HealMax@ (+@HealBonusADRatio.-1@ Bonus AD, +@HealAPRatio.-1@ AP) and grant +@MSBuff*100@% movement speed for @MSDuration.0@s.<br><rules>Healing is @MinionHealMod*100@% as effective when used on a minion (@MinionHealMod*50@% effective for ranged).<br>Healing is increased by @HealCritMod*100@% of your critical damage modifier when triggered by a critical hit.</rules>",
 						"icon": "ASSETS/Perks/Styles/Precision/FleetFootwork/FleetFootwork.dds"
+					},
+					{
+						"id": 8010,
+						"key": "Conqueror",
+						"name": "Conqueror",
+						"shortDesc": "After @ThresholdTime@ seconds in combat, your first attack against an enemy champion grants you AD and converts some of your damage to true damage.",
+						"longDesc": "After @ThresholdTime@ seconds in combat, your first attack against an enemy champion grants you @BaseAD@ - @MaxAD@ AD, based on level, for @BuffDuration@ seconds and converts @TrueDamageBase*100@% of your damage to champions to true damage.<br><br><rules>Melee Only: Damaging enemy champions refreshes this buff.</rules>",
+						"icon": "ASSETS/Perks/Styles/Precision/Conqueror/Conqueror.dds"
 					}
 				]
 			},
@@ -379,7 +387,7 @@
 						"id": 8439,
 						"key": "Aftershock",
 						"name": "Aftershock",
-						"shortDesc": "After <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Immobilize'>immobilizing</lol-uikit-tooltipped-keyword> an enemy champion gain defenses and later deal a burst of <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>adaptive damage</lol-uikit-tooltipped-keyword> around you.",
+						"shortDesc": "After <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Immobilize'>immobilizing</lol-uikit-tooltipped-keyword> an enemy champion gain defenses and later deal a burst of magic damage around you.",
 						"longDesc": "After immobilizing an enemy champion, increase your Armor and Magic Resist by @FlatResists@ - @FlatResistMaximum@ for @DelayBeforeBurst.1@s. Then explode, dealing magic damage to nearby enemies.<br><br>Damage: @StartingBaseDamage@ - @MaxBaseDamage@ (+@HealthRatio.-1@% of your maximum health) (+@DamageRatioAD*100@% of your bonus attack damage) (+@DamageRatioAP*100@% of your ability power)<br>Cooldown: @Cooldown@s",
 						"icon": "ASSETS/Perks/Styles/Resolve/VeteranAftershock/VeteranAftershock.dds"
 					},
@@ -413,32 +421,16 @@
 					},
 					{
 						"id": 8473,
-						"key": "BucklerRing",
+						"key": "BonePlating",
 						"name": "Bone Plating",
-						"shortDesc": "After taking damage from an enemy champion, the next @BlockCount@ spells or attacks you receive from them deal @BlockBase@-@BlockMax@  less damage.<br><br>Duration: @BlockDuration@s<br>Cooldown: @Cooldown@s",
-						"longDesc": "After taking damage from an enemy champion, the next @BlockCount@ spells or attacks you receive from them deal @BlockBase@-@BlockMax@  less damage.<br><br>Duration: @BlockDuration@s<br>Cooldown: @Cooldown@s",
-						"icon": "ASSETS/Perks/Styles/Resolve/BucklerRing/BucklerRing.dds"
+						"shortDesc": "After taking damage from an enemy champion, the next @BlockCount@ spells or attacks you receive from them deal @BlockBase@-@BlockMax@ less damage.<br><br>Duration: @BlockDuration@s<br>Cooldown: @Cooldown@s",
+						"longDesc": "After taking damage from an enemy champion, the next @BlockCount@ spells or attacks you receive from them deal @BlockBase@-@BlockMax@ less damage.<br><br>Duration: @BlockDuration@s<br>Cooldown: @Cooldown@s",
+						"icon": "ASSETS/Perks/Styles/Resolve/BonePlating/BonePlating.dds"
 					}
 				]
 			},
 			{
 				"runes": [
-					{
-						"id": 8430,
-						"key": "IronSkin",
-						"name": "Iron Skin",
-						"shortDesc": "Gain +@ArmorBase@ Armor. <br>Heals, including consumables, increase your Armor by @TotalExtraArmor*100@% temporarily.",
-						"longDesc": "Gain +@ArmorBase@ Armor. <br><br>Heal effects from consumables, heals for at least @FlatHealThreshold@ health and shields increase your Armor by @TotalExtraArmor*100@% for @EvolveArmorDuration@s.",
-						"icon": "ASSETS/Perks/Styles/Resolve/IronSkin/IronSkin.dds"
-					},
-					{
-						"id": 8435,
-						"key": "MirrorShell",
-						"name": "Mirror Shell",
-						"shortDesc": "Gain +@MRBase@ Magic Resist. <br>Heals, including consumables, increase your Magic Resist by @EvolveBonusMR*100@% temporarily.<br>",
-						"longDesc": "Gain +@MRBase@ Magic Resist. <br><br>Heal effects from consumables, heals for at least @FlatHealThreshold@ health and shields increase your Magic Resist by @EvolveBonusMR*100@% for @EvolveShellDuration@s. ",
-						"icon": "ASSETS/Perks/Styles/Resolve/MirrorShell/MirrorShell.dds"
-					},
 					{
 						"id": 8429,
 						"key": "Conditioning",
@@ -454,6 +446,14 @@
 						"shortDesc": "After taking damage from an enemy champion heal back some missing health over time. ",
 						"longDesc": "After taking damage from an enemy champion, heal for @RegenPercentMax.0*100@% of your missing health +@RegenFlat.0@ over @RegenSeconds@s.",
 						"icon": "ASSETS/Perks/Styles/Resolve/SecondWind/SecondWind.dds"
+					},
+					{
+						"id": 8472,
+						"key": "Chrysalis",
+						"name": "Chrysalis",
+						"shortDesc": "Start the game with an extra @StartingHealth@ health. At @MaxTakedowns@ takedowns, consume that health to gain an <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptive</font></lol-uikit-tooltipped-keyword> bonus of @AdaptiveForce.-1*0.6@ Attack Damage or @AdaptiveForce@ Ability Power.",
+						"longDesc": "Start the game with an extra @StartingHealth@ health. At @MaxTakedowns@ takedowns, consume that health to gain an <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptive</font></lol-uikit-tooltipped-keyword> bonus of @AdaptiveForce.-1*0.6@ Attack Damage or @AdaptiveForce@ Ability Power.",
+						"icon": "ASSETS/Perks/Styles/Resolve/Chrysalis/Chrysalis.dds"
 					}
 				]
 			},
@@ -564,7 +564,7 @@
 						"key": "Celerity",
 						"name": "Celerity",
 						"shortDesc": "Gain @PercentMS.0@% extra <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>MS</lol-uikit-tooltipped-keyword>. Gain extra AP or AD, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'>adaptive</lol-uikit-tooltipped-keyword> based on your bonus MS. ",
-						"longDesc": "Gain @PercentMS.0@%  increased Movement Speed.<br>Your Bonus Movement Speed is converted to Attack Damage or Ability Power, <font color='#48C4B7'>adaptive</font> at a rate of @AdaptiveAD*8@% Attack Damage or @AdaptiveAP*8@% Ability Power.",
+						"longDesc": "Gain @PercentMS.0@% increased Movement Speed.<br>Your Bonus Movement Speed is converted to Attack Damage or Ability Power, <font color='#48C4B7'>adaptive</font> at a rate of @AdaptiveAD*8@% Attack Damage or @AdaptiveAP*8@% Ability Power.",
 						"icon": "ASSETS/Perks/Styles/Sorcery/Celerity/CelerityTemp.dds"
 					},
 					{

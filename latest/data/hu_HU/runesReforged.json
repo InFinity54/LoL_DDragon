@@ -177,7 +177,7 @@
 						"name": "Tökéletes időzítés",
 						"shortDesc": "Kapsz egy ingyenes Stopperóra tárgyat. Ez a tárgy (Stopperóra) egyszer használható <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Stasis'>Sztázis</lol-uikit-tooltipped-keyword> hatást biztosít.",
 						"longDesc": "A játékot egy Elindított stopperóra tárggyal kezded, amely @InitialCooldown.0@ perc elteltével átalakul egy Stopperóra tárggyá. A tárgy (Stopperóra) egy egyszer használható Sztázis hatást biztosít.<br><br>@PercentGAZhonyasCDR.0*100@%-kal csökkenti a következő tárgyak töltési idejét: Zhonya homokórája, Őrangyal és A vízköpő sziklavértje.",
-						"icon": "ASSETS/Perks/Styles/Style5/PerfectTiming/PerfectTiming.dds"
+						"icon": "ASSETS/Perks/Styles/Inspiration/PerfectTiming/PerfectTiming.dds"
 					}
 				]
 			},
@@ -189,7 +189,7 @@
 						"name": "Jövendőpiac",
 						"shortDesc": "Hitelre is vehetsz tárgyakat.",
 						"longDesc": "Hitelre is vehetsz tárgyakat. A kölcsönözhető összeg az eltelt idővel arányosan nő.<br><br>Kamat: @ExcessCostPenaltyFlat@ arany",
-						"icon": "ASSETS/Perks/Styles/Style5/FuturesMarket/FuturesMarket.dds"
+						"icon": "ASSETS/Perks/Styles/Inspiration/FuturesMarket/FuturesMarket.dds"
 					},
 					{
 						"id": 8316,
@@ -270,6 +270,14 @@
 						"shortDesc": "A támadással és mozgással Energia jelzőket gyűjtesz. 100 jelző elérésekor a következő támadásod gyógyít téged, valamint bónusz <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>mozgási sebességet</lol-uikit-tooltipped-keyword> is ad.",
 						"longDesc": "A támadással és mozgással Energia jelzőket gyűjtesz. 100 jelző elérésekor a következő támadásod Feltöltött támadás lesz.<br><br>A Feltöltött támadás @HealBase@–@HealMax@ (+@HealBonusADRatio.-1@ bónusz sebzés, +@HealAPRatio.-1@ varázserő) életerőt tölt vissza, és @MSDuration.0@ másodpercre @MSBuff*100@%-kal megnöveli a mozgási sebességed.<br><rules>A gyógyítás minionra alkalmazva @MinionHealMod*100@%-os hatékonysággal működik (távolsági harcos hősök esetében @MinionHealMod*50@% hatékonysággal).<br>Ha egy kritikus csapás aktiválja a hatást, a gyógyítás a kritikus sebzési módosító @HealCritMod*100@%-ával nő.</rules>",
 						"icon": "ASSETS/Perks/Styles/Precision/FleetFootwork/FleetFootwork.dds"
+					},
+					{
+						"id": 8010,
+						"key": "Conqueror",
+						"name": "Hódító",
+						"shortDesc": "@ThresholdTime@ harcban töltött másodperc után az első, ellenséges hős elleni támadásod megnöveli a sebzés értéked, és a sebzésed egy részét tényleges sebzéssé alakítja.",
+						"longDesc": "@ThresholdTime@ harcban töltött másodperc után az első, ellenséges hős elleni támadásod @BuffDuration@ másodpercre @BaseAD@ – @MaxAD@ ponttal növeli a sebzés értéked (szinttől függően), és a hősök elleni sebzésed @TrueDamageBase*100@%-a tényleges sebzés lesz.<br><br><rules>Csak közelharcos hősök esetében: az ellenséges hősöknek okozott sebzés frissíti ezt az erősítő hatást.</rules>",
+						"icon": "ASSETS/Perks/Styles/Precision/Conqueror/Conqueror.dds"
 					}
 				]
 			},
@@ -379,7 +387,7 @@
 						"id": 8439,
 						"key": "Aftershock",
 						"name": "Utórengés",
-						"shortDesc": "Ha <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Immobilize'>mozgásképtelenné</lol-uikit-tooltipped-keyword> teszel egy ellenséges hőst, megnő a védelmed, később pedig <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>adaptív</lol-uikit-tooltipped-keyword>, hirtelen sebzést okozol a körülötted álló ellenfeleknek.",
+						"shortDesc": "Ha <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Immobilize'>mozgásképtelenné</lol-uikit-tooltipped-keyword> teszel egy ellenséges hőst, megnő a védelmed, később pedig varázssebzést okozol a körülötted álló ellenfeleknek.",
 						"longDesc": "Az ellenséges hősök mozgásképtelenné tétele után @DelayBeforeBurst.1@ másodpercre @FlatResists@–@FlatResistMaximum@%-kal megnő a páncélod és a varázsellenállásod. Ezt követően kitör belőled az energia, varázssebzést okozva a közelben lévő ellenfeleknek.<br><br>Sebzés: @StartingBaseDamage@–@MaxBaseDamage@ (+ a maximális életerőd @HealthRatio.-1@%-a) (+ a bónusz sebzésed @DamageRatioAD*100@%-a) (+ a varázserőd @DamageRatioAP*100@%-a)<br>Töltési idő: @Cooldown@ másodperc",
 						"icon": "ASSETS/Perks/Styles/Resolve/VeteranAftershock/VeteranAftershock.dds"
 					},
@@ -413,32 +421,16 @@
 					},
 					{
 						"id": 8473,
-						"key": "BucklerRing",
+						"key": "BonePlating",
 						"name": "Csontpáncél",
 						"shortDesc": "Ellenséges hőstől elszenvedett sebzés után a következő @BlockCount@ ellened irányuló varázslat vagy támadás @BlockBase@–@BlockMax@ egységgel kevesebb sebzést okoz neked.<br><br>Időtartam: @BlockDuration@ másodperc<br>Töltési idő: @Cooldown@ másodperc",
 						"longDesc": "Ellenséges hőstől elszenvedett sebzés után a következő @BlockCount@ ellened irányuló varázslat vagy támadás @BlockBase@–@BlockMax@ egységgel kevesebb sebzést okoz neked.<br><br>Időtartam: @BlockDuration@ másodperc<br>Töltési idő: @Cooldown@ másodperc",
-						"icon": "ASSETS/Perks/Styles/Resolve/BucklerRing/BucklerRing.dds"
+						"icon": "ASSETS/Perks/Styles/Resolve/BonePlating/BonePlating.dds"
 					}
 				]
 			},
 			{
 				"runes": [
-					{
-						"id": 8430,
-						"key": "IronSkin",
-						"name": "Vasbőr",
-						"shortDesc": "+ @ArmorBase@ páncél. <br>A gyógyítások, beleértve a fogyóeszközöket is, ideiglenesen @TotalExtraArmor*100@%-kal növelik a páncélt.",
-						"longDesc": "+ @ArmorBase@ páncél. <br><br>A fogyóeszközök gyógyító hatásai, a legalább @FlatHealThreshold@ életerő értékű gyógyulás és a pajzsok @TotalExtraArmor*100@%-kal növelik a páncélt @EvolveArmorDuration@ másodpercre.",
-						"icon": "ASSETS/Perks/Styles/Resolve/IronSkin/IronSkin.dds"
-					},
-					{
-						"id": 8435,
-						"key": "MirrorShell",
-						"name": "Tükrös páncél",
-						"shortDesc": "+@MRBase@ varázsellenállást biztosít. <br>A gyógyítások, beleértve a fogyóeszközöket is, ideiglenesen @EvolveBonusMR*100@%-kal növelik a varázsellenállást.<br>",
-						"longDesc": "+@MRBase@ varázsellenállást biztosít. <br><br>A fogyóeszközök gyógyító hatásai, a legalább @FlatHealThreshold@ életerő értékű gyógyulás és a pajzsok @EvolveBonusMR*100@%-kal növelik a varázsellenállást @EvolveShellDuration@ másodpercre. ",
-						"icon": "ASSETS/Perks/Styles/Resolve/MirrorShell/MirrorShell.dds"
-					},
 					{
 						"id": 8429,
 						"key": "Conditioning",
@@ -454,6 +446,14 @@
 						"shortDesc": "Ellenséges hősöktől elszenvedett támadás után folyamatosan visszanyered a hiányzó életerőd egy részét. ",
 						"longDesc": "Ellenséges hősöktől elszenvedett támadás után @RegenSeconds@ másodperc alatt visszanyered a hiányzó életerőd @RegenPercentMax.0*100@%-át +@RegenFlat.0@ életerőt.",
 						"icon": "ASSETS/Perks/Styles/Resolve/SecondWind/SecondWind.dds"
+					},
+					{
+						"id": 8472,
+						"key": "Chrysalis",
+						"name": "Gubó",
+						"shortDesc": "A játékot további @StartingHealth@ életerővel kezded meg. @MaxTakedowns@ kiiktatás elérésekor ez az életerő @AdaptiveForce.-1*0.6@ bónusz sebzés vagy @AdaptiveForce@ varázserő <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>(adaptív)</font></lol-uikit-tooltipped-keyword> erővé alakul át.",
+						"longDesc": "A játékot további @StartingHealth@ életerővel kezded meg. @MaxTakedowns@ kiiktatás elérésekor ez az életerő @AdaptiveForce.-1*0.6@ bónusz sebzés vagy @AdaptiveForce@ varázserő <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>(adaptív)</font></lol-uikit-tooltipped-keyword> erővé alakul át.",
+						"icon": "ASSETS/Perks/Styles/Resolve/Chrysalis/Chrysalis.dds"
 					}
 				]
 			},
@@ -564,7 +564,7 @@
 						"key": "Celerity",
 						"name": "Fürgeség",
 						"shortDesc": "+ @PercentMS.0@% <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>mozgási sebesség</lol-uikit-tooltipped-keyword>. Bónusz <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'>adaptív</lol-uikit-tooltipped-keyword> varázserőt vagy sebzést biztosít a bónusz mozgási sebességed alapján. ",
-						"longDesc": "@PercentMS.0@%-os megnövelt mozgási sebességet biztosít.<br>A bónusz mozgási sebességből <font color='#48C4B7'>adaptív</font> sebzés vagy varázserő lesz, egy @AdaptiveAD*8@%-os sebzési vagy @AdaptiveAP*8@%-os varázserő-aránynak megfelelően.",
+						"longDesc": "@PercentMS.0@%-os megnövelt mozgási sebességet biztosít.<br>A bónusz mozgási sebességből <font color='#48C4B7'>adaptív</font> sebzés vagy varázserő lesz, egy @AdaptiveAD*8@%-os sebzési vagy @AdaptiveAP*8@%-os varázserőaránynak megfelelően.",
 						"icon": "ASSETS/Perks/Styles/Sorcery/Celerity/CelerityTemp.dds"
 					},
 					{

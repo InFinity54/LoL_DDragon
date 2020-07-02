@@ -177,7 +177,7 @@
 						"name": "パーフェクトタイミング",
 						"shortDesc": "コスト無しで「ストップウォッチ」を獲得。「ストップウォッチ」は1回限り<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Stasis'>「固有時停止」</lol-uikit-tooltipped-keyword>を使用できる。",
 						"longDesc": "「始まりのストップウォッチ」を所持した状態で試合を開始する。このアイテムは試合開始から@InitialCooldown.0@分経過すると、1回だけ「固有時停止」を使用できる「ストップウォッチ」に変化する。<br><br>「ゾーニャの砂時計」、「ガーディアンエンジェル」、「ガーゴイルストーンプレート」のクールダウンを@PercentGAZhonyasCDR.0*100@%短縮する。",
-						"icon": "ASSETS/Perks/Styles/Style5/PerfectTiming/PerfectTiming.dds"
+						"icon": "ASSETS/Perks/Styles/Inspiration/PerfectTiming/PerfectTiming.dds"
 					}
 				]
 			},
@@ -189,7 +189,7 @@
 						"name": "先行投資",
 						"shortDesc": "借金をしてアイテムを購入できる。",
 						"longDesc": "借金してアイテムを購入できる。借金の上限額は時間とともに増加。<br><br>貸出手数料: @ExcessCostPenaltyFlat@ゴールド",
-						"icon": "ASSETS/Perks/Styles/Style5/FuturesMarket/FuturesMarket.dds"
+						"icon": "ASSETS/Perks/Styles/Inspiration/FuturesMarket/FuturesMarket.dds"
 					},
 					{
 						"id": 8316,
@@ -251,8 +251,8 @@
 						"id": 8005,
 						"key": "PressTheAttack",
 						"name": "プレスアタック",
-						"shortDesc": "敵チャンピオンを@HitsRequired@回連続で攻撃すると追加ダメージを与える。さらに対象は@AmpDuration@秒間「無防備」になり、あらゆる攻撃から受けるダメージが増加。",
-						"longDesc": "チャンピオンを通常攻撃で@HitsRequired@回連続攻撃すると@MinDamage@ - @MaxDamage@の追加<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>アダプティブダメージ</font></lol-uikit-tooltipped-keyword>(レベルに比例)を与え、その敵は@AmpDuration@秒間「無防備」になり、あらゆる攻撃から受けるダメージが@AmpPotencyStartSelf.0*100@ - @AmpPotencyMaxSelf.0*100@%増加。",
+						"shortDesc": "敵チャンピオンを@HitsRequired@回連続で攻撃すると追加ダメージを与える。さらに対象は@AmpDuration@秒間無防備になり、あらゆる攻撃から受けるダメージが増加。",
+						"longDesc": "チャンピオンを通常攻撃で@HitsRequired@回連続攻撃すると@MinDamage@ - @MaxDamage@の追加<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>アダプティブダメージ</font></lol-uikit-tooltipped-keyword>(レベルに比例)を与え、その敵は@AmpDuration@秒間無防備になり、あらゆる攻撃から受けるダメージが@AmpPotencyStartSelf.0*100@ - @AmpPotencyMaxSelf.0*100@%増加。",
 						"icon": "ASSETS/Perks/Styles/Precision/PressTheAttack/PressTheAttack.dds"
 					},
 					{
@@ -270,6 +270,14 @@
 						"shortDesc": "攻撃と移動でスタックが溜まる。100スタックで次の通常攻撃は自身を回復し、<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>移動速度</lol-uikit-tooltipped-keyword>を増加。",
 						"longDesc": "攻撃と移動でスタックが溜まる。100スタックで次の通常攻撃がエネルギー充填状態になる。<br><br>エネルギー充填状態で攻撃すると自身の体力を@HealBase@ - @HealMax@(+増加攻撃力x@HealBonusADRatio.-1@、+魔力x@HealAPRatio.-1@)回復し、移動速度が@MSDuration.0@秒間@MSBuff*100@%増加。<br><rules>対象がミニオンの場合は回復量が@MinionHealMod*100@%になる(遠隔攻撃チャンピオンは@MinionHealMod*50@%)。<br>クリティカルで発動すると、回復量がクリティカルダメージ倍率の@HealCritMod*100@%増加。</rules>",
 						"icon": "ASSETS/Perks/Styles/Precision/FleetFootwork/FleetFootwork.dds"
+					},
+					{
+						"id": 8010,
+						"key": "Conqueror",
+						"name": "征服者",
+						"shortDesc": "戦闘状態が@ThresholdTime@秒間続くと、次に敵チャンピオンに対して行う攻撃で攻撃力が増加し、与えるダメージの一部が確定ダメージに変わる。",
+						"longDesc": "戦闘状態が@ThresholdTime@秒間続くと、次に敵チャンピオンに対して行う攻撃で@BuffDuration@秒間、レベルに比例して攻撃力が@BaseAD@ - @MaxAD@増加し、チャンピオンに与えるダメージの@TrueDamageBase*100@%が確定ダメージに変わる。<br><br><rules>近接攻撃のみ: 敵チャンピオンにダメージを与えると、このバフがリフレッシュされる。</rules>",
+						"icon": "ASSETS/Perks/Styles/Precision/Conqueror/Conqueror.dds"
 					}
 				]
 			},
@@ -295,8 +303,8 @@
 						"id": 8009,
 						"key": "PresenceOfMind",
 						"name": "冷静沈着",
-						"shortDesc": "レベルアップか敵チャンピオンからキルまたはアシストを獲得した直後の@BuffDuration@秒間、消費したマナがすべて還元される。",
-						"longDesc": "レベルアップか敵チャンピオンからキルまたはアシストを獲得した直後の@BuffDuration@秒間、消費したマナがすべて還元される。",
+						"shortDesc": "レベルアップする、あるいは敵チャンピオンからキルまたはアシストを獲得した直後の@BuffDuration@秒間、消費したマナがすべて還元される。",
+						"longDesc": "レベルアップする、あるいは敵チャンピオンからキルまたはアシストを獲得した直後の@BuffDuration@秒間、消費したマナがすべて還元される。",
 						"icon": "ASSETS/Perks/Styles/Precision/LastResort/LastResortIcon.dds"
 					}
 				]
@@ -379,7 +387,7 @@
 						"id": 8439,
 						"key": "Aftershock",
 						"name": "アフターショック",
-						"shortDesc": "敵チャンピオンに<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Immobilize'>移動不能効果</lol-uikit-tooltipped-keyword>を与えると防御力を獲得し、その後爆発して自身の周囲の敵に大きな<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>アダプティブダメージ</lol-uikit-tooltipped-keyword>を与える。",
+						"shortDesc": "敵チャンピオンに<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Immobilize'>移動不能効果</lol-uikit-tooltipped-keyword>を与えると防御力を獲得し、その後爆発して自身の周囲の敵に大きな魔法ダメージを与える。",
 						"longDesc": "敵チャンピオンに移動不能効果を与えると@DelayBeforeBurst.1@秒間、物理防御と魔法防御が@FlatResists@ - @FlatResistMaximum@増加し、その後爆発して周囲の敵ユニットに魔法ダメージを与える。<br><br>ダメージ: @StartingBaseDamage@ - @MaxBaseDamage@(+自身の最大体力の@HealthRatio.-1@%)(+自身の増加攻撃力の@DamageRatioAD*100@%)(+自身の魔力の@DamageRatioAP*100@%)<br>クールダウン: @Cooldown@秒",
 						"icon": "ASSETS/Perks/Styles/Resolve/VeteranAftershock/VeteranAftershock.dds"
 					},
@@ -413,32 +421,16 @@
 					},
 					{
 						"id": 8473,
-						"key": "BucklerRing",
+						"key": "BonePlating",
 						"name": "ボーンアーマー",
 						"shortDesc": "敵チャンピオンからダメージを受けると、そのチャンピオンから次に受ける@BlockCount@回のスキルまたは通常攻撃のダメージが@BlockBase@ - @BlockMax@軽減される。<br><br>効果時間: @BlockDuration@秒<br>クールダウン: @Cooldown@秒",
 						"longDesc": "敵チャンピオンからダメージを受けると、そのチャンピオンから次に受ける@BlockCount@回のスキルまたは通常攻撃のダメージが@BlockBase@ - @BlockMax@軽減される。<br><br>効果時間: @BlockDuration@秒<br>クールダウン: @Cooldown@秒",
-						"icon": "ASSETS/Perks/Styles/Resolve/BucklerRing/BucklerRing.dds"
+						"icon": "ASSETS/Perks/Styles/Resolve/BonePlating/BonePlating.dds"
 					}
 				]
 			},
 			{
 				"runes": [
-					{
-						"id": 8430,
-						"key": "IronSkin",
-						"name": "アイアンスキン",
-						"shortDesc": "物理防御 +@ArmorBase@<br>体力を回復する(消費アイテムの効果を含む)と一時的に物理防御が@TotalExtraArmor*100@%増加する。",
-						"longDesc": "物理防御 +@ArmorBase@<br><br>消費アイテムによって体力を回復するか、@FlatHealThreshold@以上の体力およびシールドを回復すると、@EvolveArmorDuration@秒間、物理防御が@TotalExtraArmor*100@%増加する。",
-						"icon": "ASSETS/Perks/Styles/Resolve/IronSkin/IronSkin.dds"
-					},
-					{
-						"id": 8435,
-						"key": "MirrorShell",
-						"name": "ミラーシェル",
-						"shortDesc": "魔法防御 +@MRBase@<br>体力を回復する(消費アイテムの効果を含む)と一時的に魔法防御が@EvolveBonusMR*100@%増加する。<br>",
-						"longDesc": "魔法防御 +@MRBase@<br><br>消費アイテムによって体力を回復するか、@FlatHealThreshold@以上の体力およびシールドを回復すると、@EvolveShellDuration@秒間、魔法防御が@EvolveBonusMR*100@%増加する。 ",
-						"icon": "ASSETS/Perks/Styles/Resolve/MirrorShell/MirrorShell.dds"
-					},
 					{
 						"id": 8429,
 						"key": "Conditioning",
@@ -454,6 +446,14 @@
 						"shortDesc": "敵チャンピオンからダメージを受けると、減少体力の一部を時間をかけて回復する。",
 						"longDesc": "敵チャンピオンからダメージを受けると、減少体力の@RegenPercentMax.0*100@%+@RegenFlat.0@を@RegenSeconds@秒かけて回復する。",
 						"icon": "ASSETS/Perks/Styles/Resolve/SecondWind/SecondWind.dds"
+					},
+					{
+						"id": 8472,
+						"key": "Chrysalis",
+						"name": "羽化",
+						"shortDesc": "試合開始時に@StartingHealth@の追加体力を獲得。キルかアシストを@MaxTakedowns@回獲得すると、その追加体力を消費して攻撃力@AdaptiveForce.-1*0.6@、または魔力@AdaptiveForce@の<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>アダプティブ</font></lol-uikit-tooltipped-keyword>ボーナスを獲得。",
+						"longDesc": "試合開始時に@StartingHealth@の追加体力を獲得。キルかアシストを@MaxTakedowns@回獲得すると、その追加体力を消費して攻撃力@AdaptiveForce.-1*0.6@、または魔力@AdaptiveForce@の<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>アダプティブ</font></lol-uikit-tooltipped-keyword>ボーナスを獲得。",
+						"icon": "ASSETS/Perks/Styles/Resolve/Chrysalis/Chrysalis.dds"
 					}
 				]
 			},
@@ -536,7 +536,7 @@
 						"key": "ManaflowBand",
 						"name": "マナフローバンド",
 						"shortDesc": "一定時間毎に、次に使用するスキルのマナまたは気コストが還元され、減少マナまたは気を一定量回復する。",
-						"longDesc": "@Cooldown.0@秒毎に、次に使用するスキルのマナまたは気コストが還元され、減少マナまたは気の@MPToRestoreRatio.0*100@%を回復する。",
+						"longDesc": " @Cooldown.0@秒毎に、次に使用するスキルのマナまたは気コストが還元され、減少マナまたは気の@MPToRestoreRatio.0*100@%を回復する。",
 						"icon": "ASSETS/Perks/Styles/Sorcery/ManaflowBand/ManaflowBand.dds"
 					},
 					{

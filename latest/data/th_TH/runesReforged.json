@@ -177,7 +177,7 @@
 						"name": "Perfect Timing",
 						"shortDesc": "ได้รับไอเทม Stopwatch ฟรี Stopwatch สามารถกดใช้ได้ 1 ครั้ง เพื่อติดสถานะ <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Stasis'>หยุดนิ่ง</lol-uikit-tooltipped-keyword> ได้",
 						"longDesc": "เริ่มเกมมาพร้อมกับไอเทม Commencing Stopwatch ที่จะถูกเปลี่ยนไปเป็น Stopwatch หลังจากเวลาผ่านไป @InitialCooldown.0@ นาที Stopwatch สามารถกดใช้งานได้ 1 ครั้ง เพื่อทำให้ติดสถานะหยุดนิ่งได้ชั่วคราว<br><br>ลดคูลดาวน์ของ Zhonya's Hourglass, Guardian Angel และ Gargoyle Stoneplate ลง @PercentGAZhonyasCDR.0*100@%",
-						"icon": "ASSETS/Perks/Styles/Style5/PerfectTiming/PerfectTiming.dds"
+						"icon": "ASSETS/Perks/Styles/Inspiration/PerfectTiming/PerfectTiming.dds"
 					}
 				]
 			},
@@ -189,7 +189,7 @@
 						"name": "Future's Market",
 						"shortDesc": "คุณสามารถติดหนี้เพื่อซื้อไอเทมได้",
 						"longDesc": "คุณสามารถติดหนี้เพื่อซื้อไอเทมได้ จำนวนทองที่คุณกู้ได้จะเพิ่มขึ้นตามเวลา<br><br>ค่าธรรมเนียมการกู้: @ExcessCostPenaltyFlat@ ทอง",
-						"icon": "ASSETS/Perks/Styles/Style5/FuturesMarket/FuturesMarket.dds"
+						"icon": "ASSETS/Perks/Styles/Inspiration/FuturesMarket/FuturesMarket.dds"
 					},
 					{
 						"id": 8316,
@@ -270,6 +270,14 @@
 						"shortDesc": "การโจมตีและการเคลื่อนที่จะเป็นการสะสมแต้ม Energy ที่ 100 แต้ม การโจมตีครั้งถัดไปของคุณจะส่งผลฮีลและทำให้ได้รับ <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>ความเร็วเคลื่อนที่</lol-uikit-tooltipped-keyword> เพิ่มขึ้น",
 						"longDesc": "การโจมตีและการเคลื่อนที่จะเป็นการสะสมแต้ม Energy ที่ 100 แต้ม การโจมตีถัดไปของคุณจะเป็นการปลดปล่อยพลังงาน (Energized)<br><br>การโจมตีแบบ Energized จะฮีลคุณ @HealBase@ - @HealMax@ หน่วย (โบนัสพลังโจมตี +@HealBonusADRatio.-1@ หน่วย พลังเวทย์ +@HealAPRatio.-1@ หน่วย) และทำให้ได้รับความเร็วเคลื่อนที่เพิ่มขึ้น +@MSBuff*100@% เป็นเวลา @MSDuration.0@ วินาที<br><rules>ผลฮีลจะกลายเป็น @MinionHealMod*100@% เมื่อเป้าหมายเป็นมินเนี่ยน (กลายเป็น @MinionHealMod*50@% สำหรับการโจมตีระยะไกล)<br>ผลฮีลจะเพิ่มขึ้น @HealCritMod*100@% จากตัวคูณความเสียหายคริติคอลเมื่อคุณโจมตีติดคริติคอล</rules>",
 						"icon": "ASSETS/Perks/Styles/Precision/FleetFootwork/FleetFootwork.dds"
+					},
+					{
+						"id": 8010,
+						"key": "Conqueror",
+						"name": "Conqueror",
+						"shortDesc": "หลังจากเวลาผ่านไป @ThresholdTime@ วินาที ในระหว่างที่ทำการต่อสู้ การโจมตีครั้งแรกของคุณที่โจมตีใส่แชมป์เปี้ยนศัตรูจะทำให้ได้รับพลังโจมตีเพิ่มขึ้น และเปลี่ยนความเสียหายบางส่วนของคุณไปเป็นความเสียหายจริง",
+						"longDesc": "หลังจากเวลาผ่านไป @ThresholdTime@ วินาที ในระหว่างที่ทำการต่อสู้ การโจมตีครั้งแรกของคุณที่โจมตีใส่แชมป์เปี้ยนศัตรู จะทำให้ได้รับพลังโจมตีเพิ่มขึ้น @BaseAD@ - @MaxAD@ หน่วย ขึ้นตามเลเวล เป็นเวลา @BuffDuration@ วินาที และจะเปลี่ยนความเสียหายของคุณที่ทำใส่แชมป์เปี้ยน @TrueDamageBase*100@% ไปเป็นความเสียหายจริง<br><br><rules>สายระยะประชิดเท่านั้น: การสร้างความเสียหายใส่แชมป์เปี้ยนศัตรู จะเป็นการรีเฟรชระยะเวลาของบัฟนี้</rules>",
+						"icon": "ASSETS/Perks/Styles/Precision/Conqueror/Conqueror.dds"
 					}
 				]
 			},
@@ -295,8 +303,8 @@
 						"id": 8009,
 						"key": "PresenceOfMind",
 						"name": "Presence of Mind",
-						"shortDesc": "@BuffDuration@ วินาที หลังจากที่คุณเลเวลอัพหรือทำการโค่นล้ม การใช้มานาของคุณจะทำให้ได้รับมานาฟื้นฟูกลับมาทั้งหมด",
-						"longDesc": "@BuffDuration@ วินาที หลังจากที่คุณเลเวลอัพหรือทำการโค่นล้ม การใช้มานาของคุณจะทำให้ได้รับมานาฟื้นฟูกลับมาทั้งหมด",
+						"shortDesc": "หลังจากที่คุณเลเวลอัพหรือทำการโค่นล้ม เป็นเวลา @BuffDuration@ วินาที จะได้รับมานาที่ใช้ไปกลับคืนมาทั้งหมด",
+						"longDesc": "หลังจากที่คุณเลเวลอัพหรือทำการโค่นล้ม เป็นเวลา @BuffDuration@ วินาที จะได้รับมานาที่ใช้ไปกลับคืนมาทั้งหมด",
 						"icon": "ASSETS/Perks/Styles/Precision/LastResort/LastResortIcon.dds"
 					}
 				]
@@ -379,7 +387,7 @@
 						"id": 8439,
 						"key": "Aftershock",
 						"name": "Aftershock",
-						"shortDesc": "หลังจากที่คุณ <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Immobilize'>หยุดการเคลื่อนที่</lol-uikit-tooltipped-keyword> แชมป์เปี้ยนศัตรู จะได้รับค่าป้องกัน และหลังจากนั้นจะสร้าง <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>ความเสียหายแบบ Adaptive</lol-uikit-tooltipped-keyword> รอบตัวคุณ",
+						"shortDesc": "หลังจากที่คุณ <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Immobilize'>หยุดการเคลื่อนที่</lol-uikit-tooltipped-keyword> แชมป์เปี้ยนศัตรู จะได้รับค่าป้องกัน และหลังจากนั้นจะสร้างความเสียหายเวทย์ในบริเวณรอบตัวคุณ",
 						"longDesc": "หลังจากที่คุณหยุดการเคลื่อนที่ของแชมป์เปี้ยนศัตรู จะได้รับเกราะและต้านทานเวทย์เพิ่มขึ้น @FlatResists@ - @FlatResistMaximum@ หน่วย เป็นเวลา @DelayBeforeBurst.1@ วินาที หลังจากนั้นมันจะระเบิดออก สร้างความเสียหายเวทย์ให้กับศัตรูรอบข้าง<br><br>ความเสียหาย: @StartingBaseDamage@ - @MaxBaseDamage@ หน่วย (+@HealthRatio.-1@% จากพลังชีวิตสูงสุดของคุณ) (+@DamageRatioAD*100@% จากโบนัสพลังโจมตีของคุณ) (+@DamageRatioAP*100@% จากพลังเวทย์ของคุณ)<br>คูลดาวน์: @Cooldown@ วินาที",
 						"icon": "ASSETS/Perks/Styles/Resolve/VeteranAftershock/VeteranAftershock.dds"
 					},
@@ -413,32 +421,16 @@
 					},
 					{
 						"id": 8473,
-						"key": "BucklerRing",
+						"key": "BonePlating",
 						"name": "Bone Plating",
-						"shortDesc": "หลังจากที่ได้รับความเสียหายจากแชมป์เปี้ยนศัตรู สกิลหรือการโจมตี @BlockCount@ ครั้งถัดไปที่ได้รับจากศัตรู จะสร้างความเสียหายลดลง @BlockBase@-@BlockMax@  หน่วย<br><br>ระยะเวลา: @BlockDuration@ วินาที<br>คูลดาวน์: @Cooldown@ วินาที",
-						"longDesc": "หลังจากที่ได้รับความเสียหายจากแชมป์เปี้ยนศัตรู สกิลหรือการโจมตี @BlockCount@ ครั้งถัดไปที่ได้รับจากศัตรู จะสร้างความเสียหายลดลง @BlockBase@-@BlockMax@  หน่วย<br><br>ระยะเวลา: @BlockDuration@ วินาที<br>คูลดาวน์: @Cooldown@ วินาที",
-						"icon": "ASSETS/Perks/Styles/Resolve/BucklerRing/BucklerRing.dds"
+						"shortDesc": "หลังจากที่ได้รับความเสียหายจากแชมป์เปี้ยนศัตรู การโจมตีหรือสกิลที่คุณได้รับ @BlockCount@ ครั้งถัดไป จะสร้างความเสียหายลดลง @BlockBase@-@BlockMax@ หน่วย<br><br>ระยะเวลา: @BlockDuration@ วินาที<br>คูลดาวน์: @Cooldown@ วินาที",
+						"longDesc": "หลังจากที่ได้รับความเสียหายจากแชมป์เปี้ยนศัตรู การโจมตีหรือสกิลที่คุณได้รับ @BlockCount@ ครั้งถัดไป จะสร้างความเสียหายลดลง @BlockBase@-@BlockMax@ หน่วย<br><br>ระยะเวลา: @BlockDuration@ วินาที<br>คูลดาวน์: @Cooldown@ วินาที",
+						"icon": "ASSETS/Perks/Styles/Resolve/BonePlating/BonePlating.dds"
 					}
 				]
 			},
 			{
 				"runes": [
-					{
-						"id": 8430,
-						"key": "IronSkin",
-						"name": "Iron Skin",
-						"shortDesc": "ได้รับเกราะ +@ArmorBase@ หน่วย <br>การฮีล รวมถึงไอเทมที่ใช้แล้วหมดไปด้วย จะเพิ่มเกราะของคุณ @TotalExtraArmor*100@% ชั่วคราว",
-						"longDesc": "ได้รับเกราะ +@ArmorBase@ หน่วย <br><br>เอฟเฟกต์ฮีลจากไอเทมที่ใช้แล้วหมดไป ที่ฮีลอย่างน้อย @FlatHealThreshold@ หน่วย และโล่ป้องกันความเสียหาย จะเพิ่มเกราะให้กับคุณ @TotalExtraArmor*100@% เป็นเวลา @EvolveArmorDuration@ วินาที",
-						"icon": "ASSETS/Perks/Styles/Resolve/IronSkin/IronSkin.dds"
-					},
-					{
-						"id": 8435,
-						"key": "MirrorShell",
-						"name": "Mirror Shell",
-						"shortDesc": "ได้รับต้านทานเวทย์ +@MRBase@ หน่วย <br>การฮีล รวมถึงไอเทมที่ใช้แล้วหมดไปด้วย จะเพิ่มต้านทานเวทย์ของคุณ @EvolveBonusMR*100@% ชั่วคราว<br>",
-						"longDesc": "ได้รับต้านทานเวทย์ +@MRBase@ หน่วย <br><br>เอฟเฟกต์ฮีลจากไอเทมที่ใช้แล้วหมดไป ที่ฮีลอย่างน้อย @FlatHealThreshold@ หน่วย และโล่ป้องกันความเสียหาย จะเพิ่มต้านทานเวทย์ให้กับคุณ @EvolveBonusMR*100@% เป็นเวลา @EvolveShellDuration@ วินาที ",
-						"icon": "ASSETS/Perks/Styles/Resolve/MirrorShell/MirrorShell.dds"
-					},
 					{
 						"id": 8429,
 						"key": "Conditioning",
@@ -454,6 +446,14 @@
 						"shortDesc": "หลังจากได้รับความเสียหายจากแชมป์เปี้ยนศัตรู จะได้รับการฮีลพลังชีวิตจากสัดส่วนพลังชีวิตที่หายไปในช่วงระยะเวลาหนึ่ง",
 						"longDesc": "หลังจากที่คุณได้รับความเสียหายจากแชมป์เปี้ยนศัตรู จะได้รับผลฮีล @RegenPercentMax.0*100@% จากพลังชีวิตที่หายไปของคุณ +@RegenFlat.0@ หน่วย ในเวลา @RegenSeconds@ วินาที",
 						"icon": "ASSETS/Perks/Styles/Resolve/SecondWind/SecondWind.dds"
+					},
+					{
+						"id": 8472,
+						"key": "Chrysalis",
+						"name": "Chrysalis",
+						"shortDesc": "เริ่มเกมมาพร้อมกับพลังชีวิต @StartingHealth@ หน่วยเพิ่มเติม เมื่อทำการโค่นล้มครบ @MaxTakedowns@ ครั้ง พลังชีวิตที่ได้มาจะถูกเปลี่ยนไปเป็น ค่าโบนัสแบบ <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive</font></lol-uikit-tooltipped-keyword> โดยเป็นพลังเวทย์ @AdaptiveForce@ หน่วย หรือพลังโจมตี @AdaptiveForce.-1*0.6@ หน่วย ",
+						"longDesc": "เริ่มเกมมาพร้อมกับพลังชีวิต @StartingHealth@ หน่วยเพิ่มเติม เมื่อทำการโค่นล้มครบ @MaxTakedowns@ ครั้ง พลังชีวิตที่ได้มาจะถูกเปลี่ยนไปเป็น ค่าโบนัสแบบ <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive</font></lol-uikit-tooltipped-keyword> โดยเป็นพลังเวทย์ @AdaptiveForce@ หน่วย หรือพลังโจมตี @AdaptiveForce.-1*0.6@ หน่วย ",
+						"icon": "ASSETS/Perks/Styles/Resolve/Chrysalis/Chrysalis.dds"
 					}
 				]
 			},
@@ -535,8 +535,8 @@
 						"id": 8226,
 						"key": "ManaflowBand",
 						"name": "Manaflow Band",
-						"shortDesc": "เมื่อถึงเวลาหนึ่ง เมื่อคุณใช้สกิลถัดไปคุณจะได้รับมานาหรือ Energy ที่ใช้ไปกลับคืนมาทั้งหมด และได้รับการฟื้นฟูเป็นอัตราส่วนจากมานาหรือ Energy ที่หายไปอีกด้วย",
-						"longDesc": "ทุก ๆ @Cooldown.0@ วินาที การใช้สกิลครั้งถัดไปของคุณจะได้รับมานาหรือ Energy ที่ใช้ไปกลับคืนมาทั้งหมด และฟื้นฟู @MPToRestoreRatio.0*100@% จากมานาหรือ Energy ที่หายไปของคุณ",
+						"shortDesc": "เมื่อถึงเวลาหนึ่ง การใช้สกิลครั้งถัดไปของคุณจะทำให้ได้รับมานาหรือ Energy ที่ใช้ร่ายกลับคืนมาทั้งหมด และฟื้นฟูมานาหรือ Energy ตามสัดส่วนมานาหรือ Energy ที่หายไปของคุณ",
+						"longDesc": "ทุก ๆ @Cooldown.0@ วินาที การใช้สกิลถัดไปของคุณ จะได้รับมานาหรือ Energy ที่ใช้ในการร่ายกลับคืนมา และฟื้นฟูมานาหรือ Energy @MPToRestoreRatio.0*100@% จากมานาหรือ Energy ที่หายไปของคุณ",
 						"icon": "ASSETS/Perks/Styles/Sorcery/ManaflowBand/ManaflowBand.dds"
 					},
 					{

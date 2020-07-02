@@ -177,7 +177,7 @@
 						"name": "完美計時",
 						"shortDesc": "獲得一個免費的停滯鐘錶。停滯鐘錶可以使用一次<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Stasis'>凝滯</lol-uikit-tooltipped-keyword>效果。",
 						"longDesc": "遊戲一開始獲得一個預備鐘錶，@InitialCooldown.0@ 分鐘之後轉化成停滯鐘錶。停滯鐘錶可發動一次凝滯效果。<br><br>縮減 @PercentGAZhonyasCDR.0*100@% 中婭沙漏、守護天使及石像鬼磐核的冷卻時間。",
-						"icon": "ASSETS/Perks/Styles/Style5/PerfectTiming/PerfectTiming.dds"
+						"icon": "ASSETS/Perks/Styles/Inspiration/PerfectTiming/PerfectTiming.dds"
 					}
 				]
 			},
@@ -189,7 +189,7 @@
 						"name": "未來市集",
 						"shortDesc": "你可以透過貸款來購買道具。",
 						"longDesc": "你可以透過貸款來購買道具，能貸款的數目會隨著時間提升。<br><br>能貸款的金額：@ExcessCostPenaltyFlat@ 金錢。",
-						"icon": "ASSETS/Perks/Styles/Style5/FuturesMarket/FuturesMarket.dds"
+						"icon": "ASSETS/Perks/Styles/Inspiration/FuturesMarket/FuturesMarket.dds"
 					},
 					{
 						"id": 8316,
@@ -270,6 +270,14 @@
 						"shortDesc": "攻擊或移動會累加能量。達 100 層時你下一次的攻擊將治癒你並賦予你額外<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>跑速</lol-uikit-tooltipped-keyword>。",
 						"longDesc": "攻擊或移動會累加能量。達 100 層時你下一次的攻擊將充滿能量。<br><br>充能攻擊會使你回復 @HealBase@ - @HealMax@（+@HealBonusADRatio.-1@ 額外物理攻擊、+@HealAPRatio.-1@ 魔法攻擊）生命，並賦予你 +@MSBuff*100@% 跑速，持續 @MSDuration.0@ 秒。<br><rules>作用在小兵身上時的治癒效果只有 @MinionHealMod*100@%（若為遠程英雄則為 @MinionHealMod*50@%）。<br>充能攻擊觸發暴擊時治癒效果將會增強。提升的幅度為 @HealCritMod*100@% 暴擊傷害係數。</rules>",
 						"icon": "ASSETS/Perks/Styles/Precision/FleetFootwork/FleetFootwork.dds"
+					},
+					{
+						"id": 8010,
+						"key": "Conqueror",
+						"name": "征服者",
+						"shortDesc": "持續戰鬥 @ThresholdTime@ 秒後，你對敵方英雄的首次普攻將使你獲得物理攻擊，並將部分你對敵方英雄造成的傷害轉換成真實傷害。",
+						"longDesc": "持續戰鬥 @ThresholdTime@ 秒後，你對敵方英雄的首次普攻會使你獲得 @BaseAD@ - @MaxAD@ 物理攻擊（隨等級提升），效果持續 @BuffDuration@ 秒，並將 @TrueDamageBase*100@% 你對敵方英雄的傷害轉換成真實傷害。<br><br><rules>近戰限定：對敵方英雄造成傷害可刷新此效果。</rules>",
+						"icon": "ASSETS/Perks/Styles/Precision/Conqueror/Conqueror.dds"
 					}
 				]
 			},
@@ -295,8 +303,8 @@
 						"id": 8009,
 						"key": "PresenceOfMind",
 						"name": "氣定神閒",
-						"shortDesc": "在取得擊殺、助攻或升級後接下來的 @BuffDuration@ 秒內所消耗的魔力將完全回復。",
-						"longDesc": "在取得擊殺、助攻或升級後接下來的 @BuffDuration@ 秒內所消耗的魔力將完全回復。",
+						"shortDesc": "取得擊殺、助攻或升級後的 @BuffDuration@ 秒內，你花費的魔力將全數回復。",
+						"longDesc": "取得擊殺、助攻或升級後的 @BuffDuration@ 秒內，你花費的魔力將全數回復。",
 						"icon": "ASSETS/Perks/Styles/Precision/LastResort/LastResortIcon.dds"
 					}
 				]
@@ -379,7 +387,7 @@
 						"id": 8439,
 						"key": "Aftershock",
 						"name": "裂地衝擊",
-						"shortDesc": "使一名敵方英雄<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Immobilize'>無法移動</lol-uikit-tooltipped-keyword>後獲得防禦加成，接著對周圍敵人造成大量<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>適性傷害</lol-uikit-tooltipped-keyword>。",
+						"shortDesc": "使一名敵方英雄<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Immobilize'>無法移動</lol-uikit-tooltipped-keyword>後獲得防禦加成，接著對周圍敵人造成大量魔法傷害。",
 						"longDesc": "使一名敵方英雄無法移動後，當前物理防禦及魔法防禦提升 @FlatResists@ - @FlatResistMaximum@，持續 @DelayBeforeBurst.1@ 秒。接下來朝周圍釋放衝擊波，對鄰近敵人造成魔法傷害。<br><br>傷害：@StartingBaseDamage@ - @MaxBaseDamage@（+@HealthRatio.-1@% 自身最大生命）（+@DamageRatioAD*100@% 自身額外物理攻擊）（ +@DamageRatioAP*100@% 自身魔法攻擊）<br>冷卻時間：@Cooldown@ 秒",
 						"icon": "ASSETS/Perks/Styles/Resolve/VeteranAftershock/VeteranAftershock.dds"
 					},
@@ -413,32 +421,16 @@
 					},
 					{
 						"id": 8473,
-						"key": "BucklerRing",
+						"key": "BonePlating",
 						"name": "骨甲",
-						"shortDesc": "受到一名敵方英雄傷害後，接下來來自該英雄的 @BlockCount@ 次技能或普攻對你造成的傷害減少 @BlockBase@-@BlockMax@ 。<br><br>持續時間：@BlockDuration@ 秒<br>冷卻時間：@Cooldown@ 秒",
-						"longDesc": "受到一名敵方英雄傷害後，接下來來自該英雄的 @BlockCount@ 次技能或普攻對你造成的傷害減少 @BlockBase@-@BlockMax@ 。<br><br>持續時間：@BlockDuration@ 秒<br>冷卻時間：@Cooldown@ 秒",
-						"icon": "ASSETS/Perks/Styles/Resolve/BucklerRing/BucklerRing.dds"
+						"shortDesc": "受到一名敵方英雄傷害後，接下來來自敵人的 @BlockCount@ 次普攻或技能對你造成的傷害減少 @BlockBase@-@BlockMax@。<br><br>持續時間：@BlockDuration@ 秒<br>冷卻時間：@Cooldown@ 秒",
+						"longDesc": "受到一名敵方英雄傷害後，接下來來自敵人的 @BlockCount@ 次普攻或技能對你造成的傷害減少 @BlockBase@-@BlockMax@。<br><br>持續時間：@BlockDuration@ 秒<br>冷卻時間：@Cooldown@ 秒",
+						"icon": "ASSETS/Perks/Styles/Resolve/BonePlating/BonePlating.dds"
 					}
 				]
 			},
 			{
 				"runes": [
-					{
-						"id": 8430,
-						"key": "IronSkin",
-						"name": "鋼鐵肌膚",
-						"shortDesc": "獲得 +@ArmorBase@ 物理防禦。<br>治癒效果（包括消耗品的治癒效果）會暫時使你的物理防禦提升 @TotalExtraArmor*100@%。",
-						"longDesc": "獲得 +@ArmorBase@ 物理防禦。<br><br>獲得來自消耗品的治癒效果、至少回復 @FlatHealThreshold@ 生命的治癒效果，或是受到護盾保護時提升 @TotalExtraArmor*100@% 物理防禦，持續 @EvolveArmorDuration@ 秒。",
-						"icon": "ASSETS/Perks/Styles/Resolve/IronSkin/IronSkin.dds"
-					},
-					{
-						"id": 8435,
-						"key": "MirrorShell",
-						"name": "魔鏡之護",
-						"shortDesc": "獲得 +@MRBase@ 魔法防禦。<br>治癒效果（包括消耗品的治癒效果）會暫時使你的魔法防禦提升 @EvolveBonusMR*100@%。<br>",
-						"longDesc": "獲得 +@MRBase@ 魔法防禦。<br><br>獲得來自消耗品的治癒效果、至少回復 @FlatHealThreshold@ 生命的治癒效果，或是受到護盾保護時提升 @EvolveBonusMR*100@% 魔法防禦，持續 @EvolveShellDuration@ 秒。 ",
-						"icon": "ASSETS/Perks/Styles/Resolve/MirrorShell/MirrorShell.dds"
-					},
 					{
 						"id": 8429,
 						"key": "Conditioning",
@@ -454,6 +446,14 @@
 						"shortDesc": "受到敵方英雄傷害後於時間內回復一部分失去生命。",
 						"longDesc": "受到一名敵方英雄傷害後，於 @RegenSeconds@ 秒內回復等同於 @RegenPercentMax.0*100@% 失去生命 + @RegenFlat.0@ 的血量。",
 						"icon": "ASSETS/Perks/Styles/Resolve/SecondWind/SecondWind.dds"
+					},
+					{
+						"id": 8472,
+						"key": "Chrysalis",
+						"name": "蛹化",
+						"shortDesc": "遊戲一開始額外獲得 @StartingHealth@ 生命。取得 @MaxTakedowns@ 次擊殺或助攻後消耗該生命來獲得 @AdaptiveForce.-1*0.6@ 物理攻擊或 @AdaptiveForce@ 魔法攻擊<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>（適性）</font></lol-uikit-tooltipped-keyword> 加成。",
+						"longDesc": "遊戲一開始額外獲得 @StartingHealth@ 生命。取得 @MaxTakedowns@ 次擊殺或助攻後消耗該生命來獲得 @AdaptiveForce.-1*0.6@ 物理攻擊或 @AdaptiveForce@ 魔法攻擊<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>（適性）</font></lol-uikit-tooltipped-keyword> 加成。",
+						"icon": "ASSETS/Perks/Styles/Resolve/Chrysalis/Chrysalis.dds"
 					}
 				]
 			},
@@ -535,8 +535,8 @@
 						"id": 8226,
 						"key": "ManaflowBand",
 						"name": "附魔之帶",
-						"shortDesc": "定期使你下一次使用的技能返還其消耗魔力或能量，並回復一部份你失去的魔力或能量。",
-						"longDesc": "每過 @Cooldown.0@ 秒，你下一次使用的技能將返還其消耗魔力或能量，並回復 @MPToRestoreRatio.0*100@% 失去的魔力或能量。",
+						"shortDesc": "定期使你下一次使用的技能返還其消耗魔力或能量，同時回復部分已消耗的魔力或能量。",
+						"longDesc": "每過 @Cooldown.0@ 秒，你下一次使用的技能將返還其消耗魔力或能量，並回復@MPToRestoreRatio.0*100@% 已消耗魔力或能量。",
 						"icon": "ASSETS/Perks/Styles/Sorcery/ManaflowBand/ManaflowBand.dds"
 					},
 					{

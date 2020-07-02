@@ -177,7 +177,7 @@
 						"name": "Dokonalé načasování",
 						"shortDesc": "Obdržíš zdarma Stopky. Stopky mohou jednorázově aktivovat <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Stasis'>stázi</lol-uikit-tooltipped-keyword>.",
 						"longDesc": "Na začátku hry obdržíš předmět Zahajovací stopky, který se po @InitialCooldown.0@ min. přemění na Stopky. Stopky mají k dispozici jednorázovou stázi.<br><br>Přebíjecí doby předmětů Zhonyiny přesýpací hodiny, Anděl strážný a Chrličův kamenný plát se zkracují o @PercentGAZhonyasCDR.0*100@ %.",
-						"icon": "ASSETS/Perks/Styles/Style5/PerfectTiming/PerfectTiming.dds"
+						"icon": "ASSETS/Perks/Styles/Inspiration/PerfectTiming/PerfectTiming.dds"
 					}
 				]
 			},
@@ -189,7 +189,7 @@
 						"name": "Investice do budoucna",
 						"shortDesc": "Při nakupování předmětů můžeš jít do minusu.",
 						"longDesc": "Při nakupování předmětů můžeš jít do minusu. Částka, kterou si můžeš půjčit, se postupem času zvyšuje.<br><br>Poplatek: @ExcessCostPenaltyFlat@ zlaťáků",
-						"icon": "ASSETS/Perks/Styles/Style5/FuturesMarket/FuturesMarket.dds"
+						"icon": "ASSETS/Perks/Styles/Inspiration/FuturesMarket/FuturesMarket.dds"
 					},
 					{
 						"id": 8316,
@@ -268,8 +268,16 @@
 						"key": "FleetFootwork",
 						"name": "Hbité nohy",
 						"shortDesc": "Útočením a pohybováním se nasčítávají stupně energie. Po dosažení 100 stupňů tě tvůj následující útok vyléčí a zvýší ti <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>rychlost pohybu</lol-uikit-tooltipped-keyword>.",
-						"longDesc": "Útočením a pohybováním se nasčítávají stupně energie. Po dosažení 100 stupňů bude tvůj následující útok nabitý energií.<br><br>Útoky nabité energií ti vyléčí @HealBase@-@HealMax@ zdraví (+@HealBonusADRatio.-1@ bonusového útočného poškození, +@HealAPRatio.-1@ síly schopností) a poskytnou ti na @MSDuration.0@ sek. +@MSBuff*100@ % k rychlosti pohybu.<br><rules>Při použití na poskoka je účinnost léčení @MinionHealMod*100@ %.<br>Pokud k léčení dojde při kritickém zásahu, zvýší se léčení o @HealCritMod*100@ % tvého modifikátoru kritického zásahu.</rules>",
+						"longDesc": "Útočením a pohybováním se nasčítávají stupně energie. Po dosažení 100 stupňů bude tvůj následující útok nabitý energií.<br><br>Útoky nabité energií ti vyléčí @HealBase@-@HealMax@ zdraví (+@HealBonusADRatio.-1@ bonusového útočného poškození, +@HealAPRatio.-1@ síly schopností) a poskytnou ti na @MSDuration.0@ sek. +@MSBuff*100@ % k rychlosti pohybu.<br><rules>Při použití na poskoka je účinnost léčení @MinionHealMod*100@% (@MinionHealMod*50@% účinnost v případě útoků na dálku).<br>Pokud k léčení dojde při kritickém zásahu, zvýší se léčení o @HealCritMod*100@ % tvého modifikátoru kritického zásahu.</rules>",
 						"icon": "ASSETS/Perks/Styles/Precision/FleetFootwork/FleetFootwork.dds"
+					},
+					{
+						"id": 8010,
+						"key": "Conqueror",
+						"name": "Dobyvatel",
+						"shortDesc": "Poté, co strávíš @ThresholdTime@ sek. v boji, ti tvůj první útok vedený proti nepřátelskému šampionovi přidá bonus k útočnému poškození a přemění část tvého poškození vůči šampionům na přímé poškození.",
+						"longDesc": "Poté, co strávíš @ThresholdTime@ sek. v boji, ti tvůj první útok vedený proti nepřátelskému šampionovi přidá na @BuffDuration@ sek. @BaseAD@-@MaxAD@ bodů útočného poškození (v závislosti na úrovni) a @TrueDamageBase*100@ % tvého poškození vůči šampionům se přemění na přímé poškození.<br><br><rules>Pouze kontaktní šampioni: Způsobením poškození nepřátelskému šampionovi se tento buff obnoví.</rules>",
+						"icon": "ASSETS/Perks/Styles/Precision/Conqueror/Conqueror.dds"
 					}
 				]
 			},
@@ -379,7 +387,7 @@
 						"id": 8439,
 						"key": "Aftershock",
 						"name": "Následný otřes",
-						"shortDesc": "Když <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Immobilize'>znehybníš</lol-uikit-tooltipped-keyword> nepřátelského šampiona, získáš bonus k obraně a později kolem sebe vyvoláš výboj <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>adaptivního poškození</lol-uikit-tooltipped-keyword>.",
+						"shortDesc": "Když <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Immobilize'>znehybníš</lol-uikit-tooltipped-keyword> nepřátelského šampiona, získáš obranu a později kolem sebe vyvoláš výboj magického poškození.",
 						"longDesc": "Poté, co znehybníš nepřátelského šampiona, se ti na @DelayBeforeBurst.1@ sek. zvýší hodnota brnění a odolnosti vůči magii o @FlatResists@-@FlatResistMaximum@ bodů. Pak dojde k explozi, která způsobí magické poškození okolním nepřátelům.<br><br>Poškození: @StartingBaseDamage@-@MaxBaseDamage@ bodů (+@HealthRatio.-1@ % tvého maximálního zdraví) (+@DamageRatioAD*100@ % tvého bonusového útočného poškození) (+@DamageRatioAP*100@ % tvojí síly schopností)<br>Přebíjecí doba: @Cooldown@ sek.",
 						"icon": "ASSETS/Perks/Styles/Resolve/VeteranAftershock/VeteranAftershock.dds"
 					},
@@ -413,32 +421,16 @@
 					},
 					{
 						"id": 8473,
-						"key": "BucklerRing",
+						"key": "BonePlating",
 						"name": "Kostěná zbroj",
 						"shortDesc": "Poté, co utrpíš poškození od nějakého nepřátelského šampiona, ti jeho následující @BlockCount@ kouzla nebo útoky způsobí o @BlockBase@-@BlockMax@ bodů nižší poškození než obvykle.<br><br>Trvání: @BlockDuration@ sek.<br>Přebíjecí doba: @Cooldown@ sek.",
 						"longDesc": "Poté, co utrpíš poškození od nějakého nepřátelského šampiona, ti jeho následující @BlockCount@ kouzla nebo útoky způsobí o @BlockBase@-@BlockMax@ bodů nižší poškození než obvykle.<br><br>Trvání: @BlockDuration@ sek.<br>Přebíjecí doba: @Cooldown@ sek.",
-						"icon": "ASSETS/Perks/Styles/Resolve/BucklerRing/BucklerRing.dds"
+						"icon": "ASSETS/Perks/Styles/Resolve/BonePlating/BonePlating.dds"
 					}
 				]
 			},
 			{
 				"runes": [
-					{
-						"id": 8430,
-						"key": "IronSkin",
-						"name": "Železná kůže",
-						"shortDesc": "Získáš +@ArmorBase@ brnění. <br>Léčení, a to včetně pomocí spotřebovatelných předmětů, ti dočasně zvyšuje hodnotu brnění o @TotalExtraArmor*100@ %.",
-						"longDesc": "Získáš +@ArmorBase@ brnění. <br><br>Léčivé efekty ze spotřebovatelných předmětů, léčení ve výši alespoň @FlatHealThreshold@ zdraví a štíty ti na @EvolveArmorDuration@ sek. zvyšují hodnotu brnění o @TotalExtraArmor*100@ %.",
-						"icon": "ASSETS/Perks/Styles/Resolve/IronSkin/IronSkin.dds"
-					},
-					{
-						"id": 8435,
-						"key": "MirrorShell",
-						"name": "Zrcadlový krunýř",
-						"shortDesc": "Získáš +@MRBase@ k odolnosti vůči magii. <br>Léčení, a to včetně pomocí spotřebovatelných předmětů, ti dočasně zvyšuje odolnost vůči magii o @EvolveBonusMR*100@ %.<br>",
-						"longDesc": "Získáš +@MRBase@ k odolnosti vůči magii. <br><br>Léčivé efekty ze spotřebovatelných předmětů, léčení ve výši alespoň @FlatHealThreshold@ zdraví a štíty ti na @EvolveShellDuration@ sek. zvyšují odolnost vůči magii o @EvolveBonusMR*100@ %. ",
-						"icon": "ASSETS/Perks/Styles/Resolve/MirrorShell/MirrorShell.dds"
-					},
 					{
 						"id": 8429,
 						"key": "Conditioning",
@@ -454,6 +446,14 @@
 						"shortDesc": "Poté, co utrpíš poškození od nepřátelského šampiona, si během určité doby obnovíš část chybějícího zdraví. ",
 						"longDesc": "Poté, co utrpíš poškození od nepřátelského šampiona, si během @RegenSeconds@ sek. vyléčíš @RegenPercentMax.0*100@ % chybějícího zdraví +@RegenFlat.0@ zdraví.",
 						"icon": "ASSETS/Perks/Styles/Resolve/SecondWind/SecondWind.dds"
+					},
+					{
+						"id": 8472,
+						"key": "Chrysalis",
+						"name": "Kukla",
+						"shortDesc": "Na začátku hry obdržíš navíc @StartingHealth@ zdraví. Po @MaxTakedowns@ likvidacích se toto zdraví přemění na <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptivní</font></lol-uikit-tooltipped-keyword> bonus ve výši +@AdaptiveForce.-1*0.6@ k útočnému poškození nebo +@AdaptiveForce@ k síle schopností.",
+						"longDesc": "Na začátku hry obdržíš navíc @StartingHealth@ zdraví. Po @MaxTakedowns@ likvidacích se toto zdraví přemění na <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptivní</font></lol-uikit-tooltipped-keyword> bonus ve výši +@AdaptiveForce.-1*0.6@ k útočnému poškození nebo +@AdaptiveForce@ k síle schopností.",
+						"icon": "ASSETS/Perks/Styles/Resolve/Chrysalis/Chrysalis.dds"
 					}
 				]
 			},

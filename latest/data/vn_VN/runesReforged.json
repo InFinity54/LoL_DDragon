@@ -177,7 +177,7 @@
 						"name": "Thời Điểm Hoàn Hảo",
 						"shortDesc": "Nhận được miễn phí một Đồng Hồ Ngưng Đọng. Đồng Hồ Ngưng Đọng cho phép dùng <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Stasis\">Ngưng Đọng</lol-uikit-tooltipped-keyword> một lần.",
 						"longDesc": "Khởi đầu trận với một Đồng Hồ Ngưng Đọng Khởi Đầu biến đổi thành Đồng Hồ Ngưng Đọng sau @InitialCooldown.0@ phút. Đồng Hồ Ngưng Đọng có hiệu ứng Ngưng Đọng dùng một lần.<br><br>Giảm hồi chiêu của Đồng Hồ Cát Zhonya, Giáp Thiên Thần, và Thú Tượng Thạch Giáp đi @PercentGAZhonyasCDR.0*100@%.",
-						"icon": "ASSETS/Perks/Styles/Style5/PerfectTiming/PerfectTiming.dds"
+						"icon": "ASSETS/Perks/Styles/Inspiration/PerfectTiming/PerfectTiming.dds"
 					}
 				]
 			},
@@ -189,7 +189,7 @@
 						"name": "Thị Trường Tương Lai",
 						"shortDesc": "Bạn có thể vay nợ để mua trang bị.",
 						"longDesc": "Bạn có thể vay nợ để mua trang bị. Số vàng có thể vay tăng dần theo thời gian.<br><br>Phí vay nợ: @ExcessCostPenaltyFlat@ vàng",
-						"icon": "ASSETS/Perks/Styles/Style5/FuturesMarket/FuturesMarket.dds"
+						"icon": "ASSETS/Perks/Styles/Inspiration/FuturesMarket/FuturesMarket.dds"
 					},
 					{
 						"id": 8316,
@@ -270,6 +270,14 @@
 						"shortDesc": "Tấn công và di chuyển tăng cộng dồn Tích Điện. Ở 100 cộng dồn, đòn đánh kế tiếp của bạn hồi máu và tăng <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>Tốc độ Di chuyển</lol-uikit-tooltipped-keyword>.",
 						"longDesc": "Tấn công và di chuyển tăng cộng dồn Tích Điện. Ở 100 cộng dồn, đòn đánh kế tiếp của bạn được Tích Điện.<br><br>Đòn đánh Tích Điện hồi cho bạn @HealBase@ - @HealMax@ (+@HealBonusADRatio.-1@ SMCK cộng thêm, +@HealAPRatio.-1@ SMPT) máu và tăng +@MSBuff*100@% Tốc độ Di chuyển trong @MSDuration.0@ giây.<br><rules>Hồi máu còn @MinionHealMod*100@% hiệu lực khi dùng lên lính (@MinionHealMod*50@% với đánh xa).<br>Hồi máu tăng thêm @HealCritMod*100@% sát thương chí mạng khi đòn đánh có chí mạng.</rules>",
 						"icon": "ASSETS/Perks/Styles/Precision/FleetFootwork/FleetFootwork.dds"
+					},
+					{
+						"id": 8010,
+						"key": "Conqueror",
+						"name": "Chinh Phục",
+						"shortDesc": "Sau @ThresholdTime@ giây trong giao tranh, đòn đánh đầu tiên của bạn lên một tướng địch cho bạn SMCK và chuyển một phần sát thương thành sát thương chuẩn.",
+						"longDesc": "Sau @ThresholdTime@ giây trong giao tranh, đòn đánh đầu tiên của bạn lên một tướng địch cho bạn @BaseAD@ - @MaxAD@ SMCK, tùy cấp độ, trong @BuffDuration@ giây và chuyển @TrueDamageBase*100@% sát thương lên tướng của bạn thành sát thương chuẩn trong thời gian đó.<br><br><rules>Chỉ cận chiến: Gây sát thương tướng địch làm mới là bùa lợi này.</rules>",
+						"icon": "ASSETS/Perks/Styles/Precision/Conqueror/Conqueror.dds"
 					}
 				]
 			},
@@ -295,8 +303,8 @@
 						"id": 8009,
 						"key": "PresenceOfMind",
 						"name": "Hiện Diện Trí Tuệ",
-						"shortDesc": "Trong @BuffDuration@ giây sau khi lên cấp hoặc tham gia hạ gục, mọi năng lượng tiêu hao được hoàn trả toàn bộ.",
-						"longDesc": "Trong @BuffDuration@ giây sau khi lên cấp hoặc tham gia hạ gục, mọi năng lượng tiêu hao được hoàn trả toàn bộ.",
+						"shortDesc": "Trong @BuffDuration@ giây sau khi lên cấp hoặc tham gia hạ gục, bạn được hoàn trả mọi năng lượng tiêu hao.",
+						"longDesc": "Trong @BuffDuration@ giây sau khi lên cấp hoặc tham gia hạ gục, bạn được hoàn trả mọi năng lượng tiêu hao.",
 						"icon": "ASSETS/Perks/Styles/Precision/LastResort/LastResortIcon.dds"
 					}
 				]
@@ -379,7 +387,7 @@
 						"id": 8439,
 						"key": "Aftershock",
 						"name": "Dư Chấn",
-						"shortDesc": "Sau khi <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Immobilize'>bất động</lol-uikit-tooltipped-keyword> một tướng địch, nhận thêm chống chịu và sau đó gây <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>sát thương thích ứng</lol-uikit-tooltipped-keyword> ra xung quanh.",
+						"shortDesc": "Sau khi <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Immobilize'>bất động</lol-uikit-tooltipped-keyword> một tướng địch, nhận thêm chống chịu và sau đó gây sát thương phép ra xung quanh.",
 						"longDesc": "Sau khi bất động một tướng địch, tăng Giáp và Kháng Phép thêm @FlatResists@ - @FlatResistMaximum@ trong @DelayBeforeBurst.1@ giây. Kế đó, tung ra một vụ nổ gây sát thương phép lên kẻ địch xung quanh.<br><br>Sát thương: @StartingBaseDamage@ - @MaxBaseDamage@ (+@HealthRatio.-1@% máu tối đa) (+@DamageRatioAD*100@% SMCK cộng thêm) (+@DamageRatioAP*100@% SMPT)<br>Hồi chiêu: @Cooldown@ giây",
 						"icon": "ASSETS/Perks/Styles/Resolve/VeteranAftershock/VeteranAftershock.dds"
 					},
@@ -413,32 +421,16 @@
 					},
 					{
 						"id": 8473,
-						"key": "BucklerRing",
+						"key": "BonePlating",
 						"name": "Giáp Cốt",
-						"shortDesc": "Sau khi chịu sát thương từ một tướng địch, @BlockCount@ phép hoặc đòn đánh kế tiếp bạn chịu từ kẻ địch gây ít sát thương hơn.",
-						"longDesc": "Sau khi chịu sát thương từ một tướng địch, @BlockCount@ phép hoặc đòn đánh kế tiếp bạn chịu từ kẻ địch gây ít đi @BlockBase@-@BlockMax@ sát thương.<br><br>Thời gian Tác dụng: @BlockDuration@ giây<br>Hồi chiêu: @Cooldown@ giây",
-						"icon": "ASSETS/Perks/Styles/Resolve/BucklerRing/BucklerRing.dds"
+						"shortDesc": "Sau khi chịu sát thương từ một tướng địch, @BlockCount@ kỹ năng hoặc đòn đánh kế tiếp của kẻ đó lên bạn gây ít đi @BlockBase@-@BlockMax@ sát thương. <br><br>Thời gian: @BlockDuration@ giây<br>Hồi chiêu @Cooldown@ giây",
+						"longDesc": "Sau khi chịu sát thương từ một tướng địch, @BlockCount@ kỹ năng hoặc đòn đánh kế tiếp của kẻ đó lên bạn gây ít đi @BlockBase@-@BlockMax@ sát thương. <br><br>Thời gian: @BlockDuration@ giây<br>Hồi chiêu @Cooldown@ giây",
+						"icon": "ASSETS/Perks/Styles/Resolve/BonePlating/BonePlating.dds"
 					}
 				]
 			},
 			{
 				"runes": [
-					{
-						"id": 8430,
-						"key": "IronSkin",
-						"name": "Mình Đồng Da Sắt",
-						"shortDesc": "Nhận thêm +@ArmorBase@ Giáp. <br>Hồi máu, bao gồm cả trang bị tiêu thụ, tạm thời tăng @TotalExtraArmor*100@% Giáp.",
-						"longDesc": "Nhận thêm +@ArmorBase@ Giáp. <br><br>Hồi máu từ vật phẩm tiêu thụ, hồi ít nhất @FlatHealThreshold@ máu và lá chắn tăng Giáp thêm @TotalExtraArmor*100@% trong @EvolveArmorDuration@ giây.",
-						"icon": "ASSETS/Perks/Styles/Resolve/IronSkin/IronSkin.dds"
-					},
-					{
-						"id": 8435,
-						"key": "MirrorShell",
-						"name": "Áo Choàng Gương",
-						"shortDesc": "Nhận thêm +@MRBase@ Giáp. <br>Hồi máu, bao gồm cả trang bị tiêu thụ, tạm thời tăng @EvolveBonusMR*100@% Kháng Phép.",
-						"longDesc": "Nhận thêm +@MRBase@ Kháng Phép. <br><br>Hồi máu từ vật phẩm tiêu thụ, hồi ít nhất @FlatHealThreshold@ máu và lá chắn tăng Giáp thêm @EvolveBonusMR*100@% trong @EvolveShellDuration@ giây.",
-						"icon": "ASSETS/Perks/Styles/Resolve/MirrorShell/MirrorShell.dds"
-					},
 					{
 						"id": 8429,
 						"key": "Conditioning",
@@ -454,6 +446,14 @@
 						"shortDesc": "Sau khi chịu sát thương từ tướng địch, hồi lại một phần máu đã mất theo thời gian.",
 						"longDesc": "Sau khi chịu sát thương từ một tướng địch, hồi lại @RegenFlat.0@ +@RegenPercentMax.0*100@% máu đã mất của bạn trong vòng @RegenSeconds@ giây.",
 						"icon": "ASSETS/Perks/Styles/Resolve/SecondWind/SecondWind.dds"
+					},
+					{
+						"id": 8472,
+						"key": "Chrysalis",
+						"name": "Kén Tằm",
+						"shortDesc": "Khởi đầu trận với @StartingHealth@ máu cộng thêm. Khi tham gia hạ gục @MaxTakedowns@ lần, dùng số máu đó để đổi lấy <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Thích ứng</font></lol-uikit-tooltipped-keyword> cộng thêm @AdaptiveForce.-1*0.6@ sức mạnh công kích hoặc @AdaptiveForce@ sức mạnh phép thuật.",
+						"longDesc": "Khởi đầu trận với @StartingHealth@ máu cộng thêm. Khi tham gia hạ gục @MaxTakedowns@ lần, dùng số máu đó để đổi lấy <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Thích ứng</font></lol-uikit-tooltipped-keyword> cộng thêm @AdaptiveForce.-1*0.6@ sức mạnh công kích hoặc @AdaptiveForce@ sức mạnh phép thuật.",
+						"icon": "ASSETS/Perks/Styles/Resolve/Chrysalis/Chrysalis.dds"
 					}
 				]
 			},
@@ -535,8 +535,8 @@
 						"id": 8226,
 						"key": "ManaflowBand",
 						"name": "Dải Băng Năng Lượng",
-						"shortDesc": "Theo chu kỳ, kỹ năng kế tiếp của bạn hoàn trả tiêu hao và hồi lại một phần năng lượng / nội năng đã mất.",
-						"longDesc": "Mỗi @Cooldown.0@ giây, kỹ năng kế tiếp khi được sử dụng hoàn trả năng lượng / nội năng tiêu hao và hồi lại @MPToRestoreRatio.0*100@% năng lượng / nội năng đã mất.",
+						"shortDesc": "Theo chu kỳ, kỹ năng kế tiếp bạn dùng được hoàn trả năng lượng / nội năng tiêu hao và hồi lại một phần năng lượng / nội năng đã mất.",
+						"longDesc": "Mỗi @Cooldown.0@ giây, kỹ năng kế tiếp bạn dùng được hoàn trả năng lượng / nội năng, và hồi @MPToRestoreRatio.0*100@% năng lượng / nội năng đã mất.",
 						"icon": "ASSETS/Perks/Styles/Sorcery/ManaflowBand/ManaflowBand.dds"
 					},
 					{

@@ -177,7 +177,7 @@
 						"name": "Idealne Wyczucie Czasu",
 						"shortDesc": "Zyskujesz darmowy przedmiot: Stoper. Stoper posiada efekt <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Stasis'>inercji</lol-uikit-tooltipped-keyword> jednorazowego użytku.",
 						"longDesc": "Zaczynasz grę z przedmiotem: Uruchamianie Stopera, który przemieni się w Stoper po @InitialCooldown.0@ min. Stoper oferuje jednorazowy efekt inercji.<br><br>Skraca czas odnowienia następujących przedmiotów: Klepsydra Zhonyi, Anioł Stróż i Kamienna Płyta Gargulca o @PercentGAZhonyasCDR.0*100@%.",
-						"icon": "ASSETS/Perks/Styles/Style5/PerfectTiming/PerfectTiming.dds"
+						"icon": "ASSETS/Perks/Styles/Inspiration/PerfectTiming/PerfectTiming.dds"
 					}
 				]
 			},
@@ -189,7 +189,7 @@
 						"name": "Rynek Przyszłości",
 						"shortDesc": "Możesz się zadłużyć, aby kupić przedmioty.",
 						"longDesc": "Możesz się zadłużyć, aby kupić przedmioty. Wysokość zadłużenia zwiększa się wraz z upływem czasu.<br><br>Koszt pożyczki: @ExcessCostPenaltyFlat@ szt. złota",
-						"icon": "ASSETS/Perks/Styles/Style5/FuturesMarket/FuturesMarket.dds"
+						"icon": "ASSETS/Perks/Styles/Inspiration/FuturesMarket/FuturesMarket.dds"
 					},
 					{
 						"id": 8316,
@@ -270,6 +270,14 @@
 						"shortDesc": "Atakując i poruszając się, gromadzisz ładunki energii. Po zebraniu 100 ładunków twój następny atak uleczy cię i zwiększy <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>prędkość ruchu</lol-uikit-tooltipped-keyword>.",
 						"longDesc": "Atakując i poruszając się, gromadzisz ładunki energii. Gdy zgromadzisz 100 ładunków, twój następny atak staje się naładowany.<br><br>Naładowane ataki leczą cię o @HealBase@-@HealMax@ pkt. (+@HealBonusADRatio.-1@ pkt. dodatkowych obrażeń od ataku, +@HealAPRatio.-1@ pkt. mocy umiejętności) i dają @MSBuff*100@% prędkości ruchu na @MSDuration.0@ sek.<br><rules>Leczenie jest skuteczne w @MinionHealMod*100@% w przypadku użycia na stworach (@MinionHealMod*50@% dla bohaterów walczących z dystansu).<br>Leczenie zwiększa się o @HealCritMod*100@% twojego modyfikatora obrażeń krytycznych, jeśli wywołało je trafienie krytyczne.</rules>",
 						"icon": "ASSETS/Perks/Styles/Precision/FleetFootwork/FleetFootwork.dds"
+					},
+					{
+						"id": 8010,
+						"key": "Conqueror",
+						"name": "Zdobywca",
+						"shortDesc": "Po @ThresholdTime@ sek. w walce twój pierwszy atak przeciwko wrogiemu bohaterowi zwiększy twoje obrażenia od ataku i zmieni część zadawanych przez ciebie obrażeń w nieuchronne obrażenia.",
+						"longDesc": "Po @ThresholdTime@ sek. w walce twój pierwszy atak przeciwko wrogiemu bohaterowi da ci na @BuffDuration@ sek. @BaseAD@-@MaxAD@ pkt. obrażeń od ataku zależnie od poziomu i zmieni @TrueDamageBase*100@% obrażeń, które zadajesz bohaterom, w nieuchronne obrażenia.<br><br><rules>Tylko w zwarciu: Zadawanie obrażeń wrogim bohaterom odświeża to wzmocnienie.</rules>",
+						"icon": "ASSETS/Perks/Styles/Precision/Conqueror/Conqueror.dds"
 					}
 				]
 			},
@@ -379,7 +387,7 @@
 						"id": 8439,
 						"key": "Aftershock",
 						"name": "Reperkusje",
-						"shortDesc": "Po <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Immobilize'>unieruchomieniu</lol-uikit-tooltipped-keyword> wrogiego bohatera zyskujesz pancerz i odporność na magię, a po chwili zadajesz wokół siebie <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>obrażenia adaptacyjne</lol-uikit-tooltipped-keyword>.",
+						"shortDesc": "Po <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Immobilize'>unieruchomieniu</lol-uikit-tooltipped-keyword> wrogiego bohatera zwiększa się twoja obrona, a po chwili zadajesz wokół siebie magiczne obrażenia eksplozywne.",
 						"longDesc": "Po unieruchomieniu wrogiego bohatera twój pancerz i odporność na magię zwiększają się o @FlatResists@-@FlatResistMaximum@ pkt. na @DelayBeforeBurst.1@ sek. Następnie wybuchasz i zadajesz obrażenia magiczne pobliskim wrogom.<br><br>Obrażenia: @StartingBaseDamage@-@MaxBaseDamage@ pkt. (+@HealthRatio.-1@% twojego maksymalnego zdrowia) (+@DamageRatioAD*100@% twoich dodatkowych obrażeń od ataku) (+@DamageRatioAP*100@% twojej mocy umiejętności)<br>Czas odnowienia: @Cooldown@ sek.",
 						"icon": "ASSETS/Perks/Styles/Resolve/VeteranAftershock/VeteranAftershock.dds"
 					},
@@ -413,32 +421,16 @@
 					},
 					{
 						"id": 8473,
-						"key": "BucklerRing",
+						"key": "BonePlating",
 						"name": "Kościana Zbroja",
 						"shortDesc": "Po otrzymaniu obrażeń od wrogiego bohatera następująca liczba: @BlockCount@ jego kolejnych zaklęć lub ataków zada ci o @BlockBase@-@BlockMax@ pkt. obrażeń mniej.<br><br>Czas działania: @BlockDuration@ sek.<br>Czas odnowienia: @Cooldown@ sek.",
 						"longDesc": "Po otrzymaniu obrażeń od wrogiego bohatera następująca liczba: @BlockCount@ jego kolejnych zaklęć lub ataków zada ci o @BlockBase@-@BlockMax@ pkt. obrażeń mniej.<br><br>Czas działania: @BlockDuration@ sek.<br>Czas odnowienia: @Cooldown@ sek.",
-						"icon": "ASSETS/Perks/Styles/Resolve/BucklerRing/BucklerRing.dds"
+						"icon": "ASSETS/Perks/Styles/Resolve/BonePlating/BonePlating.dds"
 					}
 				]
 			},
 			{
 				"runes": [
-					{
-						"id": 8430,
-						"key": "IronSkin",
-						"name": "Żelazna Skóra",
-						"shortDesc": "Zyskujesz @ArmorBase@ pkt. pancerza. <br>Efekty leczące, w tym te pochodzące z przedmiotów zaopatrzeniowych, chwilowo zwiększają twój pancerz o @TotalExtraArmor*100@%.",
-						"longDesc": "Zyskujesz @ArmorBase@ pkt. pancerza. <br><br>Efekty leczące z przedmiotów zaopatrzeniowych leczą za co najmniej @FlatHealThreshold@ pkt. zdrowia, a tarcze zwiększają twój pancerz o @TotalExtraArmor*100@% na @EvolveArmorDuration@ sek.",
-						"icon": "ASSETS/Perks/Styles/Resolve/IronSkin/IronSkin.dds"
-					},
-					{
-						"id": 8435,
-						"key": "MirrorShell",
-						"name": "Lustrzana Skorupa",
-						"shortDesc": "Zyskujesz @MRBase@ pkt. odporności na magię. <br>Efekty leczące, w tym te pochodzące z przedmiotów zaopatrzeniowych, chwilowo zwiększają twoją odporność na magię o @EvolveBonusMR*100@%.<br>",
-						"longDesc": "Zyskujesz @MRBase@ pkt. odporności na magię. <br><br>Efekty leczące z przedmiotów zaopatrzeniowych leczą za co najmniej @FlatHealThreshold@ pkt. zdrowia, a tarcze zwiększają twoją odporność na magię o @EvolveBonusMR*100@% na @EvolveShellDuration@ sek. ",
-						"icon": "ASSETS/Perks/Styles/Resolve/MirrorShell/MirrorShell.dds"
-					},
 					{
 						"id": 8429,
 						"key": "Conditioning",
@@ -454,6 +446,14 @@
 						"shortDesc": "Po otrzymaniu obrażeń od wrogiego bohatera zregeneruj z czasem trochę brakującego zdrowia. ",
 						"longDesc": "Po otrzymaniu obrażeń od wrogiego bohatera @RegenPercentMax.0*100@% twojego brakującego zdrowia +@RegenFlat.0@ pkt. zregeneruje się w ciągu @RegenSeconds@ sek.",
 						"icon": "ASSETS/Perks/Styles/Resolve/SecondWind/SecondWind.dds"
+					},
+					{
+						"id": 8472,
+						"key": "Chrysalis",
+						"name": "Poczwarka",
+						"shortDesc": "Zaczynasz grę z dodatkowymi @StartingHealth@ pkt. zdrowia. Przy następującej liczbie udziałów w zabójstwach: @MaxTakedowns@ możesz użyć tego zdrowia, by zyskać: <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptacyjna</font></lol-uikit-tooltipped-keyword> premia wynosząca @AdaptiveForce.-1*0.6@ pkt. obrażeń od ataku lub @AdaptiveForce@ pkt. mocy umiejętności.",
+						"longDesc": "Zaczynasz grę z dodatkowymi @StartingHealth@ pkt. zdrowia. Przy następującej liczbie udziałów w zabójstwach: @MaxTakedowns@ możesz użyć tego zdrowia, by zyskać: <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptacyjna</font></lol-uikit-tooltipped-keyword> premia wynosząca @AdaptiveForce.-1*0.6@ pkt. obrażeń od ataku lub @AdaptiveForce@ pkt. mocy umiejętności.",
+						"icon": "ASSETS/Perks/Styles/Resolve/Chrysalis/Chrysalis.dds"
 					}
 				]
 			},

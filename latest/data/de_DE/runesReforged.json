@@ -177,7 +177,7 @@
 						"name": "Perfektes Timing",
 						"shortDesc": "Du erhältst eine kostenlose Stoppuhr. Die Stoppuhr verfügt über einen einmalig nutzbaren <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Stasis'>„Stase“</lol-uikit-tooltipped-keyword>-Effekt.",
 						"longDesc": "Erhalte zu Beginn des Spiels eine „Laufende Stoppuhr“, die sich nach @InitialCooldown.0@&nbsp;Minuten in eine Stoppuhr verwandelt. Die Stoppuhr gewährt einen einmaligen „Stase“-Effekt.<br><br>Verringert die Abklingzeiten von Zhonyas Stundenglas, Schutzengel und Steinpanzer des Wasserspeiers um @PercentGAZhonyasCDR.0*100@&nbsp;%.",
-						"icon": "ASSETS/Perks/Styles/Style5/PerfectTiming/PerfectTiming.dds"
+						"icon": "ASSETS/Perks/Styles/Inspiration/PerfectTiming/PerfectTiming.dds"
 					}
 				]
 			},
@@ -189,7 +189,7 @@
 						"name": "Zukunftsmarkt",
 						"shortDesc": "Du kannst Gegenstände auf Kredit kaufen.",
 						"longDesc": "Du kannst Gegenstände auf Kredit kaufen. Der Betrag, den du leihen kannst, erhöht sich mit der Zeit.<br><br>Leihgebühr: @ExcessCostPenaltyFlat@&nbsp;Gold",
-						"icon": "ASSETS/Perks/Styles/Style5/FuturesMarket/FuturesMarket.dds"
+						"icon": "ASSETS/Perks/Styles/Inspiration/FuturesMarket/FuturesMarket.dds"
 					},
 					{
 						"id": 8316,
@@ -270,6 +270,14 @@
 						"shortDesc": "Deine Angriffe und Bewegungen bauen Energiesteigerungen auf. Bei 100&nbsp;Steigerungen heilt dich dein nächster Angriff und gewährt dir erhöhtes Lauftempo.",
 						"longDesc": "Deine Angriffe und Bewegungen bauen Energiesteigerungen auf. Bei 100&nbsp;Steigerungen ist der nächste Angriff aufgeladen.<br><br>Aufgeladene Angriffe heilen dich um @HealBase@–@HealMax@ (+@HealBonusADRatio.-1@&nbsp;zusätzlicher Angriffsschaden, +@HealAPRatio.-1@&nbsp;Fähigkeitsstärke) und gewähren dir für @MSDuration.0@&nbsp;Sekunde(n) +@MSBuff*100@&nbsp;% Lauftempo.<br><rules>Die Effektivität der Heilung beträgt @MinionHealMod*100@&nbsp;%, wenn dein Ziel ein Vasall ist (@MinionHealMod*50@&nbsp;% bei Fernkampf-Champions).<br>Bei einem kritischen Treffer wird die Heilung um @HealCritMod*100@&nbsp;% deines kritischen Schadensmodifikators erhöht.</rules>",
 						"icon": "ASSETS/Perks/Styles/Precision/FleetFootwork/FleetFootwork.dds"
+					},
+					{
+						"id": 8010,
+						"key": "Conqueror",
+						"name": "Eroberer",
+						"shortDesc": "Nach @ThresholdTime@&nbsp;Sekunden im Kampf verleiht dir dein erster Angriff gegen einen gegnerischen Champion Angriffsschaden und konvertiert deinen Schaden teilweise in absoluten Schaden.",
+						"longDesc": "Nach @ThresholdTime@&nbsp;Sekunden im Kampf verleiht dir dein erster Angriff gegen einen gegnerischen Champion für @BuffDuration@&nbsp;Sekunden abhängig von der Stufe @BaseAD@–@MaxAD@&nbsp;Angriffsschaden und konvertiert @TrueDamageBase*100@&nbsp;% deines Schadens gegen Champions in absoluten Schaden.<br><br><rules>Nur Nahkämpfer: Dieser Buff wird erneuert, wenn du einem gegnerischen Champion Schaden zufügst.</rules>",
+						"icon": "ASSETS/Perks/Styles/Precision/Conqueror/Conqueror.dds"
 					}
 				]
 			},
@@ -295,7 +303,7 @@
 						"id": 8009,
 						"key": "PresenceOfMind",
 						"name": "Geistesgegenwart",
-						"shortDesc": "Nachdem du eine Stufe aufgestiegen bist oder an einem Kill beteiligt warst, wird dein verbrauchtes Mana @BuffDuration@Sekunden lang vollständig zurückerstattet.",
+						"shortDesc": "Nachdem du eine Stufe aufgestiegen bist oder an einem Kill beteiligt warst, wird dein verbrauchtes Mana @BuffDuration@&nbsp;Sekunden lang vollständig zurückerstattet.",
 						"longDesc": "Nachdem du eine Stufe aufgestiegen bist oder an einem Kill beteiligt warst, wird dein verbrauchtes Mana @BuffDuration@&nbsp;Sekunden lang vollständig zurückerstattet.",
 						"icon": "ASSETS/Perks/Styles/Precision/LastResort/LastResortIcon.dds"
 					}
@@ -379,7 +387,7 @@
 						"id": 8439,
 						"key": "Aftershock",
 						"name": "Nachbeben",
-						"shortDesc": "Nachdem du einen gegnerischen Champion <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Immobilize'>bewegungsunfähig</lol-uikit-tooltipped-keyword> gemacht hast, erhältst du Verteidigung und verursachst nach einer Verzögerung um dich herum <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>adaptiven Schaden</lol-uikit-tooltipped-keyword>.",
+						"shortDesc": "Nachdem du einen gegnerischen Champion <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Immobilize'>bewegungsunfähig</lol-uikit-tooltipped-keyword> gemacht hast, erhältst du Verteidigung und verursachst nach einer Verzögerung um dich herum magischen Schaden.",
 						"longDesc": "Nachdem du einen gegnerischen Champion bewegungsunfähig gemacht hast, erhöht sich deine Rüstung und Magieresistenz @DelayBeforeBurst.1@&nbsp;Sekunden lang um @FlatResists@–@FlatResistMaximum@. Daraufhin explodierst du und verursachst magischen Schaden an nahen Gegnern.<br><br>Schaden: @StartingBaseDamage@–@MaxBaseDamage@ (+@HealthRatio.-1@&nbsp;% deines maximalen Lebens) (+@DamageRatioAD*100@&nbsp;% deines zusätzlichen Angriffsschadens) (+@DamageRatioAP*100@&nbsp;% deiner Fähigkeitsstärke)<br>Abklingzeit: @Cooldown@&nbsp;Sekunden",
 						"icon": "ASSETS/Perks/Styles/Resolve/VeteranAftershock/VeteranAftershock.dds"
 					},
@@ -413,32 +421,16 @@
 					},
 					{
 						"id": 8473,
-						"key": "BucklerRing",
+						"key": "BonePlating",
 						"name": "Knochenpanzerung",
-						"shortDesc": "Nachdem ein gegnerischer Champion dir Schaden zugefügt hat, verursachen die nächsten @BlockCount@&nbsp;Fähigkeiten oder Angriffe von Gegnern gegen dich @BlockBase@–@BlockMax@&nbsp;weniger Schaden.<br><br>Dauer: @BlockDuration@&nbsp;s<br>Abklingzeit: @Cooldown@&nbsp;s",
-						"longDesc": "Nachdem ein gegnerischer Champion dir Schaden zugefügt hat, verursachen die nächsten @BlockCount@&nbsp;Fähigkeiten oder Angriffe von Gegnern gegen dich @BlockBase@–@BlockMax@&nbsp;weniger Schaden.<br><br>Dauer: @BlockDuration@&nbsp;s<br>Abklingzeit: @Cooldown@&nbsp;s",
-						"icon": "ASSETS/Perks/Styles/Resolve/BucklerRing/BucklerRing.dds"
+						"shortDesc": "Nachdem ein gegnerischer Champion dir Schaden zugefügt hat, verursachen seine nächsten @BlockCount@&nbsp;Fähigkeiten oder Angriffe gegen dich @BlockBase@–@BlockMax@ weniger Schaden.<br><br>Dauer: @BlockDuration@&nbsp;s<br>Abklingzeit: @Cooldown@&nbsp;s",
+						"longDesc": "Nachdem ein gegnerischer Champion dir Schaden zugefügt hat, verursachen seine nächsten @BlockCount@&nbsp;Fähigkeiten oder Angriffe gegen dich @BlockBase@–@BlockMax@ weniger Schaden.<br><br>Dauer: @BlockDuration@&nbsp;s<br>Abklingzeit: @Cooldown@&nbsp;s",
+						"icon": "ASSETS/Perks/Styles/Resolve/BonePlating/BonePlating.dds"
 					}
 				]
 			},
 			{
 				"runes": [
-					{
-						"id": 8430,
-						"key": "IronSkin",
-						"name": "Eisenhaut",
-						"shortDesc": "Du erhältst +@ArmorBase@&nbsp;Rüstung. <br>Heilungen, einschließlich deiner Tränke, erhöhen deine Rüstung vorübergehend um @TotalExtraArmor*100@&nbsp;%.",
-						"longDesc": "Du erhältst +@ArmorBase@&nbsp;Rüstung. <br><br>Heileffekte durch Verbrauchsgegenstände und Heilungen um mindestens @FlatHealThreshold@&nbsp;Leben und Schilde erhöhen deine Rüstung @EvolveArmorDuration@&nbsp;Sekunden lang um @TotalExtraArmor*100@&nbsp;%.",
-						"icon": "ASSETS/Perks/Styles/Resolve/IronSkin/IronSkin.dds"
-					},
-					{
-						"id": 8435,
-						"key": "MirrorShell",
-						"name": "Spiegelschale",
-						"shortDesc": "Du erhältst +@MRBase@&nbsp;Magieresistenz. <br>Heilungen, einschließlich deiner Tränke, erhöhen deine Magieresistenz vorübergehend um @EvolveBonusMR*100@&nbsp;%.<br>",
-						"longDesc": "Du erhältst +@MRBase@&nbsp;Magieresistenz. <br><br>Heileffekte durch Verbrauchsgegenstände und Heilungen um mindestens @FlatHealThreshold@&nbsp;Leben und Schilde erhöhen deine Magieresistenz @EvolveShellDuration@&nbsp;Sekunden lang um @EvolveBonusMR*100@&nbsp;%. ",
-						"icon": "ASSETS/Perks/Styles/Resolve/MirrorShell/MirrorShell.dds"
-					},
 					{
 						"id": 8429,
 						"key": "Conditioning",
@@ -454,6 +446,14 @@
 						"shortDesc": "Wenn du Schaden durch einen gegnerischen Champion erleidest, wirst du über Zeit um einen Teil deines fehlenden Lebens geheilt. ",
 						"longDesc": "Wenn du Schaden durch einen gegnerischen Champion erleidest, wirst du über @RegenSeconds@&nbsp;Sekunden hinweg um @RegenPercentMax.0*100@&nbsp;% deines fehlenden Lebens +@RegenFlat.0@ geheilt.",
 						"icon": "ASSETS/Perks/Styles/Resolve/SecondWind/SecondWind.dds"
+					},
+					{
+						"id": 8472,
+						"key": "Chrysalis",
+						"name": "Kokon",
+						"shortDesc": "Du beginnst das Spiel mit @StartingHealth@&nbsp;zusätzlichem Leben. Bei @MaxTakedowns@&nbsp;Kills, an denen du beteiligt warst, konsumierst du das Leben und erhältst einen <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptiven</font></lol-uikit-tooltipped-keyword> Bonus von @AdaptiveForce.-1*0.6@&nbsp;Angriffsschaden oder @AdaptiveForce@&nbsp;Fähigkeitsstärke.",
+						"longDesc": "Du beginnst das Spiel mit @StartingHealth@&nbsp;zusätzlichem Leben. Bei @MaxTakedowns@&nbsp;Kills, an denen du beteiligt warst, konsumierst du das Leben und erhältst einen <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptiven</font></lol-uikit-tooltipped-keyword> Bonus von @AdaptiveForce.-1*0.6@&nbsp;Angriffsschaden oder @AdaptiveForce@&nbsp;Fähigkeitsstärke.",
+						"icon": "ASSETS/Perks/Styles/Resolve/Chrysalis/Chrysalis.dds"
 					}
 				]
 			},
@@ -564,7 +564,7 @@
 						"key": "Celerity",
 						"name": "Flinkheit",
 						"shortDesc": "Du erhältst @PercentMS.0@&nbsp;% zusätzliches Lauftempo. Du erhältst zusätzliche Fähigkeitsstärke oder zusätzlichen Angriffsschaden <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'>(adaptiv)</lol-uikit-tooltipped-keyword>. Der Bonus ist abhängig von deinem zusätzlichen Lauftempo. ",
-						"longDesc": "Erhalte um @PercentMS.0@&nbsp;% erhöhtes Lauftempo.<br>Dein zusätzliches Lauftempo wird <font color='#48C4B7'>adaptiv</font> in Angriffsschaden oder Fähigkeitsstärke mit einer Rate von @AdaptiveAD*8@&nbsp;% Angriffsschaden oder @AdaptiveAP*8@&nbsp;% Fähigkeitsstärke umgewandelt.",
+						"longDesc": "Du erhältst um @PercentMS.0@&nbsp;% erhöhtes Lauftempo.<br>Dein zusätzliches Lauftempo wird <font color='#48C4B7'>adaptiv</font> in Angriffsschaden oder Fähigkeitsstärke umgewandelt (Verhältnis: @AdaptiveAD*8@&nbsp;% Angriffsschaden / @AdaptiveAP*8@&nbsp;% Fähigkeitsstärke).",
 						"icon": "ASSETS/Perks/Styles/Sorcery/Celerity/CelerityTemp.dds"
 					},
 					{

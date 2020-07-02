@@ -177,7 +177,7 @@
 						"name": "Perfect Timing",
 						"shortDesc": "Mendapatkan Free Stopwatch. Stopwatch memiliki satu kali efek penggunaan <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Stasis'>Stasis</lol-uikit-tooltipped-keyword>.",
 						"longDesc": "Mulai permainan dengan Commencing Stopwatch yang berubah menjadi Stopwatch setelah @InitialCooldown.0@ menit. Stopwatch memiliki satu kali efek penggunaan Stasis.<br><br>Mengurangi Cooldown, Zhonya's Hourglass, Guardian Angel, dan Gargoyle Stoneplate sebesar @PercentGAZhonyasCDR.0*100@%.",
-						"icon": "ASSETS/Perks/Styles/Style5/PerfectTiming/PerfectTiming.dds"
+						"icon": "ASSETS/Perks/Styles/Inspiration/PerfectTiming/PerfectTiming.dds"
 					}
 				]
 			},
@@ -189,7 +189,7 @@
 						"name": "Future's Market",
 						"shortDesc": "Anda bisa berutang untuk membeli Item.",
 						"longDesc": "Anda bisa berutang untuk membeli Item. Jumlah pinjaman Anda meningkat seiring waktu.<br><br>Biaya Peminjaman: @ExcessCostPenaltyFlat@ Gold",
-						"icon": "ASSETS/Perks/Styles/Style5/FuturesMarket/FuturesMarket.dds"
+						"icon": "ASSETS/Perks/Styles/Inspiration/FuturesMarket/FuturesMarket.dds"
 					},
 					{
 						"id": 8316,
@@ -270,6 +270,14 @@
 						"shortDesc": "Menyerang dan bergerak mengumpulkan tumpukan Energy. Pada 100 tumpukan, serangan Anda berikutnya memberi Heal dan mendapatkan peningkatan <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>MS</lol-uikit-tooltipped-keyword>.",
 						"longDesc": "Menyerang dan bergerak membangun tumpukan Energy. Pada 100 tumpukan, serangan Anda berikutnya mendapatkan efek Energized.<br><br>Serangan Energized memberi Anda Heal sebesar @HealBase@ - @HealMax@ (+@HealBonusADRatio.-1@ Bonus AD, +@HealAPRatio.-1@ AP) dan memberikan +@MSBuff*100@% Movement Speed selama @MSDuration.0@ detik.<br><rules>Heal @MinionHealMod*100@% sama efektifnya ketika digunakan pada Minion (@MinionHealMod*50@% efektif untuk jarak jauh).<br>Heal meningkat sebesar @HealCritMod*100@% dari Critical Damage Modifier ketika dipicu Critical Hit.</rules>",
 						"icon": "ASSETS/Perks/Styles/Precision/FleetFootwork/FleetFootwork.dds"
+					},
+					{
+						"id": 8010,
+						"key": "Conqueror",
+						"name": "Conqueror",
+						"shortDesc": "Setelah @ThresholdTime@ detik dalam pertarungan, serangan pertama Anda pada Champion musuh memberi Anda AD dan mengubah sebagian Damage Anda menjadi True Damage.",
+						"longDesc": "Setelah @ThresholdTime@ detik dalam pertarungan, serangan pertama Anda pada Champion musuh memberi Anda @BaseAD@ - @MaxAD@ AD, berdasarkan level, selama @BuffDuration@ detik dan mengubah @TrueDamageBase*100@% Damage Anda pada Champion menjadi True Damage.<br><br><rules>Melee Saja: Menghasilkan Damage pada Champion musuh mengulangi Buff ini.</rules>",
+						"icon": "ASSETS/Perks/Styles/Precision/Conqueror/Conqueror.dds"
 					}
 				]
 			},
@@ -295,8 +303,8 @@
 						"id": 8009,
 						"key": "PresenceOfMind",
 						"name": "Presence of Mind",
-						"shortDesc": "Selama @BuffDuration@ detik setelah mendapatkan level atau Kill atau Assist, Mana yang Anda gunakan dipulihkan sepenuhnya.",
-						"longDesc": "Selama @BuffDuration@ detik setelah naik level atau mendapatkan Kill atau Assist, Mana yang Anda gunakan dipulihkan sepenuhnya.",
+						"shortDesc": "Selama @BuffDuration@ detik setelah naik level atau mendapatkan Kill atau Assist, Mana yang Anda gunakan dipulihkan seluruhnya.",
+						"longDesc": "Selama @BuffDuration@ detik setelah naik level atau mendapatkan Kill atau Assist, Mana yang Anda gunakan akan dipulihkan seluruhnya.",
 						"icon": "ASSETS/Perks/Styles/Precision/LastResort/LastResortIcon.dds"
 					}
 				]
@@ -379,7 +387,7 @@
 						"id": 8439,
 						"key": "Aftershock",
 						"name": "Aftershock",
-						"shortDesc": "Setelah <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Immobilize'>melumpuhkan</lol-uikit-tooltipped-keyword> Champion musuh mendapatkan pertahanan dan setelahnya menghasilkan Burst <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>Damage adaptif</lol-uikit-tooltipped-keyword> di sekitar Anda.",
+						"shortDesc": "Setelah <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Immobilize'>melumpuhkan</lol-uikit-tooltipped-keyword> Champion musuh mendapatkan pertahanan kemudian menghasilkan Burst Magic Damage di sekitar Anda.",
 						"longDesc": "Setelah melumpuhkan Champion musuh, meningkatkan Armor dan Magic Resist Anda sebesar @FlatResists@ - @FlatResistMaximum@ selama @DelayBeforeBurst.1@ detik. Kemudian meledak, menghasilkan Magic Damage pada musuh terdekat.<br><br>Damage: @StartingBaseDamage@ - @MaxBaseDamage@ (+@HealthRatio.-1@% dari Health maksimum Anda) (+@DamageRatioAD*100@% dari bonus Attack Damage Anda) (+@DamageRatioAP*100@% dari Ability Power Anda)<br>Cooldown: @Cooldown@ detik",
 						"icon": "ASSETS/Perks/Styles/Resolve/VeteranAftershock/VeteranAftershock.dds"
 					},
@@ -413,32 +421,16 @@
 					},
 					{
 						"id": 8473,
-						"key": "BucklerRing",
+						"key": "BonePlating",
 						"name": "Bone Plating",
-						"shortDesc": "Setelah menerima Damage dari Champion musuh, Ability atau serangan ke @BlockCount@ berikutnya yang Anda terima dari mereka menghasilkan @BlockBase@-@BlockMax@ pengurangan Damage.<br><br>Durasi: @BlockDuration@ detik<br>Cooldown: @Cooldown@ detik",
-						"longDesc": "Setelah menerima Damage dari Champion musuh, Ability atau serangan ke @BlockCount@ berikutnya yang Anda terima dari mereka menghasilkan @BlockBase@-@BlockMax@ pengurangan Damage.<br><br>Durasi: @BlockDuration@ detik<br>Cooldown: @Cooldown@ detik",
-						"icon": "ASSETS/Perks/Styles/Resolve/BucklerRing/BucklerRing.dds"
+						"shortDesc": "Setelah menerima Damage dari Champion musuh, Ability atau serangan ke @BlockCount@ yang Anda terima dari mereka menghasilkan @BlockBase@-@BlockMax@ pengurangan Damage.<br><br>Durasi: @BlockDuration@ detik<br>Cooldown: @Cooldown@ detik",
+						"longDesc": "Setelah menerima Damage dari Champion musuh, Ability atau serangan ke @BlockCount@ yang Anda terima dari mereka menghasilkan @BlockBase@-@BlockMax@ pengurangan Damage.<br><br>Durasi: @BlockDuration@ detik<br>Cooldown: @Cooldown@ detik",
+						"icon": "ASSETS/Perks/Styles/Resolve/BonePlating/BonePlating.dds"
 					}
 				]
 			},
 			{
 				"runes": [
-					{
-						"id": 8430,
-						"key": "IronSkin",
-						"name": "Iron Skin",
-						"shortDesc": "Mendapatkan +@ArmorBase@ Armor. <br>Heal, termasuk Item konsumsi, meningkatkan Armor Anda sebesar @TotalExtraArmor*100@% untuk sementara.",
-						"longDesc": "Mendapatkan +@ArmorBase@ Armor. <br><br>Efek Heal dari Item konsumsi, memberi Heal sebesar setidaknya @FlatHealThreshold@ Health dan Shield yang meningkatkan Armor Anda sebesar @TotalExtraArmor*100@% selama @EvolveArmorDuration@ detik.",
-						"icon": "ASSETS/Perks/Styles/Resolve/IronSkin/IronSkin.dds"
-					},
-					{
-						"id": 8435,
-						"key": "MirrorShell",
-						"name": "Mirror Shell",
-						"shortDesc": "Mendapatkan +@MRBase@ Magic Resist. <br>Heal, termasuk Item konsumsi, meningkatkan Magic Resist Anda sebesar @EvolveBonusMR*100@% untuk sementara.<br>",
-						"longDesc": "Mendapatkan +@MRBase@ Magic Resist. <br><br>Efek Heal Item konsumsi, memberi Heal setidaknya sebesar @FlatHealThreshold@ Health dan Shield yang meningkatkan  Magic Resist Anda sebesar @EvolveBonusMR*100@% selama @EvolveShellDuration@ detik. ",
-						"icon": "ASSETS/Perks/Styles/Resolve/MirrorShell/MirrorShell.dds"
-					},
 					{
 						"id": 8429,
 						"key": "Conditioning",
@@ -454,6 +446,14 @@
 						"shortDesc": "Setelah menerima Damage dari Champion musuh akan mendapatkan Heal sebagian besar Health Anda yang hilang secara perlahan. ",
 						"longDesc": "Setelah menerima Damage dari Champion musuh, menerima Heal sebesar @RegenPercentMax.0*100@% dari Health Anda yang hilang +@RegenFlat.0@ selama @RegenSeconds@detik.",
 						"icon": "ASSETS/Perks/Styles/Resolve/SecondWind/SecondWind.dds"
+					},
+					{
+						"id": 8472,
+						"key": "Chrysalis",
+						"name": "Chrysalis",
+						"shortDesc": "Mulai pertandingan dengan tambahan @StartingHealth@ Health. Setelah mendapat @MaxTakedowns@ Kill atau Assist, konsumsi Health tersebut untuk mendapatkan <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptif</font></lol-uikit-tooltipped-keyword> bonus dari @AdaptiveForce.-1*0.6@ Attack Damage atau @AdaptiveForce@ Ability Power.",
+						"longDesc": "Mulai pertandingan dengan tambahan @StartingHealth@ Health. Setelah mendapat @MaxTakedowns@ Kill atau Assist, konsumsi Health tersebut untuk mendapatkan <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptif</font></lol-uikit-tooltipped-keyword> bonus dari @AdaptiveForce.-1*0.6@ Attack Damage atau @AdaptiveForce@ Ability Power.",
+						"icon": "ASSETS/Perks/Styles/Resolve/Chrysalis/Chrysalis.dds"
 					}
 				]
 			},
@@ -535,8 +535,8 @@
 						"id": 8226,
 						"key": "ManaflowBand",
 						"name": "Manaflow Band",
-						"shortDesc": "Secara berkala Ability Anda berikutnya yang digunakan biaya Mana atau Energynya akan dikembalikan dan memulihkan sebagian Mana atau Energy Anda yang hilang.",
-						"longDesc": "Setiap @Cooldown.0@ detik, Ability Anda berikutnya yang digunakan biaya Mana atau Energynya akan dikembalikan, dan memulihkan @MPToRestoreRatio.0*100@% Mana atau Energy Anda yang hilang.",
+						"shortDesc": "Secara berkala Ability berikutnya yang Anda gunakan biaya Mana atau Energynya dikembalikan dan memulihkan sebagian Mana atau Energy Anda yang hilang.",
+						"longDesc": "Setiap @Cooldown.0@ detik, Ability berikutnya yang Anda gunakan biaya Mana atau Energynya akan dikembalikan, dan memulihkan @MPToRestoreRatio.0*100@% Mana atau Energy Anda yang hilang.",
 						"icon": "ASSETS/Perks/Styles/Sorcery/ManaflowBand/ManaflowBand.dds"
 					},
 					{

@@ -177,7 +177,7 @@
 						"name": "Timing parfait",
 						"shortDesc": "Vous recevez 1 Chronomètre gratuit. Chronomètre a un effet <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Stasis'>Stase</lol-uikit-tooltipped-keyword> à usage unique.",
 						"longDesc": "Vous commencez la partie avec 1 Chronomètre de départ qui se transforme en Chronomètre après @InitialCooldown.0@ min de jeu. Chronomètre a un effet Stase à usage unique.<br><br>Réduit de @PercentGAZhonyasCDR.0*100@% le délai de récupération de Sablier de Zhonya, Ange gardien et Lithoplastron de gargouille.",
-						"icon": "ASSETS/Perks/Styles/Style5/PerfectTiming/PerfectTiming.dds"
+						"icon": "ASSETS/Perks/Styles/Inspiration/PerfectTiming/PerfectTiming.dds"
 					}
 				]
 			},
@@ -189,7 +189,7 @@
 						"name": "Marché du futur",
 						"shortDesc": "Vous pouvez vous endetter pour acheter des objets.",
 						"longDesc": "Vous pouvez vous endetter pour acheter des objets. Le montant que vous pouvez emprunter augmente au fil du temps.<br><br>Coût du prêt : @ExcessCostPenaltyFlat@ PO.",
-						"icon": "ASSETS/Perks/Styles/Style5/FuturesMarket/FuturesMarket.dds"
+						"icon": "ASSETS/Perks/Styles/Inspiration/FuturesMarket/FuturesMarket.dds"
 					},
 					{
 						"id": 8316,
@@ -270,6 +270,14 @@
 						"shortDesc": "Attaquer et se déplacer génère des effets Énergie. À 100 effets cumulés, votre prochaine attaque vous soigne et augmente votre <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>vitesse de déplacement</lol-uikit-tooltipped-keyword>.",
 						"longDesc": "Attaquer et se déplacer génère des effets Énergie. À 100 effets cumulés, votre prochaine attaque est énergisée.<br><br>Les attaques énergisées vous rendent @HealBase@ - @HealMax@ (+@HealBonusADRatio.-1@ dégâts d'attaque supplémentaires, +@HealAPRatio.-1@ puissance) PV et augmentent votre vitesse de déplacement de @MSBuff*100@% pendant @MSDuration.0@ sec.<br><rules>L'efficacité des soins est de @MinionHealMod*100@% en cas d'utilisation sur un sbire (@MinionHealMod*50@% à distance).<br>Les soins sont augmentés de @HealCritMod*100@% de votre modificateur de dégâts critiques s'ils sont déclenchés par un coup critique.</rules>",
 						"icon": "ASSETS/Perks/Styles/Precision/FleetFootwork/FleetFootwork.dds"
+					},
+					{
+						"id": 8010,
+						"key": "Conqueror",
+						"name": "Conquérant",
+						"shortDesc": "Après @ThresholdTime@ sec de combat, votre première attaque contre un champion ennemi augmente vos dégâts d'attaque et convertit une partie de vos dégâts en dégâts bruts.",
+						"longDesc": "Après @ThresholdTime@ sec de combat, votre première attaque contre un champion ennemi augmente vos dégâts d'attaque de @BaseAD@ - @MaxAD@ (selon le niveau) pendant @BuffDuration@ sec et convertit @TrueDamageBase*100@% de vos dégâts aux champions en dégâts bruts.<br><br><rules>Mêlée uniquement : blesser un champion ennemi actualise cet effet.</rules>",
+						"icon": "ASSETS/Perks/Styles/Precision/Conqueror/Conqueror.dds"
 					}
 				]
 			},
@@ -379,7 +387,7 @@
 						"id": 8439,
 						"key": "Aftershock",
 						"name": "Après-coup",
-						"shortDesc": "Après avoir <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Immobilize'>immobilisé</lol-uikit-tooltipped-keyword> un champion ennemi, vous augmentez vos défenses, puis vous infligez des <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>dégâts adaptatifs</lol-uikit-tooltipped-keyword> autour de vous.",
+						"shortDesc": "Après avoir <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Immobilize'>immobilisé</lol-uikit-tooltipped-keyword> un champion ennemi, vous augmentez vos défenses, puis vous infligez des dégâts magiques autour de vous.",
 						"longDesc": "Après avoir immobilisé un champion ennemi, votre armure et votre résistance magique augmentent de @FlatResists@ - @FlatResistMaximum@ pendant @DelayBeforeBurst.1@ sec. Une explosion se produit ensuite, infligeant des dégâts magiques aux ennemis proches.<br><br>Dégâts : @StartingBaseDamage@ - @MaxBaseDamage@ (+@HealthRatio.-1@% de vos PV max) (+@DamageRatioAD*100@% de vos dégâts d'attaque supplémentaires) (+@DamageRatioAP*100@% de votre puissance).<br>Délai de récupération : @Cooldown@ sec.",
 						"icon": "ASSETS/Perks/Styles/Resolve/VeteranAftershock/VeteranAftershock.dds"
 					},
@@ -413,32 +421,16 @@
 					},
 					{
 						"id": 8473,
-						"key": "BucklerRing",
+						"key": "BonePlating",
 						"name": "Plaque d'os",
 						"shortDesc": "Après avoir subi des dégâts d'un champion ennemi, ses @BlockCount@ prochains sorts ou attaques vous infligent @BlockBase@-@BlockMax@ pts de dégâts en moins.<br><br>Durée : @BlockDuration@ sec.<br>Délai de récupération : @Cooldown@ sec.",
 						"longDesc": "Après avoir subi des dégâts d'un champion ennemi, ses @BlockCount@ prochains sorts ou attaques vous infligent @BlockBase@-@BlockMax@ pts de dégâts en moins.<br><br>Durée : @BlockDuration@ sec.<br>Délai de récupération : @Cooldown@ sec.",
-						"icon": "ASSETS/Perks/Styles/Resolve/BucklerRing/BucklerRing.dds"
+						"icon": "ASSETS/Perks/Styles/Resolve/BonePlating/BonePlating.dds"
 					}
 				]
 			},
 			{
 				"runes": [
-					{
-						"id": 8430,
-						"key": "IronSkin",
-						"name": "Peau de fer",
-						"shortDesc": "Vous obtenez +@ArmorBase@ armure. <br>Les soins, y compris les consommables, augmentent temporairement votre armure de @TotalExtraArmor*100@%.",
-						"longDesc": "Vous obtenez +@ArmorBase@ armure. <br><br>Les effets de soins des consommables, les soins qui vous rendent au moins @FlatHealThreshold@ PV et les boucliers augmentent votre armure de @TotalExtraArmor*100@% pendant @EvolveArmorDuration@ sec.",
-						"icon": "ASSETS/Perks/Styles/Resolve/IronSkin/IronSkin.dds"
-					},
-					{
-						"id": 8435,
-						"key": "MirrorShell",
-						"name": "Carapace miroir",
-						"shortDesc": "Vous obtenez +@MRBase@ résistance magique. <br>Les soins, y compris les consommables, augmentent temporairement votre résistance magique de @EvolveBonusMR*100@%.<br>",
-						"longDesc": "Vous obtenez +@MRBase@ résistance magique. <br><br>Les effets de soins des consommables, les soins qui vous rendent au moins @FlatHealThreshold@ PV et les boucliers augmentent votre résistance magique de @EvolveBonusMR*100@% pendant @EvolveShellDuration@ sec. ",
-						"icon": "ASSETS/Perks/Styles/Resolve/MirrorShell/MirrorShell.dds"
-					},
 					{
 						"id": 8429,
 						"key": "Conditioning",
@@ -454,6 +446,14 @@
 						"shortDesc": "Après avoir subi des dégâts d'un champion ennemi, vous récupérez une partie de vos PV manquants sur la durée. ",
 						"longDesc": "Après avoir subi des dégâts d'un champion ennemi, vous récupérez @RegenPercentMax.0*100@% de vos PV manquants +@RegenFlat.0@ en @RegenSeconds@ sec.",
 						"icon": "ASSETS/Perks/Styles/Resolve/SecondWind/SecondWind.dds"
+					},
+					{
+						"id": 8472,
+						"key": "Chrysalis",
+						"name": "Chrysalide",
+						"shortDesc": "Vous commencez la partie avec @StartingHealth@ PV supplémentaires. Après avoir participé à @MaxTakedowns@ éliminations, vous consommez ces PV pour gagner un bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptatif</font></lol-uikit-tooltipped-keyword> de @AdaptiveForce.-1*0.6@ dégâts d'attaque ou @AdaptiveForce@ puissance.",
+						"longDesc": "Vous commencez la partie avec @StartingHealth@ PV supplémentaires. Après avoir participé à @MaxTakedowns@ éliminations, vous consommez ces PV pour gagner un bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptatif</font></lol-uikit-tooltipped-keyword> de @AdaptiveForce.-1*0.6@ dégâts d'attaque ou @AdaptiveForce@ puissance.",
+						"icon": "ASSETS/Perks/Styles/Resolve/Chrysalis/Chrysalis.dds"
 					}
 				]
 			},
