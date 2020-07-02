@@ -228,12 +228,12 @@
 						"icon": "ASSETS/Perks/Styles/Resolve/HotPursuit/HotPursuit.dds"
 					},
 					{
-						"id": 8339,
-						"key": "TheThirdPath",
-						"name": "천상의 신체",
-						"shortDesc": "영구적으로 체력이 @HealthBonus@ 증가합니다.<br>게임 시작 후 @EndTime@분까지 챔피언 및 몬스터 대상 피해량이 @ChampionDamagePenalty*100@% 감소합니다.",
-						"longDesc": "영구적으로 체력이 @HealthBonus@ 증가합니다.<br>게임 시작 후 @EndTime@분까지 챔피언 및 몬스터 대상 피해량이 @ChampionDamagePenalty*100@% 감소합니다.<br><br><hr></hr><br><i>'가장 위대한 전설은 영원히 별 안에 살아남는다.' <br>—꿈꾸는 자, 다프나</i>",
-						"icon": "ASSETS/Perks/Styles/Inspiration/TheThirdPath/TheThirdPath.dds"
+						"id": 8352,
+						"key": "TimeWarpTonic",
+						"name": "시간 왜곡 물약",
+						"shortDesc": "물약, 비스킷, 영약 지속시간 @PotionDuration*100@% 증가. 물약, 비스킷, 영약 효과를 받고 있을 때 이동 속도 @BonusMS*100@% 증가",
+						"longDesc": "물약, 비스킷, 영약의 지속시간이 @PotionDuration*100@% 길어지며 물약, 비스킷, 영약의 효과를 받고 있을 때 이동 속도가 @BonusMS*100@% 증가합니다.",
+						"icon": "ASSETS/Perks/Styles/Inspiration/TimeWarpTonic/TimeWarpTonic.dds"
 					}
 				]
 			}
@@ -249,15 +249,15 @@
 				"runes": [
 					{
 						"id": 8005,
-						"key": "PressThreeAttacks",
+						"key": "PressTheAttack",
 						"name": "집중 공격",
 						"shortDesc": "적 챔피언을 연속 @HitsRequired@회 기본 공격하면 적의 약점이 노출되며 추가 피해를 줌. 약점이 노출된 적은 @AmpDuration@초 동안 모든 상대에게서 추가 피해를 받음",
-						"longDesc": "적 챔피언에게 연속으로 @HitsRequired@회 기본 공격을 가하면 레벨에 따라 @MinDamage@ ~ @MaxDamage@의 추가 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>적응형 피해</font></lol-uikit-tooltipped-keyword>를 입히고 적의 약점을 노출시킵니다. 약점이 노출된 적은 @AmpDuration@초 동안 모든 상대에게서 @AmpPotencySelf.0*100@%의 추가 피해를 받습니다.",
-						"icon": "ASSETS/Perks/Styles/Precision/PressThreeAttacks/PressThreeAttacks.dds"
+						"longDesc": "적 챔피언에게 연속으로 @HitsRequired@회 기본 공격을 가하면 레벨에 따라 @MinDamage@ ~ @MaxDamage@의 추가 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>적응형 피해</font></lol-uikit-tooltipped-keyword>를 입히고 적의 약점을 노출시킵니다. 약점이 노출된 적은 @AmpDuration@초 동안 모든 상대에게서 @AmpPotencyStartSelf.0*100@ ~ @AmpPotencyMaxSelf.0*100@%의 추가 피해를 받습니다.",
+						"icon": "ASSETS/Perks/Styles/Precision/PressTheAttack/PressTheAttack.dds"
 					},
 					{
 						"id": 8008,
-						"key": "Berserk",
+						"key": "LethalTempo",
 						"name": "치명적 속도",
 						"shortDesc": "챔피언에게 피해를 입히고 @LeadInDelay.1@초 후 치명적 속도 상태 돌입. 치명적 속도 상태에서는 공격 속도 대폭 증가 및 일시적으로 공격 속도 상한 초과 가능",
 						"longDesc": "적 챔피언에게 피해를 주고 @LeadInDelay.1@초 후, @AttackSpeedBuffDurationMin@초 동안 레벨에 따라 공격 속도가 @AttackSpeedMin*100@ ~ @AttackSpeedMax*100@% 증가합니다. 적 챔피언을 공격하면 효과 지속시간이 @AttackSpeedBuffDurationMax@초까지 증가합니다.<br><br>재사용 대기시간: @Cooldown@초<br><br>치명적 속도 상태에서는 일시적으로 최고 공격 속도 제한을 초과할 수 있습니다.",
@@ -265,11 +265,11 @@
 					},
 					{
 						"id": 8021,
-						"key": "KSFleetFootwork",
+						"key": "FleetFootwork",
 						"name": "기민한 발놀림",
 						"shortDesc": "공격 및 이동 시 충전. 충전 중첩 100회 상태로 공격 시 체력 회복 및 <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">이동 속도</lol-uikit-tooltipped-keyword> 증가",
 						"longDesc": "공격 또는 이동 시 충전 중첩이 쌓입니다. 중첩이 100회에 도달하면 충전 상태로 다음 공격을 할 수 있습니다.<br><br>충전 상태로 공격 시 @HealBase@ ~ @HealMax@ (+추가 공격력의 @HealBonusADRatio.-1@, +주문력의 @HealAPRatio.-1@)에 해당하는 체력이 회복되며 @MSDuration.0@초 동안 이동 속도가 @MSBuff*100@% 증가합니다.<br><rules>미니언에게 사용 시 회복 효과는 @MinionHealMod*100@%만 적용됩니다.<br>공격이 치명타로 적중하면 회복량이 치명타 피해량 증가율의 @HealCritMod*100@%만큼 늘어납니다.</rules>",
-						"icon": "ASSETS/Perks/Styles/Precision/KSFleetFootwork/KSFleetFootwork.dds"
+						"icon": "ASSETS/Perks/Styles/Precision/FleetFootwork/FleetFootwork.dds"
 					}
 				]
 			},
@@ -285,7 +285,7 @@
 					},
 					{
 						"id": 9111,
-						"key": "AdrenalineRush",
+						"key": "Triumph",
 						"name": "승전보",
 						"shortDesc": "챔피언 <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">처치 관여</lol-uikit-tooltipped-keyword> 시 잃은 체력의 @MissingHealthRestored.0*100@%를 회복하며 추가로 @BonusGold@골드 획득 ",
 						"longDesc": "챔피언 처치 또는 어시스트 시 잃은 체력의 @MissingHealthRestored.0*100@%를 회복하며 추가로 @BonusGold@골드를 획득합니다. <br><br><hr></hr><br><i>가장 위험한 게임을 하는 자만이 진정 승리의 환희를 맛보았다고 말할 수 있다.</i>",
@@ -293,9 +293,9 @@
 					},
 					{
 						"id": 8009,
-						"key": "CastOnKill",
+						"key": "PresenceOfMind",
 						"name": "침착",
-						"shortDesc": "레벨이 오르거나 챔피언 처치에 관여한 뒤 @BuffDuration@초 동안 소모한 마나를 모두 돌려받음",
+						"shortDesc": "레벨이 오르거나 챔피언 처치에 관여한 뒤 @BuffDuration@초 동안 소모한 마나를 모두 돌려받습니다.",
 						"longDesc": "레벨이 오르거나 챔피언 처치에 관여한 뒤 @BuffDuration@초 동안 소모한 마나를 모두 돌려받습니다.",
 						"icon": "ASSETS/Perks/Styles/Precision/LastResort/LastResortIcon.dds"
 					}
@@ -305,7 +305,7 @@
 				"runes": [
 					{
 						"id": 9104,
-						"key": "LegendDauntless",
+						"key": "LegendAlacrity",
 						"name": "전설: 민첩함",
 						"shortDesc": "적 챔피언 <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">처치 관여</lol-uikit-tooltipped-keyword> 시 영구적으로 <b>공격 속도</b> 증가 ",
 						"longDesc": "공격 속도가 @AttackSpeedBase*100@% 증가하며 <i>전설</i> 중첩당 @AttackSpeedPerStack*100@%의 공격 속도가 추가로 증가합니다. (최대 전설 중첩 횟수: @MaxLegendStacks@)<br><br>챔피언 처치 관여, 에픽 몬스터 처치 관여, 대형 몬스터 처치, 미니언 처치 시마다 <i>전설</i> 중첩을 얻습니다.",
@@ -321,7 +321,7 @@
 					},
 					{
 						"id": 9103,
-						"key": "LegendInfamy",
+						"key": "LegendBloodline",
 						"name": "전설: 핏빛 길",
 						"shortDesc": "적 챔피언 <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">처치 관여</lol-uikit-tooltipped-keyword> 시 영구적으로 <b>생명력 흡수</b> 효과 획득 ",
 						"longDesc": "<i>전설</i> 중첩당 생명력 흡수가 @LifeStealPerStack*100@% 증가합니다. (최대 전설 중첩 횟수: @MaxLegendStacks@)<br><br>챔피언 처치 관여, 에픽 몬스터 처치 관여, 대형 몬스터 처치, 미니언 처치 시마다 <i>전설</i> 중첩을 얻습니다.",
@@ -341,19 +341,19 @@
 					},
 					{
 						"id": 8017,
-						"key": "GiantSlayer",
+						"key": "CutDown",
 						"name": "체력차 극복",
 						"shortDesc": "적 최대 체력이 더 많을 경우 해당 챔피언에게 추가 피해",
 						"longDesc": "적 챔피언의 최대 체력이 자신보다 @MinHealthDifference@ 이상일 때 해당 챔피언에게 @MinBonusDamagePercent.0*100@%의 추가 피해를 줍니다. 최대 체력 차이가 @MaxHealthDifference@ 이상일 때 추가 피해가 @MaxBonusDamagePercent.0*100@%로 증가합니다.",
-						"icon": "ASSETS/Perks/Styles/Precision/GiantSlayer/GiantSlayer.dds"
+						"icon": "ASSETS/Perks/Styles/Precision/CutDown/CutDown.dds"
 					},
 					{
 						"id": 8299,
-						"key": "ToTheDeath",
+						"key": "LastStand",
 						"name": "최후의 저항",
 						"shortDesc": "체력이 낮을 때 적 챔피언 공격 시 추가 피해",
 						"longDesc": "체력이 @HealthThresholdStart.0*100@% 이하일 때 적 챔피언 공격 시 @MinBonusDamagePercent.0*100@% ~ @MaxBonusDamagePercent.0*100@%의 추가 피해를 줍니다. 체력이 @HealthThresholdEnd.0*100@%일 때 최대 피해량에 도달합니다.",
-						"icon": "ASSETS/Perks/Styles/Sorcery/ToTheDeath/ToTheDeath.dds"
+						"icon": "ASSETS/Perks/Styles/Sorcery/LastStand/LastStand.dds"
 					}
 				]
 			}
@@ -396,14 +396,6 @@
 			{
 				"runes": [
 					{
-						"id": 8242,
-						"key": "Unflinching",
-						"name": "불굴의 의지",
-						"shortDesc": "소환사 주문을 사용한 후 잠시 동안 강인함 및 둔화 저항 증가. 또한 소환사 주문이 재사용 대기 상태가 될 때마다 강인함 및 둔화 저항 추가 증가 ",
-						"longDesc": "소환사 주문을 사용한 후 @BuffDuration@초 동안 @BonusTenacity*100@%의 강인함 및 둔화 저항을 추가로 얻습니다. 또한 소환사 주문이 재사용 대기 상태가 될 때마다 강인함 및 둔화 저항이 @PersistTenacity*100@% 증가합니다. ",
-						"icon": "ASSETS/Perks/Styles/Sorcery/Unflinching/Unflinching.dds"
-					},
-					{
 						"id": 8446,
 						"key": "Demolish",
 						"name": "철거",
@@ -418,6 +410,14 @@
 						"shortDesc": "적 챔피언 <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairMov\">이동 방해</lol-uikit-tooltipped-keyword> 시 표식을 남겨, 아군이 해당 적 공격 시 체력 회복 ",
 						"longDesc": "적 챔피언의 이동을 방해하면 @MarkDuration@초 동안 표식을 남깁니다.<br><br>표식이 남겨진 적을 공격하는 아군 챔피언은 @HealDuration@초에 걸쳐 @FlatHealAmount@ + 나의 최대 체력의 @HealthRatio.-1 * 100@%에 해당하는 체력을 회복합니다. ",
 						"icon": "ASSETS/Perks/Styles/Resolve/FontOfLife/FontOfLife.dds"
+					},
+					{
+						"id": 8473,
+						"key": "BucklerRing",
+						"name": "뼈 방패",
+						"shortDesc": "적 챔피언으로부터 피해를 입은 뒤 적이 가하는 @BlockCount@회의 스킬 및 기본 공격으로부터 @BlockBase@ ~ @BlockMax@만큼 피해를 덜 받습니다.<br><br>지속시간: @BlockDuration@초<br>재사용 대기시간: @Cooldown@초",
+						"longDesc": "적 챔피언으로부터 피해를 입은 뒤 적이 가하는 @BlockCount@회의 스킬 및 기본 공격으로부터 @BlockBase@ ~ @BlockMax@만큼 피해를 덜 받습니다.<br><br>지속시간: @BlockDuration@초<br>재사용 대기시간: @Cooldown@초",
+						"icon": "ASSETS/Perks/Styles/Resolve/BucklerRing/BucklerRing.dds"
 					}
 				]
 			},
@@ -446,6 +446,14 @@
 						"shortDesc": "@MinutesRequired@분 후 방어력 +@ArmorBase@ 및 마법 저항력 +@MRBase@ 증가와 동시에 방어력 및 마법 저항력 @ExtraResist@% 증가",
 						"longDesc": "@MinutesRequired@분 후 방어력 +@ArmorBase@ 및 마법 저항력 +@MRBase@ 증가와 동시에 방어력 및 마법 저항력 @ExtraResist@% 증가",
 						"icon": "ASSETS/Perks/Styles/Resolve/Conditioning/Conditioning.dds"
+					},
+					{
+						"id": 8444,
+						"key": "SecondWind",
+						"name": "재생의 바람",
+						"shortDesc": "적 챔피언에게 피해를 입으면 일정 시간에 걸쳐 잃은 체력의 일부 회복 ",
+						"longDesc": "적 챔피언에게 피해를 입으면 @RegenSeconds@초 동안 잃은 체력의 @RegenPercentMax.0*100@% + @RegenFlat.0@만큼 회복합니다.",
+						"icon": "ASSETS/Perks/Styles/Resolve/SecondWind/SecondWind.dds"
 					}
 				]
 			},
@@ -468,12 +476,12 @@
 						"icon": "ASSETS/Perks/Styles/Resolve/Revitalize/Revitalize.dds"
 					},
 					{
-						"id": 8444,
-						"key": "SecondWind",
-						"name": "재생의 바람",
-						"shortDesc": "적 챔피언에게 피해를 입으면 일정 시간에 걸쳐 잃은 체력의 일부 회복 ",
-						"longDesc": "적 챔피언에게 피해를 입으면 @RegenSeconds@초 동안 잃은 체력의 @RegenPercentMax.0*100@% + @RegenFlat.0@만큼 회복합니다.",
-						"icon": "ASSETS/Perks/Styles/Resolve/SecondWind/SecondWind.dds"
+						"id": 8242,
+						"key": "Unflinching",
+						"name": "불굴의 의지",
+						"shortDesc": "소환사 주문을 사용한 후 잠시 동안 강인함 및 둔화 저항 증가. 또한 소환사 주문이 재사용 대기 상태가 될 때마다 강인함 및 둔화 저항 추가 증가 ",
+						"longDesc": "소환사 주문을 사용한 후 @BuffDuration@초 동안 @BonusTenacity*100@%의 강인함 및 둔화 저항을 추가로 얻습니다. 또한 소환사 주문이 재사용 대기 상태가 될 때마다 강인함 및 둔화 저항이 @PersistTenacity*100@% 증가합니다. ",
+						"icon": "ASSETS/Perks/Styles/Sorcery/Unflinching/Unflinching.dds"
 					}
 				]
 			}

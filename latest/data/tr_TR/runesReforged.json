@@ -140,7 +140,7 @@
 						"key": "KSGlacialAugment",
 						"name": "Buzul Takviyesi",
 						"shortDesc": "Bir rakip şampiyona yönelik ilk saldırın onu yavaşlatır (birim bekleme süresi başına). Şampiyonları aktife sahip eşyalarla yavaşlatmak onlara doğru bir buz ışını gönderir ve bir yavaşlatma alanı oluşturur.",
-						"longDesc": "Bir şampiyona normal saldırı yapmak onu @SlowDuration.0@ saniyeliğine yavaşlatır. Yavaşlatma etkisinin gücü, süre boyunca giderek artar.<li><i>Menzilli</i>: Menzilli saldırılar en fazla %@SlowAmountBase.0*-100@ ila %@SlowAmountMax.0*-100@ yavaşlatır</li><li><i>Yakın Dövüş</i>: Yakın dövüş saldırıları %@SlowAmountBaseMelee.0*-100@ ila %@SlowAmountMaxMelee.0*-100@ yavaşlatır</li> <br>Bir şampiyonu aktifi bulunan eşyalarla yavaşlatmak ona bir buz ışını göndererek çevresindeki zemini @SlowZoneDuration@ saniyeliğine dondurur ve bu zemindeki bütün birimleri %@SlowZoneSlow*-100@ yavaşlatır.<br><br>Bekleme Süresi: Birim başına @UnitCDBase@ ila @UnitCD16@",
+						"longDesc": "Bir şampiyona normal saldırı yapmak onu @SlowDuration.0@ saniyeliğine yavaşlatır. Yavaşlatma etkisinin gücü, süre boyunca giderek artar.<li><i>Menzilli</i>: Menzilli saldırılar en fazla %@SlowAmountBase.0*-100@ ila %@SlowAmountMax.0*-100@ yavaşlatır</li><li><i>Yakın Dövüş</i>: Yakın dövüş saldırıları %@SlowAmountBaseMelee.0*-100@ ila %@SlowAmountMaxMelee.0*-100@ yavaşlatır</li> <br>Bir şampiyonu aktifi bulunan eşyalarla yavaşlatmak ona bir buz ışını göndererek çevresindeki zemini @SlowZoneDuration@ saniyeliğine dondurur ve bu zemindeki bütün birimleri %@SlowZoneSlow*-100@ yavaşlatır.<br><br>Bekleme Süresi: Birim başına @UnitCDBase@ ila @UnitCD16@ sn.",
 						"icon": "ASSETS/Perks/Styles/Inspiration/KSGlacialAugment/KSGlacialAugment.dds"
 					},
 					{
@@ -228,12 +228,12 @@
 						"icon": "ASSETS/Perks/Styles/Resolve/HotPursuit/HotPursuit.dds"
 					},
 					{
-						"id": 8339,
-						"key": "TheThirdPath",
-						"name": "Gök Cismi",
-						"shortDesc": "Kalıcı olarak +@HealthBonus@ Can<br>@EndTime@ dakika geçene kadar şampiyonlara -%@ChampionDamagePenalty*100@ hasar",
-						"longDesc": "Kalıcı olarak +@HealthBonus@ Can<br>@EndTime@ dakika geçene kadar şampiyon ve canavarlara -%@ChampionDamagePenalty*100@ hasar<br><br><hr></hr><br><i>'En büyük efsaneler yıldızlarda yaşar.'<br>- Hayalperest Daphna</i>",
-						"icon": "ASSETS/Perks/Styles/Inspiration/TheThirdPath/TheThirdPath.dds"
+						"id": 8352,
+						"key": "TimeWarpTonic",
+						"name": "Zaman Büken Karışım",
+						"shortDesc": "İksir, peksimet ve karışımlarının süresi %@PotionDuration*100@ artar ve bu etkilerin altındayken %@BonusMS*100@ Hareket Hızı kazanırsın.",
+						"longDesc": "İksir, peksimet ve karışımlarının süresi %@PotionDuration*100@ artar ve bu etkilerin altındayken %@BonusMS*100@ Hareket Hızı kazanırsın.",
+						"icon": "ASSETS/Perks/Styles/Inspiration/TimeWarpTonic/TimeWarpTonic.dds"
 					}
 				]
 			}
@@ -249,15 +249,15 @@
 				"runes": [
 					{
 						"id": 8005,
-						"key": "PressThreeAttacks",
+						"key": "PressTheAttack",
 						"name": "Saldırıya Devam",
 						"shortDesc": "Bir şampiyona @HitsRequired@ saldırı isabet ettirmek onu savunmasız hale getirir, hedefe ilave hasar verir ve hedefin @AmpDuration@ saniye boyunca bütün kaynaklardan fazladan hasar almasını sağlar.",
-						"longDesc": "Bir rakip şampiyona art arda @HitsRequired@ normal vuruş isabet ettirmek @MinDamage@ ila @MaxDamage@ ilave <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>değişken hasar</font></lol-uikit-tooltipped-keyword> (seviyeye bağlı) verir ve hedefin @AmpDuration@ saniye boyunca savunmasız hale gelerek her tür kaynaktan %@AmpPotencySelf.0*100@ fazla hasar almasını sağlar.",
-						"icon": "ASSETS/Perks/Styles/Precision/PressThreeAttacks/PressThreeAttacks.dds"
+						"longDesc": "Bir rakip şampiyona art arda @HitsRequired@ normal vuruş isabet ettirmek @MinDamage@ ila @MaxDamage@ İlave <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>Değişken Hasar</font></lol-uikit-tooltipped-keyword> (seviyeye bağlı) verir ve hedefin @AmpDuration@ saniye boyunca savunmasız hale gelerek her tür kaynaktan %@AmpPotencyStartSelf.0*100@ ila @AmpPotencyMaxSelf.0*100@ fazla hasar almasını sağlar.",
+						"icon": "ASSETS/Perks/Styles/Precision/PressTheAttack/PressTheAttack.dds"
 					},
 					{
 						"id": 8008,
-						"key": "Berserk",
+						"key": "LethalTempo",
 						"name": "Ölümcül Tempo",
 						"shortDesc": "Bir şampiyona hasar verdikten @LeadInDelay.1@ saniye sonra saldırı hızın büyük ölçüde artar. Ölümcül Tempo geçici olarak saldırı hızı sınırını aşmana izin verir.",
 						"longDesc": "Bir şampiyona hasar verdikten @LeadInDelay.1@ saniye sonra saldırı hızın @AttackSpeedBuffDurationMax@ saniyeliğine seviyene bağlı olarak %@AttackSpeedMin*100@ ila %@AttackSpeedMax*100@ artar. Bir şampiyona saldırmak etkinin süresini @AttackSpeedBuffDurationMin@ saniyeye çıkarır.<br><br>Bekleme Süresi: @Cooldown@ sn.<br><br>Ölümcül Tempo geçici bir süreliğine saldırı hızı sınırını aşmana izin verir.",
@@ -265,11 +265,11 @@
 					},
 					{
 						"id": 8021,
-						"key": "KSFleetFootwork",
+						"key": "FleetFootwork",
 						"name": "Ayağı Çabuk",
 						"shortDesc": "Saldırmak ve hareket etmek Enerji yükleri biriktirir. 100 yüke ulaştığında bir sonraki saldırın seni iyileştirir ve sana <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">HH</lol-uikit-tooltipped-keyword> artışı sağlar.",
 						"longDesc": "Saldırmak ve hareket etmek Enerji yükleri biriktirir. 100 yüke ulaştığında bir sonraki saldırın Enerji Dolu hale gelir.<br><br>Enerji Dolu saldırılar seni @HealBase@ ila @HealMax@ (+@HealBonusADRatio.-1@ İlave SG, +@HealAPRatio.-1@ YG) iyileştirir ve @MSDuration.0@ saniyeliğine +%@MSBuff*100@ Hareket Hızı sağlar.<br><rules>İyileştirmeler, minyon üzerinde kullanıldığında %@MinionHealMod*100@ etkili olur.<br>İyileştirme kritik vuruşla tetiklendiğinde, kritik hasar çarpanının %@HealCritMod*100@ kadarına eşdeğer miktarda artar.</rules>",
-						"icon": "ASSETS/Perks/Styles/Precision/KSFleetFootwork/KSFleetFootwork.dds"
+						"icon": "ASSETS/Perks/Styles/Precision/FleetFootwork/FleetFootwork.dds"
 					}
 				]
 			},
@@ -285,7 +285,7 @@
 					},
 					{
 						"id": 9111,
-						"key": "AdrenalineRush",
+						"key": "Triumph",
 						"name": "Zafer",
 						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Alt etmeler</lol-uikit-tooltipped-keyword> eksik canının %@MissingHealthRestored.0*100@ kadarını yeniler ve fazladan @BonusGold@ Altın kazandırır.",
 						"longDesc": "Alt etmeler eksik can miktarının %@MissingHealthRestored.0*100@ kadarını yeniler ve fazladan @BonusGold@ Altın sağlar.<br><br><hr></hr><br><i>''En büyük zafer en tehlikeli oyundan gelir.''<br>-Noxus Hesapçısı</i>",
@@ -293,7 +293,7 @@
 					},
 					{
 						"id": 8009,
-						"key": "CastOnKill",
+						"key": "PresenceOfMind",
 						"name": "Pratik Zekâ",
 						"shortDesc": "Seviye atladıktan veya alt etme gerçekleştirdikten sonraki @BuffDuration@ saniye boyunca yeteneklerine bütün mana harcamalarını geri kazandırır.",
 						"longDesc": "Seviye atladıktan veya alt etme gerçekleştirdikten sonraki @BuffDuration@ saniye boyunca yeteneklerine bütün mana harcamalarını geri kazandırır.",
@@ -305,7 +305,7 @@
 				"runes": [
 					{
 						"id": 9104,
-						"key": "LegendDauntless",
+						"key": "LegendAlacrity",
 						"name": "Efsane: Çeviklik",
 						"shortDesc": "Rakip <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">alt etmek</lol-uikit-tooltipped-keyword> kalıcı <b>saldırı hızı</b> sağlar. ",
 						"longDesc": "%@AttackSpeedBase*100@ Saldırı Hızı ve <i>Efsane</i> yükü başına fazladan %@AttackSpeedPerStack*100@ Saldırı Hızı daha kazanırsın (en fazla @MaxLegendStacks@ yük).<br><br>Her şampiyon alt etme, destansı ve büyük canavar kesme ve minyon biçme <i>Efsane</i> yükü biriktirmede ilerleme sağlar.",
@@ -321,10 +321,10 @@
 					},
 					{
 						"id": 9103,
-						"key": "LegendInfamy",
+						"key": "LegendBloodline",
 						"name": "Efsane: Kan",
 						"shortDesc": "Rakip <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">alt etmek</lol-uikit-tooltipped-keyword> kalıcı<b> can çalma</b> sağlar. ",
-						"longDesc": "<i>Efsane</i> yükü başına %@LifeStealPerStack*100@ Can Çalma kazanırsın (en fazla @MaxLegendStacks@ yük).<br><br>Her şampiyon alt etme, destansı ve büyük canavar kesme ve minyon biçme <i>Efsane</i> yükü biriktirmede ilerleme sağlar.",
+						"longDesc": "<i>Efsane</i> yükü başına %@LifeStealPerStack*100@ Can Çalma kazanırsın (en fazla @MaxLegendStacks@ yük).<br><br>Her şampiyon veya destansı canavar alt etme, büyük canavar kesme ve minyon biçme <i>Efsane</i> yükü biriktirmede ilerleme sağlar.",
 						"icon": "ASSETS/Perks/Styles/Precision/Legend_Infamy.dds"
 					}
 				]
@@ -341,19 +341,19 @@
 					},
 					{
 						"id": 8017,
-						"key": "GiantSlayer",
+						"key": "CutDown",
 						"name": "Biç Devir",
 						"shortDesc": "Azami canı seninkinden yüksek olan şampiyonlara daha fazla hasar verirsin.",
 						"longDesc": "Azami can miktarları seninkinden en az @MinHealthDifference@ fazla olan şampiyonlara %@MinBonusDamagePercent.0*100@ daha fazla hasar verirsin. Azami can farkı @MaxHealthDifference@ olduğunda verdiğin fazladan hasar %@MaxBonusDamagePercent.0*100@ olur.",
-						"icon": "ASSETS/Perks/Styles/Precision/GiantSlayer/GiantSlayer.dds"
+						"icon": "ASSETS/Perks/Styles/Precision/CutDown/CutDown.dds"
 					},
 					{
 						"id": 8299,
-						"key": "ToTheDeath",
+						"key": "LastStand",
 						"name": "Son Direniş",
 						"shortDesc": "Canın azken şampiyonlara daha fazla hasar verirsin.",
 						"longDesc": "%@HealthThresholdStart.0*100@ Can miktarının altındayken şampiyonlara %@MinBonusDamagePercent.0*100@ ila %@MaxBonusDamagePercent.0*100@ fazladan hasar verirsin. En yüksek hasar, %@HealthThresholdEnd.0*100@ Can miktarındayken verilir.",
-						"icon": "ASSETS/Perks/Styles/Sorcery/ToTheDeath/ToTheDeath.dds"
+						"icon": "ASSETS/Perks/Styles/Sorcery/LastStand/LastStand.dds"
 					}
 				]
 			}
@@ -396,14 +396,6 @@
 			{
 				"runes": [
 					{
-						"id": 8242,
-						"key": "Unflinching",
-						"name": "Gözü Kara",
-						"shortDesc": "Bir sihirdar büyüsü kullandıktan sonra kısa süreliğine sıvışma ve yavaşlatma direnci kazandırır. Ayrıca bekleme süresinde olan her sihirdar büyüsü başına da sıvışma ve yavaşlatma direnci sağlar. ",
-						"longDesc": "Bir sihirdar büyüsü kullandıktan sonra @BuffDuration@ saniyeliğine %@BonusTenacity*100@ Sıvışma ve Yavaşlatma Direnci kazandırır. Ayrıca bekleme süresinde olan her sihirdar büyüsü başına %@PersistTenacity*100@ Sıvışma ve Yavaşlatma Direnci sağlar. ",
-						"icon": "ASSETS/Perks/Styles/Sorcery/Unflinching/Unflinching.dds"
-					},
-					{
 						"id": 8446,
 						"key": "Demolish",
 						"name": "Tahrip",
@@ -418,6 +410,14 @@
 						"shortDesc": "Rakip bir şampiyonun <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairMov\">hareketini kısıtlamak</lol-uikit-tooltipped-keyword> onu işaretler. Takım arkadaşların, işaretlediğin hedefe saldırdığında can yeniler. ",
 						"longDesc": "Bir rakip şampiyonun hareketini kısıtlamak onu @MarkDuration@ saniyeliğine işaretler.<br><br>İşaretlenmiş rakiplere saldıran takım arkadaşların, @HealDuration@ saniye içinde @FlatHealAmount@ + senin azami can miktarının %@HealthRatio.-1 * 100@ kadarı iyileşir. ",
 						"icon": "ASSETS/Perks/Styles/Resolve/FontOfLife/FontOfLife.dds"
+					},
+					{
+						"id": 8473,
+						"key": "BucklerRing",
+						"name": "Kemik Zırh",
+						"shortDesc": "Bir rakip şampiyondan hasar aldıktan sonra, rakiplerin sana isabet ettirdiği @BlockCount@ yetenek veya saldırı @BlockBase@ ila @BlockMax@ daha az hasar verir.<br><br>Süre: @BlockDuration@ sn.<br>Bekleme Süresi: @Cooldown@ sn.",
+						"longDesc": "Bir rakip şampiyondan hasar aldıktan sonra, rakiplerin sana isabet ettirdiği @BlockCount@ yetenek veya saldırı @BlockBase@ ila @BlockMax@ daha az hasar verir.<br><br>Süre: @BlockDuration@ sn.<br>Bekleme Süresi: @Cooldown@ sn.",
+						"icon": "ASSETS/Perks/Styles/Resolve/BucklerRing/BucklerRing.dds"
 					}
 				]
 			},
@@ -446,6 +446,14 @@
 						"shortDesc": "@MinutesRequired@ dakikanın ardından +@ArmorBase@ Zırh ile +@MRBase@ Büyü Direnci kazanırsın ve zırh ve büyü direncin %@ExtraResist@ artar.",
 						"longDesc": "@MinutesRequired@ dakikanın ardından +@ArmorBase@ Zırh ile +@MRBase@ Büyü Direnci kazanırsın ve zırh ve büyü direncin %@ExtraResist@ artar.",
 						"icon": "ASSETS/Perks/Styles/Resolve/Conditioning/Conditioning.dds"
+					},
+					{
+						"id": 8444,
+						"key": "SecondWind",
+						"name": "İkinci Şans",
+						"shortDesc": "Bir rakip şampiyondan hasar aldıktan sonra zamanla eksik canının bir kısmını yenilersin.",
+						"longDesc": "Bir rakip şampiyondan hasar aldıktan sonra @RegenSeconds@ saniye içinde eksik can miktarının %@RegenPercentMax.0*100@ kadarı +@RegenFlat.0@ Can yenilersin.",
+						"icon": "ASSETS/Perks/Styles/Resolve/SecondWind/SecondWind.dds"
 					}
 				]
 			},
@@ -468,12 +476,12 @@
 						"icon": "ASSETS/Perks/Styles/Resolve/Revitalize/Revitalize.dds"
 					},
 					{
-						"id": 8444,
-						"key": "SecondWind",
-						"name": "İkinci Şans",
-						"shortDesc": "Bir rakip şampiyondan hasar aldıktan sonra zamanla eksik canının bir kısmını yenilersin.",
-						"longDesc": "Bir rakip şampiyondan hasar aldıktan sonra @RegenSeconds@ saniye içinde eksik can miktarının %@RegenPercentMax.0*100@ kadarı +@RegenFlat.0@ Can yenilersin.",
-						"icon": "ASSETS/Perks/Styles/Resolve/SecondWind/SecondWind.dds"
+						"id": 8242,
+						"key": "Unflinching",
+						"name": "Gözü Kara",
+						"shortDesc": "Bir sihirdar büyüsü kullandıktan sonra kısa süreliğine sıvışma ve yavaşlatma direnci kazandırır. Ayrıca bekleme süresinde olan her sihirdar büyüsü başına da sıvışma ve yavaşlatma direnci sağlar. ",
+						"longDesc": "Bir sihirdar büyüsü kullandıktan sonra @BuffDuration@ saniyeliğine %@BonusTenacity*100@ Sıvışma ve Yavaşlatma Direnci kazandırır. Ayrıca bekleme süresinde olan her sihirdar büyüsü başına %@PersistTenacity*100@ Sıvışma ve Yavaşlatma Direnci sağlar. ",
+						"icon": "ASSETS/Perks/Styles/Sorcery/Unflinching/Unflinching.dds"
 					}
 				]
 			}

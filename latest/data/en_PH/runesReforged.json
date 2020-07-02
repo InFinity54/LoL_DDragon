@@ -228,12 +228,12 @@
 						"icon": "ASSETS/Perks/Styles/Resolve/HotPursuit/HotPursuit.dds"
 					},
 					{
-						"id": 8339,
-						"key": "TheThirdPath",
-						"name": "Celestial Body",
-						"shortDesc": "+@HealthBonus@ Health permanently<br>-@ChampionDamagePenalty*100@% damage to champions and monsters until @EndTime@ min",
-						"longDesc": "+@HealthBonus@ Health permanently<br>-@ChampionDamagePenalty*100@% damage to champions and monsters until @EndTime@ min<br><br><hr></hr><br><i>'The greatest legends live on in the stars.' <br>—Daphna the Dreamer</i>",
-						"icon": "ASSETS/Perks/Styles/Inspiration/TheThirdPath/TheThirdPath.dds"
+						"id": 8352,
+						"key": "TimeWarpTonic",
+						"name": "Time Warp Tonic",
+						"shortDesc": "Your potions, biscuits and elixirs last @PotionDuration*100@% longer, and you gain @BonusMS*100@% Movement Speed while under their effects.",
+						"longDesc": "Your potions, biscuits and elixirs last @PotionDuration*100@% longer, and you gain @BonusMS*100@% Movement Speed while under their effects.",
+						"icon": "ASSETS/Perks/Styles/Inspiration/TimeWarpTonic/TimeWarpTonic.dds"
 					}
 				]
 			}
@@ -249,15 +249,15 @@
 				"runes": [
 					{
 						"id": 8005,
-						"key": "PressThreeAttacks",
+						"key": "PressTheAttack",
 						"name": "Press the Attack",
 						"shortDesc": "Hitting an enemy champion @HitsRequired@ consecutive times makes them vulnerable, dealing bonus damage and causing them to take more damage from all sources for @AmpDuration@s.",
-						"longDesc": "Hitting an enemy champion with @HitsRequired@ consecutive basic attacks deals @MinDamage@ - @MaxDamage@ bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>adaptive damage</font></lol-uikit-tooltipped-keyword> (based on level) and makes them vulnerable, increasing the damage they take by @AmpPotencySelf.0*100@% from all sources for @AmpDuration@s.",
-						"icon": "ASSETS/Perks/Styles/Precision/PressThreeAttacks/PressThreeAttacks.dds"
+						"longDesc": "Hitting an enemy champion with @HitsRequired@ consecutive basic attacks deals @MinDamage@ - @MaxDamage@ bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>adaptive damage</font></lol-uikit-tooltipped-keyword> (based on level) and makes them vulnerable, increasing the damage they take by @AmpPotencyStartSelf.0*100@ - @AmpPotencyMaxSelf.0*100@% from all sources for @AmpDuration@s.",
+						"icon": "ASSETS/Perks/Styles/Precision/PressTheAttack/PressTheAttack.dds"
 					},
 					{
 						"id": 8008,
-						"key": "Berserk",
+						"key": "LethalTempo",
 						"name": "Lethal Tempo",
 						"shortDesc": "@LeadInDelay.1@s after damaging a champion gain a large amount of Attack Speed. Lethal Tempo allows you to temporarily exceed the attack speed limit.",
 						"longDesc": "@LeadInDelay.1@s after damaging a champion gain @AttackSpeedMin*100@ - @AttackSpeedMax*100@% Attack Speed (based on level) for @AttackSpeedBuffDurationMin@s. Attacking a champion extends the effect to @AttackSpeedBuffDurationMax@s.<br><br>Cooldown: @Cooldown@s<br><br>Lethal Tempo allows you to temporarily exceed the attack speed limit.",
@@ -265,11 +265,11 @@
 					},
 					{
 						"id": 8021,
-						"key": "KSFleetFootwork",
+						"key": "FleetFootwork",
 						"name": "Fleet Footwork",
 						"shortDesc": "Attacking and moving builds Energy stacks. At 100 stacks, your next attack heals you and grants increased <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">MS</lol-uikit-tooltipped-keyword>.",
 						"longDesc": "Attacking and moving builds Energy stacks. At 100 stacks, your next attack is Energized.<br><br>Energized attacks heal you for @HealBase@ - @HealMax@ (+@HealBonusADRatio.-1@ Bonus AD, +@HealAPRatio.-1@ AP) and grant +@MSBuff*100@% movement speed for @MSDuration.0@s.<br><rules>Healing is @MinionHealMod*100@% as effective when used on a minion.<br>Healing is increased by @HealCritMod*100@% of your critical damage modifier when triggered by a critical hit.</rules>",
-						"icon": "ASSETS/Perks/Styles/Precision/KSFleetFootwork/KSFleetFootwork.dds"
+						"icon": "ASSETS/Perks/Styles/Precision/FleetFootwork/FleetFootwork.dds"
 					}
 				]
 			},
@@ -285,7 +285,7 @@
 					},
 					{
 						"id": 9111,
-						"key": "AdrenalineRush",
+						"key": "Triumph",
 						"name": "Triumph",
 						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Takedowns</lol-uikit-tooltipped-keyword> restore @MissingHealthRestored.0*100@% of your missing health and grant an additional @BonusGold@ gold. ",
 						"longDesc": "Takedowns restore @MissingHealthRestored.0*100@% of your missing health and grant an additional @BonusGold@ gold. <br><br><hr></hr><br><i>'The most dangerous game brings the greatest glory.' <br>—Noxian Reckoner</i>",
@@ -293,7 +293,7 @@
 					},
 					{
 						"id": 8009,
-						"key": "CastOnKill",
+						"key": "PresenceOfMind",
 						"name": "Presence of Mind",
 						"shortDesc": "For @BuffDuration@s after gaining a level or takedown any mana you spend is fully restored.",
 						"longDesc": "For @BuffDuration@s after gaining a level or takedown any mana you spend is fully restored.",
@@ -305,7 +305,7 @@
 				"runes": [
 					{
 						"id": 9104,
-						"key": "LegendDauntless",
+						"key": "LegendAlacrity",
 						"name": "Legend: Alacrity",
 						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Takedowns</lol-uikit-tooltipped-keyword> on enemies grant permanent <b>Attack Speed</b>. ",
 						"longDesc": "Gain @AttackSpeedBase*100@% attack speed plus an additional @AttackSpeedPerStack*100@% for every <i>Legend</i> stack (max @MaxLegendStacks@ stacks).<br><br>Earn progress toward <i>Legend</i> stacks for every champion takedown, epic monster takedown, large monster kill, and minion kill.",
@@ -321,7 +321,7 @@
 					},
 					{
 						"id": 9103,
-						"key": "LegendInfamy",
+						"key": "LegendBloodline",
 						"name": "Legend: Bloodline",
 						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Takedowns</lol-uikit-tooltipped-keyword> on enemies grant permanent<b> Lifesteal</b>. ",
 						"longDesc": "Gain @LifeStealPerStack*100@% life steal for every <i>Legend</i> stack (max @MaxLegendStacks@ stacks).<br><br>Earn progress toward <i>Legend</i> stacks for every champion takedown, epic monster takedown, large monster kill, and minion kill.",
@@ -341,19 +341,19 @@
 					},
 					{
 						"id": 8017,
-						"key": "GiantSlayer",
+						"key": "CutDown",
 						"name": "Cut Down",
 						"shortDesc": "Deal more damage to champions with more max health than you.",
 						"longDesc": "Deal @MinBonusDamagePercent.0*100@% more damage to champions with @MinHealthDifference@ more max health than you, increasing to @MaxBonusDamagePercent.0*100@% at @MaxHealthDifference@ more max health.",
-						"icon": "ASSETS/Perks/Styles/Precision/GiantSlayer/GiantSlayer.dds"
+						"icon": "ASSETS/Perks/Styles/Precision/CutDown/CutDown.dds"
 					},
 					{
 						"id": 8299,
-						"key": "ToTheDeath",
+						"key": "LastStand",
 						"name": "Last Stand",
 						"shortDesc": "Deal more damage to champions while you are low on health.",
 						"longDesc": "Deal @MinBonusDamagePercent.0*100@% - @MaxBonusDamagePercent.0*100@% increased damage to champions while you are below @HealthThresholdStart.0*100@% health. Max damage gained at @HealthThresholdEnd.0*100@% health.",
-						"icon": "ASSETS/Perks/Styles/Sorcery/ToTheDeath/ToTheDeath.dds"
+						"icon": "ASSETS/Perks/Styles/Sorcery/LastStand/LastStand.dds"
 					}
 				]
 			}
@@ -396,14 +396,6 @@
 			{
 				"runes": [
 					{
-						"id": 8242,
-						"key": "Unflinching",
-						"name": "Unflinching",
-						"shortDesc": "After casting a Summoner Spell, gain Tenacity and Slow Resistance for a short duration. Additionally, gain Tenacity and Slow Resistance for each Summoner Spell on cooldown. ",
-						"longDesc": "After casting a Summoner Spell, gain @BonusTenacity*100@% Tenacity and Slow Resistance for @BuffDuration@s. Additionally, gain @PersistTenacity*100@% Tenacity and Slow Resistance for each Summoner Spell on cooldown. ",
-						"icon": "ASSETS/Perks/Styles/Sorcery/Unflinching/Unflinching.dds"
-					},
-					{
 						"id": 8446,
 						"key": "Demolish",
 						"name": "Demolish",
@@ -418,6 +410,14 @@
 						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairMov\">Impairing</lol-uikit-tooltipped-keyword> the movement of an enemy champion marks them. Your allies heal when attacking champions you've marked. ",
 						"longDesc": "Impairing the movement of an enemy champion marks them for @MarkDuration@s.<br><br>Ally champions who attack marked enemies heal for @FlatHealAmount@ + @HealthRatio.-1 * 100@% of your max health over @HealDuration@s. ",
 						"icon": "ASSETS/Perks/Styles/Resolve/FontOfLife/FontOfLife.dds"
+					},
+					{
+						"id": 8473,
+						"key": "BucklerRing",
+						"name": "Bone Plating",
+						"shortDesc": "After taking damage from an enemy champion, the next @BlockCount@ spells or attacks you receive from enemy deal @BlockBase@-@BlockMax@  less damage.<br><br>Duration: @BlockDuration@s<br>Cooldown: @Cooldown@s",
+						"longDesc": "After taking damage from an enemy champion, the next @BlockCount@ spells or attacks you receive from enemy deal @BlockBase@-@BlockMax@  less damage.<br><br>Duration: @BlockDuration@s<br>Cooldown: @Cooldown@s",
+						"icon": "ASSETS/Perks/Styles/Resolve/BucklerRing/BucklerRing.dds"
 					}
 				]
 			},
@@ -446,6 +446,14 @@
 						"shortDesc": "After @MinutesRequired@ min gain +@ArmorBase@ Armor and +@MRBase@ Magic Resist and increase your Armor and Magic Resist by @ExtraResist@%.",
 						"longDesc": "After @MinutesRequired@ min gain +@ArmorBase@ Armor and +@MRBase@ Magic Resist and increase your Armor and Magic Resist by @ExtraResist@%.",
 						"icon": "ASSETS/Perks/Styles/Resolve/Conditioning/Conditioning.dds"
+					},
+					{
+						"id": 8444,
+						"key": "SecondWind",
+						"name": "Second Wind",
+						"shortDesc": "After taking damage from an enemy champion heal back some missing health over time. ",
+						"longDesc": "After taking damage from an enemy champion, heal for @RegenPercentMax.0*100@% of your missing health +@RegenFlat.0@ over @RegenSeconds@s.",
+						"icon": "ASSETS/Perks/Styles/Resolve/SecondWind/SecondWind.dds"
 					}
 				]
 			},
@@ -468,12 +476,12 @@
 						"icon": "ASSETS/Perks/Styles/Resolve/Revitalize/Revitalize.dds"
 					},
 					{
-						"id": 8444,
-						"key": "SecondWind",
-						"name": "Second Wind",
-						"shortDesc": "After taking damage from an enemy champion heal back some missing health over time. ",
-						"longDesc": "After taking damage from an enemy champion, heal for @RegenPercentMax.0*100@% of your missing health +@RegenFlat.0@ over @RegenSeconds@s.",
-						"icon": "ASSETS/Perks/Styles/Resolve/SecondWind/SecondWind.dds"
+						"id": 8242,
+						"key": "Unflinching",
+						"name": "Unflinching",
+						"shortDesc": "After casting a Summoner Spell, gain Tenacity and Slow Resistance for a short duration. Additionally, gain Tenacity and Slow Resistance for each Summoner Spell on cooldown. ",
+						"longDesc": "After casting a Summoner Spell, gain @BonusTenacity*100@% Tenacity and Slow Resistance for @BuffDuration@s. Additionally, gain @PersistTenacity*100@% Tenacity and Slow Resistance for each Summoner Spell on cooldown. ",
+						"icon": "ASSETS/Perks/Styles/Sorcery/Unflinching/Unflinching.dds"
 					}
 				]
 			}

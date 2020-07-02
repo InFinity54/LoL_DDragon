@@ -228,12 +228,12 @@
 						"icon": "ASSETS/Perks/Styles/Resolve/HotPursuit/HotPursuit.dds"
 					},
 					{
-						"id": 8339,
-						"key": "TheThirdPath",
-						"name": "Himmelskörper",
-						"shortDesc": "+@HealthBonus@&nbsp;dauerhaftes Leben<br>-@ChampionDamagePenalty*100@&nbsp;% Schaden an Champions und Monstern bis Minute&nbsp;@EndTime@",
-						"longDesc": "+@HealthBonus@&nbsp;dauerhaftes Leben<br>-@ChampionDamagePenalty*100@&nbsp;% Schaden an Champions und Monstern bis Minute&nbsp;@EndTime@<br><br><hr></hr><br><i>„Die größten Legenden bestehen in den Sternen fort.“<br>– Daphna, die Träumerin</i>",
-						"icon": "ASSETS/Perks/Styles/Inspiration/TheThirdPath/TheThirdPath.dds"
+						"id": 8352,
+						"key": "TimeWarpTonic",
+						"name": "Tonikum der Zeitkrümmung",
+						"shortDesc": "Deine Tränke, Kekse und Elixiere halten @PotionDuration*100@&nbsp;% länger und du erhältst @BonusMS*100@&nbsp;% Lauftempo, während ihr Effekt aktiv ist.",
+						"longDesc": "Deine Tränke, Kekse und Elixiere halten @PotionDuration*100@&nbsp;% länger und du erhältst @BonusMS*100@&nbsp;% Lauftempo, während ihr Effekt aktiv ist.",
+						"icon": "ASSETS/Perks/Styles/Inspiration/TimeWarpTonic/TimeWarpTonic.dds"
 					}
 				]
 			}
@@ -249,15 +249,15 @@
 				"runes": [
 					{
 						"id": 8005,
-						"key": "PressThreeAttacks",
+						"key": "PressTheAttack",
 						"name": "Fokussierter Angriff",
 						"shortDesc": "Einen gegnerischen Champion @HitsRequired@-mal hintereinander zu treffen, macht ihn verwundbar, was zusätzlichen Schaden verursacht und bewirkt, dass er @AmpDuration@&nbsp;Sekunde(n) lang zusätzlichen Schaden von allen Quellen erleidet.",
-						"longDesc": "Einen gegnerischen Champion mit @HitsRequired@&nbsp;aufeinanderfolgenden normalen Angriffen zu treffen, verursacht @MinDamage@–@MaxDamage@&nbsp;zusätzlichen <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>adaptiven Schaden</font></lol-uikit-tooltipped-keyword> (abhängig von der Stufe) und macht ihn verwundbar, wodurch er während der nächsten @AmpDuration@&nbsp;Sekunden @AmpPotencySelf.0*100@&nbsp;% zusätzlichen Schaden von allen Quellen erleidet.",
-						"icon": "ASSETS/Perks/Styles/Precision/PressThreeAttacks/PressThreeAttacks.dds"
+						"longDesc": "Einen gegnerischen Champion mit @HitsRequired@&nbsp;aufeinanderfolgenden normalen Angriffen zu treffen, verursacht @MinDamage@–@MaxDamage@&nbsp;zusätzlichen <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>adaptiven Schaden</font></lol-uikit-tooltipped-keyword> (abhängig von der Stufe) und macht ihn verwundbar, wodurch er während der nächsten @AmpDuration@&nbsp;Sekunden @AmpPotencyStartSelf.0*100@–@AmpPotencyMaxSelf.0*100@&nbsp;% zusätzlichen Schaden von allen Quellen erleidet.",
+						"icon": "ASSETS/Perks/Styles/Precision/PressTheAttack/PressTheAttack.dds"
 					},
 					{
 						"id": 8008,
-						"key": "Berserk",
+						"key": "LethalTempo",
 						"name": "Tödliches Tempo",
 						"shortDesc": "@LeadInDelay.1@&nbsp;Sekunden, nachdem du einem gegnerischen Champion Schaden zugefügt hast, erhältst du sehr viel zusätzliches Angriffstempo. „Tödliches Tempo“ lässt dich das Höchstangriffstempo vorübergehend überschreiten.",
 						"longDesc": "@LeadInDelay.1@&nbsp;Sekunden, nachdem du einem gegnerischen Champion Schaden zugefügt hast, erhältst du abhängig von der Stufe @AttackSpeedBuffDurationMin@&nbsp;Sekunden lang @AttackSpeedMin*100@–@AttackSpeedMax*100@&nbsp;% Angriffstempo. Wenn du einen Champion angreifst, wird die Dauer des Effekts auf bis zu @AttackSpeedBuffDurationMax@&nbsp;Sekunden verlängert.<br><br>Abklingzeit: @Cooldown@&nbsp;Sekunden<br><br>„Tödliches Tempo“ lässt dich das Höchstangriffstempo vorübergehend überschreiten.",
@@ -265,11 +265,11 @@
 					},
 					{
 						"id": 8021,
-						"key": "KSFleetFootwork",
+						"key": "FleetFootwork",
 						"name": "Leichtfüßigkeit",
-						"shortDesc": "Deine Angriffe und Bewegungen bauen Energiesteigerungen auf. <br>Bei 100&nbsp;Steigerungen heilt dich dein nächster Angriff und gewährt dir erhöhtes <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">Lauftempo</lol-uikit-tooltipped-keyword>.",
-						"longDesc": "Deine Angriffe und Bewegungen bauen Energiesteigerungen auf.<br>Bei 100&nbsp;Steigerungen ist der nächste Angriff aufgeladen.<br><br>Aufgeladene Angriffe heilen dich um @HealBase@–@HealMax@ (+@HealBonusADRatio.-1@&nbsp;zusätzlicher Angriffsschaden, +@HealAPRatio.-1@&nbsp;Fähigkeitsstärke) und gewähren dir für @MSDuration.0@&nbsp;Sekunde(n) +@MSBuff*100@&nbsp;% Lauftempo.<br><rules>Die Effektivität der Heilung beträgt @MinionHealMod*100@&nbsp;%, wenn dein Ziel ein Vasall ist.<br>Bei einem kritischen Treffer wird die Heilung um @HealCritMod*100@&nbsp;% deines kritischen Schadensmodifikators erhöht.</rules>",
-						"icon": "ASSETS/Perks/Styles/Precision/KSFleetFootwork/KSFleetFootwork.dds"
+						"shortDesc": "Deine Angriffe und Bewegungen bauen Energiesteigerungen auf. Bei 100&nbsp;Steigerungen heilt dich dein nächster Angriff und gewährt dir erhöhtes <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">Lauftempo</lol-uikit-tooltipped-keyword>.",
+						"longDesc": "Deine Angriffe und Bewegungen bauen Energiesteigerungen auf. Bei 100&nbsp;Steigerungen ist der nächste Angriff aufgeladen.<br><br>Aufgeladene Angriffe heilen dich um @HealBase@–@HealMax@ (+@HealBonusADRatio.-1@&nbsp;zusätzlicher Angriffsschaden, +@HealAPRatio.-1@&nbsp;Fähigkeitsstärke) und gewähren dir für @MSDuration.0@&nbsp;Sekunde(n) +@MSBuff*100@&nbsp;% Lauftempo.<br><rules>Die Effektivität der Heilung beträgt @MinionHealMod*100@&nbsp;%, wenn dein Ziel ein Vasall ist.<br>Bei einem kritischen Treffer wird die Heilung um @HealCritMod*100@&nbsp;% deines kritischen Schadensmodifikators erhöht.</rules>",
+						"icon": "ASSETS/Perks/Styles/Precision/FleetFootwork/FleetFootwork.dds"
 					}
 				]
 			},
@@ -285,7 +285,7 @@
 					},
 					{
 						"id": 9111,
-						"key": "AdrenalineRush",
+						"key": "Triumph",
 						"name": "Triumph",
 						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Tötungen</lol-uikit-tooltipped-keyword> stellen @MissingHealthRestored.0*100@&nbsp;% deines fehlenden Lebens wieder her und gewähren zusätzlich @BonusGold@&nbsp;Gold. ",
 						"longDesc": "Tötungen und Unterstützungen stellen @MissingHealthRestored.0*100@&nbsp;% deines fehlenden Lebens wieder her und gewähren zusätzlich @BonusGold@&nbsp;Gold. <br><br><hr></hr><br><i>„Das gefährlichste Spiel bringt den größten Ruhm.“ <br>—&nbsp;Noxianischer Vergelter</i>",
@@ -293,10 +293,10 @@
 					},
 					{
 						"id": 8009,
-						"key": "CastOnKill",
+						"key": "PresenceOfMind",
 						"name": "Geistesgegenwart",
-						"shortDesc": "Für @BuffDuration@&nbsp;Sekunden, nachdem du 1&nbsp;Stufe aufgestiegen bist oder an 1&nbsp;Tötung/Unterstützung beteiligt warst, wird verbrauchtes Mana vollständig zurückerstattet.",
-						"longDesc": "Für @BuffDuration@&nbsp;Sekunden, nachdem du 1&nbsp;Stufe aufgestiegen bist oder an 1&nbsp;Tötung/Unterstützung beteiligt warst, wird verbrauchtes Mana vollständig zurückerstattet.",
+						"shortDesc": "Nachdem du eine Stufe aufgestiegen bist oder an einem Kill beteiligt warst, wird dein verbrauchtes Mana @BuffDuration@&nbsp;Sekunden lang vollständig zurückerstattet.",
+						"longDesc": "Nachdem du eine Stufe aufgestiegen bist oder an einem Kill beteiligt warst, wird dein verbrauchtes Mana @BuffDuration@&nbsp;Sekunden lang vollständig zurückerstattet.",
 						"icon": "ASSETS/Perks/Styles/Precision/LastResort/LastResortIcon.dds"
 					}
 				]
@@ -305,26 +305,26 @@
 				"runes": [
 					{
 						"id": 9104,
-						"key": "LegendDauntless",
+						"key": "LegendAlacrity",
 						"name": "Legende: Eifer",
-						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Tötungen</lol-uikit-tooltipped-keyword> von Gegnern gewähren dauerhaftes <b>Angriffstempo</b>. ",
-						"longDesc": "Erhalte @AttackSpeedBase*100@&nbsp;% Angriffstempo sowie zusätzliche @AttackSpeedPerStack*100@&nbsp;% für jede <i>„Legenden“</i>-Steigerung (max. @MaxLegendStacks@&nbsp;Steigerungen).<br><br>Erhöhe deine <i>„Legenden“</i>-Steigerungen, indem du Champions tötest, epische Monster niederringst, große Monster tötest oder Vasallen ausschaltest.",
+						"shortDesc": "Wenn du Gegner <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">tötest</lol-uikit-tooltipped-keyword>, erhältst du dauerhaftes <b>Angriffstempo</b>. ",
+						"longDesc": "Du erhältst für jede <i>„Legenden“</i>-Steigerung @AttackSpeedBase*100@&nbsp;% Angriffstempo sowie zusätzliche @AttackSpeedPerStack*100@&nbsp;% (max. @MaxLegendStacks@&nbsp;Steigerungen).<br><br>Du kannst deine <i>„Legenden“</i>-Steigerungen erhöhen, indem du Champions tötest, epische Monster niederringst, große Monster erlegst oder Vasallen ausschaltest.",
 						"icon": "ASSETS/Perks/Styles/Precision/Legend_Heroism.dds"
 					},
 					{
 						"id": 9105,
 						"key": "LegendTenacity",
 						"name": "Legende: Zähigkeit",
-						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Tötungen</lol-uikit-tooltipped-keyword> von Gegnern gewähren dauerhafte <b>Zähigkeit</b>. ",
-						"longDesc": "Erhalte @TenacityBase*100@&nbsp;% Zähigkeit sowie zusätzliche @TenacityPerStack*100@&nbsp;% für jede <i>„Legenden“</i>-Steigerung (max. @MaxLegendStacks@&nbsp;Steigerungen).<br><br>Erhöhe deine <i>„Legenden“</i>-Steigerungen, indem du Champions tötest, epische Monster niederringst, große Monster tötest oder Vasallen ausschaltest.",
+						"shortDesc": "Wenn du Gegner <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">tötest</lol-uikit-tooltipped-keyword>, erhältst du dauerhafte <b>Zähigkeit</b>. ",
+						"longDesc": "Du erhältst für jede <i>„Legenden“</i>-Steigerung @TenacityBase*100@&nbsp;% Zähigkeit sowie zusätzliche @TenacityPerStack*100@&nbsp;% (max. @MaxLegendStacks@&nbsp;Steigerungen).<br><br>Du kannst deine <i>„Legenden“</i>-Steigerungen erhöhen, indem du Champions tötest, epische Monster niederringst, große Monster erlegst oder Vasallen ausschaltest.",
 						"icon": "ASSETS/Perks/Styles/Precision/Legend_Tenacity.dds"
 					},
 					{
 						"id": 9103,
-						"key": "LegendInfamy",
+						"key": "LegendBloodline",
 						"name": "Legende: Blutdurst",
-						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Tötungen</lol-uikit-tooltipped-keyword> von Gegnern gewähren dauerhaften <b>Lebensraub</b>. ",
-						"longDesc": "Erhalte @LifeStealPerStack*100@&nbsp;% Lebensraub für jede <i>„Legenden“</i>-Steigerung (max. @MaxLegendStacks@&nbsp;Steigerungen).<br><br>Erhöhe deine <i>„Legenden“</i>-Steigerungen, indem du Champions tötest, epische Monster niederringst, große Monster tötest oder Vasallen ausschaltest.",
+						"shortDesc": "Wenn du Gegner <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">tötest</lol-uikit-tooltipped-keyword>, erhältst du dauerhaften<b> Lebensraub</b>. ",
+						"longDesc": "Du erhältst für jede <i>Legenden</i>-Steigerung @LifeStealPerStack*100@&nbsp;% Lebensraub (maximal @MaxLegendStacks@&nbsp;Steigerungen).<br><br>Du kannst deine <i>Legenden</i>-Steigerungen erhöhen, indem du Champions tötest, epische Monster niederringst, große Monster erlegst oder Vasallen ausschaltest.",
 						"icon": "ASSETS/Perks/Styles/Precision/Legend_Infamy.dds"
 					}
 				]
@@ -341,19 +341,19 @@
 					},
 					{
 						"id": 8017,
-						"key": "GiantSlayer",
+						"key": "CutDown",
 						"name": "Niedermäher",
 						"shortDesc": "Verursache mehr Schaden an Champions, die über mehr maximales Leben verfügen als du.",
 						"longDesc": "Verursache @MinBonusDamagePercent.0*100@&nbsp;% mehr Schaden an Champions, die über @MinHealthDifference@&nbsp;maximales Leben mehr verfügen als du. Bei @MaxHealthDifference@&nbsp;maximalem Leben mehr erhöht sich der Wert auf bis zu @MaxBonusDamagePercent.0*100@&nbsp;%.",
-						"icon": "ASSETS/Perks/Styles/Precision/GiantSlayer/GiantSlayer.dds"
+						"icon": "ASSETS/Perks/Styles/Precision/CutDown/CutDown.dds"
 					},
 					{
 						"id": 8299,
-						"key": "ToTheDeath",
+						"key": "LastStand",
 						"name": "Letztes Gefecht",
 						"shortDesc": "Verursache mehr Schaden an Champions, wenn du wenig Leben hast.",
 						"longDesc": "Verursache @MinBonusDamagePercent.0*100@–@MaxBonusDamagePercent.0*100@&nbsp;% zusätzlichen Schaden an Champions, wenn dein Leben unter @HealthThresholdStart.0*100@&nbsp;% liegt. Der maximale Schaden wird bei @HealthThresholdEnd.0*100@&nbsp;% Leben erreicht.",
-						"icon": "ASSETS/Perks/Styles/Sorcery/ToTheDeath/ToTheDeath.dds"
+						"icon": "ASSETS/Perks/Styles/Sorcery/LastStand/LastStand.dds"
 					}
 				]
 			}
@@ -396,14 +396,6 @@
 			{
 				"runes": [
 					{
-						"id": 8242,
-						"key": "Unflinching",
-						"name": "Unerschrocken",
-						"shortDesc": "Nach dem Wirken eines Beschwörerzaubers erhältst du für kurze Zeit Zähigkeit und Verlangsamungsresistenz. Du erhältst zusätzlich Zähigkeit und Verlangsamungsresistenz für jeden Beschwörerzauber, der gerade abklingt. ",
-						"longDesc": "Nach dem Wirken eines Beschwörerzaubers erhältst du @BuffDuration@&nbsp;Sekunden lang @BonusTenacity*100@&nbsp;% Zähigkeit und Verlangsamungsresistenz. Du erhältst zusätzlich @PersistTenacity*100@&nbsp;% Zähigkeit und Verlangsamungsresistenz für jeden Beschwörerzauber, der gerade abklingt. ",
-						"icon": "ASSETS/Perks/Styles/Sorcery/Unflinching/Unflinching.dds"
-					},
-					{
 						"id": 8446,
 						"key": "Demolish",
 						"name": "Abriss",
@@ -418,6 +410,14 @@
 						"shortDesc": "Wenn die Bewegung eines gegnerischen Champions <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairMov\">eingeschränkt</lol-uikit-tooltipped-keyword> wird, wird dieser markiert. Deine Verbündeten werden geheilt, wenn sie einen von dir markierten Champion angreifen. ",
 						"longDesc": "Wenn die Bewegung eines gegnerischen Champions eingeschränkt wird, wird dieser @MarkDuration@&nbsp;Sekunden lang markiert.<br><br>Verbündete Champions, die markierte Gegner angreifen, werden @HealDuration@&nbsp;Sekunden lang um @FlatHealAmount@ + @HealthRatio.-1 * 100@&nbsp;% deines maximalen Lebens geheilt. ",
 						"icon": "ASSETS/Perks/Styles/Resolve/FontOfLife/FontOfLife.dds"
+					},
+					{
+						"id": 8473,
+						"key": "BucklerRing",
+						"name": "Knochenpanzerung",
+						"shortDesc": "Nachdem ein gegnerischer Champion dir Schaden zugefügt hat, verursachen die nächsten @BlockCount@&nbsp;Fähigkeiten oder Angriffe von Gegnern gegen dich @BlockBase@–@BlockMax@ weniger Schaden.<br><br>Dauer: @BlockDuration@&nbsp;s<br>Abklingzeit: @Cooldown@&nbsp;s",
+						"longDesc": "Nachdem ein gegnerischer Champion dir Schaden zugefügt hat, verursachen die nächsten @BlockCount@&nbsp;Fähigkeiten oder Angriffe von Gegnern gegen dich @BlockBase@–@BlockMax@ weniger Schaden.<br><br>Dauer: @BlockDuration@&nbsp;s<br>Abklingzeit: @Cooldown@&nbsp;s",
+						"icon": "ASSETS/Perks/Styles/Resolve/BucklerRing/BucklerRing.dds"
 					}
 				]
 			},
@@ -446,6 +446,14 @@
 						"shortDesc": "Nach @MinutesRequired@&nbsp;Minuten erhältst du +@ArmorBase@&nbsp;Rüstung und +@MRBase@&nbsp;Magieresistenz und deine Rüstung sowie Magieresistenz erhöhen sich um @ExtraResist@&nbsp;%.",
 						"longDesc": "Nach @MinutesRequired@&nbsp;Minuten erhältst du +@ArmorBase@&nbsp;Rüstung und +@MRBase@&nbsp;Magieresistenz und deine Rüstung sowie Magieresistenz erhöhen sich um @ExtraResist@&nbsp;%.",
 						"icon": "ASSETS/Perks/Styles/Resolve/Conditioning/Conditioning.dds"
+					},
+					{
+						"id": 8444,
+						"key": "SecondWind",
+						"name": "Aufschwung",
+						"shortDesc": "Wenn du Schaden durch einen gegnerischen Champion erleidest, wirst du über Zeit um einen Teil deines fehlenden Lebens geheilt. ",
+						"longDesc": "Wenn du Schaden durch einen gegnerischen Champion erleidest, wirst du über @RegenSeconds@&nbsp;Sekunden hinweg um @RegenPercentMax.0*100@&nbsp;% deines fehlenden Lebens +@RegenFlat.0@ geheilt.",
+						"icon": "ASSETS/Perks/Styles/Resolve/SecondWind/SecondWind.dds"
 					}
 				]
 			},
@@ -468,12 +476,12 @@
 						"icon": "ASSETS/Perks/Styles/Resolve/Revitalize/Revitalize.dds"
 					},
 					{
-						"id": 8444,
-						"key": "SecondWind",
-						"name": "Aufschwung",
-						"shortDesc": "Wenn du Schaden durch einen gegnerischen Champion erleidest, wirst du über Zeit um einen Teil deines fehlenden Lebens geheilt. ",
-						"longDesc": "Wenn du Schaden durch einen gegnerischen Champion erleidest, wirst du über @RegenSeconds@&nbsp;Sekunden hinweg um @RegenPercentMax.0*100@&nbsp;% deines fehlenden Lebens +@RegenFlat.0@ geheilt.",
-						"icon": "ASSETS/Perks/Styles/Resolve/SecondWind/SecondWind.dds"
+						"id": 8242,
+						"key": "Unflinching",
+						"name": "Unerschrocken",
+						"shortDesc": "Nach dem Wirken eines Beschwörerzaubers erhältst du für kurze Zeit Zähigkeit und Verlangsamungsresistenz. Du erhältst zusätzlich Zähigkeit und Verlangsamungsresistenz für jeden Beschwörerzauber, der gerade abklingt. ",
+						"longDesc": "Nach dem Wirken eines Beschwörerzaubers erhältst du @BuffDuration@&nbsp;Sekunden lang @BonusTenacity*100@&nbsp;% Zähigkeit und Verlangsamungsresistenz. Du erhältst zusätzlich @PersistTenacity*100@&nbsp;% Zähigkeit und Verlangsamungsresistenz für jeden Beschwörerzauber, der gerade abklingt. ",
+						"icon": "ASSETS/Perks/Styles/Sorcery/Unflinching/Unflinching.dds"
 					}
 				]
 			}

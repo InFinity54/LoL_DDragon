@@ -228,12 +228,12 @@
 						"icon": "ASSETS/Perks/Styles/Resolve/HotPursuit/HotPursuit.dds"
 					},
 					{
-						"id": 8339,
-						"key": "TheThirdPath",
-						"name": "Corps céleste",
-						"shortDesc": "+@HealthBonus@ PV (bonus définitif)<br>-@ChampionDamagePenalty*100@% de dégâts aux champions et aux monstres jusqu'à @EndTime@ min de jeu.",
-						"longDesc": "+@HealthBonus@ PV (bonus définitif)<br>-@ChampionDamagePenalty*100@% de dégâts aux champions et aux monstres jusqu'à @EndTime@ min de jeu.<br><br><hr></hr><br><i>''Les plus grandes légendes perdurent dans les étoiles.'' <br>— Daphna la Rêveuse</i>",
-						"icon": "ASSETS/Perks/Styles/Inspiration/TheThirdPath/TheThirdPath.dds"
+						"id": 8352,
+						"key": "TimeWarpTonic",
+						"name": "Philtre de chronodistorsion",
+						"shortDesc": "Vos potions, biscuits et élixirs durent @PotionDuration*100@% plus longtemps, et vous gagnez @BonusMS*100@% de vitesse de déplacement tant que vous êtes sous leurs effets.",
+						"longDesc": "Vos potions, biscuits et élixirs durent @PotionDuration*100@% plus longtemps, et vous gagnez @BonusMS*100@% de vitesse de déplacement tant que vous êtes sous leurs effets.",
+						"icon": "ASSETS/Perks/Styles/Inspiration/TimeWarpTonic/TimeWarpTonic.dds"
 					}
 				]
 			}
@@ -249,15 +249,15 @@
 				"runes": [
 					{
 						"id": 8005,
-						"key": "PressThreeAttacks",
+						"key": "PressTheAttack",
 						"name": "Attaque soutenue",
 						"shortDesc": "Toucher un champion ennemi @HitsRequired@ fois de suite le rend vulnérable, ce qui lui inflige des dégâts supplémentaires et augmente tous les dégâts qu'il subit pendant @AmpDuration@ sec.",
-						"longDesc": "Toucher un champion ennemi avec @HitsRequired@ attaques de base consécutives inflige @MinDamage@ - @MaxDamage@ pts de <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>dégâts adaptatifs</font></lol-uikit-tooltipped-keyword> supplémentaires (selon le niveau) et le rend vulnérable, ce qui augmente de @AmpPotencySelf.0*100@% tous les dégâts qu'il subit pendant @AmpDuration@ sec.",
-						"icon": "ASSETS/Perks/Styles/Precision/PressThreeAttacks/PressThreeAttacks.dds"
+						"longDesc": "Toucher un champion ennemi avec @HitsRequired@ attaques de base consécutives inflige @MinDamage@ - @MaxDamage@ pts de <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>dégâts adaptatifs</font></lol-uikit-tooltipped-keyword> supplémentaires (selon le niveau) et le rend vulnérable, ce qui augmente de @AmpPotencyStartSelf.0*100@ - @AmpPotencyMaxSelf.0*100@% tous les dégâts qu'il subit pendant @AmpDuration@ sec.",
+						"icon": "ASSETS/Perks/Styles/Precision/PressTheAttack/PressTheAttack.dds"
 					},
 					{
 						"id": 8008,
-						"key": "Berserk",
+						"key": "LethalTempo",
 						"name": "Tempo mortel",
 						"shortDesc": "@LeadInDelay.1@ sec après avoir blessé un champion, votre vitesse d'attaque est grandement augmentée. Tempo mortel vous permet de dépasser temporairement la limite de vitesse d'attaque.",
 						"longDesc": "@LeadInDelay.1@ sec après avoir blessé un champion, votre vitesse d'attaque est augmentée de @AttackSpeedMin*100@ - @AttackSpeedMax*100@% (selon le niveau) pendant @AttackSpeedBuffDurationMin@ sec. Attaquer un champion prolonge la durée de l'effet à @AttackSpeedBuffDurationMax@ sec.<br><br>Délai de récupération : @Cooldown@ sec.<br><br>Tempo mortel vous permet de dépasser temporairement la limite de vitesse d'attaque.",
@@ -265,11 +265,11 @@
 					},
 					{
 						"id": 8021,
-						"key": "KSFleetFootwork",
+						"key": "FleetFootwork",
 						"name": "Jeu de jambes",
 						"shortDesc": "Attaquer et se déplacer génère des effets Énergie. À 100 effets cumulés, votre prochaine attaque vous soigne et augmente votre <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">vitesse de déplacement</lol-uikit-tooltipped-keyword>.",
 						"longDesc": "Attaquer et se déplacer génère des effets Énergie. À 100 effets cumulés, votre prochaine attaque est énergisée.<br><br>Les attaques énergisées vous rendent @HealBase@ - @HealMax@ (+@HealBonusADRatio.-1@ dégâts d'attaque supplémentaires, +@HealAPRatio.-1@ puissance) PV et augmentent votre vitesse de déplacement de @MSBuff*100@% pendant @MSDuration.0@ sec.<br><rules>L'efficacité des soins est de @MinionHealMod*100@% en cas d'utilisation sur un sbire.<br>Les soins sont augmentés de @HealCritMod*100@% de votre modificateur de dégâts critiques s'ils sont déclenchés par un coup critique.</rules>",
-						"icon": "ASSETS/Perks/Styles/Precision/KSFleetFootwork/KSFleetFootwork.dds"
+						"icon": "ASSETS/Perks/Styles/Precision/FleetFootwork/FleetFootwork.dds"
 					}
 				]
 			},
@@ -285,7 +285,7 @@
 					},
 					{
 						"id": 9111,
-						"key": "AdrenalineRush",
+						"key": "Triumph",
 						"name": "Triomphe",
 						"shortDesc": "Participer à l'<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">élimination</lol-uikit-tooltipped-keyword> d'un champion vous rend @MissingHealthRestored.0*100@% de vos PV manquants et vous rapporte @BonusGold@ PO supplémentaires. ",
 						"longDesc": "Participer à l'élimination d'un champion vous rend @MissingHealthRestored.0*100@% de vos PV manquants et vous rapporte @BonusGold@ PO supplémentaires. <br><br><hr></hr><br><i>''La proie la plus dangereuse rapporte la gloire la plus grande.'' <br>—Barème noxien</i>",
@@ -293,7 +293,7 @@
 					},
 					{
 						"id": 8009,
-						"key": "CastOnKill",
+						"key": "PresenceOfMind",
 						"name": "Présence d'esprit",
 						"shortDesc": "Pendant @BuffDuration@ sec après avoir gagné un niveau ou avoir participé à l'élimination d'un champion, le mana que vous dépensez est entièrement restauré.",
 						"longDesc": "Pendant @BuffDuration@ sec après avoir gagné un niveau ou avoir participé à l'élimination d'un champion, le mana que vous dépensez est entièrement restauré.",
@@ -305,7 +305,7 @@
 				"runes": [
 					{
 						"id": 9104,
-						"key": "LegendDauntless",
+						"key": "LegendAlacrity",
 						"name": "Légende : alacrité",
 						"shortDesc": "Participer à l'<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">élimination</lol-uikit-tooltipped-keyword> d'ennemis augmente définitivement votre <b>vitesse d'attaque</b>. ",
 						"longDesc": "Vous gagnez @AttackSpeedBase*100@% de vitesse d'attaque plus @AttackSpeedPerStack*100@% par effet <i>Légende</i> cumulé (max : @MaxLegendStacks@).<br><br>Vous progressez vers l'obtention d'un effet <i>Légende</i> chaque fois que vous participez à l'élimination d'un champion ou d'un monstre épique, et chaque fois que vous tuez un grand monstre ou un sbire.",
@@ -321,7 +321,7 @@
 					},
 					{
 						"id": 9103,
-						"key": "LegendInfamy",
+						"key": "LegendBloodline",
 						"name": "Légende : sangsue",
 						"shortDesc": "Participer à l'<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">élimination</lol-uikit-tooltipped-keyword> d'ennemis augmente définitivement votre <b>Vol de vie</b>. ",
 						"longDesc": "Vous gagnez @LifeStealPerStack*100@% de Vol de vie par effet <i>Légende</i> cumulé (max : @MaxLegendStacks@).<br><br>Vous progressez vers l'obtention d'un effet <i>Légende</i> chaque fois que vous participez à l'élimination d'un champion ou d'un monstre épique, et chaque fois que vous tuez un grand monstre ou un sbire.",
@@ -341,19 +341,19 @@
 					},
 					{
 						"id": 8017,
-						"key": "GiantSlayer",
+						"key": "CutDown",
 						"name": "Abattage",
 						"shortDesc": "Vous infligez plus de dégâts aux champions dont les PV max sont supérieurs aux vôtres.",
 						"longDesc": "Vous infligez @MinBonusDamagePercent.0*100@% de dégâts supplémentaires aux champions qui ont @MinHealthDifference@ PV max de plus que vous, et ce pourcentage augmente à @MaxBonusDamagePercent.0*100@% à @MaxHealthDifference@ PV max de plus que vous.",
-						"icon": "ASSETS/Perks/Styles/Precision/GiantSlayer/GiantSlayer.dds"
+						"icon": "ASSETS/Perks/Styles/Precision/CutDown/CutDown.dds"
 					},
 					{
 						"id": 8299,
-						"key": "ToTheDeath",
+						"key": "LastStand",
 						"name": "Baroud d'honneur",
 						"shortDesc": "Vous infligez plus de dégâts aux champions quand il vous reste peu de PV.",
 						"longDesc": "Vous infligez @MinBonusDamagePercent.0*100@% - @MaxBonusDamagePercent.0*100@% de dégâts supplémentaires aux champions quand vous avez moins de @HealthThresholdStart.0*100@% de vos PV. Les dégâts max sont atteints à @HealthThresholdEnd.0*100@% de vos PV.",
-						"icon": "ASSETS/Perks/Styles/Sorcery/ToTheDeath/ToTheDeath.dds"
+						"icon": "ASSETS/Perks/Styles/Sorcery/LastStand/LastStand.dds"
 					}
 				]
 			}
@@ -396,14 +396,6 @@
 			{
 				"runes": [
 					{
-						"id": 8242,
-						"key": "Unflinching",
-						"name": "Inébranlable",
-						"shortDesc": "Après avoir lancé un sort d'invocateur, vous obtenez de la Ténacité et de la résistance aux ralentissements pendant une courte durée. De plus, votre Ténacité et votre résistance aux ralentissements augmentent pour chaque sort d'invocateur en récupération. ",
-						"longDesc": "Après avoir lancé un sort d'invocateur, vous obtenez @BonusTenacity*100@% de Ténacité et de résistance aux ralentissements pendant @BuffDuration@ sec. De plus, votre Ténacité et votre résistance aux ralentissements augmentent de @PersistTenacity*100@% pour chaque sort d'invocateur en récupération. ",
-						"icon": "ASSETS/Perks/Styles/Sorcery/Unflinching/Unflinching.dds"
-					},
-					{
 						"id": 8446,
 						"key": "Demolish",
 						"name": "Démolition",
@@ -418,6 +410,14 @@
 						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairMov\">Restreindre</lol-uikit-tooltipped-keyword> les déplacements d'un champion ennemi le marque. Vos alliés sont soignés quand ils attaquent les champions que vous avez marqués. ",
 						"longDesc": "Restreindre les déplacements d'un champion ennemi le marque pendant @MarkDuration@ sec.<br><br>Les champions alliés qui attaquent les ennemis marqués récupèrent des PV équivalents à @FlatHealAmount@ + @HealthRatio.-1 * 100@% de vos PV max en @HealDuration@ sec. ",
 						"icon": "ASSETS/Perks/Styles/Resolve/FontOfLife/FontOfLife.dds"
+					},
+					{
+						"id": 8473,
+						"key": "BucklerRing",
+						"name": "Plaque d'os",
+						"shortDesc": "Après avoir subi des dégâts d'un champion ennemi, ses @BlockCount@ prochains sorts ou attaques vous infligent @BlockBase@-@BlockMax@ pts de dégâts en moins.<br><br>Durée : @BlockDuration@ sec.<br>Délai de récupération : @Cooldown@ sec.",
+						"longDesc": "Après avoir subi des dégâts d'un champion ennemi, ses @BlockCount@ prochains sorts ou attaques vous infligent @BlockBase@-@BlockMax@ pts de dégâts en moins.<br><br>Durée : @BlockDuration@ sec.<br>Délai de récupération : @Cooldown@ sec.",
+						"icon": "ASSETS/Perks/Styles/Resolve/BucklerRing/BucklerRing.dds"
 					}
 				]
 			},
@@ -446,6 +446,14 @@
 						"shortDesc": "Après @MinutesRequired@ min de jeu, vous gagnez +@ArmorBase@ armure et +@MRBase@ résistance magique et vous augmentez votre armure et votre résistance magique de @ExtraResist@%.",
 						"longDesc": "Après @MinutesRequired@ min de jeu, vous gagnez +@ArmorBase@ armure et +@MRBase@ résistance magique et vous augmentez votre armure et votre résistance magique de @ExtraResist@%.",
 						"icon": "ASSETS/Perks/Styles/Resolve/Conditioning/Conditioning.dds"
+					},
+					{
+						"id": 8444,
+						"key": "SecondWind",
+						"name": "Second souffle",
+						"shortDesc": "Après avoir subi des dégâts d'un champion ennemi, vous récupérez une partie de vos PV manquants sur la durée. ",
+						"longDesc": "Après avoir subi des dégâts d'un champion ennemi, vous récupérez @RegenPercentMax.0*100@% de vos PV manquants +@RegenFlat.0@ en @RegenSeconds@ sec.",
+						"icon": "ASSETS/Perks/Styles/Resolve/SecondWind/SecondWind.dds"
 					}
 				]
 			},
@@ -468,12 +476,12 @@
 						"icon": "ASSETS/Perks/Styles/Resolve/Revitalize/Revitalize.dds"
 					},
 					{
-						"id": 8444,
-						"key": "SecondWind",
-						"name": "Second souffle",
-						"shortDesc": "Après avoir subi des dégâts d'un champion ennemi, vous récupérez une partie de vos PV manquants sur la durée. ",
-						"longDesc": "Après avoir subi des dégâts d'un champion ennemi, vous récupérez @RegenPercentMax.0*100@% de vos PV manquants +@RegenFlat.0@ en @RegenSeconds@ sec.",
-						"icon": "ASSETS/Perks/Styles/Resolve/SecondWind/SecondWind.dds"
+						"id": 8242,
+						"key": "Unflinching",
+						"name": "Inébranlable",
+						"shortDesc": "Après avoir lancé un sort d'invocateur, vous obtenez de la Ténacité et de la résistance aux ralentissements pendant une courte durée. De plus, votre Ténacité et votre résistance aux ralentissements augmentent pour chaque sort d'invocateur en récupération. ",
+						"longDesc": "Après avoir lancé un sort d'invocateur, vous obtenez @BonusTenacity*100@% de Ténacité et de résistance aux ralentissements pendant @BuffDuration@ sec. De plus, votre Ténacité et votre résistance aux ralentissements augmentent de @PersistTenacity*100@% pour chaque sort d'invocateur en récupération. ",
+						"icon": "ASSETS/Perks/Styles/Sorcery/Unflinching/Unflinching.dds"
 					}
 				]
 			}

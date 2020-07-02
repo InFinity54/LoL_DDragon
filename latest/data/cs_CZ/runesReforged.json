@@ -215,7 +215,7 @@
 						"id": 8347,
 						"key": "Intelligence",
 						"name": "Kosmické porozumění",
-						"shortDesc": "+@CDR*100@<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_CDR\"> % ke zkrácení přebíjecích dob</lol-uikit-tooltipped-keyword><br>+@CDR*100@ % k maximálnímu zkrácení přebíjecích dob<br>+@CDR*100@ % ke zkrácení přebíjecích dob vyvolávačových kouzel<br>+@CDR*100@ % ke zkrácení přebíjecích dob předmětů",
+						"shortDesc": "+@CDR*100@ % <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_CDR\">ke zkrácení přebíjecích dob</lol-uikit-tooltipped-keyword><br>+@CDR*100@ % k maximálnímu zkrácení přebíjecích dob<br>+@CDR*100@ % ke zkrácení přebíjecích dob vyvolávačových kouzel<br>+@CDR*100@ % ke zkrácení přebíjecích dob předmětů",
 						"longDesc": "+@CDR*100@ % ke zkrácení přebíjecích dob<br>+@CDR*100@ % k maximálnímu zkrácení přebíjecích dob<br>+@CDR*100@ % ke zkrácení přebíjecích dob vyvolávačových kouzel<br>+@CDR*100@ % ke zkrácení přebíjecích dob předmětů",
 						"icon": "ASSETS/Perks/Styles/Inspiration/Intelligence/Intelligence.dds"
 					},
@@ -228,12 +228,12 @@
 						"icon": "ASSETS/Perks/Styles/Resolve/HotPursuit/HotPursuit.dds"
 					},
 					{
-						"id": 8339,
-						"key": "TheThirdPath",
-						"name": "Nebeské těleso",
-						"shortDesc": "+@HealthBonus@ zdraví (trvale)<br>-@ChampionDamagePenalty*100@ % k poškození způsobovanému šampionům a příšerám až do @EndTime@. minuty",
-						"longDesc": "+@HealthBonus@ zdraví (trvale)<br>-@ChampionDamagePenalty*100@ % k poškození způsobovanému šampionům a příšerám až do @EndTime@. minuty<br><br><hr></hr><br><i>„Ty nejslavnější legendy žijí dál mezi hvězdami.“ <br>- Daphna, Poutnice mezi sny</i>",
-						"icon": "ASSETS/Perks/Styles/Inspiration/TheThirdPath/TheThirdPath.dds"
+						"id": 8352,
+						"key": "TimeWarpTonic",
+						"name": "Nápoj zakřivení času",
+						"shortDesc": "Tvoje lektvary, sušenky a elixíry působí o @PotionDuration*100@ % déle a pod jejich vlivem získáš @BonusMS*100@ % k rychlosti pohybu.",
+						"longDesc": "Tvoje lektvary, sušenky a elixíry působí o @PotionDuration*100@ % déle a pod jejich vlivem získáš @BonusMS*100@ % k rychlosti pohybu.",
+						"icon": "ASSETS/Perks/Styles/Inspiration/TimeWarpTonic/TimeWarpTonic.dds"
 					}
 				]
 			}
@@ -249,15 +249,15 @@
 				"runes": [
 					{
 						"id": 8005,
-						"key": "PressThreeAttacks",
+						"key": "PressTheAttack",
 						"name": "Nepolevující útok",
 						"shortDesc": "Když @HitsRequired@x po sobě zasáhneš nějakého šampiona, stane se zranitelným, uštědříš mu bonusové poškození a zajistíš, že po dobu @AmpDuration@ sek. mu bude ze všech zdrojů způsobováno zvýšené poškození.",
-						"longDesc": "Zasáhneš-li nějakého nepřátelského šampiona @HitsRequired@ základními útoky po sobě, způsobíš mu @MinDamage@-@MaxDamage@ bodů bonusového <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>adaptivního poškození</font></lol-uikit-tooltipped-keyword> (v závislosti na úrovni) a učiníš jej zranitelným, což bude mít za následek, že mu po dobu @AmpDuration@ sek. bude ze všech zdrojů způsobováno o @AmpPotencySelf.0*100@ % vyšší poškození.",
-						"icon": "ASSETS/Perks/Styles/Precision/PressThreeAttacks/PressThreeAttacks.dds"
+						"longDesc": "Zasáhneš-li nějakého nepřátelského šampiona @HitsRequired@ základními útoky po sobě, způsobíš mu @MinDamage@-@MaxDamage@ bodů bonusového <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>adaptivního poškození</font></lol-uikit-tooltipped-keyword> (v závislosti na úrovni) a učiníš jej zranitelným, což bude mít za následek, že mu po dobu @AmpDuration@ sek. bude ze všech zdrojů způsobováno o @AmpPotencyStartSelf.0*100@-@AmpPotencyMaxSelf.0*100@ % vyšší poškození.",
+						"icon": "ASSETS/Perks/Styles/Precision/PressTheAttack/PressTheAttack.dds"
 					},
 					{
 						"id": 8008,
-						"key": "Berserk",
+						"key": "LethalTempo",
 						"name": "Smrtící tempo",
 						"shortDesc": "@LeadInDelay.1@ sek. poté, co způsobíš poškození nějakému šampionovi, získáš výrazný bonus k rychlosti útoků. Smrtící tempo ti umožní dočasně překonat limit rychlosti útoků.",
 						"longDesc": "@LeadInDelay.1@ sek. poté, co způsobíš poškození nějakému šampionovi, získáš na @AttackSpeedBuffDurationMin@ sek. @AttackSpeedMin*100@-@AttackSpeedMax*100@ % k rychlosti útoků (podle úrovně). Když zaútočíš na šampiona, efekt se prodlouží na @AttackSpeedBuffDurationMax@ sek.<br><br>Přebíjecí doba: @Cooldown@ sek.<br><br>Smrtící tempo ti umožní dočasně překonat limit rychlosti útoků.",
@@ -265,11 +265,11 @@
 					},
 					{
 						"id": 8021,
-						"key": "KSFleetFootwork",
+						"key": "FleetFootwork",
 						"name": "Hbité nohy",
 						"shortDesc": "Útočením a pohybováním se nasčítávají stupně energie. Po dosažení 100 stupňů tě tvůj následující útok vyléčí a zvýší ti <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">rychlost pohybu</lol-uikit-tooltipped-keyword>.",
 						"longDesc": "Útočením a pohybováním se nasčítávají stupně energie. Po dosažení 100 stupňů bude tvůj následující útok nabitý energií.<br><br>Útoky nabité energií ti vyléčí @HealBase@-@HealMax@ zdraví (+@HealBonusADRatio.-1@ bonusového útočného poškození, +@HealAPRatio.-1@ síly schopností) a poskytnou ti na @MSDuration.0@ sek. +@MSBuff*100@ % k rychlosti pohybu.<br><rules>Při použití na poskoka je účinnost léčení @MinionHealMod*100@ %.<br>Pokud k léčení dojde při kritickém zásahu, zvýší se léčení o @HealCritMod*100@ % tvého modifikátoru kritického zásahu.</rules>",
-						"icon": "ASSETS/Perks/Styles/Precision/KSFleetFootwork/KSFleetFootwork.dds"
+						"icon": "ASSETS/Perks/Styles/Precision/FleetFootwork/FleetFootwork.dds"
 					}
 				]
 			},
@@ -285,7 +285,7 @@
 					},
 					{
 						"id": 9111,
-						"key": "AdrenalineRush",
+						"key": "Triumph",
 						"name": "Triumf",
 						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Likvidace</lol-uikit-tooltipped-keyword> ti obnovují @MissingHealthRestored.0*100@ % chybějícího zdraví a poskytnou ti navíc @BonusGold@ zlaťáků. ",
 						"longDesc": "Doražení obnoví @MissingHealthRestored.0*100@ % chybějícího zdraví a poskytne ti navíc @BonusGold@ zlaťáků. <br><br><hr></hr><br><i>„Nejnebezpečnější hra přináší tu největší slávu.“ <br>- Noxijský průzkumník</i>",
@@ -293,7 +293,7 @@
 					},
 					{
 						"id": 8009,
-						"key": "CastOnKill",
+						"key": "PresenceOfMind",
 						"name": "Duchapřítomnost",
 						"shortDesc": "Po dobu @BuffDuration@ sek. od získání nové úrovně nebo likvidace protivníka se ti plně obnovuje veškerá používaná mana.",
 						"longDesc": "Po dobu @BuffDuration@ sek. od získání nové úrovně nebo likvidace protivníka se ti plně obnovuje veškerá používaná mana.",
@@ -305,7 +305,7 @@
 				"runes": [
 					{
 						"id": 9104,
-						"key": "LegendDauntless",
+						"key": "LegendAlacrity",
 						"name": "Legenda: Horlivost",
 						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Likvidováním</lol-uikit-tooltipped-keyword> nepřátel získáváš trvalý bonus k <b>rychlosti útoků</b>. ",
 						"longDesc": "Získáš @AttackSpeedBase*100@ % k rychlosti útoků plus dodatečných @AttackSpeedPerStack*100@ % za každý stupeň <i>Legendy</i> (max. @MaxLegendStacks@ stupňů).<br><br>Stupně <i>Legendy</i> postupně získáváš likvidací šampionů, likvidací epických příšer, zabíjením velkých příšer a zabíjením poskoků.",
@@ -321,7 +321,7 @@
 					},
 					{
 						"id": 9103,
-						"key": "LegendInfamy",
+						"key": "LegendBloodline",
 						"name": "Legenda: Pokrevní linie",
 						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Likvidováním</lol-uikit-tooltipped-keyword> nepřátel získáváš trvalý bonus k <b>léčení útoky</b>. ",
 						"longDesc": "Získáš @LifeStealPerStack*100@ % k léčení útoky za každý stupeň <i>Legendy</i> (max. @MaxLegendStacks@ stupňů).<br><br>Stupně <i>Legendy</i> postupně získáváš likvidací šampionů, likvidací epických příšer, zabíjením velkých příšer a zabíjením poskoků.",
@@ -341,19 +341,19 @@
 					},
 					{
 						"id": 8017,
-						"key": "GiantSlayer",
+						"key": "CutDown",
 						"name": "Podseknutí",
 						"shortDesc": "Šampionům, kteří mají více maximálního zdraví než ty, způsobují tvoje útoky vyšší poškození.",
 						"longDesc": "Všem šampionům, kteří mají o @MinHealthDifference@ víc maximálního zdraví než ty, způsobují tvoje útoky o @MinBonusDamagePercent.0*100@ % vyšší poškození. Pokud mají o @MaxHealthDifference@ víc maximálního zdraví než ty, zvyšuje se tento bonus na @MaxBonusDamagePercent.0*100@ %.",
-						"icon": "ASSETS/Perks/Styles/Precision/GiantSlayer/GiantSlayer.dds"
+						"icon": "ASSETS/Perks/Styles/Precision/CutDown/CutDown.dds"
 					},
 					{
 						"id": 8299,
-						"key": "ToTheDeath",
+						"key": "LastStand",
 						"name": "Poslední vzdor",
 						"shortDesc": "Pokud máš málo zdraví, způsobuješ šampionům zvýšené poškození.",
 						"longDesc": "Pokud máš méně než @HealthThresholdStart.0*100@ % zdraví, způsobuješ šampionům o @MinBonusDamagePercent.0*100@-@MaxBonusDamagePercent.0*100@ % vyšší poškození. Maximálního poškození dosáhneš na @HealthThresholdEnd.0*100@ % zdraví.",
-						"icon": "ASSETS/Perks/Styles/Sorcery/ToTheDeath/ToTheDeath.dds"
+						"icon": "ASSETS/Perks/Styles/Sorcery/LastStand/LastStand.dds"
 					}
 				]
 			}
@@ -396,14 +396,6 @@
 			{
 				"runes": [
 					{
-						"id": 8242,
-						"key": "Unflinching",
-						"name": "Neochvějnost",
-						"shortDesc": "Po seslání vyvolávačova kouzla získáš na chvíli bonus k houževnatosti a odolnosti vůči zpomalení. Za každé vyvolávačovo kouzlo, kterému se počítá přebíjecí doba, navíc obdržíš zvýšení houževnatosti a odolnosti vůči zpomalení. ",
-						"longDesc": "Po seslání vyvolávačova kouzla získáš na @BuffDuration@ sek. @BonusTenacity*100@ % k houževnatosti a odolnosti vůči zpomalení. Za každé vyvolávačovo kouzlo, kterému se počítá přebíjecí doba, se ti navíc houževnatost a odolnost vůči zpomalení zvýší o @PersistTenacity*100@ %. ",
-						"icon": "ASSETS/Perks/Styles/Sorcery/Unflinching/Unflinching.dds"
-					},
-					{
 						"id": 8446,
 						"key": "Demolish",
 						"name": "Zničit",
@@ -418,6 +410,14 @@
 						"shortDesc": "Když nějakému nepřátelskému šampionovi <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairMov\">omezíš</lol-uikit-tooltipped-keyword> pohyblivost, označíš ho. Když pak tvoji spojenci zaútočí na takto označeného protivníka, vyléčí se. ",
 						"longDesc": "Když nějakému nepřátelskému šampionovi omezíš pohyblivost, na @MarkDuration@ sek. ho označíš. <br><br>Spojenečtí šampioni, kteří na takto označené šampiony zaútočí, se během @HealDuration@ sek. vyléčí ve výši @FlatHealAmount@ bodů + @HealthRatio.-1 * 100@ % tvého maximálního zdraví. ",
 						"icon": "ASSETS/Perks/Styles/Resolve/FontOfLife/FontOfLife.dds"
+					},
+					{
+						"id": 8473,
+						"key": "BucklerRing",
+						"name": "Kostěná zbroj",
+						"shortDesc": "Poté, co utrpíš poškození od nějakého nepřátelského šampiona, ti následující @BlockCount@ nepřátelská kouzla nebo útoky způsobí o @BlockBase@-@BlockMax@ bodů nižší poškození než obvykle.<br><br>Trvání: @BlockDuration@ sek.<br>Přebíjecí doba: @Cooldown@ sek.",
+						"longDesc": "Poté, co utrpíš poškození od nějakého nepřátelského šampiona, ti následující @BlockCount@ nepřátelská kouzla nebo útoky způsobí o @BlockBase@-@BlockMax@ bodů nižší poškození než obvykle.<br><br>Trvání: @BlockDuration@ sek.<br>Přebíjecí doba: @Cooldown@ sek.",
+						"icon": "ASSETS/Perks/Styles/Resolve/BucklerRing/BucklerRing.dds"
 					}
 				]
 			},
@@ -446,6 +446,14 @@
 						"shortDesc": "Po @MinutesRequired@ min. získáš @ArmorBase@ brnění a @MRBase@ k odolnosti vůči magii a hodnoty brnění a odolnosti vůči magii se ti zvýší o @ExtraResist@ %.",
 						"longDesc": "Po @MinutesRequired@ min. získáš @ArmorBase@ brnění a @MRBase@ k odolnosti vůči magii a hodnoty brnění a odolnosti vůči magii se ti zvýší o @ExtraResist@ %.",
 						"icon": "ASSETS/Perks/Styles/Resolve/Conditioning/Conditioning.dds"
+					},
+					{
+						"id": 8444,
+						"key": "SecondWind",
+						"name": "Druhý dech",
+						"shortDesc": "Poté, co utrpíš poškození od nepřátelského šampiona, si během určité doby obnovíš část chybějícího zdraví. ",
+						"longDesc": "Poté, co utrpíš poškození od nepřátelského šampiona, si během @RegenSeconds@ sek. vyléčíš @RegenPercentMax.0*100@ % chybějícího zdraví +@RegenFlat.0@ zdraví.",
+						"icon": "ASSETS/Perks/Styles/Resolve/SecondWind/SecondWind.dds"
 					}
 				]
 			},
@@ -468,12 +476,12 @@
 						"icon": "ASSETS/Perks/Styles/Resolve/Revitalize/Revitalize.dds"
 					},
 					{
-						"id": 8444,
-						"key": "SecondWind",
-						"name": "Druhý dech",
-						"shortDesc": "Poté, co utrpíš poškození od nepřátelského šampiona, si během určité doby obnovíš část chybějícího zdraví. ",
-						"longDesc": "Poté, co utrpíš poškození od nepřátelského šampiona, si během @RegenSeconds@ sek. vyléčíš @RegenPercentMax.0*100@ % chybějícího zdraví +@RegenFlat.0@ zdraví.",
-						"icon": "ASSETS/Perks/Styles/Resolve/SecondWind/SecondWind.dds"
+						"id": 8242,
+						"key": "Unflinching",
+						"name": "Neochvějnost",
+						"shortDesc": "Po seslání vyvolávačova kouzla získáš na chvíli bonus k houževnatosti a odolnosti vůči zpomalení. Za každé vyvolávačovo kouzlo, kterému se počítá přebíjecí doba, navíc obdržíš zvýšení houževnatosti a odolnosti vůči zpomalení. ",
+						"longDesc": "Po seslání vyvolávačova kouzla získáš na @BuffDuration@ sek. @BonusTenacity*100@ % k houževnatosti a odolnosti vůči zpomalení. Za každé vyvolávačovo kouzlo, kterému se počítá přebíjecí doba, se ti navíc houževnatost a odolnost vůči zpomalení zvýší o @PersistTenacity*100@ %. ",
+						"icon": "ASSETS/Perks/Styles/Sorcery/Unflinching/Unflinching.dds"
 					}
 				]
 			}

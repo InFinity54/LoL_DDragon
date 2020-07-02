@@ -147,7 +147,7 @@
 						"id": 8359,
 						"key": "KSLooter",
 						"name": "ねこばば",
-						"shortDesc": "スキル使用後、次の通常攻撃を敵チャンピオンに当てると追加ゴールドを獲得する。さらに消費アイテムを獲得する可能性もある。",
+						"shortDesc": "スキル使用後、次の通常攻撃が敵チャンピオンに命中すると追加ゴールドを獲得する。さらに消費アイテムを獲得する可能性もある。",
 						"longDesc": "スキル使用後、次の通常攻撃が敵チャンピオンに命中すると追加ゴールドを獲得する。さらに消費アイテムを獲得する可能性もある。",
 						"icon": "ASSETS/Perks/Styles/Inspiration/KSLooter/KSLooter.dds"
 					}
@@ -168,7 +168,7 @@
 						"key": "MagicalFootwear",
 						"name": "魔法の靴",
 						"shortDesc": "試合開始から@GiveBootsAtMinute@分の時点で無料のブーツを獲得するが、それまではブーツを購入できない。<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">キルまたはアシスト</lol-uikit-tooltipped-keyword>を獲得するたびにブーツを獲得するまでの時間が@SecondsSoonerPerTakedown@秒短縮される。",
-						"longDesc": "試合開始から@GiveBootsAtMinute@分経過するとコスト無しで「ちょっとだけ魔法がかったブーツ」を獲得。それまではブーツを購入できない。キルかアシストするごとにブーツ獲得までの時間が@SecondsSoonerPerTakedown@秒短縮される。<br><br>「ちょっとだけ魔法がかったブーツ」は追加で移動速度 +@AdditionalMovementSpeed@を付与する。",
+						"longDesc": "試合開始から@GiveBootsAtMinute@分経過するとコスト無しで「ちょっとだけ魔法がかったブーツ」を獲得。それまではブーツを購入できない。キルまたはアシストするごとにブーツ獲得までの時間が@SecondsSoonerPerTakedown@秒短縮される。<br><br>「ちょっとだけ魔法がかったブーツ」は追加で移動速度 +@AdditionalMovementSpeed@を付与する。",
 						"icon": "ASSETS/Perks/Styles/Inspiration/MagicalFootwear/MagicalFootwear.dds"
 					},
 					{
@@ -228,12 +228,12 @@
 						"icon": "ASSETS/Perks/Styles/Resolve/HotPursuit/HotPursuit.dds"
 					},
 					{
-						"id": 8339,
-						"key": "TheThirdPath",
-						"name": "聖体",
-						"shortDesc": "恒久的に体力 +@HealthBonus@<br>ただし、@EndTime@分経過するまで敵チャンピオンと中立モンスターに与えるダメージ -@ChampionDamagePenalty*100@%",
-						"longDesc": "恒久的に体力 +@HealthBonus@<br>ただし、@EndTime@分経過するまで敵チャンピオンと中立モンスターに与えるダメージが@ChampionDamagePenalty*100@%減少する<br><br><hr></hr><br>「偉大な伝説は星々の間に生きる」<br>――夢見る者、ダフナ",
-						"icon": "ASSETS/Perks/Styles/Inspiration/TheThirdPath/TheThirdPath.dds"
+						"id": 8352,
+						"key": "TimeWarpTonic",
+						"name": "タイムワープトニック",
+						"shortDesc": "ポーション、ビスケット、エリクサーの効果時間が@PotionDuration*100@%増加。効果時間中は移動速度も@BonusMS*100@%増加。",
+						"longDesc": "ポーション、ビスケット、エリクサーの効果時間が@PotionDuration*100@%増加。効果時間中は移動速度も@BonusMS*100@%増加。",
+						"icon": "ASSETS/Perks/Styles/Inspiration/TimeWarpTonic/TimeWarpTonic.dds"
 					}
 				]
 			}
@@ -249,15 +249,15 @@
 				"runes": [
 					{
 						"id": 8005,
-						"key": "PressThreeAttacks",
+						"key": "PressTheAttack",
 						"name": "プレスアタック",
-						"shortDesc": "敵チャンピオンを@HitsRequired@回連続で攻撃すると追加ダメージを与える。さらに対象は@AmpDuration@秒間「無防備」になり、あらゆる攻撃から受けるダメージが増加する。",
-						"longDesc": "敵チャンピオンを通常攻撃で@HitsRequired@回連続攻撃すると@MinDamage@ - @MaxDamage@の追加<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>アダプティブダメージ</font></lol-uikit-tooltipped-keyword>(レベルに比例)を与え、その後@AmpDuration@秒間、その敵チャンピオンは「無防備」になり、あらゆる攻撃から受けるダメージが@AmpPotencySelf.0*100@%増加する。",
-						"icon": "ASSETS/Perks/Styles/Precision/PressThreeAttacks/PressThreeAttacks.dds"
+						"shortDesc": "敵チャンピオンを@HitsRequired@回連続で攻撃すると追加ダメージを与える。さらに対象は@AmpDuration@秒間「無防備」になり、あらゆる攻撃から受けるダメージが増加。",
+						"longDesc": "チャンピオンを通常攻撃で@HitsRequired@回連続攻撃すると@MinDamage@ - @MaxDamage@の追加<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>アダプティブダメージ</font></lol-uikit-tooltipped-keyword>(レベルに比例)を与え、その敵は@AmpDuration@秒間「無防備」になり、あらゆる攻撃から受けるダメージが@AmpPotencyStartSelf.0*100@ - @AmpPotencyMaxSelf.0*100@%増加。",
+						"icon": "ASSETS/Perks/Styles/Precision/PressTheAttack/PressTheAttack.dds"
 					},
 					{
 						"id": 8008,
-						"key": "Berserk",
+						"key": "LethalTempo",
 						"name": "リーサルテンポ",
 						"shortDesc": "敵チャンピオンにダメージを与えてから@LeadInDelay.1@秒後、攻撃速度が大きく増加する。「リーサルテンポ」の効果中は攻撃速度の上限を超えることができる。",
 						"longDesc": "敵チャンピオンにダメージを与えてから@LeadInDelay.1@秒後、攻撃速度が@AttackSpeedBuffDurationMin@秒間レベルに応じて@AttackSpeedMin*100@% - @AttackSpeedMax*100@%増加。敵チャンピオンを攻撃すると最大@AttackSpeedBuffDurationMax@秒まで効果を延長できる。<br><br>クールダウン: @Cooldown@秒<br><br>「リーサルテンポ」の効果中は攻撃速度の上限を超えることができる。",
@@ -265,11 +265,11 @@
 					},
 					{
 						"id": 8021,
-						"key": "KSFleetFootwork",
+						"key": "FleetFootwork",
 						"name": "フリートフットワーク",
 						"shortDesc": "攻撃と移動でスタックが溜まる。100スタックで次の通常攻撃は自身を回復し、<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">移動速度</lol-uikit-tooltipped-keyword>を増加させる。",
 						"longDesc": "攻撃と移動でスタックが溜まる。100スタックで次の通常攻撃がエネルギー充填状態になる。<br><br>エネルギー充填状態で攻撃すると自身の体力が@HealBase@ - @HealMax@(+増加攻撃力x@HealBonusADRatio.-1@、+魔力x@HealAPRatio.-1@)回復し、移動速度が@MSDuration.0@秒間@MSBuff*100@%増加。<br><rules>対象がミニオンの場合は回復量が@MinionHealMod*100@%になる。<br>クリティカルで発動すると、回復量がクリティカルダメージ倍率の@HealCritMod*100@%増加。</rules>",
-						"icon": "ASSETS/Perks/Styles/Precision/KSFleetFootwork/KSFleetFootwork.dds"
+						"icon": "ASSETS/Perks/Styles/Precision/FleetFootwork/FleetFootwork.dds"
 					}
 				]
 			},
@@ -285,7 +285,7 @@
 					},
 					{
 						"id": 9111,
-						"key": "AdrenalineRush",
+						"key": "Triumph",
 						"name": "凱旋",
 						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">キルまたはアシスト</lol-uikit-tooltipped-keyword>獲得時に減少体力の@MissingHealthRestored.0*100@%を回復し、@BonusGold@ゴールドを追加で獲得する。",
 						"longDesc": "キルまたはアシストを獲得すると減少体力の@MissingHealthRestored.0*100@%を回復して@BonusGold@の追加ゴールドを獲得する。<br><br><hr></hr><br>「危険を冒してこそ、真の勝利に到達できる。」<br>――ノクサスの清算人",
@@ -293,7 +293,7 @@
 					},
 					{
 						"id": 8009,
-						"key": "CastOnKill",
+						"key": "PresenceOfMind",
 						"name": "冷静沈着",
 						"shortDesc": "レベルアップか敵チャンピオンからキルまたはアシストを獲得した直後の@BuffDuration@秒間、消費したマナがすべて還元される。",
 						"longDesc": "レベルアップか敵チャンピオンからキルまたはアシストを獲得した直後の@BuffDuration@秒間、消費したマナがすべて還元される。",
@@ -305,10 +305,10 @@
 				"runes": [
 					{
 						"id": 9104,
-						"key": "LegendDauntless",
+						"key": "LegendAlacrity",
 						"name": "レジェンド: 迅速",
 						"shortDesc": "敵チャンピオンを<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">キルまたはアシスト</lol-uikit-tooltipped-keyword>すると恒久的に<b>攻撃速度</b>が増加。",
-						"longDesc": "攻撃速度が@AttackSpeedBase*100@%増加し、さらに「レジェンド」のスタック1つにつき@AttackSpeedPerStack*100@%増加する(最大@MaxLegendStacks@スタック)。<br><br>敵チャンピオンからキルかアシストを獲得するか、エピックモンスター討伐に寄与または大型モンスターやミニオンをキルすることで「レジェンド」のスタック獲得に近づく。",
+						"longDesc": "攻撃速度が@AttackSpeedBase*100@%増加し、さらに「レジェンド」のスタック1つにつき@AttackSpeedPerStack*100@%増加する(最大@MaxLegendStacks@スタック)。<br><br>敵チャンピオンからキルまたはアシストを獲得するか、エピックモンスター討伐に寄与または大型モンスターやミニオンをキルすることで「レジェンド」のスタック獲得に近づく。",
 						"icon": "ASSETS/Perks/Styles/Precision/Legend_Heroism.dds"
 					},
 					{
@@ -316,15 +316,15 @@
 						"key": "LegendTenacity",
 						"name": "レジェンド: 強靭",
 						"shortDesc": "敵チャンピオンを<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">キルまたはアシスト</lol-uikit-tooltipped-keyword>すると恒久的に<b>行動妨害耐性</b>が増加。",
-						"longDesc": "行動妨害耐性が@TenacityBase*100@%増加し、さらに「レジェンド」のスタック1つにつき@TenacityPerStack*100@%増加する(最大@MaxLegendStacks@スタック)。<br><br>敵チャンピオンからキルかアシストを獲得するか、エピックモンスター討伐に寄与または大型モンスターやミニオンをキルすることで「レジェンド」のスタック獲得に近づく。",
+						"longDesc": "行動妨害耐性が@TenacityBase*100@%増加し、さらに「レジェンド」のスタック1つにつき@TenacityPerStack*100@%増加する(最大@MaxLegendStacks@スタック)。<br><br>敵チャンピオンからキルまたはアシストを獲得するか、エピックモンスター討伐に寄与または大型モンスターやミニオンをキルすることで「レジェンド」のスタック獲得に近づく。",
 						"icon": "ASSETS/Perks/Styles/Precision/Legend_Tenacity.dds"
 					},
 					{
 						"id": 9103,
-						"key": "LegendInfamy",
+						"key": "LegendBloodline",
 						"name": "レジェンド: 血脈",
-						"shortDesc": "敵チャンピオンを<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">キルまたはアシスト</lol-uikit-tooltipped-keyword>すると恒久的に<b>ライフスティール</b>が増加。",
-						"longDesc": "「レジェンド」のスタック1つにつきライフスティールが@LifeStealPerStack*100@%増加する(最大@MaxLegendStacks@スタック)。<br><br>敵チャンピオンからキルかアシストを獲得するか、エピックモンスター討伐に寄与または大型モンスターやミニオンをキルすることで「レジェンド」のスタック獲得に近づく。",
+						"shortDesc": "敵チャンピオンを<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">キルまたはアシスト</lol-uikit-tooltipped-keyword>すると恒久的に<b>ライフスティール</b>が増加。 ",
+						"longDesc": "「レジェンド」のスタック1つにつきライフスティールが@LifeStealPerStack*100@%増加する(最大@MaxLegendStacks@スタック)。<br><br>敵チャンピオンからキルまたはアシストを獲得するか、エピックモンスター討伐に寄与または大型モンスターやミニオンをキルすることで「レジェンド」のスタック獲得に近づく。",
 						"icon": "ASSETS/Perks/Styles/Precision/Legend_Infamy.dds"
 					}
 				]
@@ -336,24 +336,24 @@
 						"key": "CoupDeGrace",
 						"name": "最期の慈悲",
 						"shortDesc": "体力の低下した敵チャンピオンに対して与えるダメージが増加する。",
-						"longDesc": "体力が@EnemyHealthPercentageThreshold*100@%以下の敵チャンピオンに@BonusPercentDamage.0 *100@%の追加ダメージを与える。<br><br>さらに、キルかアシストを獲得すると@Duration@秒間攻撃力@AdaptiveForce.-1*0.6@、または魔力@AdaptiveForce@の<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>アダプティブ</font></lol-uikit-tooltipped-keyword>ボーナスを獲得する。",
+						"longDesc": "体力が@EnemyHealthPercentageThreshold*100@%以下の敵チャンピオンに@BonusPercentDamage.0 *100@%の追加ダメージを与える。<br><br>さらに、キルまたはアシストを獲得すると@Duration@秒間攻撃力@AdaptiveForce.-1*0.6@、または魔力@AdaptiveForce@の<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>アダプティブ</font></lol-uikit-tooltipped-keyword>ボーナスを獲得する。",
 						"icon": "ASSETS/Perks/Styles/Precision/CoupDeGrace/CoupDeGrace.dds"
 					},
 					{
 						"id": 8017,
-						"key": "GiantSlayer",
+						"key": "CutDown",
 						"name": "切り崩し",
-						"shortDesc": "自身よりも最大体力が多い敵チャンピオンに与えるダメージが増加する。",
-						"longDesc": "自身よりも体力が@MinHealthDifference@ - @MaxHealthDifference@多い敵チャンピオンに対して、与えるダメージが@MinBonusDamagePercent.0*100@% - @MaxBonusDamagePercent.0*100@%増加する。",
-						"icon": "ASSETS/Perks/Styles/Precision/GiantSlayer/GiantSlayer.dds"
+						"shortDesc": "自身よりも最大体力が多い敵チャンピオンに与えるダメージが増加。",
+						"longDesc": "自身よりも最大体力が@MinHealthDifference@ - @MaxHealthDifference@多い敵チャンピオンに対して与えるダメージが@MinBonusDamagePercent.0*100@% - @MaxBonusDamagePercent.0*100@%増加。",
+						"icon": "ASSETS/Perks/Styles/Precision/CutDown/CutDown.dds"
 					},
 					{
 						"id": 8299,
-						"key": "ToTheDeath",
+						"key": "LastStand",
 						"name": "背水の陣",
 						"shortDesc": "自身の体力が低下していると敵チャンピオンに与えるダメージが増加。",
 						"longDesc": "自身の体力が@HealthThresholdStart.0*100@%以下なら、敵チャンピオンに与えるダメージが@MinBonusDamagePercent.0*100@% - @MaxBonusDamagePercent.0*100@%増加。体力が@HealthThresholdEnd.0*100@%以下で最大ダメージ増加率を獲得。",
-						"icon": "ASSETS/Perks/Styles/Sorcery/ToTheDeath/ToTheDeath.dds"
+						"icon": "ASSETS/Perks/Styles/Sorcery/LastStand/LastStand.dds"
 					}
 				]
 			}
@@ -396,14 +396,6 @@
 			{
 				"runes": [
 					{
-						"id": 8242,
-						"key": "Unflinching",
-						"name": "気迫",
-						"shortDesc": "サモナースペル使用後、行動妨害耐性とスロウ耐性が少しの間だけ増加する。さらに、クールダウン中のサモナースペルの数に応じて行動妨害耐性とスロウ耐性が増加する。 ",
-						"longDesc": "サモナースペルを使用後、@BuffDuration@秒間@BonusTenacity*100@%の行動妨害耐性とスロウ耐性を獲得する。さらに、クールダウン中のサモナースペルの数に応じて行動妨害耐性とスロウ耐性が@PersistTenacity*100@%ずつ増加する。 ",
-						"icon": "ASSETS/Perks/Styles/Sorcery/Unflinching/Unflinching.dds"
-					},
-					{
 						"id": 8446,
 						"key": "Demolish",
 						"name": "打ちこわし",
@@ -418,6 +410,14 @@
 						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairMov\">移動妨害効果</lol-uikit-tooltipped-keyword>を付与した敵チャンピオンをマークする。マークされた敵を攻撃した味方は体力を回復する。 ",
 						"longDesc": "敵チャンピオンに移動妨害効果を付与すると@MarkDuration@秒間マークする。<br><br>マークされた敵を味方が攻撃すると、@HealDuration@秒かけて@FlatHealAmount@に自身の最大体力の@HealthRatio.-1 * 100@%を加えた量、その味方の体力を回復する。",
 						"icon": "ASSETS/Perks/Styles/Resolve/FontOfLife/FontOfLife.dds"
+					},
+					{
+						"id": 8473,
+						"key": "BucklerRing",
+						"name": "ボーンアーマー",
+						"shortDesc": "チャンピオンからダメージを受けると、そのチャンピオンから次に受ける@BlockCount@回のスキルまたは通常攻撃のダメージが@BlockBase@ - @BlockMax@軽減される。<br><br>効果時間: @BlockDuration@秒<br>クールダウン: @Cooldown@秒",
+						"longDesc": "チャンピオンからダメージを受けると、そのチャンピオンから次に受ける@BlockCount@回のスキルまたは通常攻撃のダメージが@BlockBase@ - @BlockMax@軽減される。<br><br>効果時間: @BlockDuration@秒<br>クールダウン: @Cooldown@秒",
+						"icon": "ASSETS/Perks/Styles/Resolve/BucklerRing/BucklerRing.dds"
 					}
 				]
 			},
@@ -446,6 +446,14 @@
 						"shortDesc": "試合開始@MinutesRequired@分後に物理防御 +@ArmorBase@と魔法防御 +@MRBase@を獲得。物理防御と魔法防御が@ExtraResist@%増加。",
 						"longDesc": "試合開始@MinutesRequired@分後に物理防御 +@ArmorBase@と魔法防御 +@MRBase@を獲得。物理防御と魔法防御が@ExtraResist@%増加。",
 						"icon": "ASSETS/Perks/Styles/Resolve/Conditioning/Conditioning.dds"
+					},
+					{
+						"id": 8444,
+						"key": "SecondWind",
+						"name": "息継ぎ",
+						"shortDesc": "敵チャンピオンからダメージを受けると、減少体力の一部を時間をかけて回復する。",
+						"longDesc": "敵チャンピオンからダメージを受けると、減少体力の@RegenPercentMax.0*100@%+@RegenFlat.0@を@RegenSeconds@秒かけて回復する。",
+						"icon": "ASSETS/Perks/Styles/Resolve/SecondWind/SecondWind.dds"
 					}
 				]
 			},
@@ -468,12 +476,12 @@
 						"icon": "ASSETS/Perks/Styles/Resolve/Revitalize/Revitalize.dds"
 					},
 					{
-						"id": 8444,
-						"key": "SecondWind",
-						"name": "息継ぎ",
-						"shortDesc": "敵チャンピオンからダメージを受けると、減少体力の一部を時間をかけて回復する。",
-						"longDesc": "敵チャンピオンからダメージを受けると、減少体力の@RegenPercentMax.0*100@%+@RegenFlat.0@を@RegenSeconds@秒かけて回復する。",
-						"icon": "ASSETS/Perks/Styles/Resolve/SecondWind/SecondWind.dds"
+						"id": 8242,
+						"key": "Unflinching",
+						"name": "気迫",
+						"shortDesc": "サモナースペル使用後、行動妨害耐性とスロウ耐性が少しの間だけ増加する。さらに、クールダウン中のサモナースペルの数に応じて行動妨害耐性とスロウ耐性が増加する。 ",
+						"longDesc": "サモナースペルを使用後、@BuffDuration@秒間@BonusTenacity*100@%の行動妨害耐性とスロウ耐性を獲得する。さらに、クールダウン中のサモナースペルの数に応じて行動妨害耐性とスロウ耐性が@PersistTenacity*100@%ずつ増加する。 ",
+						"icon": "ASSETS/Perks/Styles/Sorcery/Unflinching/Unflinching.dds"
 					}
 				]
 			}

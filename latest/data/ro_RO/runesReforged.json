@@ -228,12 +228,12 @@
 						"icon": "ASSETS/Perks/Styles/Resolve/HotPursuit/HotPursuit.dds"
 					},
 					{
-						"id": 8339,
-						"key": "TheThirdPath",
-						"name": "Corp ceresc",
-						"shortDesc": "+@HealthBonus@ viață, permanent<br>-@ChampionDamagePenalty*100@% daune împotriva campionilor și monștrilor până în min. @EndTime@.",
-						"longDesc": "+@HealthBonus@ viață, permanent<br>-@ChampionDamagePenalty*100@% daune împotriva campionilor și monștrilor până în minutul @EndTime@.<br><br><hr></hr><br><i>''Eroii legendari trăiesc și acum printre stele.'' <br>– Daphna, Înțeleapta Visătoare</i>",
-						"icon": "ASSETS/Perks/Styles/Inspiration/TheThirdPath/TheThirdPath.dds"
+						"id": 8352,
+						"key": "TimeWarpTonic",
+						"name": "Tonic crono-deformant",
+						"shortDesc": "Poțiunile, biscuiții și elixirele tale durează cu @PotionDuration*100@% mai mult și primești un bonus de @BonusMS*100@% viteză de mișcare cât timp te afli sub efectul lor.",
+						"longDesc": "Poțiunile, biscuiții și elixirele tale durează cu @PotionDuration*100@% mai mult și primești un bonus de @BonusMS*100@% viteză de mișcare cât timp te afli sub efectul lor.",
+						"icon": "ASSETS/Perks/Styles/Inspiration/TimeWarpTonic/TimeWarpTonic.dds"
 					}
 				]
 			}
@@ -249,15 +249,15 @@
 				"runes": [
 					{
 						"id": 8005,
-						"key": "PressThreeAttacks",
+						"key": "PressTheAttack",
 						"name": "Asalt neîntrerupt",
 						"shortDesc": "Când lovești un campion inamic de @HitsRequired@ ori la rând, acesta va deveni vulnerabil și va suferi daune bonus. Timp de @AmpDuration@ sec., campionii vulnerabili suferă mai multe daune din toate sursele.",
-						"longDesc": "Când lovești un campion inamic cu @HitsRequired@ atacuri de bază consecutive, acesta va suferi @MinDamage@-@MaxDamage@ <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>daune adaptive</font></lol-uikit-tooltipped-keyword> bonus (în funcție de nivel) și va deveni vulnerabil, suferind cu @AmpPotencySelf.0*100@% mai multe daune din toate sursele timp de @AmpDuration@ sec.",
-						"icon": "ASSETS/Perks/Styles/Precision/PressThreeAttacks/PressThreeAttacks.dds"
+						"longDesc": "Când lovești un campion inamic cu @HitsRequired@ atacuri de bază consecutive, acesta va suferi @MinDamage@-@MaxDamage@ <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>daune adaptive</font></lol-uikit-tooltipped-keyword> bonus (în funcție de nivel) și va deveni vulnerabil, suferind cu @AmpPotencyStartSelf.0*100@-@AmpPotencyMaxSelf.0*100@% mai multe daune din toate sursele timp de @AmpDuration@ sec.",
+						"icon": "ASSETS/Perks/Styles/Precision/PressTheAttack/PressTheAttack.dds"
 					},
 					{
 						"id": 8008,
-						"key": "Berserk",
+						"key": "LethalTempo",
 						"name": "Tempo letal",
 						"shortDesc": "La @LeadInDelay.1@ sec. după ce-i provoci daune unui campion, primești un bonus mare la viteza de atac. ''Tempoul letal'' îți permite să depășești temporar limita maximă a vitezei de atac.",
 						"longDesc": "La @LeadInDelay.1@ sec după ce-i provoci daune unui campion, primești @AttackSpeedMin*100@-@AttackSpeedMax*100@% viteză de atac (în funcție de nivel) timp de @AttackSpeedBuffDurationMin@ sec. Dacă ataci un campion, prelungești durata efectului la @AttackSpeedBuffDurationMax@ sec.<br><br>Timp de reactivare: @Cooldown@ sec<br><br>''Tempo letal'' îți permite să depășești temporar limita maximă a vitezei de atac.",
@@ -265,11 +265,11 @@
 					},
 					{
 						"id": 8021,
-						"key": "KSFleetFootwork",
+						"key": "FleetFootwork",
 						"name": "Joc de glezne",
 						"shortDesc": "Când ataci sau te miști, aduni cumuluri de ''energie''. La 100 cumuluri, următorul tău atac te vindecă și-ți oferă un bonus la <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">viteza de mișcare</lol-uikit-tooltipped-keyword>.",
 						"longDesc": "Când ataci sau te miști, aduni cumuluri de ''energie''. La 100 de cumuluri, următorul tău atac devine ''energizat''.<br><br>Atacurile ''energizate'' te vindecă cu @HealBase@-@HealMax@ (+@HealBonusADRatio.-1@ AD bonus, +@HealAPRatio.-1@ AP) și îți oferă +@MSBuff*100@% viteză de mișcare timp de @MSDuration.0@ sec.<br><rules>Vindecările au o eficiență de @MinionHealMod*100@% dacă efectul este folosit asupra minionilor.<br>Atunci când vindecarea este declanșată de o lovitură critică, valoarea vieții refăcute crește cu @HealCritMod*100@% din modificatorul daunelor loviturilor critice.</rules>",
-						"icon": "ASSETS/Perks/Styles/Precision/KSFleetFootwork/KSFleetFootwork.dds"
+						"icon": "ASSETS/Perks/Styles/Precision/FleetFootwork/FleetFootwork.dds"
 					}
 				]
 			},
@@ -285,7 +285,7 @@
 					},
 					{
 						"id": 9111,
-						"key": "AdrenalineRush",
+						"key": "Triumph",
 						"name": "Triumf",
 						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Doborârile</lol-uikit-tooltipped-keyword> îți refac @MissingHealthRestored.0*100@% din viața lipsă și îți oferă @BonusGold@ aur suplimentar. ",
 						"longDesc": "Doborârile îți refac @MissingHealthRestored.0*100@% din viața lipsă și îți oferă @BonusGold@ aur suplimentar. <br><br><hr></hr><br><i>''Doar cel mai periculos joc îți poate aduce gloria supremă.'' <br>– bilanțier noxian</i>",
@@ -293,7 +293,7 @@
 					},
 					{
 						"id": 8009,
-						"key": "CastOnKill",
+						"key": "PresenceOfMind",
 						"name": "Prezență de spirit",
 						"shortDesc": "Timp de @BuffDuration@ sec. după ce crești în nivel sau după ce dobori o unitate, primești înapoi toată mana folosită.",
 						"longDesc": "Timp de @BuffDuration@ sec. după ce crești în nivel sau după ce dobori o unitate, primești înapoi toată mana folosită.",
@@ -305,7 +305,7 @@
 				"runes": [
 					{
 						"id": 9104,
-						"key": "LegendDauntless",
+						"key": "LegendAlacrity",
 						"name": "Legendă: Zel",
 						"shortDesc": "Când <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">dobori</lol-uikit-tooltipped-keyword> un campion, primești un bonus permanent la <b>viteza de atac</b>. ",
 						"longDesc": "Primești @AttackSpeedBase*100@% viteză de atac, plus încă @AttackSpeedPerStack*100@% pentru fiecare cumul de <i>''Legendă''</i> (poți aduna maximum @MaxLegendStacks@ cumuluri).<br><br>Primești puncte pentru cumulurile de <i>''Legendă''</i> la fiecare doborâre de campion sau monstru epic, la uciderile de monștri mari și la uciderile de minioni.",
@@ -321,7 +321,7 @@
 					},
 					{
 						"id": 9103,
-						"key": "LegendInfamy",
+						"key": "LegendBloodline",
 						"name": "Legendă: Descendență",
 						"shortDesc": "Când <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">dobori</lol-uikit-tooltipped-keyword> un campion, primești permanent <b>furt de viață</b>. ",
 						"longDesc": "Primești @LifeStealPerStack*100@% furt de viață pentru fiecare cumul de <i>''Legendă''</i> (poți aduna maximum @MaxLegendStacks@ cumuluri).<br><br>Primești puncte pentru cumulurile de <i>''Legendă''</i> la fiecare doborâre de campion sau monstru epic, la uciderile de monștri mari și la uciderile de minioni.",
@@ -341,19 +341,19 @@
 					},
 					{
 						"id": 8017,
-						"key": "GiantSlayer",
+						"key": "CutDown",
 						"name": "Secerare",
 						"shortDesc": "Le provoci daune mai mari campionilor cu viața maximă mai mare decât a ta.",
 						"longDesc": "Provoci cu @MinBonusDamagePercent.0*100@% mai multe daune împotriva campionilor care au până la @MinHealthDifference@ viață maximă în plus față de tine și cu @MaxBonusDamagePercent.0*100@% mai multe daune împotriva campionilor care au până la @MaxHealthDifference@ viață maximă în plus față de tine.",
-						"icon": "ASSETS/Perks/Styles/Precision/GiantSlayer/GiantSlayer.dds"
+						"icon": "ASSETS/Perks/Styles/Precision/CutDown/CutDown.dds"
 					},
 					{
 						"id": 8299,
-						"key": "ToTheDeath",
+						"key": "LastStand",
 						"name": "Ultima speranță",
 						"shortDesc": "Când ai viață puțină, le provoci campionilor daune mai mari.",
 						"longDesc": "Provoci daune cu @MinBonusDamagePercent.0*100@%-@MaxBonusDamagePercent.0*100@% mai mari împotriva campionilor cât timp ai mai puțin de @HealthThresholdStart.0*100@% viață. Atingi valoarea maximă când ai @HealthThresholdEnd.0*100@% viață.",
-						"icon": "ASSETS/Perks/Styles/Sorcery/ToTheDeath/ToTheDeath.dds"
+						"icon": "ASSETS/Perks/Styles/Sorcery/LastStand/LastStand.dds"
 					}
 				]
 			}
@@ -396,14 +396,6 @@
 			{
 				"runes": [
 					{
-						"id": 8242,
-						"key": "Unflinching",
-						"name": "Curaj absolut",
-						"shortDesc": "După ce folosești o vrajă de invocator, primești tenacitate și rezistență la încetiniri pentru o durată scurtă. În plus, primești tenacitate și rezistență la încetiniri pentru fiecare vrajă de invocator aflată în perioada de reactivare. ",
-						"longDesc": "După ce folosești o vrajă de invocator, primești @BonusTenacity*100@% tenacitate și rezistență la încetiniri timp de @BuffDuration@ sec. În plus, primești @PersistTenacity*100@% tenacitate și rezistență la încetiniri pentru fiecare vrajă de invocator aflată în perioada de reactivare. ",
-						"icon": "ASSETS/Perks/Styles/Sorcery/Unflinching/Unflinching.dds"
-					},
-					{
 						"id": 8446,
 						"key": "Demolish",
 						"name": "Dărâmare",
@@ -418,6 +410,14 @@
 						"shortDesc": "Dacă îi <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairMov\">reduci mobilitatea</lol-uikit-tooltipped-keyword> unui campion inamic, acesta este însemnat. Aliații tăi se vindecă atunci când atacă campionii însemnați. ",
 						"longDesc": "Dacă îi reduci mobilitatea unui campion inamic, acesta este însemnat timp de @MarkDuration@ sec.<br><br>Campionii aliați care atacă inamicii însemnați se vindecă cu @FlatHealAmount@ + @HealthRatio.-1 * 100@% din viața ta maximă de-a lungul a @HealDuration@ sec. ",
 						"icon": "ASSETS/Perks/Styles/Resolve/FontOfLife/FontOfLife.dds"
+					},
+					{
+						"id": 8473,
+						"key": "BucklerRing",
+						"name": "Armură de os",
+						"shortDesc": "După ce suferi daune din partea unui campion inamic, următoarele @BlockCount@ vrăji sau atacuri folosite de acesta împotriva ta îți provoacă daune reduse cu @BlockBase@-@BlockMax@.<br><br>Durată: @BlockDuration@ sec.<br>Timp de reactivare: @Cooldown@ sec.",
+						"longDesc": "După ce suferi daune din partea unui campion inamic, următoarele @BlockCount@ vrăji sau atacuri folosite de acesta împotriva ta îți provoacă daune reduse cu @BlockBase@-@BlockMax@.<br><br>Durată: @BlockDuration@ sec.<br>Timp de reactivare: @Cooldown@ sec.",
+						"icon": "ASSETS/Perks/Styles/Resolve/BucklerRing/BucklerRing.dds"
 					}
 				]
 			},
@@ -446,6 +446,14 @@
 						"shortDesc": "După @MinutesRequired@ min., primești @ArmorBase@ armură și @MRBase@ rezistență la magie, iar armura și rezistența ta la magie totale cresc cu @ExtraResist@%.",
 						"longDesc": "După @MinutesRequired@ min., primești @ArmorBase@ armură și @MRBase@ rezistență la magie, iar armura și rezistența ta la magie totale cresc cu @ExtraResist@%.",
 						"icon": "ASSETS/Perks/Styles/Resolve/Conditioning/Conditioning.dds"
+					},
+					{
+						"id": 8444,
+						"key": "SecondWind",
+						"name": "Forțe proaspete",
+						"shortDesc": "După ce suferi daune din partea unui campion inamic, îți vindeci în timp o parte din viața lipsă. ",
+						"longDesc": "După ce suferi daune din partea unui campion inamic, îți vindeci @RegenPercentMax.0*100@% din viața lipsă +@RegenFlat.0@ de-a lungul a @RegenSeconds@ sec.",
+						"icon": "ASSETS/Perks/Styles/Resolve/SecondWind/SecondWind.dds"
 					}
 				]
 			},
@@ -468,12 +476,12 @@
 						"icon": "ASSETS/Perks/Styles/Resolve/Revitalize/Revitalize.dds"
 					},
 					{
-						"id": 8444,
-						"key": "SecondWind",
-						"name": "Forțe proaspete",
-						"shortDesc": "După ce suferi daune din partea unui campion inamic, îți vindeci în timp o parte din viața lipsă. ",
-						"longDesc": "După ce suferi daune din partea unui campion inamic, îți vindeci @RegenPercentMax.0*100@% din viața lipsă +@RegenFlat.0@ de-a lungul a @RegenSeconds@ sec.",
-						"icon": "ASSETS/Perks/Styles/Resolve/SecondWind/SecondWind.dds"
+						"id": 8242,
+						"key": "Unflinching",
+						"name": "Curaj absolut",
+						"shortDesc": "După ce folosești o vrajă de invocator, primești tenacitate și rezistență la încetiniri pentru o durată scurtă. În plus, primești tenacitate și rezistență la încetiniri pentru fiecare vrajă de invocator aflată în perioada de reactivare. ",
+						"longDesc": "După ce folosești o vrajă de invocator, primești @BonusTenacity*100@% tenacitate și rezistență la încetiniri timp de @BuffDuration@ sec. În plus, primești @PersistTenacity*100@% tenacitate și rezistență la încetiniri pentru fiecare vrajă de invocator aflată în perioada de reactivare. ",
+						"icon": "ASSETS/Perks/Styles/Sorcery/Unflinching/Unflinching.dds"
 					}
 				]
 			}

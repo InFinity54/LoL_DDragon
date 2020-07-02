@@ -228,12 +228,12 @@
 						"icon": "ASSETS/Perks/Styles/Resolve/HotPursuit/HotPursuit.dds"
 					},
 					{
-						"id": 8339,
-						"key": "TheThirdPath",
-						"name": "Ουράνιο Σώμα",
-						"shortDesc": "Ζωή + @HealthBonus@ μόνιμα<br>-@ChampionDamagePenalty*100@% Ζημιά σε Ήρωες και Τέρατα μέχρι να συμπληρωθούν @EndTime@ λεπτά",
-						"longDesc": "Ζωή + @HealthBonus@ μόνιμα<br>-@ChampionDamagePenalty*100@% Ζημιά σε Ήρωες και Τέρατα μέχρι να συμπληρωθούν @EndTime@ λεπτά<br><br><hr></hr><br><i>«Οι μεγαλύτεροι θρύλοι ζουν για πάντα στα αστέρια» - <br>Ντάφνα η Ονειροπόλος</i>",
-						"icon": "ASSETS/Perks/Styles/Inspiration/TheThirdPath/TheThirdPath.dds"
+						"id": 8352,
+						"key": "TimeWarpTonic",
+						"name": "Τονωτικό Διαστρέβλωσης Χρόνου",
+						"shortDesc": "Τα φίλτρα και τα ελιξίριά σας διαρκούν @PotionDuration*100@% περισσότερο και αποκτάτε @BonusMS*100@% Ταχύτητα Κίνησης όταν βρίσκεστε υπό την επήρειά τους.",
+						"longDesc": "Τα φίλτρα και τα ελιξίριά σας διαρκούν @PotionDuration*100@% περισσότερο και αποκτάτε @BonusMS*100@% Ταχύτητα Κίνησης όταν βρίσκεστε υπό την επήρειά τους.",
+						"icon": "ASSETS/Perks/Styles/Inspiration/TimeWarpTonic/TimeWarpTonic.dds"
 					}
 				]
 			}
@@ -249,15 +249,15 @@
 				"runes": [
 					{
 						"id": 8005,
-						"key": "PressThreeAttacks",
+						"key": "PressTheAttack",
 						"name": "Διαρκής Επίθεση",
-						"shortDesc": "Όταν χτυπάτε έναν αντίπαλο Ήρωα @HitsRequired@ φορές στη σειρά, τον κάνετε πιο ευάλωτο και προκαλείτε μπόνους Ζημιά, ενώ αυξάνετε τη Ζημιά που δέχεται από όλες τις πηγές για @AmpDuration@ δευτερόλεπτα.",
-						"longDesc": "Όταν χτυπάτε έναν αντίπαλο με @HitsRequired@ διαδοχικές βασικές επιθέσεις, προκαλείτε @MinDamage@ - @MaxDamage@ μπόνους <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>Ευέλικτη Ζημιά</font></lol-uikit-tooltipped-keyword> (ανάλογα με το επίπεδο) και αποκαλύπτετε τις αδυναμίες τους, με αποτέλεσμα να δέχονται @AmpPotencySelf.0*100@% περισσότερη Ζημιά από όλες τις πηγές για @AmpDuration@ δευτερόλεπτα.",
-						"icon": "ASSETS/Perks/Styles/Precision/PressThreeAttacks/PressThreeAttacks.dds"
+						"shortDesc": "Όταν χτυπάτε έναν αντίπαλο ήρωα @HitsRequired@ φορές στη σειρά, τον κάνετε πιο ευάλωτο και προκαλείτε μπόνους Ζημιά, ενώ αυξάνετε τη Ζημιά που δέχεται από όλες τις πηγές για @AmpDuration@ δευτερόλεπτα.",
+						"longDesc": "Όταν χτυπάτε έναν αντίπαλο ήρωα με @HitsRequired@ διαδοχικές βασικές επιθέσεις, προκαλείτε @MinDamage@ - @MaxDamage@ μπόνους <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>Ευέλικτη Ζημιά</font></lol-uikit-tooltipped-keyword> (ανάλογα με το επίπεδο) και αποκαλύπτετε τις αδυναμίες τους, με αποτέλεσμα να δέχονται @AmpPotencyStartSelf.0*100@ - @AmpPotencyMaxSelf.0*100@% περισσότερη Ζημιά από όλες τις πηγές για @AmpDuration@ δευτερόλεπτα.",
+						"icon": "ASSETS/Perks/Styles/Precision/PressTheAttack/PressTheAttack.dds"
 					},
 					{
 						"id": 8008,
-						"key": "Berserk",
+						"key": "LethalTempo",
 						"name": "Φονικός Ρυθμός",
 						"shortDesc": "Η Ταχύτητα Επίθεσής σας αυξάνεται σημαντικά μόλις περάσουν @LeadInDelay.1@ δευτ. από τη στιγμή που θα προκαλέσετε ζημιά σε κάποιον Ήρωα. Ο Φονικός Ρυθμός σας επιτρέπει να ξεπερνάτε προσωρινά το ανώτατο όριο Ταχύτητας Επίθεσης.",
 						"longDesc": "@LeadInDelay.1@ δευτ. από τη στιγμή που θα προκαλέσετε Ζημιά σε κάποιον ήρωα αποκτάτε @AttackSpeedMin*100@ - @AttackSpeedMax*100@% Ταχύτητα Επίθεσης, ανάλογα με το επίπεδο, για @AttackSpeedBuffDurationMin@ δευτ. Όταν επιτίθεστε σε έναν ήρωα, η διάρκεια της επίδρασης αυξάνεται στα @AttackSpeedBuffDurationMax@ δευτ.<br><br>Χρόνος Επαναφόρτισης: @Cooldown@ δευτερόλεπτα<br><br>Ο Φονικός Ρυθμός σάς επιτρέπει να σπάσετε προσωρινά το ανώτατο όριο Ταχύτητας Επίθεσης.",
@@ -265,11 +265,11 @@
 					},
 					{
 						"id": 8021,
-						"key": "KSFleetFootwork",
+						"key": "FleetFootwork",
 						"name": "Γρήγοροι Ελιγμοί",
 						"shortDesc": "Η επίθεση και η κίνηση δημιουργούν στοίβες Ενέργειας. Στις 100 στοίβες, η επόμενη επίθεσή σας αυξάνει την <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">Ταχύτητα Κίνησής</lol-uikit-tooltipped-keyword> σας και σας θεραπεύει.",
-						"longDesc": "Η επίθεση και η κίνηση δημιουργούν στοίβες Ενέργειας. Στις 100 στοίβες η επόμενη επίθεσή σας γίνεται Φορτισμένη.<br><br>Οι Φορτισμένες επιθέσεις σάς θεραπεύουν για @HealBase@ - @HealMax@ (+@HealBonusADRatio.-1@ μπόνους Ζημιά Επίθεσης, +@HealAPRatio.-1@ Ισχύς Ικανότητας) και σας δίνουν +@MSBuff*100@% Ταχύτητα Κίνησης για @MSDuration.0@ δευτ.<br><rules>Όταν χρησιμοποιείται σε υπηρέτη, η Θεραπεία έχει το @MinionHealMod*100@% της αποτελεσματικότητάς της.<br>Η Θεραπεία αυξάνεται κατά το @HealCritMod*100@% του συντελεστή σας Ζημιάς Καίριου Χτυπήματος όταν ενεργοποιείται από Καίριο Χτύπημα.</rules>",
-						"icon": "ASSETS/Perks/Styles/Precision/KSFleetFootwork/KSFleetFootwork.dds"
+						"longDesc": "Η επίθεση και η κίνηση δημιουργούν στοίβες Ενέργειας. Στις 100 στοίβες η επόμενη επίθεσή σας γίνεται Φορτισμένη.<br><br>Οι Φορτισμένες επιθέσεις σάς θεραπεύουν για @HealBase@ - @HealMax@ (+@HealBonusADRatio.-1@ μπόνους Ζημιά Επίθεσης, +@HealAPRatio.-1@ Ισχύς Ικανότητας) και σας δίνουν +@MSBuff*100@% Ταχύτητα Κίνησης για @MSDuration.0@ δευτερόλεπτα.<br><rules>Όταν χρησιμοποιείται σε υπηρέτη, η Θεραπεία έχει το @MinionHealMod*100@% της αποτελεσματικότητάς της.<br>Η Θεραπεία αυξάνεται κατά το @HealCritMod*100@% του συντελεστή Ζημιάς Καίριου Χτυπήματος όταν ενεργοποιείται από Καίριο Χτύπημα.</rules>",
+						"icon": "ASSETS/Perks/Styles/Precision/FleetFootwork/FleetFootwork.dds"
 					}
 				]
 			},
@@ -285,7 +285,7 @@
 					},
 					{
 						"id": 9111,
-						"key": "AdrenalineRush",
+						"key": "Triumph",
 						"name": "Θρίαμβος",
 						"shortDesc": "Οι <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">εξοντώσεις</lol-uikit-tooltipped-keyword> αναπληρώνουν το @MissingHealthRestored.0*100@% της Ζωής που σας λείπει και σας δίνουν επιπλέον @BonusGold@ χρυσό. ",
 						"longDesc": "Οι εξοντώσεις αναπληρώνουν το @MissingHealthRestored.0*100@% της Ζωής που σας λείπει και σας δίνουν επιπλέον @BonusGold@ χρυσό. <br><br><hr></hr><br><i>«Όσο πιο επικίνδυνο το παιχνίδι, τόσο μεγαλύτερη η δόξα». <br>—Νοξιανός Τιμωρός</i>",
@@ -293,10 +293,10 @@
 					},
 					{
 						"id": 8009,
-						"key": "CastOnKill",
+						"key": "PresenceOfMind",
 						"name": "Ευστροφία",
-						"shortDesc": "Όταν ανεβαίνετε επίπεδο ή πετυχαίνετε μια εξόντωση, το Μάνα που ξοδεύετε αναπληρώνεται πλήρως για @BuffDuration@ δευτ.",
-						"longDesc": "Όταν ανεβαίνετε επίπεδο ή πετυχαίνετε μια εξόντωση, το Μάνα που ξοδεύετε αναπληρώνεται πλήρως για @BuffDuration@ δευτ.",
+						"shortDesc": "Όταν ανεβαίνετε επίπεδο ή πετυχαίνετε μια εκτέλεση, το Μάνα που ξοδεύετε αναπληρώνεται πλήρως για @BuffDuration@ δευτερόλεπτα.",
+						"longDesc": "Όταν ανεβαίνετε επίπεδο ή πετυχαίνετε μια εκτέλεση, το Μάνα που ξοδεύετε αναπληρώνεται πλήρως για @BuffDuration@ δευτερόλεπτα.",
 						"icon": "ASSETS/Perks/Styles/Precision/LastResort/LastResortIcon.dds"
 					}
 				]
@@ -305,7 +305,7 @@
 				"runes": [
 					{
 						"id": 9104,
-						"key": "LegendDauntless",
+						"key": "LegendAlacrity",
 						"name": "Θρύλος: Προθυμία",
 						"shortDesc": "Οι <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">εξοντώσεις</lol-uikit-tooltipped-keyword> εχθρών δίνουν μόνιμα <b>Ταχύτητα Επίθεσης</b>. ",
 						"longDesc": "Αποκτάτε @AttackSpeedBase*100@% Ταχύτητα Επίθεσης συν επιπλέον @AttackSpeedPerStack*100@% για κάθε στοίβα <i>Θρύλου</i> (έως @MaxLegendStacks@).<br><br>Με κάθε εξόντωση ήρωα, επικού τέρατος ή εκτέλεση μεγάλου τέρατος ή υπηρέτη σημειώνετε πρόοδο για να αποκτήσετε στοίβες <i>Θρύλου</i>.",
@@ -321,10 +321,10 @@
 					},
 					{
 						"id": 9103,
-						"key": "LegendInfamy",
+						"key": "LegendBloodline",
 						"name": "Θρύλος: Δεσμοί Αίματος",
-						"shortDesc": "Οι <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">εξοντώσεις</lol-uikit-tooltipped-keyword> εχθρών δίνουν μόνιμα <b>Αρπαγή Ζωής</b>. ",
-						"longDesc": "Αποκτάτε @LifeStealPerStack*100@% Αρπαγή Ζωής για κάθε στοίβα <i>Θρύλου</i> (έως @MaxLegendStacks@).<br><br>Με κάθε εξόντωση ήρωα, επικού τέρατος ή εκτέλεση μεγάλου τέρατος ή υπηρέτη σημειώνετε πρόοδο για να αποκτήσετε στοίβες <i>Θρύλου</i>.",
+						"shortDesc": "Οι <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">εκτελέσεις</lol-uikit-tooltipped-keyword> εχθρών δίνουν μόνιμα <b>Αρπαγή Ζωής</b>. ",
+						"longDesc": "Αποκτάτε @LifeStealPerStack*100@% Αρπαγή Ζωής για κάθε στοίβα <i>Θρύλου</i> (έως @MaxLegendStacks@).<br><br>Με κάθε εκτέλεση ήρωα, επικού ή μεγάλου τέρατος ή υπηρέτη σημειώνετε πρόοδο για να αποκτήσετε στοίβες <i>Θρύλου</i>.",
 						"icon": "ASSETS/Perks/Styles/Precision/Legend_Infamy.dds"
 					}
 				]
@@ -341,19 +341,19 @@
 					},
 					{
 						"id": 8017,
-						"key": "GiantSlayer",
+						"key": "CutDown",
 						"name": "Φονική Λεπίδα",
-						"shortDesc": "Κάνετε περισσότερη Ζημιά σε όλους τους Ήρωες με περισσότερη μέγιστη Ζωή από εσάς.",
-						"longDesc": "Κάνετε @MinBonusDamagePercent.0*100@% περισσότερη ζημιά σε όλους τους Ήρωες με @MinHealthDifference@ περισσότερη Ζωή από εσάς. Η αύξηση γίνεται @MaxBonusDamagePercent.0*100@% για αντιπάλους με @MaxHealthDifference@ περισσότερη μέγιστη Ζωή από εσάς.",
-						"icon": "ASSETS/Perks/Styles/Precision/GiantSlayer/GiantSlayer.dds"
+						"shortDesc": "Κάνετε περισσότερη Ζημιά σε όλους τους ήρωες με περισσότερη μέγιστη Ζωή από εσάς.",
+						"longDesc": "Κάνετε @MinBonusDamagePercent.0*100@% περισσότερη Ζημιά σε όλους τους ήρωες με @MinHealthDifference@ περισσότερη Ζωή από εσάς. Η αύξηση γίνεται @MaxBonusDamagePercent.0*100@% για αντιπάλους με @MaxHealthDifference@ περισσότερη μέγιστη Ζωή από εσάς.",
+						"icon": "ASSETS/Perks/Styles/Precision/CutDown/CutDown.dds"
 					},
 					{
 						"id": 8299,
-						"key": "ToTheDeath",
+						"key": "LastStand",
 						"name": "Ύστατη Προσπάθεια",
 						"shortDesc": "Προκαλείτε περισσότερη ζημιά σε ήρωες όταν η Ζωή σας είναι σε χαμηλά επίπεδα.",
 						"longDesc": "Προκαλεί έως @MinBonusDamagePercent.0*100@%-@MaxBonusDamagePercent.0*100@% περισσότερη Ζημιά σε Ήρωες όταν έχετε λιγότερο από το @HealthThresholdStart.0*100@% της Ζωής σας. Η Ζημιά φτάνει στη μέγιστη τιμή της όταν έχετε @HealthThresholdEnd.0*100@% Ζωή.",
-						"icon": "ASSETS/Perks/Styles/Sorcery/ToTheDeath/ToTheDeath.dds"
+						"icon": "ASSETS/Perks/Styles/Sorcery/LastStand/LastStand.dds"
 					}
 				]
 			}
@@ -396,14 +396,6 @@
 			{
 				"runes": [
 					{
-						"id": 8242,
-						"key": "Unflinching",
-						"name": "Ακλόνητος",
-						"shortDesc": "Μόλις χρησιμοποιήσετε ένα Ξόρκι Επικαλεστή, αποκτάτε Εμμονή και Αντίσταση Επιβράδυνσης για σύντομο χρονικό διάστημα. Επιπλέον, αποκτάτε Εμμονή και Αντίσταση Επιβράδυνσης για κάθε Ξόρκι Επικαλεστή που επαναφορτίζεται. ",
-						"longDesc": "Μόλις χρησιμοποιήσετε ένα Ξόρκι Επικαλεστή, αποκτάτε @BonusTenacity*100@% Εμμονή και Αντίσταση Επιβράδυνσης για @BuffDuration@ δευτερόλεπτα. Επιπλέον, αποκτάτε @PersistTenacity*100@% Εμμονή και Αντίσταση Επιβράδυνσης για κάθε Ξόρκι Επικαλεστή που επαναφορτίζεται. ",
-						"icon": "ASSETS/Perks/Styles/Sorcery/Unflinching/Unflinching.dds"
-					},
-					{
 						"id": 8446,
 						"key": "Demolish",
 						"name": "Κατεδάφιση",
@@ -418,6 +410,14 @@
 						"shortDesc": "Όταν <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairMov\">παρεμποδίζετε</lol-uikit-tooltipped-keyword> την κίνηση ενός αντίπαλου ήρωα, τον σημαδεύετε. Οι σύμμαχοί σας θεραπεύονται όταν επιτίθενται σε ήρωες που έχετε σημαδέψει. ",
 						"longDesc": "Όταν παρεμποδίζετε την κίνηση ενός αντίπαλου Ήρωα, τον σημαδεύετε για @MarkDuration@ δευτερόλεπτα.<br><br>Οι σύμμαχοι Ήρωες που επιτίθενται σε σημαδεμένους αντιπάλους θεραπεύονται για @FlatHealAmount@ + το @HealthRatio.-1 * 100@% της μέγιστης Ζωής σας σε @HealDuration@ δευτερόλεπτα. ",
 						"icon": "ASSETS/Perks/Styles/Resolve/FontOfLife/FontOfLife.dds"
+					},
+					{
+						"id": 8473,
+						"key": "BucklerRing",
+						"name": "Κοκάλινη Επίστρωση",
+						"shortDesc": "Αφού δεχτείτε Ζημιά από έναν αντίπαλο ήρωα, οι επόμενες @BlockCount@ ικανότητες ή επιθέσεις που θα δεχτείτε από εχθρό προκαλούν @BlockBase@-@BlockMax@ λιγότερη Ζημιά.<br><br>Διάρκεια: @BlockDuration@ δευτερόλεπτα<br>Χρόνος Επαναφόρτισης: @Cooldown@ δευτερόλεπτα",
+						"longDesc": "Αφού δεχτείτε Ζημιά από έναν αντίπαλο ήρωα, οι επόμενες @BlockCount@ ικανότητες ή επιθέσεις που θα δεχτείτε από εχθρό προκαλούν @BlockBase@-@BlockMax@ λιγότερη Ζημιά.<br><br>Διάρκεια: @BlockDuration@ δευτερόλεπτα<br>Χρόνος Επαναφόρτισης: @Cooldown@ δευτερόλεπτα",
+						"icon": "ASSETS/Perks/Styles/Resolve/BucklerRing/BucklerRing.dds"
 					}
 				]
 			},
@@ -446,6 +446,14 @@
 						"shortDesc": "Μετά από @MinutesRequired@ λεπτά, αποκτάτε +@ArmorBase@ Θωράκιση και +@MRBase@ Αντίσταση Μαγείας, ενώ η Θωράκιση και Αντίσταση Μαγείας σας αυξάνονται κατά @ExtraResist@%.",
 						"longDesc": "Μετά από @MinutesRequired@ λεπτά, αποκτάτε +@ArmorBase@ Θωράκιση και +@MRBase@ Αντίσταση Μαγείας, ενώ η Θωράκιση και Αντίσταση Μαγείας σας αυξάνονται κατά @ExtraResist@%.",
 						"icon": "ASSETS/Perks/Styles/Resolve/Conditioning/Conditioning.dds"
+					},
+					{
+						"id": 8444,
+						"key": "SecondWind",
+						"name": "Συγκέντρωση Δυνάμεων",
+						"shortDesc": "Αφού δεχτείτε Ζημιά από έναν αντίπαλο Ήρωα, ανακτάτε μέρος της Ζωής που σας λείπει σε βάθος χρόνου. ",
+						"longDesc": "Αφού δεχτείτε Ζημιά από έναν αντίπαλο ήρωα, θεραπεύεστε για το @RegenPercentMax.0*100@% της μέγιστης Ζωής σας +@RegenFlat.0@ σε @RegenSeconds@ δευτ.",
+						"icon": "ASSETS/Perks/Styles/Resolve/SecondWind/SecondWind.dds"
 					}
 				]
 			},
@@ -468,12 +476,12 @@
 						"icon": "ASSETS/Perks/Styles/Resolve/Revitalize/Revitalize.dds"
 					},
 					{
-						"id": 8444,
-						"key": "SecondWind",
-						"name": "Συγκέντρωση Δυνάμεων",
-						"shortDesc": "Αφού δεχτείτε Ζημιά από έναν αντίπαλο Ήρωα, ανακτάτε μέρος της Ζωής που σας λείπει σε βάθος χρόνου. ",
-						"longDesc": "Αφού δεχτείτε Ζημιά από έναν αντίπαλο ήρωα, θεραπεύεστε για το @RegenPercentMax.0*100@% της μέγιστης Ζωής σας +@RegenFlat.0@ σε @RegenSeconds@ δευτ.",
-						"icon": "ASSETS/Perks/Styles/Resolve/SecondWind/SecondWind.dds"
+						"id": 8242,
+						"key": "Unflinching",
+						"name": "Ακλόνητος",
+						"shortDesc": "Μόλις χρησιμοποιήσετε ένα Ξόρκι Επικαλεστή, αποκτάτε Εμμονή και Αντίσταση Επιβράδυνσης για σύντομο χρονικό διάστημα. Επιπλέον, αποκτάτε Εμμονή και Αντίσταση Επιβράδυνσης για κάθε Ξόρκι Επικαλεστή που επαναφορτίζεται. ",
+						"longDesc": "Μόλις χρησιμοποιήσετε ένα Ξόρκι Επικαλεστή, αποκτάτε @BonusTenacity*100@% Εμμονή και Αντίσταση Επιβράδυνσης για @BuffDuration@ δευτερόλεπτα. Επιπλέον, αποκτάτε @PersistTenacity*100@% Εμμονή και Αντίσταση Επιβράδυνσης για κάθε Ξόρκι Επικαλεστή που επαναφορτίζεται. ",
+						"icon": "ASSETS/Perks/Styles/Sorcery/Unflinching/Unflinching.dds"
 					}
 				]
 			}
@@ -500,7 +508,7 @@
 						"key": "ArcaneComet",
 						"name": "Μαγικός Κομήτης",
 						"shortDesc": "Αν κάνετε ζημιά σε έναν Ήρωα με μια ικανότητα, θα εκτοξευτεί ένας κομήτης προς τη θέση του, ο οποίος προκαλεί ζημιά.",
-						"longDesc": "Όταν προκαλείτε ζημιά σε έναν ήρωα με μια ικανότητα, θα εκτοξεύεται ένας κομήτης προς τη θέση του ή, αν ο Μαγικός Κομήτης επαναφορτίζεται, θα μειώνεται ο Χρόνος Επαναφόρτισης που απομένει.<br><br><lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>Ευέλικτη Ζημιά</font></lol-uikit-tooltipped-keyword>: @DamageBase@ - @DamageMax@ ανάλογα με το επίπεδο (<scaleAP>+@APRatio.-1@ Ισχύς Ικανότητας</scaleAP> και <scaleAD>+@ADRatio.-1@ μπόνους Ζημιά Επίθεσης</scaleAD>)<br>Χρόνος Επαναφόρτισης: @RechargeTime@ - @RechargeTimeMin@δευτερόλεπτα<br><rules><br>Μείωση Χρόνου Επαναφόρτισης:<br>Ένας Στόχος: @PercentRefund*100@%.<br>Πεδίο Επιρροής: @AoEPercentRefund*100@%.<br>Ζημιά σε βάθος χρόνου: @DotPercentRefund*100@%.<br></rules>",
+						"longDesc": "Όταν προκαλείτε ζημιά σε έναν ήρωα με μια ικανότητα, θα εκτοξεύεται ένας κομήτης προς τη θέση του ή, αν ο Μαγικός Κομήτης επαναφορτίζεται, θα μειώνεται ο Χρόνος Επαναφόρτισης που απομένει.<br><br><lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>Ευέλικτη Ζημιά</font></lol-uikit-tooltipped-keyword>: @DamageBase@ - @DamageMax@ ανάλογα με το επίπεδο (<scaleAP>+@APRatio.-1@ Ισχύς Ικανότητας</scaleAP> και <scaleAD>+@ADRatio.-1@ μπόνους Ζημιά Επίθεσης</scaleAD>)<br>Χρόνος Επαναφόρτισης: @RechargeTime@ - @RechargeTimeMin@ δευτερόλεπτα<br><rules><br>Μείωση Χρόνου Επαναφόρτισης:<br>Ένας Στόχος: @PercentRefund*100@%.<br>Πεδίο Επιρροής: @AoEPercentRefund*100@%.<br>Ζημιά σε βάθος χρόνου: @DotPercentRefund*100@%.<br></rules>",
 						"icon": "ASSETS/Perks/Styles/Sorcery/ArcaneComet/ArcaneComet.dds"
 					},
 					{

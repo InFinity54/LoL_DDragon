@@ -228,12 +228,12 @@
 						"icon": "ASSETS/Perks/Styles/Resolve/HotPursuit/HotPursuit.dds"
 					},
 					{
-						"id": 8339,
-						"key": "TheThirdPath",
-						"name": "Cơ Thể Thượng Nhân",
-						"shortDesc": "+@HealthBonus@ Máu vĩnh viễn<br>- @ChampionDamagePenalty*100@% sát thương lên tướng và quái cho đến phút @EndTime@",
-						"longDesc": "+@HealthBonus@ Máu vĩnh viễn<br>- @ChampionDamagePenalty*100@% sát thương lên tướng và quái cho đến phút @EndTime@<br><br><hr></hr><br><i>'Những huyền thoại vĩ đại vẫn sống mãi trên những vì sao' <br>- Daphna Người Mơ Mộng</i>",
-						"icon": "ASSETS/Perks/Styles/Inspiration/TheThirdPath/TheThirdPath.dds"
+						"id": 8352,
+						"key": "TimeWarpTonic",
+						"name": "Thuốc Thời Gian",
+						"shortDesc": "+@PotionDuration*100@ thời gian tác dụng của bình thuốc, dược phẩm và bánh quy đồng thời tăng @BonusMS*100@% Tốc độ Di chuyển khi đang dùng bình thuốc, dược phẩm và bánh quy.",
+						"longDesc": "+@PotionDuration*100@ thời gian tác dụng của bình thuốc, dược phẩm và bánh quy đồng thời tăng @BonusMS*100@% Tốc độ Di chuyển khi đang dùng bình thuốc, dược phẩm và bánh quy.",
+						"icon": "ASSETS/Perks/Styles/Inspiration/TimeWarpTonic/TimeWarpTonic.dds"
 					}
 				]
 			}
@@ -249,15 +249,15 @@
 				"runes": [
 					{
 						"id": 8005,
-						"key": "PressThreeAttacks",
+						"key": "PressTheAttack",
 						"name": "Sẵn Sàng Tấn Công",
-						"shortDesc": "Tấn công một tướng @HitsRequired@ lần liên tiếp sẽ làm kẻ đó suy yếu, gây thêm sát thương và khiến kẻ đó chịu thêm sát thương từ mọi nguồn trong @AmpDuration@ giây.",
-						"longDesc": "Đánh thường trúng một tướng địch @HitsRequired@ lần liên tiếp gây thêm @MinDamage@ - @MaxDamage@ <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>sát thương thích ứng</font></lol-uikit-tooltipped-keyword> (theo cấp) và làm kẻ đó suy yếu, chịu thêm @AmpPotencySelf.0*100@% sát thương từ mọi nguồn trong @AmpDuration@ giây.",
-						"icon": "ASSETS/Perks/Styles/Precision/PressThreeAttacks/PressThreeAttacks.dds"
+						"shortDesc": "Đánh trúng tướng địch @HitsRequired@ lần liên tiếp gây thêm sát thương và khiến chúng chịu thêm sát thương từ mọi nguồn trong @AmpDuration@ giây.",
+						"longDesc": "Đánh trúng tướng địch @HitsRequired@ đòn liên tiếp gây thêm @MinDamage@ - @MaxDamage@ <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>sát thương thích ứng</font></lol-uikit-tooltipped-keyword> (theo cấp) và khiến chúng dễ bị tổn thương, tăng sát thương chúng phải chịu từ mọi nguồn thêm @AmpPotencyStartSelf.0*100@ - @AmpPotencyMaxSelf.0*100@% trong @AmpDuration@ giây.",
+						"icon": "ASSETS/Perks/Styles/Precision/PressTheAttack/PressTheAttack.dds"
 					},
 					{
 						"id": 8008,
-						"key": "Berserk",
+						"key": "LethalTempo",
 						"name": "Nhịp Độ Chết Người",
 						"shortDesc": "@LeadInDelay.1@ giây sau khi sát thương tướng địch, nhận thêm rất nhiều Tốc độ Đánh. Nhịp Độ Chết Người cho phép bạn tạm thời vượt qua giới hạn tốc độ đánh.",
 						"longDesc": "  @LeadInDelay.1@ giây sau khi gây sát thương một tướng, nhận thêm @AttackSpeedMin*100@ - @AttackSpeedMax*100@% Tốc độ Đánh (theo cấp) trong @AttackSpeedBuffDurationMin@ giây. Tấn công một tướng kéo dài hiệu ứng lên thành @AttackSpeedBuffDurationMax@ giây.<br><br>Hồi Chiêu: @Cooldown@ giây<br><br>Nhịp Độ Chết Người cho phép bạn tạm thời vượt qua giới hạn Tốc độ Đánh.",
@@ -265,11 +265,11 @@
 					},
 					{
 						"id": 8021,
-						"key": "KSFleetFootwork",
+						"key": "FleetFootwork",
 						"name": "Bước Chân Thần Tốc",
-						"shortDesc": "Tấn công và di chuyển tăng cộng dồn Tích Điện. Ở 100 điểm, đòn đánh kế tiếp hồi máu cho bạn và tăng thêm <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">Tốc độ Di chuyển</lol-uikit-tooltipped-keyword>.",
-						"longDesc": "Tấn công và di chuyển tăng điểm Tích Điện. Ở 100 điểm, đòn đánh kế tiếp của bạn được Tích Điện.<br><br>Đòn đánh Tích Điện hồi cho bạn @HealBase@ - @HealMax@ (+@HealBonusADRatio.-1@ SMCK cộng thêm, +@HealAPRatio.-1@ SMPT) và tăng thêm @MSBuff*100@% Tốc độ Di chuyển trong @MSDuration.0@ giây.<br><rules>Hồi máu còn @MinionHealMod*100@% hiệu lực khi dùng lên lính.<br>Hồi máu tăng thêm @HealCritMod*100@% sát thương chí mạng ở phát đánh chí mạng.</rules>",
-						"icon": "ASSETS/Perks/Styles/Precision/KSFleetFootwork/KSFleetFootwork.dds"
+						"shortDesc": "Tấn công và di chuyển tăng cộng dồn Tích Điện. Ở 100 cộng dồn, đòn đánh kế tiếp của bạn hồi máu và tăng <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">Tốc độ Di chuyển</lol-uikit-tooltipped-keyword>.",
+						"longDesc": "Tấn công và di chuyển tăng cộng dồn Tích Điện. Ở 100 cộng dồn, đòn đánh kế tiếp của bạn được Tích Điện.<br><br>Đòn đánh Tích Điện hồi cho bạn @HealBase@ - @HealMax@ (+@HealBonusADRatio.-1@ SMCK cộng thêm, +@HealAPRatio.-1@ SMPT) máu và tăng +@MSBuff*100@% Tốc độ Di chuyển trong @MSDuration.0@ giây.<br><rules>Hồi máu còn @MinionHealMod*100@% hiệu lực khi dùng lên lính.<br>Hồi máu tăng thêm @HealCritMod*100@% sát thương chí mạng khi đòn đánh có chí mạng.</rules>",
+						"icon": "ASSETS/Perks/Styles/Precision/FleetFootwork/FleetFootwork.dds"
 					}
 				]
 			},
@@ -285,7 +285,7 @@
 					},
 					{
 						"id": 9111,
-						"key": "AdrenalineRush",
+						"key": "Triumph",
 						"name": "Đắc Thắng",
 						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Tham gia hạ gục</lol-uikit-tooltipped-keyword> hồi @MissingHealthRestored.0*100@% máu đã mất và cho thêm @BonusGold@ vàng.",
 						"longDesc": "Tham gia hạ gục hồi lại @MissingHealthRestored.0*100@% máu đã mất của bạn và cho thêm @BonusGold@ vàng.<br><br><hr></hr><br><i>'Trò chơi nguy hiểm nhất đem lại vinh quang lớn lao nhất.' <br>—Chiến Binh Noxus</i>",
@@ -293,10 +293,10 @@
 					},
 					{
 						"id": 8009,
-						"key": "CastOnKill",
+						"key": "PresenceOfMind",
 						"name": "Hiện Diện Trí Tuệ",
-						"shortDesc": "Trong @BuffDuration@ giây sau khi lên cấp hoặc hạ gục, các kỹ năng của bạn sẽ được hoàn trả tiêu hao.",
-						"longDesc": "Trong @BuffDuration@ giây sau khi lên cấp hoặc tham gia hạ gục, năng lượng bạn tiêu hao được hoàn trả toàn bộ.",
+						"shortDesc": "Trong @BuffDuration@ giây sau khi lên cấp hoặc tham gia hạ gục, mọi năng lượng tiêu hao được hoàn trả toàn bộ.",
+						"longDesc": "Trong @BuffDuration@ giây sau khi lên cấp hoặc tham gia hạ gục, mọi năng lượng tiêu hao được hoàn trả toàn bộ.",
 						"icon": "ASSETS/Perks/Styles/Precision/LastResort/LastResortIcon.dds"
 					}
 				]
@@ -305,7 +305,7 @@
 				"runes": [
 					{
 						"id": 9104,
-						"key": "LegendDauntless",
+						"key": "LegendAlacrity",
 						"name": "Huyền Thoại: Tốc Độ Đánh",
 						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Hạ gục</lol-uikit-tooltipped-keyword> kẻ địch để nhận thêm vĩnh viễn <b>Tốc độ Đánh</b>. ",
 						"longDesc": "Nhận được @AttackSpeedBase*100@% Tốc độ Đánh cộng @AttackSpeedPerStack*100@% với mỗi cộng dồn <i>Huyền Thoại</i> (tối đa @MaxLegendStacks@).<br><br>Dần dần tăng cộng dồn  <i>Huyền Thoại</i> với mỗi lần tham gia hạ gục tướng và quái khủng hoặc hạ gục quái to và lính.",
@@ -321,10 +321,10 @@
 					},
 					{
 						"id": 9103,
-						"key": "LegendInfamy",
+						"key": "LegendBloodline",
 						"name": "Huyền Thoại: Hút Máu",
-						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Hạ gục</lol-uikit-tooltipped-keyword> kẻ địch để nhận thêm vĩnh viễn <b>Hút Máu</b>. ",
-						"longDesc": "Nhận được @LifeStealPerStack*100@% hút máu với mỗi cộng dồn <i>Huyền Thoại</i> (tối đa @MaxLegendStacks@).<br><br>Dần dần tăng cộng dồn <i>Huyền Thoại</i> với mỗi lần tham gia hạ gục tướng và quái khủng hoặc hạ gục quái to và lính.",
+						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Tham gia hạ gục</lol-uikit-tooltipped-keyword> kẻ địch tăng vĩnh viễn <b>Hút Máu</b>. ",
+						"longDesc": "Nhận được @LifeStealPerStack*100@% hút máu với mỗi cộng dồn <i>Huyền Thoại</i> (tối đa @MaxLegendStacks@).<br><br>Dần dần tăng cộng dồn  <i>Huyền Thoại</i> với mỗi lần tham gia hạ gục tướng và quái khủng hoặc hạ gục quái to và lính.",
 						"icon": "ASSETS/Perks/Styles/Precision/Legend_Infamy.dds"
 					}
 				]
@@ -341,19 +341,19 @@
 					},
 					{
 						"id": 8017,
-						"key": "GiantSlayer",
+						"key": "CutDown",
 						"name": "Đốn Hạ",
-						"shortDesc": "Gây thêm sát thương lên tướng có máu tối đa nhiều hơn bạn.",
-						"longDesc": "Gây thêm @MinBonusDamagePercent.0*100@% sát thương lên tướng có nhiều hơn bạn @MinHealthDifference@ máu tối đa, tăng tới @MaxBonusDamagePercent.0*100@% ở mức chênh lệch @MaxHealthDifference@.",
-						"icon": "ASSETS/Perks/Styles/Precision/GiantSlayer/GiantSlayer.dds"
+						"shortDesc": "Gây nhiều sát thương hơn lên tướng có nhiều máu hơn bạn.",
+						"longDesc": "Gây thêm @MinBonusDamagePercent.0*100@% sát thương lên tướng nhiều hơn bạn @MinHealthDifference@ máu, tăng tới @MaxBonusDamagePercent.0*100@% ở @MaxHealthDifference@ máu chênh lệch.",
+						"icon": "ASSETS/Perks/Styles/Precision/CutDown/CutDown.dds"
 					},
 					{
 						"id": 8299,
-						"key": "ToTheDeath",
+						"key": "LastStand",
 						"name": "Chốt Chặn Cuối Cùng",
 						"shortDesc": "Gây thêm sát thương lên tướng khi bạn thấp máu.",
 						"longDesc": "Gây thêm @MinBonusDamagePercent.0*100@% - @MaxBonusDamagePercent.0*100@% sát thương lên tướng khi còn dưới @HealthThresholdStart.0*100@% Máu. Đạt tối đa khi còn @HealthThresholdEnd.0*100@% máu. ",
-						"icon": "ASSETS/Perks/Styles/Sorcery/ToTheDeath/ToTheDeath.dds"
+						"icon": "ASSETS/Perks/Styles/Sorcery/LastStand/LastStand.dds"
 					}
 				]
 			}
@@ -396,14 +396,6 @@
 			{
 				"runes": [
 					{
-						"id": 8242,
-						"key": "Unflinching",
-						"name": "Kiên Cường",
-						"shortDesc": "Sau khi dùng một Phép Bổ Trợ, nhận thêm Kháng Hiệu ứng và Kháng Làm chậm trong chốc lát. Ngoài ra, nhận thêm Kháng Hiệu ứng và Kháng Làm chậm với mỗi Phép Bổ Trợ đang hồi chiêu.",
-						"longDesc": "Sau khi dùng một Phép Bổ Trợ, nhận thêm @BonusTenacity*100@% Kháng Hiệu ứng và Kháng Làm chậm trong @BuffDuration@ giây. Ngoài ra, nhận thêm @PersistTenacity*100@% Kháng Hiệu ứng và Kháng Làm chậm với mỗi Phép Bổ Trợ đang hồi lại. ",
-						"icon": "ASSETS/Perks/Styles/Sorcery/Unflinching/Unflinching.dds"
-					},
-					{
 						"id": 8446,
 						"key": "Demolish",
 						"name": "Tàn Phá Hủy Diệt",
@@ -418,6 +410,14 @@
 						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairMov\">Hạn chế</lol-uikit-tooltipped-keyword> di chuyển một tướng địch đánh dấu kẻ đó. Đồng minh của bạn được hồi máu khi tấn công tướng địch bị đánh dấu. ",
 						"longDesc": "Hạn chế di chuyển một tướng địch đánh dấu kẻ đó trong @MarkDuration@ giây.<br><br>Tướng đồng minh tấn công kẻ địch bị đánh dấu được hồi máu bằng @FlatHealAmount@ + @HealthRatio.-1 * 100@% máu tối đa của bạn trong vòng @HealDuration@ giây.",
 						"icon": "ASSETS/Perks/Styles/Resolve/FontOfLife/FontOfLife.dds"
+					},
+					{
+						"id": 8473,
+						"key": "BucklerRing",
+						"name": "Giáp Cốt",
+						"shortDesc": "Sau khi chịu sát thương từ một tướng địch, @BlockCount@ phép hoặc đòn đánh kế tiếp bạn chịu từ kẻ địch gây ít sát thương hơn.",
+						"longDesc": "Sau khi chịu sát thương từ một tướng địch, @BlockCount@ phép hoặc đòn đánh kế tiếp bạn chịu từ kẻ địch gây ít đi @BlockBase@-@BlockMax@ sát thương tùy theo cấp.<br><br>Thời gian Tác dụng: @BlockDuration@ giây<br>Hồi chiêu: @Cooldown@ giây",
+						"icon": "ASSETS/Perks/Styles/Resolve/BucklerRing/BucklerRing.dds"
 					}
 				]
 			},
@@ -446,6 +446,14 @@
 						"shortDesc": "Sau @MinutesRequired@ phút nhận thêm +@ArmorBase@ Giáp và +@MRBase@ Kháng Phép và tăng Giáp và Kháng Phép thêm @ExtraResist@%.",
 						"longDesc": "Sau @MinutesRequired@ phút nhận thêm +@ArmorBase@ Giáp và +@MRBase@ Kháng Phép và tăng Giáp và Kháng Phép thêm @ExtraResist@%.",
 						"icon": "ASSETS/Perks/Styles/Resolve/Conditioning/Conditioning.dds"
+					},
+					{
+						"id": 8444,
+						"key": "SecondWind",
+						"name": "Ngọn Gió Thứ Hai",
+						"shortDesc": "Sau khi chịu sát thương từ tướng địch, hồi lại một phần máu đã mất theo thời gian.",
+						"longDesc": "Sau khi chịu sát thương từ một tướng địch, hồi lại @RegenFlat.0@ +@RegenPercentMax.0*100@% máu đã mất của bạn trong vòng @RegenSeconds@ giây.",
+						"icon": "ASSETS/Perks/Styles/Resolve/SecondWind/SecondWind.dds"
 					}
 				]
 			},
@@ -468,12 +476,12 @@
 						"icon": "ASSETS/Perks/Styles/Resolve/Revitalize/Revitalize.dds"
 					},
 					{
-						"id": 8444,
-						"key": "SecondWind",
-						"name": "Ngọn Gió Thứ Hai",
-						"shortDesc": "Sau khi chịu sát thương từ tướng địch, hồi lại một phần máu đã mất theo thời gian.",
-						"longDesc": "Sau khi chịu sát thương từ một tướng địch, hồi lại @RegenFlat.0@ +@RegenPercentMax.0*100@% máu đã mất của bạn trong vòng @RegenSeconds@ giây.",
-						"icon": "ASSETS/Perks/Styles/Resolve/SecondWind/SecondWind.dds"
+						"id": 8242,
+						"key": "Unflinching",
+						"name": "Kiên Cường",
+						"shortDesc": "Sau khi dùng một Phép Bổ Trợ, nhận thêm Kháng Hiệu ứng và Kháng Làm chậm trong chốc lát. Ngoài ra, nhận thêm Kháng Hiệu ứng và Kháng Làm chậm với mỗi Phép Bổ Trợ đang hồi chiêu.",
+						"longDesc": "Sau khi dùng một Phép Bổ Trợ, nhận thêm @BonusTenacity*100@% Kháng Hiệu ứng và Kháng Làm chậm trong @BuffDuration@ giây. Ngoài ra, nhận thêm @PersistTenacity*100@% Kháng Hiệu ứng và Kháng Làm chậm với mỗi Phép Bổ Trợ đang hồi lại. ",
+						"icon": "ASSETS/Perks/Styles/Sorcery/Unflinching/Unflinching.dds"
 					}
 				]
 			}

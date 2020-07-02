@@ -228,12 +228,12 @@
 						"icon": "ASSETS/Perks/Styles/Resolve/HotPursuit/HotPursuit.dds"
 					},
 					{
-						"id": 8339,
-						"key": "TheThirdPath",
-						"name": "Ciało Astralne",
-						"shortDesc": "+@HealthBonus@ pkt. zdrowia na stałe<br>-@ChampionDamagePenalty*100@% obrażeń zadawanych bohaterom i potworom do @EndTime@ min.",
-						"longDesc": "+@HealthBonus@ pkt. zdrowia na stałe<br>-@ChampionDamagePenalty*100@% obrażeń zadawanych bohaterom i potworom do @EndTime@ min.<br><br><hr></hr><br><i>„Najwspanialsze legendy żyją dalej w gwiazdach” <br>— Marzycielka Daphna</i>",
-						"icon": "ASSETS/Perks/Styles/Inspiration/TheThirdPath/TheThirdPath.dds"
+						"id": 8352,
+						"key": "TimeWarpTonic",
+						"name": "Zaginający Czas Tonik",
+						"shortDesc": "Twoje mikstury, ciastka i eliksiry działają o @PotionDuration*100@% dłużej i zyskujesz @BonusMS*100@% prędkości ruchu, kiedy jesteś pod ich wpływem.",
+						"longDesc": "Twoje mikstury, ciastka i eliksiry działają o @PotionDuration*100@% dłużej i zyskujesz @BonusMS*100@% prędkości ruchu, kiedy jesteś pod ich wpływem.",
+						"icon": "ASSETS/Perks/Styles/Inspiration/TimeWarpTonic/TimeWarpTonic.dds"
 					}
 				]
 			}
@@ -249,15 +249,15 @@
 				"runes": [
 					{
 						"id": 8005,
-						"key": "PressThreeAttacks",
+						"key": "PressTheAttack",
 						"name": "Do Ataku",
-						"shortDesc": "Zaatakowanie bohatera określoną liczbę razy (@HitsRequired@) zada mu dodatkowe obrażenia i sprawi, że będzie otrzymywał więcej obrażeń ze wszystkich źródeł przez @AmpDuration@ sek.",
-						"longDesc": "Trafienie bohatera podstawowymi atakami określoną liczbę razy (@HitsRequired@) z rzędu spowoduje zadanie @MinDamage@-@MaxDamage@ pkt. dodatkowych <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>obrażeń adaptacyjnych</font></lol-uikit-tooltipped-keyword> (zależnie od poziomu) i sprawi, że będą otrzymywać o @AmpPotencySelf.0*100@% więcej obrażeń ze wszystkich źródeł przez @AmpDuration@ sek.",
-						"icon": "ASSETS/Perks/Styles/Precision/PressThreeAttacks/PressThreeAttacks.dds"
+						"shortDesc": "Zaatakowanie bohatera określoną liczbę razy (@HitsRequired@) sprawi, że stanie się on wrażliwy na ataki, zadając mu dodatkowe obrażenia i powodując, że będzie otrzymywał więcej obrażeń ze wszystkich źródeł przez @AmpDuration@ sek.",
+						"longDesc": "Trafienie wrogiego bohatera podstawowymi atakami określoną liczbę razy (@HitsRequired@) z rzędu zada @MinDamage@-@MaxDamage@ pkt. dodatkowych <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>obrażeń adaptacyjnych</font></lol-uikit-tooltipped-keyword> (zależnie od poziomu) i sprawi, że stanie się on wrażliwy na ataki, otrzymując od @AmpPotencyStartSelf.0*100@ do @AmpPotencyMaxSelf.0*100@% więcej obrażeń ze wszystkich źródeł przez @AmpDuration@ sek.",
+						"icon": "ASSETS/Perks/Styles/Precision/PressTheAttack/PressTheAttack.dds"
 					},
 					{
 						"id": 8008,
-						"key": "Berserk",
+						"key": "LethalTempo",
 						"name": "Zabójcze Tempo",
 						"shortDesc": "@LeadInDelay.1@ sek. po zadaniu obrażeń bohaterowi zyskujesz znaczną premię do prędkości ataku. Zabójcze Tempo umożliwia tymczasowe przekroczenie limitu prędkości ataku.",
 						"longDesc": "@LeadInDelay.1@ sek. po zadaniu obrażeń bohaterowi zyskujesz @AttackSpeedMin*100@-@AttackSpeedMax*100@% prędkości ataku (zależnie od poziomu) na @AttackSpeedBuffDurationMin@ sek. Atakowanie bohaterów wydłuża efekt do @AttackSpeedBuffDurationMax@ sek.<br><br>Czas odnowienia: @Cooldown@ sek.<br><br>Zabójcze Tempo umożliwia tymczasowe przekroczenie limitu prędkości ataku.",
@@ -265,11 +265,11 @@
 					},
 					{
 						"id": 8021,
-						"key": "KSFleetFootwork",
+						"key": "FleetFootwork",
 						"name": "Zwinne Nogi",
-						"shortDesc": "Atakując i poruszając się, gromadzisz ładunki energii. Po zebraniu 100 twój następny atak uleczy cię i zwiększy <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">prędkość ruchu</lol-uikit-tooltipped-keyword>.",
+						"shortDesc": "Atakując i poruszając się, gromadzisz ładunki energii. Po zebraniu 100 ładunków twój następny atak uleczy cię i zwiększy <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">prędkość ruchu</lol-uikit-tooltipped-keyword>.",
 						"longDesc": "Atakując i poruszając się, gromadzisz ładunki energii. Gdy zgromadzisz 100 ładunków, twój następny atak stanie się naładowany.<br><br>Naładowane ataki leczą cię o @HealBase@-@HealMax@ pkt. (+@HealBonusADRatio.-1@ pkt. dodatkowych obrażeń od ataku, +@HealAPRatio.-1@ pkt. mocy umiejętności) i dają @MSBuff*100@% prędkości ruchu na @MSDuration.0@ sek.<br><rules>Leczenie jest skuteczne w @MinionHealMod*100@% w przypadku użycia na stworach.<br>Leczenie zwiększa się o @HealCritMod*100@% twojego modyfikatora obrażeń krytycznych, jeśli zostało wywołane trafieniem krytycznym.</rules>",
-						"icon": "ASSETS/Perks/Styles/Precision/KSFleetFootwork/KSFleetFootwork.dds"
+						"icon": "ASSETS/Perks/Styles/Precision/FleetFootwork/FleetFootwork.dds"
 					}
 				]
 			},
@@ -285,7 +285,7 @@
 					},
 					{
 						"id": 9111,
-						"key": "AdrenalineRush",
+						"key": "Triumph",
 						"name": "Triumf",
 						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Udział w zabójstwie</lol-uikit-tooltipped-keyword> przywraca @MissingHealthRestored.0*100@% brakującego zdrowia i daje ci dodatkowo @BonusGold@ szt. złota. ",
 						"longDesc": "Udział w zabójstwie przywraca @MissingHealthRestored.0*100@% brakującego zdrowia i daje ci dodatkowo @BonusGold@ szt. złota. <br><br><hr></hr><br><i>„Najniebezpieczniejsza gra przynosi najwięcej chwały” <br>— noxiański rachmistrz</i>",
@@ -293,10 +293,10 @@
 					},
 					{
 						"id": 8009,
-						"key": "CastOnKill",
+						"key": "PresenceOfMind",
 						"name": "Rozwój Myśli",
-						"shortDesc": "Przez @BuffDuration@ sek. po awansowaniu lub udziale w zabójstwie, jakakolwiek wydana mana zostaje w pełni przywrócona.",
-						"longDesc": "Przez @BuffDuration@ sek. po awansowaniu lub udziale w zabójstwie, jakakolwiek wydana mana zostaje w pełni przywrócona.",
+						"shortDesc": "Przez @BuffDuration@ sek. po awansowaniu lub udziale w zabójstwie jakakolwiek wydana mana zostanie w pełni przywrócona.",
+						"longDesc": "Przez @BuffDuration@ sek. po awansowaniu lub udziale w zabójstwie jakakolwiek wydana mana zostanie w pełni przywrócona.",
 						"icon": "ASSETS/Perks/Styles/Precision/LastResort/LastResortIcon.dds"
 					}
 				]
@@ -305,7 +305,7 @@
 				"runes": [
 					{
 						"id": 9104,
-						"key": "LegendDauntless",
+						"key": "LegendAlacrity",
 						"name": "Legenda: Żwawość",
 						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Udziały w zabójstwach</lol-uikit-tooltipped-keyword> wrogów dają stałą <b>prędkość ataku</b>. ",
 						"longDesc": "Zyskujesz @AttackSpeedBase*100@% prędkości ataku plus dodatkowe @AttackSpeedPerStack*100@% za każdy ładunek <i>Legendy</i> (maks. @MaxLegendStacks@ ładunków).<br><br>Postępy w kierunku ładunków <i>Legendy</i> zyskujesz za każdy udział w zabójstwie bohatera, epickiego potwora, zabójstwo dużego potwora i stwora.",
@@ -321,10 +321,10 @@
 					},
 					{
 						"id": 9103,
-						"key": "LegendInfamy",
+						"key": "LegendBloodline",
 						"name": "Legenda: Rodowód",
-						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Udziały w zabójstwach</lol-uikit-tooltipped-keyword> wrogów dają stałą<b> kradzież życia</b>. ",
-						"longDesc": "Zyskujesz @LifeStealPerStack*100@% kradzieży życia za każdy ładunek <i>Legendy</i> (maks. @MaxLegendStacks@ ładunków).<br><br>Postępy w kierunku ładunków <i>Legendy</i> zyskujesz za każdy udział w zabójstwie bohatera, epickiego potwora, zabójstwo dużego potwora i stwora.",
+						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Udziały w zabójstwach</lol-uikit-tooltipped-keyword> wrogów przyznają<b> kradzież życia</b> na stałe. ",
+						"longDesc": "Zyskujesz @LifeStealPerStack*100@% kradzieży życia za każdy ładunek <i>Legendy</i> (maks. liczba ładunków: @MaxLegendStacks@).<br><br>Postępy w kierunku ładunków <i>Legendy</i> zyskujesz za każdy udział w zabójstwie bohatera, epickiego potwora, zabójstwo dużego potwora i stwora.",
 						"icon": "ASSETS/Perks/Styles/Precision/Legend_Infamy.dds"
 					}
 				]
@@ -341,19 +341,19 @@
 					},
 					{
 						"id": 8017,
-						"key": "GiantSlayer",
+						"key": "CutDown",
 						"name": "Odcięcie",
 						"shortDesc": "Zadajesz więcej obrażeń bohaterom, którzy mają więcej maksymalnego zdrowia od ciebie.",
-						"longDesc": "Zadajesz @MinBonusDamagePercent.0*100@% więcej obrażeń bohaterom, którzy mają @MinHealthDifference@ pkt. więcej maksymalnego zdrowia od ciebie. Premia zwiększa się do @MaxBonusDamagePercent.0*100@% przy @MaxHealthDifference@ pkt. maksymalnego zdrowia więcej.",
-						"icon": "ASSETS/Perks/Styles/Precision/GiantSlayer/GiantSlayer.dds"
+						"longDesc": "Zadajesz o @MinBonusDamagePercent.0*100@% więcej obrażeń bohaterom, którzy mają o @MinHealthDifference@ pkt. więcej maksymalnego zdrowia od ciebie. Premia zwiększa się do @MaxBonusDamagePercent.0*100@% przy @MaxHealthDifference@ pkt. różnicy maksymalnego zdrowia.",
+						"icon": "ASSETS/Perks/Styles/Precision/CutDown/CutDown.dds"
 					},
 					{
 						"id": 8299,
-						"key": "ToTheDeath",
+						"key": "LastStand",
 						"name": "Ostatni Bastion",
 						"shortDesc": "Gdy masz mało zdrowia, zadajesz bohaterom więcej obrażeń.",
 						"longDesc": "Zadajesz od @MinBonusDamagePercent.0*100@ do @MaxBonusDamagePercent.0*100@% więcej obrażeń bohaterom, gdy masz mniej niż @HealthThresholdStart.0*100@% zdrowia. Maksymalne obrażenia osiągasz przy @HealthThresholdEnd.0*100@% zdrowia.",
-						"icon": "ASSETS/Perks/Styles/Sorcery/ToTheDeath/ToTheDeath.dds"
+						"icon": "ASSETS/Perks/Styles/Sorcery/LastStand/LastStand.dds"
 					}
 				]
 			}
@@ -396,14 +396,6 @@
 			{
 				"runes": [
 					{
-						"id": 8242,
-						"key": "Unflinching",
-						"name": "Niezachwiany",
-						"shortDesc": "Po użyciu czaru przywoływacza zyskujesz nieustępliwość i odporność na spowolnienia na krótki czas. Dodatkowo zyskujesz nieustępliwość i odporność na spowolnienia za każdy odnawiający się czar przywoływacza. ",
-						"longDesc": "Po użyciu czaru przywoływacza zyskujesz @BonusTenacity*100@% nieustępliwości i odporności na spowolnienia na @BuffDuration@ sek. Dodatkowo zyskujesz @PersistTenacity*100@% nieustępliwości i odporności na spowolnienie za każdy odnawiający się czar przywoływacza. ",
-						"icon": "ASSETS/Perks/Styles/Sorcery/Unflinching/Unflinching.dds"
-					},
-					{
 						"id": 8446,
 						"key": "Demolish",
 						"name": "Demolka",
@@ -418,6 +410,14 @@
 						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairMov\">Ograniczanie ruchów</lol-uikit-tooltipped-keyword> wrogich bohaterów oznacza ich. Twoi sojusznicy leczą się, gdy atakują naznaczonych przez ciebie bohaterów. ",
 						"longDesc": "Ograniczanie ruchów wrogich bohaterów oznacza ich na @MarkDuration@ sek.<br><br>Sojusznicy, którzy zaatakują tak oznaczonych wrogów, leczą się o @FlatHealAmount@ pkt. + @HealthRatio.-1 * 100@% twojego maksymalnego zdrowia przez @HealDuration@ sek. ",
 						"icon": "ASSETS/Perks/Styles/Resolve/FontOfLife/FontOfLife.dds"
+					},
+					{
+						"id": 8473,
+						"key": "BucklerRing",
+						"name": "Kościana Zbroja",
+						"shortDesc": "Po otrzymaniu obrażeń od wrogiego bohatera następująca liczba: @BlockCount@ kolejnych zaklęć lub ataków wrogów zada o @BlockBase@-@BlockMax@ pkt. obrażeń mniej.<br><br>Czas działania: @BlockDuration@ sek.<br>Czas odnowienia: @Cooldown@ sek.",
+						"longDesc": "Po otrzymaniu obrażeń od wrogiego bohatera następująca liczba: @BlockCount@ kolejnych zaklęć lub ataków wrogów zada o @BlockBase@-@BlockMax@ pkt. obrażeń mniej.<br><br>Czas działania: @BlockDuration@ sek.<br>Czas odnowienia: @Cooldown@ sek.",
+						"icon": "ASSETS/Perks/Styles/Resolve/BucklerRing/BucklerRing.dds"
 					}
 				]
 			},
@@ -446,6 +446,14 @@
 						"shortDesc": "Po @MinutesRequired@ min. zyskujesz @ArmorBase@ pkt. pancerza i @MRBase@ pkt. odporności na magię, a twój pancerz i odporność na magię zwiększają się o @ExtraResist@%.",
 						"longDesc": "Po @MinutesRequired@ min. zyskujesz @ArmorBase@ pkt. pancerza i @MRBase@ pkt. odporności na magię, a twój pancerz i odporność na magię zwiększają się o @ExtraResist@%.",
 						"icon": "ASSETS/Perks/Styles/Resolve/Conditioning/Conditioning.dds"
+					},
+					{
+						"id": 8444,
+						"key": "SecondWind",
+						"name": "Drugi Oddech",
+						"shortDesc": "Po otrzymaniu obrażeń od wrogiego bohatera zregeneruj z czasem trochę brakującego zdrowia. ",
+						"longDesc": "Po otrzymaniu obrażeń od wrogiego bohatera @RegenPercentMax.0*100@% twojego brakującego zdrowia +@RegenFlat.0@ pkt. zregeneruje się w ciągu @RegenSeconds@ sek.",
+						"icon": "ASSETS/Perks/Styles/Resolve/SecondWind/SecondWind.dds"
 					}
 				]
 			},
@@ -468,12 +476,12 @@
 						"icon": "ASSETS/Perks/Styles/Resolve/Revitalize/Revitalize.dds"
 					},
 					{
-						"id": 8444,
-						"key": "SecondWind",
-						"name": "Drugi Oddech",
-						"shortDesc": "Po otrzymaniu obrażeń od wrogiego bohatera zregeneruj z czasem trochę brakującego zdrowia. ",
-						"longDesc": "Po otrzymaniu obrażeń od wrogiego bohatera @RegenPercentMax.0*100@% twojego brakującego zdrowia +@RegenFlat.0@ pkt. zregeneruje się w ciągu @RegenSeconds@ sek.",
-						"icon": "ASSETS/Perks/Styles/Resolve/SecondWind/SecondWind.dds"
+						"id": 8242,
+						"key": "Unflinching",
+						"name": "Niezachwiany",
+						"shortDesc": "Po użyciu czaru przywoływacza zyskujesz nieustępliwość i odporność na spowolnienia na krótki czas. Dodatkowo zyskujesz nieustępliwość i odporność na spowolnienia za każdy odnawiający się czar przywoływacza. ",
+						"longDesc": "Po użyciu czaru przywoływacza zyskujesz @BonusTenacity*100@% nieustępliwości i odporności na spowolnienia na @BuffDuration@ sek. Dodatkowo zyskujesz @PersistTenacity*100@% nieustępliwości i odporności na spowolnienie za każdy odnawiający się czar przywoływacza. ",
+						"icon": "ASSETS/Perks/Styles/Sorcery/Unflinching/Unflinching.dds"
 					}
 				]
 			}

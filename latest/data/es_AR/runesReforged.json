@@ -228,12 +228,12 @@
 						"icon": "ASSETS/Perks/Styles/Resolve/HotPursuit/HotPursuit.dds"
 					},
 					{
-						"id": 8339,
-						"key": "TheThirdPath",
-						"name": "Cuerpo Celestial",
-						"shortDesc": "+@HealthBonus@ de Vida permanentemente<br>-@ChampionDamagePenalty*100@% de daño a campeones y monstruos hasta @EndTime@ min.",
-						"longDesc": "+@HealthBonus@ de Vida permanentemente<br>-@ChampionDamagePenalty*100@% de daño a campeones y monstruos hasta @EndTime@ min<br><br><hr></hr><br><i>''Las leyendas más grandes viven en las estrellas''. <br>— Daphna La Soñadora</i>",
-						"icon": "ASSETS/Perks/Styles/Inspiration/TheThirdPath/TheThirdPath.dds"
+						"id": 8352,
+						"key": "TimeWarpTonic",
+						"name": "Tónico de Distorsión Temporal",
+						"shortDesc": "Tus pociones, galletas y elíxires duran un @PotionDuration*100@% más y obtienes @BonusMS*100@% de velocidad de movimiento al estar bajo sus efectos.",
+						"longDesc": "Tus pociones, galletas y elíxires duran un @PotionDuration*100@% más y obtienes @BonusMS*100@% de velocidad de movimiento al estar bajo sus efectos.",
+						"icon": "ASSETS/Perks/Styles/Inspiration/TimeWarpTonic/TimeWarpTonic.dds"
 					}
 				]
 			}
@@ -249,15 +249,15 @@
 				"runes": [
 					{
 						"id": 8005,
-						"key": "PressThreeAttacks",
+						"key": "PressTheAttack",
 						"name": "Estrategia Ofensiva",
-						"shortDesc": "Atacar un campeón enemigo @HitsRequired@ veces consecutivas hará que quede vulnerable, lo que inflige una bonificación de daño y hará que reciba más daño de todas las fuentes durante @AmpDuration@ seg.",
-						"longDesc": "Alcanzar a un campeón enemigo con @HitsRequired@ ataques básicos consecutivos infligirá @MinDamage@ - @MaxDamage@ de bonificación de <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>daño adaptable</font></lol-uikit-tooltipped-keyword> (según el nivel) y lo dejará vulnerable, lo que ocasionará que reciba @AmpPotencySelf.0*100@% de daño adicional de todas las fuentes durante @AmpDuration@ seg.",
-						"icon": "ASSETS/Perks/Styles/Precision/PressThreeAttacks/PressThreeAttacks.dds"
+						"shortDesc": "Atacar un campeón enemigo @HitsRequired@ veces consecutivas hará que quede vulnerable, lo que inflige daño adicional y hará que reciba más daño de todas las fuentes durante @AmpDuration@ seg.",
+						"longDesc": "Alcanzar a un campeón enemigo con @HitsRequired@ ataques básicos consecutivos infligirá de @MinDamage@ a @MaxDamage@ de <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>daño adaptable</font></lol-uikit-tooltipped-keyword> adicional (según el nivel) y lo dejará vulnerable, lo que ocasionará que reciba de @AmpPotencyStartSelf.0*100@% a @AmpPotencyMaxSelf.0*100@% de daño adicional de todas las fuentes durante @AmpDuration@ seg.",
+						"icon": "ASSETS/Perks/Styles/Precision/PressTheAttack/PressTheAttack.dds"
 					},
 					{
 						"id": 8008,
-						"key": "Berserk",
+						"key": "LethalTempo",
 						"name": "Cadencia Letal",
 						"shortDesc": "@LeadInDelay.1@ seg después de dañar a un campeón, obtendrás una gran cantidad de velocidad de ataque. Cadencia Letal te permite superar temporalmente el límite de velocidad de ataque.",
 						"longDesc": "@LeadInDelay.1@ seg después de dañar a un campeón, obtendrás de @AttackSpeedMin*100@ a @AttackSpeedMax*100@% de Velocidad de Ataque (según el nivel) durante @AttackSpeedBuffDurationMin@ seg. Al atacar a un campeón, podrás extender este efecto hasta @AttackSpeedBuffDurationMax@ seg.<br><br>Enfriamiento: @Cooldown@ seg<br><br>Cadencia Letal te permite superar temporalmente el límite de velocidad de ataque.",
@@ -265,11 +265,11 @@
 					},
 					{
 						"id": 8021,
-						"key": "KSFleetFootwork",
+						"key": "FleetFootwork",
 						"name": "Sobre la Marcha",
 						"shortDesc": "Al atacar y moverte, juntas acumulaciones de Energía. Al llegar a 100 acumulaciones, tu siguiente ataque te curará y otorgará <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">VM</lol-uikit-tooltipped-keyword> aumentada.",
 						"longDesc": "Al atacar y moverte, juntas acumulaciones de Energía. Al llegar a 100 acumulaciones, tu siguiente ataque quedará Energizado.<br><br>Los ataques Energizados te curan por @HealBase@ - @HealMax@ (+@HealBonusADRatio.-1@ de DA adicional, +@HealAPRatio.-1@ de PH) y te otorgan +@MSBuff*100@% de velocidad de movimiento durante @MSDuration.0@ seg.<br><rules>La curación es un @MinionHealMod*100@% efectiva si se usa en un súbdito.<br>La curación aumenta en un @HealCritMod*100@% de tu modificador de daño crítico al activarse por un golpe crítico.</rules>",
-						"icon": "ASSETS/Perks/Styles/Precision/KSFleetFootwork/KSFleetFootwork.dds"
+						"icon": "ASSETS/Perks/Styles/Precision/FleetFootwork/FleetFootwork.dds"
 					}
 				]
 			},
@@ -285,7 +285,7 @@
 					},
 					{
 						"id": 9111,
-						"key": "AdrenalineRush",
+						"key": "Triumph",
 						"name": "Triunfo",
 						"shortDesc": "Los <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">derribos</lol-uikit-tooltipped-keyword> restauran un @MissingHealthRestored.0*100@% de tu vida faltante y otorgan @BonusGold@ de oro adicional.",
 						"longDesc": "Los derribos restauran un @MissingHealthRestored.0*100@% de tu vida faltante y otorgan @BonusGold@ de oro adicional. <br><br><hr></hr><br><i>''El juego más peligroso trae la mayor gloria''. <br>—Juez noxiano</i>",
@@ -293,10 +293,10 @@
 					},
 					{
 						"id": 8009,
-						"key": "CastOnKill",
+						"key": "PresenceOfMind",
 						"name": "Concentración Profunda",
-						"shortDesc": "Durante @BuffDuration@ seg después de haber subido de nivel o de lograr un derribo, restaura el maná completo gastado en habilidades.",
-						"longDesc": "Durante @BuffDuration@ seg después de haber subido de nivel o de lograr un derribo, restaura el maná completo gastado en habilidades.",
+						"shortDesc": "Durante @BuffDuration@ seg después de haber subido de nivel o de lograr un derribo, restaura todo el maná gastado.",
+						"longDesc": "Durante @BuffDuration@ seg después de haber subido de nivel o de lograr un derribo, restaura todo el maná gastado.",
 						"icon": "ASSETS/Perks/Styles/Precision/LastResort/LastResortIcon.dds"
 					}
 				]
@@ -305,7 +305,7 @@
 				"runes": [
 					{
 						"id": 9104,
-						"key": "LegendDauntless",
+						"key": "LegendAlacrity",
 						"name": "Leyenda: Celeridad",
 						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Derriba</lol-uikit-tooltipped-keyword> enemigos para obtener <b>velocidad de ataque</b> permanente. ",
 						"longDesc": "Otorga @AttackSpeedBase*100@% de Velocidad de Ataque más un @AttackSpeedPerStack*100@% adicional por cada acumulación de <i>Leyenda</i> (máximo @MaxLegendStacks@ acumulaciones).<br><br>Obtendrás progreso para cada acumulación de <i>Leyenda</i> por cada derribo de campeón, derribo de monstruo épico, asesinato de monstruo grande y asesinato de súbdito.",
@@ -321,9 +321,9 @@
 					},
 					{
 						"id": 9103,
-						"key": "LegendInfamy",
+						"key": "LegendBloodline",
 						"name": "Leyenda: Linaje",
-						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Derriba</lol-uikit-tooltipped-keyword> enemigos para obtener <b>robo de vida</b> permanente. ",
+						"shortDesc": "Los <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">derribos</lol-uikit-tooltipped-keyword> otorgan <b>robo de vida</b> permanente. ",
 						"longDesc": "Otorga @LifeStealPerStack*100@% de robo de vida por cada acumulación de <i>Leyenda</i> (máximo @MaxLegendStacks@ acumulaciones).<br><br>Obtendrás progreso para cada acumulación de <i>Leyenda</i> por cada derribo de campeón, derribo de monstruo épico, asesinato de monstruo grande y asesinato de súbdito.",
 						"icon": "ASSETS/Perks/Styles/Precision/Legend_Infamy.dds"
 					}
@@ -341,19 +341,19 @@
 					},
 					{
 						"id": 8017,
-						"key": "GiantSlayer",
+						"key": "CutDown",
 						"name": "Corte",
 						"shortDesc": "Inflige más daño a los campeones que tengan más vida máxima que tú.",
-						"longDesc": "Inflige @MinBonusDamagePercent.0*100@% más de daño a todos los campeones que tengan @MinHealthDifference@ más de vida máxima que tú, y que aumenta a @MaxBonusDamagePercent.0*100@% con @MaxHealthDifference@ más de vida máxima.",
-						"icon": "ASSETS/Perks/Styles/Precision/GiantSlayer/GiantSlayer.dds"
+						"longDesc": "Inflige @MinBonusDamagePercent.0*100@% más de daño a todos los campeones que tengan @MinHealthDifference@ más vida máxima que tú, y aumenta a @MaxBonusDamagePercent.0*100@% con @MaxHealthDifference@ más de vida máxima.",
+						"icon": "ASSETS/Perks/Styles/Precision/CutDown/CutDown.dds"
 					},
 					{
 						"id": 8299,
-						"key": "ToTheDeath",
+						"key": "LastStand",
 						"name": "La Última Batalla",
 						"shortDesc": "Inflige más daño a campeones cuando tu vida está baja.",
 						"longDesc": "Inflige @MinBonusDamagePercent.0*100@%-@MaxBonusDamagePercent.0*100@% de daño aumentado a campeones mientras tengas menos del @HealthThresholdStart.0*100@% de vida. El máximo de daño se obtiene al @HealthThresholdEnd.0*100@% de vida.",
-						"icon": "ASSETS/Perks/Styles/Sorcery/ToTheDeath/ToTheDeath.dds"
+						"icon": "ASSETS/Perks/Styles/Sorcery/LastStand/LastStand.dds"
 					}
 				]
 			}
@@ -396,14 +396,6 @@
 			{
 				"runes": [
 					{
-						"id": 8242,
-						"key": "Unflinching",
-						"name": "Inquebrantable",
-						"shortDesc": "Después de lanzar un hechizo de invocador, obtienes tenacidad y resistencia a ralentizaciones durante un corto periodo. Además, obtienes tenacidad y resistencia a ralentizaciones por cada hechizo de invocador que tengas en enfriamiento. ",
-						"longDesc": "Después de lanzar un hechizo de invocador, obtienes @BonusTenacity*100@% de tenacidad y resistencia a ralentizaciones durante @BuffDuration@ seg. Además, obtienes @PersistTenacity*100@% de tenacidad y resistencia a ralentizaciones por cada hechizo de invocador que tengas en enfriamiento. ",
-						"icon": "ASSETS/Perks/Styles/Sorcery/Unflinching/Unflinching.dds"
-					},
-					{
 						"id": 8446,
 						"key": "Demolish",
 						"name": "Demolición",
@@ -418,6 +410,14 @@
 						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairMov\">Alterar</lol-uikit-tooltipped-keyword> el movimiento de un campeón enemigo lo marcará. Tus aliados se curan al atacar a los campeones que hayas marcado. ",
 						"longDesc": "Alterar el movimiento de un campeón enemigo lo marcará durante @MarkDuration@ seg.<br><br>Los campeones aliados que ataquen a campeones marcados se curarán por @FlatHealAmount@ + @HealthRatio.-1 * 100@% de tu vida máxima durante @HealDuration@ seg. ",
 						"icon": "ASSETS/Perks/Styles/Resolve/FontOfLife/FontOfLife.dds"
+					},
+					{
+						"id": 8473,
+						"key": "BucklerRing",
+						"name": "Coraza Ósea",
+						"shortDesc": "Después de recibir daño de un campeón enemigo, reduce el daño de los siguientes @BlockCount@ hechizos o ataques que recibas de un enemigo por @BlockBase@-@BlockMax@.<br><br>Duración: @BlockDuration@ seg<br>Enfriamiento: @Cooldown@ seg.",
+						"longDesc": "Después de recibir daño de un campeón enemigo, reduce el daño de los siguientes @BlockCount@ hechizos o ataques que recibas de un enemigo por @BlockBase@-@BlockMax@.<br><br>Duración: @BlockDuration@ seg<br>Enfriamiento: @Cooldown@ seg.",
+						"icon": "ASSETS/Perks/Styles/Resolve/BucklerRing/BucklerRing.dds"
 					}
 				]
 			},
@@ -446,6 +446,14 @@
 						"shortDesc": "Después de @MinutesRequired@ min, otorga +@ArmorBase@ de armadura y +@MRBase@ de resistencia mágica, y aumenta un @ExtraResist@% tu armadura y resistencia mágica.",
 						"longDesc": "Después de @MinutesRequired@ min, otorga +@ArmorBase@ de armadura y +@MRBase@ de resistencia mágica, y aumenta un @ExtraResist@% tu armadura y resistencia mágica.",
 						"icon": "ASSETS/Perks/Styles/Resolve/Conditioning/Conditioning.dds"
+					},
+					{
+						"id": 8444,
+						"key": "SecondWind",
+						"name": "Segundo Aire",
+						"shortDesc": "Después de recibir daño de un campeón enemigo, recuperarás progresivamente una parte de tu vida faltante.",
+						"longDesc": "Después de recibir daño de un campeón enemigo, te cura un @RegenPercentMax.0*100@% de tu vida faltante +@RegenFlat.0@ durante @RegenSeconds@ seg.",
+						"icon": "ASSETS/Perks/Styles/Resolve/SecondWind/SecondWind.dds"
 					}
 				]
 			},
@@ -468,12 +476,12 @@
 						"icon": "ASSETS/Perks/Styles/Resolve/Revitalize/Revitalize.dds"
 					},
 					{
-						"id": 8444,
-						"key": "SecondWind",
-						"name": "Segundo Aire",
-						"shortDesc": "Después de recibir daño de un campeón enemigo, recuperarás progresivamente una parte de tu vida faltante.",
-						"longDesc": "Después de recibir daño de un campeón enemigo, te cura un @RegenPercentMax.0*100@% de tu vida faltante +@RegenFlat.0@ durante @RegenSeconds@ seg.",
-						"icon": "ASSETS/Perks/Styles/Resolve/SecondWind/SecondWind.dds"
+						"id": 8242,
+						"key": "Unflinching",
+						"name": "Inquebrantable",
+						"shortDesc": "Después de lanzar un hechizo de invocador, obtienes tenacidad y resistencia a ralentizaciones durante un corto periodo. Además, obtienes tenacidad y resistencia a ralentizaciones por cada hechizo de invocador que tengas en enfriamiento. ",
+						"longDesc": "Después de lanzar un hechizo de invocador, obtienes @BonusTenacity*100@% de tenacidad y resistencia a ralentizaciones durante @BuffDuration@ seg. Además, obtienes @PersistTenacity*100@% de tenacidad y resistencia a ralentizaciones por cada hechizo de invocador que tengas en enfriamiento. ",
+						"icon": "ASSETS/Perks/Styles/Sorcery/Unflinching/Unflinching.dds"
 					}
 				]
 			}

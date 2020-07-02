@@ -228,12 +228,12 @@
 						"icon": "ASSETS/Perks/Styles/Resolve/HotPursuit/HotPursuit.dds"
 					},
 					{
-						"id": 8339,
-						"key": "TheThirdPath",
-						"name": "Corpo celeste",
-						"shortDesc": "+@HealthBonus@ salute permanente<br>-@ChampionDamagePenalty*100@% danni ai campioni e ai mostri fino a @EndTime@ minuti",
-						"longDesc": "+@HealthBonus@ salute permanente<br>-@ChampionDamagePenalty*100@% danni ai campioni e ai mostri fino a @EndTime@ minuti<br><br><hr></hr><br><i>''Le più grandi leggende continuano a vivere fra le stelle.''<br>— Daphna la sognatrice</i>",
-						"icon": "ASSETS/Perks/Styles/Inspiration/TheThirdPath/TheThirdPath.dds"
+						"id": 8352,
+						"key": "TimeWarpTonic",
+						"name": "Tonico temporale",
+						"shortDesc": "Le tue pozioni, i biscotti e gli elisir durano il @PotionDuration*100@% in più e ottieni il @BonusMS*100@% di velocità di movimento mentre sei sotto il loro effetto.",
+						"longDesc": "Le tue pozioni, i biscotti e gli elisir durano il @PotionDuration*100@% in più e ottieni il @BonusMS*100@% di velocità di movimento mentre sei sotto il loro effetto.",
+						"icon": "ASSETS/Perks/Styles/Inspiration/TimeWarpTonic/TimeWarpTonic.dds"
 					}
 				]
 			}
@@ -249,15 +249,15 @@
 				"runes": [
 					{
 						"id": 8005,
-						"key": "PressThreeAttacks",
+						"key": "PressTheAttack",
 						"name": "Attacco sostenuto",
 						"shortDesc": "Colpire un campione nemico @HitsRequired@ volte consecutive lo rende vulnerabile e gli infligge danni bonus, facendogli subire più danni da tutte le fonti per @AmpDuration@ secondi.",
-						"longDesc": "Colpire un campione nemico con @HitsRequired@ attacchi base consecutivi infligge @MinDamage@-@MaxDamage@ danni bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>adattivi</font></lol-uikit-tooltipped-keyword> (in base al livello) e lo espone, facendogli subire il @AmpPotencySelf.0*100@% di danni in più da tutte le fonti per @AmpDuration@ secondi.",
-						"icon": "ASSETS/Perks/Styles/Precision/PressThreeAttacks/PressThreeAttacks.dds"
+						"longDesc": "Colpire un campione nemico con @HitsRequired@ attacchi base consecutivi infligge @MinDamage@-@MaxDamage@ danni bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>adattivi</font></lol-uikit-tooltipped-keyword> (in base al livello) e lo espone, facendogli subire il @AmpPotencyStartSelf.0*100@-@AmpPotencyMaxSelf.0*100@% di danni in più da tutte le fonti per @AmpDuration@ secondi.",
+						"icon": "ASSETS/Perks/Styles/Precision/PressTheAttack/PressTheAttack.dds"
 					},
 					{
 						"id": 8008,
-						"key": "Berserk",
+						"key": "LethalTempo",
 						"name": "Tempo letale",
 						"shortDesc": "@LeadInDelay.1@ secondi dopo aver danneggiato un campione ottieni una grande quantità di velocità d'attacco. Tempo letale ti permette di superare momentaneamente il limite di velocità d'attacco.",
 						"longDesc": "@LeadInDelay.1@ secondi dopo aver danneggiato un campione ottieni il @AttackSpeedMin*100@-@AttackSpeedMax*100@% (in base al livello) della velocità d'attacco per @AttackSpeedBuffDurationMin@ secondi. Attaccare un campione estende l'effetto fino a @AttackSpeedBuffDurationMax@ secondi.<br><br>Ricarica: @Cooldown@ secondi<br><br>Tempo letale ti permette di superare momentaneamente il limite di velocità d'attacco.",
@@ -265,11 +265,11 @@
 					},
 					{
 						"id": 8021,
-						"key": "KSFleetFootwork",
+						"key": "FleetFootwork",
 						"name": "Piede lesto",
 						"shortDesc": "Attaccare e muoversi fa accumulare cariche di energia. A 100 cariche, il tuo prossimo attacco ti cura e ti conferisce <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_MS\">velocità di movimento</lol-uikit-tooltipped-keyword> aumentata.",
 						"longDesc": "Attaccare e muoversi fa accumulare cariche di energia. A 100 cariche, il tuo prossimo attacco è energizzato.<br><br>Gli attacchi energizzati ti curano di @HealBase@-@HealMax@ (+@HealBonusADRatio.-1@ attacco fisico bonus, +@HealAPRatio.-1@ potere magico) e ti conferiscono @MSBuff*100@% di velocità di movimento per @MSDuration.0@ secondi.<br><rules>La cura ha il @MinionHealMod*100@% dell'efficacia, se usata sui minion.<br>La cura aumenta del @HealCritMod*100@% del tuo modificatore dei danni critici quando viene attivata da un colpo critico.</rules>",
-						"icon": "ASSETS/Perks/Styles/Precision/KSFleetFootwork/KSFleetFootwork.dds"
+						"icon": "ASSETS/Perks/Styles/Precision/FleetFootwork/FleetFootwork.dds"
 					}
 				]
 			},
@@ -285,7 +285,7 @@
 					},
 					{
 						"id": 9111,
-						"key": "AdrenalineRush",
+						"key": "Triumph",
 						"name": "Trionfo",
 						"shortDesc": "Le <lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">eliminazioni</lol-uikit-tooltipped-keyword> ripristinano il @MissingHealthRestored.0*100@% della tua salute mancante e conferiscono @BonusGold@ oro aggiuntivo. ",
 						"longDesc": "Le eliminazioni ripristinano il @MissingHealthRestored.0*100@% della tua salute mancante e conferiscono @BonusGold@ oro aggiuntivo. <br><br><hr></hr><br><i>''Le prede più pericolose donano anche la gloria più grande.'' <br>—Guida noxiana</i>",
@@ -293,7 +293,7 @@
 					},
 					{
 						"id": 8009,
-						"key": "CastOnKill",
+						"key": "PresenceOfMind",
 						"name": "Presenza di spirito",
 						"shortDesc": "Per @BuffDuration@ secondi dopo aver ottenuto un livello o un'eliminazione, il mana che spendi viene ripristinato completamente.",
 						"longDesc": "Per @BuffDuration@ secondi dopo aver ottenuto un livello o un'eliminazione, il mana che spendi viene ripristinato completamente.",
@@ -305,7 +305,7 @@
 				"runes": [
 					{
 						"id": 9104,
-						"key": "LegendDauntless",
+						"key": "LegendAlacrity",
 						"name": "Leggenda: Alacrità",
 						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Gli abbattimenti</lol-uikit-tooltipped-keyword> ai danni dei nemici conferiscono <b>velocità d'attacco</b> permanente. ",
 						"longDesc": "Ottieni il @AttackSpeedBase*100@% di velocità d'attacco più un @AttackSpeedPerStack*100@% aggiuntivo per ogni carica di <i>Leggenda</i> (massimo @MaxLegendStacks@ cariche).<br><br>Ottieni progressi verso <i>Leggenda</i> per le eliminazioni dei campioni, dei mostri epici, dei mostri grandi e dei minion.",
@@ -321,7 +321,7 @@
 					},
 					{
 						"id": 9103,
-						"key": "LegendInfamy",
+						"key": "LegendBloodline",
 						"name": "Leggenda: Stirpe",
 						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_Takedown\">Gli abbattimenti</lol-uikit-tooltipped-keyword> ai danni dei nemici conferiscono <b>rubavita</b> permanente. ",
 						"longDesc": "Ottieni il @LifeStealPerStack*100@% di rubavita per ogni carica di <i>Leggenda</i> (massimo @MaxLegendStacks@ cariche).<br><br>Ottieni progressi verso <i>Leggenda</i> per le eliminazioni dei campioni, dei mostri epici, dei mostri grandi e dei minion.",
@@ -341,19 +341,19 @@
 					},
 					{
 						"id": 8017,
-						"key": "GiantSlayer",
+						"key": "CutDown",
 						"name": "Taglio profondo",
 						"shortDesc": "Infliggi più danni a tutti i campioni con più salute massima di te.",
 						"longDesc": "Infliggi il @MinBonusDamagePercent.0*100@% di danni in più ai campioni con @MinHealthDifference@ salute massima più di te. I danni aumentano fino al @MaxBonusDamagePercent.0*100@% a @MaxHealthDifference@ di salute massima in più.",
-						"icon": "ASSETS/Perks/Styles/Precision/GiantSlayer/GiantSlayer.dds"
+						"icon": "ASSETS/Perks/Styles/Precision/CutDown/CutDown.dds"
 					},
 					{
 						"id": 8299,
-						"key": "ToTheDeath",
+						"key": "LastStand",
 						"name": "L'ultima sfida",
 						"shortDesc": "I tuoi attacchi infliggono più danni ai campioni quando hai poca salute.",
 						"longDesc": "Infliggi @MinBonusDamagePercent.0*100@%-@MaxBonusDamagePercent.0*100@% danni aumentati ai campioni quando hai meno del @HealthThresholdStart.0*100@% di salute. Danni massimi ottenuti al @HealthThresholdEnd.0*100@% della salute.",
-						"icon": "ASSETS/Perks/Styles/Sorcery/ToTheDeath/ToTheDeath.dds"
+						"icon": "ASSETS/Perks/Styles/Sorcery/LastStand/LastStand.dds"
 					}
 				]
 			}
@@ -396,14 +396,6 @@
 			{
 				"runes": [
 					{
-						"id": 8242,
-						"key": "Unflinching",
-						"name": "Risoluto",
-						"shortDesc": "Dopo aver lanciato un incantesimo dell'evocatore, ottieni tenacia e resistenza ai rallentamenti per una breve durata. Inoltre aumenta la tua tenacia e resistenza ai rallentamenti per ogni incantesimo dell'evocatore in ricarica. ",
-						"longDesc": "Dopo aver lanciato un incantesimo dell'evocatore, ottieni il @BonusTenacity*100@% della tenacia e di resistenza ai rallentamenti per @BuffDuration@ secondi. Inoltre aumenta la tua tenacia e resistenza ai rallentamenti del @PersistTenacity*100@% per ogni incantesimo dell'evocatore in ricarica. ",
-						"icon": "ASSETS/Perks/Styles/Sorcery/Unflinching/Unflinching.dds"
-					},
-					{
 						"id": 8446,
 						"key": "Demolish",
 						"name": "Demolire",
@@ -418,6 +410,14 @@
 						"shortDesc": "<lol-uikit-tooltipped-keyword key=\"LinkTooltip_Description_ImpairMov\">Ostacolare</lol-uikit-tooltipped-keyword> i movimenti di un campione nemico lo marchia. Gli alleati si curano quando attaccano i campioni marcati. ",
 						"longDesc": "Ostacolando i movimenti di un campione nemico, questi viene marchiato per @MarkDuration@ secondi.<br><br>I campioni alleati che attaccano i nemici marchiati guariscono di @FlatHealAmount@ + @HealthRatio.-1 * 100@% della tua salute massima in @HealDuration@ secondi. ",
 						"icon": "ASSETS/Perks/Styles/Resolve/FontOfLife/FontOfLife.dds"
+					},
+					{
+						"id": 8473,
+						"key": "BucklerRing",
+						"name": "Corazza ossea",
+						"shortDesc": "Dopo aver subito danni da un campione nemico, le prossime @BlockCount@ abilità o attacchi che ricevi dai nemici infliggono @BlockBase@-@BlockMax@ danni in meno.<br><br>Durata: @BlockDuration@ secondi<br>Ricarica: @Cooldown@ secondi",
+						"longDesc": "Dopo aver subito danni da un campione nemico, le prossime @BlockCount@ abilità o attacchi che ricevi dai nemici infliggono @BlockBase@-@BlockMax@ danni in meno.<br><br>Durata: @BlockDuration@ secondi<br>Ricarica: @Cooldown@ secondi",
+						"icon": "ASSETS/Perks/Styles/Resolve/BucklerRing/BucklerRing.dds"
 					}
 				]
 			},
@@ -446,6 +446,14 @@
 						"shortDesc": "Dopo @MinutesRequired@ minuti ottieni +@ArmorBase@ armatura e +@MRBase@ resistenza magica e aumenti la tua armatura e la resistenza magica del @ExtraResist@%.",
 						"longDesc": "Dopo @MinutesRequired@ minuti ottieni +@ArmorBase@ armatura e +@MRBase@ resistenza magica e aumenti la tua armatura e la resistenza magica del @ExtraResist@%.",
 						"icon": "ASSETS/Perks/Styles/Resolve/Conditioning/Conditioning.dds"
+					},
+					{
+						"id": 8444,
+						"key": "SecondWind",
+						"name": "Secondo fiato",
+						"shortDesc": "Dopo aver subito danni da un campione nemico ti curi nel tempo di parte della salute mancante. ",
+						"longDesc": "Dopo aver subito danni da un campione nemico ti curi del @RegenPercentMax.0*100@% della tua salute mancante + @RegenFlat.0@ in @RegenSeconds@ secondi.",
+						"icon": "ASSETS/Perks/Styles/Resolve/SecondWind/SecondWind.dds"
 					}
 				]
 			},
@@ -468,12 +476,12 @@
 						"icon": "ASSETS/Perks/Styles/Resolve/Revitalize/Revitalize.dds"
 					},
 					{
-						"id": 8444,
-						"key": "SecondWind",
-						"name": "Secondo fiato",
-						"shortDesc": "Dopo aver subito danni da un campione nemico ti curi nel tempo di parte della salute mancante. ",
-						"longDesc": "Dopo aver subito danni da un campione nemico ti curi del @RegenPercentMax.0*100@% della tua salute mancante + @RegenFlat.0@ in @RegenSeconds@ secondi.",
-						"icon": "ASSETS/Perks/Styles/Resolve/SecondWind/SecondWind.dds"
+						"id": 8242,
+						"key": "Unflinching",
+						"name": "Risoluto",
+						"shortDesc": "Dopo aver lanciato un incantesimo dell'evocatore, ottieni tenacia e resistenza ai rallentamenti per una breve durata. Inoltre aumenta la tua tenacia e resistenza ai rallentamenti per ogni incantesimo dell'evocatore in ricarica. ",
+						"longDesc": "Dopo aver lanciato un incantesimo dell'evocatore, ottieni il @BonusTenacity*100@% della tenacia e di resistenza ai rallentamenti per @BuffDuration@ secondi. Inoltre aumenta la tua tenacia e resistenza ai rallentamenti del @PersistTenacity*100@% per ogni incantesimo dell'evocatore in ricarica. ",
+						"icon": "ASSETS/Perks/Styles/Sorcery/Unflinching/Unflinching.dds"
 					}
 				]
 			}
