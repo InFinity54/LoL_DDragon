@@ -6,11 +6,12 @@ Data Dragon is a package of files you can use for your projects about [_League o
 ## Additional contents in this repository
 This repository contains some additional files, not included in Data Dragon :
 
+- Icons of all tiers with sublevels (I/II/III/IV) : Iron, Bronze, Silver, Gold, Platinum, Diamond, Master, Grand Master, Challenger
 - Icons of all lanes in the game, with some bonus : Top, Jungle, Mid, Bot, Support, Autofill, Unknown
+- Icons of lanes in the game, for each tier (from Iron to Challenger) : Top, Jungle, Mid, Bot, Support
 - Icons of all dragons : Cloud, Infernal, Mountain, Ocean, Elder
 - Icons of others monsters : Rift Herald, Baron Nashor
 - Icons of masteries level 1 to 7
-- Icons of all tiers with sublevels
 - Icons for Creeps, Golds and Towers
 - Champions Splashs used for the League of Legends' 10th Anniversary
 
