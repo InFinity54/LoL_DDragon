@@ -14,6 +14,7 @@ This repository contains some additional files, not included in Data Dragon :
 - Icons of masteries level 1 to 7
 - Icons for Creeps, Golds and Towers
 - Champions Splashs used for the League of Legends' 10th Anniversary
+- Game constants JSON files : list of all seasons, queues, maps, gamemodes and types of games from the game
 
 ## Unused contents in this repository
 Because of the presence of all previous patchs (which can still be downloaded from Riot Games servers), some contents which became unused are available in this repository. This content can be some deleted elements, or old versions of actual stuff. In the repository, you will find :
