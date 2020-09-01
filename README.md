@@ -16,11 +16,14 @@ This repository contains some additional files, not included in Data Dragon :
 - Icons of masteries level 1 to 7
 - Icons for Creeps, Golds and Towers
 - Icons of all champions types : Assassin, Fighter, Mage, Marksman, Support, Tank
+- Icons of all Honor levels (from 0 to 5), their checkpoints and their rewards (Orb, Capsule, Flair, Key, Key Fragment, Honor 5 Token)
+- Animated icons of all Honor levels and their checkpoints (in .mp4 and .gif, use of .mp4 recommended)
 - Champions Splashs used for the League of Legends' 10th Anniversary
 - Game constants JSON files : list of all seasons, queues, maps, gamemodes and types of games from the game
+- Some wallpapers used while in group or in queue in game client
 
 ## Unused contents in this repository
-Because of the presence of all previous patchs (which can still be downloaded from Riot Games servers), some contents which became unused are available in this repository. This content can be some deleted elements, or old versions of actual stuff. In the repository, you will find :
+Because of the presence of all previous patchs (which can still be downloaded from Riot Games servers), some contents which became unused in _League of Legends_ are available in this repository. This content can be some deleted elements, or old versions of actual stuff. In the repository, you will find :
 
 - Old runes and masteries, deleted from the game since patch 7.22 (November 8th, 2017)
 - Some items icons that was previously removed from the game
