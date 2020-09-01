@@ -15,6 +15,7 @@ This repository contains some additional files, not included in Data Dragon :
 - Icons of others monsters : Rift Herald, Baron Nashor
 - Icons of masteries level 1 to 7
 - Icons for Creeps, Golds and Towers
+- Icons of all champions types : Assassin, Fighter, Mage, Marksman, Support, Tank
 - Champions Splashs used for the League of Legends' 10th Anniversary
 - Game constants JSON files : list of all seasons, queues, maps, gamemodes and types of games from the game
 
