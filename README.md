@@ -32,6 +32,7 @@ Because of the presence of all previous patchs (which can still be downloaded fr
 ## Patch added to this repository
 The date in front of each patch represents the date when the patch was pushed to this repository, not the date when it was released by Riot Games. Here's a list of all patchs included in this repository :
 
+- (X) 10.17.1 [not released by Riot Games]
 - (August 5th, 2020) 10.16.1
 - (July 24th, 2020) 10.15.1
 - (July 8th, 2020) 10.14.1
