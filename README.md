@@ -40,7 +40,7 @@ The date in front of each patch represents the date when the patch was pushed to
 - (July 2nd, 2020) 10.13.1
 - (July 2nd, 2020) 10.12.1
 - (July 2nd, 2020) 10.11.1
-- (July 2nd, 2020) 10.10.5 [no changes since 10.10.4]
+- (July 2nd, 2020) 10.10.5
 - (July 2nd, 2020) 10.10.4
 - (July 2nd, 2020) 10.10.3216176
 - (July 2nd, 2020) 10.10.3208608
