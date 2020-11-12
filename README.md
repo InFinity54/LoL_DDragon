@@ -30,7 +30,7 @@ Because of the presence of all previous patchs (which can still be downloaded fr
 - Minimap from old games modes or previous temporary games modes
 - Old items icons, before the remastering of in-game shop and the remastering of all items of the game of patch 10.23, for the preseason 11 (patch released on November 11th, 2020)
 
-## Patch added to this repository
+## Patchs added to this repository
 The date in front of each patch represents the date when the patch was pushed to this repository, not the date when it was released by Riot Games. Here's a list of all patchs included in this repository :
 
 - (November 10th, 2020) 10.23.1
