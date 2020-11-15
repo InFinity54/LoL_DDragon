@@ -17,10 +17,13 @@ This repository contains some additional files, not included in Data Dragon :
 - Icons for Creeps, Golds and Towers
 - Icons of all champions types : Assassin, Fighter, Mage, Marksman, Support, Tank
 - Icons of all Honor levels (from 0 to 5), their checkpoints and their rewards (Orb, Capsule, Flair, Key, Key Fragment, Honor 5 Token)
+- All Summoners Spells Pictures and Data² (Ignite, Flash, Exhaust...)
 - Animated icons of all Honor levels and their checkpoints (in .mp4 and .gif, use of .mp4 recommended)
 - Champions Splashs used for the League of Legends' 10th Anniversary
 - Game constants JSON files : list of all seasons, queues, maps, gamemodes and types of games from the game
 - Some wallpapers used while in group or in queue in game client
+
+²For the moment, Data about Summoner Spells is only available in `en_US`, but the file will be translated into others langages later. 
 
 ## Unused contents in this repository
 Because of the presence of all previous patchs (which can still be downloaded from Riot Games servers), some contents which became unused in _League of Legends_ are available in this repository. This content can be some deleted elements, or old versions of actual stuff. In the repository, you will find :
