@@ -39,6 +39,7 @@ There is no additional notes for this repository.
 ## Patchs added to this repository
 The date in front of each patch represents the date when the patch was pushed to this repository, not the date when it was released by Riot Games. Here's a list of all patchs included in this repository :
 
+- (November 24th, 2020) 10.24.1
 - (November 10th, 2020) 10.23.1
 - (October 27th, 2020) 10.22.1
 - (October 14th, 2020) 10.21.1
