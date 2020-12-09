@@ -1,5 +1,7 @@
 # _League of Legends_ - Data Dragon
 
+Do you want to use DDragon for _Teamfight Tactics_? [Check the _Teamfight Tactics_ repository here](https://github.com/InFinity54/TFT_DDragon).
+
 ## Introduction
 _Data Dragon_ is a package of files you can use for your projects about [_League of Legends_](https://www.leagueoflegends.com), distributed by Riot Games. A new version of Data Dragon is released some days after each game update. This repository allows you to update automatically all files more easily.
 
