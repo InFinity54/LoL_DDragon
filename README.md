@@ -5,7 +5,7 @@ Do you want to use DDragon for _Teamfight Tactics_? [Check the _Teamfight Tactic
 ## Introduction
 _Data Dragon_ is a package of files you can use for your projects about [_League of Legends_](https://www.leagueoflegends.com), distributed by Riot Games. A new version of Data Dragon is released some days after each game update. This repository allows you to update automatically all files more easily.
 
-Don't forget that new patchs will be added right after their release on Riot Games' Developers website, but it takes often many days to come. 
+Don't forget that new patchs will be added right after their release on Riot Games' Developers website, but it takes often many days to come.
 
 ## Additional contents in this repository
 This repository contains some additional files, not included in Data Dragon :
@@ -36,7 +36,10 @@ Because of the presence of all previous patchs (which can still be downloaded fr
 - Old items icons, before the remastering of in-game shop and the remastering of all items of the game of patch 10.23, for the preseason 11 (patch released on November 11th, 2020)
 
 ## Additional notes
-There is no additional notes for this repository.
+- Some files (tiles, loading splashs and splashs of champions especially) can be incorrect. This problem has been notifed to Riot Games, and [they actually work on a fix](https://github.com/RiotGames/developer-relations/issues/348).
+- There is some other problems in champions JSON, like Ornn's upgraded items which doesn't appear in this JSONs files. Riot has been notified for this problem too, and [they are investigating the problem](https://github.com/RiotGames/developer-relations/issues/419).
+- Some champions, like Fiddlesticks, are missed spelled in JSON files, which can create some problems when trying to retrieve images from data in JSONs files. [A fix is on the way](https://github.com/RiotGames/developer-relations/issues/83).
+- Others problems has been reported to Riot Games, and you can find all of them (and the 3 above too) in the [Riot Games' Developer Relations Bug Tracking about League of Legends' Data Dragon](https://github.com/RiotGames/developer-relations/labels/topic%3A%20ddrag%20lol).
 
 ## Patchs added to this repository
 The date in front of each patch represents the date when the patch was pushed to this repository, not the date when it was released by Riot Games. Here's a list of all patchs included in this repository :
