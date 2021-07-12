@@ -195,49 +195,49 @@
         "queueId": 100,
         "map": "Butcher's Bridge",
         "description": "5v5 ARAM games",
-        "notes": null        
+        "notes": null
     },
     {
         "queueId": 300,
         "map": "Howling Abyss",
         "description": "Legend of the Poro King games",
-        "notes": "Deprecated in patch 7.19 in favor of queueId 920"        
+        "notes": "Deprecated in patch 7.19 in favor of queueId 920"
     },
     {
         "queueId": 310,
         "map": "Summoner's Rift",
         "description": "Nemesis games",
-        "notes": null        
+        "notes": null
     },
     {
         "queueId": 313,
         "map": "Summoner's Rift",
         "description": "Black Market Brawlers games",
-        "notes": null        
+        "notes": null
     },
     {
         "queueId": 315,
         "map": "Summoner's Rift",
         "description": "Nexus Siege games",
-        "notes": "Deprecated in patch 7.19 in favor of queueId 940"        
+        "notes": "Deprecated in patch 7.19 in favor of queueId 940"
     },
     {
         "queueId": 317,
         "map": "Crystal Scar",
         "description": "Definitely Not Dominion games",
-        "notes": null        
+        "notes": null
     },
     {
         "queueId": 318,
         "map": "Summoner's Rift",
         "description": "ARURF games",
-        "notes": "Deprecated in patch 7.19 in favor of queueId 900"        
+        "notes": "Deprecated in patch 7.19 in favor of queueId 900"
     },
     {
         "queueId": 325,
         "map": "Summoner's Rift",
         "description": "All Random games",
-        "notes": null        
+        "notes": null
     },
     {
         "queueId": 400,
@@ -456,10 +456,28 @@
         "notes": null
     },
     {
+        "queueId": 1111,
+        "map": "Convergence",
+        "description": "Teamfight Tactics test games",
+        "notes": null
+    },
+    {
         "queueId": 1200,
         "map": "Nexus Blitz",
         "description": "Nexus Blitz games",
         "notes": "Deprecated in patch 9.2"
+    },
+    {
+        "queueId": 1300,
+        "map": "Nexus Blitz",
+        "description": "Nexus Blitz games",
+        "notes": null
+    },
+    {
+        "queueId": 1400,
+        "map": "Summoner's Rift",
+        "description": "Ultimate Spellbook games",
+        "notes": null
     },
     {
         "queueId": 2000,
