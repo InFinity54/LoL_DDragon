@@ -47,6 +47,7 @@ This list contains patchs from actual season. For all previous patchs of all pre
 
 The date in front of each patch represents the date when the patch was pushed to this repository, not the date when it was released by Riot Games. Here's a list of all patchs of current seasons included in this repository :
 
+- (December 7th, 2021) 11.24.1
 - (November 17th, 2021) 11.23.1
 - (November 2nd, 2021) 11.22.1
 - (October 19th, 2021) 11.21.1
