@@ -25,6 +25,7 @@ This repository contains some additional files, not included in Data Dragon :
 - Game constants JSON files : list of all seasons, queues, maps, gamemodes and types of games from the game
 - Some wallpapers used while in group or in queue in game client
 - Previous and actual icons and logo of _League of Legends_
+- Previous tiers icons (replaced since patch 12.1)
 
 ²For the moment, Data about Summoner Spells is only available in `en_US`, but the file will be translated into others langages later. 
 
