@@ -70,5 +70,13 @@
     {
         "gameMode": "ODYSSEY",
         "description": "Odyssey: Extraction games"
+    },
+    {
+        "gameMode": "NEXUSBLITZ",
+        "description": "Nexus Blitz games"
+    },
+    {
+        "gameMode": "ULTBOOK",
+        "description": "Ultimate Spellbook games"
     }
 ]
