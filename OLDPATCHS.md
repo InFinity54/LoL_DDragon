@@ -30,6 +30,7 @@ The date in front of each patch represents the date when the patch was pushed to
 - (February 3rd, 2021) 11.3.1
 - (January 22nd, 2021) 11.2.1
 - (January 5th, 2021) 11.1.1
+
 - (December 8th, 2020) 10.25.1
 - (November 24th, 2020) 10.24.1
 - (November 10th, 2020) 10.23.1
@@ -58,6 +59,7 @@ The date in front of each patch represents the date when the patch was pushed to
 - (July 2nd, 2020) 10.3.1
 - (July 2nd, 2020) 10.2.1
 - (July 2nd, 2020) 10.1.1
+
 - (July 2nd, 2020) 9.24.2
 - (July 2nd, 2020) 9.24.1
 - (July 2nd, 2020) 9.23.1
@@ -84,6 +86,7 @@ The date in front of each patch represents the date when the patch was pushed to
 - (July 2nd, 2020) 9.3.1
 - (July 2nd, 2020) 9.2.1
 - (July 2nd, 2020) 9.1.1
+
 - (July 2nd, 2020) 8.24.1
 - (July 2nd, 2020) 8.23.1
 - (July 2nd, 2020) 8.22.1
@@ -111,6 +114,7 @@ The date in front of each patch represents the date when the patch was pushed to
 - (July 2nd, 2020) 8.3.1
 - (July 2nd, 2020) 8.2.1
 - (July 2nd, 2020) 8.1.1
+
 - (July 2nd, 2020) 7.24.2
 - (July 2nd, 2020) 7.24.1
 - (July 2nd, 2020) 7.23.1
@@ -143,6 +147,7 @@ The date in front of each patch represents the date when the patch was pushed to
 - (July 2nd, 2020) 7.3.3
 - (July 1st, 2020) 7.2.1
 - (July 1st, 2020) 7.1.1
+
 - (July 1st, 2020) 6.24.1
 - (July 1st, 2020) 6.23.1
 - (July 1st, 2020) 6.22.1
@@ -170,6 +175,7 @@ The date in front of each patch represents the date when the patch was pushed to
 - (July 1st, 2020) 6.3.1
 - (July 1st, 2020) 6.2.1
 - (July 1st, 2020) 6.1.1
+
 - (July 1st, 2020) 5.24.2
 - (July 1st, 2020) 5.24.1
 - (July 1st, 2020) 5.23.1
@@ -203,6 +209,7 @@ The date in front of each patch represents the date when the patch was pushed to
 - (July 1st, 2020) 5.2.1
 - (July 1st, 2020) 5.1.2
 - (July 1st, 2020) 5.1.1
+
 - (July 1st, 2020) 4.21.5
 - (July 1st, 2020) 4.21.4
 - (July 1st, 2020) 4.21.3
@@ -246,6 +253,7 @@ The date in front of each patch represents the date when the patch was pushed to
 - (July 1st, 2020) 4.1.13
 - (July 1st, 2020) 4.1.9
 - (July 1st, 2020) 4.1.2
+
 - (July 1st, 2020) 3.15.5
 - (July 1st, 2020) 3.15.4
 - (July 1st, 2020) 3.15.2
