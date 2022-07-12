@@ -26,6 +26,7 @@ This repository contains some additional files, not included in Data Dragon :
 - Some wallpapers used while in group or in queue in game client
 - Previous and actual icons and logo of _League of Legends_
 - Previous tiers icons (replaced since patch 12.1)
+- Icons of all possible levels (from Iron to Challenger) for all existing challenges
 
 ²For the moment, Data about Summoner Spells is only available in `en_US`, but the file will be translated into others langages later. 
 
@@ -48,6 +49,7 @@ This list contains patchs from actual season. For all previous patchs of all pre
 
 The date in front of each patch represents the date when the patch was pushed to this repository, not the date when it was released by Riot Games. Here's a list of all patchs of current seasons included in this repository :
 
+- (July 12th, 2022) 12.13.1
 - (June 23rd, 2022) 12.12.1
 - (June 7th, 2022) 12.11.1
 - (May 25th, 2022) 12.10.1
