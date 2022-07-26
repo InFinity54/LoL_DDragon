@@ -49,6 +49,7 @@ This list contains patchs from actual season. For all previous patchs of all pre
 
 The date in front of each patch represents the date when the patch was pushed to this repository, not the date when it was released by Riot Games. Here's a list of all patchs of current seasons included in this repository :
 
+- (July 26th, 2022) 12.14.1
 - (July 12th, 2022) 12.13.1
 - (June 23rd, 2022) 12.12.1
 - (June 7th, 2022) 12.11.1
