@@ -1,4 +1,4 @@
-# _League of Legends_ - Data Dragon : Old patchs
+# _League of Legends_ - Data Dragon: Old patchs
 
 ## Introduction
 This document list all patchs from previous seasons added to this repository. For patchs of actual season, check [README.md](README.md).
