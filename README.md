@@ -27,6 +27,7 @@ This repository contains some additional files, not included in Data Dragon :
 - Previous and actual icons and logo of _League of Legends_
 - Previous tiers icons (replaced since patch 12.1)
 - Icons of all possible levels (from Iron to Challenger) for all existing challenges
+- Icons for Mythic Essences
 
 ²For the moment, Data about Summoner Spells is only available in `en_US`, but the file will be translated into others langages later. 
 
