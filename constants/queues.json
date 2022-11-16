@@ -344,7 +344,7 @@
     {
         "queueId": 900,
         "map": "Summoner's Rift",
-        "description": "URF games",
+        "description": "ARURF games",
         "notes": null
     },
     {
@@ -477,6 +477,12 @@
         "queueId": 1400,
         "map": "Summoner's Rift",
         "description": "Ultimate Spellbook games",
+        "notes": null
+    },
+    {
+        "queueId": 1900,
+        "map": "Summoner's Rift",
+        "description": "Pick URF games",
         "notes": null
     },
     {
