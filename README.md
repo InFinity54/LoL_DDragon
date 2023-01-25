@@ -24,6 +24,7 @@ This repository contains some additional files, not included in Data Dragon :
 - Champions Splashs used for the League of Legends' 10th Anniversary
 - Game constants JSON files : list of all seasons, queues, maps, gamemodes and types of games from the game
 - Some wallpapers used while in group or in queue in game client
+- Some game loading screen backgrounds
 - Previous and actual icons and logo of _League of Legends_
 - Previous tiers icons (replaced since patch 12.1)
 - Icons of all possible levels (from Iron to Challenger) for all existing challenges
