@@ -62,7 +62,7 @@ The date in front of each patch represents the date when the patch was pushed to
 - (October 14th, 2020) 10.21.1
 - (September 30th, 2020) 10.20.1
 - (September 19th, 2020) 10.19.1
-- (September 9th, 2020) 10.18.1 [there wasn't a 10.17 patch for the game]
+- (September 9th, 2020) 10.18.1
 - (August 5th, 2020) 10.16.1
 - (July 24th, 2020) 10.15.1
 - (July 8th, 2020) 10.14.1
@@ -316,3 +316,11 @@ The date in front of each patch represents the date when the patch was pushed to
 - (July 1st, 2020) 3.7.1
 - (July 1st, 2020) 3.6.15
 - (July 1st, 2020) 3.6.14
+
+### Missing patchs
+Some patchs wasn't added to this repository for various reasons :
+
+- 5.11 : _Data Dragon_ never released by Riot Games for this patch
+- 10.17 : _Data Dragon_ never released by Riot Games for this patch
+
+Some patchs wasn't released by Riot Games for the oldest versions of League of Legends, for all hotfixes releases for the game. This is the case, for example, for patchs 3.6.1 to 3.6.13. Some others (old) patchs were also handled that way by Riot.
