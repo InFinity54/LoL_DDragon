@@ -19,6 +19,7 @@ This repository contains some additional files, not included in Data Dragon :
 - Icons for Creeps, Golds and Towers
 - Icons of all champions types : Assassin, Fighter, Mage, Marksman, Support, Tank
 - Icons of all Honor levels (from 0 to 5), their checkpoints and their rewards (Orb, Capsule, Flair, Key, Key Fragment, Honor 5 Token)
+- Icons of all possible in-game statistics, like health, AD, AP, armor...
 - All Summoners Spells Pictures and Data² (Ignite, Flash, Exhaust...)
 - Animated icons of all Honor levels and their checkpoints (in .mp4 and .gif, use of .mp4 recommended)
 - Champions Splashs used for the League of Legends' 10th Anniversary
