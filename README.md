@@ -46,6 +46,7 @@ Because of the presence of all previous patchs (which can still be downloaded fr
 - There is some other problems in champions JSON, like Ornn's upgraded items which doesn't appear in this JSONs files. Riot has been notified for this problem too, and [they are investigating the problem](https://github.com/RiotGames/developer-relations/issues/419).
 - Some champions, like Fiddlesticks, are missed spelled in JSON files, which can create some problems when trying to retrieve images from data in JSONs files. [A fix is on the way](https://github.com/RiotGames/developer-relations/issues/83).
 - Others problems has been reported to Riot Games, and you can find all of them (and the 3 above too) in the [Riot Games' Developer Relations Bug Tracking about League of Legends' Data Dragon](https://github.com/RiotGames/developer-relations/labels/topic%3A%20ddrag%20lol).
+- Starting patch 13.10.1, Vietnamese language code has been changed by Riot from `vn_VN` to `vi_VN`. The `vn_VN` files has been moved to the `vi_VN` folder, including unused data. This has been [announced by Riot on Twitter](https://twitter.com/RiotGamesDevRel/status/1658949539867271171).
 
 ## Patchs added to this repository for the current season
 This list contains patchs from actual season. For all previous patchs of all previous seasons, you can check [OLDPATCHS.md](OLDPATCHS.md).
