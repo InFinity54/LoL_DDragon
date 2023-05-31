@@ -53,6 +53,7 @@ This list contains patchs from actual season. For all previous patchs of all pre
 
 The date in front of each patch represents the date when the patch was pushed to this repository, not the date when it was released by Riot Games. Here's a list of all patchs of current seasons included in this repository :
 
+- (May 31st, 2023) 13.11.1
 - (May 17th, 2023) 13.10.1
 - (May 2nd, 2023) 13.9.1
 - (April 18th, 2023) 13.8.1
