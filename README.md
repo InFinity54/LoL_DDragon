@@ -1,11 +1,13 @@
 # _League of Legends_ - Data Dragon
 
-Do you want to use DDragon for an another game from _Riot Games_? Check the [_Data Dragon_ repository for _Teamfight Tactics_](https://github.com/InFinity54/TFT_DDragon), [for _Legends of Runeterra_](https://github.com/InFinity54/LoR_DDragon) or the [_Valorant_ one](https://github.com/InFinity54/Valorant_DDragon).
+Do you want to use DDragon for an another game from _Riot Games_? Check the [_Data Dragon_ repository for _Legends of Runeterra_](https://github.com/InFinity54/LoR_DDragon) or the [_Valorant_ one](https://github.com/InFinity54/Valorant_DDragon).
 
 ## Introduction
 _Data Dragon_ is a package of files you can use for your projects about [_League of Legends_](https://www.leagueoflegends.com), distributed by Riot Games. A new version of Data Dragon is released some days after each game update. This repository allows you to update automatically all files more easily.
 
 Don't forget that new patchs will be added right after their release on Riot Games' Developers website, but it takes often many days to come.
+
+Since patch 13.12.1 and set 9 release for _Teamfight Tactics_, this repository is also containing data from _Teamfight Tactics_.
 
 ## Additional contents in this repository
 This repository contains some additional files, not included in Data Dragon :
@@ -30,6 +32,8 @@ This repository contains some additional files, not included in Data Dragon :
 - Previous tiers icons (replaced since patch 12.1)
 - Icons of all possible levels (from Iron to Challenger) for all existing challenges
 - Icons for Mythic Essences
+- Icons of all turbo badges (used for _Hyper Roll_ game mode for _Teamfight Tactics_)
+- Icons of all _Double Up_ badges (used for _Double Up_ game mode for _Teamfight Tactics_)
 
 ²For the moment, Data about Summoner Spells is only available in `en_US`, but the file will be translated into others langages later. 
 
@@ -42,8 +46,6 @@ Because of the presence of all previous patchs (which can still be downloaded fr
 - Old items icons, before the remastering of in-game shop and the remastering of all items of the game of patch 10.23, for the preseason 11 (patch released on November 11th, 2020)
 
 ## Additional notes
-- Some files (tiles, loading splashs and splashs of champions especially) can be incorrect. This problem has been notifed to Riot Games, and [they actually work on a fix](https://github.com/RiotGames/developer-relations/issues/348).
-- There is some other problems in champions JSON, like Ornn's upgraded items which doesn't appear in this JSONs files. Riot has been notified for this problem too, and [they are investigating the problem](https://github.com/RiotGames/developer-relations/issues/419).
 - Some champions, like Fiddlesticks, are missed spelled in JSON files, which can create some problems when trying to retrieve images from data in JSONs files. [A fix is on the way](https://github.com/RiotGames/developer-relations/issues/83).
 - Others problems has been reported to Riot Games, and you can find all of them (and the 3 above too) in the [Riot Games' Developer Relations Bug Tracking about League of Legends' Data Dragon](https://github.com/RiotGames/developer-relations/labels/topic%3A%20ddrag%20lol).
 - Starting patch 13.10.1, Vietnamese language code has been changed by Riot from `vn_VN` to `vi_VN`. The `vn_VN` files has been moved to the `vi_VN` folder, including unused data. This has been [announced by Riot on Twitter](https://twitter.com/RiotGamesDevRel/status/1658949539867271171).
@@ -53,6 +55,7 @@ This list contains patchs from actual season. For all previous patchs of all pre
 
 The date in front of each patch represents the date when the patch was pushed to this repository, not the date when it was released by Riot Games. Here's a list of all patchs of current seasons included in this repository :
 
+- (June 13th, 2023) 13.12.1
 - (May 31st, 2023) 13.11.1
 - (May 17th, 2023) 13.10.1
 - (May 2nd, 2023) 13.9.1
