@@ -35,7 +35,7 @@ This repository contains some additional files, not included in Data Dragon :
 - Icons of all turbo badges (used for _Hyper Roll_ game mode for _Teamfight Tactics_)
 - Icons of all _Double Up_ badges (used for _Double Up_ game mode for _Teamfight Tactics_)
 
-²For the moment, Data about Summoner Spells is only available in `en_US`, but the file will be translated into others langages later. 
+For the moment, Data about Summoner Spells is only available in `en_US`, but the file will be translated into others langages later. 
 
 ## Unused contents in this repository
 Because of the presence of all previous patchs (which can still be downloaded from Riot Games servers), some contents which became unused in _League of Legends_ are available in this repository. This content can be some deleted elements, or old versions of actual stuff. In the repository, you will find :
@@ -55,6 +55,7 @@ This list contains patchs from actual season. For all previous patchs of all pre
 
 The date in front of each patch represents the date when the patch was pushed to this repository, not the date when it was released by Riot Games. Here's a list of all patchs of current seasons included in this repository :
 
+- (August 15th, 2023) 13.16.1
 - (August 5th, 2023) 13.15.1
 - (July 19th, 2023) 13.14.1
 - (June 27th, 2023) 13.13.1
