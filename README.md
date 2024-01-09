@@ -55,34 +55,7 @@ This list contains patchs from actual season. For all previous patchs of all pre
 
 The date in front of each patch represents the date when the patch was pushed to this repository, not the date when it was released by Riot Games. Here's a list of all patchs of current seasons included in this repository :
 
-- (December 5th, 2023) 13.24.1
-- (November 20th, 2023) 13.23.1
-- (November 7th, 2023) 13.22.1
-- (October 24th, 2023) 13.21.1
-- (October 10th, 2023) 13.20.1
-- (September 26th, 2023) 13.19.1
-- (September 12th, 2023) 13.18.1
-- (August 30th, 2023) 13.17.1
-- (August 15th, 2023) 13.16.1
-- (August 5th, 2023) 13.15.1
-- (July 19th, 2023) 13.14.1
-- (June 27th, 2023) 13.13.1
-- (June 13th, 2023) 13.12.1
-- (May 31st, 2023) 13.11.1
-- (May 17th, 2023) 13.10.1
-- (May 2nd, 2023) 13.9.1
-- (April 18th, 2023) 13.8.1
-- (April 4th, 2023) 13.7.1
-- (March 21st, 2023) 13.6.1
-- (March 10th, 2023) 13.5.1
-- (February 22nd, 2023) 13.4.1
-- (February 10th, 2023) 13.3.1
-- (January 10th, 2023) 13.1.1
+- (January 9th, 2024) 14.1.1
 
 ## Missing patchs for the current season
-Some patchs wasn't added to this repository, during this season, for various reasons :
-
-- 13.2 : this patch was replaced by a hotfix (13.1B) after Riot hack, and don't exist at all
-- 13.1B : _Data Dragon_ never released by Riot Games for this patch
-
-Some patchs wasn't released by Riot Games for the oldest versions of League of Legends, for all hotfixes releases for the game. This is the case, for example, for patchs 3.6.1 to 3.6.13. Some others (old) patchs were also handled that way by Riot.
+There is currently no missing patch for the current season.
