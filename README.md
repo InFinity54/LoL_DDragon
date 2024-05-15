@@ -34,6 +34,7 @@ This repository contains some additional files, not included in Data Dragon :
 - Icons for Mythic Essences
 - Icons of all turbo badges (used for _Hyper Roll_ game mode for _Teamfight Tactics_)
 - Icons of all _Double Up_ badges (used for _Double Up_ game mode for _Teamfight Tactics_)
+- Icons of old champion mastery levels 1 to 7, before the rework of patch 14.10
 
 For the moment, Data about Summoner Spells is only available in `en_US`, but the file will be translated into others langages later. 
 
