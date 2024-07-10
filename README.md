@@ -1,6 +1,6 @@
 # _League of Legends_ - Data Dragon
 
-Do you want to use DDragon for an another game from _Riot Games_? Check the _Data Dragon_ repository for [_2XKO_](https://github.com/InFinity54/2XKO_DDragon), [_League of Runeterra_](https://github.com/InFinity54/LoR_DDragon), or [_Valorant_](https://github.com/InFinity54/Valorant_DDragon). _Teamfight Tactics_ data is now included in this repository.
+Do you want to use DDragon for an another game from _Riot Games_? Check the _Data Dragon_ repository for [_2XKO_](https://github.com/InFinity54/2XKO_DDragon), [_Legends of Runeterra_](https://github.com/InFinity54/LoR_DDragon), or [_Valorant_](https://github.com/InFinity54/Valorant_DDragon). _Teamfight Tactics_ data is now included in this repository.
 
 ## Introduction
 _Data Dragon_ is a package of files you can use for your projects about [_League of Legends_](https://www.leagueoflegends.com), distributed by Riot Games. A new version of Data Dragon is released some days after each game update. This repository allows you to update automatically all files more easily.
