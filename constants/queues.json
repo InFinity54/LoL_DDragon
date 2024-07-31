@@ -288,6 +288,12 @@
         "notes": "Deprecated in patch 9.23"
     },
     {
+        "queueId": 490,
+        "map": "Summoner's Rift",
+        "description": "Normal (Quickplay)",
+        "notes": null
+    },
+    {
         "queueId": 600,
         "map": "Summoner's Rift",
         "description": "Blood Hunt Assassin games",
@@ -302,7 +308,13 @@
     {
         "queueId": 700,
         "map": "Summoner's Rift",
-        "description": "Clash games",
+        "description": "Summoner's Rift Clash games",
+        "notes": null
+    },
+    {
+        "queueId": 720,
+        "map": "Howling Abyss",
+        "description": "ARAM Clash games",
         "notes": null
     },
     {
@@ -478,6 +490,18 @@
         "map": "Summoner's Rift",
         "description": "Ultimate Spellbook games",
         "notes": null
+    },
+    {
+        "queueId": 1700,
+        "map": "Rings of Wrath",
+        "description": "Arena",
+        "notes": null
+    },
+    {
+        "queueId": 1710,
+        "map": "Rings of Wrath",
+        "description": "Arena",
+        "notes": "16 player lobby"
     },
     {
         "queueId": 1900,

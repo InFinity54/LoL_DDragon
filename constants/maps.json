@@ -73,5 +73,10 @@
     "mapId": 22,
     "mapName": "Convergence",
     "notes": "Teamfight Tactics map"
+  },
+  {
+    "mapId": 30,
+    "mapName": "Rings of Wrath",
+    "notes": "Arena map"
   }
 ]
