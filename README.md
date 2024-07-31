@@ -12,12 +12,14 @@ Since patch 13.12.1 and set 9 release for _Teamfight Tactics_, this repository i
 ## Additional contents in this repository
 This repository contains some additional files, not included in Data Dragon :
 
-- Icons of all tiers with sublevels (I/II/III/IV) : Iron, Bronze, Silver, Gold, Platinum, Diamond, Master, Grand Master, Challenger
+- Icons of all tiers (without sublevels), since the last rework in patch 12.1 : Unranked, Iron, Bronze, Silver, Gold, Platinum, Diamond, Master, Grand Master, Challenger
+- Icons of all tiers with sublevels (I/II/III/IV), used after the first rework and until the end of season 11 : Unranked, Bronze, Silver, Gold, Platinum, Diamond, Master, Grand Master, Challenger
+- Icons of all tiers with sublevels (I/II/III/IV/V), used in first seasons of League : Provisional, Bronze, Silver, Gold, Platinum, Diamond, Master, Challenger
 - Icons of all lanes in the game, with some bonus : Top, Jungle, Mid, Bot, Support, Autofill, Unknown
 - Icons of lanes in the game, for each tier (from Iron to Challenger) : Top, Jungle, Mid, Bot, Support
 - Icons of all dragons : Cloud, Infernal, Mountain, Ocean, Elder
 - Icons of others monsters : Rift Herald, Baron Nashor
-- Icons of masteries level 1 to 7
+- Icons of new champion masteries system (released on live servers in patch 14.10)
 - Icons for Creeps, Golds and Towers
 - Icons of all champions types : Assassin, Fighter, Mage, Marksman, Support, Tank
 - Icons of all Honor levels (from 0 to 5), their checkpoints and their rewards (Orb, Capsule, Flair, Key, Key Fragment, Honor 5 Token)
@@ -29,14 +31,11 @@ This repository contains some additional files, not included in Data Dragon :
 - Some wallpapers used while in group or in queue in game client
 - Some game loading screen backgrounds
 - Previous and actual icons and logo of _League of Legends_
-- Previous tiers icons (replaced since patch 12.1)
 - Icons of all possible levels (from Iron to Challenger) for all existing challenges
 - Icons for Mythic Essences
 - Icons of all turbo badges (used for _Hyper Roll_ game mode for _Teamfight Tactics_)
 - Icons of all _Double Up_ badges (used for _Double Up_ game mode for _Teamfight Tactics_)
 - Icons of old champion mastery levels 1 to 7, before the rework of patch 14.10
-
-For the moment, Data about Summoner Spells is only available in `en_US`, but the file will be translated into others langages later. 
 
 ## Unused contents in this repository
 Because of the presence of all previous patchs (which can still be downloaded from Riot Games servers), some contents which became unused in _League of Legends_ are available in this repository. This content can be some deleted elements, or old versions of actual stuff. In the repository, you will find :
