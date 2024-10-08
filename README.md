@@ -55,6 +55,7 @@ This list contains patchs from actual season. For all previous patchs of all pre
 
 The date in front of each patch represents the date when the patch was pushed to this repository, not the date when it was released by Riot Games. Here's a list of all patchs of current seasons included in this repository :
 
+- (October 8th, 2024) 14.20.1
 - (September 24th, 2024) 14.19.1
 - (September 10th, 2024) 14.18.1
 - (August 27th, 2024) 14.17.1
