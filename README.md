@@ -9,6 +9,8 @@ Don't forget that new patchs will be added right after their release on Riot Gam
 
 Since patch 13.12.1 and set 9 release for _Teamfight Tactics_, this repository is also containing data from _Teamfight Tactics_.
 
+Starting the 15th season of _League_, _Riot_ decided to change the way patchs are named. This repository will not reflect this change, because _Riot_ did not reflect it in _Data Dragon_'s files too. You can find more information about this in the "Patchs added to this repository for the current season" of this document.
+
 ## Additional contents in this repository
 This repository contains some additional files, not included in Data Dragon :
 
@@ -53,32 +55,11 @@ Because of the presence of all previous patchs (which can still be downloaded fr
 ## Patchs added to this repository for the current season
 This list contains patchs from actual season. For all previous patchs of all previous seasons, you can check [OLDPATCHS.md](OLDPATCHS.md).
 
+**IMPORTANT NOTE: _Riot_ decided to change the way patchs are named since the start of the 15th season. Please note that this repository will not reflect this change, because _Riot_ did not reflect it either in files provided for the _League of Legends Data Dragon_. This can be explained by _Teamfight Tactics_, which is included in these files, keeping the old name system. The first patch of the 15th season will be named 25.S1.1 for _LoL_ and 15.1 for _TFT_. This README will contain both names, but Git tags and repository files will keep the old naming system.**
+
 The date in front of each patch represents the date when the patch was pushed to this repository, not the date when it was released by Riot Games. Here's a list of all patchs of current seasons included in this repository :
 
-- (January 8th, 2025) 14.24.1 (mb, forgot to add it here!)
-- (November 19th, 2024) 14.23.1
-- (November 5th, 2024) 14.22.1
-- (October 23rd, 2024) 14.21.1
-- (October 8th, 2024) 14.20.1
-- (September 24th, 2024) 14.19.1
-- (September 10th, 2024) 14.18.1
-- (August 27th, 2024) 14.17.1
-- (August 14th, 2024) 14.16.1
-- (July 31st, 2024) 14.15.1
-- (July 18th, 2024) 14.14.1
-- (June 26th, 2024) 14.13.1
-- (June 11th, 2024) 14.12.1
-- (May 31st, 2024) 14.11.1
-- (May 14th, 2024) 14.10.1
-- (April 30th, 2024) 14.9.1
-- (April 17th, 2024) 14.8.1
-- (April 2nd, 2024) 14.7.1
-- (March 19th, 2024) 14.6.1
-- (March 5th, 2024) 14.5.1
-- (February 22nd, 2024) 14.4.1
-- (February 6th, 2024) 14.3.1
-- (February 6th, 2024) 14.2.1 (mb, forgot to add it here!)
-- (January 9th, 2024) 14.1.1
+- (January 8th, 2024) 15.1.1 / 25.S1.1
 
 ## Missing patchs for the current season
 There is currently no missing patch for the current season.

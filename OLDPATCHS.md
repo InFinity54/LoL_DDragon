@@ -6,6 +6,31 @@ This document list all patchs from previous seasons added to this repository. Fo
 ## List of all patchs added from previous seasons
 The date in front of each patch represents the date when the patch was pushed to this repository, not the date when it was released by Riot Games. Here's a list of all patchs included in this repository so far (current season excluded) :
 
+- (January 8th, 2025) 14.24.1
+- (November 19th, 2024) 14.23.1
+- (November 5th, 2024) 14.22.1
+- (October 23rd, 2024) 14.21.1
+- (October 8th, 2024) 14.20.1
+- (September 24th, 2024) 14.19.1
+- (September 10th, 2024) 14.18.1
+- (August 27th, 2024) 14.17.1
+- (August 14th, 2024) 14.16.1
+- (July 31st, 2024) 14.15.1
+- (July 18th, 2024) 14.14.1
+- (June 26th, 2024) 14.13.1
+- (June 11th, 2024) 14.12.1
+- (May 31st, 2024) 14.11.1
+- (May 14th, 2024) 14.10.1
+- (April 30th, 2024) 14.9.1
+- (April 17th, 2024) 14.8.1
+- (April 2nd, 2024) 14.7.1
+- (March 19th, 2024) 14.6.1
+- (March 5th, 2024) 14.5.1
+- (February 22nd, 2024) 14.4.1
+- (February 6th, 2024) 14.3.1
+- (February 6th, 2024) 14.2.1
+- (January 9th, 2024) 14.1.1
+
 - (December 5th, 2023) 13.24.1
 - (November 20th, 2023) 13.23.1
 - (November 7th, 2023) 13.22.1
