@@ -9,7 +9,7 @@ Don't forget that new patchs will be added right after their release on Riot Gam
 
 Since patch 13.12.1 and set 9 release for _Teamfight Tactics_, this repository is also containing data from _Teamfight Tactics_.
 
-Starting the 15th season of _League_, _Riot_ decided to change the way patchs are named. This repository will not reflect this change, because _Riot_ did not reflect it in _Data Dragon_'s files too. You can find more information about this in the "Patchs added to this repository for the current season" of this document. This change has been partially reverted on February 19th: changes will appear here too, in README, but not in repository.
+In January 2025, with start of the 15th season of _League_, _Riot_ decided to change the way patchs are named. This repository will not reflect this change, because _Riot_ did not reflect it in _Data Dragon_'s files too. You can find more information about this in the "Patchs added to this repository for the current season" of this document. This change has been partially reverted on February 19th: changes will appear here too, in README, but not in repository.
 
 ## Additional contents in this repository
 This repository contains some additional files, not included in Data Dragon :
@@ -59,10 +59,11 @@ This list contains patchs from actual season. For all previous patchs of all pre
 
 The date in front of each patch represents the date when the patch was pushed to this repository, not the date when it was released by Riot Games. Here's a list of all patchs of current seasons included in this repository :
 
-- (February 19th, 2024) 15.4.1 / 25.04
-- (February 5th, 2024) 15.3.1 / 25.S1.3
-- (January 22nd, 2024) 15.2.1 / 25.S1.2
-- (January 8th, 2024) 15.1.1 / 25.S1.1
+- (March 5th, 2025) 15.5.1 / 25.05
+- (February 19th, 2025) 15.4.1 / 25.04
+- (February 5th, 2025) 15.3.1 / 25.S1.3
+- (January 22nd, 2025) 15.2.1 / 25.S1.2
+- (January 8th, 2025) 15.1.1 / 25.S1.1
 
 ## Missing patchs for the current season
 There is currently no missing patch for the current season.
