@@ -26,7 +26,7 @@ This repository contains some additional files, not included in Data Dragon :
 - Icons of all champions types : Assassin, Fighter, Mage, Marksman, Support, Tank
 - Icons of all Honor levels (from 0 to 5), their checkpoints and their rewards (Orb, Capsule, Flair, Key, Key Fragment, Honor 5 Token)
 - Icons of all possible in-game statistics, like health, AD, AP, armor...
-- All Summoners Spells Pictures and Data² (Ignite, Flash, Exhaust...)
+- All Summoners Spells Pictures and Data (Ignite, Flash, Exhaust...)
 - Animated icons of all Honor levels and their checkpoints (in .mp4 and .gif, use of .mp4 recommended)
 - Champions Splashs used for the League of Legends' 10th Anniversary
 - Game constants JSON files : list of all seasons, queues, maps, gamemodes and types of games from the game
@@ -59,6 +59,7 @@ This list contains patchs from actual season. For all previous patchs of all pre
 
 The date in front of each patch represents the date when the patch was pushed to this repository, not the date when it was released by Riot Games. Here's a list of all patchs of current seasons included in this repository :
 
+- (April 29th, 2025) 15.10.1 / 25.10
 - (April 29th, 2025) 15.9.1 / 25.09
 - (April 16th, 2025) 15.8.1 / 25.08
 - (April 1st, 2025) 15.7.1 / 25.07
