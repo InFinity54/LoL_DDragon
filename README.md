@@ -38,6 +38,7 @@ This repository contains some additional files, not included in Data Dragon :
 - Icons of all turbo badges (used for _Hyper Roll_ game mode for _Teamfight Tactics_)
 - Icons of all _Double Up_ badges (used for _Double Up_ game mode for _Teamfight Tactics_)
 - Icons of old champion mastery levels 1 to 7, before the rework of patch 14.10
+- Official (very) high resolution promotional content (Key Art + separated renders) from 2021
 
 ## Unused contents in this repository
 Because of the presence of all previous patchs (which can still be downloaded from Riot Games servers), some contents which became unused in _League of Legends_ are available in this repository. This content can be some deleted elements, or old versions of actual stuff. In the repository, you will find :
