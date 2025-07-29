@@ -1,1 +1,1 @@
-{"type":"tft-charms","version":"15.14.1","data":{}}
+{"type":"tft-charms","version":"15.15.1","data":{"TFTSet15/TFT15_SetMechanic/TFT15_HiddenTech_ItemData":{"id":"TFT15_HiddenTech_ItemData","name":"숨겨진 기술","description":"","cost":4,"image":{"full":"ZAPS_ScoreboardBadge_EconWand_Self.TFT_Set12.png","sprite":"tft-charms0.png","group":"tft-charms","x":0,"y":0,"w":48,"h":48}}}}
